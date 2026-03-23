@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Публикации и сопровождение | МИИИИПС</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;family=Public+Sans:wght@100..900&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#1c2f40",
+                        "primary-fixed": "#afefdd",
+                        "primary-fixed-dim": "#94d3c1",
+                        "on-primary-fixed": "#00201a",
+                        "tertiary-container": "#334557",
+                        "secondary-fixed-dim": "#f2be63",
+                        "secondary-fixed": "#ffdeaa",
+                        "on-background": "#1a1c1c",
+                        "surface-dim": "#dadada",
+                        "surface": "#f9f9f9",
+                        "on-secondary-container": "#775300",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-high": "#e8e8e8",
+                        "on-error-container": "#93000a",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#94d3c1",
+                        "secondary": "#7d5700",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#3f4945",
+                        "surface-container-highest": "#e2e2e2",
+                        "surface-tint": "#29695b",
+                        "surface-variant": "#e2e2e2",
+                        "error": "#ba1a1a",
+                        "surface-container": "#eeeeee",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#065043",
+                        "primary": "#00342b",
+                        "outline": "#707975",
+                        "on-secondary-fixed-variant": "#5f4100",
+                        "primary-container": "#004d40",
+                        "on-surface": "#1a1c1c",
+                        "background": "#f9f9f9",
+                        "outline-variant": "#bfc9c4",
+                        "on-secondary-fixed": "#271900",
+                        "secondary-container": "#fec96d",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#091d2e",
+                        "tertiary-fixed": "#d1e4fb",
+                        "on-tertiary-fixed-variant": "#36485b",
+                        "on-tertiary-container": "#9fb2c8",
+                        "on-primary-container": "#7ebdac",
+                        "inverse-on-surface": "#f1f1f1",
+                        "inverse-surface": "#2f3131",
+                        "tertiary-fixed-dim": "#b5c8df"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader"],
+                        "body": ["Manrope"],
+                        "label": ["Public Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3 { font-family: 'Newsreader', serif; }
+        .label-text { font-family: 'Public Sans', sans-serif; text-transform: none; }
+    </style>
+<meta content="clickable-site-v1_2" name="x-local-prototype"/><script src="prototype-enhancements.js"></script></head>
+<body class="bg-surface text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 h-20 bg-[#f9f9f9]/80 backdrop-blur-xl shadow-xl shadow-[#00342b]/5">
+<div class="text-2xl font-serif font-bold text-[#00342b] tracking-tight">МИИИИПС</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="research.html">Исследования</a>
+<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="education-ai.html">Образование</a>
+<a class="label-text text-xs tracking-widest text-[#004d40] border-b-2 border-[#7d5700] pb-1" href="publications.html">Публикации</a>
+<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="grants-teams.html">Гранты</a>
+<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="conferences.html">Конференции</a>
+<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="join.html">Поступление</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40]" onclick="window.location.href='accounts.html'">Вход для участников</button>
+<button class="bg-primary-container text-on-primary px-6 py-2 label-text text-xs tracking-widest transition-transform active:scale-95" onclick="window.location.href='join.html'">Подать заявку</button>
+</div>
+</nav>
+<!-- Main Content Canvas (SaaS Sidebars removed) -->
+<main class="pt-32 px-6 md:px-12 lg:px-32 pb-20 max-w-7xl mx-auto">
+<!-- Hero Section -->
+<header class="max-w-4xl mb-24">
+<div class="flex items-center gap-4 mb-6">
+<div class="h-[1px] w-12 bg-secondary"></div>
+<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">Редакционная поддержка и этика</span>
+</div>
+<h1 class="text-6xl md:text-7xl font-serif text-primary leading-tight mb-8">Публикации и научное сопровождение</h1>
+<p class="text-xl text-on-surface-variant leading-relaxed font-body max-w-2xl">
+            Обеспечение академической честности и высокого качества научных работ через экспертную оценку, верификацию данных и профессиональное сопровождение в международном научно-издательском пространстве.
+        </p>
+</header>
+<!-- Content Sections: Grid -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-32">
+<!-- Professional Proof-reading -->
+<div class="md:col-span-7 bg-surface-container-low p-12 relative overflow-hidden group">
+<div class="relative z-10 h-full flex flex-col">
+<span class="material-symbols-outlined text-4xl text-primary mb-8" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+<h3 class="text-3xl mb-4">Научное рецензирование и редактура</h3>
+<p class="text-on-surface-variant mb-12 max-w-md">Профессиональная работа с рукописями: от содержательного анализа до корректуры. Мы помогаем авторам структурировать идеи, сохраняя научную точность и этические стандарты.</p>
+<div class="mt-auto flex items-center gap-4 text-primary font-bold label-text text-xs tracking-widest cursor-pointer group-hover:gap-6 transition-all">
+                    УЗНАТЬ БОЛЬШЕ <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+<div class="absolute right-[-10%] bottom-[-10%] opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-[240px]">history_edu</span>
+</div>
+</div>
+<!-- Anti-plagiarism -->
+<div class="md:col-span-5 bg-primary text-on-primary p-12 flex flex-col justify-between">
+<div>
+<h3 class="text-3xl mb-6 font-serif">Верификация и Антиплагиат</h3>
+<p class="opacity-80 leading-relaxed text-sm">Пристальная проверка на оригинальность и корректность цитирования. Мы гарантируем защиту интеллектуальной собственности и отсутствие недобросовестных заимствований.</p>
+</div>
+<div class="bg-secondary-container text-on-secondary-container p-6 mt-8">
+<div class="flex justify-between items-center mb-2">
+<span class="label-text text-[10px] tracking-widest font-bold uppercase">Точность верификации</span>
+<span class="font-bold">100%</span>
+</div>
+<div class="w-full h-1 bg-on-secondary-container/20">
+<div class="h-full bg-on-secondary-container w-full"></div>
+</div>
+</div>
+</div>
+<!-- Methodological Support -->
+<div class="md:col-span-4 bg-surface-container-highest p-10">
+<h4 class="label-text text-xs tracking-widest text-secondary font-bold mb-6 uppercase">Поддержка</h4>
+<h3 class="text-2xl mb-4">Методическая поддержка</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">Консультации по методологии исследования, оформлению библиографии и подготовке сопроводительных документов для подачи в высокоцитируемые издания.</p>
+</div>
+<!-- Journals Interface Preview -->
+<div class="md:col-span-8 bg-surface-container-low border-l-4 border-secondary p-10 flex flex-col md:flex-row gap-10 items-center">
+<div class="flex-1">
+<h3 class="text-2xl mb-4">Требования журналов МИИИИПС</h3>
+<p class="text-sm text-on-surface-variant mb-6">Ознакомьтесь с техническими и этическими требованиями к публикациям в журналах нашей экосистемы. Мы придерживаемся политики открытого доступа.</p>
+<button class="bg-primary text-on-primary px-8 py-3 label-text text-xs tracking-widest hover:bg-primary-container transition-colors uppercase" onclick="window.location.href='publications.html'">Реестр требований</button>
+</div>
+<div class="w-full md:w-64 grid grid-cols-2 gap-2">
+<div class="aspect-[3/4] bg-surface-container-high flex items-center justify-center p-4 text-center">
+<span class="label-text text-[10px] font-bold">ФИЗИКА 2026</span>
+</div>
+<div class="aspect-[3/4] bg-primary-container flex items-center justify-center p-4 text-center text-white/50">
+<span class="label-text text-[10px] font-bold">БИОТЕХ 2026</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Path of the Author -->
+<section class="mb-32">
+<h2 class="text-4xl font-serif text-primary mb-16">Путь автора</h2>
+<div class="relative">
+<div class="absolute left-4 top-0 bottom-0 w-[1px] bg-outline-variant opacity-30"></div>
+<div class="space-y-16">
+<!-- Step 1 -->
+<div class="relative pl-16">
+<div class="absolute left-[13px] top-2 w-2 h-2 rounded-full bg-secondary"></div>
+<div class="flex flex-col md:flex-row gap-8">
+<div class="md:w-1/3">
+<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">01. Подача</span>
+<h4 class="text-2xl mt-2">Предварительная проверка</h4>
+</div>
+<div class="md:w-2/3 text-on-surface-variant">
+                            Первичный аудит рукописи на соответствие формальным критериям и базовым нормам публикационной этики.
+                        </div>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative pl-16">
+<div class="absolute left-[13px] top-2 w-2 h-2 rounded-full bg-secondary"></div>
+<div class="flex flex-col md:flex-row gap-8">
+<div class="md:w-1/3">
+<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">02. Экспертиза</span>
+<h4 class="text-2xl mt-2">Рецензирование</h4>
+</div>
+<div class="md:w-2/3 text-on-surface-variant">
+                            Двойное «слепое» рецензирование независимыми экспертами для подтверждения научной новизны и достоверности выводов.
+                        </div>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative pl-16">
+<div class="absolute left-[13px] top-2 w-2 h-2 rounded-full bg-secondary"></div>
+<div class="flex flex-col md:flex-row gap-8">
+<div class="md:w-1/3">
+<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">03. Подготовка</span>
+<h4 class="text-2xl mt-2">Финальная доработка</h4>
+</div>
+<div class="md:w-2/3 text-on-surface-variant">
+                            Литературная правка, техническая верстка графиков и формул, присвоение идентификатора DOI и индексация.
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Principles -->
+<section class="mb-32 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1">
+<div class="aspect-video bg-primary-container relative">
+<img alt="Современная лаборатория" class="w-full h-full object-cover mix-blend-overlay opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG86zhhzQ5j9yX52pJ7WI1GHj2Bl47bTp3x4XofkT_MQgWuXo62FPRRYtfbBM-vTk1X4xKlzJUdE_LFX-xS5C53bTw21k9UjM61drHnpfRbWuhA8aWQEsl6hmZ72KuGlIcfctKGBt2MbjGVbfAHypJ3yBrhrvEsGcxFHYE7IMtV9luDHTqEG9wIxqj38Dum9ex5-TC3ngBsSK3cLuReU3tX8NJLKuKUHGdFiFhgvREXqLuFnVYImx_aqsdN2X2MGGIkmteGAMmp24i"/>
+<div class="absolute inset-0 border-[20px] border-surface m-6"></div>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-4xl font-serif text-primary mb-8">Принципы научной этики</h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+<div>
+<h5 class="font-bold mb-2">Безупречная репутация</h5>
+<p class="text-sm text-on-surface-variant">Мы категорически не приемлем использование инструментов автоматической генерации текстов. Каждый материал проходит живую экспертную оценку на предмет оригинальности и вклада в науку.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-secondary">gavel</span>
+<div>
+<h5 class="font-bold mb-2">Прозрачность и подотчетность</h5>
+<p class="text-sm text-on-surface-variant">Авторы получают полный доступ к протоколам рецензирования и результатам верификации. Весь процесс сопровождения открыт и соответствует мировым стандартам COPE.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<div data-codex-section="true">
+<section class="section shell"><span class="badge">Кабинет автора</span><h2>Прозрачный кабинет автора вместо фабрики текста</h2><p class="lead">Мы усилили публикационный раздел логикой из проекта АвтостатьиКумскова: загрузка статьи, journal verification, evidence-first, антиплагиат, профиль 5.3.3 и статусы на каждом шаге.</p><div class="grid two"><div class="card"><h3>Что видит автор</h3><p>Рукопись, связанный журнал, требования, статусы доступа, досье статьи, отчеты, manual queue и clean-feed.</p></div><div class="card"><h3>Почему это важно</h3><p>Сайт сразу показывает, что институт не подменяет автора, а строит честный маршрут сопровождения и проверки.</p></div></div><div class="cta-row"><a class="btn" href="account-author.html">Открыть кабинет автора</a><a class="btn secondary" href="how-we-work.html">Как устроен маршрут</a></div></section>
+</div><footer class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 bg-[#00342b] text-[#f9f9f9]">
+<div class="flex flex-col gap-6">
+<div class="text-3xl font-serif text-[#f9f9f9]">МИИИИПС</div>
+<p class="text-sm opacity-60 leading-relaxed font-body">Институциональный реестр глобального научного сотрудничества и поддержки инновационных исследований.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="label-text text-xs tracking-widest font-bold opacity-40 uppercase">Ресурсы</h4>
+<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="knowledge-base.html">База знаний</a>
+<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="contacts-partners.html">Академические партнеры</a>
+<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="social-projects.html">Социальные проекты</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="label-text text-xs tracking-widest font-bold opacity-40 uppercase">Информация</h4>
+<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="cooperation-terms.html">Условия сотрудничества</a>
+<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="contacts-partners.html">Контакты</a>
+</div>
+<div class="flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<h4 class="label-text text-xs tracking-widest font-bold opacity-40 uppercase">Подписка</h4>
+<div class="flex border-b border-white/20 pb-2">
+<input class="bg-transparent border-none text-sm w-full focus:ring-0 placeholder:text-white/30" placeholder="Электронная почта" type="email"/>
+<button class="material-symbols-outlined" onclick="window.location.href='publications.html'">east</button>
+</div>
+</div>
+<p class="text-[10px] opacity-40 mt-8">© 2026 МИИИИПС. Все права защищены.</p>
+</div>
+</footer>
+
+
+
+<div id="codex-page-map" style="position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;">
+<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button">
+<span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>
+    Карта страниц
+  </button>
+<div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;">
+<div style="font:700 13px/1.4 Manrope,sans-serif;">Локальный прототип Stitch v1.2</div>
+<button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button>
+</div>
+<div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 12 | Служебные и кабинеты: 11</div>
+<div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div>
+<div style="display:grid;gap:4px;"><a href="index.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Главная</a><a href="about.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Об институте</a><a href="research.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Исследования</a><a href="social-projects.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Социальные проекты</a><a href="education-ai.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Обучение ИИ</a><a href="publications.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;background:#afefdd;color:#00201a;font-weight:700;">Публикации</a><a href="grants-teams.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Гранты и команды</a><a href="conferences.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Конференции</a><a href="join.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Вступить в институт</a><a href="knowledge-base.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">База знаний</a><a href="scientific-supervision.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Научное руководство</a><a href="contacts-partners.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Контакты и партнёрства</a></div>
+<div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div>
+<div style="display:grid;gap:4px;"><a href="how-we-work.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Как мы работаем</a><a href="ethics-code.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Этический кодекс</a><a href="privacy-policy.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Политика конфиденциальности</a><a href="cooperation-terms.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Условия взаимодействия</a><a href="speeches-lectures.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Выступления и лекции</a><a href="accounts.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Личный кабинет</a><a href="account-author.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет автора</a><a href="account-student.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет студента</a><a href="account-supervisor.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет научного руководителя</a><a href="application-success.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Заявка отправлена</a><a href="audit-request.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Аудит проекта</a></div>
+</div>
+</div>
+<script id="codex-page-map-script">
+(function() {
+  const root = document.getElementById('codex-page-map');
+  if (!root) return;
+  const toggle = document.getElementById('codex-page-map-toggle');
+  const closeBtn = document.getElementById('codex-page-map-close');
+  const panel = document.getElementById('codex-page-map-panel');
+  function setOpen(isOpen) { panel.style.display = isOpen ? 'block' : 'none'; toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false'); }
+  toggle.addEventListener('click', function() { setOpen(panel.style.display === 'none' || panel.style.display === ''); });
+  if (closeBtn) closeBtn.addEventListener('click', function() { setOpen(false); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') setOpen(false); });
+})();
+</script>
+</body></html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Исследования | МИИИИПС</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;family=Public+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-lowest": "#ffffff",
+              "tertiary": "#1c2f40",
+              "primary-fixed": "#afefdd",
+              "primary-fixed-dim": "#94d3c1",
+              "on-primary-fixed": "#00201a",
+              "tertiary-container": "#334557",
+              "secondary-fixed-dim": "#f2be63",
+              "secondary-fixed": "#ffdeaa",
+              "on-background": "#1a1c1c",
+              "surface-dim": "#dadada",
+              "surface": "#f9f9f9",
+              "on-secondary-container": "#775300",
+              "surface-bright": "#f9f9f9",
+              "surface-container-high": "#e8e8e8",
+              "on-error-container": "#93000a",
+              "error-container": "#ffdad6",
+              "inverse-primary": "#94d3c1",
+              "secondary": "#7d5700",
+              "on-secondary": "#ffffff",
+              "on-surface-variant": "#3f4945",
+              "surface-container-highest": "#e2e2e2",
+              "surface-tint": "#29695b",
+              "surface-variant": "#e2e2e2",
+              "error": "#ba1a1a",
+              "surface-container": "#eeeeee",
+              "on-tertiary": "#ffffff",
+              "surface-container-low": "#f3f3f3",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#065043",
+              "primary": "#00342b",
+              "outline": "#707975",
+              "on-secondary-fixed-variant": "#5f4100",
+              "primary-container": "#004d40",
+              "on-surface": "#1a1c1c",
+              "background": "#f9f9f9",
+              "outline-variant": "#bfc9c4",
+              "on-secondary-fixed": "#271900",
+              "secondary-container": "#fec96d",
+              "on-primary": "#ffffff",
+              "on-tertiary-fixed": "#091d2e",
+              "tertiary-fixed": "#d1e4fb",
+              "on-tertiary-fixed-variant": "#36485b",
+              "on-tertiary-container": "#9fb2c8",
+              "on-primary-container": "#7ebdac",
+              "inverse-on-surface": "#f1f1f1",
+              "inverse-surface": "#2f3131",
+              "tertiary-fixed-dim": "#b5c8df"
+            },
+            fontFamily: {
+              "headline": ["Newsreader", "serif"],
+              "body": ["Manrope", "sans-serif"],
+              "label": ["Public Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #1a1c1c;
+            font-family: 'Manrope', sans-serif;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+        }
+    </style>
+<meta content="clickable-site-v1_2" name="x-local-prototype"/><script src="prototype-enhancements.js"></script></head>
+<body class="bg-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 h-20 bg-[#f9f9f9]/80 backdrop-blur-xl shadow-xl shadow-[#00342b]/5">
+<div class="text-2xl font-headline font-bold text-[#00342b] tracking-tight">МИИИИПС</div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="font-label text-[10px] tracking-widest text-[#004d40] border-b-2 border-[#7d5700] pb-1 uppercase" href="research.html">Исследования</a>
+<a class="font-label text-[10px] tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors duration-300 uppercase" href="education-ai.html">Образование</a>
+<a class="font-label text-[10px] tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors duration-300 uppercase" href="publications.html">Публикации</a>
+<a class="font-label text-[10px] tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors duration-300 uppercase" href="grants-teams.html">Гранты</a>
+<a class="font-label text-[10px] tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors duration-300 uppercase" href="conferences.html">Конференции</a>
+<a class="font-label text-[10px] tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors duration-300 uppercase" href="join.html">Поступление</a>
+</div>
+<div class="flex items-center space-x-6">
+<button class="font-label text-[10px] tracking-widest text-[#00342b]/70 hover:text-[#004d40] uppercase" onclick="window.location.href='accounts.html'">Личный кабинет</button>
+<button class="bg-primary-container text-on-primary px-6 py-2 font-label text-[10px] tracking-widest hover:bg-primary transition-colors uppercase" onclick="window.location.href='join.html'">Подать заявку</button>
+</div>
+</nav>
+<!-- Main Content Canvas (No Sidebar) -->
+<main class="pt-20 min-h-screen">
+<header class="px-12 py-24 max-w-7xl mx-auto">
+<div class="border-l-2 border-secondary pl-8 py-2 mb-8">
+<p class="font-label text-xs tracking-[0.2em] text-secondary uppercase mb-2">Архив активных инициатив</p>
+<h1 class="font-headline text-6xl font-bold text-primary tracking-tight leading-none">Научные исследования</h1>
+</div>
+<p class="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">
+            Мультидисциплинарный реестр передовых разработок Института. Исследуйте пересечение биологии, технологий и человеческого опыта через призму академического кураторства и доказательного подхода.
+        </p>
+</header>
+<!-- Bento Research Grid -->
+<section class="px-12 pb-24 max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1: Biomechanics (Hero Card) -->
+<div class="md:col-span-2 bg-surface-container-low group overflow-hidden flex flex-col md:flex-row relative">
+<div class="p-10 flex-1 flex flex-col justify-between">
+<div>
+<span class="font-label text-[10px] tracking-widest text-secondary uppercase mb-4 block">Направление: Физиология</span>
+<h3 class="font-headline text-4xl text-primary mb-6">Биомеханика движений</h3>
+<p class="font-body text-on-surface-variant leading-relaxed mb-8">
+                            Анализ кинематических паттернов в экстремальных условиях. Разработка экзоскелетных интерфейсов нового поколения для высокотехнологичной реабилитации.
+                        </p>
+</div>
+<div class="flex items-center space-x-6">
+<div class="flex -space-x-2">
+<img alt="Researcher headshot male professional" class="w-10 h-10 rounded-full border-2 border-surface shadow-sm object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyKN3pilawZU8h7SrzzKTbk9QKszyqJQCTSd3laLGDn14fumY8oqx6k_TWIE6-Y9XqNl2chKwTUP_42xeuGkpfeEQI6pOBJhECHhlD4DDzbqJvnkMJLgzUt5N98CuYQ-6Wu2gEvjtiXy-szVYiSB5t9xQcN44Kuj6XC70zp0w4x81uEID3BlcCPllOYA6LqQ3bSqTOZ81hOkIC55KkmKkbmt7B7b65u_1CQtD_W-7vSe230RaT4EFW0A2Qxfbigzcq9ZjBZvVC6U5c"/>
+<img alt="Researcher headshot female professional" class="w-10 h-10 rounded-full border-2 border-surface shadow-sm object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAemLmEmJzvpYl6TOfNo6zztBBLlg-tQ7z5bxtm7G13Yjg7YxVblQLnfQPH5FYws9i_7Knp3xh_M1ELeT7AOK55T4CbviAbpiqy-Ln5thSxN0TNiO0WB3J0bJrNRzLzFzw9BPdbh6wZlbc5Kr1GRLaLZbbZ1ra-zlUlCyN0QiZO7iE39eZXhrWDK3oCuFPkv-3uSa26bkofTFQd4RFesYv-1Q9TlSgx7lVPQx7qMALzcN9wLJaBwScnb45XJL9yge9sxyxmQhjFlnqs"/>
+</div>
+<span class="font-label text-[10px] text-primary/60 tracking-widest uppercase">8 Исследователей</span>
+</div>
+</div>
+<div class="w-full md:w-1/3 h-64 md:h-auto bg-primary overflow-hidden relative">
+<img alt="Biomechanical arm prototype in laboratory" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1nsz7bhIw_BLJBFhAblVOPBh2Y4om6V9HPUnuIOIyttrXHZZRQvotTvJxSHujmasf-rLqIvzctvJ34EqM0wZocvyj4sGK-Uj6U44WnTawO3DCZCYdktzxMt0M1UCSLdTfQJ3uKzBT7NjkCQXgYyYyJkD7wPOz29j4Bpn9yp2anxg2B4ofqBWkhitSPF-bx-RdEYMwyMOjcCVjKQqkCX7UEAedhvpWY7KBcERE9c16biOa7zE4WzgFBQCnh4bfWjc1nmoDcNzp9csX"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
+</div>
+</div>
+<!-- Card 2: AI in Psychology -->
+<div class="bg-surface-container-highest p-10 flex flex-col justify-between border-t-4 border-secondary">
+<div>
+<span class="font-label text-[10px] tracking-widest text-secondary uppercase mb-4 block">Технологии</span>
+<h3 class="font-headline text-3xl text-primary mb-4">Искусственный интеллект в психологии</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                        Предиктивные модели эмоционального выгорания на основе анализа семантических структур речи и невербальных сигналов.
+                    </p>
+</div>
+<button class="mt-8 flex items-center space-x-2 group" onclick="window.location.href='research.html'">
+<span class="font-label text-[10px] tracking-widest uppercase text-primary font-bold">Подробнее</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Card 3: Microbiome -->
+<div class="bg-white p-10 flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4">
+<span class="material-symbols-outlined text-primary/10 text-6xl" data-icon="biotech">biotech</span>
+</div>
+<div>
+<span class="font-label text-[10px] tracking-widest text-secondary uppercase mb-4 block">Биосистема</span>
+<h3 class="font-headline text-3xl text-primary mb-4">Микробиом</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                        Комплексное изучение оси «кишечник-мозг» и фундаментального влияния микробного разнообразия на когнитивные способности и долголетие.
+                    </p>
+</div>
+<div class="mt-8 bg-surface-container p-4">
+<div class="flex justify-between items-end mb-2">
+<span class="font-label text-[10px] uppercase text-primary/60 tracking-tighter">Стадия сбора данных</span>
+<span class="font-label text-xs font-bold text-primary">74%</span>
+</div>
+<div class="h-1 bg-outline-variant w-full">
+<div class="h-1 bg-secondary w-[74%]"></div>
+</div>
+</div>
+</div>
+<!-- Card 4: AI in Education -->
+<div class="bg-primary p-10 text-white flex flex-col justify-between">
+<div>
+<span class="font-label text-[10px] tracking-widest text-secondary uppercase mb-4 block">Образование</span>
+<h3 class="font-headline text-3xl text-white mb-4">Искусственный интеллект в обучении</h3>
+<p class="font-body text-sm text-white/70 leading-relaxed">
+                        Адаптивные алгоритмы для индивидуальных образовательных траекторий. Автоматизация оценки творческих компетенций и когнитивного потенциала.
+                    </p>
+</div>
+<div class="mt-8 border-t border-white/10 pt-6">
+<span class="font-label text-[10px] tracking-widest uppercase block mb-2">Ключевая публикация:</span>
+<p class="font-headline italic text-lg text-white">"Нейросети в аудитории: Смена парадигмы обучения"</p>
+</div>
+</div>
+<!-- Card 5: HCI & Adaptive Platforms (Grid Spanning) -->
+<div class="md:col-span-1 bg-surface-container-low p-10 flex flex-col">
+<span class="font-label text-[10px] tracking-widest text-secondary uppercase mb-4 block">Интерфейсы</span>
+<h3 class="font-headline text-3xl text-primary mb-4">HCI и адаптивные платформы</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+                    Проектирование сред взаимодействия, реагирующих на биометрические данные пользователя в реальном времени для минимизации когнитивной нагрузки.
+                </p>
+<div class="grid grid-cols-2 gap-4 mt-auto">
+<div class="aspect-square bg-white flex flex-col items-center justify-center p-4">
+<span class="font-headline text-2xl text-primary">12</span>
+<span class="font-label text-[8px] tracking-widest uppercase text-center mt-2">Патентов</span>
+</div>
+<div class="aspect-square bg-white flex flex-col items-center justify-center p-4">
+<span class="font-headline text-2xl text-primary">45k</span>
+<span class="font-label text-[8px] tracking-widest uppercase text-center mt-2">Тестов</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Deep Data Grid Section -->
+<section class="px-12 py-24 bg-surface-container-low border-t border-outline-variant/10">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-baseline mb-16 gap-4">
+<div>
+<h2 class="font-headline text-4xl text-primary mb-4">Реестр текущих проектов</h2>
+<p class="font-label text-xs tracking-widest text-primary/60 uppercase">Ключевые показатели лабораторных групп (сезон 2026)</p>
+</div>
+<div class="flex space-x-6">
+<div class="flex items-center space-x-2">
+<span class="font-label text-[10px] tracking-widest uppercase text-primary/40">Поиск:</span>
+<input class="bg-transparent border-b border-primary/20 text-xs py-1 focus:outline-none focus:border-secondary transition-colors" placeholder="название или код..." type="text"/>
+</div>
+<div class="flex items-center space-x-2 cursor-pointer group">
+<span class="font-label text-[10px] tracking-widest uppercase text-primary/40 group-hover:text-primary transition-colors">Сортировка: Импакт-фактор</span>
+<span class="material-symbols-outlined text-primary/40 text-sm group-hover:text-primary" data-icon="sort">sort</span>
+</div>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body text-sm border-collapse">
+<thead>
+<tr class="border-b border-primary/10">
+<th class="py-4 font-label text-[10px] tracking-widest uppercase text-primary/40">Код проекта</th>
+<th class="py-4 font-label text-[10px] tracking-widest uppercase text-primary/40">Область исследования</th>
+<th class="py-4 font-label text-[10px] tracking-widest uppercase text-primary/40">Ведущий куратор</th>
+<th class="py-4 font-label text-[10px] tracking-widest uppercase text-primary/40">Стадия</th>
+<th class="py-4 font-label text-[10px] tracking-widest uppercase text-primary/40">Импакт-фактор</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-primary/5">
+<tr class="hover:bg-white transition-colors cursor-pointer group">
+<td class="py-6 font-label font-bold text-primary">M3-BIOMECH-26</td>
+<td class="py-6 font-headline text-lg">Биомеханическая ассиметрия</td>
+<td class="py-6 text-on-surface-variant">Д-р Александр Волков</td>
+<td class="py-6"><span class="px-3 py-1 bg-primary-container/10 text-primary-container text-[10px] font-bold uppercase tracking-widest">В процессе</span></td>
+<td class="py-6 font-headline text-lg italic">8.92</td>
+</tr>
+<tr class="hover:bg-white transition-colors cursor-pointer group">
+<td class="py-6 font-label font-bold text-primary">M3-AI-PSY-02</td>
+<td class="py-6 font-headline text-lg">Эмпатический ИИ</td>
+<td class="py-6 text-on-surface-variant">Проф. Елена Маркова</td>
+<td class="py-6"><span class="px-3 py-1 bg-secondary-container/10 text-secondary text-[10px] font-bold uppercase tracking-widest">Валидация</span></td>
+<td class="py-6 font-headline text-lg italic">7.45</td>
+</tr>
+<tr class="hover:bg-white transition-colors cursor-pointer group">
+<td class="py-6 font-label font-bold text-primary">M3-HCI-PLAT-09</td>
+<td class="py-6 font-headline text-lg">Нейроинтерфейсы UX</td>
+<td class="py-6 text-on-surface-variant">Игорь Светлов</td>
+<td class="py-6"><span class="px-3 py-1 bg-primary-container/10 text-primary-container text-[10px] font-bold uppercase tracking-widest">В процессе</span></td>
+<td class="py-6 font-headline text-lg italic">9.10</td>
+</tr>
+<tr class="hover:bg-white transition-colors cursor-pointer group">
+<td class="py-6 font-label font-bold text-primary">M3-MICRO-GUT-11</td>
+<td class="py-6 font-headline text-lg">Ось Микробиом-Интеллект</td>
+<td class="py-6 text-on-surface-variant">Д-р Сара Ли</td>
+<td class="py-6"><span class="px-3 py-1 bg-outline-variant/20 text-on-surface-variant text-[10px] font-bold uppercase tracking-widest">Анализ данных</span></td>
+<td class="py-6 font-headline text-lg italic">6.88</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mt-12 flex justify-center">
+<button class="font-label text-[10px] tracking-widest uppercase border border-primary/20 px-8 py-3 hover:bg-primary hover:text-white transition-all" onclick="window.location.href='knowledge-base.html'">Запросить доступ к архиву данных</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 bg-[#00342b] text-[#f9f9f9]">
+<div class="col-span-1 md:col-span-1">
+<h2 class="text-3xl font-headline text-[#f9f9f9] mb-6">МИИИИПС</h2>
+<p class="font-body text-sm text-[#f9f9f9]/60 leading-relaxed">
+            Институциональный центр передовых исследований. Мы формируем будущее через синергию науки и человеческого потенциала.
+        </p>
+</div>
+<div>
+<h4 class="font-label text-xs tracking-widest uppercase text-[#f9f9f9]/40 mb-6">Ресурсы</h4>
+<ul class="space-y-4">
+<li><a class="font-body text-sm text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="knowledge-base.html">База знаний</a></li>
+<li><a class="font-body text-sm text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="contacts-partners.html">Академические партнеры</a></li>
+<li><a class="font-body text-sm text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="contacts-partners.html">Контакты</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-xs tracking-widest uppercase text-[#f9f9f9]/40 mb-6">Правовая база</h4>
+<ul class="space-y-4">
+<li><a class="font-body text-sm text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="cooperation-terms.html">Условия сотрудничества</a></li>
+<li><a class="font-body text-sm text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="social-projects.html">Социальные проекты</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-xs tracking-widest uppercase text-[#f9f9f9]/40 mb-6">Рассылка</h4>
+<div class="flex flex-col space-y-4">
+<input class="bg-white/5 border-none focus:ring-1 focus:ring-secondary text-white font-body text-sm py-3 px-4" placeholder="Электронная почта" type="email"/>
+<button class="bg-secondary text-white font-label text-[10px] tracking-widest uppercase py-3 hover:bg-secondary-fixed transition-colors" onclick="window.location.href='application-success.html'">Подписаться</button>
+</div>
+</div>
+<div class="col-span-full border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center">
+<p class="font-label text-[10px] tracking-widest text-[#f9f9f9]/40 uppercase">© 2026 МИИИИПС Реестр институциональных исследований. Все права защищены.</p>
+<div class="flex space-x-6 mt-6 md:mt-0">
+<span class="material-symbols-outlined text-white/40 cursor-pointer hover:text-white" data-icon="language">language</span>
+<span class="material-symbols-outlined text-white/40 cursor-pointer hover:text-white" data-icon="terminal">terminal</span>
+</div>
+</div>
+</footer>
+
+
+
+<div id="codex-page-map" style="position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;">
+<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button">
+<span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>
+    Карта страниц
+  </button>
+<div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;">
+<div style="font:700 13px/1.4 Manrope,sans-serif;">Локальный прототип Stitch v1.2</div>
+<button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button>
+</div>
+<div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 12 | Служебные и кабинеты: 11</div>
+<div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div>
+<div style="display:grid;gap:4px;"><a href="index.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Главная</a><a href="about.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Об институте</a><a href="research.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;background:#afefdd;color:#00201a;font-weight:700;">Исследования</a><a href="social-projects.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Социальные проекты</a><a href="education-ai.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Обучение ИИ</a><a href="publications.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Публикации</a><a href="grants-teams.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Гранты и команды</a><a href="conferences.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Конференции</a><a href="join.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Вступить в институт</a><a href="knowledge-base.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">База знаний</a><a href="scientific-supervision.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Научное руководство</a><a href="contacts-partners.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Контакты и партнёрства</a></div>
+<div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div>
+<div style="display:grid;gap:4px;"><a href="how-we-work.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Как мы работаем</a><a href="ethics-code.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Этический кодекс</a><a href="privacy-policy.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Политика конфиденциальности</a><a href="cooperation-terms.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Условия взаимодействия</a><a href="speeches-lectures.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Выступления и лекции</a><a href="accounts.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Личный кабинет</a><a href="account-author.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет автора</a><a href="account-student.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет студента</a><a href="account-supervisor.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет научного руководителя</a><a href="application-success.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Заявка отправлена</a><a href="audit-request.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Аудит проекта</a></div>
+</div>
+</div>
+<script id="codex-page-map-script">
+(function() {
+  const root = document.getElementById('codex-page-map');
+  if (!root) return;
+  const toggle = document.getElementById('codex-page-map-toggle');
+  const closeBtn = document.getElementById('codex-page-map-close');
+  const panel = document.getElementById('codex-page-map-panel');
+  function setOpen(isOpen) { panel.style.display = isOpen ? 'block' : 'none'; toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false'); }
+  toggle.addEventListener('click', function() { setOpen(panel.style.display === 'none' || panel.style.display === ''); });
+  if (closeBtn) closeBtn.addEventListener('click', function() { setOpen(false); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') setOpen(false); });
+})();
+</script>
+</body></html>

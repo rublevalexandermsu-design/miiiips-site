@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Гранты и команды | МИИИИПС</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&amp;family=Manrope:wght@400;500;600&amp;family=Public+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#1c2f40",
+                        "primary-fixed": "#afefdd",
+                        "primary-fixed-dim": "#94d3c1",
+                        "on-primary-fixed": "#00201a",
+                        "tertiary-container": "#334557",
+                        "secondary-fixed-dim": "#f2be63",
+                        "secondary-fixed": "#ffdeaa",
+                        "on-background": "#1a1c1c",
+                        "surface-dim": "#dadada",
+                        "surface": "#f9f9f9",
+                        "on-secondary-container": "#775300",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-high": "#e8e8e8",
+                        "on-error-container": "#93000a",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#94d3c1",
+                        "secondary": "#7d5700",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#3f4945",
+                        "surface-container-highest": "#e2e2e2",
+                        "surface-tint": "#29695b",
+                        "surface-variant": "#e2e2e2",
+                        "error": "#ba1a1a",
+                        "surface-container": "#eeeeee",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#065043",
+                        "primary": "#00342b",
+                        "outline": "#707975",
+                        "on-secondary-fixed-variant": "#5f4100",
+                        "primary-container": "#004d40",
+                        "on-surface": "#1a1c1c",
+                        "background": "#f9f9f9",
+                        "outline-variant": "#bfc9c4",
+                        "on-secondary-fixed": "#271900",
+                        "secondary-container": "#fec96d",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#091d2e",
+                        "tertiary-fixed": "#d1e4fb",
+                        "on-tertiary-fixed-variant": "#36485b",
+                        "on-tertiary-container": "#9fb2c8",
+                        "on-primary-container": "#7ebdac",
+                        "inverse-on-surface": "#f1f1f1",
+                        "inverse-surface": "#2f3131",
+                        "tertiary-fixed-dim": "#b5c8df"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader"],
+                        "body": ["Manrope"],
+                        "label": ["Public Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3 { font-family: 'Newsreader', serif; }
+        .label-text { font-family: 'Public Sans', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; }
+    </style>
+<meta content="clickable-site-v1_2" name="x-local-prototype"/><script src="prototype-enhancements.js"></script></head>
+<body class="bg-surface text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-12 h-20 bg-[#f9f9f9]/80 backdrop-blur-xl shadow-xl shadow-[#00342b]/5">
+<div class="text-2xl font-serif font-bold text-[#00342b] tracking-tight">МИИИИПС</div>
+<nav class="hidden md:flex gap-8">
+<a class="text-[#00342b]/70 hover:text-[#004d40] font-label text-xs tracking-widest uppercase" href="research.html">Исследования</a>
+<a class="text-[#00342b]/70 hover:text-[#004d40] font-label text-xs tracking-widest uppercase" href="education-ai.html">Образование</a>
+<a class="text-[#00342b]/70 hover:text-[#004d40] font-label text-xs tracking-widest uppercase" href="publications.html">Публикации</a>
+<a class="text-[#004d40] border-b-2 border-[#7d5700] pb-1 font-label text-xs tracking-widest uppercase" href="grants-teams.html">Кооперация</a>
+<a class="text-[#00342b]/70 hover:text-[#004d40] font-label text-xs tracking-widest uppercase" href="conferences.html">Конференции</a>
+<a class="text-[#00342b]/70 hover:text-[#004d40] font-label text-xs tracking-widest uppercase" href="join.html">Поступление</a>
+</nav>
+<div class="flex items-center gap-6">
+<button class="text-[#00342b]/70 font-label text-xs tracking-widest uppercase hover:text-[#004d40]" onclick="window.location.href='accounts.html'">Вход</button>
+<button class="bg-primary-container text-on-primary px-6 py-2 font-label text-xs tracking-widest uppercase hover:bg-primary transition-colors" onclick="window.location.href='contacts-partners.html'">Сотрудничество</button>
+</div>
+</header>
+<div class="flex pt-20 min-h-screen">
+<!-- Main Content Canvas -->
+<main class="w-full p-12 lg:p-20 max-w-7xl mx-auto">
+<!-- Hero Section / Editorial Title -->
+<section class="mb-24 flex flex-col lg:flex-row gap-12 items-end">
+<div class="max-w-3xl">
+<span class="label-text text-secondary mb-4 block">Научная поддержка и партнерство</span>
+<h1 class="text-6xl md:text-8xl font-bold text-primary tracking-tight leading-[0.9] mb-8">
+                    Кооперация и Ресурсы
+                </h1>
+<p class="text-xl text-on-surface-variant font-body leading-relaxed max-w-2xl">
+                    МИИИИПС содействует объединению ученых для решения междисциплинарных задач. Мы предоставляем экспертную поддержку, помогаем в формировании рабочих групп и открываем доступ к академическим фондам.
+                </p>
+</div>
+<div class="flex-shrink-0 w-full lg:w-1/3">
+<div class="bg-primary-container h-64 flex items-center justify-center relative overflow-hidden">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-secondary-fixed via-transparent to-transparent"></div>
+<div class="z-10 text-on-primary text-center p-8">
+<span class="material-symbols-outlined text-5xl mb-4">account_balance</span>
+<h4 class="font-serif text-2xl mb-2">Академическая поддержка 2026</h4>
+<p class="text-xs label-text opacity-70">Сопровождение более 150 проектов</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Active Grant Programs - Bento Grid -->
+<section class="mb-32">
+<div class="flex justify-between items-baseline mb-12 border-b border-outline-variant/20 pb-4">
+<h2 class="text-4xl font-serif text-primary italic">Доступные направления</h2>
+<span class="label-text text-on-surface-variant">Отбор на 2026 год</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Grant Card 1 -->
+<div class="md:col-span-2 bg-surface-container-low p-10 flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center gap-2 mb-6">
+<span class="w-2 h-8 bg-secondary"></span>
+<span class="label-text text-secondary text-xs">Приоритетное исследование</span>
+</div>
+<h3 class="text-4xl font-serif text-primary mb-6 group-hover:italic transition-all">Прикладные вычисления в биомедицине</h3>
+<p class="text-on-surface-variant mb-8 max-w-xl">Поддержка междисциплинарных групп, работающих над алгоритмами моделирования биохимических процессов для нужд персонализированной медицины.</p>
+</div>
+<div class="flex justify-between items-end">
+<div>
+<p class="label-text text-[10px] opacity-60 mb-1">Прием заявок до</p>
+<p class="font-bold text-primary">15 ноября 2025</p>
+</div>
+<button class="bg-primary text-on-primary px-8 py-3 label-text text-xs hover:bg-primary-container" onclick="window.location.href='cooperation-terms.html'">Узнать условия</button>
+</div>
+</div>
+<!-- Grant Card 2 -->
+<div class="bg-surface-container-lowest p-10 border-l-4 border-primary shadow-sm flex flex-col justify-between">
+<div>
+<span class="label-text text-on-surface-variant text-xs mb-4 block">Для молодых исследователей</span>
+<h3 class="text-2xl font-serif text-primary mb-4">Грант имени Л. Эйлера</h3>
+<p class="text-sm text-on-surface-variant mb-6">Академическое сопровождение магистрантов и аспирантов, занимающихся фундаментальной математикой.</p>
+</div>
+<div class="pt-6 border-t border-outline-variant/10">
+<p class="text-lg font-bold text-secondary mb-1">Стипендиальная поддержка</p>
+<p class="label-text text-[10px] opacity-60">Цикл: 2026 учебный год</p>
+</div>
+</div>
+<!-- Grant Card 3 -->
+<div class="bg-surface-container-lowest p-10 shadow-sm flex flex-col justify-between">
+<div>
+<span class="label-text text-on-surface-variant text-xs mb-4 block">Инфраструктура</span>
+<h3 class="text-2xl font-serif text-primary mb-4">Вычислительные ресурсы</h3>
+<p class="text-sm text-on-surface-variant mb-6">Организация доступа к высокопроизводительным серверам института для сторонних научных групп.</p>
+</div>
+<button class="w-full border border-outline py-3 label-text text-xs hover:bg-surface-container-low transition-colors" onclick="window.location.href='how-we-work.html'">Регламент доступа</button>
+</div>
+<!-- Grant Card 4 -->
+<div class="md:col-span-2 bg-primary p-12 text-on-primary flex items-center gap-12 overflow-hidden relative">
+<div class="absolute right-0 top-0 opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">groups</span>
+</div>
+<div class="relative z-10">
+<h3 class="text-4xl font-serif mb-6 leading-tight">Комплексные группы: <br/> Экология и климат 2026</h3>
+<p class="text-primary-fixed-dim max-w-md mb-8">Институт формирует экспертную панель для анализа климатических изменений в северных широтах. Требуются специалисты разного профиля.</p>
+<div class="flex gap-4">
+<span class="px-3 py-1 bg-primary-container border border-primary-fixed/20 text-[10px] label-text">Анализ данных</span>
+<span class="px-3 py-1 bg-primary-container border border-primary-fixed/20 text-[10px] label-text">Метеорология</span>
+<span class="px-3 py-1 bg-primary-container border border-primary-fixed/20 text-[10px] label-text">Моделирование</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Participation Scheme -->
+<section class="mb-32">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="text-5xl font-serif text-primary mb-8">Порядок взаимодействия</h2>
+<div class="space-y-12">
+<div class="flex gap-6">
+<span class="text-5xl font-serif text-secondary opacity-30 italic">01</span>
+<div>
+<h4 class="text-xl font-bold text-primary mb-2">Предварительная экспертиза</h4>
+<p class="text-on-surface-variant">Отправьте описание вашего проекта или компетенций для оценки соответствия направлениям работы Института.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="text-5xl font-serif text-secondary opacity-30 italic">02</span>
+<div>
+<h4 class="text-xl font-bold text-primary mb-2">Согласование программы</h4>
+<p class="text-on-surface-variant">Мы поможем доработать план исследований, подготовить обоснование для фондов и подобрать соисполнителей.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="text-5xl font-serif text-secondary opacity-30 italic">03</span>
+<div>
+<h4 class="text-xl font-bold text-primary mb-2">Рецензирование</h4>
+<p class="text-on-surface-variant">Ваши наработки пройдут экспертную оценку Ученым советом МИИИИПС для получения официальной поддержки.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative bg-surface-container-high aspect-square p-12">
+<img alt="Заседание рабочей группы" class="w-full h-full object-cover grayscale contrast-125 mix-blend-multiply opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-iccpSgG8VUKBYyu9IYyYO5kkhQUxdGHWZcN-9RJXAukJu4gZy3Xf-Hga3qQCyCgL6fGlavImUfoRenoDmu5JqFuyVHiNDJx-c3R3ENqskl6E0UMHfkh9mO33rydoBn6HLGx9Rq9es_lLLZdVX0djAcxEt1-fPCUtMg9WdoirfJTIXVqHpozAUhibnsW40QsG8HvPsG5-atf-YRQh-WJrIAJBu3-NHK6M_V5EMjKH9z0-YKUJcdPO0NGMokPArrvSxNTeCoqll0OZ"/>
+<div class="absolute -bottom-8 -right-8 bg-secondary-container p-8 max-w-xs shadow-lg">
+<p class="text-primary font-bold italic mb-2">"Наша задача — создать условия, в которых научный поиск не ограничен административными барьерами."</p>
+<p class="label-text text-[10px] text-on-secondary-container">— Д-р Елена Варш, Ученый секретарь</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Building Call to Action -->
+<section class="bg-surface-container-low p-16 text-center border-t-8 border-primary">
+<span class="material-symbols-outlined text-primary text-6xl mb-6">hub</span>
+<h2 class="text-4xl font-serif text-primary mb-6">Поиск коллабораторов</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto mb-10 text-lg">
+                Если вы ищете команду для своего исследования или хотите присоединиться к существующему проекту, отправьте свои данные в нашу академическую базу.
+            </p>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-primary text-on-primary px-10 py-4 label-text tracking-widest hover:bg-primary-container transition-all" onclick="window.location.href='join.html'">Прислать резюме</button>
+<button class="border border-outline px-10 py-4 label-text tracking-widest hover:bg-surface-container transition-all" onclick="window.location.href='scientific-supervision.html'">Запрос на поиск</button>
+</div>
+</section>
+</main>
+</div>
+<!-- Footer -->
+<footer class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 bg-[#00342b] text-[#f9f9f9]">
+<div class="col-span-1">
+<div class="text-3xl font-serif text-[#f9f9f9] mb-6">МИИИИПС</div>
+<p class="font-body opacity-70 text-sm leading-relaxed">
+            Институт перспективных исследований в области междисциплинарных наук. Превращаем гипотезы в наследие.
+        </p>
+</div>
+<div>
+<h4 class="label-text text-xs text-secondary-fixed mb-6">Ресурсы</h4>
+<ul class="space-y-4 font-body text-sm">
+<li><a class="text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="knowledge-base.html">База знаний</a></li>
+<li><a class="text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="contacts-partners.html">Контакты</a></li>
+<li><a class="text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="contacts-partners.html">Партнеры</a></li>
+</ul>
+</div>
+<div>
+<h4 class="label-text text-xs text-secondary-fixed mb-6">Документы</h4>
+<ul class="space-y-4 font-body text-sm">
+<li><a class="text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="cooperation-terms.html">Устав кооперации</a></li>
+<li><a class="text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity" href="ethics-code.html">Этика и стандарты</a></li>
+<li><a class="text-[#f9f9f9]/80 hover:text-[#f9f9f9] transition-opacity underline underline-offset-4" href="privacy-policy.html">Конфиденциальность</a></li>
+</ul>
+</div>
+<div>
+<h4 class="label-text text-xs text-secondary-fixed mb-6">Связь</h4>
+<p class="text-sm opacity-70 mb-4">г. Москва, ул. Науки, д. 42</p>
+<p class="text-sm font-bold">cooperation@miiiips.ru</p>
+<div class="mt-8 pt-8 border-t border-white/10">
+<p class="text-[10px] label-text opacity-50">© 2026 МИИИИПС. Все права защищены.</p>
+</div>
+</div>
+</footer>
+
+
+
+<div id="codex-page-map" style="position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;">
+<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button">
+<span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>
+    Карта страниц
+  </button>
+<div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;">
+<div style="font:700 13px/1.4 Manrope,sans-serif;">Локальный прототип Stitch v1.2</div>
+<button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button>
+</div>
+<div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 12 | Служебные и кабинеты: 11</div>
+<div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div>
+<div style="display:grid;gap:4px;"><a href="index.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Главная</a><a href="about.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Об институте</a><a href="research.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Исследования</a><a href="social-projects.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Социальные проекты</a><a href="education-ai.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Обучение ИИ</a><a href="publications.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Публикации</a><a href="grants-teams.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;background:#afefdd;color:#00201a;font-weight:700;">Гранты и команды</a><a href="conferences.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Конференции</a><a href="join.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Вступить в институт</a><a href="knowledge-base.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">База знаний</a><a href="scientific-supervision.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Научное руководство</a><a href="contacts-partners.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Контакты и партнёрства</a></div>
+<div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div>
+<div style="display:grid;gap:4px;"><a href="how-we-work.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Как мы работаем</a><a href="ethics-code.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Этический кодекс</a><a href="privacy-policy.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Политика конфиденциальности</a><a href="cooperation-terms.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Условия взаимодействия</a><a href="speeches-lectures.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Выступления и лекции</a><a href="accounts.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Личный кабинет</a><a href="account-author.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет автора</a><a href="account-student.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет студента</a><a href="account-supervisor.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Кабинет научного руководителя</a><a href="application-success.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Заявка отправлена</a><a href="audit-request.html" style="display:block;padding:8px 10px;border-radius:10px;text-decoration:none;font:12px/1.35 Manrope,sans-serif;transition:background .2s ease,color .2s ease;color:#e9f5f1;">Аудит проекта</a></div>
+</div>
+</div>
+<script id="codex-page-map-script">
+(function() {
+  const root = document.getElementById('codex-page-map');
+  if (!root) return;
+  const toggle = document.getElementById('codex-page-map-toggle');
+  const closeBtn = document.getElementById('codex-page-map-close');
+  const panel = document.getElementById('codex-page-map-panel');
+  function setOpen(isOpen) { panel.style.display = isOpen ? 'block' : 'none'; toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false'); }
+  toggle.addEventListener('click', function() { setOpen(panel.style.display === 'none' || panel.style.display === ''); });
+  if (closeBtn) closeBtn.addEventListener('click', function() { setOpen(false); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') setOpen(false); });
+})();
+</script>
+</body></html>
