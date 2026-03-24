@@ -75,8 +75,15 @@
       '.miiiips-bullet-list li{padding-left:18px;position:relative;color:#3f4945;line-height:1.6;}',
       '.miiiips-bullet-list li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:999px;background:#7d5700;}',
       '.miiiips-live-card iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:18px;display:block;background:#dfe7e3;}',
-      '.miiiips-live-stack{display:grid;gap:14px;}',
-      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:72s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-digest-prompt{left:10px;right:10px;bottom:154px;width:auto;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-section{padding:18px 0;}}'
+      '.miiiips-live-stack{display:grid;gap:14px;align-content:start;padding:18px;border-radius:28px;background:linear-gradient(180deg,#f5faf8 0%,#eef6f2 100%);border:1px solid #dbe7e1;}',
+      '.miiiips-live-stack .miiiips-live-kicker{margin-bottom:0;}',
+      '.miiiips-live-stack-title{margin:0;color:#00342b;font:700 24px/1.15 Newsreader,serif;}',
+      '.miiiips-live-stack-lead{margin:0 0 6px;color:#52635d;font:500 14px/1.6 Manrope,sans-serif;}',
+      '.miiiips-live-ticker-head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 28px 0;max-width:1200px;margin:0 auto;}',
+      '.miiiips-live-ticker-head strong{color:#00342b;font:700 13px/1.2 "Public Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase;}',
+      '.miiiips-live-ticker-head span{color:#52635d;font:500 14px/1.5 Manrope,sans-serif;}',
+      '.miiiips-live-section-intro{max-width:820px;margin:0 0 14px;color:#52635d;line-height:1.65;font:500 15px/1.7 Manrope,sans-serif;}',
+      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-head{padding:10px 16px 0;align-items:flex-start;flex-direction:column;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:72s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-digest-prompt{left:10px;right:10px;bottom:154px;width:auto;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-stack{padding:16px 14px;}.miiiips-live-section{padding:18px 0;}}'
     ].join('');
     document.head.appendChild(style);
   }
@@ -115,10 +122,12 @@
     const doubled = items.concat(items).map(function (item) {
       return '<a class="miiiips-live-ticker-item" href="' + safe(item.url) + '" target="_blank" rel="noopener noreferrer"><strong>' + safe(item.source || 'Источник') + '</strong><span>' + safe(item.title) + '</span></a>';
     }).join('');
-    host.innerHTML = '<div class="miiiips-live-ticker-track">' + doubled + '</div>';
+    host.innerHTML = (page === 'index.html'
+      ? '<div class="miiiips-live-ticker-head"><strong>Сейчас в поле внимания</strong><span>Живой поток публикаций, лекций, регуляторики и событий. Каждый элемент ведёт в источник.</span></div>'
+      : '') + '<div class="miiiips-live-ticker-track">' + doubled + '</div>';
     const anchor = document.querySelector('main');
     if (anchor && anchor.parentNode) {
-      anchor.parentNode.insertBefore(host, anchor);
+      if (page === 'index.html') { insertAfterHero(host); } else { anchor.parentNode.insertBefore(host, anchor); }
     }
   }
 
@@ -314,10 +323,11 @@
     section.className = 'miiiips-live-shell miiiips-live-section';
     section.innerHTML = [
       '<div class="miiiips-live-kicker">Живые обновления</div>',
+      '<div class="miiiips-live-section-intro">Ниже три независимых потока. Каждый поток — это свой тип сигнала: публикации и журналы, лекции и конференции, регуляторика и тренды. Заголовок стоит прямо над своим набором карточек.</div>',
       '<div class="miiiips-live-grid">',
-      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Публикации и журналы</div>', buildCompact(feeds.openPublications), '</div>',
-      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Конференции и лекции</div>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
-      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Регуляторика и тренды</div>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Поток 1</div><h3 class="miiiips-live-stack-title">Публикации и журналы</h3><p class="miiiips-live-stack-lead">Открытые статьи, журнальные сигналы и заметные публикационные маршруты.</p>', buildCompact(feeds.openPublications), '</div>',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Поток 2</div><h3 class="miiiips-live-stack-title">Конференции и лекции</h3><p class="miiiips-live-stack-lead">Публичные лекции, выступления и ближайшие научные события по теме.</p>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Поток 3</div><h3 class="miiiips-live-stack-title">Регуляторика и тренды</h3><p class="miiiips-live-stack-lead">Изменения в образовании, правовом поле и заметные тематические тренды.</p>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
       '</div>'
     ].join('');
     insertAfterHero(section);
