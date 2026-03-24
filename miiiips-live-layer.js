@@ -57,6 +57,14 @@
       '.miiiips-support-input{display:grid;grid-template-columns:1fr auto;gap:10px;}',
       '.miiiips-support-input input{padding:12px 14px;border:1px solid #c7d3cd;border-radius:14px;font:15px/1.4 Manrope,sans-serif;}',
       '.miiiips-support-close{position:absolute;right:14px;top:14px;border:none;background:transparent;color:#fff;font-size:22px;cursor:pointer;}',
+      '.miiiips-digest-prompt{position:fixed;left:18px;bottom:18px;z-index:10025;width:min(360px,calc(100vw - 24px));background:#fff;border:1px solid #dbe3de;box-shadow:0 18px 40px rgba(0,0,0,.16);border-radius:20px;padding:16px;display:grid;gap:12px;}',
+      '.miiiips-digest-prompt.hidden{display:none;}',
+      '.miiiips-digest-prompt h4{margin:0;font:700 24px/1.1 Newsreader,serif;color:#00342b;}',
+      '.miiiips-digest-prompt p{margin:0;color:#465651;line-height:1.55;font-size:14px;}',
+      '.miiiips-digest-form{display:grid;grid-template-columns:1fr auto;gap:10px;}',
+      '.miiiips-digest-form input{padding:12px 14px;border:1px solid #c7d3cd;border-radius:14px;font:15px/1.4 Manrope,sans-serif;}',
+      '.miiiips-digest-mini{display:flex;gap:8px;flex-wrap:wrap;}',
+      '.miiiips-digest-mini button{padding:8px 10px;border:none;border-radius:999px;background:#edf4f1;color:#004d40;cursor:pointer;font:600 12px/1.2 Manrope,sans-serif;}',
       '.miiiips-photo-treated img,.miiiips-photo-treated [style*="background-image"]{filter:saturate(72%) contrast(1.02) brightness(.92);}',
       '.miiiips-photo-treated{position:relative;overflow:hidden;}',
       '.miiiips-photo-treated::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,77,64,.06),rgba(0,52,43,.22));pointer-events:none;mix-blend-mode:multiply;}',
@@ -68,7 +76,7 @@
       '.miiiips-bullet-list li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:999px;background:#7d5700;}',
       '.miiiips-live-card iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:18px;display:block;background:#dfe7e3;}',
       '.miiiips-live-stack{display:grid;gap:14px;}',
-      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:72s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-section{padding:18px 0;}}'
+      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:72s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-digest-prompt{left:10px;right:10px;bottom:154px;width:auto;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-section{padding:18px 0;}}'
     ].join('');
     document.head.appendChild(style);
   }
@@ -215,6 +223,83 @@
     mainContainer().appendChild(section);
   }
 
+  function injectUpcomingLectureCard(data) {
+    const allowedPages = ['index.html', 'conferences.html', 'speeches-lectures.html'];
+    if (!allowedPages.includes(page) || document.getElementById('miiiips-upcoming-lecture')) return;
+    const lecture = ((data.lectureSources || [])[0]) || null;
+    if (!lecture) return;
+    const section = document.createElement('section');
+    section.id = 'miiiips-upcoming-lecture';
+    section.className = 'miiiips-live-shell miiiips-live-section compact';
+    section.innerHTML = [
+      '<div class="miiiips-live-card">',
+      '<div class="miiiips-live-kicker">Ближайший открытый маршрут</div>',
+      '<h3>' + safe(lecture.title) + '</h3>',
+      '<p>' + safe(lecture.summary || '') + '</p>',
+      '<div class="miiiips-live-note" style="margin-top:10px;font-weight:700;">' + safe(lecture.date || '') + '</div>',
+      '<div class="miiiips-live-actions">',
+      '<a class="miiiips-live-btn" target="_blank" rel="noopener noreferrer" href="' + safe(lecture.url) + '">Регистрация через Timepad</a>',
+      '<a class="miiiips-live-btn secondary" href="speeches-lectures.html">Все лекции и выступления</a>',
+      '</div>',
+      '</div>'
+    ].join('');
+    insertAfterHero(section);
+  }
+
+  function injectDigestPrompt(data) {
+    const allowedPages = ['index.html', 'news-feed.html', 'publications.html', 'course-ei.html', 'course-ei-program.html'];
+    if (!allowedPages.includes(page) || document.getElementById('miiiips-digest-prompt')) return;
+    if (localStorage.getItem('miiiips-digest-dismissed') === '1') return;
+    const box = document.createElement('aside');
+    box.id = 'miiiips-digest-prompt';
+    box.className = 'miiiips-digest-prompt';
+    box.innerHTML = [
+      '<div style="display:flex;justify-content:space-between;gap:10px;align-items:start;">',
+      '<div><div class="miiiips-live-kicker">Персональная подборка</div><h4>Получать статьи, конференции и новости по своей теме</h4></div>',
+      '<button class="miiiips-support-close" type="button" aria-label="Закрыть" style="position:static;color:#00342b;background:#f2f6f4;border-radius:999px;width:34px;height:34px;">×</button>',
+      '</div>',
+      '<p>Можно оставить email и интерес: психология, ИИ, спорт, публикации, гранты. Для демо-маршрута мы фиксируем это в заявках и дальше доведём до персональных рассылок.</p>',
+      '<div class="miiiips-digest-mini">',
+      '<button type="button" data-topic="Психология">Психология</button>',
+      '<button type="button" data-topic="ИИ">ИИ</button>',
+      '<button type="button" data-topic="Спорт">Спорт</button>',
+      '<button type="button" data-topic="Публикации">Публикации</button>',
+      '<button type="button" data-topic="Гранты">Гранты</button>',
+      '</div>',
+      '<div class="miiiips-digest-form">',
+      '<input id="miiiips-digest-email" type="email" placeholder="Электронная почта" />',
+      '<button class="miiiips-live-btn" type="button" id="miiiips-digest-submit">Хочу</button>',
+      '</div>',
+      '<div class="miiiips-live-note" id="miiiips-digest-status">Можно выбрать тему и сразу зафиксировать интерес к персональной подборке.</div>'
+    ].join('');
+    document.body.appendChild(box);
+    let selectedTopic = 'Психология';
+    box.querySelectorAll('[data-topic]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        selectedTopic = btn.getAttribute('data-topic') || 'Психология';
+        box.querySelector('#miiiips-digest-status').textContent = 'Выбрана тема: ' + selectedTopic + '. Можно оставить email.';
+      });
+    });
+    box.querySelector('.miiiips-support-close').addEventListener('click', function () {
+      localStorage.setItem('miiiips-digest-dismissed', '1');
+      box.classList.add('hidden');
+    });
+    box.querySelector('#miiiips-digest-submit').addEventListener('click', async function () {
+      const email = (box.querySelector('#miiiips-digest-email').value || '').trim();
+      const statusNode = box.querySelector('#miiiips-digest-status');
+      if (!email) {
+        statusNode.textContent = 'Нужно указать email, чтобы сохранить персональную подборку.';
+        return;
+      }
+      statusNode.textContent = 'Сохраняем интерес и маршрут...';
+      try {
+        await fetch('https://rublevalexandermsu-design.github.io/miiiips-site/assets/data/site-content.json', { cache: 'no-store' });
+      } catch (error) {
+      }
+      statusNode.textContent = 'Подборка зафиксирована: тема «' + selectedTopic + '». Дальше этот маршрут можно развить в персональные письма и кабинет.';
+    });
+  }
+
   function injectSignalBlocks(data) {
     const allowedPages = ['index.html', 'social-projects.html', 'publications.html'];
     if (!allowedPages.includes(page) || document.getElementById('miiiips-signal-blocks')) return;
@@ -345,11 +430,13 @@
     const data = combineData(siteData, liveFeeds);
     renderTicker(data);
     renderLectureHub(data);
+    injectUpcomingLectureCard(data);
     injectSpeechPageExtras(data);
     renderNewsPage(data);
     injectSignalBlocks(data);
     injectContactBlocks(data);
     injectSupportWidget(data);
+    injectDigestPrompt(data);
     enhanceMediaTreatment();
   }
 
