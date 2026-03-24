@@ -202,7 +202,7 @@
       }
       const extraLinks = [
         ['course-ei.html', 'Курс ЭИ'],
-        ['speeches-lectures.html', 'Лекции'],
+        ['speeches-lectures.html', 'Выступления'],
         ['news-feed.html', 'Новости']
       ].filter(function (entry) {
         return !hrefs.includes(entry[0]);
@@ -698,7 +698,7 @@
       ['about.html', 'Об институте'],
       ['research.html', 'Исследования'],
       ['education-ai.html', 'Обучение ИИ'],
-      ['speeches-lectures.html', 'Лекции и выступления'],
+      ['speeches-lectures.html', 'Выступления и лекции'],
       ['publications.html', 'Публикации'],
       ['grants-teams.html', 'Гранты'],
       ['conferences.html', 'Конференции'],
