@@ -381,6 +381,55 @@
     target.appendChild(section);
   }
 
+  function injectCourseCatalogExtras(data) {
+    if (page !== 'course-ei-catalog.html' || document.getElementById('miiiips-course-catalog-extra')) return;
+    const target = document.querySelector('main') || document.body;
+    const section = document.createElement('section');
+    section.id = 'miiiips-course-catalog-extra';
+    section.className = 'miiiips-injected';
+    const courses = (data.courses || []).map(function (course) {
+      return '<article class="miiiips-card"><div class="miiiips-kicker">' + course.format + '</div><h3>' + course.title + '</h3><p>' + course.summary + '</p><p class="miiiips-note" style="margin-top:10px;">' + course.duration + ' · ' + course.audience + '</p><div class="miiiips-actions"><a class="miiiips-btn" href="course-ei-program.html">Открыть маршрут</a><a class="miiiips-btn secondary" href="course-ei-library.html">Материалы</a></div></article>';
+    }).join('');
+    section.innerHTML = '<div class="miiiips-kicker">Каталог и форматы участия</div><div class="miiiips-grid">' + courses + '</div><div class="miiiips-card" style="margin-top:18px;"><h3>Как устроен вход в курс</h3><div class="miiiips-grid"><div><strong>1. Выбор формата</strong><p>Открытые лекции, практический интенсив, исследовательский трек или корпоративный модуль.</p></div><div><strong>2. Заявка</strong><p>Форма сразу попадает в Google Sheets и дублируется на email для быстрой координации.</p></div><div><strong>3. Кабинет слушателя</strong><p>После подтверждения маршрут продолжается в кабинете: материалы, дедлайны, лекции и рекомендации.</p></div></div></div>';
+    target.appendChild(section);
+  }
+
+  function injectCourseLibraryExtras(data) {
+    if (page !== 'course-ei-library.html' || document.getElementById('miiiips-course-library-extra')) return;
+    const target = document.querySelector('main') || document.body;
+    const section = document.createElement('section');
+    section.id = 'miiiips-course-library-extra';
+    section.className = 'miiiips-injected';
+    const docs = (data.documents || []).slice(0, 4).map(function (doc) {
+      return '<article class="miiiips-card"><div class="miiiips-kicker">' + (doc.type || 'Материал') + '</div><h3>' + doc.title + '</h3><p>' + doc.summary + '</p><div class="miiiips-actions"><a class="miiiips-btn" href="' + doc.link + '">Открыть документ</a></div></article>';
+    }).join('');
+    section.innerHTML = '<div class="miiiips-kicker">Библиотека материалов</div><div class="miiiips-grid">' + docs + '</div><div class="miiiips-card" style="margin-top:18px;"><h3>Что получает слушатель</h3><div class="miiiips-grid"><div><strong>Методички</strong><p>Короткие рабочие PDF для самостоятельной практики и фиксации прогресса.</p></div><div><strong>Чек-листы</strong><p>Материалы для переговоров, эмоциональной саморегуляции и взаимодействия в команде.</p></div><div><strong>Материалы лекций</strong><p>Слайды, конспекты, дополнительные ссылки и маршруты для повторения.</p></div></div></div>';
+    target.appendChild(section);
+  }
+
+  function injectStudentCabinetExtras() {
+    if (page !== 'account-student.html' || document.getElementById('miiiips-student-extra')) return;
+    const target = document.querySelector('main') || document.body;
+    const section = document.createElement('section');
+    section.id = 'miiiips-student-extra';
+    section.className = 'miiiips-injected';
+    section.innerHTML = '<div class="miiiips-kicker">Следующие шаги слушателя</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Ближайшее событие</h3><p>Открытая лекция по эмоциональной устойчивости в переговорах и подготовке к публичным выступлениям.</p><div class="miiiips-actions"><a class="miiiips-btn" href="course-ei-lectures.html">Открыть лекции</a></div></article><article class="miiiips-card"><h3>Материалы недели</h3><p>Подборка документов и рабочих тетрадей для самостоятельной практики внутри кабинета.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="course-ei-library.html">Открыть библиотеку</a></div></article><article class="miiiips-card"><h3>Маршрут обучения</h3><p>Стандартный путь: лекция → практика → мини-отчёт → рекомендация по следующему модулю.</p><div class="miiiips-actions"><a class="miiiips-btn" href="course-ei-program.html">Смотреть программу</a></div></article></div>';
+    target.appendChild(section);
+  }
+
+  function injectNewsFeedExtras(data) {
+    if (page !== 'news-feed.html' || document.getElementById('miiiips-news-extra')) return;
+    const target = document.querySelector('main') || document.body;
+    const section = document.createElement('section');
+    section.id = 'miiiips-news-extra';
+    section.className = 'miiiips-injected';
+    const highlights = (data.news || []).slice(0, 3).map(function (item) {
+      return '<article class="miiiips-card"><div class="miiiips-kicker">' + item.type + ' · ' + item.date + '</div><h3>' + item.title + '</h3><p>' + item.summary + '</p><div class="miiiips-actions"><a class="miiiips-btn" href="' + item.link + '">Перейти</a></div></article>';
+    }).join('');
+    section.innerHTML = '<div class="miiiips-kicker">Оперативная лента</div><div class="miiiips-grid">' + highlights + '</div><div class="miiiips-card" style="margin-top:18px;"><h3>Как эта лента будет работать дальше</h3><p>Сейчас лента уже живая и кликабельная. Следующий шаг — усилить её автоматической подгрузкой из Google Sheets, YouTube и публикационных/грантовых контуров института.</p></div>';
+    target.appendChild(section);
+  }
+
   function enhanceSuccessPage() {
     if (page !== 'application-success.html') return;
     const params = new URLSearchParams(location.search);
@@ -483,6 +532,31 @@
     }
   }
 
+  async function submitInlinePayload(payload, statusNode, options) {
+    const settings = options || {};
+    if (statusNode) statusNode.textContent = settings.pendingText || 'Отправляем данные...';
+    try {
+      const response = await fetch(apiBase + '/api/forms', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!response.ok) throw new Error('bad inline response');
+      const result = await response.json();
+      sessionStorage.setItem('miiiips-last-form', JSON.stringify(result));
+      if (statusNode) statusNode.textContent = settings.successText || 'Заявка принята. Письмо и запись в таблицу отправлены.';
+      toast(settings.toastText || 'Маршрут сработал: письмо ушло, запись в таблицу добавлена.');
+      return result;
+    } catch (error) {
+      const queued = JSON.parse(localStorage.getItem('miiiips-form-queue') || '[]');
+      queued.push({ createdAt: new Date().toISOString(), payload: payload, source: 'inline' });
+      localStorage.setItem('miiiips-form-queue', JSON.stringify(queued));
+      if (statusNode) statusNode.textContent = settings.fallbackText || 'API временно недоступен. Данные сохранены в локальную очередь.';
+      toast('Сайт сохранил сценарий локально: как только API снова будет доступен, маршрут можно повторить.');
+      return null;
+    }
+  }
+
   function wireForms() {
     document.querySelectorAll('form').forEach((form) => {
       if (form.dataset.miiiipsBound === '1') return;
@@ -500,23 +574,66 @@
     });
   }
 
+  function ensureInlineStatus(host) {
+    let statusNode = host.querySelector('[data-inline-status]');
+    if (!statusNode) {
+      statusNode = document.createElement('div');
+      statusNode.className = 'miiiips-form-status';
+      statusNode.setAttribute('data-inline-status', '1');
+      host.appendChild(statusNode);
+    }
+    return statusNode;
+  }
+
+  function buildInlinePayload(input, formType) {
+    return {
+      formType: formType,
+      sourcePage: page,
+      role: 'Подписчик',
+      name: '',
+      email: (input.value || '').trim(),
+      organization: 'МИИИИПС сайт',
+      interest: 'Новости / лекции / обновления',
+      message: 'Подписка с публичной страницы сайта'
+    };
+  }
+
   function wireNewsletter() {
+    const acceptable = ['email', 'электронная почта', 'ваш email'];
     document.querySelectorAll('input[type="email"]').forEach((input) => {
-      const wrapper = input.closest('div');
-      if (!wrapper) return;
-      const arrow = wrapper.querySelector('.material-symbols-outlined');
-      if (!arrow || arrow.dataset.miiiipsNewsletter === '1') return;
-      if ((input.placeholder || '').toLowerCase() !== 'email') return;
-      arrow.dataset.miiiipsNewsletter = '1';
-      arrow.style.cursor = 'pointer';
-      arrow.addEventListener('click', function () {
+      if (input.closest('form')) return;
+      const placeholder = (input.getAttribute('placeholder') || '').trim().toLowerCase();
+      if (!acceptable.includes(placeholder)) return;
+      const host = input.closest('div')?.parentElement || input.parentElement;
+      if (!host) return;
+      const button = host.querySelector('button') || host.querySelector('.material-symbols-outlined');
+      if (!button || button.dataset.miiiipsNewsletter === '1') return;
+      button.dataset.miiiipsNewsletter = '1';
+      button.style.cursor = 'pointer';
+      const statusNode = ensureInlineStatus(host);
+      const submit = async function (event) {
+        if (event) event.preventDefault();
         const email = (input.value || '').trim();
         if (!email) {
-          toast('Введите email, чтобы добавить подписку в маршрут новостей.');
+          statusNode.textContent = 'Введите email, чтобы включить подписку.';
+          toast('Нужно указать email, чтобы добавить подписку.');
           return;
         }
         localStorage.setItem('miiiips-newsletter-email', email);
-        toast('Подписка сохранена в демо-режиме: ' + email);
+        await submitInlinePayload(
+          buildInlinePayload(input, 'newsletter_subscription'),
+          statusNode,
+          {
+            pendingText: 'Подключаем подписку...',
+            successText: 'Подписка подключена: обновления будут приходить на email и фиксироваться в маршруте сайта.',
+            fallbackText: 'Подписка сохранена локально. При следующем доступе к API можно повторить отправку.',
+            toastText: 'Подписка на обновления сохранена.'
+          }
+        );
+      };
+      button.addEventListener('click', submit);
+      input.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') submit(event);
       });
     });
   }
@@ -563,6 +680,10 @@
     injectPublicationExtras(data);
     injectGrantExtras(data);
     injectAccountsExtras();
+    injectCourseCatalogExtras(data);
+    injectCourseLibraryExtras(data);
+    injectStudentCabinetExtras();
+    injectNewsFeedExtras(data);
     injectCourseEnrollmentForm();
     injectActionForms();
     renderNews(data);
