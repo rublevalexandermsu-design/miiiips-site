@@ -65,7 +65,16 @@
       '.miiiips-news-item h3{margin:0 0 8px;font:700 28px/1.1 Newsreader,serif;color:#00342b;}',
       '.miiiips-inline-metric{padding:14px 0;border-top:1px solid rgba(0,0,0,.08);}',
       '.miiiips-inline-metric strong{display:block;font:700 32px/1 Newsreader,serif;color:#00342b;}',
-      '.miiiips-top-nav-extra{display:flex;gap:18px;flex-wrap:wrap;align-items:center;}'
+      '.miiiips-top-nav-extra{display:flex;gap:18px;flex-wrap:wrap;align-items:center;}',
+      '.miiiips-mobile-dock{display:none;}',
+      '.miiiips-mobile-sheet{display:none;}',
+      '.miiiips-mobile-sheet.open{display:block;}',
+      '.miiiips-mobile-sheet-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:10020;}',
+      '.miiiips-mobile-sheet-panel{position:fixed;left:0;right:0;bottom:0;z-index:10021;background:#00342b;color:#fff;border-radius:18px 18px 0 0;padding:18px 18px 26px;max-height:72vh;overflow:auto;box-shadow:0 -10px 30px rgba(0,0,0,.22);}',
+      '.miiiips-mobile-sheet-panel h3{font:700 24px/1.1 Newsreader,serif;margin:0 0 14px;color:#fff;}',
+      '.miiiips-mobile-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}',
+      '.miiiips-mobile-grid a{display:block;background:rgba(255,255,255,.08);color:#fff;text-decoration:none;padding:12px 12px;border-radius:12px;font:600 13px/1.35 Manrope,sans-serif;}',
+      '@media (max-width: 900px){nav{overflow-x:auto;-webkit-overflow-scrolling:touch;}nav::-webkit-scrollbar{display:none;}nav a{white-space:nowrap;}#codex-page-map{left:12px !important;bottom:82px !important;}#codex-page-map-panel{width:min(92vw,340px) !important;max-height:66vh !important;} .miiiips-injected{padding:28px 16px 0;} .miiiips-card{padding:18px;} .miiiips-card h3,.miiiips-news-item h3{font-size:24px;} .miiiips-simple-form{padding:16px;} .miiiips-news-list,.miiiips-role-grid,.miiiips-grid,.miiiips-mobile-grid{grid-template-columns:1fr !important;} .miiiips-actions{flex-direction:column;align-items:stretch;} .miiiips-actions .miiiips-btn,.miiiips-actions .miiiips-btn.secondary{width:100%;justify-content:center;} .miiiips-mobile-dock{display:flex;position:fixed;left:10px;right:10px;bottom:10px;z-index:10010;background:#00342b;border-radius:18px;padding:8px;gap:8px;box-shadow:0 12px 30px rgba(0,0,0,.22);} .miiiips-mobile-dock a,.miiiips-mobile-dock button{flex:1;min-width:0;background:transparent;border:none;color:#fff;padding:10px 8px;border-radius:12px;font:700 11px/1.2 \"Public Sans\",sans-serif;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;cursor:pointer;} .miiiips-mobile-dock a.active,.miiiips-mobile-dock button.active{background:#afefdd;color:#00201a;} body{padding-bottom:86px !important;}}'
     ].join('');
     document.head.appendChild(style);
   }
@@ -638,6 +647,56 @@
     });
   }
 
+  function injectMobileDock() {
+    if (document.getElementById('miiiips-mobile-dock')) return;
+    const dock = document.createElement('div');
+    dock.id = 'miiiips-mobile-dock';
+    dock.className = 'miiiips-mobile-dock';
+    const links = [
+      ['index.html', 'Главная'],
+      ['course-ei.html', 'Курс'],
+      ['news-feed.html', 'Новости'],
+      ['accounts.html', 'Кабинет']
+    ];
+    dock.innerHTML = links.map(function (entry) {
+      const active = page === entry[0] ? 'active' : '';
+      return '<a class="' + active + '" href="' + entry[0] + '">' + entry[1] + '</a>';
+    }).join('') + '<button type="button" id="miiiips-mobile-menu-toggle">Меню</button>';
+    document.body.appendChild(dock);
+
+    const sheet = document.createElement('div');
+    sheet.id = 'miiiips-mobile-sheet';
+    sheet.className = 'miiiips-mobile-sheet';
+    const links = [
+      ['about.html', 'Об институте'],
+      ['research.html', 'Исследования'],
+      ['education-ai.html', 'Обучение ИИ'],
+      ['publications.html', 'Публикации'],
+      ['grants-teams.html', 'Гранты'],
+      ['conferences.html', 'Конференции'],
+      ['join.html', 'Вступить'],
+      ['knowledge-base.html', 'База знаний'],
+      ['scientific-supervision.html', 'Научное руководство'],
+      ['contacts-partners.html', 'Контакты'],
+      ['course-ei-catalog.html', 'Каталог ЭИ'],
+      ['course-ei-library.html', 'Библиотека ЭИ']
+    ];
+    sheet.innerHTML = '<div class="miiiips-mobile-sheet-backdrop" data-mobile-sheet-close="1"></div><div class="miiiips-mobile-sheet-panel"><div class="miiiips-actions" style="justify-content:space-between;margin-top:0;margin-bottom:14px;"><h3>Разделы сайта</h3><button class="miiiips-btn secondary" type="button" data-mobile-sheet-close="1">Закрыть</button></div><div class="miiiips-mobile-grid">' + links.map(function (entry) { return '<a href="' + entry[0] + '">' + entry[1] + '</a>'; }).join('') + '</div></div>';
+    document.body.appendChild(sheet);
+
+    const toggle = document.getElementById('miiiips-mobile-menu-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        sheet.classList.add('open');
+      });
+    }
+    sheet.querySelectorAll('[data-mobile-sheet-close]').forEach(function (node) {
+      node.addEventListener('click', function () {
+        sheet.classList.remove('open');
+      });
+    });
+  }
+
   function wireGenericButtons() {
     document.querySelectorAll('button').forEach((button) => {
       const text = (button.textContent || '').trim();
@@ -670,6 +729,7 @@
     ensurePageMapExists();
     extendPageMap();
     extendTopNav();
+    injectMobileDock();
     wireDownloads();
     prepareKnownForms();
     injectAuditForm();
