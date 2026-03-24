@@ -183,24 +183,51 @@
       if (nav.dataset.miiiipsExtended === '1') return;
       const anchors = Array.from(nav.querySelectorAll('a[href]'));
       if (!anchors.length) return;
-      if (anchors.some((a) => a.getAttribute('href') === 'course-ei.html')) {
+      const hrefs = anchors.map((a) => (a.getAttribute('href') || '').toLowerCase());
+      const isPrimarySiteNav = hrefs.some((href) => [
+        'index.html',
+        'research.html',
+        'education-ai.html',
+        'publications.html',
+        'grants-teams.html',
+        'conferences.html',
+        'join.html'
+      ].includes(href));
+      if (!isPrimarySiteNav) return;
+      if (anchors.some((a) => a.getAttribute('href') === 'course-ei.html') &&
+          anchors.some((a) => a.getAttribute('href') === 'speeches-lectures.html') &&
+          anchors.some((a) => a.getAttribute('href') === 'news-feed.html')) {
         nav.dataset.miiiipsExtended = '1';
         return;
       }
-      const course = document.createElement('a');
-      course.href = 'course-ei.html';
-      course.textContent = 'Курс ЭИ';
-      const news = document.createElement('a');
-      news.href = 'news-feed.html';
-      news.textContent = 'Новости';
-      [course, news].forEach((a) => {
-        a.className = anchors[0].className || '';
-        if ((page === a.getAttribute('href'))) a.className += ' active';
+      const extraLinks = [
+        ['course-ei.html', 'Курс ЭИ'],
+        ['speeches-lectures.html', 'Лекции'],
+        ['news-feed.html', 'Новости']
+      ].filter(function (entry) {
+        return !hrefs.includes(entry[0]);
+      }).map(function (entry) {
+        const link = document.createElement('a');
+        link.href = entry[0];
+        link.textContent = entry[1];
+        return link;
       });
-      const navContainer = anchors[0].parentElement;
+      extraLinks.forEach((a) => {
+        a.className = anchors[0].className || '';
+        if (page === a.getAttribute('href')) {
+          a.className += ' active';
+          if (!a.className.includes('border-b-2')) {
+            a.style.borderBottom = '2px solid #7d5700';
+            a.style.paddingBottom = '4px';
+            a.style.color = '#004d40';
+          }
+        }
+      });
+      const navContainer = nav;
       if (navContainer) {
-        navContainer.appendChild(course);
-        navContainer.appendChild(news);
+        extraLinks.forEach(function (link) {
+          navContainer.appendChild(link);
+        });
       }
       nav.dataset.miiiipsExtended = '1';
     });
@@ -652,13 +679,13 @@
     const dock = document.createElement('div');
     dock.id = 'miiiips-mobile-dock';
     dock.className = 'miiiips-mobile-dock';
-    const links = [
+    const dockLinks = [
       ['index.html', 'Главная'],
       ['course-ei.html', 'Курс'],
       ['news-feed.html', 'Новости'],
       ['accounts.html', 'Кабинет']
     ];
-    dock.innerHTML = links.map(function (entry) {
+    dock.innerHTML = dockLinks.map(function (entry) {
       const active = page === entry[0] ? 'active' : '';
       return '<a class="' + active + '" href="' + entry[0] + '">' + entry[1] + '</a>';
     }).join('') + '<button type="button" id="miiiips-mobile-menu-toggle">Меню</button>';
@@ -667,10 +694,11 @@
     const sheet = document.createElement('div');
     sheet.id = 'miiiips-mobile-sheet';
     sheet.className = 'miiiips-mobile-sheet';
-    const links = [
+    const menuLinks = [
       ['about.html', 'Об институте'],
       ['research.html', 'Исследования'],
       ['education-ai.html', 'Обучение ИИ'],
+      ['speeches-lectures.html', 'Лекции и выступления'],
       ['publications.html', 'Публикации'],
       ['grants-teams.html', 'Гранты'],
       ['conferences.html', 'Конференции'],
@@ -681,7 +709,7 @@
       ['course-ei-catalog.html', 'Каталог ЭИ'],
       ['course-ei-library.html', 'Библиотека ЭИ']
     ];
-    sheet.innerHTML = '<div class="miiiips-mobile-sheet-backdrop" data-mobile-sheet-close="1"></div><div class="miiiips-mobile-sheet-panel"><div class="miiiips-actions" style="justify-content:space-between;margin-top:0;margin-bottom:14px;"><h3>Разделы сайта</h3><button class="miiiips-btn secondary" type="button" data-mobile-sheet-close="1">Закрыть</button></div><div class="miiiips-mobile-grid">' + links.map(function (entry) { return '<a href="' + entry[0] + '">' + entry[1] + '</a>'; }).join('') + '</div></div>';
+    sheet.innerHTML = '<div class="miiiips-mobile-sheet-backdrop" data-mobile-sheet-close="1"></div><div class="miiiips-mobile-sheet-panel"><div class="miiiips-actions" style="justify-content:space-between;margin-top:0;margin-bottom:14px;"><h3>Разделы сайта</h3><button class="miiiips-btn secondary" type="button" data-mobile-sheet-close="1">Закрыть</button></div><div class="miiiips-mobile-grid">' + menuLinks.map(function (entry) { return '<a href="' + entry[0] + '">' + entry[1] + '</a>'; }).join('') + '</div></div>';
     document.body.appendChild(sheet);
 
     const toggle = document.getElementById('miiiips-mobile-menu-toggle');
