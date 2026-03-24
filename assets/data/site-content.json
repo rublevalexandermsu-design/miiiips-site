@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "brand": "МИИИИПС",
+    "organization": "Международный институт исследований искусственного интеллекта, психологии и спорта",
+    "demoPassword": "demo2026",
+    "apiMode": "local-api-or-fallback"
+  },
+  "news": [
+    {
+      "title": "Открыт приём заявок в исследовательский и образовательный контур МИИИИПС",
+      "type": "Институт",
+      "date": "2026-03-24",
+      "summary": "Стартовал новый цикл заявок на участие в программах, публикационных маршрутах и совместных исследовательских инициативах.",
+      "link": "join.html"
+    },
+    {
+      "title": "Обновлён грантовый дайджест: гуманитарные, ИИ- и междисциплинарные конкурсы",
+      "type": "Гранты",
+      "date": "2026-03-24",
+      "summary": "В демонстрационный реестр добавлены новые возможности и статусы отбора для персонализированного трекинга.",
+      "link": "grants-teams.html"
+    },
+    {
+      "title": "Новый маршрут автора: требования журналов, статусы проверки и кабинет сопровождения",
+      "type": "Публикации",
+      "date": "2026-03-23",
+      "summary": "Публикационный контур теперь показывает следующий шаг, ручные проверки и готовность пакета материалов.",
+      "link": "publications.html"
+    },
+    {
+      "title": "Открытые лекции и выступления вынесены в отдельный медиаконтур сайта",
+      "type": "Лекции",
+      "date": "2026-03-23",
+      "summary": "Лекции, выездные форматы, конференции и записи теперь собираются в единую витрину открытых материалов.",
+      "link": "speeches-lectures.html"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Эмоциональный интеллект в сложных переговорах",
+      "channel": "Татьяна Мунн",
+      "duration": "42 мин",
+      "embed": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "tags": [
+        "переговоры",
+        "EQ",
+        "открытая лекция"
+      ]
+    },
+    {
+      "title": "ИИ, психология и спорт: исследовательский контур института",
+      "channel": "МИИИИПС",
+      "duration": "37 мин",
+      "embed": "https://www.youtube.com/embed/ysz5S6PUM-U",
+      "tags": [
+        "институт",
+        "ИИ",
+        "публичное выступление"
+      ]
+    },
+    {
+      "title": "Саморегуляция, стресс и когнитивная устойчивость",
+      "channel": "Татьяна Мунн",
+      "duration": "28 мин",
+      "embed": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "tags": [
+        "саморегуляция",
+        "лекция",
+        "курс"
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Открытые лекции Татьяны Мунн",
+      "url": "https://www.youtube.com/@example/playlists",
+      "note": "Публичные лекции и разборы"
+    },
+    {
+      "title": "МИИИИПС: институт, исследования, события",
+      "url": "https://www.youtube.com/@example/videos",
+      "note": "Видео о проектах, грантах и выступлениях"
+    }
+  ],
+  "courses": [
+    {
+      "slug": "ei-negotiations",
+      "title": "Эмоциональный интеллект в переговорах",
+      "format": "Интенсив",
+      "price": "12 000 ₽",
+      "duration": "24 академических часа",
+      "summary": "Практический курс по переговорам, эмоциональной регуляции и интеллектуальному лидерству.",
+      "page": "course-ei-program.html"
+    },
+    {
+      "slug": "ei-research-track",
+      "title": "Эмоциональный интеллект: исследовательский трек",
+      "format": "Программа",
+      "price": "18 500 ₽",
+      "duration": "8 недель",
+      "summary": "Связка теории, научных кейсов, материалов и сопровождения в кабинете слушателя.",
+      "page": "course-ei.html"
+    },
+    {
+      "slug": "ei-open-lectures",
+      "title": "Открытые лекции по эмоциональному интеллекту",
+      "format": "Открытый доступ",
+      "price": "Бесплатно",
+      "duration": "Подборка видео",
+      "summary": "Лекции и выступления для широкой аудитории, команд и сообществ.",
+      "page": "course-ei-lectures.html"
+    }
+  ],
+  "documents": [
+    {
+      "slug": "admission-guide",
+      "title": "Правила приёма и участия",
+      "file": "assets/docs/miiiips_admission_guide.pdf"
+    },
+    {
+      "slug": "ethics-guide",
+      "title": "Принципы академической этики",
+      "file": "assets/docs/miiiips_ethics_principles.pdf"
+    },
+    {
+      "slug": "work-format-guide",
+      "title": "Как оформлять материалы и работы",
+      "file": "assets/docs/miiiips_work_format_guide.pdf"
+    },
+    {
+      "slug": "publication-route",
+      "title": "Маршрут публикационного сопровождения",
+      "file": "assets/docs/miiiips_publication_route.pdf"
+    },
+    {
+      "slug": "grant-brief",
+      "title": "Краткий грантовый маршрут МИИИИПС",
+      "file": "assets/docs/miiiips_grants_brief.pdf"
+    },
+    {
+      "slug": "ei-course-program",
+      "title": "Программа курса по эмоциональному интеллекту",
+      "file": "assets/docs/miiiips_ei_course_program.pdf"
+    },
+    {
+      "slug": "audit-demo",
+      "title": "Демо-отчёт аудита проекта",
+      "file": "assets/docs/miiiips_audit_report_demo.pdf"
+    }
+  ],
+  "authorDemo": {
+    "name": "Татьяна Мунн",
+    "authorId": "AUTH-MI-2026-001",
+    "track": "publication-evidence-first",
+    "article": "Психология регуляции в цифровой среде",
+    "journal": "Journal Match / Verified Route",
+    "status": "manual_gate",
+    "nextStep": "Проверить финальный пакет приложений и маршрут подачи"
+  },
+  "grantDemo": {
+    "program": "Интердисциплинарные исследования ИИ и когнитивных процессов",
+    "deadline": "2026-04-18",
+    "status": "Требует финальной сверки",
+    "nextStep": "Проверить документы команды и закрыть budget bundle"
+  }
+}

@@ -2,3 +2,9 @@ _link_audit.json
 _link_audit_after.json
 Thumbs.db
 desktop.ini
+runtime/
+__pycache__/
+*.pyc
+local_api_config.json
+
+_smoke_test_report.json

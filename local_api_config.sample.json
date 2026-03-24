@@ -1,0 +1,12 @@
+{
+  "target_email": "",
+  "gmail_credentials": "C:\\\\пайто н тесты\\\\курсэмоциональный интеллект\\\\credentials.json",
+  "gmail_token": "C:\\\\пайто н тесты\\\\курсэмоциональный интеллект\\\\token_gmail.json",
+  "sheets_credentials": "C:\\\\пайто н тесты\\\\курсэмоциональный интеллект\\\\credentials.json",
+  "sheets_token": "C:\\\\пайто н тесты\\\\курсэмоциональный интеллект\\\\token_sheets.json",
+  "spreadsheet_title": "МИИИИПС — Заявки сайта",
+  "sheet_name": "Заявки",
+  "local_api_base": "http://127.0.0.1:3007",
+  "site_root": "C:\\пайто н тесты\\Ано_институт_глаболизация\\share\\stitch_site_prototype\\clickable_site_v1_2",
+  "runtime_dir": "C:\\пайто н тесты\\Ано_институт_глаболизация\\share\\stitch_site_prototype\\clickable_site_v1_2\\runtime"
+}
