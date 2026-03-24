@@ -120,7 +120,7 @@
 <div>
 <h3 class="text-primary font-headline text-3xl mb-6">Направления</h3>
 <div class="space-y-1">
-<button class="w-full flex items-center gap-4 py-4 px-4 bg-white border-l-4 border-secondary text-secondary font-bold transition-all" onclick="window.location.href='conferences.html'">
+<button class="w-full flex items-center gap-4 py-4 px-4 bg-white border-l-4 border-secondary text-secondary font-bold transition-all" onclick="window.location.href='conferences.html#event-schedule'">
 <span class="material-symbols-outlined">event_available</span>
 <span class="font-label text-xs tracking-widest uppercase">График мероприятий</span>
 </button>
@@ -132,7 +132,7 @@
 <span class="material-symbols-outlined">flight_takeoff</span>
 <span class="font-label text-xs tracking-widest uppercase">Поездки в КНР</span>
 </button>
-<button class="w-full flex items-center gap-4 py-4 px-4 text-primary/60 hover:pl-6 transition-all" onclick="window.location.href='conferences.html'">
+<button class="w-full flex items-center gap-4 py-4 px-4 text-primary/60 hover:pl-6 transition-all" onclick="window.location.href='join.html?form=speaker_application'">
 <span class="material-symbols-outlined">mic</span>
 <span class="font-label text-xs tracking-widest uppercase">Для докладчиков</span>
 </button>
@@ -167,7 +167,7 @@
 <p class="text-primary/70 font-body leading-relaxed mb-6">Рабочая встреча по вопросам трансфера технологий между Шанхайским институтом и МИИИИПС. Обсуждение совместных публикаций.</p>
 <div class="flex gap-4">
 <button class="px-6 py-2 bg-primary text-white text-[10px] tracking-widest uppercase font-label" onclick="window.location.href='join.html'">Заявка на участие</button>
-<button class="px-6 py-2 border border-primary/20 text-[10px] tracking-widest uppercase font-label" onclick="window.location.href='education-ai.html'">Программа</button>
+<button class="px-6 py-2 border border-primary/20 text-[10px] tracking-widest uppercase font-label" onclick="window.location.href='course-ei-program.html'">Программа</button>
 </div>
 </div>
 </div>
@@ -305,7 +305,7 @@
 <h4 class="font-headline text-xl mb-6 italic">Рассылка</h4>
 <div class="flex flex-col gap-4">
 <input class="bg-white/5 border-b border-white/20 p-2 text-sm focus:outline-none focus:border-white transition-colors" placeholder="Электронная почта" type="email"/>
-<button class="bg-[#7d5700] text-white py-3 font-label text-xs tracking-widest uppercase" onclick="window.location.href='application-success.html'">Подписаться</button>
+<button class="bg-[#7d5700] text-white py-3 font-label text-xs tracking-widest uppercase" type="button">Подписаться</button>
 </div>
 </div>
 <div class="col-span-1 md:col-span-4 pt-12 border-t border-white/10 flex justify-between items-center">
@@ -316,9 +316,6 @@
 </div>
 </div>
 </footer>
-
-
-
 <div id="codex-page-map" style="position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;">
 <button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button">
 <span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>
