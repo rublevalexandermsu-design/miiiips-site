@@ -33,9 +33,10 @@
       '.miiiips-live-btn.ghost{background:rgba(0,77,64,.08);color:#004d40;}',
       '.miiiips-live-note{font-size:13px;color:#54645f;margin-top:8px;}',
       '.miiiips-live-ticker{position:relative;overflow:hidden;border-top:1px solid #dbe3de;border-bottom:1px solid #dbe3de;background:linear-gradient(90deg,#f3f7f5 0%,#ffffff 50%,#f3f7f5 100%);}',
-      '.miiiips-live-ticker-track{display:flex;gap:28px;min-width:max-content;padding:12px 28px;animation:miiiipsTicker 38s linear infinite;}',
+      '.miiiips-live-ticker-track{display:flex;gap:28px;min-width:max-content;padding:12px 28px;animation:miiiipsTicker 64s linear infinite;}',
       '.miiiips-live-ticker-item{display:flex;gap:10px;align-items:center;color:#00342b;text-decoration:none;font:600 14px/1.4 Manrope,sans-serif;}',
       '.miiiips-live-ticker-item strong{font:700 11px/1.2 "Public Sans",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#7d5700;}',
+      '.miiiips-live-ticker:hover .miiiips-live-ticker-track{animation-play-state:paused;}',
       '@keyframes miiiipsTicker{from{transform:translateX(0);}to{transform:translateX(-45%);}}',
       '.miiiips-contact-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:14px;}',
       '.miiiips-contact-tile{background:#00342b;color:#fff;padding:16px 16px 14px;border-radius:18px;text-decoration:none;display:grid;gap:6px;box-shadow:0 10px 24px rgba(0,0,0,.12);}',
@@ -67,7 +68,7 @@
       '.miiiips-bullet-list li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:999px;background:#7d5700;}',
       '.miiiips-live-card iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:18px;display:block;background:#dfe7e3;}',
       '.miiiips-live-stack{display:grid;gap:14px;}',
-      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:46s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-section{padding:18px 0;}}'
+      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:72s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-section{padding:18px 0;}}'
     ].join('');
     document.head.appendChild(style);
   }
@@ -155,6 +156,7 @@
     const section = document.createElement('section');
     section.id = 'miiiips-lecture-hub';
     section.className = 'miiiips-live-shell miiiips-live-section';
+    const includeVideoGrid = page === 'speeches-lectures.html';
     section.innerHTML = [
       '<div class="miiiips-live-kicker">Подтверждённые публичные источники</div>',
       '<div class="miiiips-live-grid">',
@@ -162,15 +164,15 @@
       '</div>',
       '<div class="miiiips-live-card" style="margin-top:18px;">',
       '<h3>Видео и записи Татьяны Мунн</h3>',
-      '<p>Убрали случайные демо-видео и заменили блок на подтверждённые публичные записи и официальный канал.</p>',
+      '<p>' + (includeVideoGrid
+        ? 'Убрали случайные демо-видео и заменили блок на подтверждённые публичные записи и официальный канал.'
+        : 'Здесь оставляем только подтверждённые источники и переходы: сами видео уже встроены ниже в основном блоке страницы, чтобы не дублировать YouTube.') + '</p>',
       '<div class="miiiips-live-actions">',
       '<a class="miiiips-live-btn" target="_blank" rel="noopener noreferrer" href="' + safe((data.contacts && data.contacts.youtube && data.contacts.youtube.url) || '#') + '">Открыть YouTube-канал</a>',
       '<a class="miiiips-live-btn secondary" target="_blank" rel="noopener noreferrer" href="https://moonn.ru/lectures1">Архив записей на сайте</a>',
       '</div>',
       '</div>',
-      '<div class="miiiips-live-grid" style="margin-top:18px;">',
-      buildVideoCards(data),
-      '</div>'
+      includeVideoGrid ? '<div class="miiiips-live-grid" style="margin-top:18px;">' + buildVideoCards(data) + '</div>' : ''
     ].join('');
     insertAfterHero(section);
   }
@@ -202,10 +204,38 @@
       '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Психология и тренды</div>', buildItems(feeds.psychologyTrends), '</div>',
       '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Образование и регуляторика</div>', buildItems(feeds.educationPolicy), '</div>',
       '</div>',
+      '<div class="miiiips-live-grid" style="margin-top:18px;">',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Конференции и события</div>', buildItems(feeds.conferenceUpdates), '</div>',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Спорт, ИИ и исследования</div>', buildItems(feeds.sportAiUpdates), '</div>',
+      '</div>',
+      '<div class="miiiips-live-card" style="margin-top:18px;"><div class="miiiips-live-kicker">Открытые научные публикации</div><div class="miiiips-live-grid">', buildItems(feeds.openPublications), '</div></div>',
       '<div class="miiiips-live-card" style="margin-top:18px;"><div class="miiiips-live-kicker">Новости Татьяны Мунн</div><div class="miiiips-live-grid">', buildItems(feeds.moonnUpdates), '</div></div>',
       '<div class="miiiips-live-card" style="margin-top:18px;"><div class="miiiips-live-kicker">Telegram-канал</div><div class="miiiips-live-grid">', buildItems(feeds.telegramUpdates), '</div></div>'
     ].join('');
     mainContainer().appendChild(section);
+  }
+
+  function injectSignalBlocks(data) {
+    const allowedPages = ['index.html', 'social-projects.html', 'publications.html'];
+    if (!allowedPages.includes(page) || document.getElementById('miiiips-signal-blocks')) return;
+    const feeds = data.liveFeeds || {};
+    const buildCompact = function (items) {
+      return (items || []).slice(0, 3).map(function (item) {
+        return '<article class="miiiips-live-card"><div class="miiiips-live-meta">' + safe(item.source || 'Источник') + '</div><h3>' + safe(item.title) + '</h3><p>' + safe(item.summary || '') + '</p><div class="miiiips-live-actions"><a class="miiiips-live-btn secondary" target="_blank" rel="noopener noreferrer" href="' + safe(item.url) + '">Открыть источник</a></div></article>';
+      }).join('');
+    };
+    const section = document.createElement('section');
+    section.id = 'miiiips-signal-blocks';
+    section.className = 'miiiips-live-shell miiiips-live-section';
+    section.innerHTML = [
+      '<div class="miiiips-live-kicker">Живые обновления</div>',
+      '<div class="miiiips-live-grid">',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Публикации и журналы</div>', buildCompact(feeds.openPublications), '</div>',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Конференции и лекции</div>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
+      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Регуляторика и тренды</div>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
+      '</div>'
+    ].join('');
+    insertAfterHero(section);
   }
 
   function findBestAnswer(data, query) {
@@ -317,6 +347,7 @@
     renderLectureHub(data);
     injectSpeechPageExtras(data);
     renderNewsPage(data);
+    injectSignalBlocks(data);
     injectContactBlocks(data);
     injectSupportWidget(data);
     enhanceMediaTreatment();
