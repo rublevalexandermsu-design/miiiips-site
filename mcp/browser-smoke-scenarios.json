@@ -1,0 +1,48 @@
+{
+  "site": "https://rublevalexandermsu-design.github.io/miiiips-site/",
+  "scenarios": [
+    {
+      "id": "home_primary_nav",
+      "page": "/",
+      "goal": "Проверить верхнюю навигацию и наличие Курс ЭИ / Лекции / Новости",
+      "checks": ["Исследования", "Курс ЭИ", "Лекции", "Новости", "Личный кабинет"]
+    },
+    {
+      "id": "lecture_sources",
+      "page": "/speeches-lectures.html",
+      "goal": "Проверить блоки Timepad, Telegram, YouTube и отсутствие случайных видео",
+      "checks": ["Timepad", "Telegram", "YouTube", "Татьяна Мунн"]
+    },
+    {
+      "id": "ei_course_flow",
+      "page": "/course-ei.html",
+      "goal": "Проверить маршрут Курс ЭИ -> Каталог -> Программа -> Лекции -> Заявка",
+      "checks": ["Каталог", "Программа", "Лекции", "Записаться"]
+    },
+    {
+      "id": "news_feed_live",
+      "page": "/news-feed.html",
+      "goal": "Проверить бегущую строку, открытые публикации, новости Татьяны Мунн и регуляторику",
+      "checks": ["Открытые научные публикации", "Конференции и события", "Новости Татьяны Мунн"]
+    },
+    {
+      "id": "forms_join",
+      "page": "/join.html",
+      "goal": "Проверить форму вступления и каналов связи",
+      "checks": ["Подать заявку", "Telegram", "WhatsApp", "Email"]
+    },
+    {
+      "id": "cabinet_student",
+      "page": "/account-student.html",
+      "goal": "Проверить кабинет студента и основные карточки маршрута",
+      "checks": ["Кабинет", "Материалы", "Дедлайны", "Документы"]
+    },
+    {
+      "id": "mobile_smoke",
+      "page": "/",
+      "goal": "Проверить mobile dock и mobile sheet",
+      "checks": ["Главная", "Курс", "Новости", "Кабинет", "Меню"],
+      "viewport": {"width": 390, "height": 844}
+    }
+  ]
+}

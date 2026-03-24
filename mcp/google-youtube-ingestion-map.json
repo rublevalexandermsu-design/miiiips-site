@@ -1,0 +1,22 @@
+{
+  "google": {
+    "sheets": [
+      "заявки сайта",
+      "будущие персональные digest-подписки",
+      "реестр открытых публикаций",
+      "реестр лекций и событий"
+    ],
+    "gmail": [
+      "уведомления о заявках",
+      "демо-маршрут персональной подборки"
+    ]
+  },
+  "youtube": {
+    "currentSource": "public channel + static confirmed videos",
+    "nextStep": "перейти на полноценную YouTube Data API подгрузку канала Татьяны Мунн"
+  },
+  "timepad": {
+    "currentSource": "public event pages",
+    "nextStep": "API token или widget code для глубокой встройки регистрации"
+  }
+}
