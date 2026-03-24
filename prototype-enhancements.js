@@ -28,6 +28,10 @@
     ['course-ei-library.html', 'Библиотека ЭИ'],
     ['course-ei-lectures.html', 'Лекции ЭИ'],
     ['news-feed.html', 'Новости и лента'],
+    ['biomechanics-rowing.html', 'Биомеханика и гребля'],
+    ['event-bandits.html', 'Семинар: бандиты'],
+    ['event-parkgorkogo.html', 'Лекция в Парке Горького'],
+    ['event-registration.html', 'Регистрация на событие'],
     ['account-editor.html', 'Кабинет редактора'],
     ['account-coordinator.html', 'Кабинет координатора']
   ];
@@ -142,7 +146,7 @@
     const root = document.createElement('div');
     root.id = 'codex-page-map';
     root.style.cssText = 'position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;';
-    root.innerHTML = '<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button"><span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>Карта страниц</button><div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);"><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;"><div style="font:700 13px/1.4 Manrope,sans-serif;">Локальный прототип Stitch v1.2</div><button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button></div><div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 18 | Служебные и кабинеты: 13</div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div><div style="display:grid;gap:4px;"></div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div><div style="display:grid;gap:4px;"></div></div>';
+    root.innerHTML = '<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button"><span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>Карта страниц</button><div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);"><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;"><div style="font:700 13px/1.4 Manrope,sans-serif;">Локальный прототип Stitch v1.2</div><button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button></div><div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 20 | Служебные и кабинеты: 17</div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div><div style="display:grid;gap:4px;"></div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div><div style="display:grid;gap:4px;"></div></div>';
     document.body.appendChild(root);
     const toggle = document.getElementById('codex-page-map-toggle');
     const closeBtn = document.getElementById('codex-page-map-close');
@@ -158,7 +162,7 @@
     if (!panel || panel.dataset.extended === '1') return;
     panel.dataset.extended = '1';
     const summary = panel.querySelectorAll('div')[1];
-    if (summary) summary.textContent = 'Основные страницы: 18 | Служебные и кабинеты: 13';
+    if (summary) summary.textContent = 'Основные страницы: 20 | Служебные и кабинеты: 17';
     const sections = panel.querySelectorAll('div[style*="display:grid;gap:4px;"]');
     const mainLinks = [
       ['index.html','Главная'],['about.html','Об институте'],['research.html','Исследования'],['social-projects.html','Социальные проекты'],['education-ai.html','Обучение ИИ'],['publications.html','Публикации'],['grants-teams.html','Гранты и команды'],['conferences.html','Конференции'],['join.html','Вступить в институт'],['knowledge-base.html','База знаний'],['scientific-supervision.html','Научное руководство'],['contacts-partners.html','Контакты и партнёрства']
