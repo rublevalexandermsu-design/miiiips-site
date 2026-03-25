@@ -42,14 +42,24 @@
     .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
     .filters { position:sticky; top:var(--sticky-offset); padding:18px; display:grid; gap:16px; align-self:start; max-height:none; overflow:visible; }
     .kicker { display:block; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:10px; }
-    .calendar { width:100%; max-width:210px; padding:12px; border-radius:18px; background:linear-gradient(180deg,#f6fbf8 0%,#eef6f2 100%); border:1px solid #dbe6df; }
-    .calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:6px; font-size:13px; }
-    .calendar-grid span { text-align:center; padding:8px 0; border-radius:12px; color:#60716b; }
-    .calendar-grid span.active { background:#afefdd; color:#00201a; font-weight:700; }
+    .calendar { width:100%; max-width:228px; padding:12px; border-radius:18px; background:linear-gradient(180deg,#f6fbf8 0%,#eef6f2 100%); border:1px solid #dbe6df; }
+    .calendar-toolbar { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; gap:8px; }
+    .calendar-nav { display:inline-flex; gap:6px; }
+    .calendar-nav button { width:30px; height:30px; border:none; border-radius:999px; background:#fff; color:var(--accent); cursor:pointer; box-shadow:0 6px 16px rgba(18,55,47,.08); }
+    .calendar-weekdays,.calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:6px; font-size:13px; }
+    .calendar-weekdays span { text-align:center; padding:4px 0; color:#7c8b86; font:700 10px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .calendar-grid button,.calendar-grid span { text-align:center; padding:8px 0; border-radius:12px; color:#60716b; border:none; background:transparent; font:600 13px/1.2 Manrope,sans-serif; }
+    .calendar-grid button { cursor:pointer; }
+    .calendar-grid button:hover { background:rgba(12,77,64,.08); color:#00201a; }
+    .calendar-grid button.active { background:#afefdd; color:#00201a; font-weight:700; }
+    .calendar-grid button.has-events::after { content:""; display:block; width:6px; height:6px; margin:4px auto 0; border-radius:999px; background:#7d5700; }
+    .calendar-grid span.is-empty { opacity:.35; }
     .filter-list { display:grid; gap:10px; color:#51635d; }
     .filter-list label { display:flex; align-items:center; gap:10px; }
+    .filter-list input { accent-color:#0c4d40; }
     .results-head { display:grid; grid-template-columns:minmax(0,1fr); gap:10px; margin-bottom:18px; }
     .results-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; }
+    .results-empty { padding:22px; border-radius:24px; background:#fff; border:1px dashed #c4d1ca; color:#51635d; }
     .event-card { position:relative; overflow:hidden; width:100%; min-height:228px; padding:26px; border-radius:30px; color:#fff; display:grid; align-content:space-between; background:linear-gradient(135deg, rgba(11,27,24,.98) 0%, rgba(16,73,61,.95) 100%); box-shadow:0 24px 50px rgba(9,24,21,.18); }
     .event-card::before { content:""; position:absolute; inset:0; background:radial-gradient(circle at top right, rgba(175,239,221,.24), transparent 34%), radial-gradient(circle at bottom left, rgba(246,192,91,.18), transparent 24%); pointer-events:none; }
     .event-card > * { position:relative; z-index:1; }
@@ -99,8 +109,8 @@
       <div class="search-card">
         <span class="eyebrow">Поиск и быстрый просмотр</span>
         <h3 style="margin-bottom:14px;">Семинары, лекции, биомеханика, ЭИ и прикладные форматы.</h3>
-        <input type="text" value="Эмоциональный интеллект / спорт / публикации / биомеханика" readonly />
-        <p style="margin-top:14px;">Здесь собраны ближайшие открытые лекции, семинары и прикладные кейсы с быстрым переходом в регистрацию, детальную карточку и календарь.</p>
+        <input id="events-search" type="text" placeholder="Поиск: эмоции, биомеханика, семинар, Парк Горького" />
+        <p id="events-search-note" style="margin-top:14px;">Поиск работает по названию, формату, докладчику, площадке и направлениям.</p>
       </div>
     </div>
   </section>
@@ -109,104 +119,59 @@
     <aside class="filters card events-sidebar">
       <div>
         <span class="kicker">Вид ленты</span>
-        <div class="filter-list"><label><input type="checkbox" checked disabled/> Быстрый просмотр</label></div>
+        <div class="filter-list"><label><input id="events-quick-view" type="checkbox" checked/> Быстрый просмотр</label></div>
       </div>
       <div>
         <span class="kicker">Дата</span>
         <div class="calendar">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;"><strong>Март 2026</strong><span>◀ ▶</span></div>
-          <div class="calendar-grid">
-            <span>23</span><span>24</span><span class="active">25</span><span class="active">26</span><span>27</span><span>28</span><span>29</span>
-            <span>30</span><span>31</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+          <div class="calendar-toolbar">
+            <strong id="calendar-label">Март 2026</strong>
+            <div class="calendar-nav">
+              <button id="calendar-prev" type="button" aria-label="Предыдущий месяц">◀</button>
+              <button id="calendar-next" type="button" aria-label="Следующий месяц">▶</button>
+            </div>
           </div>
+          <div class="calendar-weekdays">
+            <span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span>
+          </div>
+          <div class="calendar-grid" id="calendar-grid"></div>
         </div>
       </div>
       <div>
         <span class="kicker">Мероприятия</span>
         <div class="filter-list">
-          <label><input type="checkbox" checked disabled/> Публичные лекции</label>
-          <label><input type="checkbox" checked disabled/> Семинары</label>
-          <label><input type="checkbox" checked disabled/> Корпоративные модули</label>
-          <label><input type="checkbox" checked disabled/> Applied demo</label>
+          <label><input class="event-type-filter" type="checkbox" value="public_lecture" checked/> Публичные лекции</label>
+          <label><input class="event-type-filter" type="checkbox" value="seminar" checked/> Семинары</label>
+          <label><input class="event-type-filter" type="checkbox" value="corporate_module" checked/> Корпоративные модули</label>
+          <label><input class="event-type-filter" type="checkbox" value="applied_demo" checked/> Applied demo</label>
         </div>
       </div>
       <div>
         <span class="kicker">Статус</span>
         <div class="filter-list">
-          <label><input type="checkbox" checked disabled/> Анонс</label>
-          <label><input type="checkbox" checked disabled/> Прошедшее</label>
+          <label><input class="event-status-filter" type="checkbox" value="upcoming" checked/> Анонс</label>
+          <label><input class="event-status-filter" type="checkbox" value="past" checked/> Прошедшее</label>
         </div>
       </div>
       <div>
         <span class="kicker">Направление</span>
         <div class="filter-list">
-          <label><input type="checkbox" checked disabled/> Эмоциональный интеллект</label>
-          <label><input type="checkbox" checked disabled/> Психология</label>
-          <label><input type="checkbox" checked disabled/> Биомеханика и спорт</label>
-          <label><input type="checkbox" checked disabled/> ИИ и исследования</label>
+          <label><input class="event-direction-filter" type="checkbox" value="emotional_intelligence" checked/> Эмоциональный интеллект</label>
+          <label><input class="event-direction-filter" type="checkbox" value="psychology" checked/> Психология</label>
+          <label><input class="event-direction-filter" type="checkbox" value="biomechanics_sport" checked/> Биомеханика и спорт</label>
+          <label><input class="event-direction-filter" type="checkbox" value="ai_research" checked/> ИИ и исследования</label>
         </div>
       </div>
     </aside>
 
     <div class="events-content">
-      <div class="results-head"><div><span class="kicker">Список мероприятий</span><h2>Ближайшие и архивные события</h2><p>Карточки событий находятся в центральной колонке. Слева остаются только фильтры и компактный календарь.</p></div></div>
+      <div class="results-head"><div><span class="kicker">Список мероприятий</span><h2>Ближайшие и архивные события</h2><p id="events-results-note">Карточки событий находятся в центральной колонке. Слева можно фильтровать по типу, статусу, направлению и дате.</p></div></div>
 
-      <div class="results-grid">
-        <article class="event-card">
-          <div class="event-meta"><span class="event-pill">Анонс</span><span>Семинар МИИИИПС</span><span>25 марта · 17:00</span></div>
-          <div class="stack">
-            <h3 class="event-title">Линейные стохастические бандиты с точки зрения онлайн-оптимизации</h3>
-            <p class="event-summary">Рабочий семинар с привычной логикой: докладчик, оппонент, краткое описание, регистрация, .ics и детальная страница.</p>
-          </div>
-          <div class="event-people">
-            <div><span>Докладчик</span>Юрий Дорн</div>
-            <div><span>Оппонент</span>Александр Тюрин</div>
-          </div>
-          <div class="event-actions"><a class="btn primary" href="event-bandits.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=bandits">Регистрация</a><a class="btn secondary" href="assets/calendar/bandits-seminar.ics">В календарь</a></div>
-        </article>
-
-        <article class="event-card" style="background:linear-gradient(135deg, rgba(17,39,34,.98) 0%, rgba(11,93,84,.92) 100%);">
-          <div class="event-meta"><span class="event-pill">Анонс</span><span>Публичная лекция</span><span>2 апреля · 19:00</span></div>
-          <div class="stack">
-            <h3 class="event-title">Открытая лекция Татьяны Мунн в Парке Горького</h3>
-            <p class="event-summary">Публичный городской маршрут: лекция по эмоциональному интеллекту, Timepad-регистрация, Telegram-канал и отдельная карточка события.</p>
-          </div>
-          <div class="event-people">
-            <div><span>Докладчик</span>Татьяна Мунн</div>
-            <div><span>Формат</span>Открытая городская лекция</div>
-          </div>
-          <div class="event-actions"><a class="btn primary" href="event-parkgorkogo.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=parkgorkogo">Регистрация</a><a class="btn secondary" href="assets/calendar/parkgorkogo-lecture.ics">В календарь</a></div>
-        </article>
-
-        <article class="event-card" style="background:linear-gradient(135deg, rgba(20,29,53,.98) 0%, rgba(25,77,121,.92) 100%);">
-          <div class="event-meta"><span class="event-pill">Анонс</span><span>Корпоративный модуль</span><span>9 апреля · 11:00</span></div>
-          <div class="stack">
-            <h3 class="event-title">Эмоциональный интеллект для переговорных и sales-команд</h3>
-            <p class="event-summary">Формат для бизнеса: выступления, разборы для отделов продаж, устойчивость в переговорах и управляемая коммуникация.</p>
-          </div>
-          <div class="event-people">
-            <div><span>Спикер</span>Татьяна Мунн</div>
-            <div><span>Фокус</span>Переговоры и стресс</div>
-          </div>
-          <div class="event-actions"><a class="btn primary" href="event-registration.html?event=sales-lab">Запросить модуль</a><a class="btn secondary" href="contacts-partners.html">Сотрудничество</a></div>
-        </article>
-
-        <article class="event-card" style="background:linear-gradient(135deg, rgba(17,30,24,.98) 0%, rgba(77,104,49,.9) 100%);">
-          <div class="event-meta"><span class="event-pill">Прошедшее</span><span>Applied demo</span><span>14 марта · 18:30</span></div>
-          <div class="stack">
-            <h3 class="event-title">AI-аналитика гребли и биомеханики</h3>
-            <p class="event-summary">Кейс из rowing_agent: OCR эргометра, pace/SPM/watts, QC-pass и перенос видеоаналитики на фитнес, ЛФК и командные виды спорта.</p>
-          </div>
-          <div class="event-people">
-            <div><span>Команда</span>МИИИИПС</div>
-            <div><span>Маршрут</span>Спорт и прикладная аналитика</div>
-          </div>
-          <div class="event-actions"><a class="btn primary" href="biomechanics-rowing.html">Открыть кейс</a><a class="btn secondary" href="event-registration.html?event=biomechanics">Запросить разбор</a></div>
-        </article>
-      </div>
+      <div class="results-grid" id="events-results"></div>
     </div>
   </main>
 
   <footer class="footer shell"><div class="contact-grid"><a class="contact-tile" href="https://moonn.ru/" target="_blank" rel="noreferrer"><small>Сайт</small><strong>moonn.ru</strong></a><a class="contact-tile" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a><a class="contact-tile" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>Написать организатору</strong></a><a class="contact-tile" href="https://t.me/moonn_official" target="_blank" rel="noreferrer"><small>Канал</small><strong>Новости и анонсы</strong></a></div></footer>
+  <script defer src="conferences-events.js"></script>
 </body>
 </html>
