@@ -8,3 +8,4 @@ __pycache__/
 local_api_config.json
 
 _smoke_test_report.json
+_full_audit_report.json
