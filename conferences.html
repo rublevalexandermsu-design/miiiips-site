@@ -10,32 +10,212 @@
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <style>
     :root {--bg:#f7f6f1;--surface:#ffffff;--line:#d8ddd9;--ink:#12372f;--muted:#51635d;--accent:#0c4d40;--gold:#8b6417;--shadow:0 20px 44px rgba(18,55,47,.08);--radius:28px;}
-    * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:var(--bg); color:var(--ink); font-family:Manrope,sans-serif; }
-    a { color:inherit; } .shell { max-width:1280px; margin:0 auto; padding:0 28px; } .topbar { position:sticky; top:0; z-index:40; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
-    .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; } .brand { font:700 50px/0.9 Newsreader,serif; color:var(--ink); text-decoration:none; letter-spacing:-.03em; }
-    .nav { display:flex; flex-wrap:wrap; gap:14px 20px; align-items:center; } .nav a { text-decoration:none; font:700 11px/1.3 "Public Sans",sans-serif; letter-spacing:.09em; text-transform:uppercase; color:rgba(18,55,47,.68); padding-bottom:6px; border-bottom:2px solid transparent; }
-    .nav a.active,.nav a:hover { color:var(--accent); border-bottom-color:var(--gold); } .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:14px 18px; border-radius:999px; text-decoration:none; border:1px solid transparent; font:700 12px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
-    .btn.primary { background:var(--accent); color:#fff; } .btn.secondary { background:transparent; color:var(--accent); border-color:rgba(18,55,47,.16); }
-    .hero { padding:64px 0 36px; } .eyebrow { display:inline-block; margin-bottom:14px; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
-    h1,h2,h3,h4 { font-family:Newsreader,serif; margin:0; letter-spacing:-.03em; } h1 { font-size:clamp(44px,5vw,88px); line-height:.94; } h2 { font-size:clamp(34px,3.4vw,60px); line-height:.98; } h3 { font-size:clamp(26px,2.1vw,36px); line-height:1.02; }
-    p { margin:0; color:var(--muted); line-height:1.75; } .lead { font-size:18px; max-width:72ch; } .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); } .soft { background:linear-gradient(180deg,#f5faf7 0%, #edf4f1 100%); }
-    .grid-2 { display:grid; grid-template-columns:1.1fr .9fr; gap:22px; } .grid-3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; } .grid-4 { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; } .stack { display:grid; gap:18px; } .section { padding:34px 0; }
-    .footer { margin-top:48px; padding:28px 0 54px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; } .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; } .contact-tile { padding:18px; border-radius:22px; background:#fff; border:1px solid var(--line); text-decoration:none; box-shadow:var(--shadow); }
-    .contact-tile small { display:block; margin-bottom:8px; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; } .contact-tile strong { display:block; font:700 25px/1.04 Newsreader,serif; color:var(--ink); } .muted-list { margin:0; padding-left:18px; color:var(--muted); line-height:1.7; }
-    .quote-panel { padding:28px; min-height:100%; display:grid; align-content:space-between; background:radial-gradient(circle at top left, rgba(175,239,221,.62), transparent 40%), linear-gradient(180deg,#0c4d40 0%,#133b31 100%); color:#fff; } .quote-panel p { color:rgba(255,255,255,.82); }
-    .metric { padding:24px; } .metric strong { display:block; font:700 58px/.92 Newsreader,serif; color:var(--ink); margin-bottom:8px; } .badge { display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; } .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:22px; }
-    @media (max-width: 1080px) { .grid-4{grid-template-columns:repeat(2,minmax(0,1fr));} .grid-3{grid-template-columns:1fr;} .grid-2{grid-template-columns:1fr;} .nav{display:none;} }
-    @media (max-width: 720px) { .shell{padding:0 16px;} .brand{font-size:40px;} .grid-4{grid-template-columns:1fr;} .hero{padding:40px 0 24px;} .lead{font-size:16px;} }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Manrope,sans-serif; }
+    a { color:inherit; }
+    .shell { max-width:1320px; margin:0 auto; padding:0 28px; }
+    .topbar { position:sticky; top:0; z-index:70; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
+    .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    .brand { font:700 50px/0.9 Newsreader,serif; color:var(--ink); text-decoration:none; letter-spacing:-.03em; }
+    .nav { display:flex; flex-wrap:wrap; gap:14px 20px; align-items:center; }
+    .nav a { text-decoration:none; font:700 11px/1.3 "Public Sans",sans-serif; letter-spacing:.09em; text-transform:uppercase; color:rgba(18,55,47,.68); padding-bottom:6px; border-bottom:2px solid transparent; }
+    .nav a.active,.nav a:hover { color:var(--accent); border-bottom-color:var(--gold); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:14px 18px; border-radius:999px; text-decoration:none; border:1px solid transparent; font:700 12px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
+    .btn.primary { background:var(--accent); color:#fff; }
+    .btn.secondary { background:transparent; color:var(--accent); border-color:rgba(18,55,47,.16); }
+    .hero { background:radial-gradient(circle at top right, rgba(175,239,221,.16), transparent 30%), linear-gradient(180deg,#102824 0%, #0d1c1a 100%); color:#fff; padding:64px 0 80px; }
+    .hero-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:28px; align-items:end; }
+    .eyebrow { display:inline-flex; align-items:center; gap:8px; width:max-content; padding:8px 12px; border-radius:999px; background:rgba(175,239,221,.14); color:#c7fff0; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    h1,h2,h3,h4 { font-family:Newsreader,serif; margin:0; letter-spacing:-.03em; }
+    h1 { font-size:clamp(44px,5vw,76px); line-height:.94; }
+    h2 { font-size:clamp(34px,3.6vw,58px); line-height:.98; }
+    h3 { font-size:clamp(24px,2vw,34px); line-height:1.04; }
+    p { margin:0; color:var(--muted); line-height:1.7; }
+    .hero p { color:rgba(255,255,255,.78); }
+    .hero-lead { max-width:64ch; font-size:18px; margin-top:16px; }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:22px; }
+    .search-card { padding:24px; border-radius:28px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04); box-shadow:0 20px 44px rgba(0,0,0,.22); }
+    .search-card input { width:100%; padding:16px 18px; border-radius:999px; border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.06); color:#fff; font:500 15px/1.4 Manrope,sans-serif; }
+    .search-card input::placeholder { color:rgba(255,255,255,.58); }
+    .layout { display:grid; grid-template-columns:280px 1fr; gap:24px; padding:34px 0 64px; align-items:start; }
+    .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+    .filters { position:sticky; top:106px; padding:22px; display:grid; gap:18px; }
+    .kicker { display:block; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:10px; }
+    .calendar { padding:16px; border-radius:22px; background:linear-gradient(180deg,#f6fbf8 0%,#eef6f2 100%); border:1px solid #dbe6df; }
+    .calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:6px; font-size:13px; }
+    .calendar-grid span { text-align:center; padding:10px 0; border-radius:14px; color:#60716b; }
+    .calendar-grid span.active { background:#afefdd; color:#00201a; font-weight:700; }
+    .filter-list { display:grid; gap:10px; color:#51635d; }
+    .filter-list label { display:flex; align-items:center; gap:10px; }
+    .results-head { display:flex; justify-content:space-between; align-items:end; gap:18px; margin-bottom:18px; }
+    .results-grid { display:grid; gap:16px; }
+    .event-card { position:relative; overflow:hidden; min-height:228px; padding:26px; border-radius:30px; color:#fff; display:grid; align-content:space-between; background:linear-gradient(135deg, rgba(11,27,24,.98) 0%, rgba(16,73,61,.95) 100%); box-shadow:0 24px 50px rgba(9,24,21,.18); }
+    .event-card::before { content:""; position:absolute; inset:0; background:radial-gradient(circle at top right, rgba(175,239,221,.24), transparent 34%), radial-gradient(circle at bottom left, rgba(246,192,91,.18), transparent 24%); pointer-events:none; }
+    .event-card > * { position:relative; z-index:1; }
+    .event-meta { display:flex; flex-wrap:wrap; gap:10px; align-items:center; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; color:#c7fff0; }
+    .event-pill { padding:6px 10px; border-radius:999px; background:rgba(255,255,255,.12); }
+    .event-title { max-width:20ch; }
+    .event-summary { max-width:58ch; color:rgba(255,255,255,.82); }
+    .event-people { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; color:rgba(255,255,255,.88); }
+    .event-people span { display:block; color:rgba(255,255,255,.58); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:6px; }
+    .event-actions { display:flex; gap:10px; flex-wrap:wrap; }
+    .event-actions .btn.primary { background:#1dc3ad; color:#05211c; }
+    .event-actions .btn.secondary { color:#fff; border-color:rgba(255,255,255,.24); }
+    .event-note { margin-top:18px; padding:18px; border-radius:24px; background:#fff; border:1px solid var(--line); box-shadow:var(--shadow); }
+    .footer { margin-top:48px; padding:28px 0 54px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; }
+    .contact-tile { padding:18px; border-radius:22px; background:#fff; border:1px solid var(--line); text-decoration:none; box-shadow:var(--shadow); }
+    .contact-tile small { display:block; margin-bottom:8px; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .contact-tile strong { display:block; font:700 25px/1.04 Newsreader,serif; color:var(--ink); }
+    @media (max-width: 1080px) {
+      .nav { display:none; }
+      .hero-grid, .layout { grid-template-columns:1fr; }
+      .filters { position:static; }
+      .event-people { grid-template-columns:1fr; }
+    }
+    @media (max-width: 720px) {
+      .shell { padding:0 16px; }
+      .brand { font-size:40px; }
+      .hero { padding:40px 0 56px; }
+    }
   </style>
-  <style>@media (max-width: 980px){ main section:nth-child(2){grid-template-columns:1fr !important;} main section:nth-child(2) aside{position:static !important;} }</style>
   <script defer src="prototype-enhancements.js"></script>
   <script defer src="miiiips-live-layer.js"></script>
 </head>
 <body>
-  <header class="topbar"><div class="shell topbar-inner"><a class="brand" href="index.html">МИИИИПС</a><nav class="nav"><a class="" href="index.html">Главная</a><a class="" href="about.html">Об институте</a><a class="" href="research.html">Исследования</a><a class="" href="publications.html">Публикации</a><a class="" href="grants-teams.html">Гранты</a><a class="active" href="conferences.html">Мероприятия</a><a class="" href="course-ei.html">Курс ЭИ</a><a class="" href="speeches-lectures.html">Выступления</a><a class="" href="news-feed.html">Новости</a><a class="" href="join.html">Поступление</a><a class="" href="accounts.html">Кабинеты</a></nav><a class="btn primary" href="join.html">Подать заявку</a></div></header>
-  <main class="shell"><section class="hero stack"><span class="eyebrow">Мероприятия и семинары</span><h1>Календарь лекций, семинаров и прикладных встреч.</h1><p class="lead">Здесь собран рабочий событийный контур института: открытые лекции, исследовательские семинары, прикладные разборы и регистрации. Логика страницы повторяет привычный событийный маршрут: список, карточка, дата, регистрация, добавление в календарь.</p></section><section style="display:grid;grid-template-columns:300px 1fr;gap:24px;align-items:start;padding-bottom:28px;"><aside class="card" style="position:sticky;top:106px;padding:22px;display:grid;gap:18px;"><div><div class="eyebrow">Фильтры</div><p>Быстрый просмотр, дата, статус и направление. На этой волне фильтры статичны, но визуально показывают будущий режим выбора событий.</p></div><div style="display:grid;gap:10px;"><strong style="font:700 12px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Вид ленты</strong><label style="display:flex;align-items:center;gap:10px;color:#51635d;"><input type="checkbox" checked disabled/> Быстрый просмотр</label></div><div style="display:grid;gap:10px;"><strong style="font:700 12px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Дата</strong><div class="card soft" style="padding:16px;box-shadow:none;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;"><span>Март–апрель 2026</span><span>◀ ▶</span></div><div style="display:grid;grid-template-columns:repeat(7,1fr);gap:6px;font-size:13px;"><div style="text-align:center;padding:10px 0;border-radius:14px;color:#60716b;">24</div><div style="text-align:center;padding:10px 0;border-radius:14px;background:#afefdd;color:#00201a;font-weight:700;">25</div><div style="text-align:center;padding:10px 0;border-radius:14px;background:#afefdd;color:#00201a;font-weight:700;">26</div><div style="text-align:center;padding:10px 0;border-radius:14px;color:#60716b;">27</div><div style="text-align:center;padding:10px 0;border-radius:14px;color:#60716b;">28</div><div style="text-align:center;padding:10px 0;border-radius:14px;color:#60716b;">29</div><div style="text-align:center;padding:10px 0;border-radius:14px;color:#60716b;">30</div></div></div></div><div style="display:grid;gap:10px;"><strong style="font:700 12px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Статус</strong><label style="display:flex;align-items:center;gap:10px;color:#51635d;"><input type="checkbox" checked disabled/> Анонс</label><label style="display:flex;align-items:center;gap:10px;color:#51635d;"><input type="checkbox" checked disabled/> Прошедшее</label></div><div style="display:grid;gap:10px;"><strong style="font:700 12px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Направление</strong><input type="text" value="Эмоциональный интеллект / ИИ / спорт" readonly style="padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#60716b;"/></div></aside><div class="stack" style="gap:18px;"><div style="display:flex;justify-content:space-between;align-items:end;gap:18px;"><div><div class="eyebrow">Результат поиска</div><h2>4 ключевых события этой волны</h2></div><p>Выбирайте карточку, открывайте детальную страницу, добавляйте событие в календарь и регистрируйтесь по email / Timepad.</p></div><article class="card" style="padding:24px;display:grid;gap:12px;"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;"><span class="badge">Анонс</span><span style="font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#7d5700;">Семинар МИИИИПС</span><span style="font-size:13px;color:#60716b;">25 марта 2026 · 17:00</span></div><h3>Линейные стохастические бандиты с точки зрения онлайн-оптимизации</h3><p><strong style="color:#12372f;">Докладчик:</strong> Юрий Дорн<br/><strong style="color:#12372f;">Оппонент/формат:</strong> Александр Тюрин</p><p>ИИ и математические методы</p><div class="hero-actions"><a class="btn primary" href="event-bandits.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=bandits">Регистрация</a></div></article><article class="card" style="padding:24px;display:grid;gap:12px;"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;"><span class="badge">Анонс</span><span style="font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#7d5700;">Публичная лекция</span><span style="font-size:13px;color:#60716b;">2 апреля 2026 · 19:00</span></div><h3>Открытая лекция Татьяны Мунн в Парке Горького</h3><p><strong style="color:#12372f;">Докладчик:</strong> Татьяна Мунн<br/><strong style="color:#12372f;">Оппонент/формат:</strong> Куратор лектория</p><p>Эмоциональный интеллект</p><div class="hero-actions"><a class="btn primary" href="event-parkgorkogo.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=parkgorkogo">Регистрация</a></div></article><article class="card" style="padding:24px;display:grid;gap:12px;"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;"><span class="badge">Анонс</span><span style="font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#7d5700;">Практический модуль</span><span style="font-size:13px;color:#60716b;">9 апреля 2026 · 11:00</span></div><h3>Корпоративный модуль: эмоциональный интеллект для переговорных и sales-команд</h3><p><strong style="color:#12372f;">Докладчик:</strong> Татьяна Мунн<br/><strong style="color:#12372f;">Оппонент/формат:</strong> —</p><p>Бизнес и коммуникация</p><div class="hero-actions"><a class="btn primary" href="event-registration.html?event=sales-lab">Подробнее</a><a class="btn secondary" href="event-registration.html?event=sales-lab">Регистрация</a></div></article><article class="card" style="padding:24px;display:grid;gap:12px;"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;"><span class="badge">Прошедшее</span><span style="font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#7d5700;">Applied demo</span><span style="font-size:13px;color:#60716b;">14 марта 2026 · 18:30</span></div><h3>AI-аналитика гребли и биомеханики: открытый разбор кейса</h3><p><strong style="color:#12372f;">Докладчик:</strong> Команда МИИИИПС<br/><strong style="color:#12372f;">Оппонент/формат:</strong> Экспертный разбор</p><p>Спорт и видеоаналитика</p><div class="hero-actions"><a class="btn primary" href="biomechanics-rowing.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=biomechanics">Регистрация</a></div></article></div></section></main>
+  <header class="topbar"><div class="shell topbar-inner"><a class="brand" href="index.html">МИИИИПС</a><nav class="nav"><a href="index.html">Главная</a><a href="about.html">Об институте</a><a href="research.html">Исследования</a><a href="publications.html">Публикации</a><a href="grants-teams.html">Гранты</a><a class="active" href="conferences.html">Мероприятия</a><a href="course-ei.html">Курс ЭИ</a><a href="speeches-lectures.html">Выступления</a><a href="news-feed.html">Новости</a><a href="join.html">Поступление</a><a href="accounts.html">Кабинеты</a></nav><a class="btn primary" href="join.html">Подать заявку</a></div></header>
+
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div>
+        <span class="eyebrow">Календарь событий</span>
+        <h1>Мероприятия института: лекции, семинары, прикладные разборы и открытые маршруты.</h1>
+        <p class="hero-lead">Страница собрана по логике AIRI, но адаптирована под МИИИИПС: слева фильтры и календарь, справа живой список событий. В одном контуре объединены конференции, выступления, публичные лекции и корпоративные модули.</p>
+        <div class="hero-actions"><a class="btn primary" href="event-registration.html?event=parkgorkogo">Зарегистрироваться</a><a class="btn secondary" href="speeches-lectures.html">Архив выступлений</a></div>
+      </div>
+      <div class="search-card">
+        <span class="eyebrow">Поиск и быстрый просмотр</span>
+        <h3 style="margin-bottom:14px;">Семинары, лекции, биомеханика, ЭИ и прикладные форматы.</h3>
+        <input type="text" value="Эмоциональный интеллект / спорт / публикации / биомеханика" readonly />
+        <p style="margin-top:14px;">На следующем шаге сюда можно встроить живой Timepad-виджет и API. Сейчас уже работает событийная логика: список → карточка → детальная страница → регистрация → календарь.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="shell layout">
+    <aside class="filters card">
+      <div>
+        <span class="kicker">Вид ленты</span>
+        <div class="filter-list"><label><input type="checkbox" checked disabled/> Быстрый просмотр</label></div>
+      </div>
+      <div>
+        <span class="kicker">Дата</span>
+        <div class="calendar">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;"><strong>Март 2026</strong><span>◀ ▶</span></div>
+          <div class="calendar-grid">
+            <span>23</span><span>24</span><span class="active">25</span><span class="active">26</span><span>27</span><span>28</span><span>29</span>
+            <span>30</span><span>31</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="kicker">Мероприятия</span>
+        <div class="filter-list">
+          <label><input type="checkbox" checked disabled/> Публичные лекции</label>
+          <label><input type="checkbox" checked disabled/> Семинары</label>
+          <label><input type="checkbox" checked disabled/> Корпоративные модули</label>
+          <label><input type="checkbox" checked disabled/> Applied demo</label>
+        </div>
+      </div>
+      <div>
+        <span class="kicker">Статус</span>
+        <div class="filter-list">
+          <label><input type="checkbox" checked disabled/> Анонс</label>
+          <label><input type="checkbox" checked disabled/> Прошедшее</label>
+        </div>
+      </div>
+      <div>
+        <span class="kicker">Направление</span>
+        <div class="filter-list">
+          <label><input type="checkbox" checked disabled/> Эмоциональный интеллект</label>
+          <label><input type="checkbox" checked disabled/> Психология</label>
+          <label><input type="checkbox" checked disabled/> Биомеханика и спорт</label>
+          <label><input type="checkbox" checked disabled/> ИИ и исследования</label>
+        </div>
+      </div>
+    </aside>
+
+    <div>
+      <div class="results-head">
+        <div>
+          <span class="kicker">Результат поиска</span>
+          <h2>События текущей волны</h2>
+        </div>
+        <p>Карточки ведут на детальную страницу события, в регистрацию по email и в файл календаря.</p>
+      </div>
+
+      <div class="results-grid">
+        <article class="event-card">
+          <div class="event-meta"><span class="event-pill">Анонс</span><span>Семинар МИИИИПС</span><span>25 марта · 17:00</span></div>
+          <div class="stack">
+            <h3 class="event-title">Линейные стохастические бандиты с точки зрения онлайн-оптимизации</h3>
+            <p class="event-summary">Рабочий семинар с привычной логикой: докладчик, оппонент, краткое описание, регистрация, .ics и детальная страница.</p>
+          </div>
+          <div class="event-people">
+            <div><span>Докладчик</span>Юрий Дорн</div>
+            <div><span>Оппонент</span>Александр Тюрин</div>
+          </div>
+          <div class="event-actions"><a class="btn primary" href="event-bandits.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=bandits">Регистрация</a><a class="btn secondary" href="assets/calendar/bandits-seminar.ics">В календарь</a></div>
+        </article>
+
+        <article class="event-card" style="background:linear-gradient(135deg, rgba(17,39,34,.98) 0%, rgba(11,93,84,.92) 100%);">
+          <div class="event-meta"><span class="event-pill">Анонс</span><span>Публичная лекция</span><span>2 апреля · 19:00</span></div>
+          <div class="stack">
+            <h3 class="event-title">Открытая лекция Татьяны Мунн в Парке Горького</h3>
+            <p class="event-summary">Публичный городской маршрут: лекция по эмоциональному интеллекту, Timepad-регистрация, Telegram-канал и отдельная карточка события.</p>
+          </div>
+          <div class="event-people">
+            <div><span>Докладчик</span>Татьяна Мунн</div>
+            <div><span>Формат</span>Открытая городская лекция</div>
+          </div>
+          <div class="event-actions"><a class="btn primary" href="event-parkgorkogo.html">Подробнее</a><a class="btn secondary" href="event-registration.html?event=parkgorkogo">Регистрация</a><a class="btn secondary" href="assets/calendar/parkgorkogo-lecture.ics">В календарь</a></div>
+        </article>
+
+        <article class="event-card" style="background:linear-gradient(135deg, rgba(20,29,53,.98) 0%, rgba(25,77,121,.92) 100%);">
+          <div class="event-meta"><span class="event-pill">Анонс</span><span>Корпоративный модуль</span><span>9 апреля · 11:00</span></div>
+          <div class="stack">
+            <h3 class="event-title">Эмоциональный интеллект для переговорных и sales-команд</h3>
+            <p class="event-summary">Формат для бизнеса: выступления, разборы для отделов продаж, устойчивость в переговорах и управляемая коммуникация.</p>
+          </div>
+          <div class="event-people">
+            <div><span>Спикер</span>Татьяна Мунн</div>
+            <div><span>Фокус</span>Переговоры и стресс</div>
+          </div>
+          <div class="event-actions"><a class="btn primary" href="event-registration.html?event=sales-lab">Запросить модуль</a><a class="btn secondary" href="contacts-partners.html">Сотрудничество</a></div>
+        </article>
+
+        <article class="event-card" style="background:linear-gradient(135deg, rgba(17,30,24,.98) 0%, rgba(77,104,49,.9) 100%);">
+          <div class="event-meta"><span class="event-pill">Прошедшее</span><span>Applied demo</span><span>14 марта · 18:30</span></div>
+          <div class="stack">
+            <h3 class="event-title">AI-аналитика гребли и биомеханики</h3>
+            <p class="event-summary">Кейс из rowing_agent: OCR эргометра, pace/SPM/watts, QC-pass и перенос видеоаналитики на фитнес, ЛФК и командные виды спорта.</p>
+          </div>
+          <div class="event-people">
+            <div><span>Команда</span>МИИИИПС</div>
+            <div><span>Маршрут</span>Спорт и прикладная аналитика</div>
+          </div>
+          <div class="event-actions"><a class="btn primary" href="biomechanics-rowing.html">Открыть кейс</a><a class="btn secondary" href="event-registration.html?event=biomechanics">Запросить разбор</a></div>
+        </article>
+      </div>
+
+      <div class="event-note">
+        <strong style="display:block;font:700 30px/1.04 Newsreader,serif;color:#12372f;margin-bottom:8px;">Что дальше</strong>
+        <p>Когда ты дашь код виджета или API token Timepad, сюда можно встроить живую регистрацию прямо на странице. Пока маршрут уже собран: список событий → карточка события → регистрация по email / Timepad → добавление в календарь.</p>
+      </div>
+    </div>
+  </main>
 
   <footer class="footer shell"><div class="contact-grid"><a class="contact-tile" href="mailto:rublevalexandermsu@gmail.com"><small>Email</small><strong>rublevalexandermsu@gmail.com</strong></a><a class="contact-tile" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a><a class="contact-tile" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>Написать организатору</strong></a><a class="contact-tile" href="https://t.me/moonn_official" target="_blank" rel="noreferrer"><small>Канал</small><strong>Новости и анонсы</strong></a></div></footer>
-
 </body>
 </html>
