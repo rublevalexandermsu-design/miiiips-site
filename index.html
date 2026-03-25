@@ -26,7 +26,7 @@
     .btn.primary { background:var(--accent); color:#fff; }
     .btn.secondary { background:transparent; color:var(--accent); border-color:rgba(18,55,47,.16); }
     .btn.ghost { background:rgba(12,77,64,.08); color:var(--accent); }
-    .hero { padding:60px 0 28px; display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:end; }
+    .hero { padding:28px 0 24px; display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:start; }
     .hero-copy { display:grid; gap:18px; }
     .eyebrow { display:inline-flex; align-items:center; gap:8px; width:max-content; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
     h1,h2,h3,h4 { font-family:Newsreader,serif; margin:0; letter-spacing:-.03em; }
@@ -113,7 +113,7 @@
 
   <main class="shell">
     <section class="hero" id="hero">
-      <div class="hero-copy">
+      <div class="hero-copy" style="padding-top:6px;">
         <span class="eyebrow">Институциональный реестр 2026</span>
         <h1>МИИИИПС — Международный институт исследований <em>искусственного интеллекта, психологии и спорта</em>.</h1>
         <p class="lead">Первая страница теперь работает как обзорный маршрут: здесь видны ценности, цифры, направления, исследования, документы и контакты. Верхнее меню ведёт по страницам сайта, а левое меню ниже — по блокам самой главной страницы.</p>
@@ -156,8 +156,8 @@
       <div class="section-stack">
         <section class="section-shell" id="values">
           <span class="eyebrow">Ценности</span>
-          <h2>Не витрина ради формы, а рабочий контур.</h2>
-          <p class="section-intro">Первая страница объясняет логику института простыми блоками. Здесь нет абстрактного “мы за всё хорошее”: каждый раздел сразу привязан к задачам, услугам, исследовательским маршрутам и видимым доказательствам работы.</p>
+          <h2>Институт показывает не лозунги, а понятные маршруты работы.</h2>
+          <p class="section-intro">Здесь собраны ценности, цифры, направления и документы, чтобы человек сразу понимал, чем занимается МИИИИПС, кто ведёт ключевые публичные форматы и где начинается контакт.</p>
           <div class="grid-3" style="margin-top:18px;">
             <article class="card metric"><h3>Evidence-first</h3><p>Публикации, аналитика движения, мероприятия и образовательные маршруты опираются на подтверждённые материалы, а не на рекламные формулировки.</p></article>
             <article class="card metric"><h3>Человеческая экспертиза</h3><p>На сайте видны не только темы, но и люди: Татьяна Мунн, публичные лекции, докладчики, оппоненты, кейсы и маршруты входа.</p></article>
@@ -220,6 +220,9 @@
           <div class="human-strip" style="margin-top:18px;">
             <article class="card">
               <div class="stack">
+                <div class="miiiips-media-surface" style="min-height:240px;">
+                  <img src="https://static.tildacdn.com/tild6265-3665-4165-a164-663432336265/tatiana_moonn_psy_36.jpg" alt="Татьяна Мунн" style="width:100%;height:240px;object-fit:cover;display:block;"/>
+                </div>
                 <h3>Публичные материалы Татьяны Мунн</h3>
                 <p>Встроили человеческий материал в ядро сайта: выступления в МГУ и филиале МГУ в Ташкенте, лекции в городских пространствах, участие в BRICS-конгрессе, Московской Неделе Интерьера и Дизайна, открытые циклы в Парке Горького и корпоративные форматы.</p>
                 <ul class="muted-list">
@@ -305,12 +308,12 @@
 
         <section class="section-shell" id="contacts">
           <span class="eyebrow">Контакты</span>
-          <h2>Выберите маршрут связи.</h2>
+          <h2>Быстрые контакты и регистрации.</h2>
           <div class="contact-grid" style="margin-top:18px;">
-            <a class="contact-card" href="mailto:rublevalexandermsu@gmail.com"><small>Email</small><strong>rublevalexandermsu@gmail.com</strong></a>
             <a class="contact-card" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a>
             <a class="contact-card" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>Быстрый вопрос</strong></a>
             <a class="contact-card" href="https://moonn.timepad.ru/event/3334362/" target="_blank" rel="noreferrer"><small>Timepad</small><strong>Публичные регистрации</strong></a>
+            <a class="contact-card" href="https://moonn.ru/" target="_blank" rel="noreferrer"><small>Сайт Татьяны Мунн</small><strong>moonn.ru</strong></a>
           </div>
           <div class="closing card soft">
             <h3>Нужны выступления, прикладной модуль или исследовательский проект?</h3>

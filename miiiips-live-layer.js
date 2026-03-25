@@ -107,6 +107,15 @@
     }
   }
 
+  function insertAfterOverview(section) {
+    const overview = document.querySelector('main .overview') || null;
+    if (overview && overview.parentNode === mainContainer()) {
+      overview.insertAdjacentElement('afterend', section);
+    } else {
+      mainContainer().appendChild(section);
+    }
+  }
+
   function combineData(base, feeds) {
     return Object.assign({}, base || {}, { liveFeeds: feeds || {} });
   }
@@ -127,7 +136,7 @@
       : '') + '<div class="miiiips-live-ticker-track">' + doubled + '</div>';
     const anchor = document.querySelector('main');
     if (anchor && anchor.parentNode) {
-      if (page === 'index.html') { insertAfterHero(host); } else { anchor.parentNode.insertBefore(host, anchor); }
+      if (page === 'index.html') { insertAfterOverview(host); } else { anchor.parentNode.insertBefore(host, anchor); }
     }
   }
 
@@ -191,7 +200,7 @@
       '</div>',
       includeVideoGrid ? '<div class="miiiips-live-grid" style="margin-top:18px;">' + buildVideoCards(data) + '</div>' : ''
     ].join('');
-    insertAfterHero(section);
+    if (page === 'index.html') { insertAfterOverview(section); } else { insertAfterHero(section); }
   }
 
   function injectSpeechPageExtras(data) {
@@ -233,7 +242,7 @@
   }
 
   function injectUpcomingLectureCard(data) {
-    const allowedPages = ['index.html', 'conferences.html', 'speeches-lectures.html'];
+    const allowedPages = ['index.html', 'speeches-lectures.html'];
     if (!allowedPages.includes(page) || document.getElementById('miiiips-upcoming-lecture')) return;
     const lecture = ((data.lectureSources || [])[0]) || null;
     if (!lecture) return;
@@ -252,7 +261,7 @@
       '</div>',
       '</div>'
     ].join('');
-    insertAfterHero(section);
+    if (page === 'index.html') { insertAfterOverview(section); } else { insertAfterHero(section); }
   }
 
   function injectDigestPrompt(data) {
@@ -323,14 +332,14 @@
     section.className = 'miiiips-live-shell miiiips-live-section';
     section.innerHTML = [
       '<div class="miiiips-live-kicker">Живые обновления</div>',
-      '<div class="miiiips-live-section-intro">Ниже три независимых потока. Каждый поток — это свой тип сигнала: публикации и журналы, лекции и конференции, регуляторика и тренды. Заголовок стоит прямо над своим набором карточек.</div>',
+      '',
       '<div class="miiiips-live-grid">',
-      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Поток 1</div><h3 class="miiiips-live-stack-title">Публикации и журналы</h3><p class="miiiips-live-stack-lead">Открытые статьи, журнальные сигналы и заметные публикационные маршруты.</p>', buildCompact(feeds.openPublications), '</div>',
-      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Поток 2</div><h3 class="miiiips-live-stack-title">Конференции и лекции</h3><p class="miiiips-live-stack-lead">Публичные лекции, выступления и ближайшие научные события по теме.</p>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
-      '<div class="miiiips-live-stack"><div class="miiiips-live-kicker">Поток 3</div><h3 class="miiiips-live-stack-title">Регуляторика и тренды</h3><p class="miiiips-live-stack-lead">Изменения в образовании, правовом поле и заметные тематические тренды.</p>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
+      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Публикации и журналы</h3><p class="miiiips-live-stack-lead">Открытые статьи, журнальные сигналы и заметные публикационные маршруты.</p>', buildCompact(feeds.openPublications), '</div>',
+      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Конференции и лекции</h3><p class="miiiips-live-stack-lead">Публичные лекции, выступления и ближайшие научные события по теме.</p>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
+      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Регуляторика и тренды</h3><p class="miiiips-live-stack-lead">Изменения в образовании, правовом поле и заметные тематические тренды.</p>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
       '</div>'
     ].join('');
-    insertAfterHero(section);
+    if (page === 'index.html') { insertAfterOverview(section); } else { insertAfterHero(section); }
   }
 
   function findBestAnswer(data, query) {
