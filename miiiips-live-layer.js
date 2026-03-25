@@ -136,7 +136,8 @@
       : '') + '<div class="miiiips-live-ticker-track">' + doubled + '</div>';
     const anchor = document.querySelector('main');
     if (anchor && anchor.parentNode) {
-      if (page === 'index.html') { insertAfterOverview(host); } else { anchor.parentNode.insertBefore(host, anchor); }
+      if (page === 'index.html') { const contacts = document.getElementById('contacts');
+      if (contacts) { contacts.insertAdjacentElement('afterend', host); } else { insertAfterOverview(host); } } else { anchor.parentNode.insertBefore(host, anchor); }
     }
   }
 
@@ -146,7 +147,6 @@
     if (contacts.telegramChannel) tiles.push('<a class="miiiips-contact-tile" href="' + safe(contacts.telegramChannel.url) + '" target="_blank" rel="noopener noreferrer"><small>Telegram-канал</small><strong>' + safe(contacts.telegramChannel.handle) + '</strong><span>Анонсы лекций и выступлений</span></a>');
     if (contacts.telegramDirect) tiles.push('<a class="miiiips-contact-tile" href="' + safe(contacts.telegramDirect.url) + '" target="_blank" rel="noopener noreferrer"><small>Личный Telegram</small><strong>' + safe(contacts.telegramDirect.handle) + '</strong><span>Вопросы по лекциям и сотрудничеству</span></a>');
     if (contacts.whatsapp) tiles.push('<a class="miiiips-contact-tile" href="' + safe(contacts.whatsapp.url) + '" target="_blank" rel="noopener noreferrer"><small>WhatsApp</small><strong>' + safe(contacts.whatsapp.phone) + '</strong><span>Быстрый контакт и уточнение деталей</span></a>');
-    if (contacts.email) tiles.push('<a class="miiiips-contact-tile" href="' + safe(contacts.email.url) + '"><small>Email</small><strong>' + safe(contacts.email.address) + '</strong><span>Письмо по программам, грантам и публикациям</span></a>');
     return tiles.join('');
   }
 
@@ -156,7 +156,7 @@
     const section = document.createElement('section');
     section.id = 'miiiips-contact-block';
     section.className = 'miiiips-live-shell miiiips-live-section';
-    section.innerHTML = '<div class="miiiips-live-kicker">Быстрая связь</div><div class="miiiips-live-card"><h3>Выберите удобный канал связи</h3><p>Чтобы пользователь не терялся между формой, лекцией и регистрацией, мы вынесли быстрые каналы отдельно: Telegram-канал для анонсов, личный Telegram и WhatsApp для уточнений, email — для деловой переписки.</p><div class="miiiips-contact-strip">' + contactTiles(data) + '</div></div>';
+    section.innerHTML = '<div class="miiiips-live-kicker">Быстрая связь</div><div class="miiiips-live-card"><h3>Выберите удобный канал связи</h3><p>Чтобы пользователь не терялся между формой, лекцией и регистрацией, мы вынесли быстрые каналы отдельно: Telegram-канал для анонсов, личный Telegram, WhatsApp и публичную регистрацию через Timepad.</p><div class="miiiips-contact-strip">' + contactTiles(data) + '</div></div>';
     const targetMain = mainContainer();
     const anchor = targetMain.querySelector('section:nth-of-type(2)') || targetMain.lastElementChild;
     if (anchor) anchor.insertAdjacentElement('afterend', section); else targetMain.appendChild(section);
@@ -311,7 +311,7 @@
       }
       statusNode.textContent = 'Сохраняем интерес и маршрут...';
       try {
-        await fetch('https://rublevalexandermsu-design.github.io/miiiips-site/assets/data/site-content.json', { cache: 'no-store' });
+        await fetch('assets/data/site-content.json', { cache: 'no-store' });
       } catch (error) {
       }
       statusNode.textContent = 'Подборка зафиксирована: тема «' + selectedTopic + '». Дальше этот маршрут можно развить в персональные письма и кабинет.';
@@ -332,11 +332,10 @@
     section.className = 'miiiips-live-shell miiiips-live-section';
     section.innerHTML = [
       '<div class="miiiips-live-kicker">Живые обновления</div>',
-      '',
       '<div class="miiiips-live-grid">',
-      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Публикации и журналы</h3><p class="miiiips-live-stack-lead">Открытые статьи, журнальные сигналы и заметные публикационные маршруты.</p>', buildCompact(feeds.openPublications), '</div>',
-      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Конференции и лекции</h3><p class="miiiips-live-stack-lead">Публичные лекции, выступления и ближайшие научные события по теме.</p>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
-      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Регуляторика и тренды</h3><p class="miiiips-live-stack-lead">Изменения в образовании, правовом поле и заметные тематические тренды.</p>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
+      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Публикации и журналы</h3>', buildCompact(feeds.openPublications), '</div>',
+      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Конференции и лекции</h3>', buildCompact((feeds.conferenceUpdates || []).concat(feeds.moonnUpdates || [])), '</div>',
+      '<div class="miiiips-live-stack"><h3 class="miiiips-live-stack-title">Регуляторика и тренды</h3>', buildCompact((feeds.educationPolicy || []).concat(feeds.psychologyTrends || [])), '</div>',
       '</div>'
     ].join('');
     if (page === 'index.html') { insertAfterOverview(section); } else { insertAfterHero(section); }
@@ -390,8 +389,8 @@
       '<div class="miiiips-support-links">',
       '<a target="_blank" rel="noopener noreferrer" href="' + safe(data.contacts.telegramDirect.url) + '">Telegram</a>',
       '<a target="_blank" rel="noopener noreferrer" href="' + safe(data.contacts.whatsapp.url) + '">WhatsApp</a>',
-      '<a href="' + safe(data.contacts.email.url) + '">Email</a>',
       '<a target="_blank" rel="noopener noreferrer" href="' + safe(data.contacts.timepad.url) + '">Timepad</a>',
+      '<a target="_blank" rel="noopener noreferrer" href="' + safe(data.contacts.website) + '">moonn.ru</a>',
       '</div>',
       '<div class="miiiips-support-chip-wrap">',
       ((data.support && data.support.faq) || []).slice(0, 8).map(function (item) { return '<button class="miiiips-support-chip" type="button" data-support-q="' + safe(item.q) + '">' + safe(item.q) + '</button>'; }).join(''),
@@ -454,7 +453,7 @@
     renderNewsPage(data);
     injectSignalBlocks(data);
     injectContactBlocks(data);
-    injectSupportWidget(data);
+    if (!supportExcludedPages.has(currentPage)) injectSupportWidget(data);
     injectDigestPrompt(data);
     enhanceMediaTreatment();
   }

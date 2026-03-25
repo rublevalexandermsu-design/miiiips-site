@@ -17,16 +17,16 @@
     main section[id] { scroll-margin-top:110px; }
     .shell { max-width:1320px; margin:0 auto; padding:0 28px; }
     .topbar { position:sticky; top:0; z-index:70; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
-    .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:nowrap; }
     .brand { font:700 50px/0.9 Newsreader,serif; color:var(--ink); text-decoration:none; letter-spacing:-.03em; }
-    .nav { display:flex; flex-wrap:wrap; gap:14px 20px; align-items:center; }
+    .nav { display:flex; flex-wrap:nowrap; gap:14px 20px; align-items:center; min-width:0; overflow:auto; scrollbar-width:none; } .nav::-webkit-scrollbar { display:none; }
     .nav a { text-decoration:none; font:700 11px/1.3 "Public Sans",sans-serif; letter-spacing:.09em; text-transform:uppercase; color:rgba(18,55,47,.68); padding-bottom:6px; border-bottom:2px solid transparent; }
     .nav a.active,.nav a:hover { color:var(--accent); border-bottom-color:var(--gold); }
     .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:14px 18px; border-radius:999px; text-decoration:none; border:1px solid transparent; font:700 12px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
     .btn.primary { background:var(--accent); color:#fff; }
     .btn.secondary { background:transparent; color:var(--accent); border-color:rgba(18,55,47,.16); }
     .btn.ghost { background:rgba(12,77,64,.08); color:var(--accent); }
-    .hero { padding:28px 0 24px; display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:start; }
+    .hero { padding:10px 0 24px; display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:start; }
     .hero-copy { display:grid; gap:18px; }
     .eyebrow { display:inline-flex; align-items:center; gap:8px; width:max-content; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
     h1,h2,h3,h4 { font-family:Newsreader,serif; margin:0; letter-spacing:-.03em; }
@@ -116,7 +116,7 @@
       <div class="hero-copy" style="padding-top:6px;">
         <span class="eyebrow">Институциональный реестр 2026</span>
         <h1>МИИИИПС — Международный институт исследований <em>искусственного интеллекта, психологии и спорта</em>.</h1>
-        <p class="lead">Первая страница теперь работает как обзорный маршрут: здесь видны ценности, цифры, направления, исследования, документы и контакты. Верхнее меню ведёт по страницам сайта, а левое меню ниже — по блокам самой главной страницы.</p>
+        <p class="lead">МИИИИПС собирает в одном контуре исследования, публичные лекции, прикладные кейсы по спорту и образовательные маршруты с реальными точками входа.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#numbers">МИИИИПС в цифрах</a>
           <a class="btn secondary" href="conferences.html">Открыть мероприятия</a>
@@ -125,7 +125,7 @@
       </div>
       <div class="stack">
         <div class="hero-image card">
-          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOcg7s9aMdg38r4pXAuhLPBl59_iFBNs6k67Fw6-j4Y1fbtrgEPfO4odCuQeFC5F_7ZQ5qAS8M8175rH0plqLhTB-tMqSheulen2QIy0XlN_7a0KCTjK9SpQSK-HZnX-GTqecYmlMhin7_yTR9JrknK3sb3-SD3KRJdA-DP7L9Q6nc7q3IxUVmU0HqWWUbE5ieIsize07LbGWtrK-YvuFwe9MP05BRumHelwIaAKfKH4S2naqcvSoABBfcfyMspXRMLzTzDDs11i3X" alt="Лабораторная сборка МИИИИПС"/>
+          <img src="assets/images/tatyana-munn/tatyana-munn-portrait-download.jpg" alt="Татьяна Мунн"/>
         </div>
         <aside class="hero-aside card">
           <div class="eyebrow" style="background:rgba(255,255,255,.16);color:#fff;">Человеческий контур</div>
@@ -219,16 +219,26 @@
           <h2>Здесь уже есть не только темы, но и кейсы.</h2>
           <div class="human-strip" style="margin-top:18px;">
             <article class="card">
-              <div class="stack">
-                <div class="miiiips-media-surface" style="min-height:240px;">
-                  <img src="https://static.tildacdn.com/tild6265-3665-4165-a164-663432336265/tatiana_moonn_psy_36.jpg" alt="Татьяна Мунн" style="width:100%;height:240px;object-fit:cover;display:block;"/>
+              <div class="stack" style="padding:24px;">
+                <div class="grid-2" style="align-items:start;gap:16px;">
+                  <div class="miiiips-media-surface" style="min-height:240px;">
+                    <img src="assets/images/tatyana-munn/tatyana-munn-balcony.jpg" alt="Татьяна Мунн на выступлении" style="width:100%;height:240px;object-fit:cover;display:block;"/>
+                  </div>
+                  <div class="stack" style="gap:12px;">
+                    <div class="miiiips-media-surface" style="min-height:112px;">
+                      <img src="assets/images/tatyana-munn/tatyana-munn-course-banner.png" alt="Анонс курса Татьяны Мунн" style="width:100%;height:112px;object-fit:cover;display:block;"/>
+                    </div>
+                    <video controls preload="metadata" style="width:100%;border-radius:18px;background:#e8eeeb;display:block;">
+                      <source src="assets/media/tatyana-munn/tatyana-munn-lecture-latest.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
                 </div>
                 <h3>Публичные материалы Татьяны Мунн</h3>
-                <p>Встроили человеческий материал в ядро сайта: выступления в МГУ и филиале МГУ в Ташкенте, лекции в городских пространствах, участие в BRICS-конгрессе, Московской Неделе Интерьера и Дизайна, открытые циклы в Парке Горького и корпоративные форматы.</p>
+                <p>В блок встроены реальные материалы: лекции в МГУ, открытые городские форматы, курс по эмоциональному интеллекту, а также короткое видео с живым выступлением.</p>
                 <ul class="muted-list">
-                  <li>лекции по психологии и эмоциональному интеллекту</li>
                   <li>университетские и городские площадки Москвы</li>
-                  <li>публичные анонсы через сайт, Telegram и Timepad</li>
+                  <li>открытые лекции, анонсы и короткие видео</li>
+                  <li>переходы в выступления, расписание и регистрацию</li>
                 </ul>
                 <div class="hero-actions">
                   <a class="btn secondary" href="speeches-lectures.html">Открыть выступления</a>

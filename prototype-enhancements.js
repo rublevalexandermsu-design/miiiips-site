@@ -393,7 +393,7 @@
       section.innerHTML = '<div class="miiiips-kicker">Заявка на участие в грантовом контуре</div><form id="miiiips-grant-form" class="miiiips-simple-form" data-miiiips-form="grant_participation"><label>Имя и фамилия<input name="name" required></label><label>Email<input name="email" type="email" required></label><label>Организация<input name="organization"></label><label>Интерес<select name="interest"><option>Подбор гранта</option><option>Войти в команду</option><option>Собственный проект</option><option>Консультация по заявке</option></select></label><label>Описание<textarea name="message" rows="5" placeholder="Опишите тему, стадию, дедлайн или желаемую роль."></textarea></label><input type="hidden" name="role" value="Участник грантового контура"><div class="miiiips-actions"><button class="miiiips-btn" type="submit">Подать грантовую заявку</button><a class="miiiips-btn secondary" href="account-coordinator.html">Кабинет координатора</a></div><div class="miiiips-form-status" data-form-status></div></form>';
       target.appendChild(section);
     }
-    if ((page === 'speeches-lectures.html' || page === 'course-ei-lectures.html' || page === 'conferences.html') && !document.getElementById('miiiips-lecture-form')) {
+    if ((page === 'speeches-lectures.html' || page === 'course-ei-lectures.html') && !document.getElementById('miiiips-lecture-form')) {
       const section = document.createElement('section');
       section.className = 'miiiips-injected';
       section.innerHTML = '<div class="miiiips-kicker">Запись на лекцию / мероприятие</div><form id="miiiips-lecture-form" class="miiiips-simple-form" data-miiiips-form="event_signup"><label>Имя и фамилия<input name="name" required></label><label>Email<input name="email" type="email" required></label><label>Формат<select name="interest"><option>Открытая лекция</option><option>Закрытая встреча</option><option>Пригласить спикера</option><option>Конференция / секция</option></select></label><label>Комментарий<textarea name="message" rows="5" placeholder="Опишите событие, тему или вопрос по участию."></textarea></label><input type="hidden" name="role" value="Участник события"><div class="miiiips-actions"><button class="miiiips-btn" type="submit">Оставить заявку</button><a class="miiiips-btn secondary" href="news-feed.html">Смотреть ленту событий</a></div><div class="miiiips-form-status" data-form-status></div></form>';
@@ -757,11 +757,15 @@
   }
 
   async function init() {
+    const currentPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    const overlayExcludedPages = new Set(['event-registration.html', 'event-bandits.html', 'event-parkgorkogo.html']);
     ensureGlobalStyles();
-    ensurePageMapExists();
-    extendPageMap();
+    if (!overlayExcludedPages.has(currentPage)) {
+      ensurePageMapExists();
+      extendPageMap();
+      injectMobileDock();
+    }
     extendTopNav();
-    injectMobileDock();
     wireDownloads();
     prepareKnownForms();
     injectAuditForm();
