@@ -39,8 +39,10 @@
     .hero-aside { min-height:100%; padding:28px; display:grid; gap:18px; align-content:space-between; background:radial-gradient(circle at top left, rgba(175,239,221,.62), transparent 40%), linear-gradient(180deg,#0c4d40 0%,#133b31 100%); color:#fff; }
     .hero-aside p { color:rgba(255,255,255,.86); }
     .hero-image { min-height:430px; border-radius:var(--radius); overflow:hidden; position:relative; }
-    .hero-image img { width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.05); opacity:.88; }
-    .hero-image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(18,55,47,.1), rgba(18,55,47,.22)); }
+    .hero-image img { width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.02) saturate(.82); opacity:.92; transition:filter .45s ease, transform .45s ease; }
+    .hero-image:hover img { filter:grayscale(.1) contrast(1.04) saturate(1.05); transform:scale(1.015); }
+    .hero-image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(18,55,47,.18), rgba(18,55,47,.28)); transition:background .45s ease; }
+    .hero-image:hover::after { background:linear-gradient(180deg, rgba(18,55,47,.08), rgba(18,55,47,.2)); }
     .hero-actions { display:flex; flex-wrap:wrap; gap:12px; }
     .overview { display:grid; grid-template-columns:260px 1fr; gap:28px; align-items:start; padding:36px 0 72px; }
     .section-nav { position:sticky; top:106px; padding:20px; background:rgba(255,255,255,.72); backdrop-filter:blur(14px); }
@@ -61,7 +63,7 @@
     .human-strip { display:grid; grid-template-columns:1.1fr .9fr; gap:18px; }
     .human-strip .card { padding:24px; }
     .partner-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
-    .partner-logo { display:flex; align-items:center; justify-content:center; min-height:96px; padding:18px; border-radius:24px; border:1px solid var(--line); background:#fff; font:700 20px/1.05 "Public Sans",sans-serif; color:#254941; box-shadow:var(--shadow); text-align:center; }
+    .partner-logo { display:flex; align-items:center; justify-content:center; min-height:96px; padding:18px; border-radius:24px; border:1px solid var(--line); background:#fff; font:700 20px/1.05 "Public Sans",sans-serif; color:#254941; box-shadow:var(--shadow); text-align:center; text-decoration:none; transition:transform .2s ease, box-shadow .2s ease, background .2s ease, color .2s ease; } .partner-logo:hover { transform:translateY(-3px); box-shadow:0 24px 44px rgba(18,55,47,.12); background:linear-gradient(180deg,#eef7f3 0%,#ffffff 100%); color:var(--accent); }
     .doc-grid, .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; }
     .doc-card, .contact-card { padding:18px; border-radius:22px; background:#fff; border:1px solid var(--line); text-decoration:none; box-shadow:var(--shadow); }
     .doc-card small, .contact-card small { display:block; margin-bottom:8px; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
@@ -125,7 +127,7 @@
       </div>
       <div class="stack">
         <div class="hero-image card">
-          <img src="assets/images/tatyana-munn/tatyana-munn-portrait-download.jpg" alt="Татьяна Мунн"/>
+          <img src="assets/images/tatyana-munn/tatyana-munn-portrait-color.jpg" alt="Татьяна Мунн"/>
         </div>
         <aside class="hero-aside card">
           <div class="eyebrow" style="background:rgba(255,255,255,.16);color:#fff;">Человеческий контур</div>
@@ -248,16 +250,33 @@
             </article>
             <article class="card soft">
               <div class="stack" style="padding:24px;">
+                <div class="grid-2" style="align-items:start;gap:16px;">
+                  <div class="miiiips-media-surface" style="min-height:240px;">
+                    <img src="assets/images/biomechanics/rowing-research-screen.png" alt="Экран проекта по биомеханике и гребле" style="width:100%;height:240px;object-fit:cover;display:block;"/>
+                  </div>
+                  <div class="stack" style="gap:12px;">
+                    <article class="card" style="padding:16px;border-radius:20px;box-shadow:none;">
+                      <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Stage</small>
+                      <strong style="display:block;font:700 28px/1.04 Newsreader,serif;color:var(--ink);margin-top:6px;">Rowing-agent / applied demo</strong>
+                      <p style="margin-top:8px;">OCR эргометра, overlay HUD, pace / SPM / watts и перенос логики на фитнес, ЛФК и командные виды спорта.</p>
+                    </article>
+                    <article class="card" style="padding:16px;border-radius:20px;box-shadow:none;">
+                      <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Next routes</small>
+                      <p style="margin-top:6px;">Фитнес-центры, восстановление, спортивные школы, футбол с внешними камерами и дронным ракурсом.</p>
+                    </article>
+                  </div>
+                </div>
                 <h3>Прикладная биомеханика и rowing analytics</h3>
-                <p>Трек по гребле уже оформлен как отдельный кейс: OCR эргометра, pace/SPM/watts, QC-pass, side-by-side видео и перенос методики на фитнес, ЛФК и футбол.</p>
+                <p>Трек по гребле теперь показан не только текстом: добавили экран проекта и развели прикладные маршруты по сегментам, чтобы было видно, как текущая логика масштабируется на фитнес, ЛФК, спортивные школы и футбол.</p>
                 <ul class="muted-list">
                   <li>2/2 QC pass на активных сессиях</li>
                   <li>overlay HUD с pace/SPM/Watts</li>
-                  <li>готовый кейс для демонстрации клиентам</li>
+                  <li>экран проекта и маршрут масштабирования по сегментам</li>
                 </ul>
                 <div class="hero-actions">
                   <a class="btn primary" href="biomechanics-rowing.html">Кейс по гребле</a>
-                  <a class="btn secondary" href="event-registration.html?event=biomechanics">Запросить разбор</a>
+                  <a class="btn secondary" href="biomechanics-rowing.html#fitness">Фитнес и ЛФК</a>
+                  <a class="btn secondary" href="biomechanics-rowing.html#football">Футбол и внешние камеры</a>
                 </div>
               </div>
             </article>
@@ -282,14 +301,14 @@
           <span class="eyebrow">Партнёры</span>
           <h2>Сотрудничество с научным сообществом, городскими площадками и прикладными клиентами.</h2>
           <div class="partner-grid" style="margin-top:18px;">
-            <div class="partner-logo">МГУ и филиалы</div>
-            <div class="partner-logo">Городские лектории</div>
-            <div class="partner-logo">Библиотеки Москвы</div>
-            <div class="partner-logo">Sales-команды</div>
-            <div class="partner-logo">Фитнес-центры</div>
-            <div class="partner-logo">ЛФК и восстановление</div>
-            <div class="partner-logo">Спортивные школы</div>
-            <div class="partner-logo">Научные редакции</div>
+            <a class="partner-logo" href="mgu-branches.html">МГУ и филиалы</a>
+            <a class="partner-logo" href="city-lecture-network.html">Городские лектории</a>
+            <a class="partner-logo" href="city-lecture-network.html#libraries">Библиотеки Москвы</a>
+            <a class="partner-logo" href="biomechanics-rowing.html#sales">Sales-команды</a>
+            <a class="partner-logo" href="biomechanics-rowing.html#fitness">Фитнес-центры</a>
+            <a class="partner-logo" href="biomechanics-rowing.html#lfk">ЛФК и восстановление</a>
+            <a class="partner-logo" href="biomechanics-rowing.html#schools">Спортивные школы</a>
+            <a class="partner-logo" href="scientific-editing.html">Научные редакции</a>
           </div>
           <div class="card metric" style="margin-top:18px;">
             <h3>Совместный проект</h3>

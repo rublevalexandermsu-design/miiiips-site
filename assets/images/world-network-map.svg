@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">Международные партнёрства МИИИИПС</title>
+<desc id="desc">Схематическая карта с узлами Москва, Ташкент, Шэньчжэнь, Женева и Сингапур.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#eff7f4"/><stop offset="100%" stop-color="#d8ebe4"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0c4d40" flood-opacity="0.16"/></filter>
+</defs>
+<rect width="1200" height="640" rx="28" fill="url(#bg)"/>
+<g fill="#c9ddd6">
+  <path d="M119 184c36-26 90-35 162-28 39 4 85 11 121 40 43 35 64 87 54 131-11 48-58 92-114 108-49 14-123 17-173-11-46-26-83-80-83-126 0-47 16-86 33-114z"/>
+  <path d="M392 160c42-34 112-58 178-56 68 1 126 14 163 48 42 39 60 83 49 124-11 43-55 82-111 103-57 22-140 26-210 10-67-16-122-60-132-111-10-52 21-91 63-118z"/>
+  <path d="M697 161c36-22 82-38 132-40 59-1 111 11 151 39 45 32 69 82 61 124-9 42-47 77-95 98-48 22-112 31-171 27-68-4-136-27-165-73-31-49-14-128 87-175z"/>
+  <path d="M925 213c31-16 66-17 98-6 39 14 74 46 86 88 12 41-1 90-34 124-33 34-84 53-132 52-44 0-88-18-115-49-24-28-35-67-26-104 9-35 39-79 123-105z"/>
+  <path d="M947 454c38-11 88-5 132 20 48 28 77 72 79 112 3 44-25 82-79 98-51 14-110 9-155-14-43-22-75-61-78-100-3-40 23-94 101-116z"/>
+</g>
+<g stroke="#0c4d40" stroke-width="4" stroke-linecap="round" opacity="0.48">
+  <path d="M604 216C563 250 525 289 488 337" fill="none"/>
+  <path d="M604 216C650 246 724 281 821 305" fill="none"/>
+  <path d="M604 216C703 247 799 354 873 486" fill="none"/>
+  <path d="M604 216C561 197 506 189 451 196" fill="none"/>
+</g>
+<g filter="url(#shadow)">
+  <g>
+    <circle cx="604" cy="216" r="13" fill="#0c4d40"/>
+    <circle cx="604" cy="216" r="28" fill="none" stroke="#0c4d40" stroke-width="3" opacity="0.25"/>
+    <text x="624" y="208" font-family="Public Sans, Arial, sans-serif" font-size="20" fill="#12372f" font-weight="700">Москва</text>
+    <text x="624" y="232" font-family="Manrope, Arial, sans-serif" font-size="16" fill="#35574f">ядро института</text>
+  </g>
+  <g>
+    <circle cx="488" cy="337" r="11" fill="#8b6417"/>
+    <text x="508" y="331" font-family="Public Sans, Arial, sans-serif" font-size="18" fill="#12372f" font-weight="700">Женева</text>
+    <text x="508" y="352" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#35574f">международный исследовательский диалог</text>
+  </g>
+  <g>
+    <circle cx="451" cy="196" r="11" fill="#29695b"/>
+    <text x="471" y="189" font-family="Public Sans, Arial, sans-serif" font-size="18" fill="#12372f" font-weight="700">Ташкент</text>
+    <text x="471" y="211" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#35574f">филиал МГУ в Узбекистане</text>
+  </g>
+  <g>
+    <circle cx="821" cy="305" r="11" fill="#29695b"/>
+    <text x="841" y="299" font-family="Public Sans, Arial, sans-serif" font-size="18" fill="#12372f" font-weight="700">Шэньчжэнь</text>
+    <text x="841" y="321" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#35574f">совместный университет MSU-BIT</text>
+  </g>
+  <g>
+    <circle cx="873" cy="486" r="11" fill="#8b6417"/>
+    <text x="893" y="479" font-family="Public Sans, Arial, sans-serif" font-size="18" fill="#12372f" font-weight="700">Сингапур</text>
+    <text x="893" y="501" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#35574f">азиатские образовательные партнёрства</text>
+  </g>
+</g>
+</svg>

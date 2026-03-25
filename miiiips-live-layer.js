@@ -33,7 +33,7 @@
       '.miiiips-live-btn.ghost{background:rgba(0,77,64,.08);color:#004d40;}',
       '.miiiips-live-note{font-size:13px;color:#54645f;margin-top:8px;}',
       '.miiiips-live-ticker{position:relative;overflow:hidden;border-top:1px solid #dbe3de;border-bottom:1px solid #dbe3de;background:linear-gradient(90deg,#f3f7f5 0%,#ffffff 50%,#f3f7f5 100%);}',
-      '.miiiips-live-ticker-track{display:flex;gap:28px;min-width:max-content;padding:12px 28px;animation:miiiipsTicker 64s linear infinite;}',
+      '.miiiips-live-ticker-track{display:flex;gap:28px;min-width:max-content;padding:12px 28px;animation:miiiipsTicker 78s linear infinite;}',
       '.miiiips-live-ticker-item{display:flex;gap:10px;align-items:center;color:#00342b;text-decoration:none;font:600 14px/1.4 Manrope,sans-serif;}',
       '.miiiips-live-ticker-item strong{font:700 11px/1.2 "Public Sans",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#7d5700;}',
       '.miiiips-live-ticker:hover .miiiips-live-ticker-track{animation-play-state:paused;}',
@@ -83,7 +83,7 @@
       '.miiiips-live-ticker-head strong{color:#00342b;font:700 13px/1.2 "Public Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase;}',
       '.miiiips-live-ticker-head span{color:#52635d;font:500 14px/1.5 Manrope,sans-serif;}',
       '.miiiips-live-section-intro{max-width:820px;margin:0 0 14px;color:#52635d;line-height:1.65;font:500 15px/1.7 Manrope,sans-serif;}',
-      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-head{padding:10px 16px 0;align-items:flex-start;flex-direction:column;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:72s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-digest-prompt{left:10px;right:10px;bottom:154px;width:auto;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-stack{padding:16px 14px;}.miiiips-live-section{padding:18px 0;}}'
+      '@media (max-width:900px){.miiiips-live-shell{padding:0 16px;}.miiiips-live-grid,.miiiips-contact-strip,.miiiips-support-links{grid-template-columns:1fr !important;}.miiiips-live-ticker-head{padding:10px 16px 0;align-items:flex-start;flex-direction:column;}.miiiips-live-ticker-track{gap:18px;padding:10px 16px;animation-duration:88s;}.miiiips-support-fab{right:14px;bottom:94px;}.miiiips-support-panel{right:10px;left:10px;bottom:154px;width:auto;max-height:64vh;}.miiiips-digest-prompt{left:10px;right:10px;bottom:154px;width:auto;}.miiiips-live-card{padding:18px;}.miiiips-live-card h3{font-size:24px;}.miiiips-live-stack{padding:16px 14px;}.miiiips-live-section{padding:18px 0;}}'
     ].join('');
     document.head.appendChild(style);
   }
@@ -123,12 +123,30 @@
   function renderTicker(data) {
     if (!['index.html', 'news-feed.html', 'speeches-lectures.html', 'course-ei-lectures.html'].includes(page)) return;
     if (document.getElementById('miiiips-live-ticker')) return;
-    const items = (data.liveFeeds && data.liveFeeds.ticker) || [];
+    const feeds = (data && data.liveFeeds) || {};
+    const items = []
+      .concat(feeds.ticker || [])
+      .concat(feeds.conferenceUpdates || [])
+      .concat(feeds.openPublications || [])
+      .concat(feeds.sportAiUpdates || [])
+      .concat(feeds.educationPolicy || [])
+      .concat(feeds.psychologyTrends || [])
+      .reduce(function (acc, item) {
+        if (!item || !item.title || !item.url) return acc;
+        var key = String(item.url) + '|' + String(item.title);
+        if (!acc._seen[key]) {
+          acc._seen[key] = true;
+          acc.push(item);
+        }
+        return acc;
+      }, Object.assign([], { _seen: {} }));
+    delete items._seen;
     if (!items.length) return;
     const host = document.createElement('section');
     host.id = 'miiiips-live-ticker';
     host.className = 'miiiips-live-ticker';
-    const doubled = items.concat(items).map(function (item) {
+    const normalizedItems = items.filter(function (item) { return item && item.title && item.url; }).slice(0, 24);
+  const doubled = normalizedItems.concat(normalizedItems).map(function (item) {
       return '<a class="miiiips-live-ticker-item" href="' + safe(item.url) + '" target="_blank" rel="noopener noreferrer"><strong>' + safe(item.source || 'Источник') + '</strong><span>' + safe(item.title) + '</span></a>';
     }).join('');
     host.innerHTML = (page === 'index.html'
