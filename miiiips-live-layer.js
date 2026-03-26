@@ -116,6 +116,19 @@
     }
   }
 
+  function insertAfterSelector(selector, section, fallback) {
+    const target = document.querySelector(selector);
+    if (target && target.parentNode) {
+      target.insertAdjacentElement('afterend', section);
+      return;
+    }
+    if (typeof fallback === 'function') {
+      fallback(section);
+    } else {
+      mainContainer().appendChild(section);
+    }
+  }
+
   function combineData(base, feeds) {
     return Object.assign({}, base || {}, { liveFeeds: feeds || {} });
   }
@@ -359,6 +372,83 @@
     if (page === 'index.html') { insertAfterOverview(section); } else { insertAfterHero(section); }
   }
 
+  function injectArchiveRegistry(data) {
+    const allowedPages = ['index.html', 'research.html', 'news-feed.html', 'contacts-partners.html', 'speeches-lectures.html'];
+    if (!allowedPages.includes(page) || document.getElementById('miiiips-archive-registry')) return;
+    const archiveStats = (((data || {}).archiveStats || {}).telegram) || {};
+    const editorial = (data && data.editorialRegistry) || {};
+    const sourceRegistry = (data && data.sourceRegistry) || {};
+    const practiceCases = (data && data.practiceCases) || [];
+    const publishNow = (editorial.publishNow || []).slice(0, 4);
+    const reportOutline = (editorial.reportOutline || []).slice(0, 5);
+    const verifiedSources = (sourceRegistry.verified || []).slice(0, 3);
+    const archiveFiltered = (sourceRegistry.archiveFiltered || []).slice(0, 2);
+    const casesHtml = practiceCases.slice(0, 3).map(function (item) {
+      return '<article class="miiiips-live-card"><div class="miiiips-live-meta">Прикладной кейс</div><h3>' + safe(item.title) + '</h3><p>' + safe(item.summary || '') + '</p><div class="miiiips-live-actions"><a class="miiiips-live-btn secondary" href="' + safe(item.link || 'research.html') + '">Открыть маршрут</a></div></article>';
+    }).join('');
+    const publishHtml = publishNow.map(function (item) {
+      return '<article class="miiiips-live-card"><div class="miiiips-live-meta">Можно публиковать сейчас</div><h3>' + safe(item.title) + '</h3><p>' + safe(item.summary || '') + '</p><div class="miiiips-live-actions"><a class="miiiips-live-btn secondary" href="' + safe(item.link || 'index.html') + '">Перейти</a></div></article>';
+    }).join('');
+    const reportHtml = reportOutline.map(function (item) {
+      return '<li><strong>' + safe(item.title) + ':</strong> ' + safe(item.summary || '') + '</li>';
+    }).join('');
+    const verifiedHtml = verifiedSources.map(function (item) {
+      return '<li><a target="_blank" rel="noopener noreferrer" href="' + safe(item.url || '#') + '">' + safe(item.title) + '</a><span>' + safe(item.summary || '') + '</span></li>';
+    }).join('');
+    const section = document.createElement('section');
+    section.id = 'miiiips-archive-registry';
+    section.className = 'miiiips-live-shell miiiips-live-section';
+    section.innerHTML = [
+      '<div class="miiiips-live-kicker">Архив и редакционный фильтр</div>',
+      '<p class="miiiips-live-section-intro">Из Telegram-архива мы не тащим всё подряд в публичную витрину. Сначала выделяем подтверждённые источники, прикладные кейсы и материал для отчёта, а внутренние ссылки и заметки оставляем в закрытом контуре.</p>',
+      '<div class="miiiips-live-grid">',
+      '<div class="miiiips-live-stack">',
+      '<h3 class="miiiips-live-stack-title">Материальный пул</h3>',
+      '<p class="miiiips-live-stack-lead">' + safe((data && data.archiveStats && data.archiveStats.note) || 'Архив Telegram уже импортирован и очищен от служебных дублей.') + '</p>',
+      '<div class="miiiips-live-card" style="padding:18px;">',
+      '<div class="miiiips-live-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">',
+      '<div><div class="miiiips-live-meta">Сообщения</div><h3>' + safe(archiveStats.messages || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Ссылки</div><h3>' + safe(archiveStats.links || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Релевантные</div><h3>' + safe(archiveStats.relevantLinks || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Внешние</div><h3>' + safe(archiveStats.externalLinks || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Фото</div><h3>' + safe(archiveStats.photos || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Видео</div><h3>' + safe(archiveStats.videos || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Файлы</div><h3>' + safe(archiveStats.files || 0) + '</h3></div>',
+      '<div><div class="miiiips-live-meta">Голос</div><h3>' + safe((archiveStats.voice || 0) + (archiveStats.audio || 0)) + '</h3></div>',
+      '</div>',
+      '<div class="miiiips-live-actions"><a class="miiiips-live-btn" href="news-feed.html">Открыть ленту</a><a class="miiiips-live-btn secondary" href="speeches-lectures.html">Лекции и выступления</a></div>',
+      '</div>',
+      '</div>',
+      '<div class="miiiips-live-stack">',
+      '<h3 class="miiiips-live-stack-title">Что уже можно включать</h3>',
+      '<p class="miiiips-live-stack-lead">Публичные материалы, которые усиливают доверие, конверсию и отчётность, без смешивания с внутренними заметками.</p>',
+      publishHtml,
+      '<ul class="miiiips-bullet-list">',
+      reportHtml,
+      '</ul>',
+      '</div>',
+      '<div class="miiiips-live-stack">',
+      '<h3 class="miiiips-live-stack-title">Проверка источников</h3>',
+      '<p class="miiiips-live-stack-lead">Публичный источник остаётся в витрине, а всё спорное уходит в внутренний фильтр и архивную очередь.</p>',
+      '<ul class="miiiips-bullet-list">',
+      verifiedHtml,
+      archiveFiltered.map(function (item) {
+        return '<li><strong>' + safe(item.title || 'Архив') + '</strong><span style="display:block;color:#52635d;">' + safe(item.summary || '') + '</span></li>';
+      }).join(''),
+      '</ul>',
+      '</div>',
+      '</div>',
+      '<div class="miiiips-live-grid" style="margin-top:18px;">',
+      casesHtml,
+      '</div>'
+    ].join('');
+    if (page === 'index.html') {
+      insertAfterSelector('#miiiips-signal-blocks', section, insertAfterOverview);
+    } else {
+      insertAfterHero(section);
+    }
+  }
+
   function findBestAnswer(data, query) {
     const faq = ((data.support || {}).faq || []);
     const normalized = (query || '').toLowerCase();
@@ -470,6 +560,7 @@
     injectSpeechPageExtras(data);
     renderNewsPage(data);
     injectSignalBlocks(data);
+    injectArchiveRegistry(data);
     injectContactBlocks(data);
     if (!supportExcludedPages.has(currentPage)) injectSupportWidget(data);
     injectDigestPrompt(data);
