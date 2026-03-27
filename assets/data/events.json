@@ -95,12 +95,16 @@
         "Эмоциональный интеллект",
         "Психология"
       ],
-      "summary": "Отдельная страница для выездного маршрута: календарь, материалы, фото и структура для последующего PDF-отчёта и публикации.",
+      "summary": "Выездной маршрут института с календарём, регистрацией и материалами на отдельной странице.",
       "detailPage": "event-gelendzhik.html",
       "registrationPage": "event-registration.html?event=gelendzhik",
       "calendarFile": "assets/calendar/gelendzhik-route.ics",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "sourcePolicy": "site_only",
+      "sourceTag": "site_page_snapshot",
+      "sourceNote": "Use only the current site page, site assets, and site text when expanding this route.",
+      "ingestProfile": "assets/data/ingest-profiles/gelendzhik.site-only.json"
     },
     {
       "id": "biomechanics",

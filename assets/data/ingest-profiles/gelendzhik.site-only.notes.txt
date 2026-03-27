@@ -1,0 +1,4 @@
+SCENARIO=site_only
+EVENT=gelendzhik
+SOURCE=event-gelendzhik.html, assets/data/events.json, site assets
+RULE=Do not enrich this route from Telegram raw folders or external archive dumps.

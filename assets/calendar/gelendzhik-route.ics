@@ -1,13 +1,32 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//MIIIIIPS//Events//RU
-BEGIN:VEVENT
-UID:gelendzhik-20260612@miiiips
-DTSTAMP:20260327T090000Z
-DTSTART:20260612T150000Z
-DTEND:20260612T173000Z
-SUMMARY:Выездной образовательный маршрут в Геленджик
-DESCRIPTION:Отдельный маршрут для календаря, страницы события и последующего годового отчёта.
-LOCATION:Геленджик
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:МИИИИПС — Геленджик
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+UID:gelendzhik-20260612@miiiips
+DTSTAMP:20260327T090000Z
+DTSTART:20260612T150000Z
+DTEND:20260612T173000Z
+SUMMARY:Выездной образовательный маршрут в Геленджик
+DESCRIPTION:Выездной образовательный маршрут в Геленджик с регистрацией, календарём и материалами события.
+LOCATION:Геленджик
+BEGIN:VALARM
+TRIGGER:-P5D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о выездном образовательном маршруте в Геленджик
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о выездном образовательном маршруте в Геленджик
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о выездном образовательном маршруте в Геленджик
+END:VALARM
+END:VEVENT
+END:VCALENDAR

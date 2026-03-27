@@ -246,7 +246,7 @@
     "publishNow": [
       {
         "title": "Выездной маршрут в Геленджик",
-        "summary": "Отдельная страница события, календарь и маршрут для будущего PDF-отчёта и публикации.",
+        "summary": "Отдельная карточка маршрута с календарём, регистрацией и материалами события.",
         "link": "event-gelendzhik.html"
       },
       {
@@ -404,5 +404,14 @@
   "visual": {
     "imageTreatment": "green-duotone-overlay",
     "note": "При замене стоковых картинок на реальные фотографии сохраняем зелёный дуотон, затемнение и мягкий градиентный блик поверх фото."
+  },
+  "ingestProfiles": {
+    "gelendzhik": {
+      "sourcePolicy": "site_only",
+      "sourceTag": "site_page_snapshot",
+      "textSource": "Website text only",
+      "assetSource": "Website assets only",
+      "note": "Do not enrich this route from Telegram raw folders or external archive dumps."
+    }
   }
 }
