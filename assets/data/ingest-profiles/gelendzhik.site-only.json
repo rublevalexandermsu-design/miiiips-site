@@ -1,19 +1,7 @@
 {
-  "id": "gelendzhik",
-  "mode": "site_only",
-  "sourceTag": "site_page_snapshot",
-  "description": "Route generation must use the current website page copy and website assets only.",
-  "allowedInputs": [
-    "title",
-    "summary",
-    "calendar",
-    "registration",
-    "site images",
-    "report outline"
-  ],
-  "blockedInputs": [
-    "telegram raw archive",
-    "telegram media folders",
-    "external downloads"
-  ]
+  "profile": "site_only",
+  "source": "https://gelendzhik.miiiips.ru/",
+  "packPath": "assets/data/ingest-profiles/gelendzhik.site-only",
+  "policy": "Only use text/images from the Gelendzhik site itself; do not merge internal Telegram or local asset folders.",
+  "status": "rebuilt"
 }

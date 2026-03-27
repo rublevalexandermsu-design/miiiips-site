@@ -3,427 +3,392 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Геленджик | МИИИИПС</title>
-  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <title>4 ДНЯ СЕБЕ — ретрит в Геленджике 15–18 июня 2026 | Татьяна Мунн</title>
+  <meta name="description" content="4 дня мягкой психологической работы, встроенной в отдых у моря: восстановление, ясность, внутренняя устойчивость и бережное возвращение к себе."/>
   <meta name="miiiips-ingest-policy" content="site_only"/>
-  <meta name="miiiips-ingest-tag" content="site_page_snapshot"/>
-  <meta name="miiiips-event-profile" content="site_only"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <style>
     :root {
-      --bg: #f7f6f1;
-      --surface: #ffffff;
-      --line: #d8ddd9;
-      --ink: #12372f;
-      --muted: #51635d;
-      --accent: #0c4d40;
-      --gold: #8b6417;
-      --shadow: 0 20px 44px rgba(18,55,47,.08);
+      --bg: #f3f0ea;
+      --surface: rgba(255,255,255,.64);
+      --text: #1c2730;
+      --muted: #667580;
+      --accent: #d7a92c;
+      --accent-2: #0e4a3e;
+      --line: rgba(28,39,48,.12);
+      --shadow: 0 20px 55px rgba(17, 28, 40, .08);
       --radius: 28px;
-      --sticky-offset: 118px;
+      --max: 1240px;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
       background: var(--bg);
-      color: var(--ink);
-      font-family: Manrope, sans-serif;
     }
-    a { color: inherit; }
-    .shell { max-width: 1280px; margin: 0 auto; padding: 0 28px; }
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      background: rgba(247,246,241,.86);
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(18,55,47,.08);
+    a { color: inherit; text-decoration: none; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+    .top {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: blur(18px);
+      background: rgba(243,240,234,.82);
+      border-bottom: 1px solid var(--line);
     }
-    .topbar-inner {
-      min-height: 84px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      flex-wrap: nowrap;
+    .top-inner {
+      min-height: 82px; display: flex; align-items: center; gap: 20px; justify-content: space-between;
     }
-    .brand {
-      font: 700 50px/0.9 Newsreader, serif;
-      color: var(--ink);
-      text-decoration: none;
-      letter-spacing: -.03em;
-    }
-    .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      gap: 14px 20px;
-      align-items: center;
-      min-width: 0;
-      overflow: auto;
-      scrollbar-width: none;
-    }
-    .nav::-webkit-scrollbar { display: none; }
-    .nav a {
-      text-decoration: none;
-      font: 700 11px/1.3 "Public Sans", sans-serif;
-      letter-spacing: .09em;
-      text-transform: uppercase;
-      color: rgba(18,55,47,.68);
-      padding-bottom: 6px;
-      border-bottom: 2px solid transparent;
-      white-space: nowrap;
-    }
-    .nav a.active,
-    .nav a:hover {
-      color: var(--accent);
-      border-bottom-color: var(--gold);
-    }
+    .brand { font: 700 28px/1 Georgia, 'Times New Roman', serif; color: var(--accent); font-style: italic; }
+    .nav { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; justify-content: center; }
+    .nav a { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: rgba(28,39,48,.72); }
+    .actions { display: flex; gap: 10px; align-items: center; }
     .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 14px 18px;
-      border-radius: 999px;
-      text-decoration: none;
-      border: 1px solid transparent;
-      font: 700 12px/1.2 "Public Sans", sans-serif;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      cursor: pointer;
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 42px; padding: 0 18px; border-radius: 999px;
+      border: 1px solid transparent; font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+      font-weight: 700;
     }
-    .btn.primary { background: var(--accent); color: #fff; }
-    .btn.secondary { background: transparent; color: var(--accent); border-color: rgba(18,55,47,.16); }
-    .hero { padding: 64px 0 36px; }
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 14px;
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: #edf4f1;
-      color: var(--accent);
-      font: 700 11px/1.2 "Public Sans", sans-serif;
-      letter-spacing: .08em;
-      text-transform: uppercase;
+    .btn.pdf { background: rgba(255,255,255,.75); border-color: rgba(28,39,48,.08); }
+    .btn.book { background: var(--accent); color: #1d2228; }
+    .hero {
+      position: relative; overflow: hidden; min-height: 96vh; display: flex; align-items: center;
+      background: url('assets/data/ingest-profiles/gelendzhik.site-only/source-images/01_hero-sea.jpg') center/cover no-repeat;
     }
-    h1,h2,h3,h4 { font-family: Newsreader, serif; margin: 0; letter-spacing: -.03em; }
-    h1 { font-size: clamp(44px, 5vw, 88px); line-height: .94; }
-    h2 { font-size: clamp(34px, 3.4vw, 60px); line-height: .98; }
-    h3 { font-size: clamp(26px, 2.1vw, 36px); line-height: 1.02; }
-    p { margin: 0; color: var(--muted); line-height: 1.75; }
-    .lead { font-size: 18px; max-width: 72ch; }
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(238, 244, 245,.64), rgba(238,244,245,.30) 42%, rgba(238,244,245,.18));
     }
-    .grid-2 { display: grid; grid-template-columns: 1.1fr .9fr; gap: 22px; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
-    .grid-4 { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; }
-    .stack { display: grid; gap: 18px; }
-    .section { padding: 34px 0; }
-    .footer {
-      margin-top: 48px;
-      padding: 28px 0 54px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 14px;
+    .hero-grid {
+      position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr .85fr; gap: 34px; align-items: center; padding: 38px 0 54px;
     }
-    .contact-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-      gap: 14px;
+    .eyebrow { display: inline-flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+    .chip {
+      display: inline-flex; align-items: center; min-height: 34px; padding: 0 16px; border-radius: 999px;
+      border: 1px solid rgba(28,39,48,.12); background: rgba(255,255,255,.45); font-size: 11px; letter-spacing: .26em; text-transform: uppercase;
     }
-    .contact-tile {
-      padding: 18px;
-      border-radius: 22px;
-      background: #fff;
-      border: 1px solid var(--line);
-      text-decoration: none;
-      box-shadow: var(--shadow);
-    }
-    .contact-tile small {
-      display: block;
-      margin-bottom: 8px;
-      color: #60716b;
-      font: 700 11px/1.2 "Public Sans", sans-serif;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .contact-tile strong {
-      display: block;
-      font: 700 25px/1.04 Newsreader, serif;
-      color: var(--ink);
-    }
-    .muted-list {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-    .metric {
-      padding: 24px;
-    }
-    .metric strong {
-      display: block;
-      font: 700 58px/.92 Newsreader, serif;
-      color: var(--ink);
-      margin-bottom: 8px;
-    }
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: #edf4f1;
-      color: var(--accent);
-      font: 700 11px/1.2 "Public Sans", sans-serif;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
-    .hero-note {
-      display: inline-flex;
-      margin-top: 12px;
-      color: #61706a;
-      font: 700 12px/1.4 "Public Sans", sans-serif;
-      letter-spacing: .04em;
-    }
-    .event-layout { display: grid; grid-template-columns: 260px minmax(0,1fr); gap: 26px; align-items: start; }
-    .event-sidebar {
-      padding: 22px;
-      position: sticky;
-      top: var(--sticky-offset);
-      display: grid;
-      gap: 18px;
-      max-height: calc(100vh - var(--sticky-offset) - 22px);
-      overflow: auto;
-    }
-    .event-main { min-width: 0; }
-    .mini-label {
-      display: block;
-      color: #60716b;
-      font: 700 11px/1.2 "Public Sans", sans-serif;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-    }
-    .mini-value {
-      display: block;
-      font: 700 22px/1.1 Newsreader, serif;
-      color: var(--ink);
-    }
-    .source-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 14px;
-      border-radius: 999px;
-      background: #f2f5f2;
-      border: 1px solid #dde6e2;
-      color: #355149;
-      font: 700 12px/1.2 "Public Sans", sans-serif;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-    }
-    @media (max-width: 1080px) {
-      .grid-4 { grid-template-columns: repeat(2,minmax(0,1fr)); }
-      .grid-3 { grid-template-columns: 1fr; }
-      .grid-2 { grid-template-columns: 1fr; }
-      .event-layout { grid-template-columns: 1fr; }
-      .event-sidebar { position: static; max-height: none; }
-      .nav { display: none; }
+    h1 { margin: 0; font: 400 clamp(52px, 6vw, 92px)/.95 Georgia, 'Times New Roman', serif; }
+    .lead { max-width: 650px; margin: 18px 0 0; font-size: clamp(20px, 2vw, 28px); line-height: 1.38; color: #3c4955; }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 24px; }
+    .pill { border: 1px solid rgba(28,39,48,.12); background: rgba(255,255,255,.55); border-radius: 999px; padding: 10px 14px; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0 24px; }
+    .cta-row .btn { min-height: 50px; padding: 0 24px; }
+    .btn.whats { background: var(--accent); }
+    .btn.secondary { background: rgba(255,255,255,.76); border-color: rgba(28,39,48,.12); }
+    .stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin-top: 28px; }
+    .stat, .card { background: rgba(255,255,255,.6); border: 1px solid rgba(28,39,48,.10); box-shadow: var(--shadow); border-radius: 24px; backdrop-filter: blur(10px); }
+    .stat { padding: 18px; min-height: 108px; display: flex; flex-direction: column; justify-content: space-between; }
+    .stat b { font: 400 36px/1 Georgia, 'Times New Roman', serif; color: var(--accent); }
+    .stat span { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #6e7b85; }
+    .hero-photo { position: relative; }
+    .hero-photo .photo-shell { position: relative; border-radius: 34px; overflow: hidden; box-shadow: var(--shadow); }
+    .hero-photo img.main { width: 100%; height: 680px; object-fit: cover; display: block; }
+    .hero-badge { position: absolute; left: 18px; top: 18px; background: rgba(243,240,234,.9); border-radius: 22px; padding: 10px 14px; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; border: 1px solid rgba(28,39,48,.08); }
+    .mini-cards { position: absolute; right: 18px; bottom: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: min(100%, 420px); }
+    .mini { background: rgba(226,230,232,.86); border: 1px solid rgba(255,255,255,.45); border-radius: 18px; padding: 14px; backdrop-filter: blur(12px); }
+    .mini .k { font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: #51606b; margin-bottom: 8px; }
+    .mini .v { font-size: 14px; line-height: 1.35; color: #34404a; }
+    section { padding: 92px 0; }
+    .two-col { display: grid; grid-template-columns: .95fr 1.05fr; gap: 26px; align-items: center; }
+    .section-title { max-width: 840px; margin: 0 0 18px; font: 400 clamp(36px, 4vw, 64px)/1.02 Georgia, 'Times New Roman', serif; }
+    .section-text { font-size: 20px; line-height: 1.6; color: #45535e; max-width: 730px; }
+    .bullet-list { margin: 18px 0 0; padding-left: 22px; color: #45535e; line-height: 1.65; }
+    .big-image { width: 100%; border-radius: 30px; overflow: hidden; box-shadow: var(--shadow); }
+    .big-image img { width: 100%; height: 560px; object-fit: cover; display: block; }
+    .tone { background: linear-gradient(180deg, rgba(255,255,255,.22), rgba(255,255,255,.08)); }
+    .cards-4 { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
+    .feature { padding: 20px; min-height: 154px; }
+    .feature h3 { margin: 0 0 10px; font: 400 24px/1.02 Georgia, 'Times New Roman', serif; }
+    .feature p { margin: 0; color: #50616d; line-height: 1.55; }
+    .gallery { display: grid; grid-template-columns: 1.1fr .9fr; gap: 18px; align-items: stretch; }
+    .gallery .left, .gallery .right { display: grid; gap: 16px; }
+    .gallery .left .card, .gallery .right .card { overflow: hidden; }
+    .gallery .left img, .gallery .right img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .days { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
+    .day { padding: 18px; min-height: 290px; overflow: hidden; position: relative; }
+    .day img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.95) contrast(.98); }
+    .day::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(17,28,40,.22)); }
+    .day .content { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+    .day .num { display: inline-flex; align-self: flex-start; border-radius: 999px; padding: 8px 14px; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; background: rgba(255,255,255,.74); }
+    .day h3 { margin: 14px 0 0; font: 400 28px/1.02 Georgia, 'Times New Roman', serif; max-width: 12ch; }
+    .day p { margin: 8px 0 0; color: #f4f7fb; line-height: 1.5; }
+    .list-card { padding: 24px; }
+    .list-card ul { margin: 0; padding-left: 20px; color: #50616d; line-height: 1.65; }
+    .accordion details { border: 1px solid rgba(28,39,48,.10); border-radius: 22px; background: rgba(255,255,255,.56); box-shadow: var(--shadow); margin-bottom: 12px; overflow: hidden; }
+    .accordion summary { cursor: pointer; list-style: none; padding: 20px 22px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; }
+    .accordion summary::-webkit-details-marker { display:none; }
+    .accordion .body { padding: 0 22px 20px; color: #50616d; line-height: 1.6; }
+    .price-box { padding: 28px; }
+    .price-line { display:flex; flex-wrap:wrap; align-items:baseline; gap: 16px; }
+    .old { text-decoration: line-through; color: #7d8a94; font-size: 28px; }
+    .new { font: 400 clamp(50px, 6vw, 82px)/1 Georgia, 'Times New Roman', serif; color: var(--accent); }
+    .footer { padding: 36px 0 52px; border-top: 1px solid rgba(28,39,48,.08); }
+    .footer-inner { display:flex; align-items:flex-end; justify-content:space-between; gap: 18px; flex-wrap:wrap; }
+    .footer .name { font: 400 30px/1 Georgia, 'Times New Roman', serif; color: var(--accent); font-style: italic; }
+    .small { color: #62707a; line-height: 1.55; max-width: 680px; }
+    @media (max-width: 1100px) {
+      .hero-grid, .two-col, .gallery, .days, .cards-4 { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .hero-photo img.main { height: 540px; }
+      .mini-cards { width: calc(100% - 36px); }
     }
     @media (max-width: 720px) {
-      .shell { padding: 0 16px; }
-      .brand { font-size: 40px; }
-      .grid-4 { grid-template-columns: 1fr; }
-      .hero { padding: 40px 0 24px; }
-      .lead { font-size: 16px; }
+      .top-inner { align-items: flex-start; padding: 14px 0; }
+      .nav { gap: 10px 14px; }
+      .actions { width: 100%; justify-content: flex-start; flex-wrap: wrap; }
+      .stats { grid-template-columns: 1fr; }
+      .hero-photo img.main { height: 460px; }
+      section { padding: 66px 0; }
+      .section-title { font-size: 34px; }
+      .section-text { font-size: 18px; }
     }
   </style>
-  <script defer src="prototype-enhancements.js"></script>
-  <script defer src="miiiips-live-layer.js"></script>
 </head>
-<body data-source-policy="site_only" data-source-tag="site_page_snapshot" data-event-profile="site_only">
-  <header class="topbar">
-    <div class="shell topbar-inner">
-      <a class="brand" href="index.html">МИИИИПС</a>
-      <nav class="nav">
-        <a href="index.html">Главная</a>
-        <a href="about.html">Об институте</a>
-        <a href="research.html">Исследования</a>
-        <a href="publications.html">Публикации</a>
-        <a href="grants-teams.html">Гранты</a>
-        <a class="active" href="conferences.html">Мероприятия</a>
-        <a href="course-ei.html">Курс ЭИ</a>
-        <a href="speeches-lectures.html">Выступления</a>
-        <a href="news-feed.html">Новости</a>
-        <a href="join.html">Поступление</a>
-        <a href="accounts.html">Кабинеты</a>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#top">Татьяна Мунн</a>
+      <nav class="nav" aria-label="Разделы">
+        <a href="#place">Место</a>
+        <a href="#audience">Для кого</a>
+        <a href="#program">Программа</a>
+        <a href="#results">Результат</a>
+        <a href="#tatiana">Татьяна</a>
+        <a href="#price">Цена</a>
       </nav>
-      <a class="btn primary" href="join.html">Подать заявку</a>
+      <div class="actions">
+        <a class="btn pdf" href="assets/data/ingest-profiles/gelendzhik.site-only/source-files/retreat-brochure.pdf">PDF</a>
+        <a class="btn book" href="https://wa.me/79181405439" target="_blank" rel="noreferrer">Забронировать</a>
+      </div>
     </div>
   </header>
 
-  <main class="shell">
-    <section class="hero event-layout">
-      <aside class="card event-sidebar">
-        <a class="btn secondary" href="conferences.html">К списку мероприятий</a>
-        <div class="stack" style="gap:10px;">
-          <div>
-            <small class="mini-label">Дата маршрута</small>
-            <strong class="mini-value">18:00 · 12.06.2026</strong>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">
+            <span class="chip">Геленджик • 15–18 июня 2026</span>
+            <span class="chip">Место силы у моря</span>
           </div>
-          <div>
-            <small class="mini-label">Докладчик</small>
-            <strong class="mini-value">Татьяна Мунн</strong>
+          <h1>4 дня себе</h1>
+          <p class="lead">Перезагрузка состояния, восстановление, ясность, внутренняя устойчивость. Глубокая, но мягкая психологическая работа, встроенная в отдых у моря.</p>
+          <div class="pill-row">
+            <span class="pill">4 дня</span>
+            <span class="pill">3–4 часа в день</span>
+            <span class="pill">Живая группа</span>
+            <span class="pill">Всё включено</span>
           </div>
-          <div>
-            <small class="mini-label">Формат</small>
-            <strong class="mini-value">Выездной маршрут</strong>
+          <div class="cta-row">
+            <a class="btn whats" href="https://wa.me/79181405439" target="_blank" rel="noreferrer">Забронировать в WhatsApp</a>
+            <a class="btn secondary" href="assets/data/ingest-profiles/gelendzhik.site-only/source-files/retreat-brochure.pdf">Скачать PDF</a>
+            <a class="btn secondary" href="#place">Место проведения</a>
           </div>
-          <div>
-            <small class="mini-label">Локация</small>
-            <strong class="mini-value">Геленджик</strong>
-          </div>
-        </div>
-        <div class="stack" style="gap:10px;">
-          <small class="mini-label">Поделиться</small>
-          <div class="hero-actions">
-            <a class="btn secondary" target="_blank" rel="noreferrer"
-               href="https://t.me/share/url?url=https://rublevalexandermsu-design.github.io/miiiips-site/event-gelendzhik.html&text=%D0%92%D1%8B%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%20%D0%B2%20%D0%93%D0%B5%D0%BB%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8%D0%BA">
-              Telegram
-            </a>
-            <a class="btn secondary" target="_blank" rel="noreferrer"
-               href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0.">
-              WhatsApp
-            </a>
+          <div class="stats">
+            <div class="stat"><b>4</b><span>дня мягкой работы</span></div>
+            <div class="stat"><b>3–4</b><span>часа в день</span></div>
+            <div class="stat"><b>12–16</b><span>участниц в группе</span></div>
+            <div class="stat"><b>60 000 ₽</b><span>стоимость тура</span></div>
           </div>
         </div>
-      </aside>
-
-      <div class="stack event-main">
-        <span class="eyebrow">Выездной маршрут</span>
-        <h1>Геленджик</h1>
-        <p class="lead">
-          На странице собраны дата маршрута, регистрация, календарь, материалы и архив события.
-        </p>
-        <div class="hero-actions">
-          <a class="btn secondary" target="_blank" rel="noreferrer"
-             href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%D0%92%D1%8B%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%20%D0%B2%20%D0%93%D0%B5%D0%BB%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8%D0%BA&amp;dates=20260612T150000Z/20260612T173000Z&amp;details=%D0%92%D1%8B%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%20%D0%9C%D0%98%D0%98%D0%98%D0%9F%D0%A1%20%D0%B2%20%D0%93%D0%B5%D0%BB%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8%D0%BA%D0%B5.&amp;location=%D0%93%D0%B5%D0%BB%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8%D0%BA">
-            Google Календарь
-          </a>
-          <a class="btn secondary" href="assets/calendar/gelendzhik-route.ics">Скачать .ics</a>
-          <a class="btn primary" href="event-registration.html?event=gelendzhik">Регистрация</a>
-        </div>
-        <p class="hero-note">Файл .ics можно импортировать в Google Календарь или Яндекс Календарь.</p>
-
-        <section class="section">
-          <span class="eyebrow">Материалы маршрута</span>
-          <div class="grid-2" style="margin-top:18px;align-items:start;">
-            <article class="card" style="padding:18px;display:grid;gap:14px;">
-              <img src="assets/images/tatyana-munn/tatyana-munn-portrait-color.jpg" alt="Татьяна Мунн" style="width:100%;height:290px;object-fit:cover;border-radius:20px;"/>
-              <img src="assets/images/tatyana-munn/tatyana-munn-cafe.jpg" alt="Рабочая встреча" style="width:100%;height:220px;object-fit:cover;border-radius:20px;"/>
-              <img src="assets/images/tatyana-munn/tatyana-munn-course-banner.png" alt="Маршрут и учебная программа" style="width:100%;height:290px;object-fit:contain;border-radius:20px;background:#f4f5f4;padding:10px;"/>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:14px;">
-              <h2 style="font-size:clamp(32px,3vw,48px);">Календарь и регистрация</h2>
-              <p>
-                Событие можно добавить в календарь, скачать в формате .ics и открыть страницу регистрации без потери контекста.
-              </p>
-              <ul class="muted-list">
-                <li>Google Календарь для быстрого добавления события;</li>
-                <li>.ics для импорта в календарь или локальный список;</li>
-                <li>регистрация по кнопке без лишних промежуточных экранов;</li>
-                <li>фото и материалы для публичной страницы и архива.</li>
-              </ul>
-              <div class="hero-actions">
-                <a class="btn secondary" href="assets/calendar/gelendzhik-route.ics">Скачать .ics</a>
-                <a class="btn secondary" href="event-registration.html?event=gelendzhik">Открыть регистрацию</a>
+        <div class="hero-photo">
+          <div class="photo-shell">
+            <img class="main" src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/06_tatiana-hero.jpg" alt="Татьяна Мунн">
+            <div class="hero-badge">Ведущая • тишина • глубина</div>
+            <div class="mini-cards">
+              <div class="mini">
+                <div class="k">Татьяна Мунн</div>
+                <div class="v">Психолог МГУ, эксперт по эмоциональному интеллекту и восстановлению внутреннего состояния.</div>
               </div>
-            </article>
+              <div class="mini">
+                <div class="k">Формат</div>
+                <div class="v">4 дня, 3–4 часа в день, живая группа, практики, обсуждения, личные инсайты.</div>
+              </div>
+            </div>
           </div>
-        </section>
-
-        <div class="grid-4" style="margin-top:8px;">
-          <article class="card metric">
-            <h3>Формат</h3>
-            <p>Выездной маршрут с отдельной страницей, календарём и регистрацией.</p>
-          </article>
-          <article class="card metric">
-            <h3>Тема</h3>
-            <p>Эмоциональный интеллект и практическая психологическая работа в публичном формате.</p>
-          </article>
-          <article class="card metric">
-            <h3>Материалы</h3>
-            <p>Фото, ссылки, календарный файл и смежные страницы сайта.</p>
-          </article>
-          <article class="card metric">
-            <h3>Архив</h3>
-            <p>Материалы удобно подшивать в годовой отчёт и общий пул публикаций.</p>
-          </article>
+          <div class="pill-row" style="margin-top:14px; justify-content:flex-end;">
+            <span class="pill">Утро</span>
+            <span class="pill">Море</span>
+            <span class="pill">Тишина</span>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <section class="section">
-          <span class="eyebrow">Пакет материалов</span>
-          <div class="grid-3" style="margin-top:18px;">
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <img src="assets/images/tatyana-munn/tatyana-munn-park-gorky-poster.png" alt="Публичный анонс" style="width:100%;height:190px;object-fit:contain;border-radius:18px;background:#f4f5f4;padding:8px;"/>
-              <h3 style="font-size:28px;">Публичный анонс</h3>
-              <p>Карточка маршрута для ленты, рассылки и быстрого перехода к событию.</p>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <img src="assets/images/tatyana-munn/tatyana-munn-certificate.png" alt="Архив и отчёт" style="width:100%;height:190px;object-fit:cover;border-radius:18px;"/>
-              <h3 style="font-size:28px;">Архив и отчёт</h3>
-              <p>Фото, ссылки и заметки складываются в общий контур для последующего отчёта.</p>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <img src="assets/images/tatyana-munn/tatyana-munn-8march-banner.png" alt="Маршрут и программа" style="width:100%;height:190px;object-fit:cover;border-radius:18px;"/>
-              <h3 style="font-size:28px;">Маршрут и программа</h3>
-              <p>План, карточки и смежные материалы удобно расширять в отдельный блок сайта.</p>
-            </article>
+    <section id="place">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="section-title">Геленджик, недалеко от моря, в доме с очень особой атмосферой</h2>
+          <p class="section-text">Это не просто локация для размещения. Это пространство, где мягкий ритм, приятные хозяева и близость к морю создают ту самую среду, в которой восстановление происходит легче и глубже.</p>
+          <div class="card list-card" style="margin-top:18px;">
+            <h3 style="margin:0 0 10px;font:400 30px/1.02 Georgia, 'Times New Roman', serif;">Почему это место работает</h3>
+            <ul>
+              <li>Море и воздух задают спокойный, восстанавливающий темп.</li>
+              <li>Дом и хозяева создают редкое ощущение бережного гостеприимства.</li>
+              <li>Пространство поддерживает тишину, глубину и мягкую трансформацию.</li>
+            </ul>
           </div>
-        </section>
+          <div class="cta-row" style="margin-top:18px;">
+            <a class="btn secondary" href="#contacts">Открыть место на карте</a>
+            <a class="btn secondary" href="https://gelendzhik.miiiips.ru/" target="_blank" rel="noreferrer">Открыть ссылку</a>
+          </div>
+        </div>
+        <div class="big-image"><img src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/02_house.jpg" alt="Дом у моря"></div>
+      </div>
+    </section>
 
-        <section class="section">
-          <span class="eyebrow">Смежные страницы</span>
-          <div class="grid-3" style="margin-top:18px;">
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <div class="badge">Анонс</div>
-              <h3 style="font-size:28px;">Лекции и выступления</h3>
-              <p>Смежная публичная лента лекций, городских площадок и Timepad-маршрутов.</p>
-              <div class="hero-actions"><a class="btn secondary" href="speeches-lectures.html">Подробнее</a></div>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <div class="badge">Курс</div>
-              <h3 style="font-size:28px;">Курс эмоционального интеллекта</h3>
-              <p>Образовательный контур с программой, материалами и страницей слушателя.</p>
-              <div class="hero-actions"><a class="btn secondary" href="course-ei-program.html">Подробнее</a></div>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <div class="badge">Новости</div>
-              <h3 style="font-size:28px;">Живая лента сайта</h3>
-              <p>Обновления, анонсы и новые материалы института в общем новостном потоке.</p>
-              <div class="hero-actions"><a class="btn secondary" href="news-feed.html">Подробнее</a></div>
-            </article>
+    <section id="audience" class="tone">
+      <div class="wrap">
+        <h2 class="section-title">Для женщин, которые хотят не просто отдохнуть, а восстановиться</h2>
+        <p class="section-text">Программа собрана для участниц 30–50 лет, которым близки забота о себе, психологическое здоровье, личностный рост и бережный способ вернуть ресурс.</p>
+        <div class="cards-4" style="margin-top:22px;">
+          <div class="card feature"><h3>Устала от перегрузки</h3><p>Если внутри слишком много обязанностей, шума и напряжения, здесь можно наконец выдохнуть и вернуть себе ритм.</p></div>
+          <div class="card feature"><h3>Хочет понять себя глубже</h3><p>Работа помогает заметить, что именно вызывает реакции, усталость, раздражение или потерю энергии.</p></div>
+          <div class="card feature"><h3>Ищет внутреннюю опору</h3><p>Формат помогает собрать внимание, снизить внутренний хаос и почувствовать стабильность без давления.</p></div>
+          <div class="card feature"><h3>Хочет не просто отдохнуть</h3><p>Это не туристическая поездка и не интенсив ради интенсивности, а отдых, который действительно восстанавливает.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="program">
+      <div class="wrap">
+        <h2 class="section-title">Мягкая глубина без давления и искусственной трансформации</h2>
+        <p class="section-text">Мы не перегружаем и не ломаем привычный ритм. Работа строится на внимании, состоянии, телесном проживании и честном психологическом контакте.</p>
+        <div class="cards-4" style="margin-top:22px;">
+          <div class="card feature"><h3>Без насилия над собой</h3><p>Никаких резких техник, обещаний мгновенной трансформации и лишнего драматизма.</p></div>
+          <div class="card feature"><h3>Через состояние и внимание</h3><p>Мы работаем с тем, как человек чувствует себя, что замечает и как возвращает ясность.</p></div>
+          <div class="card feature"><h3>Психология + тело + проживание</h3><p>Глубина появляется через сочетание разговора, мягких практик и внимательного телесного присутствия.</p></div>
+          <div class="card feature"><h3>Отдых как часть процесса</h3><p>Море, воздух, дом у моря и спокойный ритм становятся частью самой психологии восстановления.</p></div>
+        </div>
+        <div class="days" style="margin-top:24px;">
+          <div class="card day"><img src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/07_forest.jpg" alt="День 1"><div class="content"><div><div class="num">День 1</div><h3>Остановка и возвращение к себе</h3></div><p>Сбавить скорость, выйти из режима автоматизма и начать слышать себя.</p></div></div>
+          <div class="card day"><img src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/03_beach.jpg" alt="День 2"><div class="content"><div><div class="num">День 2</div><h3>Эмоции и внутреннее состояние</h3></div><p>Научиться понимать свои реакции, усталость, раздражение и скрытое напряжение.</p></div></div>
+          <div class="card day"><img src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/04_interior.jpg" alt="День 3"><div class="content"><div><div class="num">День 3</div><h3>Внутренняя опора и ясность</h3></div><p>Убрать шум, который мешает видеть себя и свой путь.</p></div></div>
+          <div class="card day"><img src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/02_house.jpg" alt="День 4"><div class="content"><div><div class="num">День 4</div><h3>Собирание себя и направление</h3></div><p>Собрать опыт, увидеть главные выводы и перевести их в действие.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="tone">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="section-title">Что будет каждый день</h2>
+          <div class="card list-card">
+            <ul>
+              <li>Понимание своих эмоций и реакций</li>
+              <li>Мягкая работа с усталостью и выгоранием</li>
+              <li>Снижение внутреннего напряжения</li>
+              <li>Восстановление энергии и ресурса</li>
+              <li>Возвращение ясности мышления</li>
+              <li>Снижение тревоги и перегрузки</li>
+              <li>Понимание, почему вы реагируете именно так</li>
+              <li>Контакт с телом и внутренним состоянием</li>
+              <li>Больше ясности и собранности</li>
+              <li>Ощущение направления и опоры</li>
+              <li>Возвращение энергии и способности действовать</li>
+            </ul>
           </div>
-        </section>
+        </div>
+        <div>
+          <h2 class="section-title">Что уносят участницы после этих четырёх дней</h2>
+          <div class="cards-4" style="grid-template-columns:1fr 1fr; margin-top:18px;">
+            <div class="card feature"><h3>Снижение тревоги и перегрузки</h3><p>Спокойнее внутренний фон и больше возможности дышать.</p></div>
+            <div class="card feature"><h3>Понимание своих реакций</h3><p>Почему вы реагируете именно так и что с этим делать бережно.</p></div>
+            <div class="card feature"><h3>Контакт с телом</h3><p>Больше собранности, внимания и чувства себя.</p></div>
+            <div class="card feature"><h3>Ощущение направления</h3><p>Не просто вдохновение, а более тихая, ясная опора.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tatiana">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="section-title">Татьяна Мунн — дипломированный психолог МГУ и эксперт по состоянию</h2>
+          <p class="section-text">Работает с тем, что действительно влияет на жизнь человека: внутренним состоянием, уровнем энергии, ясностью мышления и способностью понимать себя.</p>
+          <div class="cards-4" style="grid-template-columns:1fr; margin-top:18px;">
+            <div class="card feature"><h3>Профессиональная экспертиза и авторская методика</h3><p>Ведущая опирается на глубокую психологию, телесное внимание и работу со состоянием.</p></div>
+            <div class="card feature"><h3>Подход</h3><p>Без давления, без театральности, с уважением к внутренней реальности человека.</p></div>
+            <div class="card feature"><h3>Фокус</h3><p>Состояние, эмоции, ясность, энергия, внутренний ресурс и ощущение опоры.</p></div>
+          </div>
+        </div>
+        <div class="big-image"><img src="assets/data/ingest-profiles/gelendzhik.site-only/source-images/06_tatiana-hero.jpg" alt="Татьяна Мунн"></div>
+      </div>
+    </section>
+
+    <section id="price" class="tone">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="section-title">Лучшее предложение на четыре дня мягкой психологической перезагрузки</h2>
+          <p class="section-text">В стоимость включено почти всё: проживание, питание, все практики, встречи и консультации. Перелёт не включён.</p>
+        </div>
+        <div class="card price-box">
+          <div class="price-line"><span class="old">100 000 ₽</span><span class="new">60 000 ₽</span></div>
+          <p class="section-text" style="margin-top:10px; font-size:18px;">Это включает проживание, питание, все мероприятия, тренинги, практики, обсуждения и личные консультации с Татьяной Мунн. Прилёт и дорога оплачиваются отдельно.</p>
+          <div class="cards-4" style="grid-template-columns:1fr 1fr; margin-top:18px;">
+            <div class="card feature"><h3>Проживание</h3><p>Дом у моря и тёплая атмосфера.</p></div>
+            <div class="card feature"><h3>Питание</h3><p>Организация и забота о ритме.</p></div>
+            <div class="card feature"><h3>Практики</h3><p>Групповые обсуждения и мягкая работа.</p></div>
+            <div class="card feature"><h3>Консультации</h3><p>Личные встречи и сопровождение.</p></div>
+          </div>
+          <div class="cta-row" style="margin-top:20px;">
+            <a class="btn whats" href="https://wa.me/79181405439" target="_blank" rel="noreferrer">Забронировать в WhatsApp</a>
+            <a class="btn secondary" href="assets/data/ingest-profiles/gelendzhik.site-only/source-files/retreat-brochure.pdf">Скачать PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="accordion" id="faq">
+      <div class="wrap">
+        <h2 class="section-title" style="text-align:center; margin:0 auto 18px;">Ответы на важные вопросы</h2>
+        <p class="section-text" style="text-align:center; margin:0 auto 26px;">Собрали коротко и по делу всё, что обычно уточняют перед бронированием.</p>
+        <details open>
+          <summary>Что входит в стоимость?</summary>
+          <div class="body">Проживание, питание, все мероприятия, практики, групповые обсуждения и личные консультации. Перелёт не входит.</div>
+        </details>
+        <details>
+          <summary>Для кого этот тур?</summary>
+          <div class="body">Для женщин 30–50 лет, которым нужен не только отдых, но и восстановление, глубина и психологическая ясность.</div>
+        </details>
+        <details>
+          <summary>Насколько это интенсивно?</summary>
+          <div class="body">Формат мягкий: 3–4 часа в день. Это достаточно глубоко, но не перегружает и оставляет пространство для отдыха.</div>
+        </details>
+        <details>
+          <summary>Можно ли получить программу в PDF?</summary>
+          <div class="body">Да, по кнопке в hero и в блоке цены можно скачать красивый PDF-проспект со всей программой и условиями.</div>
+        </details>
+        <details>
+          <summary>Как забронировать место?</summary>
+          <div class="body">Нажмите «Забронировать в WhatsApp» или напишите по номеру +7 918 140-54-39.</div>
+        </details>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="card price-box" style="background: linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,.58));">
+          <h2 class="section-title" style="margin-bottom:12px;">4 дня себе — чтобы вернуться к себе спокойнее, яснее и сильнее</h2>
+          <p class="section-text">Если хочется не просто отдохнуть, а действительно восстановить состояние, это очень бережный способ сделать это в красивом месте рядом с морем.</p>
+          <div class="cta-row">
+            <a class="btn whats" href="https://wa.me/79181405439" target="_blank" rel="noreferrer">Забронировать в WhatsApp</a>
+            <a class="btn secondary" href="assets/data/ingest-profiles/gelendzhik.site-only/source-files/retreat-brochure.pdf">Скачать PDF</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer shell">
-    <div class="contact-grid">
-      <a class="contact-tile" href="https://moonn.ru/" target="_blank" rel="noreferrer"><small>Сайт</small><strong>moonn.ru</strong></a>
-      <a class="contact-tile" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a>
-      <a class="contact-tile" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>Написать организатору</strong></a>
-      <a class="contact-tile" href="https://t.me/moonn_official" target="_blank" rel="noreferrer"><small>Канал</small><strong>Новости и анонсы</strong></a>
+  <footer id="contacts" class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <div class="name">Татьяна Мунн</div>
+        <div class="small">Ретрит 4 дня себе в Геленджике. Мягкая психологическая работа, восстановление, ясность и тихая внутренняя опора.</div>
+      </div>
+      <div class="small" style="text-align:right;">
+        <div><a href="assets/data/ingest-profiles/gelendzhik.site-only/source-files/retreat-brochure.pdf" style="font-weight:700;color:var(--accent-2);">Скачать PDF-проспект</a></div>
+        <div style="margin-top:8px; letter-spacing:.2em; text-transform:uppercase; font-size:11px;">Геленджик • 15–18 июня 2026 • Группа 12–16 женщин</div>
+      </div>
     </div>
   </footer>
 </body>

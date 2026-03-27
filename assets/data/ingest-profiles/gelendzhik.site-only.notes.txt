@@ -1,4 +1,3 @@
-SCENARIO=site_only
-EVENT=gelendzhik
-SOURCE=event-gelendzhik.html, assets/data/events.json, site assets
-RULE=Do not enrich this route from Telegram raw folders or external archive dumps.
+SITE-ONLY SCENARIO
+Source: https://gelendzhik.miiiips.ru/
+Rule: Use only the site text/images for Gelendzhik pages. No internal package assets.
