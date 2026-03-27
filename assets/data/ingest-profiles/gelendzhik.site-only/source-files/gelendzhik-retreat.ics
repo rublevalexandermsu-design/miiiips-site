@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Gelendzhik Retreat//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gelendzhik-retreat-20260615@miiiips.ru
+DTSTAMP:20260327T120000Z
+SUMMARY:4 ДНЯ СЕБЕ — ретрит в Геленджике 15–18 июня 2026
+DESCRIPTION:Ретрит 4 дня себе в Геленджике. Мягкая психологическая работа, восстановление, ясность и внутренняя устойчивость.
+LOCATION:Геленджик, Россия
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260619
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P5D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о ретрите в Геленджике
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о ретрите в Геленджике
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о ретрите в Геленджике
+END:VALARM
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Ретрит начинается сегодня
+END:VALARM
+END:VEVENT
+END:VCALENDAR
