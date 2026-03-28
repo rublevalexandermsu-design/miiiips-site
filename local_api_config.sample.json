@@ -7,6 +7,12 @@
   "spreadsheet_title": "МИИИИПС — Заявки сайта",
   "sheet_name": "Заявки",
   "local_api_base": "http://127.0.0.1:3007",
+  "ollama_base_url": "http://127.0.0.1:11434",
+  "ollama_chat_model": "qwen3:1.7b",
+  "ollama_code_model": "qwen2.5-coder:1.5b",
+  "ollama_summary_model": "qwen3:1.7b",
+  "llm_bridge_host": "127.0.0.1",
+  "llm_bridge_port": 3011,
   "site_root": "C:\\пайто н тесты\\Ано_институт_глаболизация\\share\\stitch_site_prototype\\clickable_site_v1_2",
   "runtime_dir": "C:\\пайто н тесты\\Ано_институт_глаболизация\\share\\stitch_site_prototype\\clickable_site_v1_2\\runtime"
 }
