@@ -26,9 +26,18 @@ DEFAULTS = {
     'host': '127.0.0.1',
     'port': 3011,
     'ollama_base_url': 'http://127.0.0.1:11434',
-    'chat_model': 'qwen3:1.7b',
-    'code_model': 'qwen2.5-coder:1.5b',
-    'summary_model': 'qwen3:1.7b',
+    'gemini_base_url': 'https://generativelanguage.googleapis.com/v1beta',
+    'gemini_api_key': '',
+    'chat_provider': 'gemini',
+    'code_provider': 'ollama',
+    'summary_provider': 'gemini',
+    'default_provider': 'gemini',
+    'gemini_chat_model': 'gemini-2.5-flash',
+    'gemini_code_model': 'gemini-2.5-flash',
+    'gemini_summary_model': 'gemini-2.5-flash',
+    'ollama_chat_model': 'qwen3:1.7b',
+    'ollama_code_model': 'qwen2.5-coder:1.5b',
+    'ollama_summary_model': 'qwen3:1.7b',
     'num_ctx': 4096,
     'chunk_chars': 7000,
     'runtime_dir': str(RUNTIME_DIR),
@@ -80,23 +89,91 @@ def read_request_json(handler: BaseHTTPRequestHandler) -> dict[str, Any]:
 
 
 def http_post_json(url: str, payload: dict[str, Any], timeout: int = 120) -> dict[str, Any]:
-    data = json.dumps(payload).encode('utf-8')
+    return http_request_json(url, method='POST', payload=payload, timeout=timeout)
+
+
+def http_request_json(
+    url: str,
+    method: str = 'GET',
+    payload: dict[str, Any] | None = None,
+    timeout: int = 120,
+    headers: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    body = json.dumps(payload).encode('utf-8') if payload is not None else None
     request = urllib.request.Request(
         url,
-        data=data,
-        headers={'Content-Type': 'application/json'},
-        method='POST',
+        data=body,
+        headers={**({'Content-Type': 'application/json'} if payload is not None else {}), **(headers or {})},
+        method=method,
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode('utf-8'))
 
 
+def get_api_key(config: dict[str, Any], provider: str) -> str:
+    if provider == 'gemini':
+        return str(
+            config.get('gemini_api_key')
+            or os.getenv('GEMINI_API_KEY')
+            or os.getenv('GOOGLE_API_KEY')
+            or ''
+        ).strip()
+    return ''
+
+
+def resolve_provider(config: dict[str, Any], body: dict[str, Any], purpose: str) -> str:
+    provider = (
+        body.get('provider')
+        or body.get(f'{purpose}_provider')
+        or config.get(f'{purpose}_provider')
+        or config.get('default_provider')
+        or 'ollama'
+    )
+    provider = str(provider).strip().lower()
+    if provider == 'gemini' and not get_api_key(config, 'gemini'):
+        return 'ollama'
+    if provider not in {'gemini', 'ollama'}:
+        return 'ollama'
+    return provider
+
+
+def build_ollama_payload(config: dict[str, Any], body: dict[str, Any], structured: bool = False) -> dict[str, Any]:
+    model = body.get('model') or config.get('ollama_chat_model')
+    scenario = body.get('scenario') or 'general'
+    system = body.get('system') or scenario_system_prompt(scenario)
+    messages = body.get('messages')
+    prompt = body.get('prompt') or body.get('text') or ''
+
+    if not messages:
+        messages = []
+        if system:
+            messages.append({'role': 'system', 'content': system})
+        if prompt:
+            messages.append({'role': 'user', 'content': prompt})
+    elif system:
+        first_is_system = bool(messages) and messages[0].get('role') == 'system'
+        if not first_is_system:
+            messages = [{'role': 'system', 'content': system}] + list(messages)
+
+    options = {'num_ctx': int(body.get('num_ctx') or config.get('num_ctx', 4096))}
+    temperature = body.get('temperature')
+    if temperature is not None:
+        options['temperature'] = temperature
+
+    payload = {
+        'model': model,
+        'messages': messages,
+        'stream': False,
+        'options': options,
+    }
+    if structured:
+        payload['format'] = 'json'
+    return payload
+
 def get_ollama_models(config: dict[str, Any]) -> list[dict[str, Any]]:
     base_url = config['ollama_base_url'].rstrip('/')
     try:
-        request = urllib.request.Request(f'{base_url}/api/tags', method='GET')
-        with urllib.request.urlopen(request, timeout=30) as response:
-            payload = json.loads(response.read().decode('utf-8'))
+        payload = http_request_json(f'{base_url}/api/tags', method='GET', timeout=30)
     except Exception:
         return []
     return payload.get('models', [])
@@ -152,8 +229,23 @@ def scenario_system_prompt(scenario: str) -> str:
     return prompts.get(scenario, prompts['general'])
 
 
-def build_chat_payload(config: dict[str, Any], body: dict[str, Any], structured: bool = False) -> dict[str, Any]:
-    model = body.get('model') or config.get('chat_model')
+def ollama_chat(config: dict[str, Any], body: dict[str, Any], structured: bool = False) -> dict[str, Any]:
+    base_url = config['ollama_base_url'].rstrip('/')
+    payload = build_ollama_payload(config, body, structured=structured)
+    raw = http_post_json(f'{base_url}/api/chat', payload, timeout=int(body.get('timeout') or 180))
+    message = raw.get('message', {})
+    content = message.get('content', '')
+    result = {
+        'model': payload['model'],
+        'content': content,
+        'raw': raw,
+    }
+    if structured:
+        result['parsed'] = parse_jsonish(content)
+    return result
+
+
+def build_gemini_messages(config: dict[str, Any], body: dict[str, Any]) -> tuple[str, list[dict[str, Any]], str]:
     scenario = body.get('scenario') or 'general'
     system = body.get('system') or scenario_system_prompt(scenario)
     messages = body.get('messages')
@@ -161,41 +253,74 @@ def build_chat_payload(config: dict[str, Any], body: dict[str, Any], structured:
 
     if not messages:
         messages = []
-        if system:
-            messages.append({'role': 'system', 'content': system})
         if prompt:
             messages.append({'role': 'user', 'content': prompt})
-    elif system:
-        first_is_system = bool(messages) and messages[0].get('role') == 'system'
-        if not first_is_system:
-            messages = [{'role': 'system', 'content': system}] + list(messages)
 
-    options = {
-        'num_ctx': int(body.get('num_ctx') or config.get('num_ctx', 4096)),
-    }
+    system_parts: list[str] = []
+    contents: list[dict[str, Any]] = []
+    for message in messages:
+        role = str(message.get('role', 'user')).lower()
+        content = message.get('content', '')
+        if isinstance(content, list):
+            content = '\n'.join(str(item) for item in content)
+        elif isinstance(content, dict):
+            content = json.dumps(content, ensure_ascii=False)
+        content = str(content).strip()
+        if not content:
+            continue
+        if role == 'system':
+            system_parts.append(content)
+            continue
+        gem_role = 'model' if role in {'assistant', 'model'} else 'user'
+        contents.append({'role': gem_role, 'parts': [{'text': content}]})
+
+    if system:
+        system_parts.insert(0, system)
+    system_instruction = '\n\n'.join(part for part in system_parts if part).strip()
+    model = str(body.get('model') or config.get('gemini_chat_model') or 'gemini-2.5-flash')
+    return system_instruction, contents, model
+
+
+def gemini_chat(config: dict[str, Any], body: dict[str, Any], structured: bool = False) -> dict[str, Any]:
+    api_key = get_api_key(config, 'gemini')
+    if not api_key:
+        raise urllib.error.URLError('missing Gemini API key')
+
+    base_url = str(config.get('gemini_base_url') or 'https://generativelanguage.googleapis.com/v1beta').rstrip('/')
+    system_instruction, contents, model = build_gemini_messages(config, body)
+    generation_config: dict[str, Any] = {}
     temperature = body.get('temperature')
     if temperature is not None:
-        options['temperature'] = temperature
-
-    payload = {
-        'model': model,
-        'messages': messages,
-        'stream': False,
-        'options': options,
-    }
+        generation_config['temperature'] = temperature
     if structured:
-        payload['format'] = 'json'
-    return payload
+        generation_config['responseMimeType'] = 'application/json'
 
+    payload: dict[str, Any] = {'contents': contents}
+    if system_instruction:
+        payload['system_instruction'] = {'parts': [{'text': system_instruction}]}
+    if generation_config:
+        payload['generationConfig'] = generation_config
 
-def ollama_chat(config: dict[str, Any], body: dict[str, Any], structured: bool = False) -> dict[str, Any]:
-    base_url = config['ollama_base_url'].rstrip('/')
-    payload = build_chat_payload(config, body, structured=structured)
-    raw = http_post_json(f'{base_url}/api/chat', payload, timeout=int(body.get('timeout') or 180))
-    message = raw.get('message', {})
-    content = message.get('content', '')
+    raw = http_request_json(
+        f'{base_url}/models/{model}:generateContent',
+        method='POST',
+        payload=payload,
+        timeout=int(body.get('timeout') or 180),
+        headers={'x-goog-api-key': api_key},
+    )
+    candidates = raw.get('candidates') or []
+    content = ''
+    if candidates:
+        candidate_content = candidates[0].get('content') or {}
+        parts = candidate_content.get('parts') or []
+        texts: list[str] = []
+        for part in parts:
+            text = part.get('text')
+            if text:
+                texts.append(str(text))
+        content = '\n'.join(texts).strip()
     result = {
-        'model': payload['model'],
+        'model': model,
         'content': content,
         'raw': raw,
     }
@@ -225,7 +350,11 @@ def compact_text(config: dict[str, Any], body: dict[str, Any]) -> dict[str, Any]
     text = (body.get('text') or body.get('prompt') or '').strip()
     goal = body.get('goal') or 'Compress this content for later retrieval.'
     scenario = body.get('scenario') or 'general'
-    model = body.get('model') or config.get('summary_model') or config.get('chat_model')
+    provider = resolve_provider(config, body, 'summary')
+    if provider == 'gemini':
+        model = body.get('model') or config.get('gemini_summary_model') or config.get('gemini_chat_model')
+    else:
+        model = body.get('model') or config.get('ollama_summary_model') or config.get('ollama_chat_model')
     chunk_chars = int(body.get('chunk_chars') or config.get('chunk_chars', 7000))
 
     if not text:
@@ -248,13 +377,15 @@ def compact_text(config: dict[str, Any], body: dict[str, Any]) -> dict[str, Any]
         - next_actions
         Keep dates, names, URLs, and ids.
         ''').strip()
-        chunk_result = ollama_chat(config, {
+        chunk_body = {
             'model': model,
             'scenario': scenario,
             'prompt': prompt,
             'num_ctx': body.get('num_ctx') or config.get('num_ctx', 4096),
             'temperature': body.get('temperature', 0.2),
-        }, structured=True)
+            'provider': provider,
+        }
+        chunk_result = gemini_chat(config, chunk_body, structured=True) if provider == 'gemini' else ollama_chat(config, chunk_body, structured=True)
         parsed = chunk_result.get('parsed')
         if isinstance(parsed, dict):
             summaries.append(json.dumps(parsed, ensure_ascii=False))
@@ -291,6 +422,14 @@ def compact_text(config: dict[str, Any], body: dict[str, Any]) -> dict[str, Any]
         'prompt': final_prompt,
         'num_ctx': body.get('num_ctx') or config.get('num_ctx', 4096),
         'temperature': body.get('temperature', 0.2),
+        'provider': provider,
+    }, structured=True) if provider == 'ollama' else gemini_chat(config, {
+        'model': model,
+        'scenario': scenario,
+        'prompt': final_prompt,
+        'num_ctx': body.get('num_ctx') or config.get('num_ctx', 4096),
+        'temperature': body.get('temperature', 0.2),
+        'provider': provider,
     }, structured=True)
     return {
         'ok': True,
@@ -305,7 +444,11 @@ def task_card(config: dict[str, Any], body: dict[str, Any]) -> dict[str, Any]:
     if not text:
         return {'ok': False, 'error': 'empty_text'}
     scenario = body.get('scenario') or 'general'
-    model = body.get('model') or config.get('summary_model') or config.get('chat_model')
+    provider = resolve_provider(config, body, 'task_card')
+    if provider == 'gemini':
+        model = body.get('model') or config.get('gemini_summary_model') or config.get('gemini_chat_model')
+    else:
+        model = body.get('model') or config.get('ollama_summary_model') or config.get('ollama_chat_model')
     policy = body.get('source_policy') or 'use_task_assets_only_if_relevant'
 
     prompt = textwrap.dedent(f'''
@@ -328,13 +471,15 @@ def task_card(config: dict[str, Any], body: dict[str, Any]) -> dict[str, Any]:
 
     Keep it concise, practical, and in Russian.
     ''').strip()
-    result = ollama_chat(config, {
+    task_body = {
         'model': model,
         'scenario': scenario,
         'prompt': prompt,
         'num_ctx': body.get('num_ctx') or config.get('num_ctx', 4096),
         'temperature': body.get('temperature', 0.2),
-    }, structured=True)
+        'provider': provider,
+    }
+    result = gemini_chat(config, task_body, structured=True) if provider == 'gemini' else ollama_chat(config, task_body, structured=True)
     return {
         'ok': True,
         'model': model,
@@ -372,16 +517,34 @@ class BridgeHandler(BaseHTTPRequestHandler):
                 'ok': True,
                 'time': datetime.now().isoformat(timespec='seconds'),
                 'bridge': 'llm_bridge',
-                'ollama_base_url': self.config['ollama_base_url'],
+                'providers': {
+                    'chat': self.config.get('chat_provider', self.config.get('default_provider', 'ollama')),
+                    'code': self.config.get('code_provider', self.config.get('default_provider', 'ollama')),
+                    'summary': self.config.get('summary_provider', self.config.get('default_provider', 'ollama')),
+                },
                 'default_models': {
-                    'chat': self.config['chat_model'],
-                    'code': self.config['code_model'],
-                    'summary': self.config['summary_model'],
+                    'chat': self.config.get('gemini_chat_model') if self.config.get('chat_provider', 'gemini') == 'gemini' else self.config.get('ollama_chat_model'),
+                    'code': self.config.get('gemini_code_model') if self.config.get('code_provider', 'ollama') == 'gemini' else self.config.get('ollama_code_model'),
+                    'summary': self.config.get('gemini_summary_model') if self.config.get('summary_provider', 'gemini') == 'gemini' else self.config.get('ollama_summary_model'),
                 },
             })
         if path == '/api/models':
-            models = get_ollama_models(self.config)
-            return json_response(self, {'ok': True, 'models': models})
+            ollama_models = get_ollama_models(self.config)
+            gemini_models: list[dict[str, Any]] = []
+            try:
+                api_key = get_api_key(self.config, 'gemini')
+                if api_key:
+                    gemini_models = http_request_json(
+                        f"{str(self.config.get('gemini_base_url') or 'https://generativelanguage.googleapis.com/v1beta').rstrip('/')}/models",
+                        method='GET',
+                        timeout=30,
+                        headers={'x-goog-api-key': api_key},
+                    ).get('models', [])
+            except Exception:
+                gemini_models = []
+            combined = ([{'provider': 'ollama', **m} for m in ollama_models] +
+                        [{'provider': 'gemini', **m} for m in gemini_models])
+            return json_response(self, {'ok': True, 'models': combined, 'ollama_models': ollama_models, 'gemini_models': gemini_models})
         self.send_error(HTTPStatus.NOT_FOUND, 'Unknown API endpoint')
 
     def do_POST(self):
@@ -393,6 +556,9 @@ class BridgeHandler(BaseHTTPRequestHandler):
 
         try:
             if path == '/api/chat':
+                provider = resolve_provider(self.config, body, 'chat')
+                if provider == 'gemini':
+                    return json_response(self, {'ok': True, **gemini_chat(self.config, body, structured=False)})
                 return json_response(self, {'ok': True, **ollama_chat(self.config, body, structured=False)})
             if path == '/api/compact':
                 return json_response(self, compact_text(self.config, body))
@@ -400,7 +566,11 @@ class BridgeHandler(BaseHTTPRequestHandler):
                 return json_response(self, task_card(self.config, body))
             if path == '/api/code':
                 body = dict(body)
-                body['model'] = body.get('model') or self.config.get('code_model')
+                provider = resolve_provider(self.config, body, 'code')
+                if provider == 'gemini':
+                    body['model'] = body.get('model') or self.config.get('gemini_code_model')
+                    return json_response(self, {'ok': True, **gemini_chat(self.config, body, structured=False)})
+                body['model'] = body.get('model') or self.config.get('ollama_code_model')
                 return json_response(self, {'ok': True, **ollama_chat(self.config, body, structured=False)})
         except urllib.error.URLError as exc:
             return json_response(self, {'ok': False, 'error': f'ollama_error: {exc}'}, HTTPStatus.BAD_GATEWAY)
