@@ -51,6 +51,32 @@
       "theme": "teal"
     },
     {
+      "id": "psychology-znakomstv",
+      "title": "Психология знакомств",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-03-23T19:00:00+03:00",
+      "venue": "Лекторий Парка Горького",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Психология отношений и знакомств",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Понедельничная лекция о знакомствах и отношениях. Материалы собраны в архивный пакет и подготовлены для дальнейшего разбора и публикации.",
+      "detailPage": "event-psychology-znakomstv.html",
+      "registrationPage": "event-registration.html?event=psychology-znakomstv",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
+    },
+    {
       "id": "sales-lab",
       "title": "Эмоциональный интеллект для переговорных и sales-команд",
       "type": "corporate_module",
