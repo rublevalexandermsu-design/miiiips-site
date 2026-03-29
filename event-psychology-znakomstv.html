@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Психология знакомств | МИИИИПС</title>
+  <title>Психология первого контакта: механика знакомства и доверия | МИИИИПС</title>
   <meta name="x-local-prototype" content="clickable-site-v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -34,6 +34,7 @@
     .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
     .grid-2 { display:grid; grid-template-columns:1.1fr .9fr; gap:22px; }
     .grid-3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    .grid-4 { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; }
     .stack { display:grid; gap:18px; }
     .section { padding:34px 0; }
     .footer { margin-top:48px; padding:28px 0 54px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
@@ -49,6 +50,7 @@
     .event-sidebar{padding:22px;position:sticky;top:var(--sticky-offset);display:grid;gap:18px;max-height:calc(100vh - var(--sticky-offset) - 22px);overflow:auto}
     .event-main{min-width:0}
     @media (max-width: 1080px) {
+      .grid-4{grid-template-columns:repeat(2,minmax(0,1fr));}
       .grid-3{grid-template-columns:1fr;}
       .grid-2{grid-template-columns:1fr;}
       .nav{display:none;}
@@ -100,8 +102,12 @@
             <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Татьяна Мунн</strong>
           </div>
           <div>
+            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Тема</small>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Психология первого контакта: механика знакомства и доверия</strong>
+          </div>
+          <div>
             <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Формат</small>
-            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Психология отношений и знакомств</strong>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Публичная лекция</strong>
           </div>
           <div>
             <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Площадка</small>
@@ -111,71 +117,61 @@
         <div class="card" style="padding:16px;">
           <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Статус</small>
           <strong style="display:block;font:700 22px/1.1 Newsreader,serif;margin-top:6px;">Прошедшее событие</strong>
-          <p style="margin-top:10px;">Лекция уже состоялась, и страница сохраняет её как часть архивного маршрута института.</p>
         </div>
       </aside>
 
       <div class="stack event-main">
         <span class="eyebrow">Понедельничная лекция</span>
-        <h1>Психология знакомств</h1>
-        <p class="lead">Открытая лекция о первом контакте, спокойной уверенности и бережном диалоге. В центре разговора — то, как знакомиться естественно, без лишнего напряжения, и как сохранять тёплый тон общения.</p>
+        <h1>Психология первого контакта: механика знакомства и доверия</h1>
+        <p class="lead">Лекция была посвящена психологическим механизмам первого контакта: как формируется доверие, почему первое впечатление складывается из слов, пауз, интонаций и невербальных сигналов, и как сохранять бережный темп знакомства без лишнего давления.</p>
         <div class="hero-actions">
           <a class="btn secondary" href="conferences.html">К списку мероприятий</a>
-          <a class="btn primary" href="#materials">К материалам</a>
+          <a class="btn primary" href="#topics">К ключевым темам</a>
         </div>
 
         <div class="grid-2" style="margin-top:18px;align-items:start;">
           <article class="card" style="padding:18px;display:grid;gap:14px;">
-            <img src="assets/images/lectures/psychology-znakomstv-photo.jpg" alt="Лекция Психология знакомств" style="width:100%;height:320px;object-fit:cover;border-radius:20px;"/>
+            <img src="assets/images/lectures/psychology-znakomstv-photo.jpg" alt="Лекция Психология первого контакта: механика знакомства и доверия" style="width:100%;height:320px;object-fit:cover;border-radius:20px;"/>
           </article>
           <article class="card" style="padding:18px;display:grid;gap:14px;">
             <span class="badge">О встрече</span>
-            <h3>Что обсуждали</h3>
-            <p>На лекции говорили о первом впечатлении, о том, как начинать разговор без лишнего напряжения и как поддерживать естественный темп общения.</p>
-            <p>Отдельно разобрали несколько опорных тем: уверенность в контакте, уважение к границам собеседника, спокойный диалог и умение слышать другого человека.</p>
+            <h3>О психологическом контексте встречи</h3>
+            <p>Встреча была выстроена как разговор о первых этапах общения: о том, как человек считывает намерение собеседника, какие поведенческие маркеры создают ощущение надёжности и почему доверие рождается не мгновенно, а через устойчивый, спокойный и уважительный контакт.</p>
+            <p>Отдельный акцент был сделан на темпе сближения, роли личных границ и способности сохранять уважительный тон даже в ситуации неопределённости. Именно этот уровень общения делает знакомство не случайной реакцией, а осознанным и психологически устойчивым процессом.</p>
           </article>
         </div>
 
-        <section class="section" id="materials">
-          <span class="eyebrow">Материалы события</span>
-          <div class="grid-3" style="margin-top:18px;">
-            <article class="card metric">
-              <h3>Фото события</h3>
-              <p>Основной снимок лекции, который помогает быстро вспомнить атмосферу и формат встречи.</p>
-            </article>
-            <article class="card metric">
-              <h3>Аудиозапись</h3>
-              <p>Запись лекции можно переслушать и при необходимости использовать для конспекта или расшифровки.</p>
-            </article>
-            <article class="card metric">
-              <h3>Архив института</h3>
-              <p>Страница сохраняется как часть архивного маршрута и может использоваться в подборках, отчётах и обзорах.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section">
-          <span class="eyebrow">Ключевые темы</span>
+        <section class="section" id="topics">
+          <span class="eyebrow">Ключевые положения</span>
           <div class="grid-4" style="margin-top:18px;">
-            <article class="card metric"><strong>1</strong><h3 style="font-size:28px;">Первый контакт</h3><p>Как начать знакомство спокойно и без лишнего давления.</p></article>
-            <article class="card metric"><strong>2</strong><h3 style="font-size:28px;">Уверенность</h3><p>Какие внутренние опоры помогают чувствовать себя свободнее.</p></article>
-            <article class="card metric"><strong>3</strong><h3 style="font-size:28px;">Тёплый диалог</h3><p>Как поддерживать естественную и уважительную беседу.</p></article>
-            <article class="card metric"><strong>4</strong><h3 style="font-size:28px;">Личные границы</h3><p>Почему бережный темп разговора важен для доверия.</p></article>
+            <article class="card metric"><strong>1</strong><h3 style="font-size:28px;">Первый контакт</h3><p>Как формируется первичная оценка собеседника и почему ранние сигналы общения оказываются особенно значимыми.</p></article>
+            <article class="card metric"><strong>2</strong><h3 style="font-size:28px;">Темп доверия</h3><p>Почему доверие возникает постепенно и требует бережного, ненавязчивого развития контакта.</p></article>
+            <article class="card metric"><strong>3</strong><h3 style="font-size:28px;">Границы общения</h3><p>Почему уважение к границам делает диалог более устойчивым, спокойным и предсказуемым.</p></article>
+            <article class="card metric"><strong>4</strong><h3 style="font-size:28px;">Эмоциональная устойчивость в диалоге</h3><p>Какие внутренние опоры помогают сохранять ясность, естественность и внимательность к собеседнику.</p></article>
           </div>
         </section>
 
         <section class="section">
-          <span class="eyebrow">Больше интересного</span>
+          <span class="eyebrow">Смысл лекции</span>
+          <div class="grid-3" style="margin-top:18px;">
+            <article class="card metric"><h3>Контакт и внимание</h3><p>Знакомство начинается с внимания к собеседнику: устойчивого интереса, наблюдательности и умения слышать ответ.</p></article>
+            <article class="card metric"><h3>Диалог и согласование темпа</h3><p>Спокойная речь, ясные вопросы и согласованный темп помогают выстроить живое и психологически безопасное общение.</p></article>
+            <article class="card metric"><h3>Итог</h3><p>Чем бережнее и точнее человек ведёт разговор, тем естественнее складывается доверие и становится возможен дальнейший контакт.</p></article>
+          </div>
+        </section>
+
+        <section class="section">
+          <span class="eyebrow">Связанные маршруты</span>
           <div class="grid-3" style="margin-top:18px;">
             <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
               <div class="badge">Анонс</div>
-              <h3 style="font-size:28px;">Линейные стохастические бандиты</h3>
+              <h3 style="font-size:28px;">Линейные стохастические бандиты с точки зрения онлайн-оптимизации</h3>
               <p>25 марта · семинар по онлайн-оптимизации</p>
               <div class="hero-actions"><a class="btn secondary" href="event-bandits.html">Подробнее</a></div>
             </article>
             <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
               <div class="badge">Анонс</div>
-              <h3 style="font-size:28px;">Открытая лекция в Парке Горького</h3>
+              <h3 style="font-size:28px;">Открытая понедельничная лекция в городском лектории</h3>
               <p>Татьяна Мунн · 2 апреля · публичный лекторий</p>
               <div class="hero-actions"><a class="btn secondary" href="event-parkgorkogo.html">Подробнее</a></div>
             </article>

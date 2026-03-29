@@ -52,7 +52,7 @@
     },
     {
       "id": "psychology-znakomstv",
-      "title": "Психология знакомств",
+      "title": "Психология первого контакта: механика знакомства и доверия",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
       "status": "past",
@@ -60,7 +60,7 @@
       "start": "2026-03-23T19:00:00+03:00",
       "venue": "Лекторий Парка Горького",
       "speaker": "Татьяна Мунн",
-      "opponent": "Психология отношений и знакомств",
+      "opponent": "Психология общения и первого контакта",
       "directions": [
         "emotional_intelligence",
         "psychology"
@@ -69,7 +69,7 @@
         "Эмоциональный интеллект",
         "Психология"
       ],
-      "summary": "Открытая понедельничная лекция о первом контакте, спокойной уверенности и бережном диалоге.",
+      "summary": "Лекция о первом впечатлении, темпе сближения, личных границах и спокойном формировании доверия.",
       "detailPage": "event-psychology-znakomstv.html",
       "registrationPage": "event-registration.html?event=psychology-znakomstv",
       "calendarFile": "",
