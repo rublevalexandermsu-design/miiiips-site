@@ -51,27 +51,25 @@
       "theme": "teal"
     },
     {
-      "id": "psychology-znakomstv",
-      "title": "Психология первого контакта: механика знакомства и доверия",
+      "id": "psychology-men",
+      "title": "Психология мужчины: механика доверия и общения",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
       "status": "past",
       "statusLabel": "Прошедшее",
-      "start": "2026-03-23T19:00:00+03:00",
+      "start": "2026-02-23T19:00:00+03:00",
       "venue": "Лекторий Парка Горького",
       "speaker": "Татьяна Мунн",
-      "opponent": "Психология общения и первого контакта",
+      "opponent": "Психология мужской коммуникации",
       "directions": [
-        "emotional_intelligence",
         "psychology"
       ],
       "directionLabels": [
-        "Эмоциональный интеллект",
         "Психология"
       ],
-      "summary": "Лекция о первом впечатлении, темпе сближения, личных границах и спокойном формировании доверия.",
-      "detailPage": "event-psychology-znakomstv.html",
-      "registrationPage": "event-registration.html?event=psychology-znakomstv",
+      "summary": "Лекция о мужской коммуникации, доверии, дистанции и спокойном темпе общения.",
+      "detailPage": "event-psychology-men.html",
+      "registrationPage": "event-registration.html?event=psychology-men",
       "calendarFile": "",
       "timepad": "",
       "theme": "teal"
