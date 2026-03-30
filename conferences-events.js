@@ -124,7 +124,12 @@
       const date = parseDate(event.start);
       const quickClass = state.quickView ? "compact" : "full";
       const directionLine = safe((event.directionLabels || []).join(" · "));
-      const calendarLink = event.calendarFile ? '<a class="btn secondary" href="' + safe(event.calendarFile) + '">В календарь</a>' : "";
+      const registrationLink = event.status !== "past" && event.registrationPage
+        ? '<a class="btn secondary" href="' + safe(event.registrationPage) + '">Регистрация</a>'
+        : "";
+      const calendarLink = event.status !== "past" && event.calendarFile
+        ? '<a class="btn secondary" href="' + safe(event.calendarFile) + '">В календарь</a>'
+        : "";
       return [
         '<article class="event-card ' + quickClass + '" style="background:' + safe(THEME_MAP[event.theme] || THEME_MAP.emerald) + ';">',
         '<div class="event-meta"><span class="event-pill">' + safe(event.statusLabel) + '</span><span>' + safe(event.typeLabel) + '</span><span>' + safe(formatMeta(date)) + '</span></div>',
@@ -141,7 +146,7 @@
         '</div>',
         '<div class="event-actions">',
         '<a class="btn primary" href="' + safe(event.detailPage) + '">Подробнее</a>',
-        '<a class="btn secondary" href="' + safe(event.registrationPage) + '">Регистрация</a>',
+        registrationLink,
         calendarLink,
         '</div>',
         '</article>'

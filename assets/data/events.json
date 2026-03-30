@@ -51,30 +51,6 @@
       "theme": "teal"
     },
     {
-      "id": "psychology-men",
-      "title": "Психология мужчины: доверие и общение",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "start": "2026-02-23T19:00:00+03:00",
-      "venue": "Лекторий Парка Горького",
-      "speaker": "Татьяна Мунн",
-      "opponent": "Психология мужской коммуникации",
-      "directions": [
-        "psychology"
-      ],
-      "directionLabels": [
-        "Психология"
-      ],
-      "summary": "Лекция о мужской коммуникации, доверии, дистанции и спокойном темпе общения.",
-      "detailPage": "event-psychology-men.html",
-      "registrationPage": "event-registration.html?event=psychology-men",
-      "calendarFile": "",
-      "timepad": "",
-      "theme": "teal"
-    },
-    {
       "id": "sales-lab",
       "title": "Эмоциональный интеллект для переговорных и sales-команд",
       "type": "corporate_module",
@@ -131,6 +107,30 @@
       "ingestProfile": "assets/data/ingest-profiles/gelendzhik.site-only.json"
     },
     {
+      "id": "bystraya-psihologiya-30032026",
+      "title": "Быстрая психология",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-03-30T19:00:00+03:00",
+      "venue": "Лекторий Парка Горького",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "psychology"
+      ],
+      "directionLabels": [
+        "Психология"
+      ],
+      "summary": "Почему в реальной жизни нет времени на долгую терапию? Как быстро понимать своё состояние и реагировать на него? И можно ли менять психологические реакции здесь и сейчас?",
+      "detailPage": "event-bystraya-psihologiya-30032026.html",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "https://gorky-park.timepad.ru/event/3812881/",
+      "theme": "teal"
+    },
+    {
       "id": "biomechanics",
       "title": "AI-аналитика гребли и биомеханики",
       "type": "applied_demo",
@@ -155,6 +155,30 @@
       "calendarFile": "",
       "timepad": "https://moonn.timepad.ru/event/3334362/",
       "theme": "olive"
+    },
+    {
+      "id": "psychology-men",
+      "title": "Психология мужчины: доверие и общение",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-02-23T19:00:00+03:00",
+      "venue": "Лекторий Парка Горького",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Психология мужской коммуникации",
+      "directions": [
+        "psychology"
+      ],
+      "directionLabels": [
+        "Психология"
+      ],
+      "summary": "Лекция о мужской коммуникации, доверии, дистанции и спокойном темпе общения.",
+      "detailPage": "event-psychology-men.html",
+      "registrationPage": "event-registration.html?event=psychology-men",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
     }
   ]
 }
