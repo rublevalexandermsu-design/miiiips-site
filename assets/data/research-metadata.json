@@ -1,0 +1,22 @@
+{
+  "profiles": [
+    {
+      "id": "rowing-agent",
+      "title": "rowing_agent",
+      "direction": "Видеоаналитика движений",
+      "owner": "research",
+      "public_page": "biomechanics-rowing.html",
+      "grant_surface": "grants-teams.html",
+      "state": "active"
+    },
+    {
+      "id": "sandbox-hub",
+      "title": "Исследовательская среда",
+      "direction": "Сборка кейсов и материалов",
+      "owner": "platform",
+      "public_page": "research-sandbox.html",
+      "grant_surface": "grants-teams.html",
+      "state": "active"
+    }
+  ]
+}
