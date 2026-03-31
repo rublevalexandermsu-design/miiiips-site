@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Research Sandbox | МИИИИПС</title>
+  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+  <style>
+    :root { --bg:#f7f5ef; --surface:#fff; --line:#d8ddd9; --ink:#12372f; --muted:#546660; --accent:#0c4d40; --mint:#b7ead7; --gold:#8b6417; --shadow:0 18px 44px rgba(18,55,47,.08); --radius:28px; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,sans-serif}
+    a{color:inherit}
+    .shell{max-width:1280px;margin:0 auto;padding:0 28px}
+    .topbar{position:sticky;top:0;z-index:40;background:rgba(247,245,239,.84);backdrop-filter:blur(16px);border-bottom:1px solid rgba(18,55,47,.08)}
+    .topbar-inner{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font:700 50px/.9 Newsreader,serif;letter-spacing:-.03em;text-decoration:none;color:var(--ink)}
+    .nav{display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center}
+    .nav a{text-decoration:none;font:700 11px/1.3 "Public Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:rgba(18,55,47,.68);padding-bottom:6px;border-bottom:2px solid transparent}
+    .nav a.active,.nav a:hover{color:var(--accent);border-bottom-color:var(--gold)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;border-radius:999px;text-decoration:none;border:1px solid transparent;font:700 12px/1.2 "Public Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase}
+    .btn.primary{background:var(--accent);color:#fff}
+    .btn.secondary{background:transparent;color:var(--accent);border-color:rgba(18,55,47,.14)}
+    .hero{padding:68px 0 34px;display:grid;grid-template-columns:1.15fr .85fr;gap:22px}
+    .eyebrow{display:inline-block;margin-bottom:14px;padding:8px 12px;border-radius:999px;background:#edf4f1;color:var(--accent);font:700 11px/1.2 "Public Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase}
+    h1,h2,h3{font-family:Newsreader,serif;letter-spacing:-.03em;margin:0}
+    h1{font-size:clamp(44px,5vw,88px);line-height:.94}
+    h2{font-size:clamp(32px,3.2vw,54px);line-height:.98}
+    h3{font-size:clamp(24px,2vw,34px);line-height:1.04}
+    p{margin:0;color:var(--muted);line-height:1.75}
+    .lead{font-size:18px;max-width:68ch}
+    .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .stack{display:grid;gap:18px}
+    .panel{padding:26px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .section{padding:32px 0}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:#edf4f1;color:var(--accent);font:700 11px/1.2 "Public Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase}
+    .metric{padding:24px}
+    .metric strong{display:block;font:700 54px/.9 Newsreader,serif;color:var(--ink);margin-bottom:10px}
+    ul.clean{margin:0;padding-left:18px;color:var(--muted);line-height:1.7}
+    .hero-actions,.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+    .highlight{background:linear-gradient(135deg,#0c4d40 0%,#173f35 100%);color:#fff}
+    .highlight p,.highlight li{color:rgba(255,255,255,.82)}
+    .footer{margin-top:44px;padding:28px 0 54px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+    @media (max-width:1080px){.hero,.grid-3,.grid-2{grid-template-columns:1fr}.nav{display:none}}
+    @media (max-width:720px){.shell{padding:0 16px}.brand{font-size:40px}.lead{font-size:16px}}
+  </style>
+  <script defer src="prototype-enhancements.js"></script>
+  <script defer src="miiiips-live-layer.js"></script>
+</head>
+<body>
+  <header class="topbar"><div class="shell topbar-inner"><a class="brand" href="index.html">МИИИИПС</a><nav class="nav"><a href="index.html">Главная</a><a class="active" href="research.html">Исследования</a><a href="publications.html">Публикации</a><a href="grants-teams.html">Гранты</a><a href="course-ei.html">Курс ЭИ</a><a href="accounts.html">Shell</a><a href="news-feed.html">Новости</a></nav><a class="btn primary" href="accounts.html">Открыть shell</a></div></header>
+  <main class="shell">
+    <section class="hero">
+      <div class="stack">
+        <span class="eyebrow">Research sandbox</span>
+        <h1>Песочница исследователя для экспериментов, метаданных и быстрой упаковки кейсов.</h1>
+        <p class="lead">Это не витрина и не заглушка. Здесь институт собирает экспериментальные треки, черновые артефакты, маршруты проверки и переход к публикуемому кейсу. Первый полигон — <strong>rowing_agent</strong>, дальше сюда должны подключаться психологические и ИИ-направления.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="biomechanics-rowing.html">Открыть первый кейс</a>
+          <a class="btn secondary" href="research.html">Назад к исследованиям</a>
+          <a class="btn secondary" href="grants-teams.html">Связать с грантами</a>
+        </div>
+      </div>
+      <aside class="card panel highlight">
+        <div class="badge">Central hub</div>
+        <h3>Каждый эксперимент должен знать автора, роль, артефакты и путь к публикации.</h3>
+        <p>Песочница опирается на единый shell, а не на локальные папки без связей. Это позволяет перевести исследование в курс, кейс, грантовую заявку или публичную страницу без повторной ручной сборки контекста.</p>
+        <div class="cta-row">
+          <a class="btn secondary" style="color:#fff;border-color:rgba(255,255,255,.22)" href="accounts.html">Перейти в shell</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="grid-3">
+        <article class="card metric">
+          <strong>01</strong>
+          <h3>Experiment</h3>
+          <p>Черновые данные, видео, заметки и гипотезы. Сюда попадает первый реальный материал до публикации.</p>
+        </article>
+        <article class="card metric">
+          <strong>02</strong>
+          <h3>Metadata</h3>
+          <p>Guard собирает автора, направление, набор артефактов, стадию проверки и будущие точки использования.</p>
+        </article>
+        <article class="card metric">
+          <strong>03</strong>
+          <h3>Case</h3>
+          <p>После проверки материал превращается в кейс, методическую страницу, грантовый proof или курс.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <article class="card panel">
+        <span class="badge">Первый полигон</span>
+        <h2 style="margin:12px 0 14px">rowing_agent</h2>
+        <p>Текущий рабочий трек для песочницы: видеоаналитика движений, OCR, pose estimation, QC и перенос логики на спорт, фитнес, ЛФК и прикладную диагностику. Это уже не абстракция, а материал, который можно доказывать кейсами и заявками.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="biomechanics-rowing.html">Смотреть кейс</a>
+          <a class="btn secondary" href="#metadata">К метаданным</a>
+        </div>
+      </article>
+      <article class="card panel">
+        <span class="badge">Маршруты использования</span>
+        <h2 style="margin:12px 0 14px">Куда идёт результат</h2>
+        <ul class="clean">
+          <li>в исследовательский кейс и proof для гранта</li>
+          <li>в модуль курса как прикладной разбор</li>
+          <li>в публичную страницу направления</li>
+          <li>в статьи и методические заметки</li>
+          <li>в персональный трек участника через shell</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="metadata">
+      <span class="eyebrow">Metadata guard</span>
+      <div class="grid-3" style="margin-top:18px">
+        <article class="card panel">
+          <h3>Обязательные поля</h3>
+          <ul class="clean">
+            <li>авторы и роли</li>
+            <li>трек исследования</li>
+            <li>метод и источник данных</li>
+            <li>набор доказательств</li>
+            <li>публикационное состояние</li>
+          </ul>
+        </article>
+        <article class="card panel">
+          <h3>Почему это нужно</h3>
+          <p>Самое узкое место сейчас — ручная логистика контекста. Без метаданных один и тот же материал каждый раз пересобирается заново для сайта, статей, грантов и презентаций.</p>
+        </article>
+        <article class="card panel">
+          <h3>Что это даст</h3>
+          <p>Один и тот же исследовательский объект можно безопасно переводить в кейс, страницу, заявку, учебный модуль и витрину без потери структуры и авторства.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <article class="card panel">
+        <span class="badge">Shell + SSO</span>
+        <h2 style="margin:12px 0 14px">Единый доступ к модулям</h2>
+        <p>Федерация здесь понимается практично: один вход, один профиль, роли и маршруты доступа к курсам, грантам, исследованиям и публикациям. Первый реальный шаг — не внешняя интеграция, а свой работающий контур shell.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="accounts.html">Открыть кабинеты</a>
+        </div>
+      </article>
+      <article class="card panel">
+        <span class="badge">Open core</span>
+        <h2 style="margin:12px 0 14px">Реестры вместо хаоса</h2>
+        <p>Песочница строится поверх открытого ядра: общих contracts, реестров и переносимых схем. Это делает платформу устойчивой и позволяет подключать новые направления без дублирования логики.</p>
+      </article>
+    </section>
+
+    <section class="section">
+      <span class="eyebrow">Что можно делать уже сейчас</span>
+      <div class="grid-3" style="margin-top:18px">
+        <article class="card panel">
+          <h3>Исследователю</h3>
+          <p>Собирать артефакты, закреплять автора и этап, формировать заготовку кейса и сразу понимать, куда этот материал пойдёт дальше.</p>
+        </article>
+        <article class="card panel">
+          <h3>Редактору и QA</h3>
+          <p>Проверять полноту карточки, убирать внутренние хвосты, видеть связку с публикацией и не выпускать сырой материал наружу.</p>
+        </article>
+        <article class="card panel">
+          <h3>Грантовому контуру</h3>
+          <p>Брать не абстрактные идеи, а уже оформленные исследовательские proof-блоки, которые можно переводить в заявку.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer shell">Research Sandbox встроен в контур платформы института и связан с shell, исследованиями, грантами и кейсовыми публикациями.</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "hub": {
+    "title": "Research Sandbox",
+    "subtitle": "Песочница исследователя для экспериментов, метаданных и превращения черновой аналитики в публикуемый кейс."
+  },
+  "tracks": [
+    {
+      "id": "rowing-agent",
+      "title": "rowing_agent",
+      "status": "Активный полигон",
+      "summary": "Видеоаналитика движений, OCR, pose estimation и кейсовая упаковка для спорта, ЛФК и прикладной диагностики.",
+      "link": "biomechanics-rowing.html"
+    },
+    {
+      "id": "metadata",
+      "title": "FAIR Metadata Guard",
+      "status": "Платформенный слой",
+      "summary": "Слой проверки метаданных, связей авторов, артефактов и публикационного состояния.",
+      "link": "research-sandbox.html#metadata"
+    },
+    {
+      "id": "grants",
+      "title": "Grant-linked Research",
+      "status": "Маршрут участия",
+      "summary": "Связка исследований с грантами, чтобы сильные кейсы автоматически становились аргументами для заявок.",
+      "link": "grants-teams.html"
+    }
+  ]
+}
