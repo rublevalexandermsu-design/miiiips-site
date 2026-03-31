@@ -1,0 +1,223 @@
+{
+  "profiles": [
+    {
+      "id": "student-demo",
+      "name": "Студент исследовательского трека",
+      "primaryRole": "student",
+      "roles": [
+        "student"
+      ],
+      "directions": [
+        "Эмоциональный интеллект",
+        "Психология",
+        "ИИ и исследования"
+      ],
+      "status": "Активный участник",
+      "summary": "Участвует в курсах, открытых лекциях и первых исследовательских задачах института.",
+      "route": {
+        "course": "course-ei.html",
+        "grants": "grants-teams.html",
+        "events": "conferences.html",
+        "research": "research-sandbox.html",
+        "publications": "publications.html"
+      },
+      "publications": {
+        "drafts": 1,
+        "published": 0
+      },
+      "courses": {
+        "active": [
+          "ei-core"
+        ],
+        "completed": [],
+        "certificateEligible": false,
+        "progress": 34
+      },
+      "events": {
+        "attended": [
+          "bystraya-psihologiya-30032026",
+          "psychology-men"
+        ],
+        "upcoming": [
+          "parkgorkogo"
+        ]
+      },
+      "researchTracks": [
+        "sandbox-hub"
+      ],
+      "grants": {
+        "readiness": "observer",
+        "eligible": [
+          "softskills-lab"
+        ]
+      }
+    },
+    {
+      "id": "author-demo",
+      "name": "Автор публикационного направления",
+      "primaryRole": "author",
+      "roles": [
+        "author",
+        "student"
+      ],
+      "directions": [
+        "Психология",
+        "Публикации"
+      ],
+      "status": "Материал в редакционной подготовке",
+      "summary": "Готовит статьи, участвует в редакционной доработке и накапливает публикационный портфель.",
+      "route": {
+        "course": "course-ei.html",
+        "grants": "grants-teams.html",
+        "events": "conferences.html",
+        "research": "research-sandbox.html",
+        "publications": "publications.html"
+      },
+      "publications": {
+        "drafts": 3,
+        "published": 2
+      },
+      "courses": {
+        "active": [
+          "ei-core"
+        ],
+        "completed": [
+          "writing-bootcamp"
+        ],
+        "certificateEligible": true,
+        "progress": 79
+      },
+      "events": {
+        "attended": [
+          "bystraya-psihologiya-30032026",
+          "psychology-men"
+        ],
+        "upcoming": [
+          "gelendzhik"
+        ]
+      },
+      "researchTracks": [
+        "sandbox-hub"
+      ],
+      "grants": {
+        "readiness": "preparation",
+        "eligible": [
+          "softskills-lab",
+          "applied-ai"
+        ]
+      }
+    },
+    {
+      "id": "supervisor-demo",
+      "name": "Научный руководитель проекта",
+      "primaryRole": "supervisor",
+      "roles": [
+        "supervisor",
+        "author"
+      ],
+      "directions": [
+        "Психология",
+        "ИИ и исследования",
+        "Гранты"
+      ],
+      "status": "Куратор исследовательских и публикационных маршрутов",
+      "summary": "Собирает темы, отслеживает готовность материалов и решает, куда двигать участника дальше.",
+      "route": {
+        "course": "course-ei.html",
+        "grants": "grants-teams.html",
+        "events": "conferences.html",
+        "research": "research-sandbox.html",
+        "publications": "publications.html"
+      },
+      "publications": {
+        "drafts": 6,
+        "published": 14
+      },
+      "courses": {
+        "active": [],
+        "completed": [
+          "ei-core"
+        ],
+        "certificateEligible": true,
+        "progress": 100
+      },
+      "events": {
+        "attended": [
+          "bandits",
+          "bystraya-psihologiya-30032026"
+        ],
+        "upcoming": [
+          "parkgorkogo",
+          "gelendzhik"
+        ]
+      },
+      "researchTracks": [
+        "sandbox-hub",
+        "rowing-agent"
+      ],
+      "grants": {
+        "readiness": "submission",
+        "eligible": [
+          "softskills-lab",
+          "applied-ai",
+          "rowing-research"
+        ]
+      }
+    },
+    {
+      "id": "coordinator-demo",
+      "name": "Координатор института",
+      "primaryRole": "coordinator",
+      "roles": [
+        "coordinator",
+        "editor"
+      ],
+      "directions": [
+        "Курсы",
+        "События",
+        "Гранты"
+      ],
+      "status": "Ведёт расписание, заявки и публикационные потоки",
+      "summary": "Отвечает за расписание, обновления страниц, состояние грантовых заявок и пользовательские маршруты.",
+      "route": {
+        "course": "course-ei.html",
+        "grants": "grants-teams.html",
+        "events": "conferences.html",
+        "research": "research-sandbox.html",
+        "publications": "publications.html"
+      },
+      "publications": {
+        "drafts": 2,
+        "published": 5
+      },
+      "courses": {
+        "active": [
+          "ei-core"
+        ],
+        "completed": [],
+        "certificateEligible": false,
+        "progress": 12
+      },
+      "events": {
+        "attended": [
+          "psychology-men"
+        ],
+        "upcoming": [
+          "parkgorkogo",
+          "sales-lab"
+        ]
+      },
+      "researchTracks": [
+        "sandbox-hub"
+      ],
+      "grants": {
+        "readiness": "routing",
+        "eligible": [
+          "softskills-lab",
+          "applied-ai",
+          "rowing-research"
+        ]
+      }
+    }
+  ]
+}

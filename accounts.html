@@ -63,21 +63,34 @@
 <p>Здесь собираются роли, маршруты участия и переходы между публикациями, курсами, грантами, мероприятиями и исследовательскими направлениями. Это единая точка входа в институтскую среду.</p>
 </div>
 <div class="panel stack">
-  <div id="account-quick-routes" class="cta-row">
-    <a class="btn" href="account-author.html">Автор</a>
-    <a class="btn secondary" href="account-student.html">Студент</a>
-    <a class="btn secondary" href="account-supervisor.html">Руководитель</a>
-  </div>
-  <a class="btn secondary" href="research-sandbox.html">Исследовательская среда</a>
+<div class="cta-row" id="account-quick-routes">
+<a class="btn" href="account-author.html">Автор</a>
+<a class="btn secondary" href="account-student.html">Студент</a>
+<a class="btn secondary" href="account-supervisor.html">Руководитель</a>
+</div>
+<a class="btn secondary" href="research-sandbox.html">Исследовательская среда</a>
 </div>
 </section>
+<section class="section shell">
+<span class="badge">Профиль участника</span>
+<h2>Единый маршрут участника</h2>
+<p class="lead">Выберите профиль и проверьте, как меняются доступные направления, история событий, исследовательские треки и учебные маршруты.</p>
+<div class="grid two">
+<div id="account-profile-summary"></div>
+<div class="card">
+<h3>Сменить профиль</h3>
+<p>Переключение показывает, как одна и та же платформа выглядит для разных ролей института.</p>
+<div class="cta-row" id="account-profile-switcher"></div>
+</div>
+</div>
+</section>
+
 <section class="section shell"><span class="badge">Роли</span><h2>Выберите свой маршрут</h2><p class="lead">У каждого участника института свой путь. Здесь можно быстро перейти в нужный кабинет и увидеть, какие направления открыты именно для этой роли.</p><div class="grid" id="account-role-cards"><div class="card"><h3>Кабинет автора</h3><p>Подача статьи, работа с редакцией и публикационный маршрут.</p></div><div class="card"><h3>Кабинет студента</h3><p>Курсы, исследовательские задания, лекции и участие в проектах.</p></div><div class="card"><h3>Кабинет научного руководителя</h3><p>Координация подопечных, тем, публикаций и грантовых возможностей.</p></div></div></section>
 <section class="section shell"><span class="badge">Единый маршрут</span><h2>Как работает общая среда</h2><p class="lead">Из кабинета участник попадает в свои основные направления: обучение, исследования, публикации, гранты и события. Так институт работает как одна среда, а не как набор отдельных страниц.</p><div class="grid two"><div class="card"><h3>Что доступно участнику</h3><p>Курсы, события, исследовательские треки, публикационные маршруты и возможности развития внутри института.</p><div class="cta-row"><a class="btn" href="research-sandbox.html">Исследовательская среда</a><a class="btn secondary" href="grants-teams.html">Гранты</a></div></div><div class="card"><h3>Что это меняет</h3><p>Вместо разрозненных переходов появляется понятная логика: один участник, одна история, несколько направлений развития внутри общей платформы.</p></div></div></section>
 </main>
 <footer class="footer"><div class="shell footer-grid"><div><strong>МИИИИПС</strong><br/>Локальный прототип институционального сайта. Сценарии кабинетов, этика, документы и участие собраны в единую навигацию.</div><div><div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;"><div><div style="font-weight:700;margin-bottom:8px;">Документы</div><ul class="clean"><li><a href="how-we-work.html">Как мы работаем</a></li><li><a href="ethics-code.html">Этический кодекс</a></li><li><a href="privacy-policy.html">Политика конфиденциальности</a></li><li><a href="cooperation-terms.html">Условия взаимодействия</a></li><li><a href="speeches-lectures.html">Выступления и лекции</a></li></ul></div><div><div style="font-weight:700;margin-bottom:8px;">Ролевые кабинеты</div><ul class="clean"><li><a href="account-author.html">Кабинет автора</a></li><li><a href="account-student.html">Кабинет студента</a></li><li><a href="account-supervisor.html">Кабинет научного руководителя</a></li></ul></div></div></div></div></footer>
 <script src="prototype-enhancements.js"></script>
 <script src="account-shell-router.js"></script>
-
 <div id="codex-page-map" style="position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;">
 <button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button">
 <span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>
@@ -108,5 +121,5 @@
   document.addEventListener('keydown', function(e) { if (e.key === 'Escape') setOpen(false); });
 })();
 </script>
-</body>
+<script src="platform-shell.js"></script></body>
 </html>

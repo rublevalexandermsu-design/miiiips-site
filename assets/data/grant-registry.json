@@ -1,0 +1,62 @@
+{
+  "grants": [
+    {
+      "id": "softskills-lab",
+      "title": "Софтскиллы, психология и образовательные практики",
+      "stage": "Подготовка",
+      "fit": [
+        "Психология",
+        "Эмоциональный интеллект",
+        "Курсы"
+      ],
+      "route": "grants-teams.html",
+      "instituteRole": "Организатор и заявитель",
+      "participantRole": "Исполнитель и автор материалов",
+      "linkedResearch": [
+        "sandbox-hub"
+      ],
+      "linkedPublications": [
+        "publications.html"
+      ]
+    },
+    {
+      "id": "applied-ai",
+      "title": "Прикладной ИИ и исследовательские сервисы",
+      "stage": "Сбор команды",
+      "fit": [
+        "ИИ и исследования",
+        "Платформа",
+        "Видеоаналитика"
+      ],
+      "route": "grants-teams.html",
+      "instituteRole": "Заявитель и координатор данных",
+      "participantRole": "Исследователь и разработчик кейсов",
+      "linkedResearch": [
+        "rowing-agent",
+        "sandbox-hub"
+      ],
+      "linkedPublications": [
+        "research.html",
+        "publications.html"
+      ]
+    },
+    {
+      "id": "rowing-research",
+      "title": "Видеоаналитика движений и биомеханика спорта",
+      "stage": "Исследовательский контур",
+      "fit": [
+        "Биомеханика и спорт",
+        "ИИ и исследования"
+      ],
+      "route": "grants-teams.html",
+      "instituteRole": "Научная площадка и витрина результатов",
+      "participantRole": "Исполнитель, аналитик, автор кейсов",
+      "linkedResearch": [
+        "rowing-agent"
+      ],
+      "linkedPublications": [
+        "biomechanics-rowing.html"
+      ]
+    }
+  ]
+}

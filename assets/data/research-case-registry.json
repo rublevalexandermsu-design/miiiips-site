@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "id": "rowing-agent",
+      "title": "Видеоаналитика гребли и прикладной биомеханики",
+      "page": "biomechanics-rowing.html",
+      "direction": "Биомеханика и спорт",
+      "summary": "Первый полигон для исследовательской среды: сбор данных, аналитика движений, кейсовая упаковка и аргументы для грантового маршрута.",
+      "linkedGrant": "rowing-research",
+      "linkedCourse": "ei-core"
+    },
+    {
+      "id": "sandbox-hub",
+      "title": "Исследовательская среда и новые кейсы",
+      "page": "research-sandbox.html",
+      "direction": "ИИ и исследования",
+      "summary": "Среда для подготовки новых исследовательских направлений, публикаций и методических материалов института.",
+      "linkedGrant": "applied-ai",
+      "linkedCourse": "writing-bootcamp"
+    }
+  ]
+}

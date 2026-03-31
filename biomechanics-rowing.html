@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="ru">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Биомеханика и гребля | МИИИИПС</title>
-  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Биомеханика и гребля | МИИИИПС</title>
+<meta content="clickable-site-v1_2" name="x-local-prototype"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&amp;family=Manrope:wght@300..800&amp;family=Public+Sans:wght@300..800&amp;display=swap" rel="stylesheet"/>
+<style>
     :root {--bg:#f7f6f1;--surface:#ffffff;--line:#d8ddd9;--ink:#12372f;--muted:#51635d;--accent:#0c4d40;--gold:#8b6417;--shadow:0 20px 44px rgba(18,55,47,.08);--radius:28px;}
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
@@ -56,20 +57,38 @@
     @media (max-width: 1080px) { .grid-4{grid-template-columns:repeat(2,minmax(0,1fr));} .grid-3,.route-grid{grid-template-columns:1fr;} .grid-2{grid-template-columns:1fr;} .nav{display:none;} }
     @media (max-width: 720px) { .shell{padding:0 16px;} .brand{font-size:40px;} .grid-4{grid-template-columns:1fr;} .hero{padding:40px 0 24px;} .lead{font-size:16px;} }
   </style>
-  <script defer src="prototype-enhancements.js"></script>
-  <script defer src="miiiips-live-layer.js"></script>
+<script defer="" src="prototype-enhancements.js"></script>
+<script defer="" src="miiiips-live-layer.js"></script>
 </head>
 <body>
-  <header class="topbar"><div class="shell topbar-inner"><a class="brand" href="index.html">МИИИИПС</a><nav class="nav"><a href="index.html">Главная</a><a class="active" href="research.html">Исследования</a><a href="publications.html">Публикации</a><a href="grants-teams.html">Гранты</a><a href="conferences.html">Мероприятия</a><a href="course-ei.html">Курс ЭИ</a><a href="speeches-lectures.html">Выступления</a><a href="news-feed.html">Новости</a><a href="join.html">Поступление</a><a href="accounts.html">Кабинеты</a></nav><a class="btn primary" href="join.html">Подать заявку</a></div></header>
-  <main class="shell">
-    <section class="hero grid-2">
-      <div class="stack"><span class="eyebrow">Кейс из rowing_agent</span><h1>Биомеханика движений, гребля и масштабирование видеоаналитики.</h1><p class="lead">Этот трек показывает прикладную сторону института: pose estimation, OCR эргометра, оценка stroke / pace / SPM / watts, quality control и перенос методов на фитнес, лечебную физкультуру, спортивные школы и футбол.</p><div class="hero-actions"><a class="btn primary" href="event-registration.html?event=biomechanics">Запросить демонстрацию</a><a class="btn secondary" href="research.html">Назад к исследованиям</a></div></div>
-      <aside class="quote-panel card"><div class="badge">Что уже подтверждено</div><h3>Overlay HUD, OCR ROI, pace / SPM / watts estimation и QC-pass на реальных сессиях.</h3><p>Сильная сторона проекта — не только нейросеть, но и дисциплина проверки: calibration, pace sanity guardrails, action / reward datasets, side-by-side video и понятные closure materials.</p><img src="assets/images/biomechanics/rowing-dashboard.png" alt="Экран проекта по гребле и биомеханике"/></aside>
-    </section>
-    <section class="section"><div class="grid-4"><article class="card metric"><strong>SPM</strong><p>оценка темпа гребка и cadence-паттернов</p></article><article class="card metric"><strong>Watts</strong><p>моделирование мощности по видео и telemetry-сигналам</p></article><article class="card metric"><strong>Pace</strong><p>предсказание скорости и темпа с sanity guardrails</p></article><article class="card metric"><strong>QC</strong><p>проверка покрытия позы, OCR и корректности ключевых метрик</p></article></div></section>
-    <section class="section grid-2"><article class="card metric"><h2>Для кого это применимо</h2><ul class="muted-list"><li>гребля и эргометрические разборы</li><li>фитнес-центры и двигательная коррекция</li><li>лечебная физкультура и восстановительные сценарии</li><li>спортивные школы и команды</li><li>футбол и командные виды спорта как следующий контур масштабирования</li></ul></article><article class="card metric"><h2>Что можно показать клиенту</h2><ul class="muted-list"><li>видеоаналитику техники движения</li><li>разбор правильности выполнения упражнения</li><li>сравнение человека и policy rollout</li><li>метрики качества техники и темпа</li><li>как нейросетевой контур встраивается в прикладную диагностику</li></ul></article></section>
-    <section class="section"><span class="eyebrow">Практические маршруты</span><div class="route-grid" style="margin-top:18px;"><article class="card metric route-card" id="sales"><h2>Sales-команды и переговорные форматы</h2><p>Этот аналитический контур можно показывать бизнес-клиентам как пример того, что институт умеет раскладывать сложный сигнал на понятные метрики, отчёты и сценарии. Для sales-команд это превращается в модуль по стрессу, коммуникации и управляемой обратной связи.</p></article><article class="card metric route-card" id="fitness"><h2>Фитнес-центры</h2><p>Клиент записывает тренировку, система фиксирует технику, темп и качество движения, а затем показывает, что можно улучшить сейчас и к какому состоянию он придёт через месяц или квартал при соблюдении плана. Метод переносится с гребного кейса на тренажёрные и функциональные форматы.</p></article><article class="card metric route-card" id="lfk"><h2>ЛФК и восстановление</h2><p>Здесь важна не скорость, а безопасная траектория: угол движения, стабильность, симметрия и повторяемость. Видеоаналитика помогает врачу, методисту и тренеру видеть прогресс и повторяемые ошибки без ложных медицинских обещаний.</p></article><article class="card metric route-card" id="schools"><h2>Спортивные школы</h2><p>Тренер снимает технику на телефон или внешнюю камеру, а система подсвечивает ошибку движения, темп, асимметрию и прогресс спортсмена. Это даёт наглядный материал для разбора с учеником и родителем.</p></article><article class="card metric route-card" id="football"><h2>Футбол и игровые виды</h2><p>Следующий шаг — масштабирование на поле: внешние камеры, дронный обзор, разбор перемещений, стартовых позиций и повторяемых ошибок движения в игровых эпизодах. Важно не поле как таковое, а перенос логики video analytics и pose tracking.</p></article><article class="card metric route-card"><h2>Гребля как базовый кейс</h2><p>Гребля остаётся основной демонстрационной площадкой: здесь уже подтверждены OCR, overlay HUD, pace/SPM/watts и QC-pass. За счёт этого кейс можно показывать как фундамент для дальнейших спортивных продуктов института.</p></article></div></section>
-  </main>
-  <footer class="footer shell"><div class="contact-grid"><a class="contact-tile" href="https://moonn.ru/" target="_blank" rel="noreferrer"><small>Сайт</small><strong>moonn.ru</strong></a><a class="contact-tile" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a><a class="contact-tile" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>Написать организатору</strong></a><a class="contact-tile" href="https://t.me/moonn_official" target="_blank" rel="noreferrer"><small>Канал</small><strong>Новости и анонсы</strong></a></div></footer>
-</body>
+<header class="topbar"><div class="shell topbar-inner"><a class="brand" href="index.html">МИИИИПС</a><nav class="nav"><a href="index.html">Главная</a><a class="active" href="research.html">Исследования</a><a href="publications.html">Публикации</a><a href="grants-teams.html">Гранты</a><a href="conferences.html">Мероприятия</a><a href="course-ei.html">Курс ЭИ</a><a href="speeches-lectures.html">Выступления</a><a href="news-feed.html">Новости</a><a href="join.html">Поступление</a><a href="accounts.html">Кабинеты</a></nav><a class="btn primary" href="join.html">Подать заявку</a></div></header>
+<main class="shell">
+<section class="hero grid-2">
+<div class="stack"><span class="eyebrow">Кейс из rowing_agent</span><h1>Биомеханика движений, гребля и масштабирование видеоаналитики.</h1><p class="lead">Этот трек показывает прикладную сторону института: pose estimation, OCR эргометра, оценка stroke / pace / SPM / watts, quality control и перенос методов на фитнес, лечебную физкультуру, спортивные школы и футбол.</p><div class="hero-actions"><a class="btn primary" href="event-registration.html?event=biomechanics">Запросить демонстрацию</a><a class="btn secondary" href="research.html">Назад к исследованиям</a></div></div>
+<aside class="quote-panel card"><div class="badge">Что уже подтверждено</div><h3>Overlay HUD, OCR ROI, pace / SPM / watts estimation и QC-pass на реальных сессиях.</h3><p>Сильная сторона проекта — не только нейросеть, но и дисциплина проверки: калибровка, контроль темпа, сопоставление с видео и понятные итоговые материалы для разбора.</p><img alt="Экран проекта по гребле и биомеханике" src="assets/images/biomechanics/rowing-dashboard.png"/></aside>
+</section>
+<section class="section">
+<div class="grid-2">
+<article class="card panel">
+<span class="eyebrow">Исследовательский маршрут</span>
+<h2>Кейс связан с общей исследовательской средой</h2>
+<p>Материалы по биомеханике гребли входят в общий исследовательский контур института и могут усиливать грантовые, образовательные и публикационные маршруты.</p>
+<div class="cta-row">
+<a class="btn" href="research-sandbox.html">Перейти в исследовательскую среду</a>
+<a class="btn secondary" href="grants-teams.html">Связь с грантами</a>
+</div>
+</article>
+<article class="card panel">
+<span class="eyebrow">Публикационный контур</span>
+<p>Кейс можно разворачивать в отчёт, демонстрационный материал, статью или исследовательскую заметку, не теряя связи с автором и направлением.</p>
+</article>
+</div>
+</section>
+
+<section class="section"><div class="grid-4"><article class="card metric"><strong>SPM</strong><p>оценка темпа гребка и cadence-паттернов</p></article><article class="card metric"><strong>Watts</strong><p>моделирование мощности по видео и telemetry-сигналам</p></article><article class="card metric"><strong>Pace</strong><p>предсказание скорости и темпа с контролем устойчивости метрики</p></article><article class="card metric"><strong>QC</strong><p>проверка покрытия позы, OCR и корректности ключевых метрик</p></article></div></section>
+<section class="section grid-2"><article class="card metric"><h2>Для кого это применимо</h2><ul class="muted-list"><li>гребля и эргометрические разборы</li><li>фитнес-центры и двигательная коррекция</li><li>лечебная физкультура и восстановительные сценарии</li><li>спортивные школы и команды</li><li>футбол и командные виды спорта как следующий контур масштабирования</li></ul></article><article class="card metric"><h2>Что можно показать клиенту</h2><ul class="muted-list"><li>видеоаналитику техники движения</li><li>разбор правильности выполнения упражнения</li><li>сравнение человека и policy rollout</li><li>метрики качества техники и темпа</li><li>как нейросетевой контур встраивается в прикладную диагностику</li></ul></article></section>
+<section class="section"><span class="eyebrow">Практические маршруты</span><div class="route-grid" style="margin-top:18px;"><article class="card metric route-card" id="sales"><h2>Sales-команды и переговорные форматы</h2><p>Этот аналитический контур можно показывать бизнес-клиентам как пример того, что институт умеет раскладывать сложный сигнал на понятные метрики, отчёты и сценарии. Для sales-команд это превращается в модуль по стрессу, коммуникации и управляемой обратной связи.</p></article><article class="card metric route-card" id="fitness"><h2>Фитнес-центры</h2><p>Клиент записывает тренировку, система фиксирует технику, темп и качество движения, а затем показывает, что можно улучшить сейчас и к какому состоянию он придёт через месяц или квартал при соблюдении плана. Метод переносится с гребного кейса на тренажёрные и функциональные форматы.</p></article><article class="card metric route-card" id="lfk"><h2>ЛФК и восстановление</h2><p>Здесь важна не скорость, а безопасная траектория: угол движения, стабильность, симметрия и повторяемость. Видеоаналитика помогает врачу, методисту и тренеру видеть прогресс и повторяемые ошибки без ложных медицинских обещаний.</p></article><article class="card metric route-card" id="schools"><h2>Спортивные школы</h2><p>Тренер снимает технику на телефон или внешнюю камеру, а система подсвечивает ошибку движения, темп, асимметрию и прогресс спортсмена. Это даёт наглядный материал для разбора с учеником и родителем.</p></article><article class="card metric route-card" id="football"><h2>Футбол и игровые виды</h2><p>Следующий шаг — масштабирование на поле: внешние камеры, дронный обзор, разбор перемещений, стартовых позиций и повторяемых ошибок движения в игровых эпизодах. Важно не поле как таковое, а перенос логики video analytics и pose tracking.</p></article><article class="card metric route-card"><h2>Гребля как базовый кейс</h2><p>Гребля остаётся основной демонстрационной площадкой: здесь уже подтверждены OCR, overlay HUD, pace/SPM/watts и QC-pass. За счёт этого кейс можно показывать как фундамент для дальнейших спортивных продуктов института.</p></article></div></section>
+</main>
+<footer class="footer shell"><div class="contact-grid"><a class="contact-tile" href="https://moonn.ru/" rel="noreferrer" target="_blank"><small>Сайт</small><strong>moonn.ru</strong></a><a class="contact-tile" href="https://t.me/Tatiana_Moonn" rel="noreferrer" target="_blank"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a><a class="contact-tile" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." rel="noreferrer" target="_blank"><small>WhatsApp</small><strong>Написать организатору</strong></a><a class="contact-tile" href="https://t.me/moonn_official" rel="noreferrer" target="_blank"><small>Канал</small><strong>Новости и анонсы</strong></a></div></footer>
+<script src="platform-shell.js"></script></body>
 </html>

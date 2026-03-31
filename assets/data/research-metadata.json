@@ -7,7 +7,15 @@
       "owner": "research",
       "public_page": "biomechanics-rowing.html",
       "grant_surface": "grants-teams.html",
-      "state": "active"
+      "course_surface": "course-ei.html",
+      "state": "active",
+      "required_fields": [
+        "authors",
+        "direction",
+        "artifacts",
+        "public_page",
+        "grant_surface"
+      ]
     },
     {
       "id": "sandbox-hub",
@@ -16,7 +24,43 @@
       "owner": "platform",
       "public_page": "research-sandbox.html",
       "grant_surface": "grants-teams.html",
-      "state": "active"
+      "course_surface": "course-ei.html",
+      "state": "active",
+      "required_fields": [
+        "authors",
+        "direction",
+        "artifacts",
+        "publication_route"
+      ]
     }
-  ]
+  ],
+  "rules": {
+    "research": [
+      "authors",
+      "direction",
+      "material_type",
+      "artifacts",
+      "publication_route"
+    ],
+    "event": [
+      "speaker",
+      "start",
+      "directions",
+      "detailPage"
+    ],
+    "course": [
+      "title",
+      "modules",
+      "format",
+      "certificate",
+      "linkedEvents"
+    ],
+    "case": [
+      "title",
+      "direction",
+      "linkedGrant",
+      "linkedCourse",
+      "page"
+    ]
+  }
 }
