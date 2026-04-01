@@ -114,7 +114,7 @@
     });
     const note = document.getElementById("events-results-note");
     if (note) {
-      note.textContent = "Найдено событий: " + filtered.length + ". Фильтры, поиск и календарь работают по единому реестру.";
+      note.textContent = "Найдено событий: " + filtered.length + ". Фильтры, поиск и календарь помогают быстро находить нужные встречи.";
     }
     if (!filtered.length) {
       target.innerHTML = '<div class="results-empty">По текущим фильтрам событий нет. Снимите часть ограничений или переключите месяц.</div>';
@@ -270,7 +270,7 @@
     } catch (error) {
       const target = document.getElementById("events-results");
       if (target) {
-        target.innerHTML = '<div class="results-empty">Не удалось загрузить реестр событий. Проверьте файл `assets/data/events.json`.</div>';
+        target.innerHTML = '<div class="results-empty">Не удалось загрузить список мероприятий. Обновите страницу чуть позже.</div>';
       }
     }
   }

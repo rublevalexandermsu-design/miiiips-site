@@ -14,9 +14,9 @@
     'Правила приёма .PDF': 'assets/docs/miiiips_admission_guide.pdf',
     'Принципы этики .PDF': 'assets/docs/miiiips_ethics_principles.pdf',
     'Как оформить работы .PDF': 'assets/docs/miiiips_work_format_guide.pdf',
-    'Реестр требований': 'assets/docs/miiiips_publication_route.pdf',
+    'Требования к публикациям': 'assets/docs/miiiips_publication_route.pdf',
     'Программа курса': 'assets/docs/miiiips_ei_course_program.pdf',
-    'Маршрут публикации': 'assets/docs/miiiips_publication_route.pdf',
+    'Путь публикации': 'assets/docs/miiiips_publication_route.pdf',
     'Краткий грантовый маршрут': 'assets/docs/miiiips_grants_brief.pdf',
     'Демо-отчет аудита': 'assets/docs/miiiips_audit_report_demo.pdf'
   };
@@ -147,7 +147,7 @@
     const root = document.createElement('div');
     root.id = 'codex-page-map';
     root.style.cssText = 'position:fixed;left:16px;bottom:16px;z-index:9999;font-family:Manrope,sans-serif;';
-    root.innerHTML = '<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button"><span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>Карта страниц</button><div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);"><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;"><div style="font:700 13px/1.4 Manrope,sans-serif;">Локальный прототип Stitch v1.2</div><button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button></div><div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 20 | Служебные и кабинеты: 18</div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div><div style="display:grid;gap:4px;"></div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div><div style="display:grid;gap:4px;"></div></div>';
+    root.innerHTML = '<button aria-expanded="false" id="codex-page-map-toggle" style="display:flex;align-items:center;gap:8px;background:#00342b;color:#fff;border:none;border-radius:999px;padding:10px 14px;box-shadow:0 10px 24px rgba(0,0,0,.18);cursor:pointer;font:700 13px/1.2 Manrope,sans-serif;" type="button"><span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:#afefdd;"></span>Карта страниц</button><div id="codex-page-map-panel" style="display:none;margin-top:10px;width:320px;max-height:74vh;overflow:auto;background:#00342b;color:#ffffff;padding:12px;border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);"><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;"><div style="font:700 13px/1.4 Manrope,sans-serif;">Разделы сайта</div><button id="codex-page-map-close" style="background:transparent;color:#fff;border:none;cursor:pointer;font:700 18px/1 Manrope,sans-serif;opacity:.8;" type="button">×</button></div><div style="font:12px/1.4 Manrope,sans-serif;opacity:.8;margin-bottom:10px;">Основные страницы: 20 | Служебные и кабинеты: 18</div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:10px 0 6px;">Основной сайт</div><div style="display:grid;gap:4px;"></div><div style="font:700 11px/1.3 Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.72;margin:12px 0 6px;">Служебные страницы и кабинеты</div><div style="display:grid;gap:4px;"></div></div>';
     document.body.appendChild(root);
     const toggle = document.getElementById('codex-page-map-toggle');
     const closeBtn = document.getElementById('codex-page-map-close');
@@ -337,7 +337,7 @@
     const section = document.createElement('section');
     section.id = 'miiiips-education-extras';
     section.className = 'miiiips-injected';
-    section.innerHTML = '<div class="miiiips-kicker">Образовательный контур</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Курс ЭИ как часть института</h3><p>Мы встроили отдельный курс эмоционального интеллекта с витриной, программой, лекциями и библиотекой.</p><div class="miiiips-actions"><a class="miiiips-btn" href="course-ei.html">Курс ЭИ</a></div></article><article class="miiiips-card"><h3>Каталог программ</h3><p>Сценарий будущих платных и открытых программ: интенсивы, методички, лекции и корпоративные форматы.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="course-ei-catalog.html">Каталог</a></div></article><article class="miiiips-card"><h3>YouTube и лекции</h3><p>Открытые лекции выводятся как отдельный медиаконтур сайта.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="course-ei-lectures.html">Лекции</a></div></article></div>';
+    section.innerHTML = '<div class="miiiips-kicker">Образовательный контур</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Курс ЭИ как часть института</h3><p>Мы встроили отдельный курс эмоционального интеллекта с витриной, программой, лекциями и библиотекой.</p><div class="miiiips-actions"><a class="miiiips-btn" href="course-ei.html">Курс ЭИ</a></div></article><article class="miiiips-card"><h3>Каталог программ</h3><p>Сценарий будущих платных и открытых программ: интенсивы, методички, лекции и корпоративные форматы.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="course-ei-catalog.html">Каталог</a></div></article><article class="miiiips-card"><h3>YouTube и лекции</h3><p>Открытые лекции выводятся как отдельный медиараздел сайта.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="course-ei-lectures.html">Лекции</a></div></article></div>';
     target.appendChild(section);
   }
 
@@ -361,7 +361,7 @@
     const section = document.createElement('section');
     section.id = 'miiiips-publication-extras';
     section.className = 'miiiips-injected';
-    section.innerHTML = '<div class="miiiips-kicker">Кабинет автора и эксперта</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Авторский маршрут</h3><p><strong>' + (demo.name || 'Татьяна Мунн') + '</strong><br>Материал: ' + (demo.article || 'Публикационный кейс') + '<br>Статус: ' + (demo.status || 'manual_gate') + '</p><div class="miiiips-actions"><a class="miiiips-btn" href="account-author.html">Кабинет автора</a></div></article><article class="miiiips-card"><h3>Экспертный контроль</h3><p>Редактор/эксперт видит пакет автора, требования журнала, комментарии и состояние ручной проверки.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="account-editor.html">Кабинет редактора</a></div></article><article class="miiiips-card"><h3>Документы маршрута</h3><p>Маршрут публикации, требования и демо-отчёт доступны как реальные скачивания.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="assets/docs/miiiips_publication_route.pdf">Скачать маршрут</a></div></article></div>';
+    section.innerHTML = '<div class="miiiips-kicker">Кабинет автора и эксперта</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Авторский маршрут</h3><p><strong>' + (demo.name || 'Татьяна Мунн') + '</strong><br>Материал: ' + (demo.article || 'Публикационный кейс') + '<br>Статус: ' + (demo.status || 'manual_gate') + '</p><div class="miiiips-actions"><a class="miiiips-btn" href="account-author.html">Кабинет автора</a></div></article><article class="miiiips-card"><h3>Экспертный контроль</h3><p>Редактор/эксперт видит пакет автора, требования журнала, комментарии и состояние ручной проверки.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="account-editor.html">Кабинет редактора</a></div></article><article class="miiiips-card"><h3>Документы маршрута</h3><p>Путь публикации, требования и демо-отчёт доступны как реальные скачивания.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="assets/docs/miiiips_publication_route.pdf">Скачать маршрут</a></div></article></div>';
     target.appendChild(section);
   }
 
@@ -373,7 +373,7 @@
     const section = document.createElement('section');
     section.id = 'miiiips-grants-extras';
     section.className = 'miiiips-injected';
-    section.innerHTML = '<div class="miiiips-kicker">Координационный контур</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Грантовый сигнал</h3><p><strong>' + (grant.program || 'Грантовый трек') + '</strong><br>Дедлайн: ' + (grant.deadline || '—') + '<br>Статус: ' + (grant.status || '—') + '</p></article><article class="miiiips-card"><h3>Кабинет координатора</h3><p>Заявки с сайта, дедлайны, digest и маршрутизация участников сходятся в одной роли.</p><div class="miiiips-actions"><a class="miiiips-btn" href="account-coordinator.html">Открыть кабинет</a></div></article><article class="miiiips-card"><h3>Грантовый бриф</h3><p>Демонстрационный документ позволяет проверить пользовательский сценарий скачивания.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="assets/docs/miiiips_grants_brief.pdf">Скачать PDF</a></div></article></div>';
+    section.innerHTML = '<div class="miiiips-kicker">Координация</div><div class="miiiips-grid"><article class="miiiips-card"><h3>Грантовый сигнал</h3><p><strong>' + (grant.program || 'Грантовый трек') + '</strong><br>Дедлайн: ' + (grant.deadline || '—') + '<br>Статус: ' + (grant.status || '—') + '</p></article><article class="miiiips-card"><h3>Кабинет координатора</h3><p>Заявки с сайта, дедлайны, digest и маршрутизация участников сходятся в одной роли.</p><div class="miiiips-actions"><a class="miiiips-btn" href="account-coordinator.html">Открыть кабинет</a></div></article><article class="miiiips-card"><h3>Грантовый бриф</h3><p>Демонстрационный документ позволяет проверить пользовательский сценарий скачивания.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" href="assets/docs/miiiips_grants_brief.pdf">Скачать PDF</a></div></article></div>';
     target.appendChild(section);
   }
 
@@ -761,26 +761,11 @@
     const currentPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
     const overlayExcludedPages = new Set(['event-registration.html', 'event-bandits.html', 'event-parkgorkogo.html', 'event-gelendzhik.html']);
     ensureGlobalStyles();
-    if (!overlayExcludedPages.has(currentPage)) {
-      ensurePageMapExists();
-      extendPageMap();
-      injectMobileDock();
-    }
     extendTopNav();
     wireDownloads();
     prepareKnownForms();
     injectAuditForm();
     const data = await loadSiteData();
-    injectHomepageExtras(data);
-    injectEducationExtras();
-    injectKnowledgeExtras(data);
-    injectPublicationExtras(data);
-    injectGrantExtras(data);
-    injectAccountsExtras();
-    injectCourseCatalogExtras(data);
-    injectCourseLibraryExtras(data);
-    injectStudentCabinetExtras();
-    injectNewsFeedExtras(data);
     injectCourseEnrollmentForm();
     injectActionForms();
     renderNews(data);

@@ -554,16 +554,6 @@
       loadJson(FEEDS_PATH, {})
     ]);
     const data = combineData(siteData, liveFeeds);
-    renderTicker(data);
-    renderLectureHub(data);
-    injectUpcomingLectureCard(data);
-    injectSpeechPageExtras(data);
-    renderNewsPage(data);
-    injectSignalBlocks(data);
-    injectArchiveRegistry(data);
-    injectContactBlocks(data);
-    if (!supportExcludedPages.has(currentPage)) injectSupportWidget(data);
-    injectDigestPrompt(data);
     enhanceMediaTreatment();
   }
 
