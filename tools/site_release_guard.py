@@ -31,13 +31,18 @@ PLACEHOLDERS = [
     'список появится по мере наполнения маршрута'
 ]
 REQUIRED_SCRIPT_PAGES = {
-    'accounts.html': ['account-profile-summary', 'account-profile-switcher', 'account-quick-routes'],
-    'course-ei.html': ['course-shell-status', 'course-factory-status'],
-    'grants-teams.html': ['grant-shell-status', 'grant-research-status'],
-    'conferences.html': ['event-shell-status'],
+    'accounts.html': ['account-profile-summary', 'account-profile-switcher', 'account-quick-routes', 'account-operational-dashboard'],
+    'account-author.html': ['role-profile-summary', 'role-route-summary', 'role-next-actions'],
+    'account-student.html': ['role-profile-summary', 'role-route-summary', 'role-next-actions'],
+    'account-supervisor.html': ['role-profile-summary', 'role-route-summary', 'role-next-actions'],
+    'account-editor.html': ['role-profile-summary', 'role-route-summary', 'role-next-actions'],
+    'account-coordinator.html': ['role-profile-summary', 'role-route-summary', 'role-next-actions'],
+    'course-ei.html': ['course-shell-status', 'course-factory-status', 'course-linked-surfaces'],
+    'grants-teams.html': ['grant-shell-status', 'grant-research-status', 'grant-application-state'],
+    'conferences.html': ['event-shell-status', 'event-route-status'],
     'research-sandbox.html': ['research-shell-status', 'research-case-list'],
-    'publications.html': ['editorial-shell-status'],
-    'biomechanics-rowing.html': ['rowing-case-status', 'rowing-case-route']
+    'publications.html': ['editorial-shell-status', 'publication-route-summary'],
+    'biomechanics-rowing.html': ['rowing-case-evidence', 'rowing-case-status', 'rowing-case-route']
 }
 ROUTE_KEYS = {'page', 'route', 'public_page', 'grant_surface', 'course_surface', 'detailPage'}
 
