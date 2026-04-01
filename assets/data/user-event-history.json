@@ -1,60 +1,28 @@
 {
   "profiles": [
     {
-      "profileId": "student-core",
-      "attended": [
-        "psychology-men",
-        "bystraya-psihologiya-30032026"
-      ],
-      "upcoming": [
-        "parkgorkogo"
-      ],
-      "derivedOutputs": [
-        "lecture-note-psychology-men"
-      ]
+      "profileId": "rublev-alexander-markovich",
+      "attended": ["psychology-men", "bystraya-psihologiya-30032026", "biomechanics"],
+      "upcoming": ["parkgorkogo", "sales-lab"],
+      "registrations": ["parkgorkogo"],
+      "derivedOutputs": ["lecture-note-psychology-men", "note-fast-psychology", "case-rowing-qc"],
+      "nextAction": "Выбрать следующее публичное событие и связать его с учебным и исследовательским маршрутом."
     },
     {
-      "profileId": "author-core",
-      "attended": [
-        "psychology-men",
-        "bystraya-psihologiya-30032026"
-      ],
-      "upcoming": [
-        "gelendzhik"
-      ],
-      "derivedOutputs": [
-        "article-ei-route",
-        "lecture-note-psychology-men"
-      ]
+      "profileId": "kuntskova-tatyana-mikhailovna",
+      "attended": ["psychology-men", "bystraya-psihologiya-30032026", "parkgorkogo"],
+      "upcoming": ["gelendzhik"],
+      "registrations": ["gelendzhik"],
+      "derivedOutputs": ["lecture-note-psychology-men", "article-softskills-lab", "article-ei-route"],
+      "nextAction": "Перевести материалы текущих лекций в публикационный и грантовый пакет."
     },
     {
-      "profileId": "supervisor-core",
-      "attended": [
-        "bandits",
-        "bystraya-psihologiya-30032026"
-      ],
-      "upcoming": [
-        "parkgorkogo",
-        "gelendzhik"
-      ],
-      "derivedOutputs": [
-        "supervisor-brief-2026-q2",
-        "case-rowing-qc"
-      ]
-    },
-    {
-      "profileId": "coordinator-core",
-      "attended": [
-        "psychology-men"
-      ],
-      "upcoming": [
-        "parkgorkogo",
-        "sales-lab"
-      ],
-      "derivedOutputs": [
-        "event-release-april",
-        "editorial-digest-q2"
-      ]
+      "profileId": "kuntsov-mikhail-ivanovich",
+      "attended": ["bandits", "biomechanics", "parkgorkogo"],
+      "upcoming": ["gelendzhik", "sales-lab"],
+      "registrations": ["gelendzhik", "sales-lab"],
+      "derivedOutputs": ["case-rowing-qc", "supervisor-brief-2026-q2", "editorial-digest-q2", "event-release-april"],
+      "nextAction": "Подтвердить календарь событий, публикаций и грантовых переходов как единый координационный цикл."
     }
   ]
 }

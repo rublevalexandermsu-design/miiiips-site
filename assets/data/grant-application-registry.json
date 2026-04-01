@@ -1,0 +1,43 @@
+{
+  "applications": [
+    {
+      "id": "grant-app-softskills-kuntskova",
+      "participantId": "kuntskova-tatyana-mikhailovna",
+      "grantId": "softskills-lab",
+      "inquiryState": "confirmed_interest",
+      "applicationPacketState": "in_progress",
+      "internalReviewState": "editorial_bundle_ready",
+      "instituteDecisionState": "priority_track",
+      "readyEvidence": ["lecture-note-psychology-men", "article-softskills-lab", "ei-core"],
+      "missingEvidence": ["единая программа курса", "календарь открытых лекций"],
+      "nextAction": "Свести учебную программу и авторские материалы в единый заявочный пакет.",
+      "route": "grants-teams.html?grant=softskills-lab"
+    },
+    {
+      "id": "grant-app-applied-ai-rublev",
+      "participantId": "rublev-alexander-markovich",
+      "grantId": "applied-ai",
+      "inquiryState": "research_fit_confirmed",
+      "applicationPacketState": "evidence_building",
+      "internalReviewState": "case_required",
+      "instituteDecisionState": "candidate_pool",
+      "readyEvidence": ["case-rowing-qc", "article-ei-route"],
+      "missingEvidence": ["подробное описание методики", "короткая исследовательская сводка"],
+      "nextAction": "Довести rowing case до полной доказательной формы и приложить публикационную карточку.",
+      "route": "grants-teams.html?grant=applied-ai"
+    },
+    {
+      "id": "grant-app-rowing-kuntsov",
+      "participantId": "kuntsov-mikhail-ivanovich",
+      "grantId": "rowing-research",
+      "inquiryState": "priority_track",
+      "applicationPacketState": "assembly",
+      "internalReviewState": "ready_for_institute_review",
+      "instituteDecisionState": "approved_for_submission",
+      "readyEvidence": ["case-rowing-qc", "supervisor-brief-2026-q2", "rowing-agent"],
+      "missingEvidence": ["финальный календарь подачи"],
+      "nextAction": "Подтвердить календарь и перевести пакет в подачу от имени института.",
+      "route": "grants-teams.html?grant=rowing-research"
+    }
+  ]
+}

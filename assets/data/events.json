@@ -27,9 +27,8 @@
       "linkedResearch": "sandbox-hub",
       "linkedPublication": "supervisor-brief-2026-q2",
       "materials": [
-        "анонс семинара",
-        "рабочий доклад",
-        "публикационная сводка"
+        "seminar-note",
+        "methodical-brief"
       ]
     },
     {
@@ -59,11 +58,11 @@
       "theme": "teal",
       "linkedCourse": "ei-core",
       "linkedResearch": "sandbox-hub",
-      "linkedPublication": "article-ei-route",
+      "linkedPublication": "article-softskills-lab",
       "materials": [
-        "страница события",
-        "регистрация",
-        "лекционный маршрут"
+        "registration",
+        "public-program",
+        "publication-brief"
       ]
     },
     {
@@ -93,11 +92,10 @@
       "theme": "blue",
       "linkedCourse": "ei-core",
       "linkedResearch": "sandbox-hub",
-      "linkedPublication": "article-softskills-lab",
+      "linkedPublication": "event-release-april",
       "materials": [
-        "корпоративный модуль",
-        "разбор кейсов",
-        "презентационные материалы"
+        "registration",
+        "program-card"
       ]
     },
     {
@@ -129,13 +127,12 @@
       "sourceTag": "site_page_snapshot",
       "sourceNote": "Use only the current site page, site assets, and site text when expanding this route.",
       "ingestProfile": "assets/data/ingest-profiles/gelendzhik.site-only.json",
-      "linkedCourse": "ei-core",
+      "linkedCourse": "writing-bootcamp",
       "linkedResearch": "sandbox-hub",
       "linkedPublication": "event-release-april",
       "materials": [
-        "страница маршрута",
-        "описание программы",
-        "архив выездного формата"
+        "route-program",
+        "team-brief"
       ]
     },
     {
@@ -165,9 +162,9 @@
       "linkedResearch": "sandbox-hub",
       "linkedPublication": "note-fast-psychology",
       "materials": [
-        "фото лекции",
-        "страница события",
-        "конспект лекции"
+        "photo",
+        "event-note",
+        "course-bridge"
       ]
     },
     {
@@ -199,9 +196,9 @@
       "linkedResearch": "rowing-agent",
       "linkedPublication": "case-rowing-qc",
       "materials": [
-        "демо видеоаналитики",
-        "кейсовая страница",
-        "QC-отчёт"
+        "research-demo",
+        "case-page",
+        "grant-evidence"
       ]
     },
     {
@@ -231,9 +228,9 @@
       "linkedResearch": "sandbox-hub",
       "linkedPublication": "lecture-note-psychology-men",
       "materials": [
-        "фото лекции",
-        "страница события",
-        "редакционная заметка"
+        "photo",
+        "lecture-note",
+        "publication-card"
       ]
     }
   ]

@@ -5,70 +5,42 @@
       "title": "Эмоциональный интеллект: базовый маршрут",
       "page": "course-ei.html",
       "format": "Гибридный курс",
-      "priceModel": "Платный / по набору",
-      "certificate": {
-        "label": "Сертификат участника",
-        "issuedAfter": "completion"
-      },
-      "modules": [
-        {
-          "id": "ei-self-regulation",
-          "title": "Саморегуляция и стресс",
-          "state": "published"
-        },
-        {
-          "id": "ei-communication",
-          "title": "Коммуникация и переговоры",
-          "state": "published"
-        },
-        {
-          "id": "ei-stability",
-          "title": "Эмоциональная устойчивость",
-          "state": "next"
-        },
-        {
-          "id": "ei-practice",
-          "title": "Практика и кейсы",
-          "state": "next"
-        }
-      ],
-      "linkedEvents": [
-        "parkgorkogo",
-        "sales-lab"
-      ],
-      "linkedResearch": [
-        "sandbox-hub"
-      ],
-      "nextTemplate": "Следующий курс собирается из тех же блоков: программа, доступ, прогресс, итоговый документ.",
-      "accessRules": {
-        "roles": [
-          "student",
-          "author",
-          "coordinator"
-        ],
-        "entryStates": [
-          "в обучении",
-          "в публикационном маршруте",
-          "ведёт расписание, заявки и выпуск материалов"
-        ],
-        "paymentRequired": true,
-        "visibleWhen": [
-          "view_courses"
+      "priceModel": {
+        "type": "paid",
+        "label": "Платное участие / индивидуальные и командные наборы",
+        "paymentRoute": "payment-demo.html?course=ei-core",
+        "tiers": [
+          {"id": "standard", "label": "Стандарт", "price": "по запросу"},
+          {"id": "guided", "label": "С сопровождением", "price": "по запросу"},
+          {"id": "team", "label": "Командный", "price": "по запросу"}
         ]
       },
-      "progressRules": {
-        "modulesRequired": 4,
-        "certificateThreshold": 85,
-        "researchUnlockAt": 50
+      "certificate": {
+        "label": "Сертификат участника",
+        "issuedAfter": "completion",
+        "page": "course-certificate-ei.html?course=ei-core",
+        "requirements": ["завершены все 4 модуля", "сдана итоговая практика", "подтверждено участие"]
       },
-      "nextStepRules": {
-        "afterCompletion": "writing-bootcamp",
-        "afterModule2": "research-sandbox.html",
-        "afterCertificate": "publications.html"
+      "modules": [
+        {"id": "ei-self-regulation", "title": "Саморегуляция и стресс", "state": "published"},
+        {"id": "ei-communication", "title": "Коммуникация и переговоры", "state": "published"},
+        {"id": "ei-stability", "title": "Эмоциональная устойчивость", "state": "next"},
+        {"id": "ei-practice", "title": "Практика и кейсы", "state": "next"}
+      ],
+      "linkedEvents": ["parkgorkogo", "sales-lab", "bystraya-psihologiya-30032026"],
+      "linkedResearch": ["sandbox-hub"],
+      "nextTemplate": "Следующий курс собирается из тех же блоков: программа, доступ, прогресс, подтверждение участия и итоговый документ.",
+      "accessRules": {
+        "roles": ["student", "author", "coordinator"],
+        "entryStates": ["в обучении", "в публикационном маршруте", "в исследовательском треке"],
+        "paymentRequired": true,
+        "visibleWhen": ["view_courses"]
       },
+      "progressRules": {"modulesRequired": 4, "certificateThreshold": 85, "researchUnlockAt": 50},
+      "nextStepRules": {"afterCompletion": "writing-bootcamp", "afterModule2": "research-sandbox.html", "afterCertificate": "publications.html"},
       "courseCard": {
         "lead": "Курс соединяет саморегуляцию, коммуникацию, практику и выход в исследовательский маршрут.",
-        "result": "Участник получает опору для лекций, публикаций и прикладных кейсов."
+        "result": "Участник получает опору для лекций, публикаций, прикладных кейсов и дальнейших программ."
       },
       "instances": [
         {
@@ -77,12 +49,12 @@
           "state": "active",
           "startDate": "2026-03-10",
           "endDate": "2026-05-30",
-          "moduleProgress": {
-            "published": 2,
-            "total": 4
-          },
-          "certificateIssued": false,
-          "paymentState": "confirmed"
+          "moduleProgress": {"published": 2, "total": 4},
+          "paymentState": "confirmed",
+          "enrollmentState": "confirmed",
+          "accessState": "open",
+          "certificateState": "in_progress",
+          "nextAction": "Завершить блок практики и подготовить итоговую работу."
         }
       ]
     },
@@ -91,68 +63,37 @@
       "title": "Академическое письмо и публикационный маршрут",
       "page": "publications.html",
       "format": "Интенсив / мастерская",
-      "priceModel": "По запросу",
-      "certificate": {
-        "label": "Портфель материалов",
-        "issuedAfter": "completion"
-      },
-      "modules": [
-        {
-          "id": "writing-structure",
-          "title": "Структура статьи",
-          "state": "published"
-        },
-        {
-          "id": "writing-direction",
-          "title": "Требования направления",
-          "state": "published"
-        },
-        {
-          "id": "writing-review",
-          "title": "Редакционная доработка",
-          "state": "published"
-        },
-        {
-          "id": "writing-package",
-          "title": "Публикационный пакет",
-          "state": "next"
-        }
-      ],
-      "linkedEvents": [
-        "bandits",
-        "bystraya-psihologiya-30032026"
-      ],
-      "linkedResearch": [
-        "sandbox-hub",
-        "rowing-agent"
-      ],
-      "nextTemplate": "Используется как шаблон для авторских и редакторских треков.",
-      "accessRules": {
-        "roles": [
-          "author",
-          "supervisor",
-          "editor"
-        ],
-        "entryStates": [
-          "в публикационном маршруте",
-          "куратор исследовательских и публикационных маршрутов"
-        ],
-        "paymentRequired": false,
-        "visibleWhen": [
-          "submit_publications",
-          "approve_publications"
+      "priceModel": {
+        "type": "internal",
+        "label": "Внутренний маршрут института / подключение по кураторскому решению",
+        "paymentRoute": "payment-demo.html?course=writing-bootcamp",
+        "tiers": [
+          {"id": "institute", "label": "Институтский маршрут", "price": "внутренний доступ"}
         ]
       },
-      "progressRules": {
-        "modulesRequired": 4,
-        "certificateThreshold": 100,
-        "researchUnlockAt": 75
+      "certificate": {
+        "label": "Портфель материалов",
+        "issuedAfter": "completion",
+        "page": "course-certificate-ei.html?course=writing-bootcamp",
+        "requirements": ["собран публикационный пакет", "подтверждена редакционная проверка", "материал готов к выпуску"]
       },
-      "nextStepRules": {
-        "afterCompletion": "publications.html",
-        "afterModule3": "grants-teams.html",
-        "afterPortfolio": "research-sandbox.html"
+      "modules": [
+        {"id": "writing-structure", "title": "Структура статьи", "state": "published"},
+        {"id": "writing-direction", "title": "Требования направления", "state": "published"},
+        {"id": "writing-review", "title": "Редакционная доработка", "state": "published"},
+        {"id": "writing-package", "title": "Публикационный пакет", "state": "next"}
+      ],
+      "linkedEvents": ["bandits", "bystraya-psihologiya-30032026", "psychology-men"],
+      "linkedResearch": ["sandbox-hub", "rowing-agent"],
+      "nextTemplate": "Используется как шаблон для авторских, редакторских и исследовательских треков.",
+      "accessRules": {
+        "roles": ["author", "supervisor", "editor"],
+        "entryStates": ["в публикационном маршруте", "в исследовательском треке", "выпускник/куратор"],
+        "paymentRequired": false,
+        "visibleWhen": ["submit_publications", "approve_publications"]
       },
+      "progressRules": {"modulesRequired": 4, "certificateThreshold": 100, "researchUnlockAt": 75},
+      "nextStepRules": {"afterCompletion": "publications.html", "afterModule3": "grants-teams.html", "afterPortfolio": "research-sandbox.html"},
       "courseCard": {
         "lead": "Интенсив доводит материал от замысла до publish-ready формы и связывает его с грантами и исследованиями.",
         "result": "После него участник получает рабочий публикационный пакет и понятный следующий шаг."
@@ -164,12 +105,12 @@
           "state": "active",
           "startDate": "2026-02-15",
           "endDate": "2026-04-30",
-          "moduleProgress": {
-            "published": 3,
-            "total": 4
-          },
-          "certificateIssued": false,
-          "paymentState": "not_required"
+          "moduleProgress": {"published": 3, "total": 4},
+          "paymentState": "not_required",
+          "enrollmentState": "confirmed",
+          "accessState": "open",
+          "certificateState": "in_progress",
+          "nextAction": "Довести публикационный пакет до выпуска и связать его с research и grant контуром."
         }
       ]
     }

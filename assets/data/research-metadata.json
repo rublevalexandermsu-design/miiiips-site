@@ -1,81 +1,24 @@
 {
   "profiles": [
     {
-      "id": "rowing-agent",
-      "title": "rowing_agent",
-      "direction": "Видеоаналитика движений",
-      "owner": "research",
-      "public_page": "biomechanics-rowing.html",
+      "id": "sandbox-hub",
+      "authors": ["Команда МИИИИПС"],
+      "direction": "ИИ и исследования",
+      "artifacts": ["research-briefs", "draft-cases", "course-links"],
+      "publication_route": "supervisor-brief-2026-q2",
       "grant_surface": "grants-teams.html",
       "course_surface": "course-ei.html",
-      "publication_route": "case-rowing-qc",
-      "state": "active",
-      "required_fields": [
-        "authors",
-        "direction",
-        "artifacts",
-        "public_page",
-        "grant_surface",
-        "publication_route"
-      ]
+      "required_fields": ["authors", "direction", "artifacts", "publication_route", "lifecycle"]
     },
     {
-      "id": "sandbox-hub",
-      "title": "Исследовательская среда",
-      "direction": "Сборка кейсов и материалов",
-      "owner": "platform",
-      "public_page": "research-sandbox.html",
+      "id": "rowing-agent",
+      "authors": ["Рублёв Александр Маркович", "Кунцов Михаил Иванович"],
+      "direction": "Биомеханика и спорт",
+      "artifacts": ["video-analytics-demo", "qc-report", "methodical-outline"],
+      "publication_route": "case-rowing-qc",
       "grant_surface": "grants-teams.html",
       "course_surface": "course-ei.html",
-      "publication_route": "supervisor-brief-2026-q2",
-      "state": "active",
-      "required_fields": [
-        "authors",
-        "direction",
-        "artifacts",
-        "publication_route"
-      ]
+      "required_fields": ["authors", "direction", "artifacts", "publication_route", "grant_surface", "course_surface", "lifecycle"]
     }
-  ],
-  "rules": {
-    "research": [
-      "authors",
-      "direction",
-      "material_type",
-      "artifacts",
-      "publication_route"
-    ],
-    "event": [
-      "speaker",
-      "start",
-      "directions",
-      "detailPage"
-    ],
-    "course": [
-      "title",
-      "modules",
-      "format",
-      "certificate",
-      "linkedEvents"
-    ],
-    "case": [
-      "title",
-      "direction",
-      "linkedGrant",
-      "linkedCourse",
-      "page",
-      "authors",
-      "artifacts",
-      "publicationRoute",
-      "state"
-    ],
-    "publication": [
-      "sourceType",
-      "direction",
-      "reviewState",
-      "ownerRole",
-      "publicCard",
-      "linkedEntities"
-    ]
-  }
+  ]
 }

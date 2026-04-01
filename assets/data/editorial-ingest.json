@@ -1,0 +1,44 @@
+{
+  "states": ["source", "normalized", "review", "publishable"],
+  "sources": [
+    {
+      "id": "src-psychology-men-lecture",
+      "title": "Лекция «Психология мужчины»",
+      "sourceType": "lecture",
+      "direction": "Психология",
+      "ownerId": "kuntskova-tatyana-mikhailovna",
+      "ownerRole": "author",
+      "stage": "normalized",
+      "linkedEvent": "psychology-men",
+      "linkedPublication": "lecture-note-psychology-men",
+      "linkedResearch": null,
+      "nextAction": "Уточнить итоговые формулировки и перевести в устойчивую публикационную карточку."
+    },
+    {
+      "id": "src-fast-psychology-event",
+      "title": "Открытая лекция «Быстрая психология»",
+      "sourceType": "event-material",
+      "direction": "Эмоциональный интеллект",
+      "ownerId": "rublev-alexander-markovich",
+      "ownerRole": "student",
+      "stage": "review",
+      "linkedEvent": "bystraya-psihologiya-30032026",
+      "linkedPublication": "note-fast-psychology",
+      "linkedResearch": "sandbox-hub",
+      "nextAction": "Свести лекционный материал с course-flow и публикационным маршрутом."
+    },
+    {
+      "id": "src-rowing-case",
+      "title": "Исходные материалы rowing_agent",
+      "sourceType": "research-artifacts",
+      "direction": "Биомеханика и спорт",
+      "ownerId": "kuntsov-mikhail-ivanovich",
+      "ownerRole": "supervisor",
+      "stage": "publishable",
+      "linkedEvent": "biomechanics",
+      "linkedPublication": "case-rowing-qc",
+      "linkedResearch": "rowing-agent",
+      "nextAction": "Довести методическую рамку и использовать кейс как основу грантового пакета."
+    }
+  ]
+}

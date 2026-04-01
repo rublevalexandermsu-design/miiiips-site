@@ -4,146 +4,68 @@
       "id": "softskills-lab",
       "title": "Софтскиллы, психология и образовательные практики",
       "stage": "Подготовка",
-      "fit": [
-        "Психология",
-        "Эмоциональный интеллект",
-        "Курсы"
-      ],
+      "fit": ["Психология", "Эмоциональный интеллект", "Курсы"],
       "route": "grants-teams.html",
       "instituteRole": "Организатор и заявитель",
       "participantRole": "Исполнитель и автор материалов",
-      "linkedResearch": [
-        "sandbox-hub"
-      ],
-      "linkedPublications": [
-        "article-softskills-lab",
-        "lecture-note-psychology-men"
-      ],
-      "eligibilityRules": {
-        "roles": [
-          "student",
-          "author",
-          "supervisor"
-        ],
-        "directions": [
-          "Психология",
-          "Эмоциональный интеллект"
-        ],
-        "minPublicationCount": 0
-      },
+      "linkedResearch": ["sandbox-hub"],
+      "linkedPublications": ["article-softskills-lab", "lecture-note-psychology-men"],
+      "eligibilityRules": {"roles": ["student", "author", "supervisor"], "directions": ["Психология", "Эмоциональный интеллект"], "minPublicationCount": 0},
       "profileFit": {
-        "student-core": "intro",
-        "author-core": "target",
-        "supervisor-core": "target",
-        "coordinator-core": "support"
+        "rublev-alexander-markovich": "candidate",
+        "kuntskova-tatyana-mikhailovna": "target",
+        "kuntsov-mikhail-ivanovich": "support"
       },
       "applicationState": "research-brief",
       "nextAction": "Собрать учебный и публикационный пакет, подтверждающий прикладную ценность направления.",
-      "sourceConfig": {
-        "primarySource": "google-sheets-grants",
-        "normalization": "manual-review-before-release"
-      }
+      "sourceConfig": {"primarySource": "google-sheets-grants", "normalization": "manual-review-before-release"}
     },
     {
       "id": "applied-ai",
       "title": "Прикладной ИИ и исследовательские сервисы",
       "stage": "Сбор команды",
-      "fit": [
-        "ИИ и исследования",
-        "Платформа",
-        "Видеоаналитика"
-      ],
+      "fit": ["ИИ и исследования", "Платформа", "Видеоаналитика"],
       "route": "grants-teams.html",
       "instituteRole": "Заявитель и координатор данных",
       "participantRole": "Исследователь и разработчик кейсов",
-      "linkedResearch": [
-        "rowing-agent",
-        "sandbox-hub"
-      ],
-      "linkedPublications": [
-        "case-rowing-qc",
-        "article-ei-route"
-      ],
-      "eligibilityRules": {
-        "roles": [
-          "author",
-          "supervisor",
-          "coordinator"
-        ],
-        "directions": [
-          "ИИ и исследования",
-          "Биомеханика и спорт"
-        ],
-        "minPublicationCount": 1
-      },
+      "linkedResearch": ["rowing-agent", "sandbox-hub"],
+      "linkedPublications": ["case-rowing-qc", "article-ei-route"],
+      "eligibilityRules": {"roles": ["author", "supervisor", "coordinator"], "directions": ["ИИ и исследования", "Биомеханика и спорт"], "minPublicationCount": 1},
       "profileFit": {
-        "student-core": "observe",
-        "author-core": "candidate",
-        "supervisor-core": "target",
-        "coordinator-core": "target"
+        "rublev-alexander-markovich": "target",
+        "kuntskova-tatyana-mikhailovna": "candidate",
+        "kuntsov-mikhail-ivanovich": "target"
       },
       "applicationState": "team-assembly",
       "nextAction": "Подтвердить исследовательский кейс и собрать доказательную связку из публикаций и демонстраций.",
-      "sourceConfig": {
-        "primarySource": "google-sheets-grants",
-        "normalization": "manual-review-before-release"
-      }
+      "sourceConfig": {"primarySource": "google-sheets-grants", "normalization": "manual-review-before-release"}
     },
     {
       "id": "rowing-research",
       "title": "Видеоаналитика движений и биомеханика спорта",
       "stage": "Исследовательский контур",
-      "fit": [
-        "Биомеханика и спорт",
-        "ИИ и исследования"
-      ],
+      "fit": ["Биомеханика и спорт", "ИИ и исследования"],
       "route": "grants-teams.html",
       "instituteRole": "Научная площадка и витрина результатов",
       "participantRole": "Исполнитель, аналитик, автор кейсов",
-      "linkedResearch": [
-        "rowing-agent"
-      ],
-      "linkedPublications": [
-        "case-rowing-qc"
-      ],
-      "eligibilityRules": {
-        "roles": [
-          "supervisor",
-          "coordinator"
-        ],
-        "directions": [
-          "Биомеханика и спорт",
-          "ИИ и исследования"
-        ],
-        "minPublicationCount": 1
-      },
+      "linkedResearch": ["rowing-agent"],
+      "linkedPublications": ["case-rowing-qc"],
+      "eligibilityRules": {"roles": ["supervisor", "coordinator", "student"], "directions": ["Биомеханика и спорт", "ИИ и исследования"], "minPublicationCount": 1},
       "profileFit": {
-        "student-core": "blocked",
-        "author-core": "observe",
-        "supervisor-core": "target",
-        "coordinator-core": "target"
+        "rublev-alexander-markovich": "candidate",
+        "kuntskova-tatyana-mikhailovna": "observe",
+        "kuntsov-mikhail-ivanovich": "target"
       },
       "applicationState": "evidence-pack",
       "nextAction": "Привязать рабочий кейс, исследовательские артефакты и витрину результатов к заявочному контуру.",
-      "sourceConfig": {
-        "primarySource": "google-sheets-grants",
-        "normalization": "manual-review-before-release"
-      }
+      "sourceConfig": {"primarySource": "google-sheets-grants", "normalization": "manual-review-before-release"}
     }
   ],
   "sourceRegistry": {
     "mode": "planned_import",
     "sources": [
-      {
-        "id": "google-sheets-grants",
-        "label": "Google Sheets / текущий грантовый реестр",
-        "type": "sheet"
-      },
-      {
-        "id": "manual-curation",
-        "label": "Ручная проверка и редактура",
-        "type": "editorial"
-      }
+      {"id": "google-sheets-grants", "label": "Google Sheets / текущий грантовый реестр", "type": "sheet"},
+      {"id": "manual-curation", "label": "Ручная проверка и редактура", "type": "editorial"}
     ]
   }
 }

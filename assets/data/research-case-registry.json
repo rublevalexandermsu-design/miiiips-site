@@ -8,19 +8,25 @@
       "summary": "Первый полигон для исследовательской среды: сбор данных, аналитика движений, кейсовая упаковка и аргументы для грантового маршрута.",
       "linkedGrant": "rowing-research",
       "linkedCourse": "ei-core",
-      "authors": [
-        "Рублёв Александр Маркович",
-        "Кунцов Михаил Иванович"
-      ],
-      "artifacts": [
-        "video-analytics-demo",
-        "qc-report",
-        "methodical-outline"
-      ],
+      "authors": ["Рублёв Александр Маркович", "Кунцов Михаил Иванович"],
+      "artifacts": ["video-analytics-demo", "qc-report", "methodical-outline"],
       "publicationRoute": "case-rowing-qc",
       "state": "public-case",
       "grantLink": "rowing-research",
-      "courseLink": "ei-core"
+      "courseLink": "ei-core",
+      "evidenceState": "strong",
+      "reviewCompleteness": "ready_for_institute_review",
+      "publicationReadiness": "publishable",
+      "linkedOutputs": ["case-rowing-qc", "supervisor-brief-2026-q2"],
+      "lifecycle": {
+        "idea": "done",
+        "sandbox": "done",
+        "artifacts": "done",
+        "review": "done",
+        "casePage": "done",
+        "publication": "active",
+        "grant": "active"
+      }
     },
     {
       "id": "sandbox-hub",
@@ -30,18 +36,25 @@
       "summary": "Среда для подготовки новых исследовательских направлений, публикаций и методических материалов института.",
       "linkedGrant": "applied-ai",
       "linkedCourse": "writing-bootcamp",
-      "authors": [
-        "Команда МИИИИПС"
-      ],
-      "artifacts": [
-        "research-briefs",
-        "draft-cases",
-        "course-links"
-      ],
+      "authors": ["Команда МИИИИПС"],
+      "artifacts": ["research-briefs", "draft-cases", "course-links"],
       "publicationRoute": "supervisor-brief-2026-q2",
       "state": "sandbox",
       "grantLink": "applied-ai",
-      "courseLink": "writing-bootcamp"
+      "courseLink": "writing-bootcamp",
+      "evidenceState": "growing",
+      "reviewCompleteness": "in_progress",
+      "publicationReadiness": "internal_only",
+      "linkedOutputs": ["supervisor-brief-2026-q2", "editorial-digest-q2"],
+      "lifecycle": {
+        "idea": "done",
+        "sandbox": "done",
+        "artifacts": "active",
+        "review": "in_progress",
+        "casePage": "active",
+        "publication": "active",
+        "grant": "candidate"
+      }
     }
   ]
 }

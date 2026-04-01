@@ -1,75 +1,28 @@
 {
   "stages": [
-    {
-      "id": "source",
-      "label": "Исходный материал",
-      "summary": "Интервью, лекции, заметки и исследовательские документы попадают в единый редакционный поток."
-    },
-    {
-      "id": "structure",
-      "label": "Структурирование",
-      "summary": "Материал собирается в форму статьи, кейса, методической заметки или обзорной страницы."
-    },
-    {
-      "id": "quality",
-      "label": "Проверка качества",
-      "summary": "Уточняются логика, требования направления, корректность ссылок и готовность к выпуску."
-    },
-    {
-      "id": "publication",
-      "label": "Публичный выпуск",
-      "summary": "После этого материал становится страницей, публикационной карточкой и частью общей витрины института."
-    }
+    {"id": "source", "label": "Исходный материал", "summary": "Лекции, заметки, интервью и исследовательские материалы входят в единый редакционный поток."},
+    {"id": "structure", "label": "Структурирование", "summary": "Материал превращается в статью, кейс, методическую заметку или обзорную страницу."},
+    {"id": "quality", "label": "Проверка качества", "summary": "Уточняются логика, требования направления, качество формулировок и готовность к выпуску."},
+    {"id": "publication", "label": "Публичный выпуск", "summary": "Материал становится публичной карточкой, страницей и частью витрины института."}
   ],
-  "roles": [
-    "author",
-    "editor",
-    "supervisor"
-  ],
+  "roles": ["author", "editor", "supervisor"],
   "route": "publications.html",
-  "publicationTypes": [
-    "article",
-    "lecture-note",
-    "research-case",
-    "methodical-page"
-  ],
+  "publicationTypes": ["article", "lecture-note", "research-case", "methodical-page"],
   "qualityRules": {
     "requireDirection": true,
     "requireOwnerRole": true,
     "requirePublicCard": true,
-    "requireLinkedEntities": true
+    "requireLinkedEntities": true,
+    "requireSourceId": true,
+    "requireOwnerId": true
   },
   "roleResponsibilities": {
-    "author": [
-      "готовит исходный материал",
-      "уточняет направление",
-      "доводит текст до publish-ready версии"
-    ],
-    "editor": [
-      "проверяет структуру и выпуск",
-      "сверяет формулировки",
-      "контролирует качество страницы"
-    ],
-    "supervisor": [
-      "оценивает научную состоятельность",
-      "связывает материал с исследовательским или грантовым контуром"
-    ]
+    "author": ["готовит исходный материал", "уточняет направление", "доводит текст до publish-ready версии"],
+    "editor": ["проверяет структуру и выпуск", "сверяет формулировки", "контролирует качество страницы"],
+    "supervisor": ["оценивает научную состоятельность", "связывает материал с исследовательским или грантовым контуром"]
   },
   "contentContracts": {
-    "requiredFields": [
-      "sourceType",
-      "direction",
-      "reviewState",
-      "ownerRole",
-      "publicCard",
-      "seoState",
-      "linkedEntities"
-    ],
-    "publishableTypes": [
-      "article",
-      "lecture-note",
-      "research-case",
-      "methodical-page"
-    ]
+    "requiredFields": ["sourceType", "direction", "reviewState", "ownerRole", "ownerId", "sourceId", "publicCard", "seoState", "linkedEntities"],
+    "publishableTypes": ["article", "lecture-note", "research-case", "methodical-page"]
   }
 }

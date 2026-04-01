@@ -1,20 +1,15 @@
 {
-  "profiles": [
+  "defaultProfileId": "rublev-alexander-markovich",
+  "participants": [
     {
-      "id": "student-core",
-      "name": "Студент исследовательского трека",
+      "id": "rublev-alexander-markovich",
+      "name": "Рублёв Александр Маркович",
       "primaryRole": "student",
-      "roles": [
-        "student"
-      ],
-      "directions": [
-        "Эмоциональный интеллект",
-        "Психология",
-        "ИИ и исследования"
-      ],
-      "status": "в обучении",
-      "lifecycleState": "learning",
-      "summary": "Идёт по учебному маршруту, посещает открытые лекции и подключается к первым исследовательским задачам.",
+      "roles": ["student", "author"],
+      "directions": ["ИИ и исследования", "Биомеханика и спорт", "Платформа"],
+      "status": "в исследовательском треке",
+      "lifecycleState": "research",
+      "summary": "Двигается от обучения и открытых лекций к исследовательским кейсам, публикациям и прикладным ИИ-проектам.",
       "route": {
         "course": "course-ei.html",
         "grants": "grants-teams.html",
@@ -23,130 +18,95 @@
         "publications": "publications.html"
       },
       "courses": {
-        "active": [
-          "ei-core-2026-spring"
-        ],
+        "active": ["ei-core-2026-spring"],
         "completed": [],
-        "certificateEligible": false,
-        "progress": 34,
+        "recommended": ["ei-core", "writing-bootcamp"],
+        "progress": 62,
         "currentState": "active",
-        "nextStep": "Пройти второй модуль и открыть исследовательскую практику.",
-        "recommended": [
-          "ei-core"
-        ],
+        "enrollmentState": "confirmed",
+        "accessState": "open",
+        "paymentState": "confirmed",
+        "paymentRoute": "payment-demo.html?course=ei-core",
+        "certificateState": "in_progress",
+        "certificatePage": "course-certificate-ei.html?course=ei-core",
+        "nextStep": "Завершить практический модуль и перевести результаты в исследовательский кейс и публикацию.",
         "history": [
           {
             "courseId": "ei-core",
             "instanceId": "ei-core-2026-spring",
             "state": "active",
-            "progress": 34
+            "progress": 62,
+            "paymentState": "confirmed",
+            "certificateState": "in_progress"
           }
         ]
       },
       "events": {
-        "attended": [
-          "bystraya-psihologiya-30032026",
-          "psychology-men"
-        ],
-        "upcoming": [
-          "parkgorkogo"
-        ],
-        "registrations": [
-          "parkgorkogo"
-        ],
-        "derivedOutputs": [
-          "lecture-note-psychology-men"
-        ],
+        "attended": ["psychology-men", "bystraya-psihologiya-30032026", "biomechanics"],
+        "upcoming": ["parkgorkogo", "sales-lab"],
+        "registrations": ["parkgorkogo"],
+        "derivedOutputs": ["article-ei-route", "note-fast-psychology", "case-rowing-qc"],
         "history": [
           {
             "eventId": "psychology-men",
             "role": "participant",
-            "outcome": "discussion-note",
+            "outcome": "lecture-note",
             "linkedPublication": "lecture-note-psychology-men",
             "linkedResearch": null
           },
           {
             "eventId": "bystraya-psihologiya-30032026",
             "role": "participant",
-            "outcome": "lecture-summary",
+            "outcome": "course-bridge",
             "linkedPublication": "note-fast-psychology",
             "linkedResearch": "sandbox-hub"
+          },
+          {
+            "eventId": "biomechanics",
+            "role": "observer",
+            "outcome": "research-entry",
+            "linkedPublication": "case-rowing-qc",
+            "linkedResearch": "rowing-agent"
           }
         ]
       },
       "publications": {
-        "drafts": 1,
-        "published": 0,
-        "activeCards": [
-          "note-fast-psychology"
-        ],
-        "readiness": "наблюдение",
-        "pipelineState": "source",
-        "owned": [
-          "note-fast-psychology"
-        ]
+        "drafts": 2,
+        "published": 1,
+        "activeCards": ["article-ei-route", "case-rowing-qc"],
+        "readiness": "review",
+        "pipelineState": "quality",
+        "owned": ["article-ei-route", "note-fast-psychology", "case-rowing-qc"]
       },
       "researchTracks": [
-        {
-          "id": "sandbox-hub",
-          "state": "onboarding",
-          "priority": "current"
-        }
+        {"id": "sandbox-hub", "state": "active", "priority": "current"},
+        {"id": "rowing-agent", "state": "active", "priority": "high"}
       ],
       "grants": {
-        "readiness": "observer",
-        "eligible": [
-          "softskills-lab"
-        ],
-        "blocked": [
-          "rowing-research"
-        ],
-        "nextAction": "Набрать достаточный учебный и публикационный след для входа в заявку.",
-        "recommended": [
-          "softskills-lab"
-        ]
+        "readiness": "preparation",
+        "eligible": ["applied-ai", "rowing-research"],
+        "blocked": [],
+        "nextAction": "Подтвердить исследовательский кейс и собрать публикационные материалы под заявку.",
+        "recommended": ["applied-ai", "rowing-research"]
       },
-      "permissions": [
-        "view_courses",
-        "view_events",
-        "view_research_intro",
-        "view_grants_filtered"
-      ],
+      "permissions": ["view_courses", "submit_publications", "view_events", "view_research_cases", "view_grants_filtered"],
       "milestones": [
-        {
-          "label": "Открыт базовый курс ЭИ",
-          "state": "done"
-        },
-        {
-          "label": "Пройдены первые публичные лекции",
-          "state": "done"
-        },
-        {
-          "label": "Подключение к исследовательской практике",
-          "state": "current"
-        },
-        {
-          "label": "Первая публикация или кейс",
-          "state": "next"
-        }
+        {"label": "Открыт маршрут курса ЭИ", "state": "done"},
+        {"label": "Собрана история понедельничных лекций", "state": "done"},
+        {"label": "Действует исследовательский кейс по rowing_agent", "state": "current"},
+        {"label": "Подготовка доказательной базы для гранта", "state": "next"}
       ],
-      "permissionsSummary": "Открыт учебный маршрут, архив посещённых лекций и вход в исследовательскую среду начального уровня."
+      "permissionsSummary": "Открыт учебный маршрут, публикационный вход, исследовательские кейсы и профильный отбор грантов."
     },
     {
-      "id": "author-core",
-      "name": "Автор публикационного направления",
+      "id": "kuntskova-tatyana-mikhailovna",
+      "name": "Кунцкова Татьяна Михайловна",
       "primaryRole": "author",
-      "roles": [
-        "author",
-        "student"
-      ],
-      "directions": [
-        "Психология",
-        "Публикации"
-      ],
-      "status": "в публикационном маршруте",
-      "lifecycleState": "publishing",
-      "summary": "Готовит материалы для выпуска, проходит редакционную доработку и накапливает портфель публикаций.",
+      "roles": ["author", "supervisor"],
+      "directions": ["Психология", "Эмоциональный интеллект", "Публикации"],
+      "status": "в грантовой подготовке",
+      "lifecycleState": "grants",
+      "summary": "Ведёт психологические и образовательные направления, собирает лекции, статьи и авторские материалы в единый курс и публикационный контур.",
       "route": {
         "course": "course-ei.html",
         "grants": "grants-teams.html",
@@ -155,493 +115,203 @@
         "publications": "publications.html"
       },
       "courses": {
-        "active": [
-          "ei-core-2026-spring"
-        ],
-        "completed": [
-          "writing-bootcamp-2026"
-        ],
-        "certificateEligible": true,
-        "progress": 79,
-        "currentState": "active",
-        "nextStep": "Завершить публикационный материал и связать его с исследовательским кейсом.",
-        "recommended": [
-          "writing-bootcamp"
-        ],
+        "active": ["writing-bootcamp-2026"],
+        "completed": ["ei-core-2026-spring"],
+        "recommended": ["writing-bootcamp", "ei-core"],
+        "progress": 88,
+        "currentState": "mentoring",
+        "enrollmentState": "confirmed",
+        "accessState": "open",
+        "paymentState": "not_required",
+        "paymentRoute": "payment-demo.html?course=writing-bootcamp",
+        "certificateState": "issued",
+        "certificatePage": "course-certificate-ei.html?course=writing-bootcamp",
+        "nextStep": "Довести авторские материалы до готовых публикационных карточек и связать их с грантовым пакетом.",
         "history": [
           {
             "courseId": "ei-core",
             "instanceId": "ei-core-2026-spring",
-            "state": "active",
-            "progress": 79
+            "state": "completed",
+            "progress": 100,
+            "paymentState": "not_required",
+            "certificateState": "issued"
           },
           {
             "courseId": "writing-bootcamp",
             "instanceId": "writing-bootcamp-2026",
-            "state": "completed",
-            "progress": 100
+            "state": "active",
+            "progress": 88,
+            "paymentState": "not_required",
+            "certificateState": "in_progress"
           }
         ]
       },
       "events": {
-        "attended": [
-          "bystraya-psihologiya-30032026",
-          "psychology-men"
-        ],
-        "upcoming": [
-          "gelendzhik"
-        ],
-        "registrations": [
-          "gelendzhik"
-        ],
-        "derivedOutputs": [
-          "article-ei-route",
-          "lecture-note-psychology-men"
-        ],
+        "attended": ["psychology-men", "bystraya-psihologiya-30032026", "parkgorkogo"],
+        "upcoming": ["gelendzhik"],
+        "registrations": ["gelendzhik"],
+        "derivedOutputs": ["lecture-note-psychology-men", "article-softskills-lab", "article-ei-route"],
         "history": [
           {
             "eventId": "psychology-men",
-            "role": "speaker-note-author",
-            "outcome": "publication-seed",
+            "role": "speaker",
+            "outcome": "lecture-note",
             "linkedPublication": "lecture-note-psychology-men",
             "linkedResearch": null
           },
           {
             "eventId": "bystraya-psihologiya-30032026",
-            "role": "editorial-observer",
-            "outcome": "article-brief",
+            "role": "speaker",
+            "outcome": "course-bridge",
             "linkedPublication": "article-ei-route",
             "linkedResearch": "sandbox-hub"
-          }
-        ]
-      },
-      "publications": {
-        "drafts": 3,
-        "published": 2,
-        "activeCards": [
-          "article-ei-route",
-          "article-softskills-lab"
-        ],
-        "readiness": "review",
-        "pipelineState": "quality",
-        "owned": [
-          "article-ei-route",
-          "article-softskills-lab",
-          "lecture-note-psychology-men"
-        ]
-      },
-      "researchTracks": [
-        {
-          "id": "sandbox-hub",
-          "state": "active",
-          "priority": "current"
-        }
-      ],
-      "grants": {
-        "readiness": "preparation",
-        "eligible": [
-          "softskills-lab",
-          "applied-ai"
-        ],
-        "blocked": [],
-        "nextAction": "Подготовить публикационное доказательство и краткий кейс для включения в заявку.",
-        "recommended": [
-          "softskills-lab",
-          "applied-ai"
-        ]
-      },
-      "permissions": [
-        "view_courses",
-        "submit_publications",
-        "view_events",
-        "view_research_intro",
-        "view_grants_filtered"
-      ],
-      "milestones": [
-        {
-          "label": "Собран публикационный профиль",
-          "state": "done"
-        },
-        {
-          "label": "Пройден интенсив по академическому письму",
-          "state": "done"
-        },
-        {
-          "label": "Материал проходит редакционную сверку",
-          "state": "current"
-        },
-        {
-          "label": "Связка публикации с грантом",
-          "state": "next"
-        }
-      ],
-      "permissionsSummary": "Открыт редакционный маршрут, отправка материалов и профильный грантовый фильтр по публикационной готовности."
-    },
-    {
-      "id": "supervisor-core",
-      "name": "Научный руководитель проекта",
-      "primaryRole": "supervisor",
-      "roles": [
-        "supervisor",
-        "author"
-      ],
-      "directions": [
-        "Психология",
-        "ИИ и исследования",
-        "Гранты"
-      ],
-      "status": "в исследовательском треке",
-      "lifecycleState": "supervising",
-      "summary": "Собирает темы, оценивает готовность материалов и переводит участников из обучения в публикации и гранты.",
-      "route": {
-        "course": "course-ei.html",
-        "grants": "grants-teams.html",
-        "events": "conferences.html",
-        "research": "research-sandbox.html",
-        "publications": "publications.html"
-      },
-      "courses": {
-        "active": [],
-        "completed": [
-          "ei-core-2026-spring"
-        ],
-        "certificateEligible": true,
-        "progress": 100,
-        "currentState": "mentor",
-        "nextStep": "Собрать связку из участников, публикаций и кейсов под грантовый трек.",
-        "recommended": [
-          "writing-bootcamp"
-        ],
-        "history": [
-          {
-            "courseId": "ei-core",
-            "instanceId": "ei-core-2026-spring",
-            "state": "mentor",
-            "progress": 100
-          }
-        ]
-      },
-      "events": {
-        "attended": [
-          "bandits",
-          "bystraya-psihologiya-30032026"
-        ],
-        "upcoming": [
-          "parkgorkogo",
-          "gelendzhik"
-        ],
-        "registrations": [
-          "parkgorkogo",
-          "gelendzhik"
-        ],
-        "derivedOutputs": [
-          "supervisor-brief-2026-q2",
-          "case-rowing-qc"
-        ],
-        "history": [
-          {
-            "eventId": "bandits",
-            "role": "curator",
-            "outcome": "methodological-note",
-            "linkedPublication": "case-rowing-qc",
-            "linkedResearch": "rowing-agent"
-          },
-          {
-            "eventId": "bystraya-psihologiya-30032026",
-            "role": "curator",
-            "outcome": "supervisor-brief",
-            "linkedPublication": "supervisor-brief-2026-q2",
-            "linkedResearch": "sandbox-hub"
-          }
-        ]
-      },
-      "publications": {
-        "drafts": 6,
-        "published": 14,
-        "activeCards": [
-          "article-ei-route",
-          "case-rowing-qc"
-        ],
-        "readiness": "supervising",
-        "pipelineState": "publication",
-        "owned": [
-          "case-rowing-qc",
-          "article-ei-route",
-          "supervisor-brief-2026-q2"
-        ]
-      },
-      "researchTracks": [
-        {
-          "id": "sandbox-hub",
-          "state": "active",
-          "priority": "current"
-        },
-        {
-          "id": "rowing-agent",
-          "state": "active",
-          "priority": "high"
-        }
-      ],
-      "grants": {
-        "readiness": "submission",
-        "eligible": [
-          "softskills-lab",
-          "applied-ai",
-          "rowing-research"
-        ],
-        "blocked": [],
-        "nextAction": "Подтвердить состав команды и связать действующие кейсы с заявкой.",
-        "recommended": [
-          "applied-ai",
-          "rowing-research"
-        ]
-      },
-      "permissions": [
-        "view_all_courses",
-        "view_all_events",
-        "view_all_grants",
-        "view_research_cases",
-        "approve_publications"
-      ],
-      "milestones": [
-        {
-          "label": "Собран кураторский профиль",
-          "state": "done"
-        },
-        {
-          "label": "Открыт доступ к research-кейсам",
-          "state": "done"
-        },
-        {
-          "label": "Формирование грантовой связки",
-          "state": "current"
-        },
-        {
-          "label": "Подача заявки от института",
-          "state": "next"
-        }
-      ],
-      "permissionsSummary": "Открыт полный обзор маршрутов, кейсов, публикаций и грантовой готовности команд."
-    },
-    {
-      "id": "coordinator-core",
-      "name": "Координатор института",
-      "primaryRole": "coordinator",
-      "roles": [
-        "coordinator",
-        "editor"
-      ],
-      "directions": [
-        "Курсы",
-        "События",
-        "Гранты"
-      ],
-      "status": "в грантовой подготовке",
-      "lifecycleState": "routing",
-      "summary": "Управляет маршрутами участников, обновлением страниц, приоритетом заявок и выпуском контента.",
-      "route": {
-        "course": "course-ei.html",
-        "grants": "grants-teams.html",
-        "events": "conferences.html",
-        "research": "research-sandbox.html",
-        "publications": "publications.html"
-      },
-      "courses": {
-        "active": [
-          "ei-core-2026-spring"
-        ],
-        "completed": [],
-        "certificateEligible": false,
-        "progress": 12,
-        "currentState": "routing",
-        "nextStep": "Свести график мероприятий, выпуск материалов и актуальные гранты в единый цикл.",
-        "recommended": [
-          "ei-core",
-          "writing-bootcamp"
-        ],
-        "history": [
-          {
-            "courseId": "ei-core",
-            "instanceId": "ei-core-2026-spring",
-            "state": "routing",
-            "progress": 12
-          }
-        ]
-      },
-      "events": {
-        "attended": [
-          "psychology-men"
-        ],
-        "upcoming": [
-          "parkgorkogo",
-          "sales-lab"
-        ],
-        "registrations": [
-          "parkgorkogo",
-          "sales-lab"
-        ],
-        "derivedOutputs": [
-          "event-release-april",
-          "editorial-digest-q2"
-        ],
-        "history": [
-          {
-            "eventId": "psychology-men",
-            "role": "coordinator",
-            "outcome": "release-prep",
-            "linkedPublication": "event-release-april",
-            "linkedResearch": null
           },
           {
             "eventId": "parkgorkogo",
-            "role": "coordinator",
-            "outcome": "schedule-control",
-            "linkedPublication": "editorial-digest-q2",
+            "role": "speaker",
+            "outcome": "public-program",
+            "linkedPublication": "article-softskills-lab",
             "linkedResearch": "sandbox-hub"
           }
         ]
       },
       "publications": {
         "drafts": 2,
-        "published": 5,
-        "activeCards": [
-          "editorial-digest-q2"
-        ],
-        "readiness": "coordinating",
-        "pipelineState": "structure",
-        "owned": [
-          "editorial-digest-q2",
-          "event-release-april"
+        "published": 4,
+        "activeCards": ["lecture-note-psychology-men", "article-softskills-lab", "article-ei-route"],
+        "readiness": "publication",
+        "pipelineState": "publication",
+        "owned": ["lecture-note-psychology-men", "article-softskills-lab", "article-ei-route"]
+      },
+      "researchTracks": [{"id": "sandbox-hub", "state": "active", "priority": "current"}],
+      "grants": {
+        "readiness": "submission",
+        "eligible": ["softskills-lab", "applied-ai"],
+        "blocked": [],
+        "nextAction": "Собрать авторские и учебные материалы в доказательный пакет для образовательной заявки.",
+        "recommended": ["softskills-lab", "applied-ai"]
+      },
+      "permissions": ["view_courses", "submit_publications", "view_events", "view_research_intro", "view_grants_filtered", "approve_publications"],
+      "milestones": [
+        {"label": "Собран курс ЭИ как рабочий маршрут", "state": "done"},
+        {"label": "Понедельничные лекции переведены в публикационный контур", "state": "done"},
+        {"label": "Идёт грантовая упаковка образовательного направления", "state": "current"},
+        {"label": "Расширение курса на новые программы", "state": "next"}
+      ],
+      "permissionsSummary": "Открыт авторский, редакционный и кураторский маршрут с выходом в гранты и образовательные программы."
+    },
+    {
+      "id": "kuntsov-mikhail-ivanovich",
+      "name": "Кунцов Михаил Иванович",
+      "primaryRole": "coordinator",
+      "roles": ["supervisor", "coordinator", "editor"],
+      "directions": ["ИИ и исследования", "Биомеханика и спорт", "Гранты", "Платформа"],
+      "status": "выпускник/куратор",
+      "lifecycleState": "curator",
+      "summary": "Координирует исследовательские треки, грантовую подачу и выпуск материалов, удерживая связку между направлениями института.",
+      "route": {
+        "course": "course-ei.html",
+        "grants": "grants-teams.html",
+        "events": "conferences.html",
+        "research": "research-sandbox.html",
+        "publications": "publications.html"
+      },
+      "courses": {
+        "active": ["writing-bootcamp-2026"],
+        "completed": ["ei-core-2026-spring"],
+        "recommended": ["writing-bootcamp", "ei-core"],
+        "progress": 100,
+        "currentState": "curating",
+        "enrollmentState": "mentor",
+        "accessState": "open",
+        "paymentState": "not_required",
+        "paymentRoute": "payment-demo.html?course=writing-bootcamp",
+        "certificateState": "issued",
+        "certificatePage": "course-certificate-ei.html?course=writing-bootcamp",
+        "nextStep": "Собрать командный пакет из исследований, публикаций и грантовых заявок в единый операционный цикл.",
+        "history": [
+          {
+            "courseId": "ei-core",
+            "instanceId": "ei-core-2026-spring",
+            "state": "mentor",
+            "progress": 100,
+            "paymentState": "not_required",
+            "certificateState": "issued"
+          },
+          {
+            "courseId": "writing-bootcamp",
+            "instanceId": "writing-bootcamp-2026",
+            "state": "mentor",
+            "progress": 100,
+            "paymentState": "not_required",
+            "certificateState": "issued"
+          }
         ]
+      },
+      "events": {
+        "attended": ["bandits", "biomechanics", "parkgorkogo"],
+        "upcoming": ["gelendzhik", "sales-lab"],
+        "registrations": ["gelendzhik", "sales-lab"],
+        "derivedOutputs": ["case-rowing-qc", "supervisor-brief-2026-q2", "editorial-digest-q2", "event-release-april"],
+        "history": [
+          {
+            "eventId": "bandits",
+            "role": "curator",
+            "outcome": "methodological-note",
+            "linkedPublication": "supervisor-brief-2026-q2",
+            "linkedResearch": "sandbox-hub"
+          },
+          {
+            "eventId": "biomechanics",
+            "role": "coordinator",
+            "outcome": "research-case",
+            "linkedPublication": "case-rowing-qc",
+            "linkedResearch": "rowing-agent"
+          },
+          {
+            "eventId": "parkgorkogo",
+            "role": "coordinator",
+            "outcome": "release-cycle",
+            "linkedPublication": "event-release-april",
+            "linkedResearch": "sandbox-hub"
+          }
+        ]
+      },
+      "publications": {
+        "drafts": 1,
+        "published": 6,
+        "activeCards": ["case-rowing-qc", "supervisor-brief-2026-q2", "editorial-digest-q2", "event-release-april"],
+        "readiness": "coordinating",
+        "pipelineState": "publication",
+        "owned": ["case-rowing-qc", "supervisor-brief-2026-q2", "editorial-digest-q2", "event-release-april"]
       },
       "researchTracks": [
-        {
-          "id": "sandbox-hub",
-          "state": "routing",
-          "priority": "support"
-        }
+        {"id": "sandbox-hub", "state": "active", "priority": "support"},
+        {"id": "rowing-agent", "state": "active", "priority": "high"}
       ],
       "grants": {
-        "readiness": "routing",
-        "eligible": [
-          "softskills-lab",
-          "applied-ai",
-          "rowing-research"
-        ],
+        "readiness": "submission",
+        "eligible": ["applied-ai", "rowing-research", "softskills-lab"],
         "blocked": [],
-        "nextAction": "Перевести исследования, события и публикации в единый график подачи и сопровождения.",
-        "recommended": [
-          "softskills-lab",
-          "applied-ai",
-          "rowing-research"
-        ]
+        "nextAction": "Подтвердить состав команды, исследовательские артефакты и календарь подачи от имени института.",
+        "recommended": ["applied-ai", "rowing-research", "softskills-lab"]
       },
-      "permissions": [
-        "manage_content",
-        "manage_events",
-        "manage_grants",
-        "manage_routes",
-        "view_research_cases"
-      ],
+      "permissions": ["manage_content", "manage_events", "manage_grants", "manage_routes", "approve_publications", "view_research_cases", "view_all_courses"],
       "milestones": [
-        {
-          "label": "Включён единый shell маршрутов",
-          "state": "done"
-        },
-        {
-          "label": "Настроены профили ролей",
-          "state": "done"
-        },
-        {
-          "label": "Сбор release-цикла платформы",
-          "state": "current"
-        },
-        {
-          "label": "Единая панель координации",
-          "state": "next"
-        }
+        {"label": "Собран общий shell маршрутов", "state": "done"},
+        {"label": "Первый research lifecycle открыт на rowing_agent", "state": "done"},
+        {"label": "Действует выпускной цикл по грантам и публикациям", "state": "current"},
+        {"label": "Переход к устойчивому сервисному режиму", "state": "next"}
       ],
-      "permissionsSummary": "Открыто управление маршрутами, публикациями, событиями и грантовыми переходами без дублирования данных."
+      "permissionsSummary": "Открыто управление курсами, событиями, публикациями, исследованиями и грантовой координацией."
     }
   ],
   "roleTemplates": {
-    "student": {
-      "label": "Студент",
-      "entryState": "новый",
-      "nextStates": [
-        "в обучении",
-        "в публикационном маршруте"
-      ],
-      "defaultPermissions": [
-        "view_courses",
-        "view_events",
-        "view_research_intro",
-        "view_grants_filtered"
-      ]
-    },
-    "author": {
-      "label": "Автор",
-      "entryState": "в публикационном маршруте",
-      "nextStates": [
-        "в исследовательском треке",
-        "в грантовой подготовке"
-      ],
-      "defaultPermissions": [
-        "view_courses",
-        "submit_publications",
-        "view_events",
-        "view_research_intro",
-        "view_grants_filtered"
-      ]
-    },
-    "supervisor": {
-      "label": "Научный руководитель",
-      "entryState": "в исследовательском треке",
-      "nextStates": [
-        "в грантовой подготовке",
-        "выпускник/куратор"
-      ],
-      "defaultPermissions": [
-        "view_courses",
-        "approve_publications",
-        "view_events",
-        "view_research_intro",
-        "view_grants_filtered"
-      ]
-    },
-    "editor": {
-      "label": "Редактор",
-      "entryState": "в публикационном маршруте",
-      "nextStates": [
-        "выпускник/куратор"
-      ],
-      "defaultPermissions": [
-        "approve_publications",
-        "view_events",
-        "view_grants_filtered"
-      ]
-    },
-    "coordinator": {
-      "label": "Координатор",
-      "entryState": "в грантовой подготовке",
-      "nextStates": [
-        "выпускник/куратор"
-      ],
-      "defaultPermissions": [
-        "view_courses",
-        "approve_publications",
-        "view_events",
-        "view_grants_filtered",
-        "manage_routes"
-      ]
-    }
+    "student": {"label": "Студент", "entryState": "новый", "nextStates": ["в обучении", "в исследовательском треке"], "defaultPermissions": ["view_courses", "view_events", "view_research_intro", "view_grants_filtered"]},
+    "author": {"label": "Автор", "entryState": "в публикационном маршруте", "nextStates": ["в исследовательском треке", "в грантовой подготовке"], "defaultPermissions": ["view_courses", "submit_publications", "view_events", "view_research_intro", "view_grants_filtered"]},
+    "supervisor": {"label": "Научный руководитель", "entryState": "в исследовательском треке", "nextStates": ["в грантовой подготовке", "выпускник/куратор"], "defaultPermissions": ["view_courses", "approve_publications", "view_events", "view_research_cases", "view_grants_filtered"]},
+    "editor": {"label": "Редактор", "entryState": "в публикационном маршруте", "nextStates": ["выпускник/куратор"], "defaultPermissions": ["approve_publications", "view_events", "view_grants_filtered"]},
+    "coordinator": {"label": "Координатор", "entryState": "в грантовой подготовке", "nextStates": ["выпускник/куратор"], "defaultPermissions": ["view_courses", "approve_publications", "view_events", "view_grants_filtered", "manage_routes"]}
   },
-  "lifecycleStates": [
-    "новый",
-    "в обучении",
-    "в публикационном маршруте",
-    "в исследовательском треке",
-    "в грантовой подготовке",
-    "выпускник/куратор"
-  ]
+  "lifecycleStates": ["новый", "в обучении", "в публикационном маршруте", "в исследовательском треке", "в грантовой подготовке", "выпускник/куратор"]
 }
