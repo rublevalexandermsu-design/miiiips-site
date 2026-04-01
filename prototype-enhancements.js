@@ -761,6 +761,11 @@
     const currentPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
     const overlayExcludedPages = new Set(['event-registration.html', 'event-bandits.html', 'event-parkgorkogo.html', 'event-gelendzhik.html']);
     ensureGlobalStyles();
+    if (!overlayExcludedPages.has(currentPage)) {
+      ensurePageMapExists();
+      extendPageMap();
+      injectMobileDock();
+    }
     extendTopNav();
     wireDownloads();
     prepareKnownForms();
