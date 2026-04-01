@@ -38,7 +38,11 @@
         "coordinator-core": "support"
       },
       "applicationState": "research-brief",
-      "nextAction": "Собрать учебный и публикационный пакет, подтверждающий прикладную ценность направления."
+      "nextAction": "Собрать учебный и публикационный пакет, подтверждающий прикладную ценность направления.",
+      "sourceConfig": {
+        "primarySource": "google-sheets-grants",
+        "normalization": "manual-review-before-release"
+      }
     },
     {
       "id": "applied-ai",
@@ -79,7 +83,11 @@
         "coordinator-core": "target"
       },
       "applicationState": "team-assembly",
-      "nextAction": "Подтвердить исследовательский кейс и собрать доказательную связку из публикаций и демонстраций."
+      "nextAction": "Подтвердить исследовательский кейс и собрать доказательную связку из публикаций и демонстраций.",
+      "sourceConfig": {
+        "primarySource": "google-sheets-grants",
+        "normalization": "manual-review-before-release"
+      }
     },
     {
       "id": "rowing-research",
@@ -116,7 +124,26 @@
         "coordinator-core": "target"
       },
       "applicationState": "evidence-pack",
-      "nextAction": "Привязать рабочий кейс, исследовательские артефакты и витрину результатов к заявочному контуру."
+      "nextAction": "Привязать рабочий кейс, исследовательские артефакты и витрину результатов к заявочному контуру.",
+      "sourceConfig": {
+        "primarySource": "google-sheets-grants",
+        "normalization": "manual-review-before-release"
+      }
     }
-  ]
+  ],
+  "sourceRegistry": {
+    "mode": "planned_import",
+    "sources": [
+      {
+        "id": "google-sheets-grants",
+        "label": "Google Sheets / текущий грантовый реестр",
+        "type": "sheet"
+      },
+      {
+        "id": "manual-curation",
+        "label": "Ручная проверка и редактура",
+        "type": "editorial"
+      }
+    ]
+  }
 }

@@ -38,5 +38,38 @@
     "requireOwnerRole": true,
     "requirePublicCard": true,
     "requireLinkedEntities": true
+  },
+  "roleResponsibilities": {
+    "author": [
+      "готовит исходный материал",
+      "уточняет направление",
+      "доводит текст до publish-ready версии"
+    ],
+    "editor": [
+      "проверяет структуру и выпуск",
+      "сверяет формулировки",
+      "контролирует качество страницы"
+    ],
+    "supervisor": [
+      "оценивает научную состоятельность",
+      "связывает материал с исследовательским или грантовым контуром"
+    ]
+  },
+  "contentContracts": {
+    "requiredFields": [
+      "sourceType",
+      "direction",
+      "reviewState",
+      "ownerRole",
+      "publicCard",
+      "seoState",
+      "linkedEntities"
+    ],
+    "publishableTypes": [
+      "article",
+      "lecture-note",
+      "research-case",
+      "methodical-page"
+    ]
   }
 }

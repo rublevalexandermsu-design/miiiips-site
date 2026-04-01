@@ -41,7 +41,7 @@ REQUIRED_SCRIPT_PAGES = {
     'grants-teams.html': ['grant-shell-status', 'grant-research-status', 'grant-application-state'],
     'conferences.html': ['event-shell-status', 'event-route-status'],
     'research-sandbox.html': ['research-shell-status', 'research-case-list'],
-    'publications.html': ['editorial-shell-status', 'publication-route-summary'],
+    'publications.html': ['editorial-shell-status', 'publication-route-summary', 'publication-card-list'],
     'biomechanics-rowing.html': ['rowing-case-evidence', 'rowing-case-status', 'rowing-case-route']
 }
 ROUTE_KEYS = {'page', 'route', 'public_page', 'grant_surface', 'course_surface', 'detailPage'}

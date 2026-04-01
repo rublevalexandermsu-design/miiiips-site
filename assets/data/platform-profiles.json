@@ -290,7 +290,7 @@
         "ИИ и исследования",
         "Гранты"
       ],
-      "status": "куратор исследовательских и публикационных маршрутов",
+      "status": "в исследовательском треке",
       "lifecycleState": "supervising",
       "summary": "Собирает темы, оценивает готовность материалов и переводит участников из обучения в публикации и гранты.",
       "route": {
@@ -436,7 +436,7 @@
         "События",
         "Гранты"
       ],
-      "status": "ведёт расписание, заявки и выпуск материалов",
+      "status": "в грантовой подготовке",
       "lifecycleState": "routing",
       "summary": "Управляет маршрутами участников, обновлением страниц, приоритетом заявок и выпуском контента.",
       "route": {
@@ -564,31 +564,84 @@
       "permissionsSummary": "Открыто управление маршрутами, публикациями, событиями и грантовыми переходами без дублирования данных."
     }
   ],
-  "roleTemplates": [
-    {
-      "role": "student",
+  "roleTemplates": {
+    "student": {
       "label": "Студент",
-      "focus": "обучение, события, первые исследования"
+      "entryState": "новый",
+      "nextStates": [
+        "в обучении",
+        "в публикационном маршруте"
+      ],
+      "defaultPermissions": [
+        "view_courses",
+        "view_events",
+        "view_research_intro",
+        "view_grants_filtered"
+      ]
     },
-    {
-      "role": "author",
+    "author": {
       "label": "Автор",
-      "focus": "публикации, редакционный маршрут, требования направления"
+      "entryState": "в публикационном маршруте",
+      "nextStates": [
+        "в исследовательском треке",
+        "в грантовой подготовке"
+      ],
+      "defaultPermissions": [
+        "view_courses",
+        "submit_publications",
+        "view_events",
+        "view_research_intro",
+        "view_grants_filtered"
+      ]
     },
-    {
-      "role": "supervisor",
+    "supervisor": {
       "label": "Научный руководитель",
-      "focus": "связка публикаций, исследований и грантов"
+      "entryState": "в исследовательском треке",
+      "nextStates": [
+        "в грантовой подготовке",
+        "выпускник/куратор"
+      ],
+      "defaultPermissions": [
+        "view_courses",
+        "approve_publications",
+        "view_events",
+        "view_research_intro",
+        "view_grants_filtered"
+      ]
     },
-    {
-      "role": "editor",
+    "editor": {
       "label": "Редактор",
-      "focus": "качество текста, выпуск, публикационная готовность"
+      "entryState": "в публикационном маршруте",
+      "nextStates": [
+        "выпускник/куратор"
+      ],
+      "defaultPermissions": [
+        "approve_publications",
+        "view_events",
+        "view_grants_filtered"
+      ]
     },
-    {
-      "role": "coordinator",
+    "coordinator": {
       "label": "Координатор",
-      "focus": "события, график, release-цикл, грантовые маршруты"
+      "entryState": "в грантовой подготовке",
+      "nextStates": [
+        "выпускник/куратор"
+      ],
+      "defaultPermissions": [
+        "view_courses",
+        "approve_publications",
+        "view_events",
+        "view_grants_filtered",
+        "manage_routes"
+      ]
     }
+  },
+  "lifecycleStates": [
+    "новый",
+    "в обучении",
+    "в публикационном маршруте",
+    "в исследовательском треке",
+    "в грантовой подготовке",
+    "выпускник/куратор"
   ]
 }

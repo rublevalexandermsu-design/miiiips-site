@@ -256,8 +256,13 @@
     const eventRoute = document.getElementById('event-route-status');
     if (eventRoute) {
       const upcomingLead = upcomingEvents[0];
+      const leadLinks = upcomingLead ? [
+        upcomingLead.linkedCourse ? courseById[upcomingLead.linkedCourse]?.title : null,
+        upcomingLead.linkedResearch ? caseMap[upcomingLead.linkedResearch]?.title : null,
+        upcomingLead.linkedPublication ? publicationMap[upcomingLead.linkedPublication]?.publicCard?.title : null
+      ].filter(Boolean) : [];
       eventRoute.innerHTML = `<div class="grid" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;">
-        ${card('Как событие работает в маршруте', upcomingLead ? `Ближайшее событие — ${escapeHtml(upcomingLead.title)}. После участия материал может перейти в публикацию, исследовательскую заметку или курс.` : 'Каждое событие должно оставлять после себя материал, связку или следующий шаг для участника.', `<div class="cta-row"><a class="btn secondary" href="${withProfile('course-ei.html', profile.id)}">Связанный курс</a></div>`)}
+        ${card('Как событие работает в маршруте', upcomingLead ? `Ближайшее событие — ${escapeHtml(upcomingLead.title)}. После участия маршрут может продолжиться в ${escapeHtml(leadLinks.join(' · ') || 'курс, публикацию или исследовательскую линию')}.` : 'Каждое событие должно оставлять после себя материал, связку или следующий шаг для участника.', `<div class="cta-row"><a class="btn secondary" href="${withProfile('course-ei.html', profile.id)}">Связанный курс</a></div>`)}
         ${card('Для координатора и редактора', derivedOutputs.length ? `Уже собраны материалы: ${escapeHtml(derivedOutputs.map((entry) => entry.publicCard.title).join(' · '))}.` : 'После события здесь появляются страницы, фотографии, конспекты и связанные публикации.', `<div class="cta-row"><a class="btn secondary" href="${withProfile('publications.html', profile.id)}">Публикации</a></div>`)}
       </div>`;
     }
@@ -305,6 +310,25 @@
       publicationRoute.innerHTML = `<div class="grid" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;">
         ${card('Материалы в работе', ownedPublications.length ? `У участника уже есть ${ownedPublications.length} материалов в маршруте.` : 'Материалы появятся после первой лекции, статьи или исследовательской заметки.', list(ownedPublications, (entry) => `<li><strong>${escapeHtml(entry.publicCard.title)}</strong> — ${escapeHtml(entry.reviewState)}</li>`, 'Пока нет материалов в активном выпуске.'))}
         ${card('Куда они ведут', ownedPublications.length ? 'Публикации могут усиливать грантовый маршрут, курс и исследовательские кейсы.' : 'После появления первого материала здесь будет показана его связь с курсами, событиями и исследованиями.', `<div class="cta-row"><a class="btn secondary" href="${withProfile('grants-teams.html', profile.id)}">Гранты</a><a class="btn secondary" href="${withProfile('research-sandbox.html', profile.id)}">Исследования</a></div>`)}
+      </div>`;
+    }
+
+    const publicationCards = document.getElementById('publication-card-list');
+    if (publicationCards) {
+      const visiblePublications = ownedPublications.length ? ownedPublications : publications.filter((entry) => profile.roles.includes(entry.ownerRole)).slice(0, 3);
+      const responsibilities = Object.entries(editorialData.roleResponsibilities || {})
+        .filter(([role]) => profile.roles.includes(role))
+        .map(([role, items]) => `<div class="card" style="padding:20px;"><h3>${escapeHtml(roleLabels[role] || role)}</h3>${list(items, (item) => `<li>${escapeHtml(item)}</li>`)}</div>`)
+        .join('');
+      publicationCards.innerHTML = `<div class="grid two">
+        <div>
+          <span class="badge">Материалы маршрута</span>
+          <div class="grid" style="margin-top:14px;">${visiblePublications.map((entry) => card(entry.publicCard.title, escapeHtml(entry.publicCard.summary), `<p style="margin-top:12px;color:#60716b;">Стадия: ${escapeHtml(entry.reviewState)} · Направление: ${escapeHtml(entry.direction)}</p><div class="cta-row"><a class="btn secondary" href="${withProfile(entry.page, profile.id)}">Открыть материал</a></div>`)).join('')}</div>
+        </div>
+        <div>
+          <span class="badge">Роли в выпуске</span>
+          <div class="grid" style="margin-top:14px;">${responsibilities || card('Рабочая роль', 'Публикационный маршрут будет уточняться по мере подключения ролей.')}</div>
+        </div>
       </div>`;
     }
 
