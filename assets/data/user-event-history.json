@@ -1,0 +1,60 @@
+{
+  "profiles": [
+    {
+      "profileId": "student-core",
+      "attended": [
+        "psychology-men",
+        "bystraya-psihologiya-30032026"
+      ],
+      "upcoming": [
+        "parkgorkogo"
+      ],
+      "derivedOutputs": [
+        "lecture-note-psychology-men"
+      ]
+    },
+    {
+      "profileId": "author-core",
+      "attended": [
+        "psychology-men",
+        "bystraya-psihologiya-30032026"
+      ],
+      "upcoming": [
+        "gelendzhik"
+      ],
+      "derivedOutputs": [
+        "article-ei-route",
+        "lecture-note-psychology-men"
+      ]
+    },
+    {
+      "profileId": "supervisor-core",
+      "attended": [
+        "bandits",
+        "bystraya-psihologiya-30032026"
+      ],
+      "upcoming": [
+        "parkgorkogo",
+        "gelendzhik"
+      ],
+      "derivedOutputs": [
+        "supervisor-brief-2026-q2",
+        "case-rowing-qc"
+      ]
+    },
+    {
+      "profileId": "coordinator-core",
+      "attended": [
+        "psychology-men"
+      ],
+      "upcoming": [
+        "parkgorkogo",
+        "sales-lab"
+      ],
+      "derivedOutputs": [
+        "event-release-april",
+        "editorial-digest-q2"
+      ]
+    }
+  ]
+}

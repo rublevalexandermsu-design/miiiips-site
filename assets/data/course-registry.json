@@ -6,12 +6,31 @@
       "page": "course-ei.html",
       "format": "Гибридный курс",
       "priceModel": "Платный / по набору",
-      "certificate": "Сертификат участника",
+      "certificate": {
+        "label": "Сертификат участника",
+        "issuedAfter": "completion"
+      },
       "modules": [
-        "Саморегуляция и стресс",
-        "Коммуникация и переговоры",
-        "Эмоциональная устойчивость",
-        "Практика и кейсы"
+        {
+          "id": "ei-self-regulation",
+          "title": "Саморегуляция и стресс",
+          "state": "published"
+        },
+        {
+          "id": "ei-communication",
+          "title": "Коммуникация и переговоры",
+          "state": "published"
+        },
+        {
+          "id": "ei-stability",
+          "title": "Эмоциональная устойчивость",
+          "state": "next"
+        },
+        {
+          "id": "ei-practice",
+          "title": "Практика и кейсы",
+          "state": "next"
+        }
       ],
       "linkedEvents": [
         "parkgorkogo",
@@ -20,7 +39,52 @@
       "linkedResearch": [
         "sandbox-hub"
       ],
-      "nextTemplate": "Следующий курс собирается из тех же блоков: программа, доступ, прогресс, итоговый документ."
+      "nextTemplate": "Следующий курс собирается из тех же блоков: программа, доступ, прогресс, итоговый документ.",
+      "accessRules": {
+        "roles": [
+          "student",
+          "author",
+          "coordinator"
+        ],
+        "entryStates": [
+          "в обучении",
+          "в публикационном маршруте",
+          "ведёт расписание, заявки и выпуск материалов"
+        ],
+        "paymentRequired": true,
+        "visibleWhen": [
+          "view_courses"
+        ]
+      },
+      "progressRules": {
+        "modulesRequired": 4,
+        "certificateThreshold": 85,
+        "researchUnlockAt": 50
+      },
+      "nextStepRules": {
+        "afterCompletion": "writing-bootcamp",
+        "afterModule2": "research-sandbox.html",
+        "afterCertificate": "publications.html"
+      },
+      "courseCard": {
+        "lead": "Курс соединяет саморегуляцию, коммуникацию, практику и выход в исследовательский маршрут.",
+        "result": "Участник получает опору для лекций, публикаций и прикладных кейсов."
+      },
+      "instances": [
+        {
+          "id": "ei-core-2026-spring",
+          "cohort": "Весна 2026",
+          "state": "active",
+          "startDate": "2026-03-10",
+          "endDate": "2026-05-30",
+          "moduleProgress": {
+            "published": 2,
+            "total": 4
+          },
+          "certificateIssued": false,
+          "paymentState": "confirmed"
+        }
+      ]
     },
     {
       "id": "writing-bootcamp",
@@ -28,18 +92,86 @@
       "page": "publications.html",
       "format": "Интенсив / мастерская",
       "priceModel": "По запросу",
-      "certificate": "Портфель материалов",
+      "certificate": {
+        "label": "Портфель материалов",
+        "issuedAfter": "completion"
+      },
       "modules": [
-        "Структура статьи",
-        "Требования направления",
-        "Редакционная доработка",
-        "Публикационный пакет"
+        {
+          "id": "writing-structure",
+          "title": "Структура статьи",
+          "state": "published"
+        },
+        {
+          "id": "writing-direction",
+          "title": "Требования направления",
+          "state": "published"
+        },
+        {
+          "id": "writing-review",
+          "title": "Редакционная доработка",
+          "state": "published"
+        },
+        {
+          "id": "writing-package",
+          "title": "Публикационный пакет",
+          "state": "next"
+        }
       ],
       "linkedEvents": [
-        "bandits"
+        "bandits",
+        "bystraya-psihologiya-30032026"
       ],
-      "linkedResearch": [],
-      "nextTemplate": "Используется как шаблон для авторских и редакторских треков."
+      "linkedResearch": [
+        "sandbox-hub",
+        "rowing-agent"
+      ],
+      "nextTemplate": "Используется как шаблон для авторских и редакторских треков.",
+      "accessRules": {
+        "roles": [
+          "author",
+          "supervisor",
+          "editor"
+        ],
+        "entryStates": [
+          "в публикационном маршруте",
+          "куратор исследовательских и публикационных маршрутов"
+        ],
+        "paymentRequired": false,
+        "visibleWhen": [
+          "submit_publications",
+          "approve_publications"
+        ]
+      },
+      "progressRules": {
+        "modulesRequired": 4,
+        "certificateThreshold": 100,
+        "researchUnlockAt": 75
+      },
+      "nextStepRules": {
+        "afterCompletion": "publications.html",
+        "afterModule3": "grants-teams.html",
+        "afterPortfolio": "research-sandbox.html"
+      },
+      "courseCard": {
+        "lead": "Интенсив доводит материал от замысла до publish-ready формы и связывает его с грантами и исследованиями.",
+        "result": "После него участник получает рабочий публикационный пакет и понятный следующий шаг."
+      },
+      "instances": [
+        {
+          "id": "writing-bootcamp-2026",
+          "cohort": "Редакционный поток 2026",
+          "state": "active",
+          "startDate": "2026-02-15",
+          "endDate": "2026-04-30",
+          "moduleProgress": {
+            "published": 3,
+            "total": 4
+          },
+          "certificateIssued": false,
+          "paymentState": "not_required"
+        }
+      ]
     }
   ]
 }

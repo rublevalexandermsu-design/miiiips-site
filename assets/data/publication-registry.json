@@ -1,0 +1,152 @@
+{
+  "publications": [
+    {
+      "id": "note-fast-psychology",
+      "title": "Быстрая психология: конспект открытой лекции",
+      "sourceType": "lecture-note",
+      "direction": "Психология",
+      "reviewState": "structure",
+      "ownerRole": "student",
+      "publicCard": {
+        "title": "Конспект лекции о быстрой психологии",
+        "summary": "Короткая запись по открытой лекции с акцентом на самонаблюдение и скорость реакции."
+      },
+      "seoState": "draft",
+      "linkedEntities": [
+        "bystraya-psihologiya-30032026",
+        "ei-core"
+      ],
+      "page": "event-bystraya-psihologiya-30032026.html"
+    },
+    {
+      "id": "lecture-note-psychology-men",
+      "title": "Психология мужчины: доверие, дистанция, стиль общения",
+      "sourceType": "lecture-note",
+      "direction": "Психология",
+      "reviewState": "quality",
+      "ownerRole": "author",
+      "publicCard": {
+        "title": "Лекция о мужской коммуникации",
+        "summary": "Материал вырос из понедельничной лекции и уже готов к редакционной доводке."
+      },
+      "seoState": "active",
+      "linkedEntities": [
+        "psychology-men",
+        "softskills-lab"
+      ],
+      "page": "event-psychology-men.html"
+    },
+    {
+      "id": "article-ei-route",
+      "title": "Маршрут участника через эмоциональный интеллект и публичные форматы",
+      "sourceType": "article",
+      "direction": "Эмоциональный интеллект",
+      "reviewState": "publication",
+      "ownerRole": "author",
+      "publicCard": {
+        "title": "Как курс ЭИ связан с событиями и публикациями",
+        "summary": "Обзорный материал, который связывает курс, практику и последующие публикационные шаги."
+      },
+      "seoState": "active",
+      "linkedEntities": [
+        "ei-core",
+        "parkgorkogo",
+        "sandbox-hub"
+      ],
+      "page": "publications.html"
+    },
+    {
+      "id": "article-softskills-lab",
+      "title": "Психология, софтскиллы и прикладные образовательные практики",
+      "sourceType": "article",
+      "direction": "Психология",
+      "reviewState": "quality",
+      "ownerRole": "author",
+      "publicCard": {
+        "title": "Прикладная линия soft skills",
+        "summary": "Материал под грантовый и образовательный трек с акцентом на психологические практики."
+      },
+      "seoState": "pre-release",
+      "linkedEntities": [
+        "softskills-lab",
+        "ei-core"
+      ],
+      "page": "publications.html"
+    },
+    {
+      "id": "case-rowing-qc",
+      "title": "Кейс rowing_agent: QC, видеоаналитика и биомеханика",
+      "sourceType": "research-case",
+      "direction": "Биомеханика и спорт",
+      "reviewState": "publication",
+      "ownerRole": "supervisor",
+      "publicCard": {
+        "title": "Исследовательский кейс по гребле",
+        "summary": "Показывает, как из исследовательского полигона вырастает доказательная страница для грантов и партнёров."
+      },
+      "seoState": "active",
+      "linkedEntities": [
+        "rowing-agent",
+        "rowing-research",
+        "biomechanics"
+      ],
+      "page": "biomechanics-rowing.html"
+    },
+    {
+      "id": "supervisor-brief-2026-q2",
+      "title": "Кураторская сводка: исследования, события и выпуск материалов",
+      "sourceType": "methodical-page",
+      "direction": "ИИ и исследования",
+      "reviewState": "structure",
+      "ownerRole": "supervisor",
+      "publicCard": {
+        "title": "Кураторская связка второго квартала",
+        "summary": "Сводка по тому, как события, исследования и публикации соединяются в один маршрут."
+      },
+      "seoState": "draft",
+      "linkedEntities": [
+        "bandits",
+        "sandbox-hub",
+        "applied-ai"
+      ],
+      "page": "publications.html"
+    },
+    {
+      "id": "editorial-digest-q2",
+      "title": "Редакционная сводка института: весна 2026",
+      "sourceType": "methodical-page",
+      "direction": "Публикации",
+      "reviewState": "structure",
+      "ownerRole": "coordinator",
+      "publicCard": {
+        "title": "Сводка по текущему выпуску",
+        "summary": "Показывает, как контентный поток института собирается в устойчивый календарь выпуска."
+      },
+      "seoState": "draft",
+      "linkedEntities": [
+        "publications.html",
+        "conferences.html"
+      ],
+      "page": "publications.html"
+    },
+    {
+      "id": "event-release-april",
+      "title": "Апрельский событийный выпуск института",
+      "sourceType": "methodical-page",
+      "direction": "События",
+      "reviewState": "structure",
+      "ownerRole": "coordinator",
+      "publicCard": {
+        "title": "События апреля",
+        "summary": "Материал собирает события, лекции и связанные публикационные действия в один выпуск."
+      },
+      "seoState": "draft",
+      "linkedEntities": [
+        "parkgorkogo",
+        "sales-lab",
+        "gelendzhik"
+      ],
+      "page": "conferences.html"
+    }
+  ]
+}

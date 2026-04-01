@@ -16,8 +16,29 @@
         "sandbox-hub"
       ],
       "linkedPublications": [
-        "publications.html"
-      ]
+        "article-softskills-lab",
+        "lecture-note-psychology-men"
+      ],
+      "eligibilityRules": {
+        "roles": [
+          "student",
+          "author",
+          "supervisor"
+        ],
+        "directions": [
+          "Психология",
+          "Эмоциональный интеллект"
+        ],
+        "minPublicationCount": 0
+      },
+      "profileFit": {
+        "student-core": "intro",
+        "author-core": "target",
+        "supervisor-core": "target",
+        "coordinator-core": "support"
+      },
+      "applicationState": "research-brief",
+      "nextAction": "Собрать учебный и публикационный пакет, подтверждающий прикладную ценность направления."
     },
     {
       "id": "applied-ai",
@@ -36,9 +57,29 @@
         "sandbox-hub"
       ],
       "linkedPublications": [
-        "research.html",
-        "publications.html"
-      ]
+        "case-rowing-qc",
+        "article-ei-route"
+      ],
+      "eligibilityRules": {
+        "roles": [
+          "author",
+          "supervisor",
+          "coordinator"
+        ],
+        "directions": [
+          "ИИ и исследования",
+          "Биомеханика и спорт"
+        ],
+        "minPublicationCount": 1
+      },
+      "profileFit": {
+        "student-core": "observe",
+        "author-core": "candidate",
+        "supervisor-core": "target",
+        "coordinator-core": "target"
+      },
+      "applicationState": "team-assembly",
+      "nextAction": "Подтвердить исследовательский кейс и собрать доказательную связку из публикаций и демонстраций."
     },
     {
       "id": "rowing-research",
@@ -55,8 +96,27 @@
         "rowing-agent"
       ],
       "linkedPublications": [
-        "biomechanics-rowing.html"
-      ]
+        "case-rowing-qc"
+      ],
+      "eligibilityRules": {
+        "roles": [
+          "supervisor",
+          "coordinator"
+        ],
+        "directions": [
+          "Биомеханика и спорт",
+          "ИИ и исследования"
+        ],
+        "minPublicationCount": 1
+      },
+      "profileFit": {
+        "student-core": "blocked",
+        "author-core": "observe",
+        "supervisor-core": "target",
+        "coordinator-core": "target"
+      },
+      "applicationState": "evidence-pack",
+      "nextAction": "Привязать рабочий кейс, исследовательские артефакты и витрину результатов к заявочному контуру."
     }
   ]
 }

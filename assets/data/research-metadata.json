@@ -8,13 +8,15 @@
       "public_page": "biomechanics-rowing.html",
       "grant_surface": "grants-teams.html",
       "course_surface": "course-ei.html",
+      "publication_route": "case-rowing-qc",
       "state": "active",
       "required_fields": [
         "authors",
         "direction",
         "artifacts",
         "public_page",
-        "grant_surface"
+        "grant_surface",
+        "publication_route"
       ]
     },
     {
@@ -25,6 +27,7 @@
       "public_page": "research-sandbox.html",
       "grant_surface": "grants-teams.html",
       "course_surface": "course-ei.html",
+      "publication_route": "supervisor-brief-2026-q2",
       "state": "active",
       "required_fields": [
         "authors",
@@ -60,7 +63,19 @@
       "direction",
       "linkedGrant",
       "linkedCourse",
-      "page"
+      "page",
+      "authors",
+      "artifacts",
+      "publicationRoute",
+      "state"
+    ],
+    "publication": [
+      "sourceType",
+      "direction",
+      "reviewState",
+      "ownerRole",
+      "publicCard",
+      "linkedEntities"
     ]
   }
 }
