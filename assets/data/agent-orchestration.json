@@ -1,0 +1,289 @@
+{
+  "orchestrator": {
+    "id": "global-orchestrator",
+    "role": "Global Orchestrator",
+    "skills": [
+      "multi-agent-orchestrator",
+      "institute-platform-architect",
+      "cross-project-linker"
+    ],
+    "responsibilities": [
+      "classify_request",
+      "assign_agents",
+      "merge_outputs",
+      "resolve_conflicts",
+      "approve_release"
+    ]
+  },
+  "agents": [
+    {
+      "id": "architecture-agent",
+      "role": "Architecture Agent",
+      "skills": [
+        "institute-platform-architect",
+        "cross-project-linker"
+      ],
+      "domains": [
+        "platform",
+        "shell",
+        "navigation",
+        "shared-data"
+      ],
+      "pages": [
+        "index.html",
+        "about.html",
+        "accounts.html",
+        "research.html",
+        "social-projects.html",
+        "contacts-partners.html",
+        "mgu-branches.html",
+        "city-lecture-network.html"
+      ],
+      "data": [
+        "assets/data/platform-profiles.json",
+        "assets/data/account-shell.json"
+      ],
+      "scripts": [
+        "platform-shell.js"
+      ]
+    },
+    {
+      "id": "accounts-agent",
+      "role": "Accounts Agent",
+      "skills": [
+        "account-shell-integrator"
+      ],
+      "domains": [
+        "accounts",
+        "participant-profiles",
+        "routing"
+      ],
+      "pages": [
+        "accounts.html",
+        "account-author.html",
+        "account-student.html",
+        "account-supervisor.html",
+        "account-editor.html",
+        "account-coordinator.html",
+        "join.html",
+        "application-success.html",
+        "audit-request.html"
+      ],
+      "data": [
+        "assets/data/platform-profiles.json",
+        "assets/data/user-event-history.json"
+      ],
+      "scripts": [
+        "platform-shell.js"
+      ]
+    },
+    {
+      "id": "events-agent",
+      "role": "Events Agent",
+      "skills": [
+        "event-lifecycle-publisher"
+      ],
+      "domains": [
+        "events",
+        "calendar",
+        "archives"
+      ],
+      "pages": [
+        "conferences.html",
+        "event-registration.html",
+        "event-bandits.html",
+        "event-parkgorkogo.html",
+        "event-gelendzhik.html",
+        "event-bystraya-psihologiya-30032026.html",
+        "event-psychology-men.html",
+        "event-psychology-znakomstv.html"
+      ],
+      "data": [
+        "assets/data/events.json",
+        "assets/data/user-event-history.json"
+      ],
+      "scripts": [
+        "conferences-events.js"
+      ]
+    },
+    {
+      "id": "courses-agent",
+      "role": "Courses Agent",
+      "skills": [
+        "ei-course-factory"
+      ],
+      "domains": [
+        "courses",
+        "progress",
+        "payment",
+        "certificates"
+      ],
+      "pages": [
+        "course-ei.html",
+        "course-ei-program.html",
+        "course-ei-catalog.html",
+        "course-ei-library.html",
+        "course-ei-lectures.html",
+        "course-certificate-ei.html",
+        "payment-demo.html",
+        "education-ai.html"
+      ],
+      "data": [
+        "assets/data/course-registry.json"
+      ],
+      "scripts": [
+        "platform-shell.js"
+      ]
+    },
+    {
+      "id": "grants-agent",
+      "role": "Grants Agent",
+      "skills": [
+        "grants-online-orchestrator"
+      ],
+      "domains": [
+        "grants",
+        "applications",
+        "readiness"
+      ],
+      "pages": [
+        "grants-teams.html",
+        "account-coordinator.html",
+        "account-supervisor.html"
+      ],
+      "data": [
+        "assets/data/grant-registry.json",
+        "assets/data/grant-application-registry.json"
+      ],
+      "scripts": [
+        "platform-shell.js"
+      ]
+    },
+    {
+      "id": "editorial-agent",
+      "role": "Editorial Agent",
+      "skills": [
+        "autoarticle-pipeline"
+      ],
+      "domains": [
+        "publications",
+        "editorial",
+        "news",
+        "knowledge-base"
+      ],
+      "pages": [
+        "publications.html",
+        "scientific-editing.html",
+        "knowledge-base.html",
+        "news-feed.html",
+        "account-author.html",
+        "account-editor.html"
+      ],
+      "data": [
+        "assets/data/editorial-pipeline.json",
+        "assets/data/editorial-ingest.json",
+        "assets/data/publication-registry.json",
+        "assets/data/site-content.json"
+      ],
+      "scripts": [
+        "platform-shell.js"
+      ]
+    },
+    {
+      "id": "research-agent",
+      "role": "Research Agent",
+      "skills": [
+        "rowing-case-publisher"
+      ],
+      "domains": [
+        "research",
+        "sandbox",
+        "cases"
+      ],
+      "pages": [
+        "research.html",
+        "research-sandbox.html",
+        "biomechanics-rowing.html"
+      ],
+      "data": [
+        "assets/data/research-case-registry.json",
+        "assets/data/research-metadata.json",
+        "assets/data/research-sandbox.json"
+      ],
+      "scripts": [
+        "platform-shell.js"
+      ]
+    },
+    {
+      "id": "qa-agent",
+      "role": "QA Agent",
+      "skills": [
+        "site-content-qa-guard"
+      ],
+      "domains": [
+        "release",
+        "qa",
+        "validation"
+      ],
+      "pages": [
+        "*"
+      ],
+      "data": [
+        "assets/data/platform-profiles.json",
+        "assets/data/course-registry.json",
+        "assets/data/grant-registry.json",
+        "assets/data/grant-application-registry.json",
+        "assets/data/editorial-pipeline.json",
+        "assets/data/editorial-ingest.json",
+        "assets/data/publication-registry.json",
+        "assets/data/research-case-registry.json",
+        "assets/data/research-metadata.json",
+        "assets/data/events.json",
+        "assets/data/site-content.json"
+      ],
+      "scripts": [
+        "tools/site_release_guard.py",
+        "tools/site_data_guard.py",
+        "tools/publish_with_guard.ps1"
+      ]
+    }
+  ],
+  "routing": {
+    "events": [
+      "events-agent",
+      "qa-agent"
+    ],
+    "courses": [
+      "courses-agent",
+      "accounts-agent",
+      "qa-agent"
+    ],
+    "grants": [
+      "grants-agent",
+      "qa-agent"
+    ],
+    "publications": [
+      "editorial-agent",
+      "qa-agent"
+    ],
+    "research": [
+      "research-agent",
+      "qa-agent"
+    ],
+    "accounts": [
+      "accounts-agent",
+      "qa-agent"
+    ],
+    "platform": [
+      "architecture-agent",
+      "qa-agent"
+    ],
+    "cross-project": [
+      "architecture-agent",
+      "editorial-agent",
+      "research-agent",
+      "grants-agent",
+      "qa-agent"
+    ]
+  }
+}
