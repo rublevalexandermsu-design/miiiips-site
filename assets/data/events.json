@@ -136,6 +136,30 @@
       ]
     },
     {
+      "id": "test-publikatsii-07042026",
+      "title": "Тест публикации",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-07T19:00:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "psychology"
+      ],
+      "directionLabels": [
+        "Психология"
+      ],
+      "summary": "Тест публикации 07.04.2026",
+      "detailPage": "event-test-publikatsii-07042026.html",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
+    },
+    {
       "id": "psihologiya-otnosheniy-06042026",
       "title": "Психология отношений",
       "type": "public_lecture",
