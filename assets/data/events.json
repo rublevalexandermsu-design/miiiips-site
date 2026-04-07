@@ -50,7 +50,7 @@
         "Эмоциональный интеллект",
         "Психология"
       ],
-      "summary": "Публичный городской маршрут: лекция по эмоциональному интеллекту, Timepad-регистрация, Telegram-канал и отдельная карточка события.",
+      "summary": "Открытая лекция в цикле понедельничных встреч института.",
       "detailPage": "event-parkgorkogo.html",
       "registrationPage": "event-registration.html?event=parkgorkogo",
       "calendarFile": "assets/calendar/parkgorkogo-lecture.ics",
@@ -134,6 +134,30 @@
         "route-program",
         "team-brief"
       ]
+    },
+    {
+      "id": "psihologiya-otnosheniy-06042026",
+      "title": "Психология отношений",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-06T19:00:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "psychology"
+      ],
+      "directionLabels": [
+        "Психология"
+      ],
+      "summary": "Открытая лекция в цикле понедельничных встреч института.",
+      "detailPage": "event-psihologiya-otnosheniy-06042026.html",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
     },
     {
       "id": "bystraya-psihologiya-30032026",
