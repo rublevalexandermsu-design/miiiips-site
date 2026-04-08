@@ -533,12 +533,14 @@
       const rectStyle = window.getComputedStyle(img);
       if (rectStyle.display === 'none') return;
       const parent = img.parentElement;
+      if (img.closest('[data-no-live-photo-treatment="1"]')) return;
       if (!parent || parent.classList.contains('miiiips-photo-treated')) return;
       if ((img.clientWidth || img.width || 0) < 80) return;
       parent.classList.add('miiiips-photo-treated');
       parent.classList.add('miiiips-media-surface');
     });
     document.querySelectorAll('[style*="background-image"]').forEach(function (node) {
+      if (node.closest('[data-no-live-photo-treatment="1"]')) return;
       if (node.classList.contains('miiiips-photo-treated')) return;
       const style = node.getAttribute('style') || '';
       if (!/background-image/i.test(style)) return;
