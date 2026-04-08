@@ -12,6 +12,11 @@
     :root {--bg:#f7f6f1;--surface:#ffffff;--line:#d8ddd9;--ink:#12372f;--muted:#51635d;--accent:#0c4d40;--gold:#8b6417;--shadow:0 20px 44px rgba(18,55,47,.08);--radius:28px;--sticky-offset:118px;}
     * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:var(--bg); color:var(--ink); font-family:Manrope,sans-serif; }
     a { color:inherit; }
+    [data-no-live-photo-treatment="1"] { background:transparent !important; box-shadow:none !important; }
+    [data-no-live-photo-treatment="1"]::before,
+    [data-no-live-photo-treatment="1"]::after { content:none !important; background:none !important; }
+    [data-no-live-photo-treatment="1"] img,
+    img[data-no-live-photo-treatment="1"] { filter:none !important; mix-blend-mode:normal !important; }
     .shell { max-width:1280px; margin:0 auto; padding:0 28px; }
     .topbar { position:sticky; top:0; z-index:40; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
     .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:nowrap; }
