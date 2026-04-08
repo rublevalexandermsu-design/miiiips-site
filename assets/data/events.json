@@ -161,6 +161,31 @@
       "theme": "teal"
     },
     {
+      "id": "reshenie-problem-i-prinyatie-resheniy-08042026",
+      "title": "Решение проблем и принятие решений",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-08T19:00:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Лекция по средам",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Лекция по средам"
+      ],
+      "summary": "Название лекции: Решение проблем и принятие решений",
+      "detailPage": "event-reshenie-problem-i-prinyatie-resheniy-08042026.html",
+      "feedbackPage": "event-feedback-reshenie-problem-i-prinyatie-resheniy-08042026.html",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
+    },
+    {
       "id": "psihologiya-otnosheniy-06042026",
       "title": "Психология отношений: границы, совместимость и динамика близости",
       "type": "public_lecture",
