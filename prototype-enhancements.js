@@ -112,6 +112,42 @@
     }
   }
 
+  function apiCandidates() {
+    const candidates = [];
+    if (location.origin && location.origin.startsWith('http')) candidates.push(location.origin);
+    candidates.push('http://127.0.0.1:3007');
+    return Array.from(new Set(candidates));
+  }
+
+  async function postJsonWithFallback(path, payload) {
+    let lastError = null;
+    for (const base of apiCandidates()) {
+      try {
+        const response = await fetch(base + path, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (!response.ok) throw new Error('bad response from ' + base + path);
+        return await response.json();
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    throw lastError || new Error('all api routes failed');
+  }
+
+  async function loadEventsData() {
+    try {
+      const response = await fetch('assets/data/events.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('events missing');
+      const payload = await response.json();
+      return Array.isArray(payload.events) ? payload.events : [];
+    } catch (error) {
+      return [];
+    }
+  }
+
   function pickFile() {
     const input = document.createElement('input');
     input.type = 'file';
@@ -552,13 +588,7 @@
     const payload = serializeForm(form);
     statusNode.textContent = 'Отправляем данные...';
     try {
-      const response = await fetch(apiBase + '/api/forms', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      if (!response.ok) throw new Error('bad form response');
-      const result = await response.json();
+      const result = await postJsonWithFallback('/api/forms', payload);
       sessionStorage.setItem('miiiips-last-form', JSON.stringify(result));
       statusNode.textContent = 'Заявка отправлена: таблица и email-маршрут сработали.';
       const target = payload.formType === 'course_enrollment' ? 'application-success.html?flow=course' : 'application-success.html';
@@ -577,13 +607,7 @@
     const settings = options || {};
     if (statusNode) statusNode.textContent = settings.pendingText || 'Отправляем данные...';
     try {
-      const response = await fetch(apiBase + '/api/forms', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      if (!response.ok) throw new Error('bad inline response');
-      const result = await response.json();
+      const result = await postJsonWithFallback('/api/forms', payload);
       sessionStorage.setItem('miiiips-last-form', JSON.stringify(result));
       if (statusNode) statusNode.textContent = settings.successText || 'Заявка принята. Письмо и запись в таблицу отправлены.';
       toast(settings.toastText || 'Маршрут сработал: письмо ушло, запись в таблицу добавлена.');
@@ -757,6 +781,54 @@
     });
   }
 
+  function injectEventRequestButtons(events) {
+    if (!page.startsWith('event-')) return;
+    if (page.startsWith('event-feedback-')) return;
+    if (page === 'event-registration.html' || page === 'event-request.html') return;
+    if (!Array.isArray(events) || !events.length) return;
+    const event = events.find(function (item) {
+      return (item.detailPage || '').toLowerCase() === page;
+    });
+    if (!event) return;
+
+    const primaryActions = document.querySelector('.event-main .hero-actions') || document.querySelector('.hero .hero-actions');
+    if (primaryActions && !primaryActions.querySelector('[data-event-video-request]')) {
+      const videoHref = event.videoRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=video');
+      const inviteHref = event.inviteRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=invite');
+      const video = document.createElement('a');
+      video.className = 'btn secondary';
+      video.href = videoHref;
+      video.textContent = 'Получить видео';
+      video.setAttribute('data-event-video-request', '1');
+      const invite = document.createElement('a');
+      invite.className = 'btn secondary';
+      invite.href = inviteHref;
+      invite.textContent = 'Пригласить лектора';
+      invite.setAttribute('data-event-invite-request', '1');
+      primaryActions.appendChild(video);
+      primaryActions.appendChild(invite);
+    }
+
+    if (!document.getElementById('miiiips-event-request-block')) {
+      const topics = document.getElementById('topics');
+      const hostSection = document.createElement('section');
+      hostSection.id = 'miiiips-event-request-block';
+      hostSection.className = 'section';
+      const videoHref = event.videoRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=video');
+      const inviteHref = event.inviteRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=invite');
+      hostSection.innerHTML = [
+        '<span class="eyebrow">Продолжение маршрута</span>',
+        '<div class="grid-2" style="margin-top:18px;">',
+        '<article class="card metric"><h3>Получить видео встречи</h3><p>Если вам нужен доступ к видеозаписи для личного просмотра, команды или внутреннего обучения, можно оставить короткую заявку. Команда института пришлёт следующий шаг по доступу и условиям оплаты.</p><div class="hero-actions"><a class="btn primary" href="' + videoHref + '">Получить видео</a></div></article>',
+        '<article class="card metric"><h3>Пригласить лектора</h3><p>Если тема подходит для компании, вуза, конференции или закрытого образовательного формата, можно сразу оставить заявку. Она попадёт в рабочий контур института и в таблицу сайта.</p><div class="hero-actions"><a class="btn primary" href="' + inviteHref + '">Оставить заявку</a></div></article>',
+        '</div>'
+      ].join('');
+      if (topics && topics.parentNode) {
+        topics.parentNode.insertBefore(hostSection, topics.nextSibling);
+      }
+    }
+  }
+
   async function init() {
     const currentPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
     const overlayExcludedPages = new Set(['event-registration.html', 'event-bandits.html', 'event-parkgorkogo.html', 'event-gelendzhik.html']);
@@ -771,8 +843,10 @@
     prepareKnownForms();
     injectAuditForm();
     const data = await loadSiteData();
+    const events = await loadEventsData();
     injectCourseEnrollmentForm();
     injectActionForms();
+    injectEventRequestButtons(events);
     renderNews(data);
     renderLectures(data);
     enhanceSuccessPage();
