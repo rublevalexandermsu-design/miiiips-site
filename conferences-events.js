@@ -29,8 +29,12 @@
     ].join("-");
   }
 
-  function formatMeta(date) {
+  function formatMeta(date, event) {
     const day = String(date.getDate()).padStart(2, "0");
+    if (event && event.type === "conference") {
+      const monthNumber = String(date.getMonth() + 1).padStart(2, "0");
+      return day + "." + monthNumber + "." + date.getFullYear();
+    }
     const month = MONTHS[date.getMonth()].toLowerCase();
     const hh = String(date.getHours()).padStart(2, "0");
     const mm = String(date.getMinutes()).padStart(2, "0");
@@ -42,13 +46,19 @@
     const selectedDate = params.get("date") || "";
     const search = params.get("q") || "";
     const firstDate = selectedDate ? new Date(selectedDate + "T00:00:00") : parseDate(events[0].start);
+    const typeFilters = documentFilterValues(".event-type-filter");
+    const statusFilters = documentFilterValues(".event-status-filter");
+    const directionFilters = documentFilterValues(".event-direction-filter");
+    const fallbackDirections = Array.from(new Set(events.flatMap(function (event) {
+      return event.directions || [];
+    })));
     return {
       currentMonth: new Date(firstDate.getFullYear(), firstDate.getMonth(), 1),
       selectedDate: selectedDate,
       search: search,
-      types: new Set(params.get("types") ? params.get("types").split(",") : documentFilterValues(".event-type-filter")),
-      statuses: new Set(params.get("statuses") ? params.get("statuses").split(",") : documentFilterValues(".event-status-filter")),
-      directions: new Set(params.get("directions") ? params.get("directions").split(",") : documentFilterValues(".event-direction-filter")),
+      types: new Set(params.get("types") ? params.get("types").split(",") : (typeFilters.length ? typeFilters : uniqueEventValues(events, "type"))),
+      statuses: new Set(params.get("statuses") ? params.get("statuses").split(",") : (statusFilters.length ? statusFilters : uniqueEventValues(events, "status"))),
+      directions: new Set(params.get("directions") ? params.get("directions").split(",") : (directionFilters.length ? directionFilters : fallbackDirections)),
       quickView: params.get("quick") !== "0"
     };
   }
@@ -57,6 +67,12 @@
     return Array.from(document.querySelectorAll(selector)).map(function (input) {
       return input.value;
     });
+  }
+
+  function uniqueEventValues(events, key) {
+    return Array.from(new Set(events.map(function (event) {
+      return event[key];
+    }).filter(Boolean)));
   }
 
   function syncControls(state) {
@@ -109,13 +125,13 @@
   function renderCards(events, state) {
     const target = document.getElementById("events-results");
     if (!target) return;
-    const filtered = events.filter(function (event) {
-      return matchesFilters(event, state);
-    });
-    const note = document.getElementById("events-results-note");
-    if (note) {
-      note.textContent = "Найдено событий: " + filtered.length + ". Фильтры, поиск и календарь помогают быстро находить нужные встречи.";
-    }
+      const filtered = events.filter(function (event) {
+        return matchesFilters(event, state);
+      });
+      const note = document.getElementById("events-results-note");
+      if (note) {
+        note.textContent = "Найдено событий: " + filtered.length + ". Фильтры, поиск и календарь помогают быстро находить нужные встречи.";
+      }
     if (!filtered.length) {
       target.innerHTML = '<div class="results-empty">По текущим фильтрам событий нет. Снимите часть ограничений или переключите месяц.</div>';
       return;
@@ -132,14 +148,14 @@
         : "";
       return [
         '<article class="event-card ' + quickClass + '" style="background:' + safe(THEME_MAP[event.theme] || THEME_MAP.emerald) + ';">',
-        '<div class="event-meta"><span class="event-pill">' + safe(event.statusLabel) + '</span><span>' + safe(event.typeLabel) + '</span><span>' + safe(formatMeta(date)) + '</span></div>',
+        '<div class="event-meta"><span class="event-pill">' + safe(event.statusLabel) + '</span><span>' + safe(event.typeLabel) + '</span><span>' + safe(formatMeta(date, event)) + '</span></div>',
         '<div class="stack">',
         '<h3 class="event-title">' + safe(event.title) + '</h3>',
         '<p class="event-summary">' + safe(event.summary) + '</p>',
         !state.quickView ? '<p class="event-summary">Площадка: ' + safe(event.venue) + '</p>' : "",
         '</div>',
         '<div class="event-people">',
-        '<div><span>Докладчик</span>' + safe(event.speaker) + '</div>',
+        event.speaker ? '<div><span>Докладчик</span>' + safe(event.speaker) + '</div>' : "",
         '<div><span>Формат</span>' + safe(event.opponent) + '</div>',
         !state.quickView ? '<div><span>Направление</span>' + directionLine + '</div>' : "",
         !state.quickView ? '<div><span>Площадка</span>' + safe(event.venue) + '</div>' : "",
@@ -267,12 +283,12 @@
       renderCalendar(events, state);
       renderCards(events, state);
       updateUrl(state);
-    } catch (error) {
-      const target = document.getElementById("events-results");
-      if (target) {
-        target.innerHTML = '<div class="results-empty">Не удалось загрузить список мероприятий. Обновите страницу чуть позже.</div>';
+      } catch (error) {
+        const target = document.getElementById("events-results");
+        if (target) {
+          target.innerHTML = '<div class="results-empty">Не удалось загрузить список мероприятий. Обновите страницу чуть позже.</div>';
+        }
       }
-    }
   }
 
   if (document.readyState === "loading") {
