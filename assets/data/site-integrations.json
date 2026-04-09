@@ -1,0 +1,15 @@
+{
+  "forms": {
+    "publicApiBase": "",
+    "googleAppsScriptWebAppUrl": "",
+    "localApiBase": "http://127.0.0.1:3007",
+    "mailtoFallback": "mailto:rublevalexanderus@gmail.com"
+  },
+  "alerts": {
+    "telegramThreadLabel": "Задачи для Codex"
+  },
+  "payments": {
+    "videoPaymentEnabled": false,
+    "videoPaymentLabel": "Оплата будет подключена отдельным шагом после подтверждения заявки"
+  }
+}

@@ -40,6 +40,7 @@
     .meta-item strong { display:block; font:700 24px/1.08 Newsreader,serif; }
     .form-status { font-size:14px; color:var(--accent); }
     .note { font-size:14px; color:#60716b; }
+    .miiiips-hidden { display:none !important; }
     .footer { margin-top:48px; padding:28px 0 54px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
     @media (max-width: 980px) { .hero{grid-template-columns:1fr;} .sidebar{position:static;} .field-grid{grid-template-columns:1fr;} .nav{display:none;} }
     @media (max-width: 720px) { .shell{padding:0 16px;} .brand{font-size:40px;} }
@@ -104,6 +105,14 @@
               <label>Email<input name="email" type="email" required placeholder="name@email.ru"/></label>
               <label>Телефон или Telegram<input name="contact" placeholder="+7... или @username"/></label>
             </div>
+            <label id="payment-stage-label" class="miiiips-hidden">Следующий шаг по видео
+              <select name="paymentStage">
+                <option value="Запрос видео / ожидает подтверждения">Запросить доступ к записи</option>
+                <option value="Видео нужно для личного просмотра">Для личного просмотра</option>
+                <option value="Видео нужно для команды / внутреннего обучения">Для команды / внутреннего обучения</option>
+                <option value="Видео нужно с последующей оплатой">Нужна запись с отдельным шагом оплаты</option>
+              </select>
+            </label>
             <label id="interest-label">Что вам нужно<textarea name="message" required placeholder="Опишите запрос, формат и ожидания."></textarea></label>
             <label id="followup-label">Дополнительный контекст<input name="interest" placeholder="Например: для команды, для конференции, для внутреннего обучения"/></label>
             <label style="display:flex;gap:10px;align-items:flex-start;text-transform:none;font:500 14px/1.6 Manrope,sans-serif;color:#51635d;">

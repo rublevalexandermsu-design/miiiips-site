@@ -39,6 +39,33 @@
 
   const page = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
   const apiBase = location.origin && location.origin.startsWith('http') ? location.origin : 'http://127.0.0.1:3007';
+  const INTEGRATIONS_PATH = 'assets/data/site-integrations.json';
+  let integrationsPromise = null;
+
+  function loadIntegrations() {
+    if (!integrationsPromise) {
+      integrationsPromise = fetch(INTEGRATIONS_PATH, { cache: 'no-store' })
+        .then(function (response) {
+          if (!response.ok) throw new Error('integrations missing');
+          return response.json();
+        })
+        .catch(function () {
+          return {
+            forms: {
+              publicApiBase: '',
+              googleAppsScriptWebAppUrl: '',
+              localApiBase: 'http://127.0.0.1:3007',
+              mailtoFallback: 'mailto:rublevalexanderus@gmail.com'
+            },
+            payments: {
+              videoPaymentEnabled: false,
+              videoPaymentLabel: 'Оплата будет подключена отдельным шагом после подтверждения заявки'
+            }
+          };
+        });
+    }
+    return integrationsPromise;
+  }
 
   function ensureGlobalStyles() {
     if (document.getElementById('miiiips-enhancements-style')) return;
@@ -112,16 +139,30 @@
     }
   }
 
-  function apiCandidates() {
+  function apiCandidates(config) {
     const candidates = [];
+    const forms = (config && config.forms) || {};
+    if (forms.publicApiBase) candidates.push(String(forms.publicApiBase).replace(/\/+$/, ''));
     if (location.origin && location.origin.startsWith('http')) candidates.push(location.origin);
-    candidates.push('http://127.0.0.1:3007');
+    if (forms.localApiBase) candidates.push(String(forms.localApiBase).replace(/\/+$/, ''));
+    else candidates.push('http://127.0.0.1:3007');
     return Array.from(new Set(candidates));
   }
 
+  async function submitToGoogleAppsScript(webAppUrl, payload) {
+    await fetch(webAppUrl, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    return { ok: true, mode: 'no-cors' };
+  }
+
   async function postJsonWithFallback(path, payload) {
+    const integrations = await loadIntegrations();
     let lastError = null;
-    for (const base of apiCandidates()) {
+    for (const base of apiCandidates(integrations)) {
       try {
         const response = await fetch(base + path, {
           method: 'POST',
@@ -130,6 +171,13 @@
         });
         if (!response.ok) throw new Error('bad response from ' + base + path);
         return await response.json();
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    if (integrations && integrations.forms && integrations.forms.googleAppsScriptWebAppUrl) {
+      try {
+        return await submitToGoogleAppsScript(integrations.forms.googleAppsScriptWebAppUrl, payload);
       } catch (error) {
         lastError = error;
       }

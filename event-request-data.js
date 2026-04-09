@@ -1,13 +1,9 @@
 (function () {
   const DATA_PATH = "assets/data/events.json";
-  const MAIL_FALLBACK = "mailto:rublevalexanderus@gmail.com";
+  const INTEGRATIONS_PATH = "assets/data/site-integrations.json";
+  const DEFAULT_MAIL_FALLBACK = "mailto:rublevalexanderus@gmail.com";
   const page = (location.pathname.split('/').pop() || 'event-request.html').toLowerCase();
-  function apiCandidates() {
-    const candidates = [];
-    if (location.origin && location.origin.startsWith('http')) candidates.push(location.origin);
-    candidates.push('http://127.0.0.1:3007');
-    return Array.from(new Set(candidates));
-  }
+  let integrationsPromise = null;
 
   const INTENTS = {
     video: {
@@ -44,6 +40,41 @@
     });
   }
 
+  async function loadIntegrations() {
+    if (!integrationsPromise) {
+      integrationsPromise = fetch(INTEGRATIONS_PATH, { cache: "no-store" })
+        .then(function (response) {
+          if (!response.ok) throw new Error("integrations missing");
+          return response.json();
+        })
+        .catch(function () {
+          return {
+            forms: {
+              publicApiBase: "",
+              googleAppsScriptWebAppUrl: "",
+              localApiBase: "http://127.0.0.1:3007",
+              mailtoFallback: DEFAULT_MAIL_FALLBACK
+            },
+            payments: {
+              videoPaymentEnabled: false,
+              videoPaymentLabel: "Оплата будет подключена отдельным шагом после подтверждения заявки"
+            }
+          };
+        });
+    }
+    return integrationsPromise;
+  }
+
+  function apiCandidates(config) {
+    const candidates = [];
+    const forms = (config && config.forms) || {};
+    if (forms.publicApiBase) candidates.push(String(forms.publicApiBase).replace(/\/+$/, ""));
+    if (location.origin && location.origin.startsWith('http')) candidates.push(location.origin);
+    if (forms.localApiBase) candidates.push(String(forms.localApiBase).replace(/\/+$/, ""));
+    else candidates.push('http://127.0.0.1:3007');
+    return Array.from(new Set(candidates.filter(Boolean)));
+  }
+
   function formatDate(date) {
     if (!date) return "Уточняется";
     const parsed = new Date(date);
@@ -71,7 +102,8 @@
     return payload.events || [];
   }
 
-  function prepareMailto(payload) {
+  function prepareMailto(payload, config) {
+    const mailFallback = ((config && config.forms && config.forms.mailtoFallback) || DEFAULT_MAIL_FALLBACK).trim() || DEFAULT_MAIL_FALLBACK;
     const subject = encodeURIComponent("Заявка с сайта МИИИИПС: " + (payload.formType === "event_video_request" ? "получить видео" : "пригласить лектора"));
     const body = encodeURIComponent([
       "Новая заявка с сайта МИИИИПС",
@@ -89,7 +121,17 @@
       "Сообщение:",
       payload.message || ""
     ].join("\n"));
-    return MAIL_FALLBACK + "?subject=" + subject + "&body=" + body;
+    return mailFallback + "?subject=" + subject + "&body=" + body;
+  }
+
+  async function submitToGoogleAppsScript(webAppUrl, payload) {
+    await fetch(webAppUrl, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+    return { ok: true, mode: "no-cors" };
   }
 
   async function init() {
@@ -97,6 +139,7 @@
     const eventId = params.get("event") || "generic-event";
     const intentKey = params.get("intent") || "video";
     const intent = INTENTS[intentKey] || INTENTS.video;
+    const integrations = await loadIntegrations();
     const events = await loadEvents().catch(function () { return []; });
     const event = events.find(function (item) { return item.id === eventId; }) || genericEvent();
 
@@ -122,6 +165,15 @@
       messageLabel.querySelector('textarea').placeholder = intent.messagePlaceholder;
     }
 
+    const paymentLabelNode = document.getElementById("payment-stage-label");
+    if (intentKey === "video") {
+      paymentLabelNode.classList.remove("miiiips-hidden");
+      const paymentSelect = paymentLabelNode.querySelector('select');
+      if (paymentSelect && integrations && integrations.payments && integrations.payments.videoPaymentLabel && !integrations.payments.videoPaymentEnabled) {
+        paymentSelect.insertAdjacentHTML("afterend", '<div class="note" style="margin-top:8px;">' + safe(integrations.payments.videoPaymentLabel) + '</div>');
+      }
+    }
+
     const form = document.getElementById("event-request-form");
     const statusNode = document.getElementById("form-status");
     form.querySelector('[name="event_id"]').value = event.id || "";
@@ -130,6 +182,9 @@
     form.querySelector('[name="event_url"]').value = event.detailPage ? new URL(event.detailPage, location.href).href : location.href;
     form.querySelector('[name="intent"]').value = intentKey;
     form.querySelector('[name="formType"]').value = intent.formType;
+    if (intentKey !== "video") {
+      form.querySelector('[name="paymentStage"]').value = "";
+    }
 
     form.addEventListener("submit", async function (submitEvent) {
       submitEvent.preventDefault();
@@ -139,10 +194,11 @@
       payload.sourcePage = page;
       payload.sourcePageUrl = location.href;
       payload.role = intentKey === "video" ? "Запрос видео" : "Приглашение лектора";
+      payload.requestKind = intentKey;
       statusNode.textContent = "Отправляем заявку...";
       try {
         let delivered = false;
-        for (const base of apiCandidates()) {
+        for (const base of apiCandidates(integrations)) {
           try {
             const response = await fetch(base + "/api/forms", {
               method: "POST",
@@ -157,6 +213,10 @@
             delivered = false;
           }
         }
+        if (!delivered && integrations && integrations.forms && integrations.forms.googleAppsScriptWebAppUrl) {
+          await submitToGoogleAppsScript(integrations.forms.googleAppsScriptWebAppUrl, payload);
+          delivered = true;
+        }
         if (!delivered) throw new Error("all api routes failed");
         statusNode.textContent = "Заявка отправлена. Команда института получит письмо, уведомление и запись в таблице.";
         setTimeout(function () {
@@ -164,7 +224,7 @@
         }, 700);
       } catch (error) {
         statusNode.textContent = "Прямой маршрут сейчас недоступен. Откроем резервный email-маршрут, чтобы заявка не потерялась.";
-        window.location.href = prepareMailto(payload);
+        window.location.href = prepareMailto(payload, integrations);
       }
     });
   }
