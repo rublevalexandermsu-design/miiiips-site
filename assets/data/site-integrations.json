@@ -1,7 +1,7 @@
 {
   "forms": {
     "publicApiBase": "",
-    "googleAppsScriptWebAppUrl": "",
+    "googleAppsScriptWebAppUrl": "https://script.google.com/macros/s/AKfycbyz-KtPKCjWcdS46r8phhWhVqZLhW2i3wyYqHzN9TFLEBYoJ2ktOn1ZMsIZLIbcBPVCuw/exec",
     "localApiBase": "http://127.0.0.1:3007",
     "mailtoFallback": "mailto:rublevalexanderus@gmail.com"
   },

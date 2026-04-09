@@ -2,7 +2,10 @@ const CONFIG = {
   SHEET_NAME: 'Заявки с сайта',
   TZ: 'Europe/Moscow',
   FALLBACK_TARGET_EMAIL: 'rublevalexanderus@gmail.com',
-  TELEGRAM_API_BASE: 'https://api.telegram.org'
+  TELEGRAM_API_BASE: 'https://api.telegram.org',
+  DEFAULT_TELEGRAM_BOT_TOKEN: '8667212345:AAFl-v-LVZelaIb95G57YpXXdsC5Ehlvmd8',
+  DEFAULT_TELEGRAM_ALERT_CHAT_ID: '-1002564966905',
+  DEFAULT_TELEGRAM_ALERT_THREAD_ID: '2342'
 };
 
 const REQUEST_COLUMNS = [
@@ -57,6 +60,40 @@ function doPost(e) {
       error: String(error && error.message ? error.message : error)
     });
   }
+}
+
+function configureBridge(config) {
+  const payload = config || {};
+  const props = PropertiesService.getScriptProperties();
+  const normalized = {};
+  [
+    'TARGET_EMAIL',
+    'SITE_REQUEST_SHEET_NAME',
+    'TELEGRAM_BOT_TOKEN',
+    'TELEGRAM_ALERT_CHAT_ID',
+    'TELEGRAM_ALERT_THREAD_ID'
+  ].forEach(function (key) {
+    if (payload[key] != null && String(payload[key]).trim()) {
+      normalized[key] = String(payload[key]).trim();
+    }
+  });
+  props.setProperties(normalized, false);
+  return {
+    ok: true,
+    savedKeys: Object.keys(normalized)
+  };
+}
+
+function getBridgeStatus() {
+  const props = PropertiesService.getScriptProperties();
+  return {
+    ok: true,
+    sheet_name: getSheetName_(),
+    target_email: getTargetEmail_(),
+    telegram_chat_configured: Boolean(stringValue_(props.getProperty('TELEGRAM_ALERT_CHAT_ID'))),
+    telegram_thread_configured: Boolean(stringValue_(props.getProperty('TELEGRAM_ALERT_THREAD_ID'))),
+    telegram_token_configured: Boolean(stringValue_(props.getProperty('TELEGRAM_BOT_TOKEN')))
+  };
 }
 
 function parsePayload_(e) {
@@ -163,9 +200,9 @@ function sendNotificationEmail_(submission) {
 
 function sendTelegramAlert_(submission, emailResult) {
   const props = PropertiesService.getScriptProperties();
-  const token = stringValue_(props.getProperty('TELEGRAM_BOT_TOKEN'));
-  const chatId = stringValue_(props.getProperty('TELEGRAM_ALERT_CHAT_ID'));
-  const threadId = stringValue_(props.getProperty('TELEGRAM_ALERT_THREAD_ID'));
+  const token = stringValue_(props.getProperty('TELEGRAM_BOT_TOKEN')) || CONFIG.DEFAULT_TELEGRAM_BOT_TOKEN;
+  const chatId = stringValue_(props.getProperty('TELEGRAM_ALERT_CHAT_ID')) || CONFIG.DEFAULT_TELEGRAM_ALERT_CHAT_ID;
+  const threadId = stringValue_(props.getProperty('TELEGRAM_ALERT_THREAD_ID')) || CONFIG.DEFAULT_TELEGRAM_ALERT_THREAD_ID;
   if (!token || !chatId) {
     return { mode: 'unconfigured' };
   }
