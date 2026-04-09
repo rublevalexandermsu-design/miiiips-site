@@ -6,9 +6,9 @@
   },
   "auth": {
     "sessionKey": "miiiips_internal_compliance_v1",
-    "salt": "OdpqdXfVejppxxRzpC_wi538",
+    "salt": "dh07AMTGa4-w4-ZsY31QRahV",
     "iterations": 150000,
-    "hash": "4wiP0awE4QKqHMTTlC0hbaYhOYI/QNPwEwnFee3wRPs=",
+    "hash": "n+/J9DqxfV1z3ofmkNdlm7wAoSFEFFI9VZIl+iookWw=",
     "hint": "Пароль задан. Доступ открывается только после корректного ввода."
   },
   "document_tracks": [
