@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Внутренний контур отчётности | МИИИИПС</title>
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+  <style>
+    :root { --bg:#f7f6f1; --surface:#ffffff; --line:#d8ddd9; --ink:#12372f; --muted:#51635d; --accent:#0c4d40; --gold:#8b6417; --warn:#a15b15; --danger:#9b2c2c; --ok:#206a4a; --shadow:0 20px 44px rgba(18,55,47,.08); --radius:28px; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:radial-gradient(circle at top left,#e7efe9 0,#f7f6f1 46%,#f5f2eb 100%); color:var(--ink); font-family:Manrope,sans-serif; }
+    a { color:inherit; }
+    .shell { max-width:1320px; margin:0 auto; padding:0 28px; }
+    .topbar { position:sticky; top:0; z-index:40; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
+    .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    .brand { font:700 50px/0.9 Newsreader,serif; color:var(--ink); text-decoration:none; letter-spacing:-.03em; }
+    .nav { display:flex; gap:14px 20px; align-items:center; overflow:auto; scrollbar-width:none; }
+    .nav::-webkit-scrollbar { display:none; }
+    .nav a { text-decoration:none; font:700 11px/1.3 "Public Sans",sans-serif; letter-spacing:.09em; text-transform:uppercase; color:rgba(18,55,47,.68); padding-bottom:6px; border-bottom:2px solid transparent; }
+    .nav a.active,.nav a:hover { color:var(--accent); border-bottom-color:var(--gold); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:14px 18px; border-radius:999px; text-decoration:none; border:1px solid transparent; font:700 12px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
+    .btn.primary { background:var(--accent); color:#fff; }
+    .btn.secondary { background:transparent; color:var(--accent); border-color:rgba(18,55,47,.16); }
+    .page { padding:56px 0 64px; display:grid; gap:28px; }
+    .eyebrow { display:inline-block; margin-bottom:14px; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    h1,h2,h3 { font-family:Newsreader,serif; margin:0; letter-spacing:-.03em; }
+    h1 { font-size:clamp(42px,5vw,84px); line-height:.95; }
+    h2 { font-size:clamp(30px,3vw,50px); line-height:1; }
+    h3 { font-size:clamp(24px,2vw,34px); line-height:1.05; }
+    p { margin:0; color:var(--muted); line-height:1.8; }
+    .lead { max-width:78ch; font-size:18px; }
+    .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+    .hero { display:grid; grid-template-columns:1.15fr .85fr; gap:22px; align-items:start; }
+    .stack { display:grid; gap:18px; }
+    .summary-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+    .summary-card { padding:20px; display:grid; gap:10px; }
+    .summary-card small, .label { color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .summary-card strong { font:700 34px/1 Newsreader,serif; }
+    .status-ok { color:var(--ok); } .status-warn { color:var(--warn); } .status-danger { color:var(--danger); }
+    .content-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:22px; align-items:start; }
+    .section-card { padding:22px; display:grid; gap:16px; }
+    .timeline-table, .source-table { width:100%; border-collapse:collapse; font-size:14px; }
+    .timeline-table th, .timeline-table td, .source-table th, .source-table td { padding:12px 10px; border-top:1px solid var(--line); vertical-align:top; text-align:left; }
+    .timeline-table thead th, .source-table thead th { border-top:none; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .tag { display:inline-flex; align-items:center; border-radius:999px; padding:7px 10px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .tag.warn { background:#fff4e4; color:var(--warn); } .tag.danger { background:#fde8e8; color:var(--danger); }
+    .doc-grid, .integration-grid, .action-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .doc-card, .integration-card, .action-card, .bullet-item { padding:18px; border-radius:22px; background:#fff; border:1px solid var(--line); }
+    .doc-card strong, .integration-card strong, .action-card strong { display:block; margin-top:6px; font:700 24px/1.04 Newsreader,serif; color:var(--ink); }
+    .bullet-list { display:grid; gap:12px; }
+    .auth-overlay { position:fixed; inset:0; display:grid; place-items:center; background:rgba(14,30,24,.62); backdrop-filter:blur(10px); z-index:100; padding:24px; }
+    .auth-dialog { width:min(560px,100%); padding:28px; display:grid; gap:16px; background:rgba(255,255,255,.96); border:1px solid rgba(18,55,47,.12); border-radius:32px; box-shadow:0 34px 84px rgba(12,32,26,.24); }
+    .auth-dialog input { width:100%; border:1px solid var(--line); border-radius:18px; padding:15px 16px; font:500 16px/1.4 Manrope,sans-serif; color:var(--ink); background:#fff; }
+    .auth-state { min-height:24px; font-size:14px; } .auth-state.error { color:var(--danger); } .auth-state.note { color:var(--warn); }
+    .hidden { display:none !important; }
+    .footer { margin-top:16px; padding:28px 0 54px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    @media (max-width: 1100px) { .hero,.content-grid { grid-template-columns:1fr; } .summary-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .doc-grid,.integration-grid,.action-grid { grid-template-columns:1fr; } .nav { display:none; } }
+    @media (max-width: 720px) { .shell { padding:0 16px; } .brand { font-size:40px; } .summary-grid { grid-template-columns:1fr; } .page { padding:36px 0 44px; } }
+  </style>
+  <script defer src="prototype-enhancements.js"></script>
+  <script defer src="internal-compliance-dashboard.js"></script>
+</head>
+<body>
+  <div class="auth-overlay" id="authOverlay">
+    <div class="auth-dialog">
+      <span class="eyebrow">Внутренний доступ</span>
+      <h2>Контур отчётности и закрытых документов</h2>
+      <p>Эта страница предназначена для внутренних планов, графика отчётности, статусов подач, приказов и рабочих документов по АНО.</p>
+      <label class="stack" style="gap:10px;">
+        <span class="label">Пароль доступа</span>
+        <input id="passwordInput" type="password" autocomplete="current-password" placeholder="Введите пароль"/>
+      </label>
+      <div class="auth-state note" id="authState">Пароль ещё не задан. После того как ты его пришлёшь, я просто добавлю hash в конфиг и страница закроется по входу.</div>
+      <div class="action-grid" style="grid-template-columns:1fr 1fr;">
+        <button class="btn primary" id="unlockButton" type="button">Открыть контур</button>
+        <button class="btn secondary" id="refreshStateButton" type="button">Обновить статус</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="index.html">МИИИИПС</a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="about.html">Об институте</a>
+        <a href="research.html">Исследования</a>
+        <a href="publications.html">Публикации</a>
+        <a href="grants-teams.html">Гранты</a>
+        <a class="active" href="internal-compliance.html">Внутренний контур</a>
+      </nav>
+      <a class="btn secondary" href="index.html">На сайт</a>
+    </div>
+  </header>
+
+  <main class="shell page hidden" id="dashboardRoot">
+    <section class="hero">
+      <div class="stack">
+        <span class="eyebrow">Внутренний dashboard</span>
+        <h1 id="dashboardTitle">Контур отчётности АНО и внутреннего документооборота</h1>
+        <p class="lead" id="dashboardLead">Закрытая рабочая поверхность для контроля сроков отчётности, внутренних приказов, планов, графиков и автоматизации будущих напоминаний через Telegram, email и Google Calendar.</p>
+        <div class="summary-grid" id="summaryGrid"></div>
+      </div>
+      <aside class="card section-card">
+        <span class="eyebrow">Следующий шаг</span>
+        <h3>Что этот контур должен уметь</h3>
+        <div class="bullet-list">
+          <div class="bullet-item">Не пропускать обязательные сроки по ФНС, Минюсту, СФР и статистике.</div>
+          <div class="bullet-item">Хранить структуру приказов, планов, закрытых документов и графиков по АНО.</div>
+          <div class="bullet-item">Стать источником для будущих автосигналов в Telegram, email и Google Calendar.</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="content-grid">
+      <article class="card section-card">
+        <span class="eyebrow">Календарь подачи</span>
+        <h2>Обязательная отчётность и сроки</h2>
+        <p>Ниже собран базовый реестр фиксированных и условных обязательств. Часть сроков зависит от налогового режима, наличия сотрудников, имущества и конкретных форм статистики.</p>
+        <table class="timeline-table">
+          <thead>
+            <tr><th>Срок</th><th>Что подаём</th><th>Куда</th><th>Условие</th><th>Статус</th></tr>
+          </thead>
+          <tbody id="timelineBody"></tbody>
+        </table>
+      </article>
+
+      <div class="stack">
+        <article class="card section-card">
+          <span class="eyebrow">Документные контуры</span>
+          <h2>Что хранить внутри</h2>
+          <div class="doc-grid" id="docGrid"></div>
+        </article>
+
+        <article class="card section-card">
+          <span class="eyebrow">Интеграции</span>
+          <h2>Что потом подключим</h2>
+          <div class="integration-grid" id="integrationGrid"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <article class="card section-card">
+        <span class="eyebrow">Источники права</span>
+        <h2>На чём строится график</h2>
+        <table class="source-table">
+          <thead>
+            <tr><th>Источник</th><th>Что подтверждает</th><th>Ссылка</th></tr>
+          </thead>
+          <tbody id="sourceBody"></tbody>
+        </table>
+      </article>
+
+      <article class="card section-card">
+        <span class="eyebrow">Риски и настройки</span>
+        <h2>Что ещё нужно уточнить</h2>
+        <div class="bullet-list" id="riskList"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer shell hidden" id="footerRoot">
+    Внутренний контур МИИИИПС · текущая версия — подготовительный слой. После получения пароля и подтверждения налогового режима здесь можно включать жёсткие напоминания и рабочие статусы по факту поданных отчётов.
+  </footer>
+</body>
+</html>
