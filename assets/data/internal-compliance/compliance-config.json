@@ -6,10 +6,10 @@
   },
   "auth": {
     "sessionKey": "miiiips_internal_compliance_v1",
-    "salt": "",
+    "salt": "OdpqdXfVejppxxRzpC_wi538",
     "iterations": 150000,
-    "hash": "",
-    "hint": "После получения пароля я добавлю его hash в этот конфиг, и страница начнёт пускать только по входу."
+    "hash": "4wiP0awE4QKqHMTTlC0hbaYhOYI/QNPwEwnFee3wRPs=",
+    "hint": "Пароль задан. Доступ открывается только после корректного ввода."
   },
   "document_tracks": [
     {
