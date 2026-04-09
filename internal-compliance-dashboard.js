@@ -53,12 +53,13 @@
 
   function renderSummary(obligations) {
     const summaryGrid = byId("summaryGrid");
-    const derived = obligations.map((item) => classifyDueDate(item.due_date));
+    const activeObligations = obligations.filter((item) => item.active_now !== false);
+    const derived = activeObligations.map((item) => classifyDueDate(item.due_date));
     const overdue = derived.filter((item) => item.level === "danger").length;
     const dueSoon = derived.filter((item) => item.level === "warn").length;
-    const conditional = obligations.filter((item) => item.regime_specific).length;
+    const conditional = activeObligations.filter((item) => item.regime_specific).length;
     summaryGrid.innerHTML = [
-      ["Обязательных контуров", String(obligations.length), "status-ok"],
+      ["Обязательных контуров", String(activeObligations.length), "status-ok"],
       ["С просроченным сроком", String(overdue), overdue ? "status-danger" : "status-ok"],
       ["Подходят в ближайшие 30 дней", String(dueSoon), dueSoon ? "status-warn" : "status-ok"],
       ["Условных по режиму", String(conditional), "status-warn"]
@@ -66,7 +67,10 @@
   }
 
   function renderTimeline(obligations) {
-    byId("timelineBody").innerHTML = obligations.slice().sort((a, b) => String(a.due_date || "").localeCompare(String(b.due_date || ""))).map((item) => {
+    byId("timelineBody").innerHTML = obligations
+      .filter((item) => item.active_now !== false)
+      .slice()
+      .sort((a, b) => String(a.due_date || "").localeCompare(String(b.due_date || ""))).map((item) => {
       const status = classifyDueDate(item.due_date);
       return `<tr><td>${formatDate(item.due_date)}</td><td><strong>${item.title}</strong><br/><span style="color:var(--muted)">${item.notes || ""}</span></td><td>${item.authority}</td><td>${item.condition_label || "Всегда"}</td><td>${statusMarkup(status.level, status.label)}</td></tr>`;
     }).join("");
