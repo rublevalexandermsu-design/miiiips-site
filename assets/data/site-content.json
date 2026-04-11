@@ -373,7 +373,7 @@
         "ru": "Стартовый выпуск показывает маршрут журнала: от лекции и статьи к архиву и публикации.",
         "en": "The launch issue demonstrates the path from lecture and article to archive and publication."
       },
-      "page": "journal-issue.html?issue=journal-2026-spring",
+      "page": "journal-issue.html",
       "cards": [
         {
           "publicationId": "article-ei-route",
@@ -385,7 +385,7 @@
             "ru": "Обзорный материал, который связывает курс, практику и последующие публикационные шаги.",
             "en": "Overview linking the course, practice, and next publication steps."
           },
-          "page": "journal-article.html?publication=article-ei-route"
+          "page": "journal-article.html"
         },
         {
           "publicationId": "lecture-note-psychology-men",
@@ -397,7 +397,7 @@
             "ru": "Редакционно выверенная карточка из понедельничной лекции с готовностью к выпуску.",
             "en": "An editorial-ready card from a Monday lecture prepared for the issue."
           },
-          "page": "journal-article.html?publication=lecture-note-psychology-men"
+          "page": "journal-article.html"
         },
         {
           "publicationId": "case-rowing-qc",
@@ -409,7 +409,7 @@
             "ru": "Исследовательский кейс для научной и прикладной линии журнала.",
             "en": "A research case for the journal's scientific and applied track."
           },
-          "page": "journal-article.html?publication=case-rowing-qc"
+          "page": "journal-article.html"
         }
       ]
     },

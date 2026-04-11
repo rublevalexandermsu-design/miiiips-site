@@ -159,13 +159,15 @@
       }
     },
     "pages": {
-      "home": "journal.html",
+      "home": "publications.html",
       "about": "journal-about.html",
       "issue": "journal-issue.html",
       "archive": "journal-archive.html",
       "submit": "journal-submit.html",
       "contacts": "journal-contacts.html",
-      "article": "journal-article.html"
+      "article": "journal-article.html",
+      "authors": "journal-authors.html",
+      "reviewers": "journal-reviewers.html"
     },
     "editorialBoard": [
       {

@@ -1,0 +1,39 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Обложка первого выпуска журнала МИИИИПС">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="48" x2="830" y2="1140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C4D40"/>
+      <stop offset="1" stop-color="#133B31"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="140" y1="110" x2="700" y2="970" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AFEFDD" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F2BE63" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" rx="42" fill="url(#bg)"/>
+  <circle cx="742" cy="184" r="150" fill="#AFEFDD" fill-opacity="0.12"/>
+  <circle cx="152" cy="1022" r="220" fill="#F2BE63" fill-opacity="0.08"/>
+  <path d="M112 176H788" stroke="#F2BE63" stroke-width="2" stroke-opacity="0.88"/>
+  <path d="M112 1028H788" stroke="#AFEFDD" stroke-width="2" stroke-opacity="0.34"/>
+  <rect x="84" y="84" width="732" height="1032" rx="36" fill="url(#shine)" stroke="#F7F6F1" stroke-opacity="0.18"/>
+  <text x="112" y="160" fill="#F7F6F1" font-family="Public Sans, sans-serif" font-size="18" font-weight="700" letter-spacing="4">МИИИИПС · JOURNAL</text>
+  <text x="112" y="276" fill="#F7F6F1" font-family="Newsreader, serif" font-size="72" font-weight="700">Наука, образование</text>
+  <text x="112" y="356" fill="#F7F6F1" font-family="Newsreader, serif" font-size="72" font-weight="700">и исследования</text>
+  <text x="112" y="436" fill="#F7F6F1" font-family="Newsreader, serif" font-size="72" font-weight="700">XXI века</text>
+  <text x="112" y="514" fill="#F2BE63" font-family="Public Sans, sans-serif" font-size="24" font-weight="700" letter-spacing="6">VOLUME 1 · ISSUE 1 · 2026</text>
+  <text x="112" y="610" fill="#F7F6F1" font-family="Manrope, sans-serif" font-size="28" font-weight="600">Журнальная витрина МИИИИПС</text>
+  <text x="112" y="662" fill="#DCE5E0" font-family="Manrope, sans-serif" font-size="21" font-weight="400">публикации, статьи, рецензирование, архив и подачи</text>
+  <g transform="translate(112 782)">
+    <rect width="284" height="172" rx="24" fill="#F7F6F1" fill-opacity="0.08" stroke="#F7F6F1" stroke-opacity="0.18"/>
+    <text x="24" y="54" fill="#F7F6F1" font-family="Public Sans, sans-serif" font-size="14" font-weight="700" letter-spacing="3">OPEN ACCESS</text>
+    <text x="24" y="96" fill="#F7F6F1" font-family="Newsreader, serif" font-size="34" font-weight="700">RU + EN</text>
+    <text x="24" y="132" fill="#DCE5E0" font-family="Manrope, sans-serif" font-size="18">Подходит для авторов, редакторов</text>
+    <text x="24" y="156" fill="#DCE5E0" font-family="Manrope, sans-serif" font-size="18">и международных партнёров</text>
+  </g>
+  <g transform="translate(444 782)">
+    <rect width="344" height="172" rx="24" fill="#0C4D40" fill-opacity="0.44" stroke="#F2BE63" stroke-opacity="0.34"/>
+    <text x="24" y="54" fill="#F2BE63" font-family="Public Sans, sans-serif" font-size="14" font-weight="700" letter-spacing="3">CURRENT ISSUE</text>
+    <text x="24" y="96" fill="#F7F6F1" font-family="Newsreader, serif" font-size="34" font-weight="700">MIIIIPS Journal</text>
+    <text x="24" y="132" fill="#DCE5E0" font-family="Manrope, sans-serif" font-size="18">Этика, публикационный маршрут</text>
+    <text x="24" y="156" fill="#DCE5E0" font-family="Manrope, sans-serif" font-size="18">и редакционное сопровождение</text>
+  </g>
+</svg>

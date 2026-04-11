@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Авторам | Журнал МИИИИПС</title>
+  <meta name="description" content="Инструкция для авторов журнала МИИИИПС."/>
+  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/journal.css"/>
+  <script defer src="assets/js/journal-ui.js"></script>
+  <script defer src="prototype-enhancements.js"></script>
+  <script defer src="miiiips-live-layer.js"></script>
+</head>
+<body class="journal-body" data-lang="ru">
+  <header class="journal-topbar">
+    <div class="journal-shell journal-topbar-inner">
+      <a class="journal-brand" href="publications.html" aria-label="Журнал МИИИИПС">
+        <img class="journal-brand-mark" src="assets/images/journal/miiiips-journal-logo.svg" alt="Логотип журнала МИИИИПС"/>
+        <div class="journal-brand-copy">
+          <div class="journal-brand-name">ЖУРНАЛ МИИИИПС</div>
+          <div class="journal-brand-title">
+            <span data-lang="ru">Авторам</span>
+            <span data-lang="en">For authors</span>
+          </div>
+          <div class="journal-brand-subtitle">
+            <span data-lang="ru">Шаблон · Требования · Подача</span>
+            <span data-lang="en">Template · Requirements · Submission</span>
+          </div>
+        </div>
+      </a>
+      <nav class="journal-nav" aria-label="Вкладки журнала">
+        <a href="publications.html">Главная</a>
+        <a href="journal-about.html">О журнале</a>
+        <a href="publications.html#editorial">Редколлегия</a>
+        <a class="is-active" href="journal-authors.html">Авторам</a>
+        <a href="journal-reviewers.html">Рецензентам</a>
+        <a href="journal-issue.html">Текущий выпуск</a>
+        <a href="journal-archive.html">Архив</a>
+        <a href="journal-submit.html">Подать статью</a>
+        <a href="journal-contacts.html">Контакты</a>
+      </nav>
+      <div class="journal-actions">
+        <div class="journal-lang-switch" aria-label="Переключение языка">
+          <button type="button" data-lang-switch="ru" class="is-active">RU</button>
+          <button type="button" data-lang-switch="en">EN</button>
+        </div>
+        <a class="journal-btn primary" href="journal-submit.html">
+          <span data-lang="ru">Подать статью</span>
+          <span data-lang="en">Submit article</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="journal-main">
+    <div class="journal-shell">
+      <section class="journal-hero">
+        <div class="journal-hero-copy">
+          <div class="journal-eyebrow"><span data-lang="ru">Авторам</span><span data-lang="en">For authors</span></div>
+          <div class="journal-kicker">Submission guide</div>
+          <h1 class="journal-title">
+            <span data-lang="ru">Понятный маршрут для подачи статьи без лишней бюрократии.</span>
+            <span data-lang="en">A clear submission route without unnecessary bureaucracy.</span>
+          </h1>
+          <p class="journal-lead">
+            <span data-lang="ru">Если у вас уже есть текст, файл и короткое описание, журнал принимает материал по понятной форме и передаёт его в редакционный маршрут.</span>
+            <span data-lang="en">If you already have the text, the file, and a short description, the journal accepts the material through a clear form and routes it to the editors.</span>
+          </p>
+          <div class="journal-actions-row">
+            <a class="journal-btn primary" href="journal-submit.html">
+              <span data-lang="ru">Подать статью</span>
+              <span data-lang="en">Submit article</span>
+            </a>
+            <a class="journal-btn secondary" href="journal-issue.html">
+              <span data-lang="ru">Смотреть выпуск</span>
+              <span data-lang="en">View issue</span>
+            </a>
+          </div>
+        </div>
+        <aside class="journal-card pad-28">
+          <div class="journal-meta">
+            <small><span data-lang="ru">Что нужно приложить</span><span data-lang="en">What to include</span></small>
+            <strong><span data-lang="ru">Статья + контакты + тема</span><span data-lang="en">Article + contacts + topic</span></strong>
+          </div>
+          <div class="journal-divider"></div>
+          <ul class="journal-list">
+            <li><span data-lang="ru">Название, аннотация и ключевые слова</span><span data-lang="en">Title, abstract, and keywords</span></li>
+            <li><span data-lang="ru">Контакты автора и аффилиация</span><span data-lang="en">Author contacts and affiliation</span></li>
+            <li><span data-lang="ru">Файл статьи в PDF, DOCX, DOC, TXT или MD</span><span data-lang="en">Article file in PDF, DOCX, DOC, TXT, or MD</span></li>
+            <li><span data-lang="ru">Короткое сопроводительное письмо</span><span data-lang="en">Short cover note</span></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="journal-section" id="guidelines">
+        <div class="journal-eyebrow"><span data-lang="ru">Руководство по оформлению</span><span data-lang="en">Author guidelines</span></div>
+        <div class="journal-grid cols-2" style="margin-top:18px; align-items:start;">
+          <article class="journal-card pad-28">
+            <h2 class="journal-section-title" style="font-size: clamp(28px, 3vw, 42px);">
+              <span data-lang="ru">Соберите статью как редакционно готовый материал.</span>
+              <span data-lang="en">Prepare the article as an editorial-ready piece.</span>
+            </h2>
+            <div class="journal-kv" style="margin-top:14px;">
+              <div class="row"><span>1.</span><strong>Название</strong></div>
+              <div class="row"><span>2.</span><strong>Автор(ы)</strong></div>
+              <div class="row"><span>3.</span><strong>Аннотация</strong></div>
+              <div class="row"><span>4.</span><strong>Ключевые слова</strong></div>
+              <div class="row"><span>5.</span><strong>Текст статьи</strong></div>
+              <div class="row"><span>6.</span><strong>Список литературы</strong></div>
+            </div>
+          </article>
+          <article class="journal-card pad-28">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Формат</span><span data-lang="en">Format</span>
+            </h3>
+            <p style="margin-top:12px;">
+              <span data-lang="ru">Журнал принимает материалы в распространённых текстовых форматах и просит загрузить тот файл, который удобнее всего проверить редакции.</span>
+              <span data-lang="en">The journal accepts common text formats and asks for the file that is easiest for the editors to review.</span>
+            </p>
+            <div class="journal-grid cols-2" style="margin-top:14px;">
+              <div class="journal-card pad-24" style="box-shadow:none;">
+                <small class="journal-note">Languages</small>
+                <strong style="font:700 28px/1.05 Newsreader,serif; color:var(--journal-ink); display:block;">RU / EN</strong>
+              </div>
+              <div class="journal-card pad-24" style="box-shadow:none;">
+                <small class="journal-note">File</small>
+                <strong style="font:700 28px/1.05 Newsreader,serif; color:var(--journal-ink); display:block;">PDF / DOCX</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal-section" id="template">
+        <div class="journal-eyebrow"><span data-lang="ru">Шаблон статьи</span><span data-lang="en">Article template</span></div>
+        <div class="journal-grid cols-3" style="margin-top:18px;">
+          <article class="journal-card pad-24"><h3 class="journal-card-title">1. Title block</h3><p><span data-lang="ru">Название, авторы, аффилиация.</span><span data-lang="en">Title, authors, affiliation.</span></p></article>
+          <article class="journal-card pad-24"><h3 class="journal-card-title">2. Abstract</h3><p><span data-lang="ru">Аннотация и keywords.</span><span data-lang="en">Abstract and keywords.</span></p></article>
+          <article class="journal-card pad-24"><h3 class="journal-card-title">3. Main text</h3><p><span data-lang="ru">Введение, методы, результаты, обсуждение.</span><span data-lang="en">Introduction, methods, results, discussion.</span></p></article>
+        </div>
+      </section>
+
+      <section class="journal-section" id="review-policy">
+        <div class="journal-eyebrow"><span data-lang="ru">Политика рецензирования</span><span data-lang="en">Review policy</span></div>
+        <div class="journal-grid cols-2" style="margin-top:18px;">
+          <article class="journal-card pad-28">
+            <h3 class="journal-card-title"><span data-lang="ru">Как проходит проверка</span><span data-lang="en">How review works</span></h3>
+            <p style="margin-top:12px;">
+              <span data-lang="ru">Сначала редакция смотрит соответствие теме и качеству файла. Затем материал передаётся в ручную проверку и получает статус.</span>
+              <span data-lang="en">First the editors check the topic and file quality. Then the material goes to manual review and receives a status.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-28">
+            <h3 class="journal-card-title"><span data-lang="ru">Что важно автору</span><span data-lang="en">What matters to authors</span></h3>
+            <ul class="journal-list" style="margin-top:12px;">
+              <li><span data-lang="ru">Оригинальность текста</span><span data-lang="en">Originality</span></li>
+              <li><span data-lang="ru">Точность источников</span><span data-lang="en">Accurate sources</span></li>
+              <li><span data-lang="ru">Ясная связь с темой журнала</span><span data-lang="en">Clear relevance to the journal scope</span></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="journal-footer">
+    <div class="journal-shell">
+      <div class="journal-footer-grid">
+        <a class="journal-footer-card" href="journal-submit.html"><small>Submit / Подача</small><strong>Отправить статью</strong></a>
+        <a class="journal-footer-card" href="journal-issue.html"><small>Issue / Выпуск</small><strong>Пилотный номер</strong></a>
+        <a class="journal-footer-card" href="journal-reviewers.html"><small>Reviewers / Рецензентам</small><strong>Рецензирование</strong></a>
+        <a class="journal-footer-card" href="journal-contacts.html"><small>Contacts / Контакты</small><strong>Связь с редакцией</strong></a>
+      </div>
+      <p style="margin-top:22px;">
+        <span data-lang="ru">© 2026 МИИИИПС · Требования авторов обновляются вместе с журналом.</span>
+        <span data-lang="en">© 2026 MIIIIPS · Author requirements evolve together with the journal.</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

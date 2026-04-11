@@ -1,514 +1,517 @@
 <!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Журнал МИИИИПС | Наука, образование и исследования XXI века</title>
+  <meta name="description" content="Журнал МИИИИПС — публикационный маршрут института с выпуском, архивом, редакционной коллегией, авторами и формой подачи статьи."/>
+  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/journal.css"/>
+  <script defer src="assets/js/journal-ui.js"></script>
+  <script defer src="prototype-enhancements.js"></script>
+  <script defer src="miiiips-live-layer.js"></script>
+</head>
+<body class="journal-body" data-lang="ru">
+  <header class="journal-topbar">
+    <div class="journal-shell journal-topbar-inner">
+      <a class="journal-brand" href="publications.html" aria-label="Журнал МИИИИПС">
+        <img class="journal-brand-mark" src="assets/images/journal/miiiips-journal-logo.svg" alt="Логотип журнала МИИИИПС"/>
+        <div class="journal-brand-copy">
+          <div class="journal-brand-name">ЖУРНАЛ МИИИИПС</div>
+          <div class="journal-brand-title">
+            <span data-lang="ru">Наука, образование и исследования XXI века</span>
+            <span data-lang="en">Science, Education and Research in the 21st Century</span>
+          </div>
+          <div class="journal-brand-subtitle">
+            <span data-lang="ru">Публикационный маршрут · Редакционная коллегия · Open access</span>
+            <span data-lang="en">Publication route · Editorial board · Open access</span>
+          </div>
+        </div>
+      </a>
+      <nav class="journal-nav" aria-label="Вкладки журнала">
+        <a class="is-active" href="publications.html">Главная</a>
+        <a href="#about">О журнале</a>
+        <a href="#editorial">Редколлегия</a>
+        <a href="journal-authors.html">Авторам</a>
+        <a href="journal-reviewers.html">Рецензентам</a>
+        <a href="journal-issue.html">Текущий выпуск</a>
+        <a href="journal-archive.html">Архив</a>
+        <a href="journal-submit.html">Подать статью</a>
+        <a href="journal-contacts.html">Контакты</a>
+      </nav>
+      <div class="journal-actions">
+        <div class="journal-lang-switch" aria-label="Переключение языка">
+          <button type="button" data-lang-switch="ru" class="is-active">RU</button>
+          <button type="button" data-lang-switch="en">EN</button>
+        </div>
+        <a class="journal-btn primary" href="journal-submit.html">
+          <span data-lang="ru">Подать статью</span>
+          <span data-lang="en">Submit article</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-<html lang="ru"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Публикации и сопровождение | МИИИИПС</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;family=Public+Sans:wght@100..900&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "surface-container-lowest": "#ffffff",
-                        "tertiary": "#1c2f40",
-                        "primary-fixed": "#afefdd",
-                        "primary-fixed-dim": "#94d3c1",
-                        "on-primary-fixed": "#00201a",
-                        "tertiary-container": "#334557",
-                        "secondary-fixed-dim": "#f2be63",
-                        "secondary-fixed": "#ffdeaa",
-                        "on-background": "#1a1c1c",
-                        "surface-dim": "#dadada",
-                        "surface": "#f9f9f9",
-                        "on-secondary-container": "#775300",
-                        "surface-bright": "#f9f9f9",
-                        "surface-container-high": "#e8e8e8",
-                        "on-error-container": "#93000a",
-                        "error-container": "#ffdad6",
-                        "inverse-primary": "#94d3c1",
-                        "secondary": "#7d5700",
-                        "on-secondary": "#ffffff",
-                        "on-surface-variant": "#3f4945",
-                        "surface-container-highest": "#e2e2e2",
-                        "surface-tint": "#29695b",
-                        "surface-variant": "#e2e2e2",
-                        "error": "#ba1a1a",
-                        "surface-container": "#eeeeee",
-                        "on-tertiary": "#ffffff",
-                        "surface-container-low": "#f3f3f3",
-                        "on-error": "#ffffff",
-                        "on-primary-fixed-variant": "#065043",
-                        "primary": "#00342b",
-                        "outline": "#707975",
-                        "on-secondary-fixed-variant": "#5f4100",
-                        "primary-container": "#004d40",
-                        "on-surface": "#1a1c1c",
-                        "background": "#f9f9f9",
-                        "outline-variant": "#bfc9c4",
-                        "on-secondary-fixed": "#271900",
-                        "secondary-container": "#fec96d",
-                        "on-primary": "#ffffff",
-                        "on-tertiary-fixed": "#091d2e",
-                        "tertiary-fixed": "#d1e4fb",
-                        "on-tertiary-fixed-variant": "#36485b",
-                        "on-tertiary-container": "#9fb2c8",
-                        "on-primary-container": "#7ebdac",
-                        "inverse-on-surface": "#f1f1f1",
-                        "inverse-surface": "#2f3131",
-                        "tertiary-fixed-dim": "#b5c8df"
-                    },
-                    fontFamily: {
-                        "headline": ["Newsreader"],
-                        "body": ["Manrope"],
-                        "label": ["Public Sans"]
-                    },
-                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
-                },
-            },
-        }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        body { font-family: 'Manrope', sans-serif; }
-        h1, h2, h3 { font-family: 'Newsreader', serif; }
-        .label-text { font-family: 'Public Sans', sans-serif; text-transform: none; }
-        body {
-            margin: 0;
-            background: #f9f9f9;
-            color: #1a1c1c;
-        }
-        nav.fixed.top-0 {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 80px;
-            padding: 0 48px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background: rgba(249, 249, 249, 0.92);
-            backdrop-filter: blur(18px);
-            box-shadow: 0 10px 30px rgba(0, 52, 43, 0.08);
-            z-index: 50;
-        }
-        nav.fixed .hidden.md\:flex {
-            display: flex !important;
-            gap: 24px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        nav.fixed a,
-        nav.fixed button {
-            font-family: 'Public Sans', sans-serif;
-            font-size: 12px;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-        nav.fixed a {
-            color: rgba(0, 52, 43, 0.72);
-        }
-        nav.fixed a[href="publications.html"] {
-            color: #004d40;
-            border-bottom: 2px solid #7d5700;
-            padding-bottom: 4px;
-        }
-        nav.fixed button {
-            border: none;
-            background: transparent;
-            color: rgba(0, 52, 43, 0.72);
-            cursor: pointer;
-        }
-        nav.fixed button.bg-primary-container {
-            background: #004d40;
-            color: #fff;
-            padding: 10px 24px;
-        }
-        main {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 128px 24px 80px;
-        }
-        header.max-w-4xl {
-            max-width: 880px;
-            margin-bottom: 96px;
-        }
-        header .flex.items-center {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-        header .h-\[1px\] {
-            height: 1px;
-            width: 48px;
-            background: #7d5700;
-        }
-        h1.text-6xl,
-        h1.text-6xl.md\:text-7xl {
-            font-size: clamp(46px, 6vw, 84px);
-            line-height: 0.95;
-            color: #00342b;
-            margin: 0 0 28px;
-        }
-        h2.text-4xl {
-            font-size: clamp(34px, 4vw, 52px);
-            color: #00342b;
-            margin: 0 0 40px;
-        }
-        h3 {
-            font-size: 34px;
-            color: #00342b;
-            margin: 0 0 16px;
-        }
-        h4 {
-            font-size: 28px;
-            color: #00342b;
-            margin: 8px 0 0;
-        }
-        p,
-        .text-on-surface-variant {
-            color: #3f4945;
-            line-height: 1.7;
-        }
-        .grid {
-            display: grid;
-            gap: 32px;
-        }
-        .grid.grid-cols-1.md\:grid-cols-12 {
-            grid-template-columns: repeat(12, minmax(0, 1fr));
-        }
-        .grid.grid-cols-1.lg\:grid-cols-2 {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-        .md\:col-span-7 { grid-column: span 7 / span 7; }
-        .md\:col-span-5 { grid-column: span 5 / span 5; }
-        .md\:col-span-4 { grid-column: span 4 / span 4; }
-        .md\:col-span-8 { grid-column: span 8 / span 8; }
-        .bg-surface-container-low,
-        .bg-surface-container-highest,
-        .bg-surface-container-lowest {
-            background: #ffffff;
-        }
-        .bg-primary {
-            background: #00342b;
-            color: #fff;
-        }
-        .bg-primary-container {
-            background: #004d40;
-            color: #fff;
-        }
-        .bg-secondary-container {
-            background: #fec96d;
-            color: #271900;
-        }
-        .p-12 { padding: 48px; }
-        .p-10 { padding: 40px; }
-        .p-6 { padding: 24px; }
-        .mb-24 { margin-bottom: 96px; }
-        .mb-32 { margin-bottom: 128px; }
-        .mb-16 { margin-bottom: 64px; }
-        .mb-12 { margin-bottom: 48px; }
-        .mb-8 { margin-bottom: 32px; }
-        .mb-6 { margin-bottom: 24px; }
-        .mt-8 { margin-top: 32px; }
-        .mt-2 { margin-top: 8px; }
-        .mt-auto { margin-top: auto; }
-        .gap-20 { gap: 80px; }
-        .gap-10 { gap: 40px; }
-        .gap-8 { gap: 32px; }
-        .space-y-16 > * + * { margin-top: 64px; }
-        .space-y-8 > * + * { margin-top: 32px; }
-        .relative { position: relative; }
-        .absolute { position: absolute; }
-        .left-4 { left: 16px; }
-        .top-0 { top: 0; }
-        .bottom-0 { bottom: 0; }
-        .pl-16 { padding-left: 64px; }
-        .border-l-4 { border-left: 4px solid #7d5700; }
-        .border-\[20px\] { border: 20px solid #f9f9f9; }
-        .shadow-sm { box-shadow: 0 10px 24px rgba(0, 52, 43, 0.08); }
-        .aspect-video {
-            aspect-ratio: 16 / 9;
-        }
-        .w-full { width: 100%; }
-        .h-full { height: 100%; }
-        .object-cover { object-fit: cover; }
-        .flex { display: flex; }
-        .flex-col { flex-direction: column; }
-        .md\:flex-row { flex-direction: row; }
-        .items-center { align-items: center; }
-        .justify-between { justify-content: space-between; }
-        .gap-4 { gap: 16px; }
-        .gap-6 { gap: 24px; }
-        .opacity-80 { opacity: 0.8; }
-        .opacity-60 { opacity: 0.6; }
-        .uppercase { text-transform: uppercase; }
-        .cursor-pointer { cursor: pointer; }
-        .group:hover .group-hover\:gap-6 { gap: 24px; }
-        .transition-all { transition: all 0.2s ease; }
-        .transition-colors { transition: color 0.2s ease, background 0.2s ease; }
-        .text-center { text-align: center; }
-        .font-bold { font-weight: 700; }
-        .text-sm { font-size: 14px; }
-        .text-xl { font-size: 22px; }
-        .text-2xl { font-size: 30px; }
-        .text-3xl { font-size: 38px; }
-        .text-4xl { font-size: 44px; }
-        .text-\[10px\] { font-size: 10px; }
-        .text-xs { font-size: 12px; }
-        .leading-relaxed { line-height: 1.7; }
-        .leading-tight { line-height: 0.95; }
-        .max-w-2xl { max-width: 720px; }
-        .max-w-md { max-width: 520px; }
-        .w-\[1px\] { width: 1px; }
-        .rounded-full { border-radius: 9999px; }
-        .footer-links a,
-        footer a {
-            color: rgba(249,249,249,0.8);
-            text-decoration: none;
-        }
-        footer {
-            background: #00342b;
-            color: #f9f9f9;
-            padding: 64px 48px;
-            display: grid;
-            grid-template-columns: repeat(4, minmax(0, 1fr));
-            gap: 48px;
-        }
-        @media (max-width: 960px) {
-            nav.fixed.top-0 {
-                padding: 0 16px;
-                height: auto;
-                min-height: 80px;
-                flex-wrap: wrap;
-                gap: 12px;
-                padding-top: 14px;
-                padding-bottom: 14px;
-            }
-            nav.fixed .hidden.md\:flex {
-                display: none !important;
-            }
-            main {
-                padding: 120px 16px 64px;
-            }
-            .grid.grid-cols-1.md\:grid-cols-12,
-            .grid.grid-cols-1.lg\:grid-cols-2 {
-                grid-template-columns: 1fr;
-            }
-            .md\:col-span-7,
-            .md\:col-span-5,
-            .md\:col-span-4,
-            .md\:col-span-8 {
-                grid-column: auto;
-            }
-            .p-12, .p-10 {
-                padding: 24px;
-            }
-            footer {
-                grid-template-columns: 1fr;
-                padding: 48px 24px;
-            }
-        }
-    </style>
-<meta content="clickable-site-v1_2" name="x-local-prototype"/><script src="prototype-enhancements.js"></script><script src="miiiips-live-layer.js"></script></head>
-<body class="bg-surface text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 h-20 bg-[#f9f9f9]/80 backdrop-blur-xl shadow-xl shadow-[#00342b]/5">
-<div class="text-2xl font-serif font-bold text-[#00342b] tracking-tight">МИИИИПС</div>
-<div class="hidden md:flex gap-8 items-center">
-<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="research.html">Исследования</a>
-<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="education-ai.html">Образование</a>
-<a class="label-text text-xs tracking-widest text-[#004d40] border-b-2 border-[#7d5700] pb-1" href="publications.html">Публикации</a>
-<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="grants-teams.html">Гранты</a>
-<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="conferences.html">Конференции</a>
-<a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="course-ei.html">Курс ЭИ</a><a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="speeches-lectures.html">Выступления</a><a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="news-feed.html">Новости</a><a class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40] transition-colors" href="join.html">Поступление</a>
-</div>
-<div class="flex items-center gap-6">
-<button class="label-text text-xs tracking-widest text-[#00342b]/70 hover:text-[#004d40]" onclick="window.location.href='accounts.html'">Вход для участников</button>
-<button class="bg-primary-container text-on-primary px-6 py-2 label-text text-xs tracking-widest transition-transform active:scale-95" onclick="window.location.href='join.html'">Подать заявку</button>
-</div>
-</nav>
-<!-- Main Content Canvas (SaaS Sidebars removed) -->
-<main class="pt-32 px-6 md:px-12 lg:px-32 pb-20 max-w-7xl mx-auto">
-<!-- Hero Section -->
-<header class="max-w-4xl mb-24">
-<div class="flex items-center gap-4 mb-6">
-<div class="h-[1px] w-12 bg-secondary"></div>
-<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">Редакционная поддержка и этика</span>
-</div>
-<h1 class="text-6xl md:text-7xl font-serif text-primary leading-tight mb-8">Публикации и научное сопровождение</h1>
-<p class="text-xl text-on-surface-variant leading-relaxed font-body max-w-2xl">
-            Обеспечение академической честности и высокого качества научных работ через экспертную оценку, верификацию данных и профессиональное сопровождение в международном научно-издательском пространстве.
+  <main class="journal-main">
+    <div class="journal-shell">
+      <section class="journal-hero">
+        <div class="journal-hero-copy">
+          <div class="journal-eyebrow">
+            <span data-lang="ru">Журнал · МИИИИПС · Open access</span>
+            <span data-lang="en">Journal · MIIIIPS · Open access</span>
+          </div>
+          <div class="journal-kicker">2026 / Volume 1 / Issue 1</div>
+          <h1 class="journal-title">
+            <span data-lang="ru">Журнал, где публикация выглядит как выпуск, а выпуск как реальная научная работа.</span>
+            <span data-lang="en">A journal that looks like a real issue, not a technical page.</span>
+          </h1>
+          <p class="journal-lead">
+            <span data-lang="ru">Журнал МИИИИПС соединяет статьи, редакционную коллегию, выпуск, архив и подачу материалов в одном публичном пространстве. Здесь видно, куда идёт автор, кто принимает решение и как выглядит готовый номер.</span>
+            <span data-lang="en">The MIIIIPS journal connects articles, editorial board, issues, archive, and article submission in one public space. Authors can see the route, the decision points, and the shape of a finished issue.</span>
+          </p>
+          <div class="journal-actions-row">
+            <a class="journal-btn primary" href="journal-submit.html">
+              <span data-lang="ru">Подать статью</span>
+              <span data-lang="en">Submit article</span>
+            </a>
+            <a class="journal-btn secondary" href="journal-issue.html">
+              <span data-lang="ru">Открыть текущий выпуск</span>
+              <span data-lang="en">Open current issue</span>
+            </a>
+            <a class="journal-btn secondary" href="#authors">
+              <span data-lang="ru">Требования для авторов</span>
+              <span data-lang="en">Author guide</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="journal-card journal-cover">
+          <div class="journal-cover-inner">
+            <div class="journal-cover-meta">
+              <span class="journal-pill">Volume 1</span>
+              <span class="journal-pill">Issue 1</span>
+              <span class="journal-pill">RU + EN</span>
+              <span class="journal-pill">Open access</span>
+            </div>
+            <div>
+              <div class="journal-kicker" style="color:#f2be63;">
+                <span data-lang="ru">Текущий выпуск</span>
+                <span data-lang="en">Current issue</span>
+              </div>
+              <h2 class="journal-title" style="font-size: clamp(32px, 4vw, 60px); margin-top: 8px;">
+                <span data-lang="ru">Наука, образование и исследования XXI века</span>
+                <span data-lang="en">Science, Education and Research in the 21st Century</span>
+              </h2>
+              <p class="journal-lead" style="margin-top: 14px; max-width: 42ch;">
+                <span data-lang="ru">Редакционный маршрут для авторов, рецензентов и читателей. Журнал строится как настоящий выпуск с обложкой, содержанием и открытыми переходами.</span>
+                <span data-lang="en">An editorial route for authors, reviewers, and readers. The journal is built as a real issue with a cover, table of contents, and open navigation.</span>
+              </p>
+            </div>
+            <div class="journal-card" style="padding: 18px; background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.18); box-shadow:none;">
+              <div class="journal-meta">
+                <small><span data-lang="ru">Статус выпуска</span><span data-lang="en">Issue status</span></small>
+                <strong style="color:#fff;">MVP ready</strong>
+              </div>
+              <div class="journal-divider" style="background: rgba(255,255,255,0.14);"></div>
+              <p style="color: rgba(255,255,255,0.86); margin-bottom: 0;">
+                <span data-lang="ru">Форма подачи, архив, редакционная коллегия и выпуск уже собраны в одном маршруте.</span>
+                <span data-lang="en">Submission, archive, editorial board, and issue are already assembled into one route.</span>
+              </p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="journal-section" id="about">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">О журнале</span>
+          <span data-lang="en">About the journal</span>
+        </div>
+        <h2 class="journal-section-title">
+          <span data-lang="ru">Журнал показывает научную работу как понятный, живой и проверяемый маршрут.</span>
+          <span data-lang="en">The journal presents academic work as a clear, living, and verifiable route.</span>
+        </h2>
+        <p class="journal-section-lead">
+          <span data-lang="ru">Мы собрали редколлегию, принципы публикации, открытый доступ, шаблон статьи, архив и контактный маршрут так, чтобы автор сразу видел, как подать материал, куда он попадёт и как будет двигаться дальше.</span>
+          <span data-lang="en">We combined the editorial board, publication principles, open access, article template, archive, and contact route so authors can see where to submit, where materials go, and what happens next.</span>
         </p>
-</header><!-- Content Sections: Grid -->
-<section class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-32">
-<!-- Professional Proof-reading -->
-<div class="md:col-span-7 bg-surface-container-low p-12 relative overflow-hidden group">
-<div class="relative z-10 h-full flex flex-col">
-<span class="material-symbols-outlined text-4xl text-primary mb-8" style="font-variation-settings: 'FILL' 1;">edit_note</span>
-<h3 class="text-3xl mb-4">Научное рецензирование и редактура</h3>
-<p class="text-on-surface-variant mb-12 max-w-md">Профессиональная работа с рукописями: от содержательного анализа до корректуры. Мы помогаем авторам структурировать идеи, сохраняя научную точность и этические стандарты.</p>
-<div class="mt-auto flex items-center gap-4 text-primary font-bold label-text text-xs tracking-widest cursor-pointer group-hover:gap-6 transition-all">
-                    УЗНАТЬ БОЛЬШЕ <span class="material-symbols-outlined">arrow_forward</span>
-</div>
-</div>
-<div class="absolute right-[-10%] bottom-[-10%] opacity-5 group-hover:opacity-10 transition-opacity">
-<span class="material-symbols-outlined text-[240px]">history_edu</span>
-</div>
-</div>
-<!-- Anti-plagiarism -->
-<div class="md:col-span-5 bg-primary text-on-primary p-12 flex flex-col justify-between">
-<div>
-<h3 class="text-3xl mb-6 font-serif">Верификация и Антиплагиат</h3>
-<p class="opacity-80 leading-relaxed text-sm">Пристальная проверка на оригинальность и корректность цитирования. Мы гарантируем защиту интеллектуальной собственности и отсутствие недобросовестных заимствований.</p>
-</div>
-<div class="bg-secondary-container text-on-secondary-container p-6 mt-8">
-<div class="flex justify-between items-center mb-2">
-<span class="label-text text-[10px] tracking-widest font-bold uppercase">Точность верификации</span>
-<span class="font-bold">100%</span>
-</div>
-<div class="w-full h-1 bg-on-secondary-container/20">
-<div class="h-full bg-on-secondary-container w-full"></div>
-</div>
-</div>
-</div>
-<!-- Methodological Support -->
-<div class="md:col-span-4 bg-surface-container-highest p-10">
-<h4 class="label-text text-xs tracking-widest text-secondary font-bold mb-6 uppercase">Поддержка</h4>
-<h3 class="text-2xl mb-4">Методическая поддержка</h3>
-<p class="text-sm text-on-surface-variant leading-relaxed">Консультации по методологии исследования, оформлению библиографии и подготовке сопроводительных документов для подачи в высокоцитируемые издания.</p>
-</div>
-<!-- Journals Interface Preview -->
-<div class="md:col-span-8 bg-surface-container-low border-l-4 border-secondary p-10 flex flex-col md:flex-row gap-10 items-center">
-<div class="flex-1">
-<h3 class="text-2xl mb-4">Требования журналов МИИИИПС</h3>
-<p class="text-sm text-on-surface-variant mb-6">Ознакомьтесь с техническими и этическими требованиями к публикациям в журналах нашей экосистемы. Мы придерживаемся политики открытого доступа.</p>
-<button class="bg-primary text-on-primary px-8 py-3 label-text text-xs tracking-widest hover:bg-primary-container transition-colors uppercase" onclick="window.location.href='assets/docs/miiiips_publication_route.pdf'">Требования к публикациям</button>
-</div>
-<div class="w-full md:w-64 grid grid-cols-2 gap-2">
-<div class="aspect-[3/4] bg-surface-container-high flex items-center justify-center p-4 text-center">
-<span class="label-text text-[10px] font-bold">ФИЗИКА 2026</span>
-</div>
-<div class="aspect-[3/4] bg-primary-container flex items-center justify-center p-4 text-center text-white/50">
-<span class="label-text text-[10px] font-bold">БИОТЕХ 2026</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Path of the Author -->
-<section class="mb-32">
-<h2 class="text-4xl font-serif text-primary mb-16">Путь автора</h2>
-<div class="relative">
-<div class="absolute left-4 top-0 bottom-0 w-[1px] bg-outline-variant opacity-30"></div>
-<div class="space-y-16">
-<!-- Step 1 -->
-<div class="relative pl-16">
-<div class="absolute left-[13px] top-2 w-2 h-2 rounded-full bg-secondary"></div>
-<div class="flex flex-col md:flex-row gap-8">
-<div class="md:w-1/3">
-<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">01. Подача</span>
-<h4 class="text-2xl mt-2">Предварительная проверка</h4>
-</div>
-<div class="md:w-2/3 text-on-surface-variant">
-                            Первичный аудит рукописи на соответствие формальным критериям и базовым нормам публикационной этики.
-                        </div>
-</div>
-</div>
-<!-- Step 2 -->
-<div class="relative pl-16">
-<div class="absolute left-[13px] top-2 w-2 h-2 rounded-full bg-secondary"></div>
-<div class="flex flex-col md:flex-row gap-8">
-<div class="md:w-1/3">
-<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">02. Экспертиза</span>
-<h4 class="text-2xl mt-2">Рецензирование</h4>
-</div>
-<div class="md:w-2/3 text-on-surface-variant">
-                            Двойное «слепое» рецензирование независимыми экспертами для подтверждения научной новизны и достоверности выводов.
-                        </div>
-</div>
-</div>
-<!-- Step 3 -->
-<div class="relative pl-16">
-<div class="absolute left-[13px] top-2 w-2 h-2 rounded-full bg-secondary"></div>
-<div class="flex flex-col md:flex-row gap-8">
-<div class="md:w-1/3">
-<span class="label-text text-xs tracking-[0.2em] text-secondary font-bold uppercase">03. Подготовка</span>
-<h4 class="text-2xl mt-2">Финальная доработка</h4>
-</div>
-<div class="md:w-2/3 text-on-surface-variant">
-                            Литературная правка, техническая верстка графиков и формул, присвоение идентификатора DOI и индексация.
-                        </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Principles -->
-<section class="mb-32 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-<div class="order-2 lg:order-1">
-<div class="aspect-video bg-primary-container relative">
-<img alt="Современная лаборатория" class="w-full h-full object-cover mix-blend-overlay opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG86zhhzQ5j9yX52pJ7WI1GHj2Bl47bTp3x4XofkT_MQgWuXo62FPRRYtfbBM-vTk1X4xKlzJUdE_LFX-xS5C53bTw21k9UjM61drHnpfRbWuhA8aWQEsl6hmZ72KuGlIcfctKGBt2MbjGVbfAHypJ3yBrhrvEsGcxFHYE7IMtV9luDHTqEG9wIxqj38Dum9ex5-TC3ngBsSK3cLuReU3tX8NJLKuKUHGdFiFhgvREXqLuFnVYImx_aqsdN2X2MGGIkmteGAMmp24i"/>
-<div class="absolute inset-0 border-[20px] border-surface m-6"></div>
-</div>
-</div>
-<div class="order-1 lg:order-2">
-<h2 class="text-4xl font-serif text-primary mb-8">Принципы научной этики</h2>
-<div class="space-y-8">
-<div class="flex gap-6">
-<span class="material-symbols-outlined text-secondary">verified_user</span>
-<div>
-<h5 class="font-bold mb-2">Безупречная репутация</h5>
-<p class="text-sm text-on-surface-variant">Мы категорически не приемлем использование инструментов автоматической генерации текстов. Каждый материал проходит живую экспертную оценку на предмет оригинальности и вклада в науку.</p>
-</div>
-</div>
-<div class="flex gap-6">
-<span class="material-symbols-outlined text-secondary">gavel</span>
-<div>
-<h5 class="font-bold mb-2">Прозрачность и подотчетность</h5>
-<p class="text-sm text-on-surface-variant">Авторы получают полный доступ к протоколам рецензирования и результатам верификации. Весь процесс сопровождения открыт и соответствует мировым стандартам COPE.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<div data-codex-section="true">
-<section class="section shell" id="editorial-track"><span class="badge">Кабинет автора</span><h2>Публикационный маршрут с понятными этапами и ответственностью</h2><p class="lead">Раздел публикаций помогает автору, редактору и научному руководителю двигаться от замысла к готовому материалу без потери логики, качества и связи с направлением института.</p><div class="grid two"><div class="card"><h3>Что получает автор</h3><p>Понятную последовательность действий: подготовка текста, редакционная доработка, выпуск материала и связь с курсами, событиями и исследованиями.</p></div><div class="card"><h3>Что получает институт</h3><p>Устойчивый выпуск материалов, в которых сохраняются авторство, научная добросовестность и ясная публичная подача.</p></div></div><div class="cta-row"><a class="btn" href="account-author.html">Открыть кабинет автора</a><a class="btn secondary" href="how-we-work.html">Как устроен маршрут</a></div></section>
-</div><footer class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 bg-[#00342b] text-[#f9f9f9]">
-<div class="flex flex-col gap-6">
-<div class="text-3xl font-serif text-[#f9f9f9]">МИИИИПС</div>
-<p class="text-sm opacity-60 leading-relaxed font-body">Публикации, научные материалы и сопровождение авторов в исследовательской работе.</p>
-</div>
-<div class="flex flex-col gap-4">
-<h4 class="label-text text-xs tracking-widest font-bold opacity-40 uppercase">Ресурсы</h4>
-<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="knowledge-base.html">База знаний</a>
-<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="contacts-partners.html">Академические партнеры</a>
-<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="social-projects.html">Социальные проекты</a>
-</div>
-<div class="flex flex-col gap-4">
-<h4 class="label-text text-xs tracking-widest font-bold opacity-40 uppercase">Информация</h4>
-<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="cooperation-terms.html">Условия сотрудничества</a>
-<a class="text-sm opacity-80 hover:opacity-100 transition-opacity" href="contacts-partners.html">Контакты</a>
-</div>
-<div class="flex flex-col justify-between">
-<div class="flex flex-col gap-4">
-<h4 class="label-text text-xs tracking-widest font-bold opacity-40 uppercase">Подписка</h4>
-<div class="flex border-b border-white/20 pb-2">
-<input class="bg-transparent border-none text-sm w-full focus:ring-0 placeholder:text-white/30" placeholder="Электронная почта" type="email"/>
-<button class="material-symbols-outlined" type="button">east</button>
-</div>
-</div>
-<p class="text-[10px] opacity-40 mt-8">© 2026 МИИИИПС. Все права защищены.</p>
-</div>
-</footer>
+        <div class="journal-grid cols-3" style="margin-top: 18px;">
+          <article class="journal-card pad-24">
+            <span class="journal-chip">Open access</span>
+            <h3 class="journal-card-title" style="margin-top: 14px;">
+              <span data-lang="ru">Открытая публикация</span>
+              <span data-lang="en">Open publication</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Материалы журнала доступны через прозрачный маршрут, без технических барьеров и скрытых страниц.</span>
+              <span data-lang="en">Journal materials are available through a transparent route without technical barriers or hidden pages.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <span class="journal-chip">Ethics</span>
+            <h3 class="journal-card-title" style="margin-top: 14px;">
+              <span data-lang="ru">Этика и ручная модерация</span>
+              <span data-lang="en">Ethics and manual moderation</span>
+            </h3>
+            <p>
+              <span data-lang="ru">В первой версии мы не прячем процесс: заявка проходит ручную проверку редакцией и получает понятный статус.</span>
+              <span data-lang="en">In version one we keep the process visible: submissions are manually reviewed and given a clear status.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <span class="journal-chip">RU + EN</span>
+            <h3 class="journal-card-title" style="margin-top: 14px;">
+              <span data-lang="ru">Двуязычный интерфейс</span>
+              <span data-lang="en">Bilingual interface</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Заголовки, вкладки и ключевые подсказки уже доступны на русском и английском.</span>
+              <span data-lang="en">Headings, tabs, and key prompts are already available in Russian and English.</span>
+            </p>
+          </article>
+        </div>
+      </section>
 
-<script src="platform-shell.js"></script></body></html>
+      <section class="journal-section" id="editorial">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">Редколлегия</span>
+          <span data-lang="en">Editorial board</span>
+        </div>
+        <h2 class="journal-section-title">
+          <span data-lang="ru">Редколлегия собрана из уже существующих фигур института.</span>
+          <span data-lang="en">The editorial board is assembled from the institute's existing profiles.</span>
+        </h2>
+        <div class="journal-grid cols-3" style="margin-top: 18px;">
+          <article class="journal-card pad-24">
+            <div class="journal-meta">
+              <small><span data-lang="ru">Главный редактор</span><span data-lang="en">Editor-in-chief</span></small>
+              <strong>Кунцкова Татьяна Михайловна</strong>
+            </div>
+            <p style="margin-top: 14px;">
+              <span data-lang="ru">Координирует стратегию журнала, редакционный маршрут и выпуск материалов.</span>
+              <span data-lang="en">Coordinates the journal strategy, editorial route, and issue release.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <div class="journal-meta">
+              <small><span data-lang="ru">Ответственный редактор</span><span data-lang="en">Managing editor</span></small>
+              <strong>Кунцов Михаил Иванович</strong>
+            </div>
+            <p style="margin-top: 14px;">
+              <span data-lang="ru">Следит за логикой выпуска, тематикой номера и связью журнала с исследованиями.</span>
+              <span data-lang="en">Oversees the issue logic, theme selection, and the journal's connection to research streams.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <div class="journal-meta">
+              <small><span data-lang="ru">Редактор по публикациям</span><span data-lang="en">Publication editor</span></small>
+              <strong>Рублёв Александр Маркович</strong>
+            </div>
+            <p style="margin-top: 14px;">
+              <span data-lang="ru">Ведёт публикационный маршрут, статусы подач и связку с цифровой платформой.</span>
+              <span data-lang="en">Handles the publication route, submission statuses, and the platform integration.</span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal-section" id="issue">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">Текущий выпуск</span>
+          <span data-lang="en">Current issue</span>
+        </div>
+        <div class="journal-grid cols-2" style="margin-top: 18px; align-items: start;">
+          <aside class="journal-issue-cover">
+            <div class="journal-cover-stack">
+              <div class="journal-pill">Volume 1 · Issue 1</div>
+              <div class="issue-number">2026</div>
+              <h2 class="issue-title">
+                <span data-lang="ru">От лекции к выпуску: маршрут научной публикации</span>
+                <span data-lang="en">From lecture to issue: the scholarly publication route</span>
+              </h2>
+              <p class="issue-summary">
+                <span data-lang="ru">Первый выпуск показывает, как из лекций, кейсов и редакционных заметок получается готовый журнал.</span>
+                <span data-lang="en">The first issue shows how lectures, cases, and editorial notes become a finished journal.</span>
+              </p>
+            </div>
+            <div class="journal-actions-row">
+            <a class="journal-btn secondary" href="journal-issue.html">
+                <span data-lang="ru">Открыть выпуск</span>
+                <span data-lang="en">Open issue</span>
+              </a>
+              <a class="journal-btn primary" href="journal-submit.html">
+                <span data-lang="ru">Подать статью</span>
+                <span data-lang="en">Submit article</span>
+              </a>
+            </div>
+          </aside>
+          <div class="journal-card pad-28">
+            <div class="journal-meta">
+              <small><span data-lang="ru">Содержание номера</span><span data-lang="en">Table of contents</span></small>
+              <strong>4 публикации</strong>
+            </div>
+            <div class="journal-divider"></div>
+            <div class="journal-issue-list">
+              <div class="item">
+                <span class="journal-chip">Article 01</span>
+                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
+                  <span data-lang="ru">ИИ, редактор и автор: как сохранить голос статьи</span>
+                  <span data-lang="en">AI, editor, and author: preserving the article's voice</span>
+                </h3>
+                <p>Редакционный разбор про ответственность автора, прозрачность правок и публикационный маршрут.</p>
+              </div>
+              <div class="item">
+                <span class="journal-chip">Article 02</span>
+                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
+                  <span data-lang="ru">Образовательный маршрут как часть научной публикации</span>
+                  <span data-lang="en">Education routes as part of scholarly publishing</span>
+                </h3>
+                <p>Связка курса, лекции и журнальной статьи в одном публикационном контуре.</p>
+              </div>
+              <div class="item">
+                <span class="journal-chip">Article 03</span>
+                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
+                  <span data-lang="ru">Психология, спорт и прикладные кейсы МИИИИПС</span>
+                  <span data-lang="en">Psychology, sport, and applied MIIIIPS cases</span>
+                </h3>
+                <p>Как научные темы превращаются в реальные материалы для журнала и партнёрских проектов.</p>
+              </div>
+              <div class="item">
+                <span class="journal-chip">Article 04</span>
+                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
+                  <span data-lang="ru">Публикация как маршрут: от заявки до архива</span>
+                  <span data-lang="en">Publishing as a route: from submission to archive</span>
+                </h3>
+                <p>Структура статьи, чеклист для автора и место номера в архиве журнала.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal-section" id="authors">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">Авторам</span>
+          <span data-lang="en">For authors</span>
+        </div>
+        <div class="journal-grid cols-2" style="margin-top: 18px; align-items: start;">
+          <article class="journal-card pad-28">
+            <h2 class="journal-section-title" style="font-size: clamp(28px, 3vw, 42px); margin-bottom: 8px;">
+              <span data-lang="ru">Что важно для подачи</span>
+              <span data-lang="en">What matters for submission</span>
+            </h2>
+            <ul class="journal-list">
+              <li>название статьи, аннотация, ключевые слова и контакт автора;</li>
+              <li>прикреплённый файл в формате PDF, DOCX, DOC, TXT или MD;</li>
+              <li>указание языка статьи и тематического раздела;</li>
+              <li>короткое сопроводительное письмо с контекстом работы.</li>
+            </ul>
+            <div class="journal-actions-row" style="margin-top: 18px;">
+              <a class="journal-btn primary" href="journal-submit.html">
+                <span data-lang="ru">Подать статью</span>
+                <span data-lang="en">Submit article</span>
+              </a>
+              <a class="journal-btn secondary" href="journal-authors.html">
+                <span data-lang="ru">Полная инструкция</span>
+                <span data-lang="en">Full guide</span>
+              </a>
+            </div>
+          </article>
+          <article class="journal-card pad-28">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Редакционный шаблон</span>
+              <span data-lang="en">Editorial template</span>
+            </h3>
+            <div class="journal-kv" style="margin-top: 14px;">
+              <div class="row"><span>1.</span><strong>Название и авторы</strong></div>
+              <div class="row"><span>2.</span><strong>Аннотация и keywords</strong></div>
+              <div class="row"><span>3.</span><strong>Введение, методы, результаты</strong></div>
+              <div class="row"><span>4.</span><strong>Выводы и список литературы</strong></div>
+            </div>
+            <p style="margin-top: 14px;">
+              <span data-lang="ru">Это базовый каркас статьи: он понятен авторам, редакции и читателям журнала.</span>
+              <span data-lang="en">This is the base article frame: clear for authors, editors, and readers.</span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal-section" id="reviewers">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">Рецензентам</span>
+          <span data-lang="en">For reviewers</span>
+        </div>
+        <div class="journal-grid cols-3" style="margin-top: 18px;">
+          <article class="journal-card pad-24">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Что проверяет рецензент</span>
+              <span data-lang="en">What the reviewer checks</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Логику текста, научную добросовестность, аргументацию, соответствие теме и пригодность к выпуску.</span>
+              <span data-lang="en">Logic, scholarly integrity, argumentation, relevance, and readiness for publication.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Как устроен маршрут</span>
+              <span data-lang="en">How the route works</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Статья получает статусы: поступила, в проверке, требует доработки, готова к выпуску.</span>
+              <span data-lang="en">The article passes through statuses: received, under review, needs revision, ready for release.</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Инструкция</span>
+              <span data-lang="en">Instruction</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Мы сохраняем ручную редакционную проверку на первом этапе и не подменяем её автоматическим решением.</span>
+              <span data-lang="en">We keep manual editorial review in version one and do not replace it with automation.</span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal-section" id="archive">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">Архив и индексирование</span>
+          <span data-lang="en">Archive and indexing</span>
+        </div>
+        <div class="journal-grid cols-2" style="margin-top: 18px; align-items:start;">
+          <article class="journal-card pad-28">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Выпуски журнала</span>
+              <span data-lang="en">Journal issues</span>
+            </h3>
+            <div class="journal-issue-list" style="margin-top: 14px;">
+              <div class="item">
+                <span class="journal-chip">2026 / 1</span>
+                <p style="margin-top: 10px; margin-bottom: 10px;">
+                  <strong style="color: var(--journal-ink);">Наука, образование и исследования XXI века</strong>
+                </p>
+                <div class="journal-actions-row">
+          <a class="journal-btn secondary" href="journal-issue.html">Открыть выпуск</a>
+                  <a class="journal-btn secondary" href="journal-archive.html">Архив</a>
+                </div>
+              </div>
+              <div class="item">
+                <span class="journal-chip">2026 / 2</span>
+                <p style="margin-top: 10px;">Следующий выпуск готовится в редакционном и контентном контуре.</p>
+              </div>
+            </div>
+          </article>
+          <article class="journal-card pad-28">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Индексирование и DOI</span>
+              <span data-lang="en">Indexing and DOI</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Для MVP мы показываем журнал как готовую публикационную оболочку, в которой можно подключать каталоги, индексирование и DOI по мере готовности выпуска.</span>
+              <span data-lang="en">For the MVP we show the journal as a ready publishing shell, with catalogs, indexing, and DOI connected as the issue matures.</span>
+            </p>
+            <div class="journal-grid cols-2" style="margin-top: 14px;">
+              <div class="journal-card pad-24" style="box-shadow:none;">
+                <small style="display:block; color:#60716b; text-transform:uppercase; letter-spacing:.08em; font:700 11px/1.2 Public Sans,sans-serif;">DOI</small>
+                <strong style="font:700 28px/1.05 Newsreader,serif; color:var(--journal-ink); display:block; margin-top:6px;">готовится</strong>
+              </div>
+              <div class="journal-card pad-24" style="box-shadow:none;">
+                <small style="display:block; color:#60716b; text-transform:uppercase; letter-spacing:.08em; font:700 11px/1.2 Public Sans,sans-serif;">Open access</small>
+                <strong style="font:700 28px/1.05 Newsreader,serif; color:var(--journal-ink); display:block; margin-top:6px;">подключён</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal-section" id="contacts">
+        <div class="journal-eyebrow">
+          <span data-lang="ru">Контакты</span>
+          <span data-lang="en">Contacts</span>
+        </div>
+        <div class="journal-grid cols-3" style="margin-top: 18px;">
+          <article class="journal-card pad-24">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Редакционная почта</span>
+              <span data-lang="en">Editorial email</span>
+            </h3>
+            <p>rublevalexanderus@gmail.com</p>
+          </article>
+          <article class="journal-card pad-24">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Ответственные лица</span>
+              <span data-lang="en">Responsible contacts</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Кунцкова Татьяна Михайловна · Кунцов Михаил Иванович</span>
+              <span data-lang="en">Tatyana Mikhaylovna Kuntskova · Mikhail Ivanovich Kuntsov</span>
+            </p>
+          </article>
+          <article class="journal-card pad-24">
+            <h3 class="journal-card-title">
+              <span data-lang="ru">Следующий шаг</span>
+              <span data-lang="en">Next step</span>
+            </h3>
+            <p>
+              <span data-lang="ru">Подать статью, дождаться подтверждения и получить статус редакционного маршрута.</span>
+              <span data-lang="en">Submit an article, wait for confirmation, and receive the editorial route status.</span>
+            </p>
+          </article>
+        </div>
+        <div class="journal-success" style="margin-top: 18px;">
+          <h3 class="journal-card-title">
+            <span data-lang="ru">Журнал уже можно показывать как готовый публичный продукт.</span>
+            <span data-lang="en">The journal can already be shown as a ready public product.</span>
+          </h3>
+          <p>
+            <span data-lang="ru">Открываются вкладки, текущий выпуск, архив, инструкции для авторов и форма подачи. Дальше можно усиливать рецензирование, DOI и редакционные статусы без смены структуры.</span>
+            <span data-lang="en">The tabs, current issue, archive, author guide, and submission form are already live. Next we can strengthen review, DOI, and editorial states without changing the structure.</span>
+          </p>
+          <div class="journal-actions-row">
+            <a class="journal-btn primary" href="journal-submit.html">
+              <span data-lang="ru">Подать статью</span>
+              <span data-lang="en">Submit article</span>
+            </a>
+            <a class="journal-btn secondary" href="journal-about.html">
+              <span data-lang="ru">О журнале</span>
+              <span data-lang="en">About the journal</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="journal-footer">
+    <div class="journal-shell">
+      <div class="journal-footer-grid">
+        <a class="journal-footer-card" href="journal-about.html">
+          <small>About / О журнале</small>
+          <strong>Профиль и миссия</strong>
+        </a>
+        <a class="journal-footer-card" href="journal-authors.html">
+          <small>Authors / Авторам</small>
+          <strong>Подача и шаблон</strong>
+        </a>
+        <a class="journal-footer-card" href="journal-issue.html">
+          <small>Issue 1 / Выпуск 1</small>
+          <strong>Текущий номер</strong>
+        </a>
+        <a class="journal-footer-card" href="journal-submit.html">
+          <small>Submit / Подача</small>
+          <strong>Отправить статью</strong>
+        </a>
+      </div>
+      <p style="margin-top: 22px;">
+        <span data-lang="ru">© 2026 МИИИИПС · Журнал как часть публичной платформы института.</span>
+        <span data-lang="en">© 2026 MIIIIPS · Journal as part of the institute's public platform.</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

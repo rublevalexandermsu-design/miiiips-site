@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Архив выпусков | Журнал МИИИИПС</title>
+  <meta name="description" content="Архив выпусков журнала МИИИИПС."/>
+  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/journal.css"/>
+  <script defer src="assets/js/journal-ui.js"></script>
+  <script defer src="prototype-enhancements.js"></script>
+  <script defer src="miiiips-live-layer.js"></script>
+</head>
+<body class="journal-body" data-lang="ru">
+  <header class="journal-topbar">
+    <div class="journal-shell journal-topbar-inner">
+      <a class="journal-brand" href="journal.html" aria-label="Журнал МИИИИПС">
+        <img class="journal-brand-mark" src="assets/images/journal/miiiips-journal-logo.svg" alt="Логотип журнала МИИИИПС"/>
+        <div class="journal-brand-copy">
+          <div class="journal-brand-name">ЖУРНАЛ МИИИИПС</div>
+          <div class="journal-brand-title">
+            <span data-lang="ru">Архив выпусков</span>
+            <span data-lang="en">Issue archive</span>
+          </div>
+          <div class="journal-brand-subtitle">
+            <span data-lang="ru">Все номера и их маршрут</span>
+            <span data-lang="en">All issues and their routes</span>
+          </div>
+        </div>
+      </a>
+      <nav class="journal-nav" aria-label="Вкладки журнала">
+        <a href="journal.html">Главная</a>
+        <a href="journal-about.html">О журнале</a>
+        <a href="journal-authors.html">Авторам</a>
+        <a href="journal-reviewers.html">Рецензентам</a>
+        <a href="journal-issue.html">Текущий выпуск</a>
+        <a class="is-active" href="journal-archive.html">Архив</a>
+        <a href="journal-submit.html">Подать статью</a>
+        <a href="journal-contacts.html">Контакты</a>
+      </nav>
+      <div class="journal-actions">
+        <div class="journal-lang-switch" aria-label="Переключение языка">
+          <button type="button" data-lang-switch="ru" class="is-active">RU</button>
+          <button type="button" data-lang-switch="en">EN</button>
+        </div>
+        <a class="journal-btn primary" href="journal-submit.html">
+          <span data-lang="ru">Подать статью</span>
+          <span data-lang="en">Submit article</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="journal-main">
+    <div class="journal-shell">
+      <section class="journal-hero">
+        <div class="journal-hero-copy">
+          <div class="journal-eyebrow"><span data-lang="ru">Архив</span><span data-lang="en">Archive</span></div>
+          <h1 class="journal-title">
+            <span data-lang="ru">Архив показывает, как журнал растёт номер за номером.</span>
+            <span data-lang="en">The archive shows how the journal grows issue by issue.</span>
+          </h1>
+          <p class="journal-lead">
+            <span data-lang="ru">В архиве видно, какие выпуски уже опубликованы, а какие ещё в редакционной подготовке.</span>
+            <span data-lang="en">The archive shows which issues are already published and which are still in editorial prep.</span>
+          </p>
+        </div>
+        <aside class="journal-card journal-aside">
+          <div class="journal-meta">
+            <small><span data-lang="ru">Статус</span><span data-lang="en">Status</span></small>
+            <strong><span data-lang="ru">Пилотный выпуск опубликован</span><span data-lang="en">Pilot issue published</span></strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="journal-section">
+        <div class="journal-grid cols-2" style="align-items:start; margin-top:18px;">
+          <article class="journal-card pad-32">
+            <span class="journal-chip">2026 / 1</span>
+            <h2 class="journal-section-title" style="font-size:clamp(28px,3vw,42px); margin-top:12px;">
+              <span data-lang="ru">Пилотный выпуск журнала</span>
+              <span data-lang="en">Pilot issue</span>
+            </h2>
+            <p style="margin-top:12px;">
+              <span data-lang="ru">Показывает маршрут журнала от лекции и статьи к архиву и публичной публикации.</span>
+              <span data-lang="en">Shows the route from lecture and article to archive and public publication.</span>
+            </p>
+            <div class="journal-actions-row" style="margin-top:18px;">
+              <a class="journal-btn primary" href="journal-issue.html"><span data-lang="ru">Открыть выпуск</span><span data-lang="en">Open issue</span></a>
+              <a class="journal-btn secondary" href="journal-submit.html"><span data-lang="ru">Подать статью</span><span data-lang="en">Submit article</span></a>
+            </div>
+          </article>
+          <article class="journal-card pad-32">
+            <span class="journal-chip">2026 / 2</span>
+            <h3 class="journal-card-title" style="margin-top:12px;">
+              <span data-lang="ru">Летний выпуск</span>
+              <span data-lang="en">Summer issue</span>
+            </h3>
+            <p style="margin-top:12px;">
+              <span data-lang="ru">Следующий выпуск готовится в редакционном и контентном контуре.</span>
+              <span data-lang="en">The next issue is being prepared in the editorial and content pipeline.</span>
+            </p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
