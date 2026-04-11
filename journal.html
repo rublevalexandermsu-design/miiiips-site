@@ -109,6 +109,27 @@
       flex: 0 0 auto;
     }
 
+    .journal-home-institute-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      color: #245038;
+      text-decoration: none;
+      font: 700 11px/1 Public Sans, sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      border: 1px solid rgba(36, 80, 56, 0.18);
+      transition: background 0.18s ease, transform 0.18s ease;
+    }
+
+    .journal-home-institute-link:hover {
+      background: #fff;
+      transform: translateY(-1px);
+    }
+
     .journal-home-lang {
       background: rgba(255, 255, 255, 0.92);
       border-radius: 10px;
@@ -526,6 +547,10 @@
       </nav>
 
       <div class="journal-home-actions">
+        <a class="journal-home-institute-link" href="index.html">
+          <span data-lang="ru">На сайт института</span>
+          <span data-lang="en">Institute site</span>
+        </a>
         <div class="journal-home-lang" aria-label="Переключение языка">
           <button type="button" data-lang-switch="ru" class="is-active">Русский</button>
           <button type="button" data-lang-switch="en">English</button>

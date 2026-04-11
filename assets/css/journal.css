@@ -138,6 +138,16 @@ body.journal-body[data-lang="en"] [data-lang="en"].block {
   justify-content: flex-end;
 }
 
+.journal-institute-link {
+  background: rgba(12, 77, 64, 0.08);
+  color: var(--journal-accent);
+  border-color: rgba(18, 55, 47, 0.14);
+}
+
+.journal-institute-link:hover {
+  background: rgba(12, 77, 64, 0.14);
+}
+
 .journal-lang-switch {
   display: inline-flex;
   gap: 8px;
