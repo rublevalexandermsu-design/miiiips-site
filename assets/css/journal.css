@@ -29,6 +29,11 @@ body.journal-body a {
   color: inherit;
 }
 
+#codex-page-map,
+#page-map {
+  display: none !important;
+}
+
 body.journal-body h1,
 body.journal-body h2,
 body.journal-body h3,
