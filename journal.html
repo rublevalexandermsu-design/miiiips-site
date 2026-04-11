@@ -4,8 +4,8 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Журнал МИИИИПС | Наука, образование и исследования XXI века</title>
-  <meta name="description" content="Журнал МИИИИПС — публикационный маршрут института с выпуском, архивом, редакционной коллегией, авторами и формой подачи статьи."/>
-  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <meta name="description" content="Журнал МИИИИПС — международный научный журнал с редакционной коллегией, выпуском, архивом и подачей статьи."/>
+  <meta name="x-local-prototype" content="clickable-site_v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
@@ -13,504 +13,751 @@
   <script defer src="assets/js/journal-ui.js"></script>
   <script defer src="prototype-enhancements.js"></script>
   <script defer src="miiiips-live-layer.js"></script>
+  <style>
+    body.journal-home-body {
+      background: #f7f7ef;
+    }
+
+    .journal-home-topbar {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      background: linear-gradient(180deg, #2d8d45 0%, #3fa251 100%);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .journal-home-topbar-inner {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-height: 72px;
+      padding: 10px 0;
+    }
+
+    .journal-home-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      text-decoration: none;
+      min-width: 0;
+      flex: 0 0 auto;
+    }
+
+    .journal-home-brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+    }
+
+    .journal-home-brand-copy {
+      min-width: 0;
+      display: grid;
+      gap: 2px;
+    }
+
+    .journal-home-brand-name {
+      font: 700 12px/1 Public Sans, sans-serif;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      opacity: 0.94;
+    }
+
+    .journal-home-brand-title {
+      font: 700 16px/1.08 Newsreader, serif;
+      white-space: nowrap;
+    }
+
+    .journal-home-menu {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: auto;
+      scrollbar-width: none;
+      padding: 0 2px;
+    }
+
+    .journal-home-menu > a {
+      flex: 0 0 auto;
+      white-space: nowrap;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.96);
+      font: 700 11px/1 Public Sans, sans-serif;
+      letter-spacing: 0.02em;
+      padding: 9px 10px;
+      border-radius: 10px;
+      transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+    }
+
+    .journal-home-menu > a:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-1px);
+    }
+
+    .journal-home-menu::-webkit-scrollbar {
+      display: none;
+    }
+
+    .journal-home-dropdown {
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+    .journal-home-dropdown > summary {
+      list-style: none;
+      cursor: pointer;
+      white-space: nowrap;
+      padding: 9px 10px;
+      border-radius: 10px;
+      color: #fff;
+      font: 700 12px/1 Public Sans, sans-serif;
+      letter-spacing: 0.03em;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.18s ease, transform 0.18s ease;
+    }
+
+    .journal-home-dropdown > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .journal-home-dropdown > summary::after {
+      content: "▾";
+      font-size: 10px;
+      opacity: 0.92;
+    }
+
+    .journal-home-dropdown[open] > summary,
+    .journal-home-dropdown > summary:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .journal-home-dropdown-panel {
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      min-width: 230px;
+      padding: 10px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.98);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+      display: grid;
+      gap: 4px;
+      z-index: 30;
+    }
+
+    .journal-home-dropdown-panel a {
+      text-decoration: none;
+      color: #1f4b33;
+      font: 600 13px/1.3 Public Sans, sans-serif;
+      padding: 10px 12px;
+      border-radius: 12px;
+      transition: background 0.16s ease, color 0.16s ease;
+    }
+
+    .journal-home-dropdown-panel a:hover {
+      background: #edf6ef;
+      color: #0f5a41;
+    }
+
+    .journal-home-actions {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      flex: 0 0 auto;
+    }
+
+    .journal-home-lang {
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 10px;
+      padding: 4px;
+      display: inline-flex;
+      gap: 4px;
+    }
+
+    .journal-home-lang button {
+      border: 0;
+      background: transparent;
+      color: #245038;
+      font: 700 11px/1 Public Sans, sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 8px 11px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .journal-home-lang button.is-active {
+      background: #245038;
+      color: #fff;
+    }
+
+    .journal-home-shell {
+      max-width: 1900px;
+      margin: 0 auto;
+      padding: 0 22px;
+    }
+
+    .journal-home-hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(16, 92, 46, 0.96), rgba(38, 128, 61, 0.92)),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08), transparent 20%);
+      color: #fff;
+      min-height: 250px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .journal-home-hero::before,
+    .journal-home-hero::after {
+      content: "";
+      position: absolute;
+      inset: auto;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      opacity: 0.7;
+    }
+
+    .journal-home-hero::before {
+      width: 420px;
+      height: 420px;
+      left: -250px;
+      top: -180px;
+    }
+
+    .journal-home-hero::after {
+      width: 260px;
+      height: 260px;
+      left: -140px;
+      top: -60px;
+    }
+
+    .journal-home-hero-inner {
+      position: relative;
+      z-index: 1;
+      min-height: inherit;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 42px 0;
+    }
+
+    .journal-home-hero-title {
+      font: 700 clamp(32px, 4vw, 58px)/1.08 Newsreader, serif;
+      margin: 0;
+      max-width: 1050px;
+      text-wrap: balance;
+    }
+
+    .journal-home-hero-subtitle {
+      margin-top: 16px;
+      max-width: 980px;
+      color: rgba(255, 255, 255, 0.88);
+      font: 600 18px/1.55 Manrope, sans-serif;
+    }
+
+    .journal-home-hero-note {
+      margin-top: 18px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      font: 700 12px/1 Public Sans, sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .journal-home-feature {
+      background: linear-gradient(180deg, #f8f7c8 0%, #f7f8dc 100%);
+      padding: 36px 0 42px;
+      position: relative;
+    }
+
+    .journal-home-feature-grid {
+      display: grid;
+      grid-template-columns: minmax(320px, 1fr) minmax(340px, 1fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .journal-home-editor-card,
+    .journal-home-info-card {
+      background: rgba(248, 251, 233, 0.88);
+      border: 1px solid rgba(147, 174, 104, 0.22);
+      border-radius: 16px;
+      box-shadow: 0 8px 22px rgba(60, 88, 41, 0.12);
+      padding: 14px 16px;
+      min-height: 156px;
+      display: flex;
+      align-items: center;
+    }
+
+    .journal-home-editor-card {
+      gap: 18px;
+    }
+
+    .journal-home-portrait {
+      width: 146px;
+      height: 146px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex: 0 0 auto;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .journal-home-editor-copy {
+      display: grid;
+      gap: 8px;
+    }
+
+    .journal-home-editor-name {
+      color: #227236;
+      font: 700 clamp(22px, 2.2vw, 30px)/1.06 Newsreader, serif;
+      text-decoration: underline;
+      text-decoration-color: #9bcf5a;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+      max-width: 100%;
+    }
+
+    .journal-home-editor-title {
+      color: #5b5b45;
+      font: 600 14px/1.45 Manrope, sans-serif;
+      max-width: 430px;
+    }
+
+    .journal-home-editor-role {
+      color: #9bcf5a;
+      font: 700 18px/1 Public Sans, sans-serif;
+      margin-top: 4px;
+    }
+
+    .journal-home-info-card {
+      justify-content: flex-start;
+    }
+
+    .journal-home-info-copy {
+      display: grid;
+      gap: 16px;
+      width: 100%;
+    }
+
+    .journal-home-info-label {
+      color: #587047;
+      font: 600 16px/1.4 Manrope, sans-serif;
+    }
+
+    .journal-home-info-phone {
+      color: #2a7d31;
+      font: 700 clamp(24px, 2.6vw, 34px)/1.1 Public Sans, sans-serif;
+      text-decoration: none;
+    }
+
+    .journal-home-info-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .journal-home-info-actions .journal-btn {
+      border-radius: 14px;
+      padding: 11px 16px;
+      text-transform: none;
+      letter-spacing: 0.02em;
+      font-size: 13px;
+    }
+
+    .journal-home-bodycopy {
+      background: #ebf1f1;
+      padding: 58px 0 62px;
+      color: #2d3d33;
+    }
+
+    .journal-home-summary {
+      max-width: 980px;
+      margin: 0 auto;
+      text-align: center;
+      font: 500 14px/1.62 Manrope, sans-serif;
+      color: #274433;
+    }
+
+    .journal-home-summary p {
+      margin: 0 0 10px;
+      color: #36493d;
+    }
+
+    .journal-home-databases {
+      background: #fff;
+      padding: 34px 0 0;
+    }
+
+    .journal-home-database-title {
+      text-align: center;
+      color: #2c7a34;
+      font: 700 28px/1.1 Newsreader, serif;
+      margin-bottom: 24px;
+    }
+
+    .journal-home-database-strip {
+      overflow: hidden;
+      border-top: 1px solid rgba(18, 55, 47, 0.08);
+      border-bottom: 1px solid rgba(18, 55, 47, 0.08);
+      background: #fff;
+      padding: 18px 0;
+    }
+
+    .journal-home-logos {
+      display: flex;
+      gap: 20px;
+      width: max-content;
+      animation: journal-marquee 45s linear infinite;
+    }
+
+    .journal-home-logo {
+      min-width: 160px;
+      padding: 14px 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(18, 55, 47, 0.08);
+      background: linear-gradient(180deg, #fff, #f9fbf7);
+      box-shadow: 0 8px 20px rgba(18, 55, 47, 0.06);
+      display: grid;
+      place-items: center;
+      text-align: center;
+    }
+
+    .journal-home-logo strong {
+      display: block;
+      color: #0f5a41;
+      font: 700 18px/1.1 Public Sans, sans-serif;
+      letter-spacing: 0.03em;
+    }
+
+    .journal-home-logo span {
+      display: block;
+      margin-top: 4px;
+      color: #6a776f;
+      font: 600 11px/1.3 Public Sans, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .journal-home-footer {
+      margin-top: 0;
+      background: linear-gradient(90deg, #108d77 0%, #8cc63e 100%);
+      color: #fff;
+      padding: 26px 0 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .journal-home-footer::before {
+      content: "";
+      position: absolute;
+      inset: auto -80px -60px auto;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      opacity: 0.8;
+    }
+
+    .journal-home-footer-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 14px;
+      max-width: 980px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .journal-home-footer-copy {
+      font: 600 14px/1.7 Manrope, sans-serif;
+      color: rgba(255, 255, 255, 0.94);
+    }
+
+    .journal-home-footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .journal-home-footer-links a {
+      color: #fff;
+      text-decoration: none;
+      font: 700 12px/1 Public Sans, sans-serif;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .journal-home-footer-links a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    @keyframes journal-marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    @media (max-width: 1200px) {
+      .journal-home-topbar-inner {
+        flex-wrap: wrap;
+      }
+
+      .journal-home-menu {
+        width: 100%;
+        order: 3;
+      }
+
+      .journal-home-feature-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .journal-home-menu > a {
+        padding: 8px 8px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .journal-home-shell {
+        padding: 0 14px;
+      }
+
+      .journal-home-hero {
+        min-height: 220px;
+      }
+
+      .journal-home-editor-card,
+      .journal-home-info-card {
+        align-items: flex-start;
+      }
+
+      .journal-home-editor-card {
+        flex-direction: column;
+      }
+
+      .journal-home-portrait {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+      }
+    }
+
+    #codex-page-map {
+      display: none !important;
+    }
+  </style>
 </head>
-<body class="journal-body" data-lang="ru">
-  <header class="journal-topbar">
-    <div class="journal-shell journal-topbar-inner">
-      <a class="journal-brand" href="journal.html" aria-label="Журнал МИИИИПС">
-        <img class="journal-brand-mark" src="assets/images/journal/miiiips-journal-logo.svg" alt="Логотип журнала МИИИИПС"/>
-        <div class="journal-brand-copy">
-          <div class="journal-brand-name">ЖУРНАЛ МИИИИПС</div>
-          <div class="journal-brand-title">
+<body class="journal-body journal-home-body" data-lang="ru">
+  <header class="journal-home-topbar">
+    <div class="journal-home-shell journal-home-topbar-inner">
+      <a class="journal-home-brand" href="journal.html" aria-label="Журнал МИИИИПС">
+        <img src="assets/images/journal/miiiips-journal-logo.svg" alt="Логотип журнала МИИИИПС"/>
+        <div class="journal-home-brand-copy">
+          <div class="journal-home-brand-name">ЖУРНАЛ МИИИИПС</div>
+          <div class="journal-home-brand-title">
             <span data-lang="ru">Наука, образование и исследования XXI века</span>
             <span data-lang="en">Science, Education and Research in the 21st Century</span>
           </div>
-          <div class="journal-brand-subtitle">
-            <span data-lang="ru">Публикационный маршрут · Редакционная коллегия · Open access</span>
-            <span data-lang="en">Publication route · Editorial board · Open access</span>
-          </div>
         </div>
       </a>
-      <nav class="journal-nav" aria-label="Вкладки журнала">
-        <a class="is-active" href="journal.html">Главная</a>
-        <a href="#about">О журнале</a>
-        <a href="#editorial">Редколлегия</a>
-        <a href="journal-authors.html">Авторам</a>
-        <a href="journal-reviewers.html">Рецензентам</a>
-        <a href="journal-issue.html">Текущий выпуск</a>
-        <a href="journal-archive.html">Архив</a>
-        <a href="journal-submit.html">Подать статью</a>
-        <a href="journal-contacts.html">Контакты</a>
+
+      <nav class="journal-home-menu" aria-label="Разделы журнала">
+        <details class="journal-home-dropdown">
+          <summary><span data-lang="ru">О журнале</span><span data-lang="en">About</span></summary>
+          <div class="journal-home-dropdown-panel">
+            <a href="journal-about.html"><span data-lang="ru">Цели и задачи</span><span data-lang="en">Scope and goals</span></a>
+            <a href="journal-about.html"><span data-lang="ru">История журнала</span><span data-lang="en">Journal history</span></a>
+            <a href="journal-about.html"><span data-lang="ru">Этические нормы публикаций</span><span data-lang="en">Publication ethics</span></a>
+            <a href="journal-about.html"><span data-lang="ru">Политика открытого доступа</span><span data-lang="en">Open access policy</span></a>
+            <a href="journal-about.html"><span data-lang="ru">Лицензия</span><span data-lang="en">License</span></a>
+            <a href="journal-about.html"><span data-lang="ru">Партнёры</span><span data-lang="en">Partners</span></a>
+            <a href="journal-about.html"><span data-lang="ru">Карта сайта</span><span data-lang="en">Sitemap</span></a>
+          </div>
+        </details>
+        <details class="journal-home-dropdown">
+          <summary><span data-lang="ru">Редколлегия</span><span data-lang="en">Board</span></summary>
+          <div class="journal-home-dropdown-panel">
+            <a href="journal.html#editorial"><span data-lang="ru">Главный редактор</span><span data-lang="en">Editor-in-chief</span></a>
+            <a href="journal-reviewers.html"><span data-lang="ru">Рецензенты</span><span data-lang="en">Reviewers</span></a>
+          </div>
+        </details>
+        <details class="journal-home-dropdown">
+          <summary><span data-lang="ru">Авторам</span><span data-lang="en">For authors</span></summary>
+          <div class="journal-home-dropdown-panel">
+            <a href="journal-authors.html"><span data-lang="ru">Руководство по оформлению статей</span><span data-lang="en">Author guide</span></a>
+            <a href="journal-authors.html"><span data-lang="ru">Шаблон статьи</span><span data-lang="en">Article template</span></a>
+            <a href="journal-authors.html"><span data-lang="ru">Политика рецензирования</span><span data-lang="en">Review policy</span></a>
+            <a href="journal-authors.html"><span data-lang="ru">Антиплагиат</span><span data-lang="en">Anti-plagiarism</span></a>
+            <a href="journal-authors.html"><span data-lang="ru">Авторские права</span><span data-lang="en">Copyright</span></a>
+            <a href="journal-authors.html"><span data-lang="ru">FAQ</span><span data-lang="en">FAQ</span></a>
+          </div>
+        </details>
+        <details class="journal-home-dropdown">
+          <summary><span data-lang="ru">Рецензентам</span><span data-lang="en">Reviewers</span></summary>
+          <div class="journal-home-dropdown-panel">
+            <a href="journal-reviewers.html"><span data-lang="ru">Инструкции для рецензентов</span><span data-lang="en">Reviewer instructions</span></a>
+          </div>
+        </details>
+        <a href="journal-archive.html"><span data-lang="ru">Архив</span><span data-lang="en">Archive</span></a>
+        <a href="journal-issue.html"><span data-lang="ru">Текущий выпуск</span><span data-lang="en">Current issue</span></a>
+        <a href="journal-submit.html"><span data-lang="ru">Подать статью</span><span data-lang="en">Submit article</span></a>
+        <a href="journal-about.html"><span data-lang="ru">Индексирование</span><span data-lang="en">Indexing</span></a>
+        <a href="journal-contacts.html"><span data-lang="ru">Контакты</span><span data-lang="en">Contacts</span></a>
+        <a href="journal-about.html"><span data-lang="ru">Новости</span><span data-lang="en">News</span></a>
+        <a href="journal-about.html"><span data-lang="ru">История научной мысли</span><span data-lang="en">History of science</span></a>
+        <a href="journal-about.html"><span data-lang="ru">Об учредителях</span><span data-lang="en">Founders</span></a>
       </nav>
-      <div class="journal-actions">
-        <div class="journal-lang-switch" aria-label="Переключение языка">
-          <button type="button" data-lang-switch="ru" class="is-active">RU</button>
-          <button type="button" data-lang-switch="en">EN</button>
+
+      <div class="journal-home-actions">
+        <div class="journal-home-lang" aria-label="Переключение языка">
+          <button type="button" data-lang-switch="ru" class="is-active">Русский</button>
+          <button type="button" data-lang-switch="en">English</button>
         </div>
-        <a class="journal-btn primary" href="journal-submit.html">
-          <span data-lang="ru">Подать статью</span>
-          <span data-lang="en">Submit article</span>
-        </a>
       </div>
     </div>
   </header>
 
-  <main class="journal-main">
-    <div class="journal-shell">
-      <section class="journal-hero">
-        <div class="journal-hero-copy">
-          <div class="journal-eyebrow">
-            <span data-lang="ru">Журнал · МИИИИПС · Open access</span>
-            <span data-lang="en">Journal · MIIIIPS · Open access</span>
-          </div>
-          <div class="journal-kicker">2026 / Volume 1 / Issue 1</div>
-          <h1 class="journal-title">
-            <span data-lang="ru">Журнал, где публикация выглядит как выпуск, а выпуск как реальная научная работа.</span>
-            <span data-lang="en">A journal that looks like a real issue, not a technical page.</span>
+  <main>
+    <section class="journal-home-hero">
+      <div class="journal-home-shell journal-home-hero-inner">
+        <div>
+          <h1 class="journal-home-hero-title">
+            <span data-lang="ru">Международный научный журнал «Журнал МИИИИПС»</span>
+            <span data-lang="en">International scholarly journal “MIIIIPS Journal”</span>
           </h1>
-          <p class="journal-lead">
-            <span data-lang="ru">Журнал МИИИИПС соединяет статьи, редакционную коллегию, выпуск, архив и подачу материалов в одном публичном пространстве. Здесь видно, куда идёт автор, кто принимает решение и как выглядит готовый номер.</span>
-            <span data-lang="en">The MIIIIPS journal connects articles, editorial board, issues, archive, and article submission in one public space. Authors can see the route, the decision points, and the shape of a finished issue.</span>
+          <p class="journal-home-hero-subtitle">
+            <span data-lang="ru">Наука, образование и исследования XXI века. Публикации, выпуски, архив и подача статей собраны в одном журнале.</span>
+            <span data-lang="en">Science, education and research in the 21st century. Publications, issues, archive, and article submission are gathered into one journal.</span>
           </p>
-          <div class="journal-actions-row">
-            <a class="journal-btn primary" href="journal-submit.html">
-              <span data-lang="ru">Подать статью</span>
-              <span data-lang="en">Submit article</span>
-            </a>
-            <a class="journal-btn secondary" href="journal-issue.html">
-              <span data-lang="ru">Открыть текущий выпуск</span>
-              <span data-lang="en">Open current issue</span>
-            </a>
-            <a class="journal-btn secondary" href="#authors">
-              <span data-lang="ru">Требования для авторов</span>
-              <span data-lang="en">Author guide</span>
-            </a>
+          <div class="journal-home-hero-note">
+            <span data-lang="ru">Открытый доступ · RU / EN · Журнал института</span>
+            <span data-lang="en">Open access · RU / EN · Institute journal</span>
           </div>
         </div>
+      </div>
+    </section>
 
-        <aside class="journal-card journal-cover">
-          <div class="journal-cover-inner">
-            <div class="journal-cover-meta">
-              <span class="journal-pill">Volume 1</span>
-              <span class="journal-pill">Issue 1</span>
-              <span class="journal-pill">RU + EN</span>
-              <span class="journal-pill">Open access</span>
-            </div>
-            <div>
-              <div class="journal-kicker" style="color:#f2be63;">
-                <span data-lang="ru">Текущий выпуск</span>
-                <span data-lang="en">Current issue</span>
-              </div>
-              <h2 class="journal-title" style="font-size: clamp(32px, 4vw, 60px); margin-top: 8px;">
-                <span data-lang="ru">Наука, образование и исследования XXI века</span>
-                <span data-lang="en">Science, Education and Research in the 21st Century</span>
-              </h2>
-              <p class="journal-lead" style="margin-top: 14px; max-width: 42ch;">
-                <span data-lang="ru">Редакционный маршрут для авторов, рецензентов и читателей. Журнал строится как настоящий выпуск с обложкой, содержанием и открытыми переходами.</span>
-                <span data-lang="en">An editorial route for authors, reviewers, and readers. The journal is built as a real issue with a cover, table of contents, and open navigation.</span>
-              </p>
-            </div>
-            <div class="journal-card" style="padding: 18px; background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.18); box-shadow:none;">
-              <div class="journal-meta">
-                <small><span data-lang="ru">Статус выпуска</span><span data-lang="en">Issue status</span></small>
-                <strong style="color:#fff;">MVP ready</strong>
-              </div>
-              <div class="journal-divider" style="background: rgba(255,255,255,0.14);"></div>
-              <p style="color: rgba(255,255,255,0.86); margin-bottom: 0;">
-                <span data-lang="ru">Форма подачи, архив, редакционная коллегия и выпуск уже собраны в одном маршруте.</span>
-                <span data-lang="en">Submission, archive, editorial board, and issue are already assembled into one route.</span>
-              </p>
-            </div>
-          </div>
-        </aside>
-      </section>
-
-      <section class="journal-section" id="about">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">О журнале</span>
-          <span data-lang="en">About the journal</span>
-        </div>
-        <h2 class="journal-section-title">
-          <span data-lang="ru">Журнал показывает научную работу как понятный, живой и проверяемый маршрут.</span>
-          <span data-lang="en">The journal presents academic work as a clear, living, and verifiable route.</span>
-        </h2>
-        <p class="journal-section-lead">
-          <span data-lang="ru">Мы собрали редколлегию, принципы публикации, открытый доступ, шаблон статьи, архив и контактный маршрут так, чтобы автор сразу видел, как подать материал, куда он попадёт и как будет двигаться дальше.</span>
-          <span data-lang="en">We combined the editorial board, publication principles, open access, article template, archive, and contact route so authors can see where to submit, where materials go, and what happens next.</span>
-        </p>
-        <div class="journal-grid cols-3" style="margin-top: 18px;">
-          <article class="journal-card pad-24">
-            <span class="journal-chip">Open access</span>
-            <h3 class="journal-card-title" style="margin-top: 14px;">
-              <span data-lang="ru">Открытая публикация</span>
-              <span data-lang="en">Open publication</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Материалы журнала доступны через прозрачный маршрут, без технических барьеров и скрытых страниц.</span>
-              <span data-lang="en">Journal materials are available through a transparent route without technical barriers or hidden pages.</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <span class="journal-chip">Ethics</span>
-            <h3 class="journal-card-title" style="margin-top: 14px;">
-              <span data-lang="ru">Этика и ручная модерация</span>
-              <span data-lang="en">Ethics and manual moderation</span>
-            </h3>
-            <p>
-              <span data-lang="ru">В первой версии мы не прячем процесс: заявка проходит ручную проверку редакцией и получает понятный статус.</span>
-              <span data-lang="en">In version one we keep the process visible: submissions are manually reviewed and given a clear status.</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <span class="journal-chip">RU + EN</span>
-            <h3 class="journal-card-title" style="margin-top: 14px;">
-              <span data-lang="ru">Двуязычный интерфейс</span>
-              <span data-lang="en">Bilingual interface</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Заголовки, вкладки и ключевые подсказки уже доступны на русском и английском.</span>
-              <span data-lang="en">Headings, tabs, and key prompts are already available in Russian and English.</span>
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="journal-section" id="editorial">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Редколлегия</span>
-          <span data-lang="en">Editorial board</span>
-        </div>
-        <h2 class="journal-section-title">
-          <span data-lang="ru">Редколлегия собрана из уже существующих фигур института.</span>
-          <span data-lang="en">The editorial board is assembled from the institute's existing profiles.</span>
-        </h2>
-        <div class="journal-grid cols-3" style="margin-top: 18px;">
-          <article class="journal-card pad-24">
-            <div class="journal-meta">
-              <small><span data-lang="ru">Главный редактор</span><span data-lang="en">Editor-in-chief</span></small>
-              <strong>Кунцкова Татьяна Михайловна</strong>
-            </div>
-            <p style="margin-top: 14px;">
-              <span data-lang="ru">Координирует стратегию журнала, редакционный маршрут и выпуск материалов.</span>
-              <span data-lang="en">Coordinates the journal strategy, editorial route, and issue release.</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <div class="journal-meta">
-              <small><span data-lang="ru">Ответственный редактор</span><span data-lang="en">Managing editor</span></small>
-              <strong>Кунцов Михаил Иванович</strong>
-            </div>
-            <p style="margin-top: 14px;">
-              <span data-lang="ru">Следит за логикой выпуска, тематикой номера и связью журнала с исследованиями.</span>
-              <span data-lang="en">Oversees the issue logic, theme selection, and the journal's connection to research streams.</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <div class="journal-meta">
-              <small><span data-lang="ru">Редактор по публикациям</span><span data-lang="en">Publication editor</span></small>
-              <strong>Рублёв Александр Маркович</strong>
-            </div>
-            <p style="margin-top: 14px;">
-              <span data-lang="ru">Ведёт публикационный маршрут, статусы подач и связку с цифровой платформой.</span>
-              <span data-lang="en">Handles the publication route, submission statuses, and the platform integration.</span>
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="journal-section" id="issue">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Текущий выпуск</span>
-          <span data-lang="en">Current issue</span>
-        </div>
-        <div class="journal-grid cols-2" style="margin-top: 18px; align-items: start;">
-          <aside class="journal-issue-cover">
-            <div class="journal-cover-stack">
-              <div class="journal-pill">Volume 1 · Issue 1</div>
-              <div class="issue-number">2026</div>
-              <h2 class="issue-title">
-                <span data-lang="ru">От лекции к выпуску: маршрут научной публикации</span>
-                <span data-lang="en">From lecture to issue: the scholarly publication route</span>
-              </h2>
-              <p class="issue-summary">
-                <span data-lang="ru">Первый выпуск показывает, как из лекций, кейсов и редакционных заметок получается готовый журнал.</span>
-                <span data-lang="en">The first issue shows how lectures, cases, and editorial notes become a finished journal.</span>
-              </p>
-            </div>
-            <div class="journal-actions-row">
-            <a class="journal-btn secondary" href="journal-issue.html">
-                <span data-lang="ru">Открыть выпуск</span>
-                <span data-lang="en">Open issue</span>
+    <section class="journal-home-feature">
+      <div class="journal-home-shell">
+        <div class="journal-home-feature-grid">
+          <article class="journal-home-editor-card" id="editorial">
+            <img class="journal-home-portrait" src="assets/images/tatyana-munn/tatyana-munn-portrait-color.jpg" alt="Редактор журнала МИИИИПС"/>
+            <div class="journal-home-editor-copy">
+              <a class="journal-home-editor-name" href="journal-about.html">
+                <span data-lang="ru">Татьяна Мунн</span>
+                <span data-lang="en">Tatyana Munn</span>
               </a>
-              <a class="journal-btn primary" href="journal-submit.html">
-                <span data-lang="ru">Подать статью</span>
-                <span data-lang="en">Submit article</span>
-              </a>
+              <div class="journal-home-editor-title">
+                <span data-lang="ru">Главный редактор журнала, руководитель редакционного маршрута и публикационной политики МИИИИПС.</span>
+                <span data-lang="en">Editor-in-chief, responsible for the journal route and publication policy of MIIIIPS.</span>
+              </div>
+              <div class="journal-home-editor-role">
+                <span data-lang="ru">Главный редактор</span>
+                <span data-lang="en">Editor-in-chief</span>
+              </div>
+            </div>
+          </article>
+
+          <aside class="journal-home-info-card">
+            <div class="journal-home-info-copy">
+              <div class="journal-home-info-label">
+                <span data-lang="ru">Для информации:</span>
+                <span data-lang="en">For information:</span>
+              </div>
+              <a class="journal-home-info-phone" href="mailto:moonn.official@yandex.ru">moonn.official@yandex.ru</a>
+              <div class="journal-home-info-actions">
+                <a class="journal-btn secondary" href="journal-contacts.html">
+                  <span data-lang="ru">Редакционные контакты</span>
+                  <span data-lang="en">Editorial contacts</span>
+                </a>
+                <a class="journal-btn secondary" href="journal-submit.html">
+                  <span data-lang="ru">Информационное письмо</span>
+                  <span data-lang="en">Information letter</span>
+                </a>
+              </div>
             </div>
           </aside>
-          <div class="journal-card pad-28">
-            <div class="journal-meta">
-              <small><span data-lang="ru">Содержание номера</span><span data-lang="en">Table of contents</span></small>
-              <strong>4 публикации</strong>
-            </div>
-            <div class="journal-divider"></div>
-            <div class="journal-issue-list">
-              <div class="item">
-                <span class="journal-chip">Article 01</span>
-                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
-                  <span data-lang="ru">ИИ, редактор и автор: как сохранить голос статьи</span>
-                  <span data-lang="en">AI, editor, and author: preserving the article's voice</span>
-                </h3>
-                <p>Редакционный разбор про ответственность автора, прозрачность правок и публикационный маршрут.</p>
-              </div>
-              <div class="item">
-                <span class="journal-chip">Article 02</span>
-                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
-                  <span data-lang="ru">Образовательный маршрут как часть научной публикации</span>
-                  <span data-lang="en">Education routes as part of scholarly publishing</span>
-                </h3>
-                <p>Связка курса, лекции и журнальной статьи в одном публикационном контуре.</p>
-              </div>
-              <div class="item">
-                <span class="journal-chip">Article 03</span>
-                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
-                  <span data-lang="ru">Психология, спорт и прикладные кейсы МИИИИПС</span>
-                  <span data-lang="en">Psychology, sport, and applied MIIIIPS cases</span>
-                </h3>
-                <p>Как научные темы превращаются в реальные материалы для журнала и партнёрских проектов.</p>
-              </div>
-              <div class="item">
-                <span class="journal-chip">Article 04</span>
-                <h3 class="journal-card-title" style="margin-top: 10px; font-size: 28px;">
-                  <span data-lang="ru">Публикация как маршрут: от заявки до архива</span>
-                  <span data-lang="en">Publishing as a route: from submission to archive</span>
-                </h3>
-                <p>Структура статьи, чеклист для автора и место номера в архиве журнала.</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="journal-section" id="authors">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Авторам</span>
-          <span data-lang="en">For authors</span>
-        </div>
-        <div class="journal-grid cols-2" style="margin-top: 18px; align-items: start;">
-          <article class="journal-card pad-28">
-            <h2 class="journal-section-title" style="font-size: clamp(28px, 3vw, 42px); margin-bottom: 8px;">
-              <span data-lang="ru">Что важно для подачи</span>
-              <span data-lang="en">What matters for submission</span>
-            </h2>
-            <ul class="journal-list">
-              <li>название статьи, аннотация, ключевые слова и контакт автора;</li>
-              <li>прикреплённый файл в формате PDF, DOCX, DOC, TXT или MD;</li>
-              <li>указание языка статьи и тематического раздела;</li>
-              <li>короткое сопроводительное письмо с контекстом работы.</li>
-            </ul>
-            <div class="journal-actions-row" style="margin-top: 18px;">
-              <a class="journal-btn primary" href="journal-submit.html">
-                <span data-lang="ru">Подать статью</span>
-                <span data-lang="en">Submit article</span>
-              </a>
-              <a class="journal-btn secondary" href="journal-authors.html">
-                <span data-lang="ru">Полная инструкция</span>
-                <span data-lang="en">Full guide</span>
-              </a>
-            </div>
-          </article>
-          <article class="journal-card pad-28">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Редакционный шаблон</span>
-              <span data-lang="en">Editorial template</span>
-            </h3>
-            <div class="journal-kv" style="margin-top: 14px;">
-              <div class="row"><span>1.</span><strong>Название и авторы</strong></div>
-              <div class="row"><span>2.</span><strong>Аннотация и keywords</strong></div>
-              <div class="row"><span>3.</span><strong>Введение, методы, результаты</strong></div>
-              <div class="row"><span>4.</span><strong>Выводы и список литературы</strong></div>
-            </div>
-            <p style="margin-top: 14px;">
-              <span data-lang="ru">Это базовый каркас статьи: он понятен авторам, редакции и читателям журнала.</span>
-              <span data-lang="en">This is the base article frame: clear for authors, editors, and readers.</span>
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="journal-section" id="reviewers">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Рецензентам</span>
-          <span data-lang="en">For reviewers</span>
-        </div>
-        <div class="journal-grid cols-3" style="margin-top: 18px;">
-          <article class="journal-card pad-24">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Что проверяет рецензент</span>
-              <span data-lang="en">What the reviewer checks</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Логику текста, научную добросовестность, аргументацию, соответствие теме и пригодность к выпуску.</span>
-              <span data-lang="en">Logic, scholarly integrity, argumentation, relevance, and readiness for publication.</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Как устроен маршрут</span>
-              <span data-lang="en">How the route works</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Статья получает статусы: поступила, в проверке, требует доработки, готова к выпуску.</span>
-              <span data-lang="en">The article passes through statuses: received, under review, needs revision, ready for release.</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Инструкция</span>
-              <span data-lang="en">Instruction</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Мы сохраняем ручную редакционную проверку на первом этапе и не подменяем её автоматическим решением.</span>
-              <span data-lang="en">We keep manual editorial review in version one and do not replace it with automation.</span>
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="journal-section" id="archive">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Архив и индексирование</span>
-          <span data-lang="en">Archive and indexing</span>
-        </div>
-        <div class="journal-grid cols-2" style="margin-top: 18px; align-items:start;">
-          <article class="journal-card pad-28">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Выпуски журнала</span>
-              <span data-lang="en">Journal issues</span>
-            </h3>
-            <div class="journal-issue-list" style="margin-top: 14px;">
-              <div class="item">
-                <span class="journal-chip">2026 / 1</span>
-                <p style="margin-top: 10px; margin-bottom: 10px;">
-                  <strong style="color: var(--journal-ink);">Наука, образование и исследования XXI века</strong>
-                </p>
-                <div class="journal-actions-row">
-          <a class="journal-btn secondary" href="journal-issue.html">Открыть выпуск</a>
-                  <a class="journal-btn secondary" href="journal-archive.html">Архив</a>
-                </div>
-              </div>
-              <div class="item">
-                <span class="journal-chip">2026 / 2</span>
-                <p style="margin-top: 10px;">Следующий выпуск готовится в редакционном и контентном контуре.</p>
-              </div>
-            </div>
-          </article>
-          <article class="journal-card pad-28">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Индексирование и DOI</span>
-              <span data-lang="en">Indexing and DOI</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Для MVP мы показываем журнал как готовую публикационную оболочку, в которой можно подключать каталоги, индексирование и DOI по мере готовности выпуска.</span>
-              <span data-lang="en">For the MVP we show the journal as a ready publishing shell, with catalogs, indexing, and DOI connected as the issue matures.</span>
-            </p>
-            <div class="journal-grid cols-2" style="margin-top: 14px;">
-              <div class="journal-card pad-24" style="box-shadow:none;">
-                <small style="display:block; color:#60716b; text-transform:uppercase; letter-spacing:.08em; font:700 11px/1.2 Public Sans,sans-serif;">DOI</small>
-                <strong style="font:700 28px/1.05 Newsreader,serif; color:var(--journal-ink); display:block; margin-top:6px;">готовится</strong>
-              </div>
-              <div class="journal-card pad-24" style="box-shadow:none;">
-                <small style="display:block; color:#60716b; text-transform:uppercase; letter-spacing:.08em; font:700 11px/1.2 Public Sans,sans-serif;">Open access</small>
-                <strong style="font:700 28px/1.05 Newsreader,serif; color:var(--journal-ink); display:block; margin-top:6px;">подключён</strong>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="journal-section" id="contacts">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Контакты</span>
-          <span data-lang="en">Contacts</span>
-        </div>
-        <div class="journal-grid cols-3" style="margin-top: 18px;">
-          <article class="journal-card pad-24">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Редакционная почта</span>
-              <span data-lang="en">Editorial email</span>
-            </h3>
-            <p>rublevalexanderus@gmail.com</p>
-          </article>
-          <article class="journal-card pad-24">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Ответственные лица</span>
-              <span data-lang="en">Responsible contacts</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Кунцкова Татьяна Михайловна · Кунцов Михаил Иванович</span>
-              <span data-lang="en">Tatyana Mikhaylovna Kuntskova · Mikhail Ivanovich Kuntsov</span>
-            </p>
-          </article>
-          <article class="journal-card pad-24">
-            <h3 class="journal-card-title">
-              <span data-lang="ru">Следующий шаг</span>
-              <span data-lang="en">Next step</span>
-            </h3>
-            <p>
-              <span data-lang="ru">Подать статью, дождаться подтверждения и получить статус редакционного маршрута.</span>
-              <span data-lang="en">Submit an article, wait for confirmation, and receive the editorial route status.</span>
-            </p>
-          </article>
-        </div>
-        <div class="journal-success" style="margin-top: 18px;">
-          <h3 class="journal-card-title">
-            <span data-lang="ru">Журнал уже можно показывать как готовый публичный продукт.</span>
-            <span data-lang="en">The journal can already be shown as a ready public product.</span>
-          </h3>
+    <section class="journal-home-bodycopy">
+      <div class="journal-home-shell">
+        <div class="journal-home-summary">
           <p>
-            <span data-lang="ru">Открываются вкладки, текущий выпуск, архив, инструкции для авторов и форма подачи. Дальше можно усиливать рецензирование, DOI и редакционные статусы без смены структуры.</span>
-            <span data-lang="en">The tabs, current issue, archive, author guide, and submission form are already live. Next we can strengthen review, DOI, and editorial states without changing the structure.</span>
+            <span data-lang="ru">Журнал МИИИИПС публикует статьи преподавателей, исследователей, авторов практических кейсов и представителей смежных областей. Мы собираем материалы так, чтобы читатель видел журнал как настоящий выпуск: с редактором, контактным маршрутом, архивом и подачей статей.</span>
+            <span data-lang="en">The MIIIIPS journal publishes articles by teachers, researchers, case authors, and adjacent practitioners. We present the journal as a real issue: with an editor, contact route, archive, and article submission.</span>
           </p>
-          <div class="journal-actions-row">
-            <a class="journal-btn primary" href="journal-submit.html">
-              <span data-lang="ru">Подать статью</span>
-              <span data-lang="en">Submit article</span>
-            </a>
-            <a class="journal-btn secondary" href="journal-about.html">
-              <span data-lang="ru">О журнале</span>
-              <span data-lang="en">About the journal</span>
-            </a>
+          <p>
+            <span data-lang="ru">Формат ориентирован на открытый доступ, двуязычную навигацию и аккуратную журнальную подачу без лишнего технического текста.</span>
+            <span data-lang="en">The format focuses on open access, bilingual navigation, and a clean journal presentation without unnecessary technical text.</span>
+          </p>
+          <p>
+            <span data-lang="ru">Учредитель журнала: АНО «Международный институт исследований искусственного интеллекта, психологии и спорта». Выпуски, архив, редакция и форма подачи уже доступны в навигации.</span>
+            <span data-lang="en">Journal founder: ANO “International Institute of Artificial Intelligence, Psychology and Sport Research”. Issues, archive, editorial board, and submission form are already available in the navigation.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal-home-databases">
+      <div class="journal-home-shell">
+        <div class="journal-home-database-title">
+          <span data-lang="ru">Научная база данных</span>
+          <span data-lang="en">Scientific databases</span>
+        </div>
+      </div>
+      <div class="journal-home-database-strip" aria-label="Научные базы данных журнала">
+        <div class="journal-home-shell">
+          <div class="journal-home-logos">
+            <div class="journal-home-logo"><strong>eLIBRARY</strong><span>Library</span></div>
+            <div class="journal-home-logo"><strong>Google Scholar</strong><span>Index</span></div>
+            <div class="journal-home-logo"><strong>SLIB.UZ</strong><span>Scientific library</span></div>
+            <div class="journal-home-logo"><strong>Zenodo</strong><span>Archive</span></div>
+            <div class="journal-home-logo"><strong>DOI</strong><span>Identifier</span></div>
+            <div class="journal-home-logo"><strong>OpenAlex</strong><span>Research graph</span></div>
+            <div class="journal-home-logo"><strong>Crossref</strong><span>Metadata</span></div>
+            <div class="journal-home-logo"><strong>ОРЦИД</strong><span>Author ID</span></div>
+            <div class="journal-home-logo"><strong>eLIBRARY</strong><span>Library</span></div>
+            <div class="journal-home-logo"><strong>Google Scholar</strong><span>Index</span></div>
+            <div class="journal-home-logo"><strong>SLIB.UZ</strong><span>Scientific library</span></div>
+            <div class="journal-home-logo"><strong>Zenodo</strong><span>Archive</span></div>
+            <div class="journal-home-logo"><strong>DOI</strong><span>Identifier</span></div>
+            <div class="journal-home-logo"><strong>OpenAlex</strong><span>Research graph</span></div>
+            <div class="journal-home-logo"><strong>Crossref</strong><span>Metadata</span></div>
+            <div class="journal-home-logo"><strong>ОРЦИД</strong><span>Author ID</span></div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="journal-footer">
-    <div class="journal-shell">
-      <div class="journal-footer-grid">
-        <a class="journal-footer-card" href="journal-about.html">
-          <small>About / О журнале</small>
-          <strong>Профиль и миссия</strong>
-        </a>
-        <a class="journal-footer-card" href="journal-authors.html">
-          <small>Authors / Авторам</small>
-          <strong>Подача и шаблон</strong>
-        </a>
-        <a class="journal-footer-card" href="journal-issue.html">
-          <small>Issue 1 / Выпуск 1</small>
-          <strong>Текущий номер</strong>
-        </a>
-        <a class="journal-footer-card" href="journal-submit.html">
-          <small>Submit / Подача</small>
-          <strong>Отправить статью</strong>
-        </a>
+  <footer class="journal-home-footer">
+    <div class="journal-home-shell journal-home-footer-inner">
+      <div class="journal-home-footer-copy">
+        <strong>© Журнал МИИИИПС</strong><br/>
+        <span data-lang="ru">При использовании материалов указывайте авторов, название журнала и ссылку на страницу публикации.</span>
+        <span data-lang="en">When reusing materials, cite the authors, journal title, and the publication page URL.</span>
       </div>
-      <p style="margin-top: 22px;">
-        <span data-lang="ru">© 2026 МИИИИПС · Журнал как часть публичной платформы института.</span>
-        <span data-lang="en">© 2026 MIIIIPS · Journal as part of the institute's public platform.</span>
-      </p>
+      <div class="journal-home-footer-links">
+        <a href="journal-about.html"><span data-lang="ru">О журнале</span><span data-lang="en">About</span></a>
+        <a href="journal-authors.html"><span data-lang="ru">Авторам</span><span data-lang="en">Authors</span></a>
+        <a href="journal-issue.html"><span data-lang="ru">Выпуск</span><span data-lang="en">Issue</span></a>
+        <a href="journal-submit.html"><span data-lang="ru">Подать статью</span><span data-lang="en">Submit</span></a>
+        <a href="journal-contacts.html"><span data-lang="ru">Контакты</span><span data-lang="en">Contacts</span></a>
+      </div>
     </div>
   </footer>
 </body>

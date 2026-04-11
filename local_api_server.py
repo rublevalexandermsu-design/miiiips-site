@@ -64,6 +64,33 @@ SITE_REQUEST_COLUMNS = [
 ]
 SITE_REQUEST_HEADERS = [label for _, label in SITE_REQUEST_COLUMNS]
 
+JOURNAL_REQUEST_COLUMNS = [
+    ('created_at', 'Дата заявки'),
+    ('form_type', 'Тип заявки'),
+    ('request_kind', 'Сценарий'),
+    ('source_page', 'Страница'),
+    ('source_page_url', 'URL страницы'),
+    ('journal_title', 'Журнал'),
+    ('issue_id', 'Выпуск ID'),
+    ('issue_label', 'Выпуск'),
+    ('author_name', 'Автор'),
+    ('email', 'Email'),
+    ('contact', 'Контакт'),
+    ('organization', 'Организация'),
+    ('article_title', 'Название статьи'),
+    ('abstract', 'Аннотация'),
+    ('keywords', 'Ключевые слова'),
+    ('language', 'Язык'),
+    ('file_name', 'Файл'),
+    ('file_type', 'Тип файла'),
+    ('file_size', 'Размер файла'),
+    ('file_path', 'Путь к файлу'),
+    ('captcha', 'Антиспам'),
+    ('message', 'Сопроводительное письмо'),
+    ('payload_json', 'Payload JSON'),
+]
+JOURNAL_REQUEST_HEADERS = [label for _, label in JOURNAL_REQUEST_COLUMNS]
+
 
 def load_json(path: Path, fallback):
     if path.exists():
@@ -83,6 +110,7 @@ def get_config():
     cfg.setdefault('site_root', str(SITE_ROOT))
     cfg.setdefault('local_api_base', f'http://{HOST}:{PORT}')
     cfg.setdefault('sheet_name', 'Заявки с сайта')
+    cfg.setdefault('journal_sheet_name', 'Заявки журнала')
     cfg.setdefault('telegram_alert_chat_id', 0)
     cfg.setdefault('telegram_alert_thread_id', 2342)
     cfg.setdefault('telegram_alert_env_path', str((SITE_ROOT.parent.parent / 'projects' / 'telegram_materials_bot' / '.env').resolve()))
@@ -93,6 +121,43 @@ def append_jsonl(path: Path, payload):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('a', encoding='utf-8') as fh:
         fh.write(json.dumps(payload, ensure_ascii=False) + '\n')
+
+
+def sanitize_filename(value: str) -> str:
+    raw = Path(str(value or '')).name
+    if not raw:
+        raw = 'article'
+    cleaned = ''.join(char if (char.isalnum() or char in {'-', '_', '.'}) else '_' for char in raw).strip('._')
+    return cleaned or 'article'
+
+
+def save_journal_upload(config, payload):
+    file_info = payload.get('article_file')
+    if not isinstance(file_info, dict):
+        return {}
+    data_url = str(file_info.get('dataUrl') or file_info.get('data_url') or '').strip()
+    if not data_url or ',' not in data_url:
+        return {}
+    meta, encoded = data_url.split(',', 1)
+    if ';base64' not in meta:
+        return {}
+    try:
+        binary = base64.b64decode(encoded)
+    except Exception:
+        return {}
+    runtime_dir = Path(str(config.get('runtime_dir') or (SITE_ROOT / 'runtime')))
+    uploads_dir = runtime_dir / 'journal-submissions'
+    uploads_dir.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
+    filename = sanitize_filename(file_info.get('name') or 'article')
+    target = uploads_dir / f'{timestamp}-{filename}'
+    target.write_bytes(binary)
+    return {
+        'path': str(target),
+        'name': str(file_info.get('name') or filename),
+        'type': str(file_info.get('type') or 'application/octet-stream'),
+        'size': int(file_info.get('size') or len(binary)),
+    }
 
 
 def load_google_credentials(credentials_path: str, token_path: str, scopes: list[str]):
@@ -135,9 +200,23 @@ def get_sheets_service(config):
 
 
 def sheet_name_for_submission(config, submission):
-    if submission.get('form_type') in {'event_video_request', 'event_speaker_invite'}:
+    form_type = str((submission or {}).get('form_type') or '').strip()
+    if form_type == 'journal_submission':
+        journal_cfg = config.get('journal') if isinstance(config.get('journal'), dict) else {}
+        return str(
+            config.get('journal_sheet_name')
+            or journal_cfg.get('submissionSheetName')
+            or 'Заявки журнала'
+        )
+    if form_type in {'event_video_request', 'event_speaker_invite'}:
         return str(config.get('site_request_sheet_name') or config.get('sheet_name') or 'Заявки с сайта')
     return str(config.get('sheet_name') or 'Заявки с сайта')
+
+
+def columns_for_submission(submission):
+    if str((submission or {}).get('form_type') or '').strip() == 'journal_submission':
+        return JOURNAL_REQUEST_COLUMNS
+    return SITE_REQUEST_COLUMNS
 
 
 def ensure_sheet_headers(sheets, spreadsheet_id: str, sheet_name: str, headers: list[str]):
@@ -164,7 +243,7 @@ def ensure_sheet_headers(sheets, spreadsheet_id: str, sheet_name: str, headers: 
     ).execute()
 
 
-def ensure_sheet(config):
+def ensure_sheet(config, submission=None):
     try:
         sheets = get_sheets_service(config)
     except Exception:
@@ -174,7 +253,7 @@ def ensure_sheet(config):
     state = load_json(STATE_FILE, {})
     spreadsheet_id = state.get('spreadsheet_id')
     spreadsheet_title = config.get('spreadsheet_title', 'МИИИИПС — Заявки сайта')
-    sheet_name = config.get('sheet_name', 'Заявки с сайта')
+    sheet_name = sheet_name_for_submission(config, submission or {'form_type': ''})
     if not spreadsheet_id:
         spreadsheet = sheets.spreadsheets().create(body={
             'properties': {'title': spreadsheet_title},
@@ -183,7 +262,8 @@ def ensure_sheet(config):
         spreadsheet_id = spreadsheet['spreadsheetId']
         state['spreadsheet_id'] = spreadsheet_id
         save_json(STATE_FILE, state)
-    ensure_sheet_headers(sheets, spreadsheet_id, sheet_name, SITE_REQUEST_HEADERS)
+    headers = JOURNAL_REQUEST_HEADERS if str((submission or {}).get('form_type') or '').strip() == 'journal_submission' else SITE_REQUEST_HEADERS
+    ensure_sheet_headers(sheets, spreadsheet_id, sheet_name, headers)
     return {
         'mode': 'ready',
         'spreadsheet_id': spreadsheet_id,
@@ -194,13 +274,14 @@ def ensure_sheet(config):
 
 
 def append_sheet_row(config, submission):
-    sheet_state = ensure_sheet(config)
+    sheet_state = ensure_sheet(config, submission)
     if sheet_state.get('mode') != 'ready':
         return sheet_state
     sheets = sheet_state['service']
     sheet_name = sheet_name_for_submission(config, submission)
-    ensure_sheet_headers(sheets, sheet_state['spreadsheet_id'], sheet_name, SITE_REQUEST_HEADERS)
-    row = [[str(submission.get(key, '')) for key, _ in SITE_REQUEST_COLUMNS]]
+    columns = columns_for_submission(submission)
+    ensure_sheet_headers(sheets, sheet_state['spreadsheet_id'], sheet_name, [label for _, label in columns])
+    row = [[str(submission.get(key, '')) for key, _ in columns]]
     sheets.spreadsheets().values().append(
         spreadsheetId=sheet_state['spreadsheet_id'],
         range=f"{sheet_name}!A1",
@@ -220,6 +301,7 @@ def form_type_label(form_type: str) -> str:
         'event_signup': 'Заявка на участие в событии',
         'course_enrollment': 'Заявка на программу',
         'publication_support': 'Публикационный запрос',
+        'journal_submission': 'Заявка в журнал',
         'grant_participation': 'Грантовая заявка',
         'newsletter_subscription': 'Подписка',
     }
@@ -227,6 +309,7 @@ def form_type_label(form_type: str) -> str:
 
 
 def make_email_body(submission, target_email):
+    article_file = submission.get('article_file') if isinstance(submission.get('article_file'), dict) else {}
     lines = [
         'Новая заявка с сайта МИИИИПС',
         '',
@@ -245,13 +328,31 @@ def make_email_body(submission, target_email):
         f"Организация: {submission.get('organization', '')}",
         f"Интерес: {submission.get('interest', '')}",
         f"Оплата / следующий шаг: {submission.get('payment_stage', '')}",
+    ]
+    if submission.get('journal_title'):
+        lines.append(f"Журнал: {submission.get('journal_title')}")
+    if submission.get('issue_label'):
+        lines.append(f"Выпуск: {submission.get('issue_label')}")
+    if submission.get('author_name'):
+        lines.append(f"Автор: {submission.get('author_name')}")
+    if submission.get('article_title'):
+        lines.append(f"Название статьи: {submission.get('article_title')}")
+    if submission.get('abstract'):
+        lines.append(f"Аннотация: {submission.get('abstract')[:400]}")
+    if submission.get('keywords'):
+        lines.append(f"Ключевые слова: {submission.get('keywords')}")
+    if submission.get('language'):
+        lines.append(f"Язык: {submission.get('language')}")
+    if article_file.get('name'):
+        lines.append(f"Файл: {article_file.get('name')} ({article_file.get('type', '')}, {article_file.get('size', '')} байт)")
+    lines.extend([
         '',
         'Сообщение:',
         submission.get('message', ''),
         '',
         'JSON payload:',
         json.dumps(submission.get('payload', {}), ensure_ascii=False, indent=2),
-    ]
+    ])
     return '\n'.join(lines)
 
 
@@ -275,7 +376,7 @@ def send_or_draft_email(config, submission):
         return {'mode': 'unavailable'}
     target_email = (config.get('target_email') or profile_email or '').strip()
     event_title = str(submission.get('event_title') or '').strip()
-    subject_tail = event_title or submission.get('form_type', 'site-form')
+    subject_tail = str(submission.get('article_title') or event_title or submission.get('issue_label') or submission.get('form_type', 'site-form')).strip()
     subject = f"[МИИИИПС] Новая заявка: {subject_tail}"
     body = make_email_body(submission, target_email)
     message = make_gmail_message(profile_email, target_email, subject, body)
@@ -320,6 +421,16 @@ def make_telegram_text(submission, sheet_result, email_result):
         lines.append(f"Имя: {submission.get('name')}")
     if submission.get('organization'):
         lines.append(f"Организация: {submission.get('organization')}")
+    if submission.get('journal_title'):
+        lines.append(f"Журнал: {submission.get('journal_title')}")
+    if submission.get('issue_label'):
+        lines.append(f"Выпуск: {submission.get('issue_label')}")
+    if submission.get('author_name'):
+        lines.append(f"Автор: {submission.get('author_name')}")
+    if submission.get('article_title'):
+        lines.append(f"Название статьи: {submission.get('article_title')}")
+    if submission.get('language'):
+        lines.append(f"Язык: {submission.get('language')}")
     if submission.get('email'):
         lines.append(f"Email: {submission.get('email')}")
     if submission.get('phone'):
@@ -330,6 +441,9 @@ def make_telegram_text(submission, sheet_result, email_result):
         lines.append(f"Интерес: {submission.get('interest')}")
     if submission.get('message'):
         lines.extend(['', 'Сообщение:', str(submission.get('message'))[:900]])
+    article_file = submission.get('article_file') if isinstance(submission.get('article_file'), dict) else {}
+    if article_file.get('name'):
+        lines.append(f"Файл: {article_file.get('name')} ({article_file.get('type', '')}, {article_file.get('size', '')} байт)")
     if sheet_result.get('url'):
         lines.extend(['', f"Google Sheet: {sheet_result.get('url')}"])
     if email_result.get('to'):
@@ -406,26 +520,50 @@ class PrototypeHandler(SimpleHTTPRequestHandler):
             payload = json.loads(raw.decode('utf-8') or '{}')
         else:
             payload = {k: v[0] if isinstance(v, list) and len(v) == 1 else v for k, v in parse_qs(raw.decode('utf-8')).items()}
+        form_type = payload.get('formType') or payload.get('form_type') or 'generic_form'
+        if str(form_type).strip() == 'journal_submission':
+            uploaded = save_journal_upload(self.config, payload)
+            if uploaded:
+                payload.setdefault('article_file', {})
+                if isinstance(payload.get('article_file'), dict):
+                    payload['article_file']['saved_path'] = uploaded.get('path', '')
+                    payload['article_file']['saved_name'] = uploaded.get('name', '')
+        safe_payload = json.loads(json.dumps(payload, ensure_ascii=False))
+        if isinstance(safe_payload.get('article_file'), dict) and safe_payload['article_file'].get('dataUrl'):
+            safe_payload['article_file']['dataUrl'] = '[omitted]'
         submission = {
             'created_at': datetime.now().isoformat(timespec='seconds'),
-            'form_type': payload.get('formType') or payload.get('form_type') or 'generic_form',
+            'form_type': form_type,
             'source_page': payload.get('sourcePage') or payload.get('source_page') or self.headers.get('Referer', ''),
             'source_page_url': payload.get('sourcePageUrl') or payload.get('source_page_url') or self.headers.get('Referer', ''),
             'event_title': payload.get('event_title') or payload.get('eventTitle') or '',
             'event_date': payload.get('event_date') or payload.get('eventDate') or '',
             'event_url': payload.get('event_url') or payload.get('eventUrl') or '',
-            'request_kind': form_type_label(payload.get('formType') or payload.get('form_type') or 'generic_form'),
+            'request_kind': payload.get('request_kind') or payload.get('requestKind') or form_type_label(form_type),
+            'journal_title': payload.get('journal_title') or payload.get('journalTitle') or '',
+            'issue_id': payload.get('issue_id') or payload.get('issueId') or payload.get('issue') or '',
+            'issue_label': payload.get('issue_label') or payload.get('issueLabel') or '',
+            'author_name': payload.get('author_name') or payload.get('authorName') or payload.get('name') or '',
             'role': payload.get('role', ''),
-            'name': payload.get('name', ''),
+            'name': payload.get('name') or payload.get('author_name') or payload.get('authorName') or '',
             'email': payload.get('email', ''),
             'phone': payload.get('phone', ''),
-            'contact': payload.get('contact', ''),
-            'organization': payload.get('organization', ''),
+            'contact': payload.get('contact') or payload.get('phone') or '',
+            'organization': payload.get('organization') or payload.get('affiliation') or '',
             'interest': payload.get('interest', ''),
+            'article_title': payload.get('article_title') or payload.get('articleTitle') or '',
+            'abstract': payload.get('abstract') or '',
+            'keywords': payload.get('keywords') or '',
+            'language': payload.get('language') or '',
+            'file_name': (payload.get('article_file') or {}).get('name', '') if isinstance(payload.get('article_file'), dict) else '',
+            'file_type': (payload.get('article_file') or {}).get('type', '') if isinstance(payload.get('article_file'), dict) else '',
+            'file_size': (payload.get('article_file') or {}).get('size', '') if isinstance(payload.get('article_file'), dict) else '',
+            'file_path': (payload.get('article_file') or {}).get('saved_path', '') if isinstance(payload.get('article_file'), dict) else '',
+            'captcha': payload.get('captcha') or '',
             'message': payload.get('message', ''),
             'payment_stage': payload.get('payment_stage') or payload.get('paymentStage') or 'Ожидает ручного follow-up',
-            'payload': payload,
-            'payload_json': json.dumps(payload, ensure_ascii=False),
+            'payload': safe_payload,
+            'payload_json': json.dumps(safe_payload, ensure_ascii=False),
         }
         append_jsonl(SUBMISSIONS_FILE, submission)
         sheet_result = append_sheet_row(self.config, submission)

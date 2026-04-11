@@ -6,6 +6,7 @@
   "sheets_token": "C:\\\\пайто н тесты\\\\курсэмоциональный интеллект\\\\token_sheets.json",
   "spreadsheet_title": "МИИИИПС — Заявки сайта",
   "sheet_name": "Заявки",
+  "journal_sheet_name": "Заявки журнала",
   "local_api_base": "http://127.0.0.1:3007",
   "gemini_api_key": "",
   "gemini_base_url": "https://generativelanguage.googleapis.com/v1beta",

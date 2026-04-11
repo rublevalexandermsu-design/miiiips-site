@@ -1,7 +1,7 @@
 (function () {
   const INTEGRATIONS_PATH = 'assets/data/site-integrations.json';
   const REGISTRY_PATH = 'assets/data/publication-registry.json';
-  const DEFAULT_MAIL_FALLBACK = 'mailto:rublevalexanderus@gmail.com';
+  const DEFAULT_MAIL_FALLBACK = 'mailto:moonn.official@yandex.ru';
   const MAX_FILE_SIZE = 8 * 1024 * 1024;
   const FALLBACK_ISSUES = [
     {
