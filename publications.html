@@ -6,6 +6,25 @@
   <title>Журнал МИИИИПС | Наука, образование и исследования XXI века</title>
   <meta name="description" content="Журнал МИИИИПС — публикационный маршрут института с выпуском, архивом, редакционной коллегией, авторами и формой подачи статьи."/>
   <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="canonical" href="journal.html"/>
+  <script>
+    // Legacy entrypoint: keep old links working but route to the canonical journal home.
+    // Preserves query + hash (e.g. #editorial).
+    (function () {
+      try {
+        var url = new URL(location.href);
+        if (url.searchParams.get('noRedirect') === '1') return;
+        var target = new URL('journal.html', url);
+        target.search = url.search;
+        target.hash = url.hash;
+        if (location.pathname && location.pathname.endsWith('/publications.html')) {
+          location.replace(target.toString());
+        }
+      } catch (e) {
+        // ignore
+      }
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>

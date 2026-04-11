@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Подать статью | Журнал МИИИИПС</title>
-  <meta name="description" content="Рабочая форма подачи статьи в журнал МИИИИПС с выбором выпуска, файлом и антиспам-проверкой."/>
+  <meta name="description" content="Форма подачи статьи в журнал МИИИИПС. RU/EN. Загрузка файла, контакты, тематика, сопроводительное письмо."/>
   <meta name="x-local-prototype" content="clickable-site-v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -14,6 +14,7 @@
   <script defer src="assets/js/journal-submit.js"></script>
   <script defer src="prototype-enhancements.js"></script>
   <script defer src="miiiips-live-layer.js"></script>
+  <link rel="canonical" href="journal-submit.html"/>
 </head>
 <body class="journal-body" data-lang="ru">
   <header class="journal-topbar">
@@ -27,29 +28,30 @@
             <span data-lang="en">Submit article</span>
           </div>
           <div class="journal-brand-subtitle">
-            <span data-lang="ru">Редакция · Выпуск · Open access</span>
-            <span data-lang="en">Editorial route · Issue · Open access</span>
+            <span data-lang="ru">Файл · Контакты · Тематика</span>
+            <span data-lang="en">File · Contacts · Topic</span>
           </div>
         </div>
       </a>
       <nav class="journal-nav" aria-label="Вкладки журнала">
-        <a href="journal.html">Главная</a>
-        <a href="journal-about.html">О журнале</a>
-        <a href="journal-authors.html">Авторам</a>
-        <a href="journal-reviewers.html">Рецензентам</a>
-        <a href="journal-issue.html">Текущий выпуск</a>
-        <a href="journal-archive.html">Архив</a>
-        <a class="is-active" href="journal-submit.html">Подать статью</a>
-        <a href="journal-contacts.html">Контакты</a>
+        <a href="journal.html"><span data-lang="ru">Главная</span><span data-lang="en">Home</span></a>
+        <a href="journal-about.html"><span data-lang="ru">О журнале</span><span data-lang="en">About</span></a>
+        <a href="journal.html#editorial"><span data-lang="ru">Редколлегия</span><span data-lang="en">Board</span></a>
+        <a href="journal-authors.html"><span data-lang="ru">Авторам</span><span data-lang="en">Authors</span></a>
+        <a href="journal-reviewers.html"><span data-lang="ru">Рецензентам</span><span data-lang="en">Reviewers</span></a>
+        <a href="journal-issue.html"><span data-lang="ru">Текущий выпуск</span><span data-lang="en">Issue</span></a>
+        <a href="journal-archive.html"><span data-lang="ru">Архив</span><span data-lang="en">Archive</span></a>
+        <a class="is-active" href="journal-submit.html"><span data-lang="ru">Подать статью</span><span data-lang="en">Submit</span></a>
+        <a href="journal-contacts.html"><span data-lang="ru">Контакты</span><span data-lang="en">Contacts</span></a>
       </nav>
       <div class="journal-actions">
         <div class="journal-lang-switch" aria-label="Переключение языка">
           <button type="button" data-lang-switch="ru" class="is-active">RU</button>
           <button type="button" data-lang-switch="en">EN</button>
         </div>
-        <a class="journal-btn secondary" href="journal-issue.html">
-          <span data-lang="ru">Текущий выпуск</span>
-          <span data-lang="en">Current issue</span>
+        <a class="journal-btn secondary" href="journal-authors.html">
+          <span data-lang="ru">Требования</span>
+          <span data-lang="en">Guidelines</span>
         </a>
       </div>
     </div>
@@ -57,203 +59,167 @@
 
   <main class="journal-main">
     <div class="journal-shell">
-      <section class="journal-hero" style="grid-template-columns:minmax(0,1.02fr) minmax(300px,.98fr);">
+      <section class="journal-hero">
         <div class="journal-hero-copy">
-          <div class="journal-eyebrow">
-            <span data-lang="ru">Подача статьи</span>
-            <span data-lang="en">Article submission</span>
-          </div>
-          <div class="journal-kicker">Journal submission / Open access</div>
+          <div class="journal-eyebrow"><span data-lang="ru">Подача</span><span data-lang="en">Submission</span></div>
+          <div class="journal-kicker">Manual editorial intake</div>
           <h1 class="journal-title">
-            <span data-lang="ru">Статья попадает в редакционный маршрут, а не теряется в форме.</span>
-            <span data-lang="en">The article enters a real editorial route instead of disappearing into a form.</span>
+            <span data-lang="ru">Отправьте файл, контакты и короткое описание. Этого достаточно, чтобы запустить редакционный маршрут.</span>
+            <span data-lang="en">Send the file, contacts, and a short note. That is enough to start the editorial route.</span>
           </h1>
           <p class="journal-lead">
-            <span data-lang="ru">Заполните поля автора, статьи и файла, выберите выпуск и отправьте материал. Редакция получит письмо, уведомление в Telegram и запись в таблице.</span>
-            <span data-lang="en">Fill in the author, article, and file fields, choose an issue, and submit. The editorial board receives email, Telegram, and a sheet record.</span>
+            <span data-lang="ru">На первой версии журнал принимает материалы вручную: вы получите подтверждение, а редакция увидит заявку в таблице, письме и Telegram-уведомлении.</span>
+            <span data-lang="en">In version one, the journal accepts submissions manually: you will get confirmation, and the editors will see the request in a sheet, email, and Telegram alert.</span>
           </p>
-          <div class="journal-actions-row">
-            <a class="journal-btn primary" href="#submission-form">
-              <span data-lang="ru">Перейти к форме</span>
-              <span data-lang="en">Go to form</span>
-            </a>
-            <a class="journal-btn secondary" href="journal-issue.html">
-              <span data-lang="ru">Посмотреть выпуск</span>
-              <span data-lang="en">View issue</span>
-            </a>
-          </div>
         </div>
-
         <aside class="journal-card journal-aside">
           <div class="journal-meta">
-            <small><span data-lang="ru">Что нужно приложить</span><span data-lang="en">What to attach</span></small>
-            <strong>
-              <span data-lang="ru">Файл статьи, аннотация, keywords, контакты</span>
-              <span data-lang="en">Article file, abstract, keywords, contacts</span>
-            </strong>
+            <small><span data-lang="ru">Ограничение демо-маршрута</span><span data-lang="en">Demo route limit</span></small>
+            <strong><span data-lang="ru">до 500 КБ</span><span data-lang="en">up to 500 KB</span></strong>
           </div>
-          <div class="journal-divider"></div>
-          <div class="journal-kv">
-            <div class="row"><span><span data-lang="ru">Формат</span><span data-lang="en">Format</span></span><strong>PDF / DOCX / DOC / TXT / MD</strong></div>
-            <div class="row"><span><span data-lang="ru">Макс. размер</span><span data-lang="en">Max size</span></span><strong>8 MB</strong></div>
-            <div class="row"><span><span data-lang="ru">Антиспам</span><span data-lang="en">Anti-spam</span></span><strong>3 + 4</strong></div>
-          </div>
-          <p style="margin-bottom:0;">
-            <span data-lang="ru">В первой версии журнала модерация ручная. После отправки вы увидите понятный статус и маршрут редакции.</span>
-            <span data-lang="en">In version one the journal uses manual moderation. After sending you will see a clear status and editorial route.</span>
+          <p class="journal-note">
+            <span data-lang="ru">Если файл больше, отправьте PDF-версию меньшего размера или напишите в редакцию.</span>
+            <span data-lang="en">If your file is larger, send a smaller PDF or email the editorial office.</span>
           </p>
+          <a class="journal-btn secondary" href="journal-contacts.html">
+            <span data-lang="ru">Контакты редакции</span>
+            <span data-lang="en">Editorial contacts</span>
+          </a>
         </aside>
       </section>
 
-      <section class="journal-section" id="submission-form">
-        <div class="journal-eyebrow">
-          <span data-lang="ru">Форма подачи</span>
-          <span data-lang="en">Submission form</span>
-        </div>
+      <section class="journal-section" id="submit">
+        <div class="journal-eyebrow"><span data-lang="ru">Форма подачи</span><span data-lang="en">Submission form</span></div>
         <div class="journal-grid cols-2" style="margin-top:18px; align-items:start;">
-          <form id="journal-submit-form" class="journal-card pad-32 journal-form" data-captcha-answer="7" enctype="multipart/form-data">
-            <input type="hidden" name="formType" value="journal_submission"/>
-            <input type="hidden" name="request_kind" value="Подача статьи в журнал"/>
-            <input type="hidden" name="source_page" value="journal-submit.html"/>
-            <input type="hidden" name="source_page_url" value=""/>
-            <input type="hidden" name="journal_title" value="Журнал МИИИИПС"/>
-            <input type="hidden" name="issue_id" value=""/>
-            <input type="hidden" name="issue_label" value=""/>
-            <input type="hidden" name="event_title" value=""/>
-            <input type="hidden" name="event_date" value=""/>
-            <input type="hidden" name="event_url" value=""/>
-            <input type="hidden" name="role" value="author"/>
+          <article class="journal-card pad-28">
+            <form id="journal-submit-form" class="journal-form" data-captcha-answer="7" novalidate>
+              <input type="hidden" name="event_url" value=""/>
+              <input type="hidden" name="event_title" value=""/>
+              <input type="hidden" name="formType" value="journal_submission"/>
+              <input type="hidden" name="request_kind" value="Подача статьи в журнал"/>
+              <input type="hidden" name="role" value="author"/>
 
-            <div class="journal-field-grid">
-              <div class="journal-field">
-                <label for="author_name">
-                  <span data-lang="ru">Имя автора</span>
-                  <span data-lang="en">Author name</span>
-                </label>
-                <input id="author_name" name="author_name" type="text" placeholder="Кумскова Татьяна Михайловна" required/>
+              <div class="journal-field-grid">
+                <div class="journal-field">
+                  <label for="author_name"><span data-lang="ru">ФИО автора</span><span data-lang="en">Author full name</span></label>
+                  <input id="author_name" name="authors" autocomplete="name" required placeholder="Иванов Иван Иванович"/>
+                </div>
+                <div class="journal-field">
+                  <label for="email"><span data-lang="ru">Email</span><span data-lang="en">Email</span></label>
+                  <input id="email" name="email" type="email" autocomplete="email" required placeholder="name@example.com"/>
+                </div>
+                <div class="journal-field">
+                  <label for="contact"><span data-lang="ru">Телефон / Telegram</span><span data-lang="en">Phone / Telegram</span></label>
+                  <input id="contact" name="contact" autocomplete="tel" placeholder="+7 ... или @username"/>
+                </div>
+                <div class="journal-field">
+                  <label for="organization"><span data-lang="ru">Организация</span><span data-lang="en">Affiliation</span></label>
+                  <input id="organization" name="organization" placeholder="МИИИИПС / Университет / Компания"/>
+                </div>
               </div>
-              <div class="journal-field">
-                <label for="email">
-                  <span data-lang="ru">Email</span>
-                  <span data-lang="en">Email</span>
-                </label>
-                <input id="email" name="email" type="email" placeholder="name@example.com" required/>
-              </div>
-              <div class="journal-field">
-                <label for="contact">
-                  <span data-lang="ru">Контакт</span>
-                  <span data-lang="en">Contact</span>
-                </label>
-                <input id="contact" name="contact" type="text" placeholder="+7… / Telegram"/>
-              </div>
-              <div class="journal-field">
-                <label for="organization">
-                  <span data-lang="ru">Организация</span>
-                  <span data-lang="en">Organization</span>
-                </label>
-                <input id="organization" name="organization" type="text" placeholder="МИИИИПС"/>
-              </div>
-              <div class="journal-field">
-                <label for="article_title">
-                  <span data-lang="ru">Название статьи</span>
-                  <span data-lang="en">Article title</span>
-                </label>
-                <input id="article_title" name="article_title" type="text" placeholder="Название работы" required/>
-              </div>
-              <div class="journal-field">
-                <label for="language">
-                  <span data-lang="ru">Язык</span>
-                  <span data-lang="en">Language</span>
-                </label>
-                <select id="language" name="language" required>
-                  <option value="ru">Русский</option>
-                  <option value="en">English</option>
-                  <option value="ru-en">RU + EN</option>
-                </select>
-              </div>
-              <div class="journal-field" style="grid-column:1 / -1;">
-                <label for="issue">
-                  <span data-lang="ru">Журнал / выпуск</span>
-                  <span data-lang="en">Journal / issue</span>
-                </label>
-                <select id="issue" name="issue" required>
-                  <option value="">Загрузка списка выпусков…</option>
-                </select>
-              </div>
-              <div class="journal-field" style="grid-column:1 / -1;">
-                <label for="abstract">
-                  <span data-lang="ru">Аннотация</span>
-                  <span data-lang="en">Abstract</span>
-                </label>
-                <textarea id="abstract" name="abstract" placeholder="Кратко опишите содержание статьи" required></textarea>
-              </div>
-              <div class="journal-field" style="grid-column:1 / -1;">
-                <label for="keywords">
-                  <span data-lang="ru">Ключевые слова</span>
-                  <span data-lang="en">Keywords</span>
-                </label>
-                <input id="keywords" name="keywords" type="text" placeholder="психология, ИИ, публикация" required/>
-              </div>
-              <div class="journal-field" style="grid-column:1 / -1;">
-                <label for="message">
-                  <span data-lang="ru">Сопроводительное письмо</span>
-                  <span data-lang="en">Cover note</span>
-                </label>
-                <textarea id="message" name="message" placeholder="Дополнительный контекст для редакции"></textarea>
-              </div>
-              <div class="journal-field" style="grid-column:1 / -1;">
-                <label for="article_file">
-                  <span data-lang="ru">Файл статьи</span>
-                  <span data-lang="en">Article file</span>
-                </label>
-                <input id="article_file" name="article_file" type="file" accept=".pdf,.doc,.docx,.txt,.md,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/markdown" required/>
-              </div>
-              <div class="journal-field">
-                <label for="captcha">
-                  <span data-lang="ru">Антиспам-код</span>
-                  <span data-lang="en">Anti-spam code</span>
-                </label>
-                <input id="captcha" name="captcha" type="text" placeholder="7" inputmode="numeric" required/>
-              </div>
-              <div class="journal-field">
-              <label>
-                <span data-lang="ru">Проверка</span>
-                <span data-lang="en">Check</span>
-              </label>
-              <div class="journal-card pad-24" style="box-shadow:none; background:#edf4f1;">
-                  <span data-lang="ru">Сумма 3 + 4 = <strong id="captcha-sum">7</strong></span>
-                  <span data-lang="en">Sum 3 + 4 = <strong>7</strong></span>
-              </div>
-            </div>
-            </div>
 
-            <button class="journal-btn primary" type="submit" style="justify-self:start; margin-top:4px;">
-              <span data-lang="ru">Отправить статью</span>
-              <span data-lang="en">Submit article</span>
-            </button>
-            <div id="journal-submit-status" class="journal-note" role="status" aria-live="polite" style="min-height: 1.5em;"></div>
-          </form>
+              <div class="journal-field">
+                <label for="article_title"><span data-lang="ru">Название статьи</span><span data-lang="en">Article title</span></label>
+                <input id="article_title" name="article_title" required placeholder="Короткое академическое название"/>
+              </div>
 
-          <aside class="journal-card pad-32">
-            <div class="journal-meta">
-              <small><span data-lang="ru">Что будет дальше</span><span data-lang="en">What happens next</span></small>
-              <strong><span data-lang="ru">Редакционный маршрут</span><span data-lang="en">Editorial route</span></strong>
-            </div>
+              <div class="journal-field-grid">
+                <div class="journal-field">
+                  <label for="language"><span data-lang="ru">Язык</span><span data-lang="en">Language</span></label>
+                  <select id="language" name="language">
+                    <option value="ru">RU</option>
+                    <option value="en">EN</option>
+                  </select>
+                </div>
+                <div class="journal-field">
+                  <label for="section"><span data-lang="ru">Раздел / тематика</span><span data-lang="en">Section / topic</span></label>
+                  <select id="section" name="section">
+                    <option value="interdisciplinary"><span data-lang="ru">Междисциплинарно</span><span data-lang="en">Interdisciplinary</span></option>
+                    <option value="ai"><span data-lang="ru">ИИ и исследования</span><span data-lang="en">AI and research</span></option>
+                    <option value="psychology"><span data-lang="ru">Психология</span><span data-lang="en">Psychology</span></option>
+                    <option value="education"><span data-lang="ru">Образование</span><span data-lang="en">Education</span></option>
+                    <option value="sport"><span data-lang="ru">Спорт и биомеханика</span><span data-lang="en">Sport and biomechanics</span></option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="journal-field">
+                <label for="issue"><span data-lang="ru">Выпуск (если уже согласовано)</span><span data-lang="en">Issue (if agreed)</span></label>
+                <input id="issue" name="issue" placeholder="journal-2026-spring / Весна 2026"/>
+              </div>
+
+              <div class="journal-field">
+                <label for="abstract"><span data-lang="ru">Аннотация</span><span data-lang="en">Abstract</span></label>
+                <textarea id="abstract" name="abstract" placeholder="Коротко: о чем статья, метод и результат."></textarea>
+              </div>
+
+              <div class="journal-field">
+                <label for="keywords"><span data-lang="ru">Ключевые слова</span><span data-lang="en">Keywords</span></label>
+                <input id="keywords" name="keywords" placeholder="эмоциональный интеллект, практика, публикация..."/>
+              </div>
+
+              <div class="journal-field">
+                <label for="article_file"><span data-lang="ru">Файл статьи</span><span data-lang="en">Article file</span></label>
+                <input id="article_file" name="article_file" type="file" required accept=".pdf,.doc,.docx,.txt,.md,.rtf,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain"/>
+                <div class="journal-note">
+                  <span data-lang="ru">Поддерживаем PDF/DOCX/TXT/MD. Для демо-маршрута: до 500 КБ.</span>
+                  <span data-lang="en">We support PDF/DOCX/TXT/MD. Demo route limit: up to 500 KB.</span>
+                </div>
+              </div>
+
+              <div class="journal-field">
+                <label for="message"><span data-lang="ru">Сопроводительное письмо</span><span data-lang="en">Cover note</span></label>
+                <textarea id="message" name="message" placeholder="1-2 абзаца: почему материал важен, кому адресован, какие данные использованы."></textarea>
+              </div>
+
+              <div class="journal-field-grid">
+                <div class="journal-field">
+                  <div class="label">
+                    <span data-lang="ru">Антиспам</span><span data-lang="en">Anti-spam</span>
+                  </div>
+                  <div class="journal-note" style="margin-top:-2px;">
+                    <span data-lang="ru">Сколько будет 3 + 4? Ответ: <strong id="captcha-sum">7</strong></span>
+                    <span data-lang="en">What is 3 + 4? Answer: <strong id="captcha-sum">7</strong></span>
+                  </div>
+                  <input name="captcha" inputmode="numeric" placeholder="7" required/>
+                </div>
+                <div class="journal-field">
+                  <div class="label">
+                    <span data-lang="ru">Статус отправки</span><span data-lang="en">Delivery status</span>
+                  </div>
+                  <div id="journal-submit-status" class="journal-note" data-tone="neutral">
+                    <span data-lang="ru">Заполните поля и нажмите «Отправить».</span>
+                    <span data-lang="en">Fill out the fields and press “Send”.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="journal-actions-row">
+                <button class="journal-btn primary" type="submit">
+                  <span data-lang="ru">Отправить</span><span data-lang="en">Send</span>
+                </button>
+                <a class="journal-btn secondary" href="journal-issue.html">
+                  <span data-lang="ru">К выпуску</span><span data-lang="en">To issue</span>
+                </a>
+              </div>
+            </form>
+          </article>
+
+          <aside class="journal-card pad-28">
+            <h3 class="journal-card-title"><span data-lang="ru">Что произойдёт после отправки</span><span data-lang="en">What happens next</span></h3>
+            <ul class="journal-list" style="margin-top:12px;">
+              <li><span data-lang="ru">редакция получит уведомление</span><span data-lang="en">editors receive an alert</span></li>
+              <li><span data-lang="ru">заявка появится в таблице</span><span data-lang="en">submission is logged in the sheet</span></li>
+              <li><span data-lang="ru">файл сохранится в демо-контуре (если доступен)</span><span data-lang="en">file is saved in the demo route (if available)</span></li>
+              <li><span data-lang="ru">вы получите подтверждение в ответном канале</span><span data-lang="en">you get confirmation via your contact channel</span></li>
+            </ul>
             <div class="journal-divider"></div>
-            <div class="journal-kv">
-              <div class="row"><span>1.</span><strong><span data-lang="ru">Форма</span><span data-lang="en">Form</span></strong></div>
-              <div class="row"><span>2.</span><strong><span data-lang="ru">Таблица</span><span data-lang="en">Sheet</span></strong></div>
-              <div class="row"><span>3.</span><strong><span data-lang="ru">Email + Telegram</span><span data-lang="en">Email + Telegram</span></strong></div>
-              <div class="row"><span>4.</span><strong><span data-lang="ru">Статус для редакции</span><span data-lang="en">Editorial status</span></strong></div>
-            </div>
-            <p style="margin-top:12px;">
-              <span data-lang="ru">После отправки журнал сохраняет запись в runtime submissions store и, если доступен bridge, передаёт заявку в Google Sheet, email и Telegram.</span>
-              <span data-lang="en">After submission the journal writes to the runtime submissions store and, if available, forwards the request to Google Sheets, email, and Telegram.</span>
+            <p>
+              <span data-lang="ru">Если технический маршрут недоступен, откроется резервный email с готовым текстом заявки.</span>
+              <span data-lang="en">If the direct route fails, a fallback email will open with a prepared message.</span>
             </p>
-            <div class="journal-divider"></div>
-            <a class="journal-btn secondary" href="journal-issue.html" style="width:100%; margin-top: 4px;">
-              <span data-lang="ru">Посмотреть текущий выпуск</span>
-              <span data-lang="en">Open current issue</span>
+            <a class="journal-btn ghost" href="mailto:rublevalexanderus@gmail.com">
+              <span data-lang="ru">Написать в редакцию</span><span data-lang="en">Email editorial office</span>
             </a>
           </aside>
         </div>
@@ -264,28 +230,17 @@
   <footer class="journal-footer">
     <div class="journal-shell">
       <div class="journal-footer-grid">
-        <a class="journal-footer-card" href="journal-about.html">
-          <small>About / О журнале</small>
-          <strong>Профиль и миссия</strong>
-        </a>
-        <a class="journal-footer-card" href="journal-issue.html">
-          <small>Issue / Выпуск</small>
-          <strong>Текущий номер</strong>
-        </a>
-        <a class="journal-footer-card" href="journal-archive.html">
-          <small>Archive / Архив</small>
-          <strong>Все выпуски</strong>
-        </a>
-        <a class="journal-footer-card" href="journal-contacts.html">
-          <small>Contacts / Контакты</small>
-          <strong>Связь с редакцией</strong>
-        </a>
+        <a class="journal-footer-card" href="journal-about.html"><small>About / О журнале</small><strong>Миссия и этика</strong></a>
+        <a class="journal-footer-card" href="journal-authors.html"><small>Authors / Авторам</small><strong>Шаблон статьи</strong></a>
+        <a class="journal-footer-card" href="journal-archive.html"><small>Archive / Архив</small><strong>Выпуски</strong></a>
+        <a class="journal-footer-card" href="journal-contacts.html"><small>Contacts / Контакты</small><strong>Редакция</strong></a>
       </div>
       <p style="margin-top:22px;">
-        <span data-lang="ru">© 2026 МИИИИПС · Подача статьи работает как часть публичной платформы института.</span>
-        <span data-lang="en">© 2026 MIIIIPS · Submission works as part of the institute's public platform.</span>
+        <span data-lang="ru">© 2026 МИИИИПС · Подача статьи запускает ручной редакционный маршрут.</span>
+        <span data-lang="en">© 2026 MIIIIPS · Submitting an article starts the manual editorial route.</span>
       </p>
     </div>
   </footer>
 </body>
 </html>
+

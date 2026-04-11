@@ -150,6 +150,7 @@
   function populateIssues(select, registry, lang) {
     const journal = registry && registry.journal ? registry.journal : {};
     const issues = Array.isArray(journal.issues) && journal.issues.length ? journal.issues : FALLBACK_ISSUES;
+    const previousValue = select.value;
     select.innerHTML = '';
     const placeholder = document.createElement('option');
     placeholder.value = '';
@@ -170,6 +171,15 @@
       }
       select.appendChild(option);
     });
+    if (previousValue) {
+      const match = Array.from(select.options).find(function (option) {
+        return option.value === previousValue;
+      });
+      if (match) {
+        select.value = previousValue;
+        return;
+      }
+    }
     if (select.options.length > 1) {
       select.selectedIndex = 1;
     }
@@ -219,6 +229,15 @@
       });
     }
 
+    document.querySelectorAll('[data-lang-switch]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        setTimeout(function () {
+          populateIssues(issueSelect, registry, document.documentElement.lang === 'en' ? 'en' : 'ru');
+          syncDerivedFields(form);
+        }, 0);
+      });
+    });
+
     form.querySelector('[name="source_page"]').value = 'journal-submit.html';
     form.querySelector('[name="source_page_url"]').value = location.href;
     form.querySelector('[name="formType"]').value = 'journal_submission';
@@ -250,14 +269,22 @@
         if (key === 'article_file') return;
         payload[key] = value;
       });
+      // Normalize common fields because different templates may use camelCase names.
+      payload.author_name = payload.author_name || payload.authorName || payload.name || '';
+      payload.article_title = payload.article_title || payload.articleTitle || '';
+      payload.issue_label = payload.issue_label || payload.issueLabel || payload.issue || '';
+      payload.issue_id = payload.issue_id || payload.issueId || '';
+      payload.journal_title = payload.journal_title || payload.journalTitle || '';
+      payload.source_page = payload.source_page || payload.sourcePage || '';
+      payload.source_page_url = payload.source_page_url || payload.sourcePageUrl || '';
       payload.source_page = 'journal-submit.html';
       payload.source_page_url = location.href;
       payload.formType = 'journal_submission';
       payload.request_kind = lang === 'en' ? 'Journal submission' : 'Подача статьи в журнал';
       payload.role = 'author';
-      payload.journal_title = form.querySelector('[name="journal_title"]').value || (registry.journal && (lang === 'en' ? registry.journal.titleEn : registry.journal.title)) || 'Журнал МИИИИПС';
-      payload.issue_id = form.querySelector('[name="issue_id"]').value || '';
-      payload.issue_label = form.querySelector('[name="issue_label"]').value || '';
+      payload.journal_title = form.querySelector('[name="journal_title"]').value || payload.journal_title || (registry.journal && (lang === 'en' ? registry.journal.titleEn : registry.journal.title)) || 'Журнал МИИИИПС';
+      payload.issue_id = form.querySelector('[name="issue_id"]').value || payload.issue_id || '';
+      payload.issue_label = form.querySelector('[name="issue_label"]').value || payload.issue_label || '';
       payload.event_title = payload.issue_label || payload.journal_title;
       payload.event_date = payload.issue_label || '';
       payload.event_url = new URL('journal-issue.html', location.href).href;
