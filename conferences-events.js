@@ -21,6 +21,18 @@
     return new Date(value);
   }
 
+  function getEventStatus(event) {
+    const date = parseDate(event.start);
+    if (!Number.isNaN(date.getTime()) && date.getTime() < Date.now()) {
+      return "past";
+    }
+    return event.status || "upcoming";
+  }
+
+  function getEventStatusLabel(status) {
+    return status === "past" ? "Прошедшее" : "Анонс";
+  }
+
   function toDayKey(date) {
     return [
       date.getFullYear(),
@@ -104,6 +116,7 @@
 
   function matchesFilters(event, state) {
     const date = parseDate(event.start);
+    const status = getEventStatus(event);
     const haystack = [
       event.title,
       event.summary,
@@ -114,7 +127,7 @@
     ].join(" ").toLowerCase();
     const searchPass = !state.search || haystack.includes(state.search.toLowerCase());
     const typePass = state.types.has(event.type);
-    const statusPass = state.statuses.has(event.status);
+    const statusPass = state.statuses.has(status);
     const directionPass = (event.directions || []).some(function (direction) {
       return state.directions.has(direction);
     });
@@ -138,17 +151,19 @@
     }
     target.innerHTML = filtered.map(function (event) {
       const date = parseDate(event.start);
+      const status = getEventStatus(event);
+      const statusLabel = safe(getEventStatusLabel(status));
       const quickClass = state.quickView ? "compact" : "full";
       const directionLine = safe((event.directionLabels || []).join(" · "));
-      const registrationLink = event.status !== "past" && event.registrationPage
+      const registrationLink = status !== "past" && event.registrationPage
         ? '<a class="btn secondary" href="' + safe(event.registrationPage) + '">Регистрация</a>'
         : "";
-      const calendarLink = event.status !== "past" && event.calendarFile
+      const calendarLink = status !== "past" && event.calendarFile
         ? '<a class="btn secondary" href="' + safe(event.calendarFile) + '">В календарь</a>'
         : "";
       return [
         '<article class="event-card ' + quickClass + '" style="background:' + safe(THEME_MAP[event.theme] || THEME_MAP.emerald) + ';">',
-        '<div class="event-meta"><span class="event-pill">' + safe(event.statusLabel) + '</span><span>' + safe(event.typeLabel) + '</span><span>' + safe(formatMeta(date, event)) + '</span></div>',
+        '<div class="event-meta"><span class="event-pill">' + statusLabel + '</span><span>' + safe(event.typeLabel) + '</span><span>' + safe(formatMeta(date, event)) + '</span></div>',
         '<div class="stack">',
         '<h3 class="event-title">' + safe(event.title) + '</h3>',
         '<p class="event-summary">' + safe(event.summary) + '</p>',
