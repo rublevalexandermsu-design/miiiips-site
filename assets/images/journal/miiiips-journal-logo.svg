@@ -1,0 +1,22 @@
+<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Журнал МИИИИПС">
+  <defs>
+    <linearGradient id="g" x1="28" y1="18" x2="152" y2="162" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C4D40"/>
+      <stop offset="1" stop-color="#133B31"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="20" y1="18" x2="164" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2BE63"/>
+      <stop offset="1" stop-color="#8B6417"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="518" height="178" rx="28" fill="#F7F6F1" stroke="#D8DDD9"/>
+  <rect x="18" y="18" width="144" height="144" rx="30" fill="url(#g)" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M48 124V56L78 96L108 56V124" stroke="#F7F6F1" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M124 124V56L148 80V124" stroke="#F2BE63" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 124H148" stroke="#F2BE63" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="148" cy="48" r="7" fill="#F2BE63"/>
+  <text x="190" y="64" fill="#0C4D40" font-family="Newsreader, serif" font-size="24" font-weight="700" letter-spacing="2.5">ЖУРНАЛ МИИИИПС</text>
+  <text x="190" y="100" fill="#12372F" font-family="Newsreader, serif" font-size="34" font-weight="700">Наука, образование</text>
+  <text x="190" y="138" fill="#12372F" font-family="Newsreader, serif" font-size="34" font-weight="700">и исследования XXI века</text>
+  <text x="190" y="162" fill="#8B6417" font-family="Public Sans, sans-serif" font-size="12" font-weight="700" letter-spacing="3">SCIENCE • EDUCATION • RESEARCH</text>
+</svg>

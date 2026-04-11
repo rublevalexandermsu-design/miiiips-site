@@ -5,6 +5,495 @@
     "demoPassword": "demo2026",
     "apiMode": "local-api-or-public-bridge"
   },
+  "journal": {
+    "id": "miiiips-journal",
+    "title": "Журнал МИИИИПС",
+    "titleEn": "MIIIIPS Journal",
+    "subtitle": "Наука, образование и исследования XXI века",
+    "subtitleEn": "Science, Education and Research in the 21st Century",
+    "logo": "assets/images/journal/miiiips-journal-logo.svg",
+    "labels": {
+      "ru": {
+        "nav": "Журнал",
+        "about": "О журнале",
+        "editorialBoard": "Редколлегия",
+        "authors": "Авторам",
+        "reviewers": "Рецензентам",
+        "archive": "Архив",
+        "indexing": "Индексирование",
+        "contacts": "Контакты",
+        "news": "Новости",
+        "founders": "Об учредителях",
+        "submitArticle": "Подать статью",
+        "currentIssue": "Текущий выпуск",
+        "issueArchive": "Архив выпусков"
+      },
+      "en": {
+        "nav": "Journal",
+        "about": "About the journal",
+        "editorialBoard": "Editorial board",
+        "authors": "For authors",
+        "reviewers": "For reviewers",
+        "archive": "Archive",
+        "indexing": "Indexing",
+        "contacts": "Contacts",
+        "news": "News",
+        "founders": "Founders",
+        "submitArticle": "Submit article",
+        "currentIssue": "Current issue",
+        "issueArchive": "Issue archive"
+      }
+    },
+    "tabs": [
+      {
+        "id": "about",
+        "label": {
+          "ru": "О журнале",
+          "en": "About the journal"
+        },
+        "items": [
+          {
+            "id": "goals",
+            "label": {
+              "ru": "Цели и задачи",
+              "en": "Scope and goals"
+            }
+          },
+          {
+            "id": "history",
+            "label": {
+              "ru": "История журнала",
+              "en": "Journal history"
+            }
+          },
+          {
+            "id": "ethics",
+            "label": {
+              "ru": "Этические нормы публикаций",
+              "en": "Publication ethics"
+            }
+          },
+          {
+            "id": "open-access",
+            "label": {
+              "ru": "Политика открытого доступа",
+              "en": "Open access policy"
+            }
+          },
+          {
+            "id": "license",
+            "label": {
+              "ru": "Лицензия",
+              "en": "License"
+            }
+          },
+          {
+            "id": "partners",
+            "label": {
+              "ru": "Партнёры",
+              "en": "Partners"
+            }
+          },
+          {
+            "id": "sitemap",
+            "label": {
+              "ru": "Карта сайта",
+              "en": "Sitemap"
+            }
+          }
+        ]
+      },
+      {
+        "id": "editorial-board",
+        "label": {
+          "ru": "Редколлегия",
+          "en": "Editorial board"
+        },
+        "items": [
+          {
+            "id": "chief-editor",
+            "label": {
+              "ru": "Главный редактор",
+              "en": "Editor-in-Chief"
+            }
+          },
+          {
+            "id": "board",
+            "label": {
+              "ru": "Члены редколлегии",
+              "en": "Editorial board members"
+            }
+          }
+        ]
+      },
+      {
+        "id": "authors",
+        "label": {
+          "ru": "Авторам",
+          "en": "For authors"
+        },
+        "items": [
+          {
+            "id": "guidelines",
+            "label": {
+              "ru": "Руководство по оформлению статей",
+              "en": "Author guidelines"
+            }
+          },
+          {
+            "id": "template",
+            "label": {
+              "ru": "Шаблон статьи",
+              "en": "Article template"
+            }
+          },
+          {
+            "id": "review-policy",
+            "label": {
+              "ru": "Политика рецензирования",
+              "en": "Review policy"
+            }
+          },
+          {
+            "id": "anti-plagiarism",
+            "label": {
+              "ru": "Антиплагиат",
+              "en": "Anti-plagiarism"
+            }
+          },
+          {
+            "id": "copyright",
+            "label": {
+              "ru": "Авторские права",
+              "en": "Copyright"
+            }
+          },
+          {
+            "id": "faq",
+            "label": {
+              "ru": "FAQ",
+              "en": "FAQ"
+            }
+          }
+        ]
+      },
+      {
+        "id": "reviewers",
+        "label": {
+          "ru": "Рецензентам",
+          "en": "For reviewers"
+        },
+        "items": [
+          {
+            "id": "reviewer-instructions",
+            "label": {
+              "ru": "Инструкции для рецензентов",
+              "en": "Reviewer instructions"
+            }
+          }
+        ]
+      },
+      {
+        "id": "archive",
+        "label": {
+          "ru": "Архив",
+          "en": "Archive"
+        },
+        "items": [
+          {
+            "id": "issues",
+            "label": {
+              "ru": "Выпуски",
+              "en": "Issues"
+            }
+          },
+          {
+            "id": "current-issue",
+            "label": {
+              "ru": "Текущий выпуск",
+              "en": "Current issue"
+            }
+          }
+        ]
+      },
+      {
+        "id": "indexing",
+        "label": {
+          "ru": "Индексирование",
+          "en": "Indexing"
+        },
+        "items": [
+          {
+            "id": "database",
+            "label": {
+              "ru": "Научная база данных",
+              "en": "Scientific database"
+            }
+          },
+          {
+            "id": "doi",
+            "label": {
+              "ru": "Присвоение DOI",
+              "en": "DOI assignment"
+            }
+          }
+        ]
+      },
+      {
+        "id": "contacts",
+        "label": {
+          "ru": "Контакты",
+          "en": "Contacts"
+        },
+        "items": [
+          {
+            "id": "feedback",
+            "label": {
+              "ru": "Форма обратной связи",
+              "en": "Feedback form"
+            }
+          },
+          {
+            "id": "address",
+            "label": {
+              "ru": "Адрес редакции",
+              "en": "Editorial address"
+            }
+          },
+          {
+            "id": "contact-person",
+            "label": {
+              "ru": "Контактное лицо",
+              "en": "Contact person"
+            }
+          }
+        ]
+      },
+      {
+        "id": "news",
+        "label": {
+          "ru": "Новости",
+          "en": "News"
+        },
+        "items": [
+          {
+            "id": "announcements",
+            "label": {
+              "ru": "Объявления редакции",
+              "en": "Editorial announcements"
+            }
+          },
+          {
+            "id": "conferences",
+            "label": {
+              "ru": "Конференции и мероприятия",
+              "en": "Conferences and events"
+            }
+          },
+          {
+            "id": "greetings",
+            "label": {
+              "ru": "Поздравления",
+              "en": "Greetings"
+            }
+          }
+        ]
+      },
+      {
+        "id": "founders",
+        "label": {
+          "ru": "Об учредителях",
+          "en": "Founders"
+        },
+        "items": [
+          {
+            "id": "founders-list",
+            "label": {
+              "ru": "Учредители журнала",
+              "en": "Journal founders"
+            }
+          },
+          {
+            "id": "founding-docs",
+            "label": {
+              "ru": "Учредительные документы",
+              "en": "Founding documents"
+            }
+          },
+          {
+            "id": "partner-orgs",
+            "label": {
+              "ru": "Партнёрские организации",
+              "en": "Partner organizations"
+            }
+          },
+          {
+            "id": "funding",
+            "label": {
+              "ru": "Финансирование и поддержка",
+              "en": "Funding and support"
+            }
+          }
+        ]
+      }
+    ],
+    "editorialBoard": [
+      {
+        "name": "Кунцов Михаил Иванович",
+        "personId": "kuntsov-mikhail-ivanovich",
+        "role": {
+          "ru": "Главный редактор",
+          "en": "Editor-in-Chief"
+        }
+      },
+      {
+        "name": "Кунцкова Татьяна Михайловна",
+        "personId": "kuntskova-tatyana-mikhailovna",
+        "role": {
+          "ru": "Учредитель и научный редактор",
+          "en": "Founder and Scientific Editor"
+        }
+      },
+      {
+        "name": "Рублёв Александр Маркович",
+        "personId": "rublev-alexander-markovich",
+        "role": {
+          "ru": "Ответственный секретарь",
+          "en": "Managing Editor"
+        }
+      }
+    ],
+    "featuredIssue": {
+      "issueId": "journal-2026-spring",
+      "title": {
+        "ru": "Пилотный выпуск журнала",
+        "en": "Pilot Issue"
+      },
+      "summary": {
+        "ru": "Стартовый выпуск показывает маршрут журнала: от лекции и статьи к архиву и публикации.",
+        "en": "The launch issue demonstrates the path from lecture and article to archive and publication."
+      },
+      "page": "journal-issue.html?issue=journal-2026-spring",
+      "cards": [
+        {
+          "publicationId": "article-ei-route",
+          "title": {
+            "ru": "Маршрут участника через эмоциональный интеллект и публичные форматы",
+            "en": "Participant route through emotional intelligence and public formats"
+          },
+          "summary": {
+            "ru": "Обзорный материал, который связывает курс, практику и последующие публикационные шаги.",
+            "en": "Overview linking the course, practice, and next publication steps."
+          },
+          "page": "journal-article.html?publication=article-ei-route"
+        },
+        {
+          "publicationId": "lecture-note-psychology-men",
+          "title": {
+            "ru": "Психология мужчины: доверие, дистанция, стиль общения",
+            "en": "Male psychology: trust, distance, and communication style"
+          },
+          "summary": {
+            "ru": "Редакционно выверенная карточка из понедельничной лекции с готовностью к выпуску.",
+            "en": "An editorial-ready card from a Monday lecture prepared for the issue."
+          },
+          "page": "journal-article.html?publication=lecture-note-psychology-men"
+        },
+        {
+          "publicationId": "case-rowing-qc",
+          "title": {
+            "ru": "Кейс rowing_agent: QC, видеоаналитика и биомеханика",
+            "en": "rowing_agent case: QC, video analytics, and biomechanics"
+          },
+          "summary": {
+            "ru": "Исследовательский кейс для научной и прикладной линии журнала.",
+            "en": "A research case for the journal's scientific and applied track."
+          },
+          "page": "journal-article.html?publication=case-rowing-qc"
+        }
+      ]
+    },
+    "archive": {
+      "route": "journal-archive.html",
+      "labels": {
+        "ru": "Архив выпусков",
+        "en": "Issue archive"
+      },
+      "summary": {
+        "ru": "Журнал хранит текущий и планируемый выпуски с быстрым переходом к статьям и карточкам.",
+        "en": "The journal keeps current and planned issues with quick access to articles and cards."
+      },
+      "years": [
+        "2026"
+      ],
+      "latestIssueId": "journal-2026-spring"
+    },
+    "submission": {
+      "route": "journal-submit.html",
+      "labels": {
+        "ru": "Подать статью",
+        "en": "Submit article"
+      },
+      "fields": [
+        {
+          "name": "authorName",
+          "label": {
+            "ru": "ФИО автора",
+            "en": "Author full name"
+          }
+        },
+        {
+          "name": "email",
+          "label": {
+            "ru": "Электронная почта",
+            "en": "Email"
+          }
+        },
+        {
+          "name": "affiliation",
+          "label": {
+            "ru": "Организация",
+            "en": "Affiliation"
+          }
+        },
+        {
+          "name": "articleTitle",
+          "label": {
+            "ru": "Название статьи",
+            "en": "Article title"
+          }
+        },
+        {
+          "name": "topic",
+          "label": {
+            "ru": "Тематика",
+            "en": "Topic"
+          }
+        },
+        {
+          "name": "file",
+          "label": {
+            "ru": "Файл статьи",
+            "en": "Article file"
+          }
+        },
+        {
+          "name": "comment",
+          "label": {
+            "ru": "Комментарий",
+            "en": "Comment"
+          }
+        },
+        {
+          "name": "consent",
+          "label": {
+            "ru": "Согласие на обработку данных",
+            "en": "Consent to data processing"
+          }
+        }
+      ]
+    }
+  },
   "news": [
     {
       "title": "Открыт приём заявок в исследовательские и образовательные программы МИИИИПС",

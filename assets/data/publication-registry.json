@@ -112,5 +112,229 @@
       "linkedEntities": ["parkgorkogo", "sales-lab", "gelendzhik"],
       "page": "conferences.html"
     }
-  ]
+  ],
+  "journal": {
+    "id": "miiiips-journal",
+    "slug": "journal",
+    "title": "Журнал МИИИИПС",
+    "titleEn": "MIIIIPS Journal",
+    "subtitle": "Наука, образование и исследования XXI века",
+    "subtitleEn": "Science, Education and Research in the 21st Century",
+    "branding": {
+      "logo": "assets/images/journal/miiiips-journal-logo.svg",
+      "wordmark": "МИИИИПС Journal",
+      "accentColor": "#18473c",
+      "paperColor": "#f4f1e8"
+    },
+    "labels": {
+      "ru": {
+        "nav": "Журнал",
+        "about": "О журнале",
+        "editorialBoard": "Редколлегия",
+        "authors": "Авторам",
+        "reviewers": "Рецензентам",
+        "archive": "Архив",
+        "indexing": "Индексирование",
+        "contacts": "Контакты",
+        "news": "Новости",
+        "founders": "Об учредителях",
+        "submitArticle": "Подать статью",
+        "currentIssue": "Текущий выпуск",
+        "issueArchive": "Архив выпусков"
+      },
+      "en": {
+        "nav": "Journal",
+        "about": "About the journal",
+        "editorialBoard": "Editorial board",
+        "authors": "For authors",
+        "reviewers": "For reviewers",
+        "archive": "Archive",
+        "indexing": "Indexing",
+        "contacts": "Contacts",
+        "news": "News",
+        "founders": "Founders",
+        "submitArticle": "Submit article",
+        "currentIssue": "Current issue",
+        "issueArchive": "Issue archive"
+      }
+    },
+    "pages": {
+      "home": "journal.html",
+      "about": "journal-about.html",
+      "issue": "journal-issue.html",
+      "archive": "journal-archive.html",
+      "submit": "journal-submit.html",
+      "contacts": "journal-contacts.html",
+      "article": "journal-article.html"
+    },
+    "editorialBoard": [
+      {
+        "name": "Кунцов Михаил Иванович",
+        "personId": "kuntsov-mikhail-ivanovich",
+        "role": {
+          "ru": "Главный редактор",
+          "en": "Editor-in-Chief"
+        },
+        "status": "lead"
+      },
+      {
+        "name": "Кунцкова Татьяна Михайловна",
+        "personId": "kuntskova-tatyana-mikhailovna",
+        "role": {
+          "ru": "Учредитель и научный редактор",
+          "en": "Founder and Scientific Editor"
+        },
+        "status": "founding"
+      },
+      {
+        "name": "Рублёв Александр Маркович",
+        "personId": "rublev-alexander-markovich",
+        "role": {
+          "ru": "Ответственный секретарь",
+          "en": "Managing Editor"
+        },
+        "status": "coordination"
+      }
+    ],
+    "issues": [
+      {
+        "id": "journal-2026-spring",
+        "issueNo": "1",
+        "volume": "1",
+        "title": {
+          "ru": "Пилотный выпуск журнала",
+          "en": "Pilot Issue"
+        },
+        "period": {
+          "ru": "Весна 2026",
+          "en": "Spring 2026"
+        },
+        "status": "published",
+        "theme": {
+          "name": "emerald-paper",
+          "accent": "#18473c",
+          "accentSoft": "#d9e4de",
+          "paper": "#f4f1e8"
+        },
+        "summary": {
+          "ru": "Стартовый выпуск показывает маршрут журнала: от лекции и статьи к архиву и публикации.",
+          "en": "The launch issue demonstrates the path from lecture and article to archive and publication."
+        },
+        "featuredPublicationIds": [
+          "article-ei-route",
+          "lecture-note-psychology-men",
+          "case-rowing-qc"
+        ]
+      },
+      {
+        "id": "journal-2026-summer",
+        "issueNo": "2",
+        "volume": "1",
+        "title": {
+          "ru": "Летний выпуск и междисциплинарные материалы",
+          "en": "Summer Interdisciplinary Issue"
+        },
+        "period": {
+          "ru": "Лето 2026",
+          "en": "Summer 2026"
+        },
+        "status": "in_preparation",
+        "theme": {
+          "name": "sand-paper",
+          "accent": "#8e6a28",
+          "accentSoft": "#e8dcc4",
+          "paper": "#faf7f0"
+        },
+        "summary": {
+          "ru": "Подборка материалов по публикационным маршрутам, образовательным практикам и исследовательским кейсам.",
+          "en": "A collection of publication routes, educational practice, and research case materials."
+        },
+        "featuredPublicationIds": [
+          "editorial-digest-q2",
+          "article-softskills-lab",
+          "supervisor-brief-2026-q2"
+        ]
+      }
+    ],
+    "articleCards": [
+      {
+        "publicationId": "article-ei-route",
+        "issueId": "journal-2026-spring",
+        "title": {
+          "ru": "Маршрут участника через эмоциональный интеллект и публичные форматы",
+          "en": "Participant route through emotional intelligence and public formats"
+        },
+        "summary": {
+          "ru": "Обзорный материал, который связывает курс, практику и последующие публикационные шаги.",
+          "en": "Overview linking the course, practice, and next publication steps."
+        },
+        "language": "ru",
+        "status": "featured"
+      },
+      {
+        "publicationId": "lecture-note-psychology-men",
+        "issueId": "journal-2026-spring",
+        "title": {
+          "ru": "Психология мужчины: доверие, дистанция, стиль общения",
+          "en": "Male psychology: trust, distance, and communication style"
+        },
+        "summary": {
+          "ru": "Редакционно выверенная карточка из понедельничной лекции с готовностью к выпуску.",
+          "en": "An editorial-ready card from a Monday lecture prepared for the issue."
+        },
+        "language": "ru",
+        "status": "editorial_ready"
+      },
+      {
+        "publicationId": "case-rowing-qc",
+        "issueId": "journal-2026-spring",
+        "title": {
+          "ru": "Кейс rowing_agent: QC, видеоаналитика и биомеханика",
+          "en": "rowing_agent case: QC, video analytics, and biomechanics"
+        },
+        "summary": {
+          "ru": "Исследовательский кейс для научной и прикладной линии журнала.",
+          "en": "A research case for the journal's scientific and applied track."
+        },
+        "language": "ru",
+        "status": "featured"
+      },
+      {
+        "publicationId": "editorial-digest-q2",
+        "issueId": "journal-2026-summer",
+        "title": {
+          "ru": "Редакционная сводка института: весна 2026",
+          "en": "Institute editorial digest: Spring 2026"
+        },
+        "summary": {
+          "ru": "Сводка по выпуску и контентным маршрутам института.",
+          "en": "Digest for the issue and the institute's content routes."
+        },
+        "language": "ru",
+        "status": "draft"
+      }
+    ],
+    "archive": {
+      "route": "journal-archive.html",
+      "latestIssueId": "journal-2026-spring",
+      "totalIssues": 2,
+      "publishedIssues": 1,
+      "plannedIssues": 1,
+      "availableYears": [
+        "2026"
+      ],
+      "labels": {
+        "ru": "Архив выпусков",
+        "en": "Issue archive"
+      }
+    },
+    "submission": {
+      "route": "journal-submit.html",
+      "formType": "journal_submission",
+      "labels": {
+        "ru": "Подать статью",
+        "en": "Submit article"
+      }
+    }
+  }
 }
