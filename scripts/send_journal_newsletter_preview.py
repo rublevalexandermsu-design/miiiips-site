@@ -62,8 +62,9 @@ def load_credentials(credentials_path: Path, token_path: Path, auth_code: str | 
                 token_path.parent.mkdir(parents=True, exist_ok=True)
                 token_path.write_text(creds.to_json(), encoding="utf-8")
             else:
-                auth_url, _ = flow.authorization_url(prompt="consent", access_type="offline", include_granted_scopes="true")
-                return None, auth_url
+                creds = flow.run_local_server(port=0, open_browser=True)
+                token_path.parent.mkdir(parents=True, exist_ok=True)
+                token_path.write_text(creds.to_json(), encoding="utf-8")
         else:
             token_path.parent.mkdir(parents=True, exist_ok=True)
             token_path.write_text(creds.to_json(), encoding="utf-8")
@@ -194,11 +195,6 @@ def main() -> int:
         help="Path where the rendered HTML preview should be saved",
     )
     parser.add_argument(
-        "--auth-code",
-        default="",
-        help="Google OAuth authorization code for a one-time Gmail reconnect",
-    )
-    parser.add_argument(
         "--config",
         default=str(DEFAULT_CONFIG_PATH),
         help="Path to local_api_config.json",
@@ -234,20 +230,7 @@ def main() -> int:
     }
 
     rendered = render_template(TEMPLATE_PATH, Path(args.output_html), values)
-    try:
-        service = gmail_service(credentials_path, token_path, auth_code=args.auth_code or None)
-    except RuntimeError as exc:
-        auth_hint = str(exc)
-        if auth_hint.startswith("http://") or auth_hint.startswith("https://"):
-            print(json.dumps({
-                "ok": False,
-                "needs_auth": True,
-                "authorization_url": auth_hint,
-                "next_step": "Open the URL, finish Google sign-in, copy the final authorization code, then rerun the script with --auth-code.",
-                "preview_html": str(Path(args.output_html)),
-            }, ensure_ascii=False, indent=2))
-            return 2
-        raise
+    service = gmail_service(credentials_path, token_path)
 
     logo_png = generate_logo_png()
     plain_text = (
