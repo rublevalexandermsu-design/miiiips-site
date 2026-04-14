@@ -7,13 +7,13 @@
     <title>МИИИИПС — благодарность за регистрацию</title>
     <style>
       :root {
-        --bg: #f3ecdc;
-        --card: #faf7f0;
-        --text: #163b33;
-        --muted: #63706a;
+        --bg: #f6f0e4;
+        --card: #fbf7ef;
+        --text: #12372f;
+        --muted: #5f6e69;
         --accent: #0f5a46;
         --accent-soft: #5f8b57;
-        --line: rgba(22, 59, 51, 0.12);
+        --line: rgba(18, 55, 47, 0.12);
       }
       html, body { margin: 0; padding: 0; background: var(--bg); }
       body {
@@ -21,16 +21,17 @@
         color: var(--text);
         line-height: 1.55;
       }
+      a { color: inherit; }
       .wrap {
         padding: 22px 12px 36px;
-        background: linear-gradient(180deg, #f8f4ea 0%, #efe6d1 100%);
+        background: linear-gradient(180deg, #f7f2e8 0%, #efe7d6 100%);
       }
       .shell {
         max-width: 760px;
         margin: 0 auto;
         overflow: hidden;
         border-radius: 28px;
-        background: rgba(255, 255, 255, 0.45);
+        background: rgba(255, 255, 255, 0.56);
         border: 1px solid rgba(22, 59, 51, 0.08);
         box-shadow: 0 26px 64px rgba(8, 31, 25, 0.14);
       }
@@ -44,10 +45,10 @@
       }
       .hero {
         background:
-          radial-gradient(circle at 10% 15%, rgba(255,255,255,0.08), transparent 18%),
-          radial-gradient(circle at 88% 20%, rgba(255,255,255,0.08), transparent 14%),
-          linear-gradient(135deg, #0f5f45 0%, #2d8c44 52%, #5aa145 100%);
-        color: #fff;
+          radial-gradient(circle at 12% 12%, rgba(15, 90, 70, 0.08), transparent 20%),
+          radial-gradient(circle at 90% 16%, rgba(15, 90, 70, 0.05), transparent 14%),
+          linear-gradient(180deg, #faf6ed 0%, #efe4cf 100%);
+        color: var(--text);
         padding: 26px 26px 28px;
       }
       .brand {
@@ -60,18 +61,18 @@
         width: 66px;
         height: 66px;
         border-radius: 18px;
-        background: rgba(255,255,255,0.94);
+        background: rgba(255, 255, 255, 0.94);
         display: grid;
         place-items: center;
         flex: 0 0 auto;
         box-shadow: inset 0 0 0 1px rgba(15, 90, 70, 0.12);
       }
-      .brand-mark img { width: 52px; height: 52px; object-fit: contain; display:block; }
+      .brand-mark img { width: 52px; height: 52px; object-fit: contain; display: block; }
       .brand-copy .eyebrow {
         font-size: 11px;
         letter-spacing: 0.18em;
         text-transform: uppercase;
-        opacity: 0.78;
+        color: var(--accent);
         font-weight: 700;
         margin-bottom: 3px;
       }
@@ -80,30 +81,32 @@
         font-family: Georgia, "Times New Roman", serif;
         font-size: 24px;
         line-height: 1.05;
+        color: var(--text);
       }
       .hero-grid {
         display: grid;
-        grid-template-columns: 1.25fr 0.95fr;
+        grid-template-columns: 1.18fr 0.92fr;
         gap: 18px;
         align-items: stretch;
       }
       .hero-main h2 {
         margin: 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 40px;
-        line-height: 0.96;
+        font-size: 38px;
+        line-height: 0.98;
         letter-spacing: -0.03em;
+        color: var(--text);
       }
       .hero-main p {
         margin: 16px 0 0;
         font-size: 16px;
         max-width: 32em;
-        opacity: 0.95;
+        color: var(--muted);
       }
       .hero-card {
         border-radius: 22px;
-        background: rgba(255,255,255,0.12);
-        border: 1px solid rgba(255,255,255,0.16);
+        background: rgba(255, 255, 255, 0.82);
+        border: 1px solid rgba(22, 59, 51, 0.10);
         overflow: hidden;
       }
       .hero-card img {
@@ -119,7 +122,7 @@
         font-size: 11px;
         letter-spacing: 0.14em;
         text-transform: uppercase;
-        opacity: 0.78;
+        color: var(--accent-soft);
         font-weight: 700;
         margin-bottom: 6px;
       }
@@ -127,6 +130,11 @@
         display: block;
         font-size: 18px;
         line-height: 1.2;
+        color: var(--text);
+      }
+      .hero-card .caption div {
+        color: var(--muted);
+        font-size: 14px;
       }
       .cta-row {
         display: flex;
@@ -142,14 +150,14 @@
         font-weight: 700;
         font-size: 14px;
       }
-      .btn.primary { background: #fff; color: var(--accent); }
+      .btn.primary { background: var(--accent); color: #fff; }
       .btn.secondary {
-        color: #fff;
-        border: 1px solid rgba(255,255,255,0.30);
-        background: rgba(255,255,255,0.10);
+        color: var(--accent);
+        border: 1px solid rgba(22, 59, 51, 0.18);
+        background: rgba(255, 255, 255, 0.82);
       }
       .content {
-        background: #f7f2e8;
+        background: #f8f3ea;
         padding: 24px 26px 28px;
       }
       .panel {
@@ -172,10 +180,15 @@
         font-family: Georgia, "Times New Roman", serif;
         font-size: 28px;
         line-height: 1.05;
+        color: var(--text);
       }
       .panel p {
         margin: 12px 0 0;
         color: var(--muted);
+      }
+      .subtle {
+        color: var(--muted);
+        font-size: 14px;
       }
       .info-grid {
         display: grid;
@@ -203,9 +216,32 @@
         margin-bottom: 6px;
       }
       .info span { color: var(--muted); font-size: 14px; }
+      .link-list {
+        display: grid;
+        gap: 10px;
+        margin-top: 18px;
+      }
+      .link-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 14px;
+        border-radius: 999px;
+        background: #fff;
+        border: 1px solid var(--line);
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .link-pill small {
+        color: var(--accent-soft);
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 10px;
+      }
       .footer {
         padding: 8px 26px 28px;
-        background: linear-gradient(180deg, #f7f2e8 0%, #efe7d8 100%);
+        background: linear-gradient(180deg, #f8f3ea 0%, #efe7d8 100%);
       }
       .signature {
         border-top: 1px solid var(--line);
@@ -239,10 +275,21 @@
         color: var(--muted);
         font-size: 13px;
       }
+      .unsubscribe {
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .unsubscribe a {
+        color: var(--accent);
+        font-weight: 700;
+      }
       @media (max-width: 720px) {
         .hero-grid,
         .info-grid { grid-template-columns: 1fr; }
-        .hero-main h2 { font-size: 33px; }
+        .hero-main h2 { font-size: 32px; }
       }
     </style>
   </head>
@@ -280,7 +327,7 @@
               <div class="caption">
                 <div class="kicker">Важные детали</div>
                 <strong>20 апреля 2026, 19:00–21:00</strong>
-                <div style="margin-top:8px; color: rgba(255,255,255,0.92); font-size:14px;">
+                <div style="margin-top:8px;">
                   Культурный центр «Полярный», Москва, метро Бабушкинская.
                 </div>
               </div>
@@ -309,6 +356,26 @@
               </div>
             </div>
           </div>
+
+          <div class="panel">
+            <div class="label">Контакты</div>
+            <h3>Ссылки для связи и новых публикаций.</h3>
+            <div class="link-list">
+              <a class="link-pill" href="https://moonn.ru/" target="_blank" rel="noreferrer"><small>Сайт</small>moonn.ru</a>
+              <a class="link-pill" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small>@Tatiana_Moonn</a>
+              <a class="link-pill" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small>Написать в WhatsApp</a>
+              <a class="link-pill" href="https://t.me/moonn_official" target="_blank" rel="noreferrer"><small>Канал</small>@moonn_official</a>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="label">Сертификат</div>
+            <img src="cid:certificate" alt="Макет сертификата МИИИИПС" style="width:100%;height:auto;border-radius:18px;border:1px solid var(--line);display:block;margin:4px 0 14px;" />
+            <h3>Если вы посещаете не менее 80% лекций в течение года, вы получите фирменный сертификат института.</h3>
+            <p class="subtle">
+              Сертификат не является государственным документом. Это сертификат Международного института по развитию психологии, искусственного интеллекта и экспорта.
+            </p>
+          </div>
         </div>
 
         <div class="footer">
@@ -322,6 +389,9 @@
               Если письмо открылось без изображений, смысл всё равно сохраняется: регистрация подтверждена,
               есть дата, место и возможность продолжить общение после лекции.
             </div>
+          </div>
+          <div class="unsubscribe">
+            Если вы не хотите получать письма от МИИИИПС, можно <a href="mailto:moonn.official@yandex.ru?subject=%D0%9E%D1%82%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BE%D1%82%20%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8">отписаться от рассылки</a>.
           </div>
         </div>
       </div>
