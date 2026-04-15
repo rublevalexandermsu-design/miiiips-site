@@ -229,38 +229,6 @@
       "theme": "teal"
     },
     {
-      "id": "data-fusion-09042026",
-      "title": "Data Fusion 2026",
-      "type": "conference",
-      "typeLabel": "Конференция",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "start": "2026-04-09T00:00:00+03:00",
-      "venue": "Технологический кластер «Ломоносов», Москва",
-      "speaker": "",
-      "opponent": "Конференция по анализу данных и технологиям ИИ",
-      "directions": [
-        "ai_research"
-      ],
-      "directionLabels": [
-        "ИИ и исследования"
-      ],
-      "summary": "Международная конференция по экономике данных и технологиям ИИ с фокусом на работе с данными и диалоге бизнеса, науки и государства.",
-      "detailPage": "event-data-fusion-09042026.html",
-      "registrationPage": "",
-      "calendarFile": "",
-      "timepad": "",
-      "theme": "blue",
-      "linkedCourse": "ei-research-track",
-      "linkedResearch": "sandbox-hub",
-      "linkedPublication": "research-case-data-fusion",
-      "materials": [
-        "photo",
-        "official-site-text",
-        "archive-note"
-      ]
-    },
-    {
       "id": "gelendzhik",
       "title": "Выездной образовательный маршрут в Геленджик",
       "type": "public_lecture",
@@ -295,6 +263,65 @@
       "materials": [
         "route-program",
         "team-brief"
+      ]
+    },
+    {
+      "id": "nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026",
+      "title": "Психология женщины",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-13T19:00:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Понедельничная лекция"
+      ],
+      "summary": "психология женщины",
+      "detailPage": "event-nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026.html",
+      "feedbackPage": "event-feedback-nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026.html",
+      "videoRequestPage": "event-request.html?event=nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
+    },
+    {
+      "id": "data-fusion-09042026",
+      "title": "Data Fusion 2026",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-09T00:00:00+03:00",
+      "venue": "Технологический кластер «Ломоносов», Москва",
+      "speaker": "",
+      "opponent": "Конференция по анализу данных и технологиям ИИ",
+      "directions": [
+        "ai_research"
+      ],
+      "directionLabels": [
+        "ИИ и исследования"
+      ],
+      "summary": "Международная конференция по экономике данных и технологиям ИИ с фокусом на работе с данными и диалоге бизнеса, науки и государства.",
+      "detailPage": "event-data-fusion-09042026.html",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "blue",
+      "linkedCourse": "ei-research-track",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "research-case-data-fusion",
+      "materials": [
+        "photo",
+        "official-site-text",
+        "archive-note"
       ]
     },
     {
@@ -404,27 +431,27 @@
         "course-bridge"
       ]
     },
-      {
-        "id": "biomechanics",
-        "title": "AI-аналитика гребли и биомеханики",
-        "type": "applied_demo",
-        "typeLabel": "Прикладные разборы",
-        "status": "past",
-        "statusLabel": "Прошедшее",
-        "start": "2026-03-14T18:30:00+03:00",
-        "venue": "Спорт и прикладная аналитика",
-        "speaker": "Команда МИИИИПС",
-        "opponent": "Видеоаналитика / OCR / верификация",
-        "directions": [
-          "biomechanics_sport",
-          "ai_research"
-        ],
-        "directionLabels": [
-          "Биомеханика и спорт",
-          "ИИ и исследования"
-        ],
-        "summary": "Кейс по биомеханике гребли: OCR эргометра, pace/SPM/watts и перенос видеоаналитики на фитнес, ЛФК и командные виды спорта.",
-        "detailPage": "biomechanics-rowing.html",
+    {
+      "id": "biomechanics",
+      "title": "AI-аналитика гребли и биомеханики",
+      "type": "applied_demo",
+      "typeLabel": "Прикладные разборы",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-03-14T18:30:00+03:00",
+      "venue": "Спорт и прикладная аналитика",
+      "speaker": "Команда МИИИИПС",
+      "opponent": "Видеоаналитика / OCR / верификация",
+      "directions": [
+        "biomechanics_sport",
+        "ai_research"
+      ],
+      "directionLabels": [
+        "Биомеханика и спорт",
+        "ИИ и исследования"
+      ],
+      "summary": "Кейс по биомеханике гребли: OCR эргометра, pace/SPM/watts и перенос видеоаналитики на фитнес, ЛФК и командные виды спорта.",
+      "detailPage": "biomechanics-rowing.html",
       "registrationPage": "event-registration.html?event=biomechanics",
       "calendarFile": "",
       "timepad": "https://moonn.timepad.ru/event/3334362/",
