@@ -240,35 +240,6 @@
       ]
     },
     {
-      "id": "psihologiya-otnosheniy-zhenshhina-13042026",
-      "title": "Психология женщины",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "start": "2026-04-13T19:00:00+03:00",
-      "venue": "Культурный центр \"Полярный\", Москва",
-      "speaker": "Татьяна Мунн",
-      "opponent": "Психология женщины",
-      "directions": [
-        "psychology",
-        "lecture_series"
-      ],
-      "directionLabels": [
-        "Психология",
-        "Понедельничная лекция"
-      ],
-      "summary": "Прошедшая открытая лекция цикла «Психология отношений» о женской психологии, самооценке, ролях, личных границах и внутренней опоре",
-      "detailPage": "event-psihologiya-otnosheniy-zhenshhina-13042026.html",
-      "feedbackPage": "event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html",
-      "videoRequestPage": "event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&intent=video",
-      "inviteRequestPage": "event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&intent=invite",
-      "registrationPage": "https://moonn.timepad.ru/event/3921587/",
-      "calendarFile": "assets/calendar/psihologiya-otnosheniy-zhenshhina-13042026.ics",
-      "timepad": "https://moonn.timepad.ru/event/3921587/",
-      "theme": "teal"
-    },
-    {
       "id": "data-fusion-09042026",
       "title": "Data Fusion 2026",
       "type": "conference",
@@ -472,6 +443,33 @@
         "lecture-note",
         "publication-card"
       ]
+    },
+    {
+      "id": "psihologiya-otnosheniy-zhenshhina-13042026",
+      "title": "Психология женщины",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-13T9:10:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Понедельничная лекция"
+      ],
+      "summary": "Прошедшая открытая лекция цикла «Психология отношений» о женской психологии, самооценке, ролях, личных границах и внутренней опоре",
+      "detailPage": "event-psihologiya-otnosheniy-zhenshhina-13042026.html",
+      "feedbackPage": "event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html",
+      "videoRequestPage": "event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
     }
   ]
 }
