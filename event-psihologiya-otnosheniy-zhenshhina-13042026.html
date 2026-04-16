@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Бесплатная Лекция &quot;Психология ОТНОШЕНИЙ. Психология ЖЕНЩИНА&quot; | МИИИИПС</title>
+  <title>Психология женщины | МИИИИПС</title>
   <meta name="x-local-prototype" content="clickable-site-v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -12,6 +12,11 @@
     :root {--bg:#f7f6f1;--surface:#ffffff;--line:#d8ddd9;--ink:#12372f;--muted:#51635d;--accent:#0c4d40;--gold:#8b6417;--shadow:0 20px 44px rgba(18,55,47,.08);--radius:28px;--sticky-offset:118px;}
     * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:var(--bg); color:var(--ink); font-family:Manrope,sans-serif; }
     a { color:inherit; }
+    [data-no-live-photo-treatment="1"] { background:transparent !important; box-shadow:none !important; }
+    [data-no-live-photo-treatment="1"]::before,
+    [data-no-live-photo-treatment="1"]::after { content:none !important; background:none !important; }
+    [data-no-live-photo-treatment="1"] img,
+    img[data-no-live-photo-treatment="1"] { filter:none !important; mix-blend-mode:normal !important; }
     .shell { max-width:1280px; margin:0 auto; padding:0 28px; }
     .topbar { position:sticky; top:0; z-index:40; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
     .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:nowrap; }
@@ -32,6 +37,9 @@
     p { margin:0; color:var(--muted); line-height:1.75; }
     .lead { font-size:18px; max-width:72ch; }
     .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+    .source-note { padding:16px 18px; background:#eef4ef; border:1px solid #d8e7df; border-radius:22px; display:grid; gap:6px; }
+    .source-note small { display:block; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .source-note p { color:#3d504a; font-size:15px; line-height:1.65; }
     .grid-2 { display:grid; grid-template-columns:1.1fr .9fr; gap:22px; }
     .grid-3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
     .stack { display:grid; gap:18px; }
@@ -90,10 +98,10 @@
         <div class="stack" style="gap:10px;">
           <div>
             <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Дата лекции</small>
-            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">13 апреля · 19:00</strong>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">19:00 · 13.04.2026</strong>
           </div>
           <div>
-            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Спикер</small>
+            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Лектор</small>
             <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Татьяна Мунн</strong>
           </div>
           <div>
@@ -102,104 +110,53 @@
           </div>
           <div>
             <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Площадка</small>
-            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Культурный центр "Полярный"</strong>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Культурный центр &quot;Полярный&quot;, Москва</strong>
           </div>
         </div>
         <div class="card" style="padding:16px;">
           <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Статус</small>
-          <strong style="display:block;font:700 22px/1.1 Newsreader,serif;margin-top:6px;">Анонс</strong>
+          <strong style="display:block;font:700 22px/1.1 Newsreader,serif;margin-top:6px;">Прошедшее событие</strong>
         </div>
       </aside>
       <div class="stack event-main">
         <span class="eyebrow">Понедельничная лекция</span>
-        <h1>Бесплатная Лекция &quot;Психология ОТНОШЕНИЙ. Психология ЖЕНЩИНА&quot;</h1>
-        <p class="lead">Бесплатная живая лекция на тему &quot;Психология ОТНОШЕНИЙ&quot; пройдет в Культурном Центре &quot;Полярный&quot; в понедельник 13 апреля с 19.00 до 21.00 — Лекцию читает Эксперт в области эмоционального интеллекта, психологии эмоций и психологии состояний — дипломированный психолог (МГУ) Татьяна Мунн.</p>
-        <div class="hero-actions">
-          <a class="btn secondary" href="assets/calendar/psihologiya-otnosheniy-zhenshhina-13042026.ics">Добавить в календарь</a>
-          <a class="btn primary" href="https://moonn.timepad.ru/event/3921587/" target="_blank" rel="noreferrer">Регистрация на Timepad</a>
-        </div>
+        <h1>Психология женщины</h1>
+        <p class="lead">Прошедшая открытая лекция цикла «Психология отношений» о женской психологии, самооценке, ролях, личных границах и внутренней опоре</p>
+        <div class="hero-actions"><a class="btn secondary" href="conferences.html">К списку мероприятий</a><a class="btn primary" href="#topics">К ключевым положениям</a><a class="btn secondary" href="event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html">Оставить отзыв</a><a class="btn secondary" href="event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&amp;intent=video">Получить видео</a><a class="btn secondary" href="event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&amp;intent=invite">Пригласить лектора</a></div>
         <div class="grid-2" style="margin-top:18px;align-items:start;">
-          <article class="card" style="padding:18px;display:grid;gap:14px;">
-            <img src="assets/images/lectures/miiiips-tatyana-munn-psihologiya-otnosheniy-zhenshhina-13042026.jpg" alt="Психология ОТНОШЕНИЙ. Психология ЖЕНЩИНА" style="width:100%;height:320px;object-fit:cover;border-radius:20px;"/>
+          <article data-no-live-photo-treatment="1" style="padding:0;display:grid;gap:0;background:transparent;border:none;box-shadow:none;">
+            <img src="assets/images/lectures/psihologiya-otnosheniy-zhenshhina-13042026-photo.jpg" alt="Психология женщины" data-no-live-photo-treatment="1" style="display:block;width:100%;height:340px;object-fit:cover;border-radius:20px;"/>
           </article>
           <article class="card" style="padding:18px;display:grid;gap:14px;">
             <span class="badge">О лекции</span>
-            <h3>ПСИХОЛОГИЯ ЖЕНЩИНЫ.</h3>
-            <p>На этой лекции разберем, как устроены женские потребности в близости, принятии и эмоциональной поддержке. Поговорим о том, как тревога, контроль, обида и ожидания влияют на отношения. Обсудим самооценку, внутреннюю опору и то, почему иногда сложно выбирать &quot;подходящее&quot;.</p>
+            <h3>О психологическом контексте встречи</h3>
+            <p>Встреча была выстроена как предметная публичная лекция с аналитическим разбором основной темы и понятий, необходимых для её понимания.</p><p>Основной акцент был сделан на последовательности рассуждений, практической логике материала и выводах, которые можно использовать в дальнейшем разборе темы.</p>
           </article>
         </div>
-        <article class="card" style="padding:18px;display:grid;gap:14px;margin-top:18px;">
-          <span class="badge">Цикл лекций</span>
-          <h3>Цикл лекций &quot;Психология отношений&quot;</h3>
-          <p>Цикл лекций &quot;Психология отношений&quot; о том, как устроены близкие отношения: почему мы выбираем определенных партнеров, как формируется привязанность и из-за чего возникают повторяющиеся сценарии. Мы разберем психологию женщин и мужчин, этапы знакомства и любви, динамику длительных отношений, кризисы и конфликты, тему детских установок, личных границ и любви к себе.</p>
-        </article>
-        <section class="section">
-          <span class="eyebrow">Что на этой встрече</span>
+        <section class="section" id="topics">
+          <span class="eyebrow">Ключевые положения</span>
           <div class="grid-2" style="margin-top:18px;">
-            <article class="card metric"><h3>Важные детали встречи</h3><p>13 апреля 2026 года, понедельник, 19.00 — 21.00. Культурный центр &quot;Полярный&quot;, Москва (метро Бабушкинская). Лектор: Татьяна Мунн (дипломированный психолог МГУ, эксперт в области Эмоционального Интеллекта). Продолжительность: 2 часа. Стоимость: Вход свободный, требуется регистрации.</p></article>
-            <article class="card metric"><h3>Программа цикла</h3><p>Каждая лекция — самодостаточная. Можно прийти разово на любую из лекций.</p></article>
+            <article class="card metric"><h3>Ключевая рамка лекции</h3><p>Лекция собрала основные наблюдения по теме и предложила рассматривать её как психологический процесс, а не как набор случайных впечатлений.</p></article>
           </div>
         </section>
         <section class="section">
-          <span class="eyebrow">Программа цикла</span>
+          <span class="eyebrow">Обратная связь</span>
           <article class="card" style="padding:20px;display:grid;gap:14px;margin-top:18px;">
-            <p>ЦИКЛ ЛЕКЦИЙ &quot;ПСИХОЛОГИЯ ОТНОШЕНИЙ&quot; · Апрель — июнь 2026 года · Понедельники 19.00 — 21.00 · Вход свободный.</p>
-            <ol style="margin:0;padding-left:18px;color:var(--muted);line-height:1.75;">
-              <li>1. Лекция 1: Психология отношений</li>
-              <li>2. Лекция 2: Психология женщины</li>
-              <li>3. Лекция 3: Психология мужчины</li>
-              <li>4. Лекция 4: Как найти идеального партнера</li>
-              <li>5. Лекция 5: Психология знакомства</li>
-              <li>6. Лекция 6: Психология любви</li>
-              <li>7. Лекция 7: Психология длительных отношений</li>
-              <li>8. Лекция 8: Кризисы в отношениях</li>
-              <li>9. Лекция 9: Как детство влияет на наши отношения</li>
-              <li>10. Лекция 10: Психология любви к себе</li>
-              <li>11. Лекция 11: Психология личных границ</li>
-              <li>12. Лекция 12: Психология конфликтов</li>
-              <li>13. Лекция 13: Эмоциональный интеллект в отношениях</li>
-            </ol>
+            <h3>Отзывы помогают корректировать лекционный цикл</h3>
+            <p>После встречи можно оставить короткий отзыв о содержании лекции, организации площадки и том, какие темы стоит развивать дальше. Сообщение попадает в рабочий контур института и помогает улучшать следующие встречи.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html">Перейти к отзыву</a>
+            </div>
           </article>
+        </section>
+        <section class="section">
+          <span class="eyebrow">Продолжение маршрута</span>
+          <div class="grid-2" style="margin-top:18px;"><article class="card metric"><h3>Получить видео встречи</h3><p>Если вам нужен доступ к видеозаписи для личного просмотра, команды или внутреннего обучения, можно оставить короткую заявку. Команда института пришлёт условия доступа и следующий шаг по оплате или выдаче материала.</p><div class="hero-actions"><a class="btn primary" href="event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&amp;intent=video">Получить видео</a></div></article><article class="card metric"><h3>Пригласить лектора</h3><p>Если тема подходит для корпоративной встречи, университета, конференции или закрытого образовательного формата, можно оставить запрос на приглашение лектора. Заявка сразу попадёт в рабочий контур института.</p><div class="hero-actions"><a class="btn primary" href="event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&amp;intent=invite">Оставить заявку</a></div></article></div>
         </section>
         <section class="section">
           <span class="eyebrow">Похожие маршруты</span>
           <div class="grid-3" style="margin-top:18px;">
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <div class="badge">Анонс</div>
-              <h3 style="font-size:28px;">
-Психология мужчины
-</h3>
-              <p>
-20 апреля · лекция цикла
-</p>
-              <div class="hero-actions"><a class="btn secondary" href="
-event-psihologiya-otnosheniy-muzhchina-20042026.html
-">Подробнее</a></div>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <div class="badge">Анонс</div>
-              <h3 style="font-size:28px;">
-Как найти идеального партнера
-</h3>
-              <p>
-27 апреля · лекция цикла
-</p>
-              <div class="hero-actions"><a class="btn secondary" href="
-event-kak-nayti-idealnogo-partnera-27042026.html
-">Подробнее</a></div>
-            </article>
-            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;">
-              <div class="badge">Анонс</div>
-              <h3 style="font-size:28px;">
-Психология знакомства
-</h3>
-              <p>
-4 мая · лекция цикла
-</p>
-              <div class="hero-actions"><a class="btn secondary" href="
-event-psihologiya-znakomstva-04052026.html
-">Подробнее</a></div>
-            </article>
+            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;"><div class="badge">Анонс</div><h3 style="font-size:28px;">Открытая лекция в Парке Горького</h3><p>Публичный цикл лекций и городские площадки</p><div class="hero-actions"><a class="btn secondary" href="event-parkgorkogo.html">Подробнее</a></div></article><article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;"><div class="badge">Прошедшее</div><h3 style="font-size:28px;">Психология мужчины: доверие и общение</h3><p>Архив понедельничной лекции института</p><div class="hero-actions"><a class="btn secondary" href="event-psychology-men.html">Подробнее</a></div></article><article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;"><div class="badge">Прошедшее</div><h3 style="font-size:28px;">AI-аналитика гребли и биомеханики</h3><p>Прикладной исследовательский маршрут</p><div class="hero-actions"><a class="btn secondary" href="biomechanics-rowing.html">Подробнее</a></div></article>
           </div>
         </section>
       </div>
@@ -207,10 +164,12 @@ event-psihologiya-znakomstva-04052026.html
   </main>
   <footer class="footer shell">
     <div class="contact-grid">
-      <a class="contact-tile" href="https://moonn.ru/" target="_blank" rel="noreferrer"><small>Сайт</small><strong>moonn.ru</strong></a>
-      <a class="contact-tile" href="https://t.me/Tatiana_Moonn" target="_blank" rel="noreferrer"><small>Telegram</small><strong>@Tatiana_Moonn</strong></a>
-      <a class="contact-tile" href="https://wa.me/79777770303?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0." target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>Написать организатору</strong></a>
-      <a class="contact-tile" href="https://t.me/moonn_official" target="_blank" rel="noreferrer"><small>Канал</small><strong>Новости и анонсы</strong></a>
+      <div class="contact-tile"><small>Лектор</small><strong>Татьяна Мунн</strong></div>
+      <a class="contact-tile" href="conferences.html"><small>Архив</small><strong>Все мероприятия</strong></a>
+      <a class="contact-tile" href="event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html"><small>Обратная связь</small><strong>Оставить отзыв</strong></a>
+      <a class="contact-tile" href="event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&amp;intent=video"><small>Видео</small><strong>Запросить доступ</strong></a>
+      <a class="contact-tile" href="event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&amp;intent=invite"><small>Приглашение</small><strong>Позвать лектора</strong></a>
+      <a class="contact-tile" href="join.html"><small>Контур института</small><strong>Подать заявку</strong></a>
     </div>
   </footer>
 </body>
