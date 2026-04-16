@@ -839,6 +839,12 @@
     });
     if (!event) return;
 
+    const hasCanonicalFollowupSection = Array.from(document.querySelectorAll('.event-main .card.metric h3')).some(function (heading) {
+      const text = (heading.textContent || '').trim();
+      return text === 'Получить видео встречи' || text === 'Пригласить лектора';
+    });
+    if (hasCanonicalFollowupSection) return;
+
     const primaryActions = document.querySelector('.event-main .hero-actions') || document.querySelector('.hero .hero-actions');
     if (primaryActions && !primaryActions.querySelector('[data-event-video-request]')) {
       const videoHref = event.videoRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=video');
