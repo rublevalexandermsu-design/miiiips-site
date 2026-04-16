@@ -846,7 +846,12 @@
     if (hasCanonicalFollowupSection) return;
 
     const primaryActions = document.querySelector('.event-main .hero-actions') || document.querySelector('.hero .hero-actions');
-    if (primaryActions && !primaryActions.querySelector('[data-event-video-request]')) {
+    const hasCanonicalTopRequests = primaryActions && Array.from(primaryActions.querySelectorAll('a')).some(function (link) {
+      const text = (link.textContent || '').trim();
+      const href = String(link.getAttribute('href') || '');
+      return text === 'Получить видео' || text === 'Пригласить лектора' || href.indexOf('intent=video') >= 0 || href.indexOf('intent=invite') >= 0;
+    });
+    if (primaryActions && !hasCanonicalTopRequests && !primaryActions.querySelector('[data-event-video-request]')) {
       const videoHref = event.videoRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=video');
       const inviteHref = event.inviteRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=invite');
       const video = document.createElement('a');
