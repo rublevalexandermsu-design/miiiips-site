@@ -266,33 +266,6 @@
       ]
     },
     {
-      "id": "nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026",
-      "title": "Психология женщины",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "start": "2026-04-13T19:00:00+03:00",
-      "venue": "Публичная площадка института",
-      "speaker": "Татьяна Мунн",
-      "opponent": "Понедельничная лекция",
-      "directions": [
-        "lecture_series"
-      ],
-      "directionLabels": [
-        "Понедельничная лекция"
-      ],
-      "summary": "психология женщины",
-      "detailPage": "event-nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026.html",
-      "feedbackPage": "event-feedback-nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026.html",
-      "videoRequestPage": "event-request.html?event=nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026&intent=video",
-      "inviteRequestPage": "event-request.html?event=nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026&intent=invite",
-      "registrationPage": "",
-      "calendarFile": "",
-      "timepad": "",
-      "theme": "teal"
-    },
-    {
       "id": "data-fusion-09042026",
       "title": "Data Fusion 2026",
       "type": "conference",
@@ -496,6 +469,33 @@
         "lecture-note",
         "publication-card"
       ]
+    },
+    {
+      "id": "nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026",
+      "title": "Психология женщины",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-13T9:10:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Понедельничная лекция"
+      ],
+      "summary": "Давайте познакомимся Я всегда в начале лекции спрашиваю кто уже знаком кто первый раз Поднимите руки Кто первый раз на лекции и до этого нет хорошо и кто уже был и меня видел Спасибо большое лояльность и интерес у нас се",
+      "detailPage": "event-nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026.html",
+      "feedbackPage": "event-feedback-nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026.html",
+      "videoRequestPage": "event-request.html?event=nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=nazvanie-meropriyatiya-psihologiya-zhenschiny-data-13042026&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
     }
   ]
 }
