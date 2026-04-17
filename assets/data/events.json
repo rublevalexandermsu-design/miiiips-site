@@ -240,27 +240,27 @@
       ]
     },
     {
-      "id": "reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026",
-      "title": "Решение проблем и принятия решений. Часть 2",
+      "id": "ideya-takaya-chto-ya-registr-4fec521510-17042026",
+      "title": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
       "status": "past",
       "statusLabel": "Прошедшее",
-      "start": "2026-04-15T19:00:00+03:00",
-      "venue": "Публичная площадка института",
-      "speaker": "Татьяна Мунн преподаватель МГУ",
-      "opponent": "Лекция по средам",
+      "start": "2026-04-17T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
       "directions": [
         "lecture_series"
       ],
       "directionLabels": [
-        "Лекция по средам"
+        "Понедельничная лекция"
       ],
-      "summary": "Решение проблем и принятия решений. Часть 2",
-      "detailPage": "event-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html",
-      "feedbackPage": "event-feedback-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html",
-      "videoRequestPage": "event-request.html?event=reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026&intent=video",
-      "inviteRequestPage": "event-request.html?event=reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026&intent=invite",
+      "summary": "идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы была история когда вернуться: завтра",
+      "detailPage": "event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
+      "feedbackPage": "event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
+      "videoRequestPage": "event-request.html?event=ideya-takaya-chto-ya-registr-4fec521510-17042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=ideya-takaya-chto-ya-registr-4fec521510-17042026&intent=invite",
       "registrationPage": "",
       "calendarFile": "",
       "timepad": "",
@@ -470,6 +470,33 @@
         "lecture-note",
         "publication-card"
       ]
+    },
+    {
+      "id": "psihologiya-otnosheniy-zhenshhina-13042026",
+      "title": "Психология женщины",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-13T9:10:00+03:00",
+      "venue": "Публичная площадка института",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Понедельничная лекция",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Понедельничная лекция"
+      ],
+      "summary": "Прошедшая открытая лекция цикла «Психология отношений» о женской психологии, самооценке, ролях, личных границах и внутренней опоре",
+      "detailPage": "event-psihologiya-otnosheniy-zhenshhina-13042026.html",
+      "feedbackPage": "event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html",
+      "videoRequestPage": "event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=psihologiya-otnosheniy-zhenshhina-13042026&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "",
+      "timepad": "",
+      "theme": "teal"
     }
   ]
 }
