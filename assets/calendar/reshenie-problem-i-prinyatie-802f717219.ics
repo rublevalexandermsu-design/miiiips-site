@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:reshenie-problem-i-prinyatie-f9d807d260-15042026@miiiips.ru
+DTSTAMP:20260418T094827Z
+DTSTART;TZID=Europe/Moscow:20260415T190000
+DTEND;TZID=Europe/Moscow:20260415T210000
+SUMMARY:Решение проблем и принятие решений часть 2
+LOCATION:Культурный центр "Полярный", Москва
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
+URL:https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
+END:VEVENT
+END:VCALENDAR

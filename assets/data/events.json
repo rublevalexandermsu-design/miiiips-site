@@ -267,6 +267,33 @@
       "theme": "teal"
     },
     {
+      "id": "reshenie-problem-i-prinyatie-f9d807d260-15042026",
+      "title": "Решение проблем и принятие решений часть 2",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-15T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Лекция по средам",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Лекция по средам"
+      ],
+      "summary": "Решение проблем и принятие решений часть 2",
+      "detailPage": "event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+      "feedbackPage": "event-feedback-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+      "videoRequestPage": "event-request.html?event=reshenie-problem-i-prinyatie-f9d807d260-15042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=reshenie-problem-i-prinyatie-f9d807d260-15042026&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "assets/calendar/reshenie-problem-i-prinyatie-802f717219.ics",
+      "timepad": "",
+      "theme": "teal"
+    },
+    {
       "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
       "title": "Поддержка бизнеса, методы развития публичных выступлений",
       "type": "public_event",
