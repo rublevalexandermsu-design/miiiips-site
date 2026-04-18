@@ -267,6 +267,33 @@
       "theme": "teal"
     },
     {
+      "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
+      "title": "Поддержка бизнеса, методы развития публичных выступлений",
+      "type": "public_event",
+      "typeLabel": "Мероприятие",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-14T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Отдельное мероприятие",
+      "directions": [
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Отдельное мероприятие"
+      ],
+      "summary": "Поддержка бизнеса, методы развития публичных выступлений",
+      "detailPage": "event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+      "feedbackPage": "event-feedback-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+      "videoRequestPage": "event-request.html?event=podderzhka-biznesa-metody-ra-c4bc535ec7-14042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=podderzhka-biznesa-metody-ra-c4bc535ec7-14042026&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "assets/calendar/podderzhka-biznesa-metody-ra-9733a847a3.ics",
+      "timepad": "",
+      "theme": "teal"
+    },
+    {
       "id": "psihologiya-otnosheniy-zhenshhina-13042026",
       "title": "Психология женщины",
       "type": "public_lecture",
@@ -497,33 +524,6 @@
         "lecture-note",
         "publication-card"
       ]
-    },
-    {
-      "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
-      "title": "Поддержка бизнеса, методы развития публичных выступлений",
-      "type": "public_event",
-      "typeLabel": "Мероприятие",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "start": "2026-04-14T1:00:00+03:00",
-      "venue": "Культурный центр \"Полярный\", Москва",
-      "speaker": "Татьяна Мунн",
-      "opponent": "Отдельное мероприятие",
-      "directions": [
-        "lecture_series"
-      ],
-      "directionLabels": [
-        "Отдельное мероприятие"
-      ],
-      "summary": "Поддержка бизнеса, методы развития публичных выступлений",
-      "detailPage": "event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
-      "feedbackPage": "event-feedback-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
-      "videoRequestPage": "event-request.html?event=podderzhka-biznesa-metody-ra-c4bc535ec7-14042026&intent=video",
-      "inviteRequestPage": "event-request.html?event=podderzhka-biznesa-metody-ra-c4bc535ec7-14042026&intent=invite",
-      "registrationPage": "",
-      "calendarFile": "",
-      "timepad": "",
-      "theme": "teal"
     }
   ]
 }
