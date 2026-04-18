@@ -10,6 +10,7 @@
     "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
     "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"
   ];
+  const ALWAYS_VISIBLE_TYPES = new Set(["public_event"]);
 
   function safe(text) {
     return String(text || "").replace(/[&<>"']/g, function (char) {
@@ -64,11 +65,15 @@
     const fallbackDirections = Array.from(new Set(events.flatMap(function (event) {
       return event.directions || [];
     })));
+    const selectedTypes = params.get("types") ? params.get("types").split(",") : (typeFilters.length ? typeFilters : uniqueEventValues(events, "type"));
+    ALWAYS_VISIBLE_TYPES.forEach(function (type) {
+      if (!selectedTypes.includes(type)) selectedTypes.push(type);
+    });
     return {
       currentMonth: new Date(firstDate.getFullYear(), firstDate.getMonth(), 1),
       selectedDate: selectedDate,
       search: search,
-      types: new Set(params.get("types") ? params.get("types").split(",") : (typeFilters.length ? typeFilters : uniqueEventValues(events, "type"))),
+      types: new Set(selectedTypes),
       statuses: new Set(params.get("statuses") ? params.get("statuses").split(",") : (statusFilters.length ? statusFilters : uniqueEventValues(events, "status"))),
       directions: new Set(params.get("directions") ? params.get("directions").split(",") : (directionFilters.length ? directionFilters : fallbackDirections)),
       quickView: params.get("quick") !== "0"
@@ -107,7 +112,8 @@
     const params = new URLSearchParams();
     if (state.selectedDate) params.set("date", state.selectedDate);
     if (state.search) params.set("q", state.search);
-    params.set("types", Array.from(state.types).join(","));
+    const types = Array.from(new Set([...state.types, ...ALWAYS_VISIBLE_TYPES]));
+    params.set("types", types.join(","));
     params.set("statuses", Array.from(state.statuses).join(","));
     params.set("directions", Array.from(state.directions).join(","));
     params.set("quick", state.quickView ? "1" : "0");
@@ -126,7 +132,7 @@
       (event.directionLabels || []).join(" ")
     ].join(" ").toLowerCase();
     const searchPass = !state.search || haystack.includes(state.search.toLowerCase());
-    const typePass = state.types.has(event.type);
+    const typePass = state.types.has(event.type) || (ALWAYS_VISIBLE_TYPES.has(event.type) && state.selectedDate);
     const statusPass = state.statuses.has(status);
     const directionPass = (event.directions || []).some(function (direction) {
       return state.directions.has(direction);
