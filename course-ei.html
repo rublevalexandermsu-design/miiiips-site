@@ -6,53 +6,55 @@
   <title>Эмоциональный интеллект в переговорах (24ч) | МИИИИПС</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;500;700;800&family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <style>
     :root{
-      --page:#ffffff;
-      --hero:#d8e9f5;
-      --nav:#163e72;
-      --nav-strong:#0f3162;
-      --text:#1b1e23;
-      --muted:#5b6675;
-      --ink:#0e3d73;
-      --accent:#a01737;
-      --accent-2:#1b57a6;
+      --bg:#f7f6f1;
       --surface:#ffffff;
-      --surface-soft:#f5f7fa;
-      --line:#d7dee8;
-      --chip:#e9eef5;
-      --shadow:0 8px 26px rgba(17,35,62,.10);
-      --radius:14px;
+      --line:#d8ddd9;
+      --ink:#12372f;
+      --muted:#51635d;
+      --accent:#0c4d40;
+      --gold:#8b6417;
+      --hero:#edf4f1;
+      --shadow:0 20px 44px rgba(18,55,47,.08);
+      --radius:28px;
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
     body{
       margin:0;
-      background:var(--page);
+      background:var(--bg);
       color:var(--text);
       font:16px/1.6 Manrope,sans-serif;
     }
     a{color:inherit}
+    main section[id]{scroll-margin-top:110px}
     h1,h2,h3,h4{
       margin:0;
       font-family:Newsreader,serif;
-      letter-spacing:-.02em;
-      color:#161b22;
+      letter-spacing:-.03em;
+      color:var(--ink);
     }
-    p{margin:0;color:var(--muted)}
-    ul{margin:0;padding-left:20px;color:var(--muted)}
-    .shell{max-width:1600px;margin:0 auto;padding:0 58px}
-    .topline{
-      background:#fff;
-      border-bottom:1px solid rgba(17,35,62,.06);
+    p{margin:0;color:var(--muted);line-height:1.72}
+    ul{margin:0;padding-left:20px;color:var(--muted);line-height:1.72}
+    .shell{max-width:1320px;margin:0 auto;padding:0 28px}
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:70;
+      background:rgba(247,246,241,.82);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid rgba(18,55,47,.08);
+      box-shadow:0 12px 30px rgba(18,55,47,.05);
     }
-    .topline-inner{
-      min-height:140px;
-      display:grid;
-      grid-template-columns:auto minmax(320px,1fr) auto auto;
-      gap:28px;
+    .topbar-inner{
+      min-height:84px;
+      display:flex;
       align-items:center;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:nowrap;
     }
     .logo{
       display:flex;
@@ -63,110 +65,93 @@
       min-width:0;
     }
     .logo-mark{
-      width:74px;
-      height:74px;
+      width:68px;
+      height:68px;
       border-radius:50%;
-      border:2px solid #2f63b6;
+      border:2px solid var(--accent);
       display:grid;
       place-items:center;
-      font:800 16px/1 Public Sans,sans-serif;
-      color:#2f63b6;
+      font:800 15px/1 Public Sans,sans-serif;
+      color:var(--accent);
       flex:0 0 auto;
     }
     .logo-copy{
-      font:700 16px/1.35 "Public Sans",sans-serif;
-      color:#2f63b6;
-      max-width:320px;
+      font:700 15px/1.35 "Public Sans",sans-serif;
+      color:var(--accent);
+      max-width:300px;
     }
-    .search{
-      display:grid;
-      grid-template-columns:1fr 76px;
-      border:1px solid #d7dfe8;
-      border-radius:6px;
-      overflow:hidden;
-      min-width:0;
-    }
-    .search input{
-      border:none;
-      padding:14px 18px;
-      font:500 16px/1.4 Manrope,sans-serif;
-      outline:none;
-    }
-    .search button{
-      border:none;
-      background:#a01c3f;
-      color:#fff;
-      font-size:26px;
-      cursor:pointer;
-    }
-    .top-contact{
-      display:grid;
-      gap:4px;
-      justify-items:start;
-      color:#153d77;
-    }
-    .top-contact strong{
-      font:700 24px/1.05 "Public Sans",sans-serif;
-      color:#0f4f9f;
-    }
-    .top-actions{
-      display:grid;
-      gap:8px;
-      justify-items:end;
-    }
-    .ask-btn{
-      padding:14px 18px;
-      border-radius:6px;
-      border:1px solid #a01737;
-      color:#a01737;
-      background:#fff;
-      font:700 15px/1 Public Sans,sans-serif;
-      cursor:pointer;
-      text-decoration:none;
-    }
-    .vision-link{
-      font:400 14px/1.3 Manrope,sans-serif;
-      color:#2d4a71;
-      text-decoration:underline;
-    }
-    .navline{
-      background:var(--nav);
-      color:#fff;
-      border-bottom:1px solid rgba(255,255,255,.12);
-    }
-    .navline-inner{
-      min-height:62px;
+    .nav{
       display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:18px;
+      flex:1 1 auto;
       flex-wrap:wrap;
+      gap:14px 20px;
+      align-items:center;
+      justify-content:flex-start;
+      min-width:0;
+      overflow:auto;
+      scrollbar-width:none;
     }
-    .navline a{
-      color:#fff;
+    .nav::-webkit-scrollbar{display:none}
+    .nav a{
       text-decoration:none;
-      font:700 14px/1.2 "Public Sans",sans-serif;
-      padding:18px 22px;
-      border-left:1px solid rgba(255,255,255,.14);
-      text-align:center;
+      font:700 11px/1.3 "Public Sans",sans-serif;
+      letter-spacing:.09em;
+      text-transform:uppercase;
+      color:rgba(18,55,47,.68);
+      padding-bottom:6px;
+      border-bottom:2px solid transparent;
     }
-    .navline a:first-child{border-left:none}
-    .navline a.active{background:var(--nav-strong)}
+    .nav a.active,.nav a:hover{
+      color:var(--accent);
+      border-bottom-color:var(--gold);
+    }
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:14px 18px;
+      border-radius:999px;
+      text-decoration:none;
+      border:1px solid transparent;
+      font:700 12px/1.2 "Public Sans",sans-serif;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+    .btn.primary{
+      background:var(--accent);
+      color:#fff;
+      box-shadow:0 14px 28px rgba(12,77,64,.16);
+    }
+    .btn.secondary{
+      background:transparent;
+      color:var(--accent);
+      border-color:rgba(18,55,47,.16);
+    }
+    .btn.ghost{
+      background:rgba(12,77,64,.08);
+      color:var(--accent);
+    }
     .hero-wrap{
-      background:var(--hero);
-      padding:28px 0 30px;
-      border-bottom:1px solid rgba(22,62,114,.06);
+      background:transparent;
+      padding:10px 0 24px;
     }
     .breadcrumbs{
-      color:#3f577a;
+      color:#74837e;
       font:400 15px/1.5 Manrope,sans-serif;
-      margin-bottom:26px;
+      margin-bottom:20px;
     }
     .hero-title{
-      font:600 clamp(38px,3.9vw,62px)/1.08 "Public Sans",sans-serif;
-      color:#161b22;
-      margin-bottom:28px;
-      max-width:14ch;
+      font:700 clamp(42px,4.6vw,74px)/1.02 Newsreader,serif;
+      color:var(--ink);
+      margin-bottom:24px;
+      max-width:15ch;
     }
     .hero-panel{
       display:grid;
@@ -174,13 +159,13 @@
       gap:0;
       border-radius:var(--radius);
       overflow:hidden;
-      border:1px solid rgba(17,35,62,.10);
+      border:1px solid var(--line);
       background:#fff;
       box-shadow:var(--shadow);
       position:relative;
     }
     .hero-left{
-      padding:48px 56px 42px;
+      padding:44px 50px 40px;
       background:#fff;
       display:grid;
       gap:22px;
@@ -192,12 +177,12 @@
       color:#1d2740;
       font:500 16px/1.7 Manrope,sans-serif;
     }
-    .hero-meta strong{font-weight:800;color:#111827}
+    .hero-meta strong{font-weight:800;color:var(--ink)}
     .hero-right{
-      background:#f4f4f4;
+      background:linear-gradient(180deg,#f7f8f2 0%, #f1f4ee 100%);
       padding:42px 34px 34px;
       position:relative;
-      border-left:1px solid rgba(17,35,62,.08);
+      border-left:1px solid var(--line);
     }
     .discount-badge{
       position:absolute;
@@ -206,7 +191,7 @@
       width:108px;
       height:108px;
       border-radius:50%;
-      background:#0f5f9d;
+      background:var(--accent);
       color:#fff;
       display:flex;
       flex-direction:column;
@@ -224,7 +209,7 @@
       margin:4px 0;
     }
     .finance{
-      color:#c0c0c0;
+      color:#74837e;
       font:700 16px/1.2 "Public Sans",sans-serif;
       margin:6px 0 16px;
     }
@@ -236,18 +221,18 @@
     .finance-card{
       background:#fff;
       border-radius:12px;
-      border:1px solid rgba(17,35,62,.06);
+      border:1px solid var(--line);
       padding:16px 18px;
       box-shadow:0 4px 12px rgba(17,35,62,.04);
     }
     .finance-card strong{
       font:800 18px/1.2 "Public Sans",sans-serif;
       display:block;
-      color:#161b22;
+      color:var(--ink);
     }
     .finance-card span{
       display:block;
-      color:#3a4a63;
+      color:#44534e;
       font:400 15px/1.35 Manrope,sans-serif;
       margin-top:4px;
     }
@@ -272,7 +257,7 @@
     }
     .feature{
       text-align:center;
-      color:#1c263a;
+      color:#31433c;
       padding:16px 8px 10px;
     }
     .feature .icon{
@@ -280,7 +265,7 @@
       height:72px;
       margin:0 auto 14px;
       border-radius:18px;
-      background:#2c60b0;
+      background:var(--accent);
       color:#fff;
       display:grid;
       place-items:center;
@@ -288,15 +273,15 @@
       box-shadow:var(--shadow);
     }
     .feature p{
-      color:#26334b;
+      color:#31433c;
       font:800 16px/1.35 "Public Sans",sans-serif;
     }
     .banner{
       margin:24px auto 10px;
       border-radius:12px;
       overflow:hidden;
-      background:linear-gradient(90deg,#e4edf8 0%, #dce9f5 45%, #e8f0fb 100%);
-      border:1px solid rgba(17,35,62,.08);
+      background:linear-gradient(90deg,#e8efe8 0%, #f0f4ea 45%, #e4ede5 100%);
+      border:1px solid var(--line);
       padding:16px 18px;
       display:grid;
       grid-template-columns:1.2fr auto auto;
@@ -306,15 +291,15 @@
     }
     .banner h2{
       font:800 clamp(26px,2.4vw,44px)/1.05 "Public Sans",sans-serif;
-      color:#183d7a;
+      color:var(--ink);
     }
     .banner p{
-      color:#294366;
+      color:#51635d;
       font:500 16px/1.5 Manrope,sans-serif;
       margin-top:8px;
     }
     .banner .cta{
-      background:#a01737;
+      background:var(--accent);
       color:#fff;
       border:none;
       border-radius:10px;
@@ -332,20 +317,20 @@
       flex-wrap:wrap;
       gap:0;
       justify-content:space-between;
-      border-bottom:1px solid #d9dfe7;
+      border-bottom:1px solid var(--line);
       margin:10px 0 26px;
     }
     .tabs a{
       text-decoration:none;
-      color:#6d7483;
+      color:#74837e;
       padding:16px 10px 14px;
       font:700 14px/1.2 "Public Sans",sans-serif;
       text-transform:uppercase;
       white-space:nowrap;
     }
     .tabs a.active{
-      color:#24334f;
-      border-bottom:2px solid #a0a9b8;
+      color:var(--ink);
+      border-bottom:2px solid var(--gold);
       margin-bottom:-1px;
     }
     .section{
@@ -354,12 +339,12 @@
     .section h2{
       font:700 clamp(28px,2.8vw,44px)/1.15 "Public Sans",sans-serif;
       margin-bottom:16px;
-      color:#161b22;
+      color:var(--ink);
     }
     .section .intro{
       max-width:1160px;
       font:400 18px/1.65 Manrope,sans-serif;
-      color:#22314a;
+      color:#44534e;
       margin-bottom:18px;
     }
     .three-up{
@@ -368,15 +353,16 @@
       gap:18px;
     }
     .soft-card{
-      background:#f2f4f7;
+      background:linear-gradient(180deg,#fbfbf8 0%, #f3f1ea 100%);
       border-radius:18px;
       padding:24px 22px;
       min-height:144px;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
+      border:1px solid rgba(216,221,217,.75);
     }
     .soft-card h3{
       font:700 24px/1.1 "Public Sans",sans-serif;
       margin-bottom:12px;
+      color:var(--ink);
     }
     .soft-card p,.soft-card li{
       color:#28364e;
@@ -410,13 +396,13 @@
       width:180px;
       height:auto;
       display:block;
-      border:1px solid #b8cee7;
+      border:1px solid var(--line);
       box-shadow:0 8px 18px rgba(17,35,62,.08);
     }
     .question-band{
       background:var(--hero);
-      border-top:1px solid rgba(17,35,62,.06);
-      border-bottom:1px solid rgba(17,35,62,.06);
+      border-top:1px solid rgba(18,55,47,.06);
+      border-bottom:1px solid rgba(18,55,47,.06);
       padding:18px 0;
       margin:24px 0;
     }
@@ -428,12 +414,12 @@
     }
     .question-band strong{
       font:700 16px/1.45 "Public Sans",sans-serif;
-      color:#182d4f;
+      color:var(--ink);
     }
     .question-band .cta{
       padding:14px 26px;
       border-radius:6px;
-      background:#a01737;
+      background:var(--accent);
       color:#fff;
       font:800 16px/1 Public Sans,sans-serif;
       text-decoration:none;
@@ -442,19 +428,19 @@
     }
     .details{
       margin-top:8px;
-      border-top:1px solid #d5dde8;
-      border-bottom:1px solid #d5dde8;
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
     }
     .detail-row{
       padding:14px 4px;
-      border-top:1px solid #d5dde8;
+      border-top:1px solid var(--line);
     }
     .detail-row:first-child{border-top:none}
     .detail-row summary{
       list-style:none;
       cursor:pointer;
       font:700 15px/1.4 "Public Sans",sans-serif;
-      color:#17223a;
+      color:var(--ink);
       display:flex;
       align-items:center;
       justify-content:space-between;
@@ -463,7 +449,7 @@
     .detail-row summary::-webkit-details-marker{display:none}
     .detail-row p{
       margin-top:10px;
-      color:#2f3e58;
+      color:#44534e;
       font-size:16px;
     }
     .step-grid{
@@ -473,7 +459,7 @@
     }
     .step{
       background:#fff;
-      border:1px solid #d7dee8;
+      border:1px solid var(--line);
       border-radius:10px;
       padding:18px 18px 16px;
       box-shadow:var(--shadow);
@@ -483,7 +469,7 @@
       width:28px;
       height:28px;
       border-radius:50%;
-      background:#2c60b0;
+      background:var(--accent);
       color:#fff;
       display:grid;
       place-items:center;
@@ -509,10 +495,10 @@
       align-items:center;
       gap:18px;
       font:700 16px/1.5 "Public Sans",sans-serif;
-      color:#182d4f;
+      color:var(--ink);
     }
     .bottom-band-inner .cta{
-      background:#a01737;
+      background:var(--accent);
       color:#fff;
       padding:14px 24px;
       border-radius:4px;
@@ -526,15 +512,15 @@
       gap:18px;
     }
     .pricing-card{
-      background:#f2f4f7;
+      background:linear-gradient(180deg,#fbfbf8 0%, #f3f1ea 100%);
       border-radius:6px;
       padding:18px 18px 16px;
-      border:1px solid rgba(17,35,62,.08);
+      border:1px solid var(--line);
       min-height:176px;
     }
     .pricing-card h3{
       font:700 16px/1.35 "Public Sans",sans-serif;
-      color:#182d4f;
+      color:var(--ink);
       margin-bottom:10px;
     }
     .pricing-card ul{
@@ -547,27 +533,27 @@
     .pricing-card li{
       position:relative;
       padding-left:16px;
-      color:#2f3f5c;
+      color:#44534e;
       font-size:14px;
     }
     .pricing-card li::before{
       content:"✓";
       position:absolute;
       left:0;
-      color:#1a5da8;
+      color:var(--accent);
       font-weight:800;
     }
     .form-section{
       background:var(--hero);
       padding:42px 0 36px;
       margin-top:28px;
-      border-top:1px solid rgba(17,35,62,.06);
+      border-top:1px solid rgba(18,55,47,.06);
     }
     .form-title{
       text-align:center;
       font:700 clamp(26px,2.5vw,38px)/1.2 "Public Sans",sans-serif;
       margin-bottom:28px;
-      color:#15203b;
+      color:var(--ink);
     }
     .enroll-grid{
       display:grid;
@@ -576,13 +562,13 @@
       align-items:start;
     }
     .price-box{
-      color:#173b72;
+      color:var(--ink);
       font:400 16px/1.6 Manrope,sans-serif;
     }
     .price-box strong{
       display:block;
       font:800 42px/1 Public Sans,sans-serif;
-      color:#173b72;
+      color:var(--ink);
       margin:8px 0;
     }
     .old-price{
@@ -594,27 +580,27 @@
       display:inline-block;
       margin-top:8px;
       color:#fff;
-      background:#0f5f9d;
+      background:var(--accent);
       padding:8px 12px;
       border-radius:999px;
       font:700 12px/1 Public Sans,sans-serif;
     }
     .form-card{
-      background:#0f77bd;
+      background:#0c4d40;
       color:#fff;
       border-radius:10px;
       padding:18px 18px 14px;
       box-shadow:var(--shadow);
     }
     .form-card .field label{
-      color:#e9f3ff;
+      color:#edf4f1;
     }
     .form-card input,.form-card select,.form-card textarea{
       border:none;
       border-radius:2px;
       padding:10px 12px;
       font:500 14px/1.4 Manrope,sans-serif;
-      color:#15203b;
+      color:var(--ink);
       background:#fff;
     }
     .form-card textarea{min-height:98px}
@@ -623,7 +609,7 @@
       border:none;
       border-radius:2px;
       padding:13px 16px;
-      background:#a01737;
+      background:var(--accent);
       color:#fff;
       font:800 16px/1 Public Sans,sans-serif;
     }
@@ -632,7 +618,7 @@
       gap:8px;
       margin-top:10px;
       font-size:12px;
-      color:#eaf3ff;
+      color:#edf4f1;
     }
     .checkline label{
       display:flex;
@@ -643,7 +629,7 @@
     .benefits{
       display:grid;
       gap:20px;
-      color:#173b72;
+      color:#44534e;
     }
     .benefit{
       display:grid;
@@ -653,26 +639,26 @@
     }
     .benefit .glyph{
       font-size:26px;
-      color:#0f5f9d;
+      color:var(--accent);
       line-height:1;
     }
     .benefit h4{
       font:700 16px/1.35 "Public Sans",sans-serif;
-      color:#173b72;
+      color:var(--ink);
       margin-bottom:4px;
     }
     .benefit p{
-      color:#173b72;
+      color:#44534e;
       font-size:14px;
       line-height:1.55;
     }
     .footer{
-      background:#0e2f5f;
-      color:#fff;
+      background:#12372f;
+      color:#f9f9f9;
       padding:28px 0 38px;
       margin-top:36px;
     }
-    .footer p{color:rgba(255,255,255,.8)}
+    .footer p{color:rgba(249,249,249,.75)}
     .hidden-system,[hidden]{display:none !important;}
     .floating-map,.miiiips-support-fab,.miiiips-support-panel,.miiiips-digest-prompt,
     #codex-page-map-toggle,#codex-page-map-panel,.miiiips-mobile-dock,.miiiips-mobile-sheet{
@@ -680,22 +666,17 @@
     }
     body{padding-bottom:0 !important;}
     @media (max-width: 1180px){
-      .topline-inner{grid-template-columns:1fr 1fr;gap:16px 20px;padding:18px 0}
-      .top-actions{justify-items:start}
+      .topbar-inner{flex-direction:column;align-items:flex-start;padding:18px 0}
       .hero-panel,.enroll-grid{grid-template-columns:1fr}
-      .hero-right{border-left:none;border-top:1px solid rgba(17,35,62,.08)}
+      .hero-right{border-left:none;border-top:1px solid var(--line)}
       .feature-row,.three-up,.step-grid,.pricing,.two-col{grid-template-columns:1fr 1fr}
     }
     @media (max-width: 760px){
       .shell{padding:0 16px}
-      .topline-inner,.navline-inner,.banner,.question-band-inner,.bottom-band-inner{grid-template-columns:1fr}
-      .topline-inner{display:grid}
-      .search{grid-template-columns:1fr 60px}
+      .topbar-inner,.banner,.question-band-inner,.bottom-band-inner{display:grid}
+      .nav{display:none}
       .logo-mark{width:62px;height:62px}
       .logo-copy{font-size:14px}
-      .top-contact strong{font-size:20px}
-      .top-contact,.top-actions{justify-items:start}
-      .navline a{padding:14px 14px;border-left:none}
       .hero-wrap{padding-top:20px}
       .hero-left,.hero-right{padding:26px 18px}
       .hero-title{font-size:36px}
@@ -715,41 +696,29 @@
   <link rel="canonical" href="https://miiiips.ru/course-ei.html" />
 </head>
 <body>
-  <header class="topline">
-    <div class="shell topline-inner">
-      <a class="logo" href="index.html" aria-label="МИИИИПС">
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="logo" href="index.html">
         <div class="logo-mark">МИ</div>
-        <div class="logo-copy">Научно-образовательная платформа института<br/>для программ и маршрутов обучения</div>
+        <div class="logo-copy">МИИИИПС<br/>Международный институт исследований</div>
       </a>
-      <form class="search" action="course-ei.html" method="get" aria-label="Поиск по программам">
-        <input type="search" name="q" placeholder="Поиск по программам"/>
-        <button type="submit">⌕</button>
-      </form>
-      <div class="top-contact">
-        <strong>8 (800) 707-52-87</strong>
-        <span>Звонок по России бесплатный</span>
-        <span>Пн-Вс 8:30-20:30 по Москве</span>
-      </div>
-      <div class="top-actions">
-        <a class="ask-btn" href="#course-enroll">Задать вопрос</a>
-        <a class="vision-link" href="#course-enroll">Версия для слабовидящих</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="research.html">Исследования</a>
+        <a href="education-ai.html">Образование</a>
+        <a class="active" href="course-ei.html">Курс ЭИ</a>
+        <a href="publications.html">Публикации</a>
+        <a href="grants-teams.html">Гранты</a>
+        <a href="conferences.html">Мероприятия</a>
+        <a href="news-feed.html">Новости</a>
+        <a href="join.html">Поступление</a>
+      </nav>
+      <div class="hero-actions">
+        <a class="btn secondary" href="accounts.html">Личный кабинет</a>
+        <a class="btn primary" href="join.html">Подать заявку</a>
       </div>
     </div>
   </header>
-
-  <nav class="navline" aria-label="Основная навигация">
-    <div class="shell navline-inner">
-      <a href="about.html">Институт</a>
-      <a href="education-ai.html" class="active">Дистанционные программы</a>
-      <a href="contacts-partners.html">Организациям</a>
-      <a href="join.html">Поступающим</a>
-      <a href="grants-teams.html">Грант</a>
-      <a href="ethics-code.html">Лицензия</a>
-      <a href="research.html">Сведения об образовательной организации</a>
-      <a href="publications.html">Наши выпускники</a>
-      <a href="news-feed.html">Контакты</a>
-    </div>
-  </nav>
 
   <main>
     <section class="hero-wrap">
@@ -800,7 +769,7 @@
         </div>
         <a class="cta" href="#course-enroll">Оставить заявку</a>
         <div style="justify-self:end;">
-          <div style="width:188px;height:188px;border-radius:50%;background:#b2082f;color:#fff;display:grid;place-items:center;font:800 18px/1 Public Sans,sans-serif;text-align:center;box-shadow:var(--shadow);">
+          <div style="width:188px;height:188px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font:800 18px/1 Public Sans,sans-serif;text-align:center;box-shadow:var(--shadow);">
             скидка<br/><span style="font-size:44px;line-height:1;">53%</span><br/>до 24 апреля
           </div>
         </div>
@@ -1051,7 +1020,7 @@
               <label><input type="checkbox" name="promo" checked/> Хочу получать только важные новости и полезную рекламу</label>
             </div>
             <div style="margin-top:14px;">
-              <a class="btn" href="payment-demo.html?course=ei-core" style="display:block;text-decoration:none;text-align:center;background:#a01737;color:#fff;border-radius:2px;padding:14px 16px;font:800 16px/1 Public Sans,sans-serif;">Отправить заявку</a>
+              <a class="btn" href="payment-demo.html?course=ei-core" style="display:block;text-decoration:none;text-align:center;background:var(--accent);color:#fff;border-radius:2px;padding:14px 16px;font:800 16px/1 Public Sans,sans-serif;">Отправить заявку</a>
             </div>
           </form>
 
@@ -1086,11 +1055,11 @@
       <h2>Возможно вас заинтересуют программы</h2>
       <div class="details">
         <div class="detail-row">
-          <summary style="list-style:none;cursor:default;font:700 15px/1.4 Public Sans,sans-serif;color:#17223a;display:flex;justify-content:space-between;gap:16px;">Эмоциональный интеллект: исследовательский трек <span>15900 руб</span></summary>
+          <summary style="list-style:none;cursor:default;font:700 15px/1.4 Public Sans,sans-serif;color:var(--ink);display:flex;justify-content:space-between;gap:16px;">Эмоциональный интеллект: исследовательский трек <span>15900 руб</span></summary>
           <p style="margin-top:10px;">Более длинная программа со связкой теории, научных кейсов и сопровождения в кабинете слушателя.</p>
         </div>
         <div class="detail-row">
-          <summary style="list-style:none;cursor:default;font:700 15px/1.4 Public Sans,sans-serif;color:#17223a;display:flex;justify-content:space-between;gap:16px;">Открытые лекции по эмоциональному интеллекту <span>Бесплатно</span></summary>
+          <summary style="list-style:none;cursor:default;font:700 15px/1.4 Public Sans,sans-serif;color:var(--ink);display:flex;justify-content:space-between;gap:16px;">Открытые лекции по эмоциональному интеллекту <span>Бесплатно</span></summary>
           <p style="margin-top:10px;">Публичные выступления и подборка материалов для широкой аудитории.</p>
         </div>
       </div>
