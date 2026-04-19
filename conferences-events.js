@@ -134,9 +134,11 @@
     const searchPass = !state.search || haystack.includes(state.search.toLowerCase());
     const typePass = state.types.has(event.type) || (ALWAYS_VISIBLE_TYPES.has(event.type) && state.selectedDate);
     const statusPass = state.statuses.has(status);
-    const directionPass = (event.directions || []).some(function (direction) {
-      return state.directions.has(direction);
-    });
+    const directionPass = event.type === "conference"
+      ? true
+      : (event.directions || []).some(function (direction) {
+          return state.directions.has(direction);
+        });
     const datePass = !state.selectedDate || toDayKey(date) === state.selectedDate;
     return searchPass && typePass && statusPass && directionPass && datePass;
   }
