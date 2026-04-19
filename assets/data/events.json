@@ -63,7 +63,10 @@
         "registration",
         "public-program",
         "publication-brief"
-      ]
+      ],
+      "image": "assets/images/tatyana-munn/miiiips-publichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-otkrytaya-lektsiya-5b83ff71.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Открытая лекция Татьяны Мунн в Парке Горького"
     },
     {
       "id": "sales-lab",
@@ -122,7 +125,10 @@
       "registrationPage": "https://moonn.timepad.ru/event/3921611/",
       "calendarFile": "assets/calendar/psihologiya-otnosheniy-muzhchina-20042026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921611/",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-925b70d4.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\""
     },
     {
       "id": "kak-nayti-idealnogo-partnera-27042026",
@@ -148,7 +154,10 @@
       "registrationPage": "https://moonn.timepad.ru/event/3921628/",
       "calendarFile": "assets/calendar/kak-nayti-idealnogo-partnera-27042026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921628/",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-kak-nayti-idealnogo-photo-fc403844.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\""
     },
     {
       "id": "psihologiya-znakomstva-04052026",
@@ -174,7 +183,10 @@
       "registrationPage": "https://moonn.timepad.ru/event/3921617/",
       "calendarFile": "assets/calendar/psihologiya-znakomstva-04052026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921617/",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-3f92105a.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\""
     },
     {
       "id": "psihologiya-lyubvi-11052026",
@@ -200,7 +212,10 @@
       "registrationPage": "https://moonn.timepad.ru/event/3921633/",
       "calendarFile": "assets/calendar/psihologiya-lyubvi-11052026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921633/",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-lyubvi-photo-26b63e52.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Бесплатная Лекция \"Психология ЛЮБВИ\""
     },
     {
       "id": "gelendzhik",
@@ -264,7 +279,10 @@
       "registrationPage": "",
       "calendarFile": "",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-ideya-takaya-954f10c1.jpg",
+      "imageCaption": "Постер конференции",
+      "imageAlt": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра"
     },
     {
       "id": "reshenie-problem-i-prinyatie-f9d807d260-15042026",
@@ -291,7 +309,10 @@
       "registrationPage": "",
       "calendarFile": "assets/calendar/reshenie-problem-i-prinyatie-802f717219.ics",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-40d75918.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Решение проблем и принятие решений часть 2"
     },
     {
       "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
@@ -318,7 +339,10 @@
       "registrationPage": "",
       "calendarFile": "assets/calendar/podderzhka-biznesa-metody-ra-9733a847a3.ics",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-otdelnoe-spiker-po-emotsionalnomu-intellektu-tatyana-podderzhka-biznesa-5bbe3989.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Поддержка бизнеса, методы развития публичных выступлений"
     },
     {
       "id": "psihologiya-otnosheniy-zhenshhina-13042026",
@@ -345,7 +369,10 @@
       "registrationPage": "",
       "calendarFile": "",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-c790eff1.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология женщины"
     },
     {
       "id": "data-fusion-09042026",
@@ -377,7 +404,10 @@
         "photo",
         "official-site-text",
         "archive-note"
-      ]
+      ],
+      "image": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+      "imageCaption": "Постер конференции",
+      "imageAlt": "Data Fusion 2026"
     },
     {
       "id": "kumskov-mik-lektsiya-9-ot-08042026",
@@ -402,7 +432,10 @@
       "registrationPage": "",
       "calendarFile": "",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-lektsiya-po-sredam-kumskov-mikhail-ivanovich-mgu-kumskov-mik-lektsiya-9-6e80c5ab.png",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Кумсков МИК лекция 9"
     },
     {
       "id": "reshenie-problem-i-prinyatie-resheniy-08042026",
@@ -427,7 +460,10 @@
       "registrationPage": "",
       "calendarFile": "",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-48b62af0.png",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Решение проблем и принятие решений"
     },
     {
       "id": "psihologiya-otnosheniy-06042026",
@@ -452,7 +488,10 @@
       "registrationPage": "",
       "calendarFile": "",
       "timepad": "",
-      "theme": "teal"
+      "theme": "teal",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-otnosheniy-granitsy-06042026-photo-355e678b.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология отношений: границы, совместимость и динамика близости"
     },
     {
       "id": "bystraya-psihologiya-30032026",
@@ -484,7 +523,10 @@
         "photo",
         "event-note",
         "course-bridge"
-      ]
+      ],
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-bystraya-psihologiya-30032026-photo-01979d5e.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Быстрая психология"
     },
     {
       "id": "biomechanics",
@@ -550,7 +592,10 @@
         "photo",
         "lecture-note",
         "publication-card"
-      ]
+      ],
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология мужчины: доверие и общение"
     },
     {
       "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
@@ -577,7 +622,7 @@
       "registrationPage": "",
       "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-pr-b0b854dbbb.ics",
       "timepad": "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka",
-      "image": "assets/images/lectures/miiiips-konferentsiya-viii-mezhdunarodnaya-nauchno-prakticheskaya-tatyana-munn-mgu-f3a49feb.jpg",
+      "image": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
       "imageAlt": "Постер конференции",
       "imageCaption": "Постер конференции",
       "theme": "teal",
@@ -615,7 +660,7 @@
       "registrationPage": "",
       "calendarFile": "assets/calendar/neurosport-skills-kognitivna-2d7fabe9e6.ics",
       "timepad": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
-      "image": "assets/images/lectures/miiiips-konferentsiya-xvi-mezhdunarodnaya-nauchno-prakticheskaya-tatyana-munn-mgu-72ec6466.jpg",
+      "image": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
       "imageAlt": "Постер конференции",
       "imageCaption": "Постер конференции",
       "theme": "teal",
@@ -654,7 +699,7 @@
       "registrationPage": "",
       "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
       "timepad": "https://istina.msu.ru/conferences/presentations/620913097/",
-      "image": "assets/images/lectures/miiiips-konferentsiya-iv-traditsionnaya-mezhdunarodnaya-nauchno-tatyana-munn-mgu-b01adf75.jpg",
+      "image": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
       "imageAlt": "Постер конференции",
       "imageCaption": "Постер конференции",
       "theme": "teal",
