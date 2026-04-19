@@ -551,6 +551,38 @@
         "lecture-note",
         "publication-card"
       ]
+    },
+    {
+      "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+      "title": "Развитие Soft Skills у ИТ-специалистов",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2023-12-22T19:00:00+03:00",
+      "venue": "Ташкент, Узбекистан",
+      "speaker": "Участие МИИИИПС",
+      "opponent": "Конференция",
+      "directions": [
+        "conference"
+      ],
+      "directionLabels": [
+        "Конференция"
+      ],
+      "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
+      "detailPage": "event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "feedbackPage": "event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "videoRequestPage": "event-request.html?event=razvitie-soft-skills-navykov-bd9c5912c7-22122023&intent=video",
+      "inviteRequestPage": "event-request.html?event=razvitie-soft-skills-navykov-bd9c5912c7-22122023&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
+      "timepad": "https://istina.msu.ru/conferences/presentations/620913097/",
+      "theme": "teal",
+      "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "conferenceDates": "22-23 декабря 2023",
+      "reportType": "Устный",
+      "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
+      "annotation": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качественно выполнять свои задачи, но и эффективно взаимодействовать с другими людьми и достигать результатов. Развитие «Soft Skills» навыков следует обеспечить через профессиональное обучение, практику, саморазвитие и общения с людьми. Это позволит быстрее интегрироваться специалисту в ИТ-команду и успешно пройти испытательный срок."
     }
   ]
 }

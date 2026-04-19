@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:razvitie-soft-skills-navykov-bd9c5912c7-22122023@miiiips.ru
+DTSTAMP:20260419T051606Z
+DTSTART;TZID=Europe/Moscow:20231222T190000
+DTEND;TZID=Europe/Moscow:20231222T210000
+SUMMARY:Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качественно выполнять свои задачи, но и эффективно взаимодействовать с другими людьми и достигать результатов. Развитие «Soft Skills» навыков следует обеспечить через профессиональное обучение, практику, саморазвитие и общения с людьми. Это позволит быстрее интегрироваться специалисту в ИТ-команду и успешно пройти испытательный срок
+LOCATION:Ташкент, Узбекистан
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html
+URL:https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html
+END:VEVENT
+END:VCALENDAR

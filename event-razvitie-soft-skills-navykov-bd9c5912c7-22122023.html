@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Развитие Soft Skills у ИТ-специалистов | МИИИИПС</title>
+  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+  <style>
+    :root {--bg:#f7f6f1;--surface:#ffffff;--line:#d8ddd9;--ink:#12372f;--muted:#51635d;--accent:#0c4d40;--gold:#8b6417;--shadow:0 20px 44px rgba(18,55,47,.08);--radius:28px;--sticky-offset:118px;}
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:var(--bg); color:var(--ink); font-family:Manrope,sans-serif; }
+    a { color:inherit; }
+    [data-no-live-photo-treatment="1"] { background:transparent !important; box-shadow:none !important; }
+    [data-no-live-photo-treatment="1"]::before,
+    [data-no-live-photo-treatment="1"]::after { content:none !important; background:none !important; }
+    [data-no-live-photo-treatment="1"] img,
+    img[data-no-live-photo-treatment="1"] { filter:none !important; mix-blend-mode:normal !important; }
+    .shell { max-width:1280px; margin:0 auto; padding:0 28px; }
+    .topbar { position:sticky; top:0; z-index:40; background:rgba(247,246,241,.82); backdrop-filter:blur(16px); border-bottom:1px solid rgba(18,55,47,.08); }
+    .topbar-inner { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:nowrap; }
+    .brand { font:700 50px/0.9 Newsreader,serif; color:var(--ink); text-decoration:none; letter-spacing:-.03em; }
+    .nav { display:flex; flex-wrap:nowrap; gap:14px 20px; align-items:center; min-width:0; overflow:auto; scrollbar-width:none; }
+    .nav::-webkit-scrollbar { display:none; }
+    .nav a { text-decoration:none; font:700 11px/1.3 "Public Sans",sans-serif; letter-spacing:.09em; text-transform:uppercase; color:rgba(18,55,47,.68); padding-bottom:6px; border-bottom:2px solid transparent; }
+    .nav a.active,.nav a:hover { color:var(--accent); border-bottom-color:var(--gold); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:14px 18px; border-radius:999px; text-decoration:none; border:1px solid transparent; font:700 12px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
+    .btn.primary { background:var(--accent); color:#fff; }
+    .btn.secondary { background:transparent; color:var(--accent); border-color:rgba(18,55,47,.16); }
+    .hero { padding:64px 0 36px; }
+    .eyebrow { display:inline-block; margin-bottom:14px; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    h1,h2,h3 { font-family:Newsreader,serif; margin:0; letter-spacing:-.03em; }
+    h1 { font-size:clamp(44px,5vw,88px); line-height:.94; }
+    h2 { font-size:clamp(34px,3.4vw,60px); line-height:.98; }
+    h3 { font-size:clamp(26px,2.1vw,36px); line-height:1.02; }
+    p { margin:0; color:var(--muted); line-height:1.75; }
+    .lead { font-size:18px; max-width:72ch; }
+    .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+    .source-note { padding:16px 18px; background:#eef4ef; border:1px solid #d8e7df; border-radius:22px; display:grid; gap:6px; }
+    .source-note small { display:block; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .source-note p { color:#3d504a; font-size:15px; line-height:1.65; }
+    .grid-2 { display:grid; grid-template-columns:1.1fr .9fr; gap:22px; }
+    .grid-3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    .stack { display:grid; gap:18px; }
+    .section { padding:34px 0; }
+    .footer { margin-top:48px; padding:28px 0 54px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; }
+    .contact-tile { padding:18px; border-radius:22px; background:#fff; border:1px solid var(--line); text-decoration:none; box-shadow:var(--shadow); }
+    .contact-tile small { display:block; margin-bottom:8px; color:#60716b; font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .contact-tile strong { display:block; font:700 25px/1.04 Newsreader,serif; color:var(--ink); }
+    .metric { padding:24px; }
+    .badge { display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; background:#edf4f1; color:var(--accent); font:700 11px/1.2 "Public Sans",sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:22px; }
+    .event-layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:26px;align-items:start}
+    .event-sidebar{padding:22px;position:sticky;top:var(--sticky-offset);display:grid;gap:18px;max-height:calc(100vh - var(--sticky-offset) - 22px);overflow:auto}
+    .event-main{min-width:0}
+    @media (max-width: 1080px) {
+      .grid-3{grid-template-columns:1fr;}
+      .grid-2{grid-template-columns:1fr;}
+      .nav{display:none;}
+      .event-layout{grid-template-columns:1fr !important;}
+      .event-sidebar{position:static !important;max-height:none;}
+    }
+    @media (max-width: 720px) {
+      .shell{padding:0 16px;}
+      .brand{font-size:40px;}
+      .hero{padding:40px 0 24px;}
+      .lead{font-size:16px;}
+    }
+  </style>
+  <script defer src="prototype-enhancements.js"></script>
+  <script defer src="miiiips-live-layer.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="index.html">МИИИИПС</a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="about.html">Об институте</a>
+        <a href="research.html">Исследования</a>
+        <a href="publications.html">Публикации</a>
+        <a href="grants-teams.html">Гранты</a>
+        <a class="active" href="conferences.html">Мероприятия</a>
+        <a href="course-ei.html">Курс ЭИ</a>
+        <a href="speeches-lectures.html">Выступления</a>
+        <a href="news-feed.html">Новости</a>
+        <a href="join.html">Поступление</a>
+      </nav>
+      <a class="btn primary" href="join.html">Подать заявку</a>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero event-layout">
+      <aside class="card event-sidebar">
+        <a class="btn secondary" href="conferences.html">К списку мероприятий</a>
+        <div class="stack" style="gap:10px;">
+          <div>
+            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Дата конференции</small>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">19:00 · 22.12.2023</strong>
+          </div>
+          <div>
+            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Автор</small>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Участие МИИИИПС</strong>
+          </div>
+          <div><small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Название конференции</small><strong style="display:block;font:700 22px/1.1 Newsreader,serif;">IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ</strong></div><div><small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Даты конференции</small><strong style="display:block;font:700 22px/1.1 Newsreader,serif;">22-23 декабря 2023</strong></div><div><small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Тип доклада</small><strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Устный</strong></div><div><small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Источник</small><strong style="display:block;font:700 18px/1.2 Newsreader,serif;"><a href="https://istina.msu.ru/conferences/presentations/620913097/" target="_blank" rel="noopener noreferrer">Открыть источник</a></strong></div>
+          <div>
+            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Площадка</small>
+            <strong style="display:block;font:700 22px/1.1 Newsreader,serif;">Ташкент, Узбекистан</strong>
+          </div>
+        </div>
+        <div class="card" style="padding:16px;">
+            <small style="display:block;color:#60716b;font:700 11px/1.2 Public Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase;">Статус</small>
+          <strong style="display:block;font:700 22px/1.1 Newsreader,serif;margin-top:6px;">Прошедшая конференция</strong>
+        </div>
+      </aside>
+      <div class="stack event-main">
+        <span class="eyebrow">Конференция</span>
+        <h1>Развитие Soft Skills у ИТ-специалистов</h1>
+        <p class="lead">Доклад о развитии Soft Skills у ИТ-специалистов, коммуникации, управлении и лидерских навыках на международной конференции в Ташкенте</p>
+        <div class="hero-actions"><a class="btn secondary" href="conferences.html">К списку мероприятий</a><a class="btn primary" href="#topics">К ключевым положениям</a><a class="btn secondary" href="event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html">Оставить отзыв</a><a class="btn secondary" href="event-request.html?event=razvitie-soft-skills-navykov-bd9c5912c7-22122023&amp;intent=video">Получить видео</a><a class="btn secondary" href="event-request.html?event=razvitie-soft-skills-navykov-bd9c5912c7-22122023&amp;intent=invite">Пригласить лектора</a></div>
+        <div class="grid-2" style="margin-top:18px;align-items:start;">
+          <article data-no-live-photo-treatment="1" style="padding:0;display:grid;gap:0;background:transparent;border:none;box-shadow:none;">
+            <img src="assets/images/lectures/razvitie-soft-skills-navykov-778db50128-photo.jpg" alt="Развитие Soft Skills у ИТ-специалистов" data-no-live-photo-treatment="1" style="display:block;width:100%;height:340px;object-fit:cover;border-radius:20px;"/>
+          </article>
+          <article class="card" style="padding:18px;display:grid;gap:14px;">
+            <span class="badge">О конференции</span>
+            <h3>О докладе на конференции</h3>
+            <p>Конференционный доклад был выстроен вокруг темы Развитие Soft Skills у ИТ-специалистов и коммуникация.</p><p>В центре внимания оказались коммуникация: они задают прикладную рамку доклада и помогают увидеть его как часть общей конференционной программы.</p>
+          </article>
+        </div>
+        <section class="section" id="topics">
+          <span class="eyebrow">Ключевые положения</span>
+          <div class="grid-2" style="margin-top:18px;">
+            <article class="card metric"><h3>Доклад и тема конференции</h3><p>Доклад показывает тему в прикладной рамке и помогает увидеть, как исследовательская или практическая позиция связана с общей конференционной программой: коммуникация.</p></article><article class="card metric"><h3>Авторская рамка</h3><p>Отдельный акцент был сделан на том, какие тезисы доклада важны для аудитории и как они раскрывают заявленную тему конференции: коммуникация.</p></article><article class="card metric"><h3>Практический вывод</h3><p>Разбор помогает понять, как автор связывает тему, аргументацию и выводы в одном выступлении: коммуникация.</p></article>
+          </div>
+        </section>
+        <section class="section">
+          <span class="eyebrow">Обратная связь</span>
+          <article class="card" style="padding:20px;display:grid;gap:14px;margin-top:18px;">
+            <h3>Отзывы помогают корректировать работу с конференциями</h3>
+            <p>После конференции можно оставить короткий отзыв о содержании доклада, организации площадки и том, какие темы стоит развивать дальше. Сообщение попадает в рабочий контур института и помогает улучшать следующие конференции.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html">Перейти к отзыву</a>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <span class="eyebrow">Похожие маршруты</span>
+          <div class="grid-3" style="margin-top:18px;">
+            <article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;"><div class="badge">Анонс</div><h3 style="font-size:28px;">Открытая лекция в Парке Горького</h3><p>Публичный цикл лекций и городские площадки</p><div class="hero-actions"><a class="btn secondary" href="event-parkgorkogo.html">Подробнее</a></div></article><article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;"><div class="badge">Прошедшее</div><h3 style="font-size:28px;">Психология мужчины: доверие и общение</h3><p>Архив конференции института</p><div class="hero-actions"><a class="btn secondary" href="event-psychology-men.html">Подробнее</a></div></article><article class="card" style="padding:18px;display:grid;gap:10px;min-height:220px;"><div class="badge">Прошедшее</div><h3 style="font-size:28px;">AI-аналитика гребли и биомеханики</h3><p>Прикладной исследовательский маршрут</p><div class="hero-actions"><a class="btn secondary" href="biomechanics-rowing.html">Подробнее</a></div></article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <footer class="footer shell">
+    <div class="contact-grid">
+      <div class="contact-tile"><small>Автор</small><strong>Участие МИИИИПС</strong></div>
+      <a class="contact-tile" href="conferences.html"><small>Архив</small><strong>Все мероприятия</strong></a>
+      <a class="contact-tile" href="event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html"><small>Обратная связь</small><strong>Оставить отзыв</strong></a>
+      <a class="contact-tile" href="event-request.html?event=razvitie-soft-skills-navykov-bd9c5912c7-22122023&amp;intent=video"><small>Видео</small><strong>Запросить доступ</strong></a>
+      <a class="contact-tile" href="event-request.html?event=razvitie-soft-skills-navykov-bd9c5912c7-22122023&amp;intent=invite"><small>Приглашение</small><strong>Позвать лектора</strong></a>
+      <a class="contact-tile" href="join.html"><small>Контур института</small><strong>Подать заявку</strong></a>
+    </div>
+  </footer>
+</body>
+</html>
