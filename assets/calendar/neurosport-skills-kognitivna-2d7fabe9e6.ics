@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:neurosport-skills-kognitivna-12f1dcf15e-19112025@miiiips.ru
+DTSTAMP:20260419T095916Z
+DTSTART;TZID=Europe/Moscow:20251119T190000
+DTEND;TZID=Europe/Moscow:20251119T210000
+SUMMARY:NeuroSport Skills: когнитивная, эмоциональная и телесная устойчивость спортсмена
+LOCATION:Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html
+URL:https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html
+END:VEVENT
+END:VCALENDAR

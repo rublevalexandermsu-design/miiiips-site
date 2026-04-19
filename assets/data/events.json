@@ -553,6 +553,42 @@
       ]
     },
     {
+      "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
+      "title": "NeuroSport Skills: когнитивная, эмоциональная и телесная устойчивость спортсмена",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2025-11-19T19:00:00+03:00",
+      "venue": "Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура",
+      "speaker": "МИИИИПС",
+      "opponent": "Конференция",
+      "directions": [
+        "conference"
+      ],
+      "directionLabels": [
+        "Конференция"
+      ],
+      "summary": "NeuroSport Skills: когнитивная, эмоциональная и телесная устойчивость спортсмена",
+      "detailPage": "event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "feedbackPage": "event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "videoRequestPage": "event-request.html?event=neurosport-skills-kognitivna-12f1dcf15e-19112025&intent=video",
+      "inviteRequestPage": "event-request.html?event=neurosport-skills-kognitivna-12f1dcf15e-19112025&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "assets/calendar/neurosport-skills-kognitivna-2d7fabe9e6.ics",
+      "timepad": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+      "theme": "teal",
+      "conferenceTitle": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+      "conferenceDates": "18-19 ноября 2025",
+      "reportType": "Устный",
+      "sourceLink": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+      "sourceLinks": [
+        "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+        "https://moskva.bezformata.com/listnews/konferentcii-v-mgusit/153460712/"
+      ],
+      "annotation": "Представлен обзор современных подходов в психологии спорта и эмоционального интеллекта, на основе которых обосновывается введение термина “NeuroSport Skills”. Концепция “NeuroSport Skills” является спортивной модификацией более широкого подхода “NeuroSoft Skills”, адаптированной к специфике физических нагрузок, психофизиологической регуляции и эмоциональной устойчивости спортсменов. В рамках нового термина акцент делается на нейропсихологические механизмы внимания, саморегуляции, стрессоустойчивости, телесной осознанности и нейропластичности. Показано, что NeuroSport Skills объединяет когнитивные, эмоциональные и соматические навыки, формируя целостную модель внутренней устойчивости и адаптации спортсмена в соревновательной и тренировочной деятельности."
+    },
+    {
       "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
       "title": "Развитие Soft Skills у ИТ-специалистов",
       "type": "conference",
