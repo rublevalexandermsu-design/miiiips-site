@@ -553,6 +553,41 @@
       ]
     },
     {
+      "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
+      "title": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2025-12-19T19:00:00+03:00",
+      "venue": "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
+      "speaker": "МИИИИПС",
+      "opponent": "Конференция",
+      "directions": [
+        "conference"
+      ],
+      "directionLabels": [
+        "Конференция"
+      ],
+      "summary": "Эмоциональный интеллект в профессиональном становлении личности",
+      "detailPage": "event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "feedbackPage": "event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "videoRequestPage": "event-request.html?event=emotsionalnyy-intellekt-v-pr-6d05436520-19122025&intent=video",
+      "inviteRequestPage": "event-request.html?event=emotsionalnyy-intellekt-v-pr-6d05436520-19122025&intent=invite",
+      "registrationPage": "",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-pr-b0b854dbbb.ics",
+      "timepad": "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka",
+      "theme": "teal",
+      "conferenceTitle": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "conferenceDates": "19-20 декабря 2025",
+      "reportType": "Устный",
+      "sourceLink": "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka",
+      "sourceLinks": [
+        "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka"
+      ],
+      "annotation": "Доклад посвящен роли эмоционального интеллекта в профессиональном становлении личности в условиях цифровой образовательной среды. Материал подготовлен с опорой на исследовательскую работу АНО МИИИИПС (Автономной некоммерческой организации «Международный институт исследований искусственного интеллекта, психологии и спорта»), что позволяет рассматривать эмоциональный интеллект как значимый фактор адаптации, саморегуляции и профессионального развития в современной цифровой среде."
+    },
+    {
       "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
       "title": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
       "type": "conference",

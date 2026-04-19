@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:emotsionalnyy-intellekt-v-pr-6d05436520-19122025@miiiips.ru
+DTSTAMP:20260419T102924Z
+DTSTART;TZID=Europe/Moscow:20251219T190000
+DTEND;TZID=Europe/Moscow:20251219T210000
+SUMMARY:VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал
+LOCATION:Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html
+URL:https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html
+END:VEVENT
+END:VCALENDAR
