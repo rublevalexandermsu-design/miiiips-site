@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "psihologiya-znakomstva-04052026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Культурный центр \"Полярный\", Москва",
+  "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Психология ЗНАКОМСТВА\" пройдет в Культурном Центре \"Полярный\" в понедельник 04 мая с 19.00 до 21.00.",
+  "start": "2026-05-04T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-znakomstva-04052026.html",
+  "canonicalUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
+  "detailPage": "event-psihologiya-znakomstva-04052026.html",
+  "feedbackPage": "event-feedback-psihologiya-znakomstva-04052026.html",
+  "calendarFile": "assets/calendar/psihologiya-znakomstva-04052026.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-3f92105a.jpg",
+  "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-3f92105a.jpg",
+  "imageAlt": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "psychology",
+    "lecture_series"
+  ],
+  "directionLabels": [
+    "Психология",
+    "Лекционные циклы"
+  ],
+  "keywords": [
+    "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+    "Психология",
+    "Татьяна Мунн",
+    "Культурный центр \"Полярный\", Москва",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-znakomstva-04052026.json",
+  "kind": "event"
+}

@@ -1,0 +1,43 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "data-fusion-09042026",
+  "type": "conference",
+  "typeLabel": "Конференция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Data Fusion 2026",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "",
+  "venue": "Технологический кластер «Ломоносов», Москва",
+  "summary": "Международная конференция по экономике данных и технологиям ИИ с фокусом на работе с данными и диалоге бизнеса, науки и государства.",
+  "start": "2026-04-09T00:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
+  "canonicalUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+  "detailPage": "event-data-fusion-09042026.html",
+  "feedbackPage": "event-feedback-data-fusion-09042026.html",
+  "calendarFile": "",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+  "imagePath": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+  "imageAlt": "Data Fusion 2026",
+  "imageCaption": "Постер конференции",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "ai_research"
+  ],
+  "directionLabels": [
+    "ИИ и исследования"
+  ],
+  "keywords": [
+    "Data Fusion 2026",
+    "ИИ и исследования",
+    "Технологический кластер «Ломоносов», Москва"
+  ],
+  "marketingHint": "",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
+  "kind": "conference"
+}

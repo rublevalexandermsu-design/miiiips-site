@@ -1,0 +1,48 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "reshenie-problem-i-prinyatie-f9d807d260-15042026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Решение проблем и принятие решений часть 2",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Культурный центр \"Полярный\", Москва",
+  "summary": "Решение проблем и принятие решений часть 2",
+  "start": "2026-04-15T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+  "canonicalUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+  "detailPage": "event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+  "feedbackPage": "event-feedback-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+  "calendarFile": "assets/calendar/reshenie-problem-i-prinyatie-802f717219.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-40d75918.jpg",
+  "imagePath": "assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-40d75918.jpg",
+  "imageAlt": "Решение проблем и принятие решений часть 2",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "lecture_series"
+  ],
+  "directionLabels": [
+    "Лекция по средам"
+  ],
+  "keywords": [
+    "Решение проблем и принятие решений часть 2",
+    "Лекция по средам",
+    "Татьяна Мунн",
+    "Культурный центр \"Полярный\", Москва",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatie-f9d807d260-15042026.json",
+  "kind": "event"
+}

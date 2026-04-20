@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "psihologiya-lyubvi-11052026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Культурный центр \"Полярный\", Москва",
+  "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Психология ЛЮБВИ\" пройдет в Культурном Центре \"Полярный\" в понедельник 11 мая с 19.00 до 21.00.",
+  "start": "2026-05-11T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lyubvi-11052026.html",
+  "canonicalUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
+  "detailPage": "event-psihologiya-lyubvi-11052026.html",
+  "feedbackPage": "event-feedback-psihologiya-lyubvi-11052026.html",
+  "calendarFile": "assets/calendar/psihologiya-lyubvi-11052026.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-lyubvi-photo-26b63e52.jpg",
+  "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-lyubvi-photo-26b63e52.jpg",
+  "imageAlt": "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "psychology",
+    "lecture_series"
+  ],
+  "directionLabels": [
+    "Психология",
+    "Лекционные циклы"
+  ],
+  "keywords": [
+    "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+    "Психология",
+    "Татьяна Мунн",
+    "Культурный центр \"Полярный\", Москва",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json",
+  "kind": "event"
+}

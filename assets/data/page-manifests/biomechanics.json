@@ -1,0 +1,47 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "biomechanics",
+  "type": "applied_demo",
+  "typeLabel": "Прикладные разборы",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "AI-аналитика гребли и биомеханики",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Команда МИИИИПС",
+  "venue": "Спорт и прикладная аналитика",
+  "summary": "Кейс по биомеханике гребли: OCR эргометра, pace/SPM/watts и перенос видеоаналитики на фитнес, ЛФК и командные виды спорта.",
+  "start": "2026-03-14T18:30:00+03:00",
+  "pageUrl": "https://miiiips.ru/biomechanics-rowing.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-biomechanics.html",
+  "canonicalUrl": "https://miiiips.ru/biomechanics-rowing.html",
+  "detailPage": "biomechanics-rowing.html",
+  "feedbackPage": "event-feedback-biomechanics.html",
+  "calendarFile": "",
+  "image": "",
+  "imagePath": "",
+  "imageAlt": "",
+  "imageCaption": "",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "biomechanics_sport",
+    "ai_research"
+  ],
+  "directionLabels": [
+    "Биомеханика и спорт",
+    "ИИ и исследования"
+  ],
+  "keywords": [
+    "AI-аналитика гребли и биомеханики",
+    "Биомеханика и спорт",
+    "Команда МИИИИПС",
+    "Спорт и прикладная аналитика",
+    "komanda miiiips"
+  ],
+  "marketingHint": "komanda-miiiips",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/biomechanics.json",
+  "kind": "event"
+}

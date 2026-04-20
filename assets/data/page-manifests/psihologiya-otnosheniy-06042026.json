@@ -1,0 +1,48 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "psihologiya-otnosheniy-06042026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Психология отношений: границы, совместимость и динамика близости",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Публичная площадка института",
+  "summary": "Вводная лекция цикла о психологии отношений: выбор партнёра, кризисы, личные границы, эмоциональная зрелость, совместимость и влияние личной истории на качество близости.",
+  "start": "2026-04-06T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-06042026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-06042026.html",
+  "canonicalUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-06042026.html",
+  "detailPage": "event-psihologiya-otnosheniy-06042026.html",
+  "feedbackPage": "event-feedback-psihologiya-otnosheniy-06042026.html",
+  "calendarFile": "",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-otnosheniy-granitsy-06042026-photo-355e678b.jpg",
+  "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-otnosheniy-granitsy-06042026-photo-355e678b.jpg",
+  "imageAlt": "Психология отношений: границы, совместимость и динамика близости",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "psychology"
+  ],
+  "directionLabels": [
+    "Психология"
+  ],
+  "keywords": [
+    "Психология отношений: границы, совместимость и динамика близости",
+    "Психология",
+    "Татьяна Мунн",
+    "Публичная площадка института",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-06042026.json",
+  "kind": "event"
+}

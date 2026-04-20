@@ -1,0 +1,48 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
+  "type": "public_event",
+  "typeLabel": "Мероприятие",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Поддержка бизнеса, методы развития публичных выступлений",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Культурный центр \"Полярный\", Москва",
+  "summary": "Поддержка бизнеса, методы развития публичных выступлений",
+  "start": "2026-04-14T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+  "canonicalUrl": "https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+  "detailPage": "event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+  "feedbackPage": "event-feedback-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+  "calendarFile": "assets/calendar/podderzhka-biznesa-metody-ra-9733a847a3.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-otdelnoe-spiker-po-emotsionalnomu-intellektu-tatyana-podderzhka-biznesa-5bbe3989.jpg",
+  "imagePath": "assets/images/lectures/miiiips-otdelnoe-spiker-po-emotsionalnomu-intellektu-tatyana-podderzhka-biznesa-5bbe3989.jpg",
+  "imageAlt": "Поддержка бизнеса, методы развития публичных выступлений",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "lecture_series"
+  ],
+  "directionLabels": [
+    "Отдельное мероприятие"
+  ],
+  "keywords": [
+    "Поддержка бизнеса, методы развития публичных выступлений",
+    "Отдельное мероприятие",
+    "Татьяна Мунн",
+    "Культурный центр \"Полярный\", Москва",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
+  "kind": "event"
+}

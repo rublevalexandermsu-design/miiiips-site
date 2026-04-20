@@ -29,6 +29,16 @@
       "materials": [
         "seminar-note",
         "methodical-brief"
+      ],
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/bandits.json",
+      "pageUrl": "https://miiiips.ru/event-bandits.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-bandits.html",
+      "seoKeywords": [
+        "Линейные стохастические бандиты с точки зрения онлайн-оптимизации",
+        "ИИ и исследования",
+        "Юрий Дорн",
+        "МИИИИПС / рабочий семинар",
+        "yuriy dorn"
       ]
     },
     {
@@ -66,7 +76,20 @@
       ],
       "image": "assets/images/tatyana-munn/miiiips-publichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-otkrytaya-lektsiya-5b83ff71.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Открытая лекция Татьяны Мунн в Парке Горького"
+      "imageAlt": "Открытая лекция Татьяны Мунн в Парке Горького",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/parkgorkogo.json",
+      "pageUrl": "https://miiiips.ru/event-parkgorkogo.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-parkgorkogo.html",
+      "seoKeywords": [
+        "Открытая лекция Татьяны Мунн в Парке Горького",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Лекторий Парка Горького",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "sales-lab",
@@ -99,6 +122,19 @@
       "materials": [
         "registration",
         "program-card"
+      ],
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/sales-lab.json",
+      "pageUrl": "https://miiiips.ru/contacts-partners.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-sales-lab.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект для переговорных и sales-команд",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Корпоративный формат / по запросу",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
       ]
     },
     {
@@ -128,7 +164,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-925b70d4.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\""
+      "imageAlt": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-muzhchina-20042026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
+      "seoKeywords": [
+        "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
+        "Психология",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "kak-nayti-idealnogo-partnera-27042026",
@@ -157,7 +206,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-kak-nayti-idealnogo-photo-fc403844.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\""
+      "imageAlt": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-nayti-idealnogo-partnera-27042026.json",
+      "pageUrl": "https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-kak-nayti-idealnogo-partnera-27042026.html",
+      "seoKeywords": [
+        "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+        "Психология",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "psihologiya-znakomstva-04052026",
@@ -186,7 +248,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-3f92105a.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\""
+      "imageAlt": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-znakomstva-04052026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-znakomstva-04052026.html",
+      "seoKeywords": [
+        "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+        "Психология",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "psihologiya-lyubvi-11052026",
@@ -215,7 +290,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-lyubvi-photo-26b63e52.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Психология ЛЮБВИ\""
+      "imageAlt": "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lyubvi-11052026.html",
+      "seoKeywords": [
+        "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+        "Психология",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "gelendzhik",
@@ -252,6 +340,19 @@
       "materials": [
         "route-program",
         "team-brief"
+      ],
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json",
+      "pageUrl": "https://miiiips.ru/event-gelendzhik.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-gelendzhik.html",
+      "seoKeywords": [
+        "Выездной образовательный маршрут в Геленджик",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Геленджик / выездной маршрут института",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
       ]
     },
     {
@@ -282,7 +383,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-ideya-takaya-954f10c1.jpg",
       "imageCaption": "Постер конференции",
-      "imageAlt": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра"
+      "imageAlt": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/ideya-takaya-chto-ya-registr-4fec521510-17042026.json",
+      "pageUrl": "https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
+      "seoKeywords": [
+        "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
+        "Понедельничная лекция",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "reshenie-problem-i-prinyatie-f9d807d260-15042026",
@@ -312,7 +426,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-40d75918.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Решение проблем и принятие решений часть 2"
+      "imageAlt": "Решение проблем и принятие решений часть 2",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatie-f9d807d260-15042026.json",
+      "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
+      "seoKeywords": [
+        "Решение проблем и принятие решений часть 2",
+        "Лекция по средам",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
@@ -342,7 +469,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-otdelnoe-spiker-po-emotsionalnomu-intellektu-tatyana-podderzhka-biznesa-5bbe3989.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Поддержка бизнеса, методы развития публичных выступлений"
+      "imageAlt": "Поддержка бизнеса, методы развития публичных выступлений",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
+      "pageUrl": "https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
+      "seoKeywords": [
+        "Поддержка бизнеса, методы развития публичных выступлений",
+        "Отдельное мероприятие",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "psihologiya-otnosheniy-zhenshhina-13042026",
@@ -372,7 +512,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-c790eff1.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Психология женщины"
+      "imageAlt": "Психология женщины",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-zhenshhina-13042026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-zhenshhina-13042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html",
+      "seoKeywords": [
+        "Психология женщины",
+        "Понедельничная лекция",
+        "Татьяна Мунн",
+        "Публичная площадка института",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "data-fusion-09042026",
@@ -407,7 +560,15 @@
       ],
       "image": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
       "imageCaption": "Постер конференции",
-      "imageAlt": "Data Fusion 2026"
+      "imageAlt": "Data Fusion 2026",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
+      "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
+      "seoKeywords": [
+        "Data Fusion 2026",
+        "ИИ и исследования",
+        "Технологический кластер «Ломоносов», Москва"
+      ]
     },
     {
       "id": "kumskov-mik-lektsiya-9-ot-08042026",
@@ -435,7 +596,17 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-lektsiya-po-sredam-kumskov-mikhail-ivanovich-mgu-kumskov-mik-lektsiya-9-6e80c5ab.png",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Кумсков МИК лекция 9"
+      "imageAlt": "Кумсков МИК лекция 9",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kumskov-mik-lektsiya-9-ot-08042026.json",
+      "pageUrl": "https://miiiips.ru/event-kumskov-mik-lektsiya-9-ot-08042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-kumskov-mik-lektsiya-9-ot-08042026.html",
+      "seoKeywords": [
+        "Кумсков МИК лекция 9",
+        "Лекция по средам",
+        "Кумсков Михаил Иванович",
+        "Публичная площадка института",
+        "kumskov mikhail ivanovich mgu"
+      ]
     },
     {
       "id": "reshenie-problem-i-prinyatie-resheniy-08042026",
@@ -463,7 +634,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-48b62af0.png",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Решение проблем и принятие решений"
+      "imageAlt": "Решение проблем и принятие решений",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatie-resheniy-08042026.json",
+      "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatie-resheniy-08042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatie-resheniy-08042026.html",
+      "seoKeywords": [
+        "Решение проблем и принятие решений",
+        "Лекция по средам",
+        "Татьяна Мунн",
+        "Публичная площадка института",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "psihologiya-otnosheniy-06042026",
@@ -491,7 +675,20 @@
       "theme": "teal",
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-otnosheniy-granitsy-06042026-photo-355e678b.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Психология отношений: границы, совместимость и динамика близости"
+      "imageAlt": "Психология отношений: границы, совместимость и динамика близости",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-06042026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-06042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-06042026.html",
+      "seoKeywords": [
+        "Психология отношений: границы, совместимость и динамика близости",
+        "Психология",
+        "Татьяна Мунн",
+        "Публичная площадка института",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "bystraya-psihologiya-30032026",
@@ -526,7 +723,20 @@
       ],
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-bystraya-psihologiya-30032026-photo-01979d5e.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Быстрая психология"
+      "imageAlt": "Быстрая психология",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/bystraya-psihologiya-30032026.json",
+      "pageUrl": "https://miiiips.ru/event-bystraya-psihologiya-30032026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-bystraya-psihologiya-30032026.html",
+      "seoKeywords": [
+        "Быстрая психология",
+        "Психология",
+        "Татьяна Мунн",
+        "Лекторий Парка Горького",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "biomechanics",
@@ -560,6 +770,16 @@
         "research-demo",
         "case-page",
         "grant-evidence"
+      ],
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/biomechanics.json",
+      "pageUrl": "https://miiiips.ru/biomechanics-rowing.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-biomechanics.html",
+      "seoKeywords": [
+        "AI-аналитика гребли и биомеханики",
+        "Биомеханика и спорт",
+        "Команда МИИИИПС",
+        "Спорт и прикладная аналитика",
+        "komanda miiiips"
       ]
     },
     {
@@ -595,7 +815,20 @@
       ],
       "image": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Психология мужчины: доверие и общение"
+      "imageAlt": "Психология мужчины: доверие и общение",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psychology-men.json",
+      "pageUrl": "https://miiiips.ru/event-psychology-men.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psychology-men.html",
+      "seoKeywords": [
+        "Психология мужчины: доверие и общение",
+        "Психология",
+        "Татьяна Мунн",
+        "Лекторий Парка Горького",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ]
     },
     {
       "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
@@ -633,7 +866,20 @@
       "sourceLinks": [
         "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka"
       ],
-      "annotation": "Доклад посвящен роли эмоционального интеллекта в профессиональном становлении личности в условиях цифровой образовательной среды. Материал подготовлен с опорой на исследовательскую работу АНО МИИИИПС (Автономной некоммерческой организации «Международный институт исследований искусственного интеллекта, психологии и спорта»), что позволяет рассматривать эмоциональный интеллект как значимый фактор адаптации, саморегуляции и профессионального развития в современной цифровой среде."
+      "annotation": "Доклад посвящен роли эмоционального интеллекта в профессиональном становлении личности в условиях цифровой образовательной среды. Материал подготовлен с опорой на исследовательскую работу АНО МИИИИПС (Автономной некоммерческой организации «Международный институт исследований искусственного интеллекта, психологии и спорта»), что позволяет рассматривать эмоциональный интеллект как значимый фактор адаптации, саморегуляции и профессионального развития в современной цифровой среде.",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "seoKeywords": [
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+        "Конференция",
+        "МИИИИПС",
+        "19-20 декабря 2025",
+        "Устный",
+        "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
+        "msu.uz",
+        "miiiips mgu"
+      ]
     },
     {
       "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
@@ -672,7 +918,20 @@
         "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
         "https://moskva.bezformata.com/listnews/konferentcii-v-mgusit/153460712/"
       ],
-      "annotation": "Представлен обзор современных подходов в психологии спорта и эмоционального интеллекта, на основе которых обосновывается введение термина “NeuroSport Skills”. Концепция “NeuroSport Skills” является спортивной модификацией более широкого подхода “NeuroSoft Skills”, адаптированной к специфике физических нагрузок, психофизиологической регуляции и эмоциональной устойчивости спортсменов. В рамках нового термина акцент делается на нейропсихологические механизмы внимания, саморегуляции, стрессоустойчивости, телесной осознанности и нейропластичности. Показано, что NeuroSport Skills объединяет когнитивные, эмоциональные и соматические навыки, формируя целостную модель внутренней устойчивости и адаптации спортсмена в соревновательной и тренировочной деятельности."
+      "annotation": "Представлен обзор современных подходов в психологии спорта и эмоционального интеллекта, на основе которых обосновывается введение термина “NeuroSport Skills”. Концепция “NeuroSport Skills” является спортивной модификацией более широкого подхода “NeuroSoft Skills”, адаптированной к специфике физических нагрузок, психофизиологической регуляции и эмоциональной устойчивости спортсменов. В рамках нового термина акцент делается на нейропсихологические механизмы внимания, саморегуляции, стрессоустойчивости, телесной осознанности и нейропластичности. Показано, что NeuroSport Skills объединяет когнитивные, эмоциональные и соматические навыки, формируя целостную модель внутренней устойчивости и адаптации спортсмена в соревновательной и тренировочной деятельности.",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/neurosport-skills-kognitivna-12f1dcf15e-19112025.json",
+      "pageUrl": "https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "seoKeywords": [
+        "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+        "Конференция",
+        "МИИИИПС",
+        "18-19 ноября 2025",
+        "Устный",
+        "Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура",
+        "sportvmoskve.ru",
+        "miiiips mgusit"
+      ]
     },
     {
       "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
@@ -710,7 +969,20 @@
       "sourceLinks": [
         "https://istina.msu.ru/conferences/presentations/620913097/"
       ],
-      "annotation": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качественно выполнять свои задачи, но и эффективно взаимодействовать с другими людьми и достигать результатов. Развитие «Soft Skills» навыков следует обеспечить через профессиональное обучение, практику, саморазвитие и общения с людьми. Это позволит быстрее интегрироваться специалисту в ИТ-команду и успешно пройти испытательный срок."
+      "annotation": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качественно выполнять свои задачи, но и эффективно взаимодействовать с другими людьми и достигать результатов. Развитие «Soft Skills» навыков следует обеспечить через профессиональное обучение, практику, саморазвитие и общения с людьми. Это позволит быстрее интегрироваться специалисту в ИТ-команду и успешно пройти испытательный срок.",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "seoKeywords": [
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+        "Конференция",
+        "Участие МИИИИПС",
+        "22-23 декабря 2023",
+        "Устный",
+        "Ташкент, Узбекистан",
+        "istina.msu.ru",
+        "uchastie miiiips"
+      ]
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "parkgorkogo",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Открытая лекция Татьяны Мунн в Парке Горького",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Лекторий Парка Горького",
+  "summary": "Открытая лекция в цикле понедельничных встреч института.",
+  "start": "2026-04-02T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-parkgorkogo.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-parkgorkogo.html",
+  "canonicalUrl": "https://miiiips.ru/event-parkgorkogo.html",
+  "detailPage": "event-parkgorkogo.html",
+  "feedbackPage": "event-feedback-parkgorkogo.html",
+  "calendarFile": "assets/calendar/parkgorkogo-lecture.ics",
+  "image": "https://miiiips.ru/assets/images/tatyana-munn/miiiips-publichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-otkrytaya-lektsiya-5b83ff71.jpg",
+  "imagePath": "assets/images/tatyana-munn/miiiips-publichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-otkrytaya-lektsiya-5b83ff71.jpg",
+  "imageAlt": "Открытая лекция Татьяны Мунн в Парке Горького",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "emotional_intelligence",
+    "psychology"
+  ],
+  "directionLabels": [
+    "Эмоциональный интеллект",
+    "Психология"
+  ],
+  "keywords": [
+    "Открытая лекция Татьяны Мунн в Парке Горького",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Лекторий Парка Горького",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/parkgorkogo.json",
+  "kind": "event"
+}

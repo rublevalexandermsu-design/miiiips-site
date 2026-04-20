@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "gelendzhik",
+  "type": "public_lecture",
+  "typeLabel": "Выездной маршрут",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Выездной образовательный маршрут в Геленджик",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Геленджик / выездной маршрут института",
+  "summary": "Выездной маршрут института с календарём, регистрацией и материалами на отдельной странице.",
+  "start": "2026-06-12T18:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-gelendzhik.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-gelendzhik.html",
+  "canonicalUrl": "https://miiiips.ru/event-gelendzhik.html",
+  "detailPage": "event-gelendzhik.html",
+  "feedbackPage": "event-feedback-gelendzhik.html",
+  "calendarFile": "assets/calendar/gelendzhik-route.ics",
+  "image": "",
+  "imagePath": "",
+  "imageAlt": "",
+  "imageCaption": "",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "emotional_intelligence",
+    "psychology"
+  ],
+  "directionLabels": [
+    "Эмоциональный интеллект",
+    "Психология"
+  ],
+  "keywords": [
+    "Выездной образовательный маршрут в Геленджик",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Геленджик / выездной маршрут института",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json",
+  "kind": "event"
+}

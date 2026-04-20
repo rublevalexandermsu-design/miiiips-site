@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "sales-lab",
+  "type": "corporate_module",
+  "typeLabel": "Корпоративный модуль",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Эмоциональный интеллект для переговорных и sales-команд",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Корпоративный формат / по запросу",
+  "summary": "Формат для бизнеса: выступления, разборы для отделов продаж, устойчивость в переговорах и управляемая коммуникация.",
+  "start": "2026-04-09T11:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/contacts-partners.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-sales-lab.html",
+  "canonicalUrl": "https://miiiips.ru/contacts-partners.html",
+  "detailPage": "contacts-partners.html",
+  "feedbackPage": "event-feedback-sales-lab.html",
+  "calendarFile": "",
+  "image": "",
+  "imagePath": "",
+  "imageAlt": "",
+  "imageCaption": "",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "emotional_intelligence",
+    "psychology"
+  ],
+  "directionLabels": [
+    "Эмоциональный интеллект",
+    "Психология"
+  ],
+  "keywords": [
+    "Эмоциональный интеллект для переговорных и sales-команд",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Корпоративный формат / по запросу",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/sales-lab.json",
+  "kind": "event"
+}

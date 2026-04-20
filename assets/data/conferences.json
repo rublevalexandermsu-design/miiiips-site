@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-04-20T08:38:48",
+  "count": 4,
+  "conferences": [
+    {
+      "manifestVersion": 1,
+      "generatedAt": "2026-04-20T08:38:48",
+      "id": "data-fusion-09042026",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "title": "Data Fusion 2026",
+      "conferenceTitle": "",
+      "conferenceDates": "",
+      "reportType": "",
+      "speaker": "",
+      "venue": "Технологический кластер «Ломоносов», Москва",
+      "summary": "Международная конференция по экономике данных и технологиям ИИ с фокусом на работе с данными и диалоге бизнеса, науки и государства.",
+      "start": "2026-04-09T00:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
+      "canonicalUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+      "detailPage": "event-data-fusion-09042026.html",
+      "feedbackPage": "event-feedback-data-fusion-09042026.html",
+      "calendarFile": "",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+      "imagePath": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+      "imageAlt": "Data Fusion 2026",
+      "imageCaption": "Постер конференции",
+      "sourceLink": "",
+      "sourceLinks": [],
+      "directions": [
+        "ai_research"
+      ],
+      "directionLabels": [
+        "ИИ и исследования"
+      ],
+      "keywords": [
+        "Data Fusion 2026",
+        "ИИ и исследования",
+        "Технологический кластер «Ломоносов», Москва"
+      ],
+      "marketingHint": "",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
+      "kind": "conference"
+    },
+    {
+      "manifestVersion": 1,
+      "generatedAt": "2026-04-20T08:38:48",
+      "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "title": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "conferenceTitle": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "conferenceDates": "19-20 декабря 2025",
+      "reportType": "Устный",
+      "speaker": "МИИИИПС",
+      "venue": "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
+      "summary": "Эмоциональный интеллект в профессиональном становлении личности",
+      "start": "2025-12-19T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "canonicalUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "detailPage": "event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "feedbackPage": "event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-pr-b0b854dbbb.ics",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
+      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
+      "imageAlt": "Постер конференции",
+      "imageCaption": "Постер конференции",
+      "sourceLink": "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka",
+      "sourceLinks": [
+        "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka"
+      ],
+      "directions": [
+        "conference"
+      ],
+      "directionLabels": [
+        "Конференция"
+      ],
+      "keywords": [
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+        "Конференция",
+        "МИИИИПС",
+        "19-20 декабря 2025",
+        "Устный",
+        "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
+        "msu.uz",
+        "miiiips mgu"
+      ],
+      "marketingHint": "miiiips-mgu",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "kind": "conference"
+    },
+    {
+      "manifestVersion": 1,
+      "generatedAt": "2026-04-20T08:38:48",
+      "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "title": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+      "conferenceTitle": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+      "conferenceDates": "18-19 ноября 2025",
+      "reportType": "Устный",
+      "speaker": "МИИИИПС",
+      "venue": "Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура",
+      "summary": "NeuroSport Skills: когнитивная, эмоциональная и телесная устойчивость спортсмена",
+      "start": "2025-11-19T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "canonicalUrl": "https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "detailPage": "event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "feedbackPage": "event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+      "calendarFile": "assets/calendar/neurosport-skills-kognitivna-2d7fabe9e6.ics",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
+      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
+      "imageAlt": "Постер конференции",
+      "imageCaption": "Постер конференции",
+      "sourceLink": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+      "sourceLinks": [
+        "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+        "https://moskva.bezformata.com/listnews/konferentcii-v-mgusit/153460712/"
+      ],
+      "directions": [
+        "conference"
+      ],
+      "directionLabels": [
+        "Конференция"
+      ],
+      "keywords": [
+        "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+        "Конференция",
+        "МИИИИПС",
+        "18-19 ноября 2025",
+        "Устный",
+        "Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура",
+        "sportvmoskve.ru",
+        "miiiips mgusit"
+      ],
+      "marketingHint": "miiiips-mgusit",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/neurosport-skills-kognitivna-12f1dcf15e-19112025.json",
+      "kind": "conference"
+    },
+    {
+      "manifestVersion": 1,
+      "generatedAt": "2026-04-20T08:38:48",
+      "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "conferenceDates": "22-23 декабря 2023",
+      "reportType": "Устный",
+      "speaker": "Участие МИИИИПС",
+      "venue": "Ташкент, Узбекистан",
+      "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
+      "start": "2023-12-22T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "canonicalUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "detailPage": "event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "feedbackPage": "event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+      "imageAlt": "Постер конференции",
+      "imageCaption": "Постер конференции",
+      "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
+      "sourceLinks": [
+        "https://istina.msu.ru/conferences/presentations/620913097/"
+      ],
+      "directions": [
+        "conference"
+      ],
+      "directionLabels": [
+        "Конференция"
+      ],
+      "keywords": [
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+        "Конференция",
+        "Участие МИИИИПС",
+        "22-23 декабря 2023",
+        "Устный",
+        "Ташкент, Узбекистан",
+        "istina.msu.ru",
+        "uchastie miiiips"
+      ],
+      "marketingHint": "uchastie-miiiips",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "kind": "conference"
+    }
+  ]
+}

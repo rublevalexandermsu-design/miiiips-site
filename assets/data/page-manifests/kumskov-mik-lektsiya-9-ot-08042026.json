@@ -1,0 +1,45 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "kumskov-mik-lektsiya-9-ot-08042026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Кумсков МИК лекция 9",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Кумсков Михаил Иванович",
+  "venue": "Публичная площадка института",
+  "summary": "Кумсков МИК лекция 9 от 08.04.2026.",
+  "start": "2026-04-08T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-kumskov-mik-lektsiya-9-ot-08042026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-kumskov-mik-lektsiya-9-ot-08042026.html",
+  "canonicalUrl": "https://miiiips.ru/event-kumskov-mik-lektsiya-9-ot-08042026.html",
+  "detailPage": "event-kumskov-mik-lektsiya-9-ot-08042026.html",
+  "feedbackPage": "event-feedback-kumskov-mik-lektsiya-9-ot-08042026.html",
+  "calendarFile": "",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-lektsiya-po-sredam-kumskov-mikhail-ivanovich-mgu-kumskov-mik-lektsiya-9-6e80c5ab.png",
+  "imagePath": "assets/images/lectures/miiiips-lektsiya-po-sredam-kumskov-mikhail-ivanovich-mgu-kumskov-mik-lektsiya-9-6e80c5ab.png",
+  "imageAlt": "Кумсков МИК лекция 9",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "lecture_series"
+  ],
+  "directionLabels": [
+    "Лекция по средам"
+  ],
+  "keywords": [
+    "Кумсков МИК лекция 9",
+    "Лекция по средам",
+    "Кумсков Михаил Иванович",
+    "Публичная площадка института",
+    "kumskov mikhail ivanovich mgu"
+  ],
+  "marketingHint": "kumskov-mikhail-ivanovich-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kumskov-mik-lektsiya-9-ot-08042026.json",
+  "kind": "event"
+}

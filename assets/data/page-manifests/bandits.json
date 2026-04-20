@@ -1,0 +1,45 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "bandits",
+  "type": "seminar",
+  "typeLabel": "Семинар МИИИИПС",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Линейные стохастические бандиты с точки зрения онлайн-оптимизации",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Юрий Дорн",
+  "venue": "МИИИИПС / рабочий семинар",
+  "summary": "Семинар по онлайн-оптимизации с понятной карточкой события, регистрацией, календарём и отдельной страницей.",
+  "start": "2026-03-25T17:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-bandits.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-bandits.html",
+  "canonicalUrl": "https://miiiips.ru/event-bandits.html",
+  "detailPage": "event-bandits.html",
+  "feedbackPage": "event-feedback-bandits.html",
+  "calendarFile": "assets/calendar/bandits-seminar.ics",
+  "image": "",
+  "imagePath": "",
+  "imageAlt": "",
+  "imageCaption": "",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "ai_research"
+  ],
+  "directionLabels": [
+    "ИИ и исследования"
+  ],
+  "keywords": [
+    "Линейные стохастические бандиты с точки зрения онлайн-оптимизации",
+    "ИИ и исследования",
+    "Юрий Дорн",
+    "МИИИИПС / рабочий семинар",
+    "yuriy dorn"
+  ],
+  "marketingHint": "yuriy-dorn",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/bandits.json",
+  "kind": "event"
+}

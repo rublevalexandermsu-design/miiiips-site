@@ -1,0 +1,51 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
+  "type": "conference",
+  "typeLabel": "Конференция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+  "conferenceTitle": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+  "conferenceDates": "18-19 ноября 2025",
+  "reportType": "Устный",
+  "speaker": "МИИИИПС",
+  "venue": "Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура",
+  "summary": "NeuroSport Skills: когнитивная, эмоциональная и телесная устойчивость спортсмена",
+  "start": "2025-11-19T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+  "canonicalUrl": "https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+  "detailPage": "event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+  "feedbackPage": "event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
+  "calendarFile": "assets/calendar/neurosport-skills-kognitivna-2d7fabe9e6.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
+  "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
+  "imageAlt": "Постер конференции",
+  "imageCaption": "Постер конференции",
+  "sourceLink": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+  "sourceLinks": [
+    "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
+    "https://moskva.bezformata.com/listnews/konferentcii-v-mgusit/153460712/"
+  ],
+  "directions": [
+    "conference"
+  ],
+  "directionLabels": [
+    "Конференция"
+  ],
+  "keywords": [
+    "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+    "Конференция",
+    "МИИИИПС",
+    "18-19 ноября 2025",
+    "Устный",
+    "Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура",
+    "sportvmoskve.ru",
+    "miiiips mgusit"
+  ],
+  "marketingHint": "miiiips-mgusit",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/neurosport-skills-kognitivna-12f1dcf15e-19112025.json",
+  "kind": "conference"
+}

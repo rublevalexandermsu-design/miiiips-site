@@ -1,0 +1,48 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "psychology-men",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Психология мужчины: доверие и общение",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Лекторий Парка Горького",
+  "summary": "Лекция о мужской коммуникации, доверии, дистанции и спокойном темпе общения.",
+  "start": "2026-02-23T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-psychology-men.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-psychology-men.html",
+  "canonicalUrl": "https://miiiips.ru/event-psychology-men.html",
+  "detailPage": "event-psychology-men.html",
+  "feedbackPage": "event-feedback-psychology-men.html",
+  "calendarFile": "",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
+  "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
+  "imageAlt": "Психология мужчины: доверие и общение",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "psychology"
+  ],
+  "directionLabels": [
+    "Психология"
+  ],
+  "keywords": [
+    "Психология мужчины: доверие и общение",
+    "Психология",
+    "Татьяна Мунн",
+    "Лекторий Парка Горького",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psychology-men.json",
+  "kind": "event"
+}

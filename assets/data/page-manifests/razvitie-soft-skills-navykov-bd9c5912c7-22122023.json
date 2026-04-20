@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T08:38:48",
+  "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+  "type": "conference",
+  "typeLabel": "Конференция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+  "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+  "conferenceDates": "22-23 декабря 2023",
+  "reportType": "Устный",
+  "speaker": "Участие МИИИИПС",
+  "venue": "Ташкент, Узбекистан",
+  "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
+  "start": "2023-12-22T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "canonicalUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "detailPage": "event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "feedbackPage": "event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+  "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+  "imageAlt": "Постер конференции",
+  "imageCaption": "Постер конференции",
+  "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
+  "sourceLinks": [
+    "https://istina.msu.ru/conferences/presentations/620913097/"
+  ],
+  "directions": [
+    "conference"
+  ],
+  "directionLabels": [
+    "Конференция"
+  ],
+  "keywords": [
+    "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+    "Конференция",
+    "Участие МИИИИПС",
+    "22-23 декабря 2023",
+    "Устный",
+    "Ташкент, Узбекистан",
+    "istina.msu.ru",
+    "uchastie miiiips"
+  ],
+  "marketingHint": "uchastie-miiiips",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+  "kind": "conference"
+}
