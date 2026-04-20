@@ -1,0 +1,47 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-20T09:13:04",
+  "id": "test-meropriyatie-na-sredu-08042026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "past",
+  "statusLabel": "Прошедшее",
+  "title": "Тест мероприятие на среду",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Публичная площадка института",
+  "summary": "Тест мероприятие на среду",
+  "start": "2026-04-08T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-test-meropriyatie-na-sredu-08042026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-test-meropriyatie-na-sredu-08042026.html",
+  "canonicalUrl": "https://miiiips.ru/event-test-meropriyatie-na-sredu-08042026.html",
+  "detailPage": "event-test-meropriyatie-na-sredu-08042026.html",
+  "feedbackPage": "event-feedback-test-meropriyatie-na-sredu-08042026.html",
+  "calendarFile": "",
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-lektsiya-po-sredam-test-meropriyatie-na-sredu-08042026-photo-eaa2be4a.jpg",
+  "imagePath": "assets/images/lectures/miiiips-lektsiya-po-sredam-test-meropriyatie-na-sredu-08042026-photo-eaa2be4a.jpg",
+  "imageAlt": "Тест мероприятие на среду",
+  "imageCaption": "Фото мероприятия",
+  "sourceLink": "",
+  "sourceLinks": [],
+  "directions": [
+    "lecture_series"
+  ],
+  "directionLabels": [
+    "Лекция по средам"
+  ],
+  "keywords": [
+    "Тест мероприятие на среду",
+    "Лекция по средам",
+    "Татьяна Мунн",
+    "Публичная площадка института",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/test-meropriyatie-na-sredu-08042026.json",
+  "kind": "event"
+}

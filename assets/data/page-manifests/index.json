@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-04-20T08:38:48",
-  "count": 22,
+  "count": 24,
   "items": [
     {
       "id": "bandits",
@@ -287,6 +287,32 @@
       "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
       "kind": "conference"
+    },
+    {
+      "id": "reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026",
+      "title": "Решение проблем и принятия решений. Часть 2",
+      "conferenceTitle": "",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "start": "2026-04-15T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.json",
+      "kind": "event"
+    },
+    {
+      "id": "test-meropriyatie-na-sredu-08042026",
+      "title": "Тест мероприятие на среду",
+      "conferenceTitle": "",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "start": "2026-04-08T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-test-meropriyatie-na-sredu-08042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-test-meropriyatie-na-sredu-08042026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/test-meropriyatie-na-sredu-08042026.json",
+      "kind": "event"
     }
   ]
 }
