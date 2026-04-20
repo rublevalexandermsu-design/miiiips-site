@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-04-20T18:30:13",
+  "kind": "applied_demo",
+  "kindLabel": "applied_demo",
+  "count": 1,
+  "items": [
+    {
+      "id": "biomechanics",
+      "title": "AI-аналитика гребли и биомеханики",
+      "conferenceTitle": "",
+      "speaker": "Команда МИИИИПС",
+      "start": "2026-03-14T18:30:00+03:00",
+      "pageUrl": "https://miiiips.ru/biomechanics-rowing.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/biomechanics.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/biomechanics.json",
+      "answerSummary": "AI-аналитика гребли и биомеханики — Команда МИИИИПС; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
+    }
+  ]
+}

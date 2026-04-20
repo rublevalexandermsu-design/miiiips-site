@@ -1,0 +1,129 @@
+{
+  "packageVersion": 1,
+  "generatedAt": "2026-04-20T18:30:13",
+  "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+  "kind": "conference",
+  "kindLabel": "Конференции",
+  "pageType": "conference",
+  "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "canonicalUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+  "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+  "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+  "conferenceDates": "22-23 декабря 2023",
+  "reportType": "Устный",
+  "speaker": "Участие МИИИИПС",
+  "venue": "Ташкент, Узбекистан",
+  "start": "2023-12-22T19:00:00+03:00",
+  "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
+  "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан.",
+  "primaryEntity": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+  "sourceLinks": [
+    "https://istina.msu.ru/conferences/presentations/620913097/"
+  ],
+  "sourcePriority": [
+    "pageManifest",
+    "eventsJson",
+    "conferenceIndex",
+    "sourceLink"
+  ],
+  "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+  "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+  "imageAlt": "Постер конференции",
+  "imageCaption": "Постер конференции",
+  "keywords": [
+    "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+    "Конференция",
+    "Участие МИИИИПС",
+    "22-23 декабря 2023",
+    "Устный",
+    "Ташкент, Узбекистан",
+    "istina.msu.ru",
+    "uchastie miiiips"
+  ],
+  "recommendedQueries": [
+    "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+    "Участие МИИИИПС Конференция",
+    "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ Участие МИИИИПС",
+    "22.12.2023"
+  ],
+  "relatedPages": [
+    "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json"
+  ],
+  "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ.",
+  "pageManifest": {
+    "manifestVersion": 1,
+    "generatedAt": "2026-04-20T18:30:13",
+    "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+    "type": "conference",
+    "typeLabel": "Конференция",
+    "status": "past",
+    "statusLabel": "Прошедшее",
+    "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+    "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+    "conferenceDates": "22-23 декабря 2023",
+    "reportType": "Устный",
+    "speaker": "Участие МИИИИПС",
+    "venue": "Ташкент, Узбекистан",
+    "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
+    "start": "2023-12-22T19:00:00+03:00",
+    "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "canonicalUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "detailPage": "event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "feedbackPage": "event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+    "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
+    "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+    "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+    "imageAlt": "Постер конференции",
+    "imageCaption": "Постер конференции",
+    "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
+    "sourceLinks": [
+      "https://istina.msu.ru/conferences/presentations/620913097/"
+    ],
+    "directions": [
+      "conference"
+    ],
+    "directionLabels": [
+      "Конференция"
+    ],
+    "keywords": [
+      "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "Конференция",
+      "Участие МИИИИПС",
+      "22-23 декабря 2023",
+      "Устный",
+      "Ташкент, Узбекистан",
+      "istina.msu.ru",
+      "uchastie miiiips"
+    ],
+    "marketingHint": "uchastie-miiiips",
+    "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+    "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+    "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+    "kind": "conference",
+    "pageType": "conference",
+    "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан.",
+    "primaryEntity": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+    "recommendedQueries": [
+      "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "Участие МИИИИПС Конференция",
+      "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ Участие МИИИИПС",
+      "22.12.2023"
+    ],
+    "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ.",
+    "sourcePriority": [
+      "pageManifest",
+      "eventsJson",
+      "conferenceIndex",
+      "sourceLink"
+    ],
+    "relatedPages": [
+      "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json"
+    ]
+  }
+}

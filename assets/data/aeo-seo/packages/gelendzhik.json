@@ -1,0 +1,125 @@
+{
+  "packageVersion": 1,
+  "generatedAt": "2026-04-20T18:30:13",
+  "id": "gelendzhik",
+  "kind": "public_lecture",
+  "kindLabel": "Публичные лекции",
+  "pageType": "public_lecture",
+  "pageUrl": "https://miiiips.ru/event-gelendzhik.html",
+  "canonicalUrl": "https://miiiips.ru/event-gelendzhik.html",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json",
+  "title": "Выездной образовательный маршрут в Геленджик",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Геленджик / выездной маршрут института",
+  "start": "2026-06-12T18:00:00+03:00",
+  "summary": "Выездной маршрут института с календарём, регистрацией и материалами на отдельной странице.",
+  "answerSummary": "Выездной образовательный маршрут в Геленджик — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+  "primaryEntity": "Выездной образовательный маршрут в Геленджик",
+  "sourceLinks": [],
+  "sourcePriority": [
+    "pageManifest",
+    "eventsJson",
+    "sourceLink"
+  ],
+  "image": "",
+  "imagePath": "",
+  "imageAlt": "",
+  "imageCaption": "",
+  "keywords": [
+    "Выездной образовательный маршрут в Геленджик",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Геленджик / выездной маршрут института",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "recommendedQueries": [
+    "Выездной образовательный маршрут в Геленджик",
+    "Татьяна Мунн Выездной маршрут",
+    "Выездной образовательный маршрут в Геленджик Татьяна Мунн",
+    "12.06.2026"
+  ],
+  "relatedPages": [
+    "https://miiiips.ru/event-gelendzhik.html",
+    "https://miiiips.ru/event-feedback-gelendzhik.html",
+    "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json"
+  ],
+  "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Выездной образовательный маршрут в Геленджик.",
+  "pageManifest": {
+    "manifestVersion": 1,
+    "generatedAt": "2026-04-20T18:30:13",
+    "id": "gelendzhik",
+    "type": "public_lecture",
+    "typeLabel": "Выездной маршрут",
+    "status": "upcoming",
+    "statusLabel": "Анонс",
+    "title": "Выездной образовательный маршрут в Геленджик",
+    "conferenceTitle": "",
+    "conferenceDates": "",
+    "reportType": "",
+    "speaker": "Татьяна Мунн",
+    "venue": "Геленджик / выездной маршрут института",
+    "summary": "Выездной маршрут института с календарём, регистрацией и материалами на отдельной странице.",
+    "start": "2026-06-12T18:00:00+03:00",
+    "pageUrl": "https://miiiips.ru/event-gelendzhik.html",
+    "feedbackUrl": "https://miiiips.ru/event-feedback-gelendzhik.html",
+    "canonicalUrl": "https://miiiips.ru/event-gelendzhik.html",
+    "detailPage": "event-gelendzhik.html",
+    "feedbackPage": "event-feedback-gelendzhik.html",
+    "calendarFile": "assets/calendar/gelendzhik-route.ics",
+    "image": "",
+    "imagePath": "",
+    "imageAlt": "",
+    "imageCaption": "",
+    "sourceLink": "",
+    "sourceLinks": [],
+    "directions": [
+      "emotional_intelligence",
+      "psychology"
+    ],
+    "directionLabels": [
+      "Эмоциональный интеллект",
+      "Психология"
+    ],
+    "keywords": [
+      "Выездной образовательный маршрут в Геленджик",
+      "Эмоциональный интеллект",
+      "Татьяна Мунн",
+      "Геленджик / выездной маршрут института",
+      "спикер по эмоциональному интеллекту Татьяна Мунн",
+      "Татьяна Мунн МГУ",
+      "Татьяна Мунн МИИИИПС",
+      "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+    ],
+    "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+    "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json",
+    "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/gelendzhik.json",
+    "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/gelendzhik.json",
+    "kind": "public_lecture",
+    "pageType": "public_lecture",
+    "answerSummary": "Выездной образовательный маршрут в Геленджик — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+    "primaryEntity": "Выездной образовательный маршрут в Геленджик",
+    "recommendedQueries": [
+      "Выездной образовательный маршрут в Геленджик",
+      "Татьяна Мунн Выездной маршрут",
+      "Выездной образовательный маршрут в Геленджик Татьяна Мунн",
+      "12.06.2026"
+    ],
+    "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Выездной образовательный маршрут в Геленджик.",
+    "sourcePriority": [
+      "pageManifest",
+      "eventsJson",
+      "sourceLink"
+    ],
+    "relatedPages": [
+      "https://miiiips.ru/event-gelendzhik.html",
+      "https://miiiips.ru/event-feedback-gelendzhik.html",
+      "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json"
+    ]
+  }
+}

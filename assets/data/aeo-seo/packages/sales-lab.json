@@ -1,0 +1,125 @@
+{
+  "packageVersion": 1,
+  "generatedAt": "2026-04-20T18:30:13",
+  "id": "sales-lab",
+  "kind": "corporate_module",
+  "kindLabel": "Корпоративные модули",
+  "pageType": "corporate_module",
+  "pageUrl": "https://miiiips.ru/contacts-partners.html",
+  "canonicalUrl": "https://miiiips.ru/contacts-partners.html",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/sales-lab.json",
+  "title": "Эмоциональный интеллект для переговорных и sales-команд",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Корпоративный формат / по запросу",
+  "start": "2026-04-09T11:00:00+03:00",
+  "summary": "Формат для бизнеса: выступления, разборы для отделов продаж, устойчивость в переговорах и управляемая коммуникация.",
+  "answerSummary": "Корпоративный модуль «Эмоциональный интеллект для переговорных и sales-команд» связан с практическим применением темы Татьяна Мунн для партнёрского контекста.",
+  "primaryEntity": "Эмоциональный интеллект для переговорных и sales-команд",
+  "sourceLinks": [],
+  "sourcePriority": [
+    "pageManifest",
+    "eventsJson",
+    "sourceLink"
+  ],
+  "image": "",
+  "imagePath": "",
+  "imageAlt": "",
+  "imageCaption": "",
+  "keywords": [
+    "Эмоциональный интеллект для переговорных и sales-команд",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Корпоративный формат / по запросу",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "recommendedQueries": [
+    "Эмоциональный интеллект для переговорных и sales-команд",
+    "Татьяна Мунн Корпоративный модуль",
+    "Эмоциональный интеллект для переговорных и sales-команд Татьяна Мунн",
+    "09.04.2026"
+  ],
+  "relatedPages": [
+    "https://miiiips.ru/contacts-partners.html",
+    "https://miiiips.ru/event-feedback-sales-lab.html",
+    "https://miiiips.ru/assets/data/page-manifests/sales-lab.json"
+  ],
+  "agentInstructions": "Это каноническая карточка корпоративные модули. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Эмоциональный интеллект для переговорных и sales-команд.",
+  "pageManifest": {
+    "manifestVersion": 1,
+    "generatedAt": "2026-04-20T18:30:13",
+    "id": "sales-lab",
+    "type": "corporate_module",
+    "typeLabel": "Корпоративный модуль",
+    "status": "upcoming",
+    "statusLabel": "Анонс",
+    "title": "Эмоциональный интеллект для переговорных и sales-команд",
+    "conferenceTitle": "",
+    "conferenceDates": "",
+    "reportType": "",
+    "speaker": "Татьяна Мунн",
+    "venue": "Корпоративный формат / по запросу",
+    "summary": "Формат для бизнеса: выступления, разборы для отделов продаж, устойчивость в переговорах и управляемая коммуникация.",
+    "start": "2026-04-09T11:00:00+03:00",
+    "pageUrl": "https://miiiips.ru/contacts-partners.html",
+    "feedbackUrl": "https://miiiips.ru/event-feedback-sales-lab.html",
+    "canonicalUrl": "https://miiiips.ru/contacts-partners.html",
+    "detailPage": "contacts-partners.html",
+    "feedbackPage": "event-feedback-sales-lab.html",
+    "calendarFile": "",
+    "image": "",
+    "imagePath": "",
+    "imageAlt": "",
+    "imageCaption": "",
+    "sourceLink": "",
+    "sourceLinks": [],
+    "directions": [
+      "emotional_intelligence",
+      "psychology"
+    ],
+    "directionLabels": [
+      "Эмоциональный интеллект",
+      "Психология"
+    ],
+    "keywords": [
+      "Эмоциональный интеллект для переговорных и sales-команд",
+      "Эмоциональный интеллект",
+      "Татьяна Мунн",
+      "Корпоративный формат / по запросу",
+      "спикер по эмоциональному интеллекту Татьяна Мунн",
+      "Татьяна Мунн МГУ",
+      "Татьяна Мунн МИИИИПС",
+      "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+    ],
+    "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+    "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/sales-lab.json",
+    "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/sales-lab.json",
+    "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/sales-lab.json",
+    "kind": "corporate_module",
+    "pageType": "corporate_module",
+    "answerSummary": "Корпоративный модуль «Эмоциональный интеллект для переговорных и sales-команд» связан с практическим применением темы Татьяна Мунн для партнёрского контекста.",
+    "primaryEntity": "Эмоциональный интеллект для переговорных и sales-команд",
+    "recommendedQueries": [
+      "Эмоциональный интеллект для переговорных и sales-команд",
+      "Татьяна Мунн Корпоративный модуль",
+      "Эмоциональный интеллект для переговорных и sales-команд Татьяна Мунн",
+      "09.04.2026"
+    ],
+    "agentInstructions": "Это каноническая карточка корпоративные модули. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Эмоциональный интеллект для переговорных и sales-команд.",
+    "sourcePriority": [
+      "pageManifest",
+      "eventsJson",
+      "sourceLink"
+    ],
+    "relatedPages": [
+      "https://miiiips.ru/contacts-partners.html",
+      "https://miiiips.ru/event-feedback-sales-lab.html",
+      "https://miiiips.ru/assets/data/page-manifests/sales-lab.json"
+    ]
+  }
+}

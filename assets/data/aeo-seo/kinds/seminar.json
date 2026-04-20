@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-04-20T18:30:13",
+  "kind": "seminar",
+  "kindLabel": "Семинары",
+  "count": 1,
+  "items": [
+    {
+      "id": "bandits",
+      "title": "Линейные стохастические бандиты с точки зрения онлайн-оптимизации",
+      "conferenceTitle": "",
+      "speaker": "Юрий Дорн",
+      "start": "2026-03-25T17:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-bandits.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/bandits.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/bandits.json",
+      "answerSummary": "Линейные стохастические бандиты с точки зрения онлайн-оптимизации — Юрий Дорн; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
+    }
+  ]
+}

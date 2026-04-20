@@ -3,11 +3,14 @@
 Canonical machine-readable sources:
 - https://miiiips.ru/assets/data/events.json
 - https://miiiips.ru/assets/data/conferences.json
+- https://miiiips.ru/assets/data/aeo-seo/index.json
+- https://miiiips.ru/assets/data/aeo-seo/packages/index.json
 - https://miiiips.ru/assets/data/page-manifests/index.json
 - https://miiiips.ru/image-sitemap.xml
 
 Guidance:
 - Prefer JSON and page manifests before HTML parsing.
+- Prefer the AEO / SEO package JSON before visible page text when building answers for agents.
 - For conferences, use conferenceTitle, conferenceDates, reportType, sourceLinks, and canonical page URL.
 - For lectures and events, use the canonical page manifest and events.json as the source of truth.
 - Keep public page text separate from hidden SEO tokens and machine metadata.

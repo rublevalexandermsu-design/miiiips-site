@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-20T08:38:48",
-  "count": 24,
+  "generatedAt": "2026-04-20T18:30:13",
+  "count": 22,
   "items": [
     {
       "id": "bandits",
@@ -13,7 +13,23 @@
       "pageUrl": "https://miiiips.ru/event-bandits.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-bandits.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/bandits.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/bandits.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/bandits.json",
+      "pageType": "seminar",
+      "answerSummary": "Линейные стохастические бандиты с точки зрения онлайн-оптимизации — Юрий Дорн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Линейные стохастические бандиты с точки зрения онлайн-оптимизации",
+      "recommendedQueries": [
+        "Линейные стохастические бандиты с точки зрения онлайн-оптимизации",
+        "Юрий Дорн Семинар МИИИИПС",
+        "Линейные стохастические бандиты с точки зрения онлайн-оптимизации Юрий Дорн",
+        "25.03.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "seminar"
     },
     {
       "id": "parkgorkogo",
@@ -26,7 +42,23 @@
       "pageUrl": "https://miiiips.ru/event-parkgorkogo.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-parkgorkogo.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/parkgorkogo.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/parkgorkogo.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/parkgorkogo.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Открытая лекция Татьяны Мунн в Парке Горького — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Открытая лекция Татьяны Мунн в Парке Горького",
+      "recommendedQueries": [
+        "Открытая лекция Татьяны Мунн в Парке Горького",
+        "Татьяна Мунн Публичная лекция",
+        "Открытая лекция Татьяны Мунн в Парке Горького Татьяна Мунн",
+        "02.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "sales-lab",
@@ -39,7 +71,23 @@
       "pageUrl": "https://miiiips.ru/contacts-partners.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-sales-lab.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/sales-lab.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/sales-lab.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/sales-lab.json",
+      "pageType": "corporate_module",
+      "answerSummary": "Корпоративный модуль «Эмоциональный интеллект для переговорных и sales-команд» связан с практическим применением темы Татьяна Мунн для партнёрского контекста.",
+      "primaryEntity": "Эмоциональный интеллект для переговорных и sales-команд",
+      "recommendedQueries": [
+        "Эмоциональный интеллект для переговорных и sales-команд",
+        "Татьяна Мунн Корпоративный модуль",
+        "Эмоциональный интеллект для переговорных и sales-команд Татьяна Мунн",
+        "09.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "corporate_module"
     },
     {
       "id": "psihologiya-otnosheniy-muzhchina-20042026",
@@ -52,7 +100,23 @@
       "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-muzhchina-20042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-otnosheniy-muzhchina-20042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-otnosheniy-muzhchina-20042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
+      "recommendedQueries": [
+        "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
+        "Татьяна Мунн Публичная лекция",
+        "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\" Татьяна Мунн",
+        "20.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "kak-nayti-idealnogo-partnera-27042026",
@@ -65,7 +129,23 @@
       "pageUrl": "https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-kak-nayti-idealnogo-partnera-27042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-nayti-idealnogo-partnera-27042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kak-nayti-idealnogo-partnera-27042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kak-nayti-idealnogo-partnera-27042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+      "recommendedQueries": [
+        "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+        "Татьяна Мунн Публичная лекция",
+        "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\" Татьяна Мунн",
+        "27.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "psihologiya-znakomstva-04052026",
@@ -78,7 +158,23 @@
       "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-znakomstva-04052026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-znakomstva-04052026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-znakomstva-04052026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-znakomstva-04052026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+      "recommendedQueries": [
+        "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+        "Татьяна Мунн Публичная лекция",
+        "Бесплатная Лекция \"Психология ЗНАКОМСТВА\" Татьяна Мунн",
+        "04.05.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "psihologiya-lyubvi-11052026",
@@ -91,7 +187,23 @@
       "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lyubvi-11052026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-lyubvi-11052026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-lyubvi-11052026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Бесплатная Лекция \"Психология ЛЮБВИ\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+      "recommendedQueries": [
+        "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+        "Татьяна Мунн Публичная лекция",
+        "Бесплатная Лекция \"Психология ЛЮБВИ\" Татьяна Мунн",
+        "11.05.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "gelendzhik",
@@ -104,7 +216,23 @@
       "pageUrl": "https://miiiips.ru/event-gelendzhik.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-gelendzhik.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/gelendzhik.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/gelendzhik.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/gelendzhik.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Выездной образовательный маршрут в Геленджик — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Выездной образовательный маршрут в Геленджик",
+      "recommendedQueries": [
+        "Выездной образовательный маршрут в Геленджик",
+        "Татьяна Мунн Выездной маршрут",
+        "Выездной образовательный маршрут в Геленджик Татьяна Мунн",
+        "12.06.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "ideya-takaya-chto-ya-registr-4fec521510-17042026",
@@ -117,7 +245,23 @@
       "pageUrl": "https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/ideya-takaya-chto-ya-registr-4fec521510-17042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/ideya-takaya-chto-ya-registr-4fec521510-17042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/ideya-takaya-chto-ya-registr-4fec521510-17042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
+      "recommendedQueries": [
+        "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
+        "Татьяна Мунн Публичная лекция",
+        "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра Татьяна Мунн",
+        "17.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "reshenie-problem-i-prinyatie-f9d807d260-15042026",
@@ -130,7 +274,23 @@
       "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatie-f9d807d260-15042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatie-f9d807d260-15042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/reshenie-problem-i-prinyatie-f9d807d260-15042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/reshenie-problem-i-prinyatie-f9d807d260-15042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Решение проблем и принятие решений часть 2 — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Решение проблем и принятие решений часть 2",
+      "recommendedQueries": [
+        "Решение проблем и принятие решений часть 2",
+        "Татьяна Мунн Публичная лекция",
+        "Решение проблем и принятие решений часть 2 Татьяна Мунн",
+        "15.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
@@ -143,7 +303,23 @@
       "pageUrl": "https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
+      "pageType": "public_event",
+      "answerSummary": "Поддержка бизнеса, методы развития публичных выступлений — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Поддержка бизнеса, методы развития публичных выступлений",
+      "recommendedQueries": [
+        "Поддержка бизнеса, методы развития публичных выступлений",
+        "Татьяна Мунн Мероприятие",
+        "Поддержка бизнеса, методы развития публичных выступлений Татьяна Мунн",
+        "14.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_event"
     },
     {
       "id": "psihologiya-otnosheniy-zhenshhina-13042026",
@@ -156,7 +332,23 @@
       "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-zhenshhina-13042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-zhenshhina-13042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-zhenshhina-13042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-otnosheniy-zhenshhina-13042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-otnosheniy-zhenshhina-13042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Психология женщины — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Психология женщины",
+      "recommendedQueries": [
+        "Психология женщины",
+        "Татьяна Мунн Публичная лекция",
+        "Психология женщины Татьяна Мунн",
+        "13.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "data-fusion-09042026",
@@ -169,6 +361,21 @@
       "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
+      "pageType": "conference",
+      "answerSummary": "Конференция «Data Fusion 2026» с участием уточнённого автора прошла 09.04.2026 на площадке Технологический кластер «Ломоносов», Москва.",
+      "primaryEntity": "Data Fusion 2026",
+      "recommendedQueries": [
+        "Data Fusion 2026",
+        "09.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "conferenceIndex",
+        "sourceLink"
+      ],
       "kind": "conference"
     },
     {
@@ -182,7 +389,23 @@
       "pageUrl": "https://miiiips.ru/event-kumskov-mik-lektsiya-9-ot-08042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-kumskov-mik-lektsiya-9-ot-08042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kumskov-mik-lektsiya-9-ot-08042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kumskov-mik-lektsiya-9-ot-08042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kumskov-mik-lektsiya-9-ot-08042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Кумсков МИК лекция 9 — Кумсков Михаил Иванович; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Кумсков МИК лекция 9",
+      "recommendedQueries": [
+        "Кумсков МИК лекция 9",
+        "Кумсков Михаил Иванович Публичная лекция",
+        "Кумсков МИК лекция 9 Кумсков Михаил Иванович",
+        "08.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "reshenie-problem-i-prinyatie-resheniy-08042026",
@@ -195,7 +418,23 @@
       "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatie-resheniy-08042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatie-resheniy-08042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatie-resheniy-08042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/reshenie-problem-i-prinyatie-resheniy-08042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/reshenie-problem-i-prinyatie-resheniy-08042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Решение проблем и принятие решений — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Решение проблем и принятие решений",
+      "recommendedQueries": [
+        "Решение проблем и принятие решений",
+        "Татьяна Мунн Публичная лекция",
+        "Решение проблем и принятие решений Татьяна Мунн",
+        "08.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "psihologiya-otnosheniy-06042026",
@@ -208,7 +447,23 @@
       "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-06042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-06042026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-06042026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-otnosheniy-06042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-otnosheniy-06042026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Психология отношений: границы, совместимость и динамика близости — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Психология отношений: границы, совместимость и динамика близости",
+      "recommendedQueries": [
+        "Психология отношений: границы, совместимость и динамика близости",
+        "Татьяна Мунн Публичная лекция",
+        "Психология отношений: границы, совместимость и динамика близости Татьяна Мунн",
+        "06.04.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "bystraya-psihologiya-30032026",
@@ -221,7 +476,23 @@
       "pageUrl": "https://miiiips.ru/event-bystraya-psihologiya-30032026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-bystraya-psihologiya-30032026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/bystraya-psihologiya-30032026.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/bystraya-psihologiya-30032026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/bystraya-psihologiya-30032026.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Быстрая психология — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Быстрая психология",
+      "recommendedQueries": [
+        "Быстрая психология",
+        "Татьяна Мунн Публичная лекция",
+        "Быстрая психология Татьяна Мунн",
+        "30.03.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "biomechanics",
@@ -234,7 +505,23 @@
       "pageUrl": "https://miiiips.ru/biomechanics-rowing.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-biomechanics.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/biomechanics.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/biomechanics.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/biomechanics.json",
+      "pageType": "applied_demo",
+      "answerSummary": "AI-аналитика гребли и биомеханики — Команда МИИИИПС; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "AI-аналитика гребли и биомеханики",
+      "recommendedQueries": [
+        "AI-аналитика гребли и биомеханики",
+        "Команда МИИИИПС Прикладные разборы",
+        "AI-аналитика гребли и биомеханики Команда МИИИИПС",
+        "14.03.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "applied_demo"
     },
     {
       "id": "psychology-men",
@@ -247,7 +534,23 @@
       "pageUrl": "https://miiiips.ru/event-psychology-men.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psychology-men.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psychology-men.json",
-      "kind": "event"
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psychology-men.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psychology-men.json",
+      "pageType": "public_lecture",
+      "answerSummary": "Психология мужчины: доверие и общение — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+      "primaryEntity": "Психология мужчины: доверие и общение",
+      "recommendedQueries": [
+        "Психология мужчины: доверие и общение",
+        "Татьяна Мунн Публичная лекция",
+        "Психология мужчины: доверие и общение Татьяна Мунн",
+        "23.02.2026"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "sourceLink"
+      ],
+      "kind": "public_lecture"
     },
     {
       "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
@@ -260,6 +563,23 @@
       "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "pageType": "conference",
+      "answerSummary": "Конференция «VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г» с участием МИИИИПС прошла 19.12.2025 на площадке Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан.",
+      "primaryEntity": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "recommendedQueries": [
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+        "МИИИИПС Конференция",
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г МИИИИПС",
+        "19.12.2025"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "conferenceIndex",
+        "sourceLink"
+      ],
       "kind": "conference"
     },
     {
@@ -273,6 +593,23 @@
       "pageUrl": "https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-neurosport-skills-kognitivna-12f1dcf15e-19112025.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/neurosport-skills-kognitivna-12f1dcf15e-19112025.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/neurosport-skills-kognitivna-12f1dcf15e-19112025.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/neurosport-skills-kognitivna-12f1dcf15e-19112025.json",
+      "pageType": "conference",
+      "answerSummary": "Конференция «XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"» с участием МИИИИПС прошла 19.11.2025 на площадке Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура.",
+      "primaryEntity": "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+      "recommendedQueries": [
+        "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"",
+        "МИИИИПС Конференция",
+        "XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\" МИИИИПС",
+        "19.11.2025"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "conferenceIndex",
+        "sourceLink"
+      ],
       "kind": "conference"
     },
     {
@@ -286,33 +623,24 @@
       "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "pageType": "conference",
+      "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан.",
+      "primaryEntity": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "recommendedQueries": [
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+        "Участие МИИИИПС Конференция",
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ Участие МИИИИПС",
+        "22.12.2023"
+      ],
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "conferenceIndex",
+        "sourceLink"
+      ],
       "kind": "conference"
-    },
-    {
-      "id": "reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026",
-      "title": "Решение проблем и принятия решений. Часть 2",
-      "conferenceTitle": "",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "past",
-      "start": "2026-04-15T19:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.json",
-      "kind": "event"
-    },
-    {
-      "id": "test-meropriyatie-na-sredu-08042026",
-      "title": "Тест мероприятие на среду",
-      "conferenceTitle": "",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "past",
-      "start": "2026-04-08T19:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-test-meropriyatie-na-sredu-08042026.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-test-meropriyatie-na-sredu-08042026.html",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/test-meropriyatie-na-sredu-08042026.json",
-      "kind": "event"
     }
   ]
 }

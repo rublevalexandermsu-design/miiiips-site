@@ -144,20 +144,4 @@
       <image:caption>Постер конференции</image:caption>
     </image:image>
   </url>
-  <url>
-    <loc>https://miiiips.ru/event-reshenie-problem-i-prinyatiya-resheniy-chast-2-15042026.html</loc>
-    <image:image>
-      <image:loc>https://miiiips.ru/assets/images/lectures/miiiips-lektsiya-po-sredam-spiker-po-emotsionalnomu-intellektu-tatyana-reshenie-52014956.jpg</image:loc>
-      <image:title>Решение проблем и принятия решений. Часть 2</image:title>
-      <image:caption>Фото мероприятия</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://miiiips.ru/event-test-meropriyatie-na-sredu-08042026.html</loc>
-    <image:image>
-      <image:loc>https://miiiips.ru/assets/images/lectures/miiiips-lektsiya-po-sredam-test-meropriyatie-na-sredu-08042026-photo-eaa2be4a.jpg</image:loc>
-      <image:title>Тест мероприятие на среду</image:title>
-      <image:caption>Фото мероприятия</image:caption>
-    </image:image>
-  </url>
 </urlset>
