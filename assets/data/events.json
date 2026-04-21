@@ -340,11 +340,12 @@
       "registrationPage": "https://moonn.timepad.ru/event/3921611/",
       "calendarFile": "assets/calendar/psihologiya-otnosheniy-muzhchina-20042026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921611/",
-      "image": "assets/images/lectures/0421.png",
+      "image": "assets/images/lectures/2026-04-20_psihologiya-muzhchiny_0421.png",
       "imageAlt": "Фото лекции",
       "imageCaption": "Фото лекции",
-      "previewVideo": "https://drive.usercontent.google.com/download?id=15XL5-atimpmvjrsl6lehrD3kCR_HX5OC&export=download&confirm=t",
+      "previewVideo": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4",
       "previewVideoTitle": "Короткий видео-анонс лекции «Психология мужчины»",
+      "previewVideoPoster": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-poster.png",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-muzhchina-20042026.json",
       "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
@@ -359,8 +360,10 @@
         "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
       ],
       "theme": "teal",
-      "previewVideoPath": "",
-      "previewVideoUrl": "https://drive.usercontent.google.com/download?id=15XL5-atimpmvjrsl6lehrD3kCR_HX5OC&export=download&confirm=t"
+      "previewVideoPath": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4",
+      "previewVideoUrl": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4",
+      "previewVideoPosterPath": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-poster.png",
+      "previewVideoPosterUrl": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-poster.png"
     },
     {
       "id": "ideya-takaya-chto-ya-registr-4fec521510-17042026",

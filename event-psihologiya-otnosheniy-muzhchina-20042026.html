@@ -202,66 +202,11 @@
             
         <article id="video-section" class="card" style="padding:16px;display:grid;gap:12px;max-width:720px;width:100%;">
           <span class="badge">Видео-анонс</span>
-          <div id="video-shell" style="position:relative;width:min(100%,720px);margin:0 auto;padding-top:56.25%;border-radius:18px;background:#08110e;overflow:hidden;">
-            <div id="video-loading" style="position:absolute;inset:0;display:grid;place-items:center;color:#d7e8e1;font:600 15px/1.4 Public Sans,sans-serif;letter-spacing:.02em;pointer-events:none;">Видео-анонс загружается из Drive…</div>
-            <video id="video-preview" hidden controls preload="metadata" playsinline title="Короткий видео-анонс лекции «Психология мужчины»" data-drive-id="15XL5-atimpmvjrsl6lehrD3kCR_HX5OC" data-drive-src="https://drive.usercontent.google.com/download?id=15XL5-atimpmvjrsl6lehrD3kCR_HX5OC&export=download&confirm=t" style="position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;background:#08110e;">
+          <div id="video-shell" style="position:relative;width:min(100%,720px);margin:0 auto;border-radius:18px;background:#08110e;overflow:hidden;aspect-ratio:16/9;">
+            <video id="video-preview" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate noremoteplayback" disablePictureInPicture poster="assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-poster.png" title="Короткий видео-анонс лекции «Психология мужчины»" style="display:block;width:100%;height:100%;object-fit:contain;background:#08110e;" src="assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4">
               Ваш браузер не поддерживает встроенное видео.
             </video>
-            <button id="video-play-button" type="button" aria-label="Воспроизвести видео-анонс" style="position:absolute;inset:0;display:grid;place-items:center;border:0;background:linear-gradient(180deg, rgba(8,17,14,0.12), rgba(8,17,14,0.22));color:#f4f7f5;cursor:pointer;padding:0;">
-              <span style="display:grid;place-items:center;width:76px;height:76px;border-radius:50%;background:rgba(13,74,59,.92);box-shadow:0 12px 30px rgba(0,0,0,.26);">
-                <span style="margin-left:4px;font-size:30px;line-height:1;">▶</span>
-              </span>
-            </button>
           </div>
-          <script>
-            (() => {
-              const video = document.getElementById('video-preview');
-              const loading = document.getElementById('video-loading');
-              const playButton = document.getElementById('video-play-button');
-              const driveId = video && video.dataset ? video.dataset.driveId : '';
-              const directSrc = video && video.dataset ? video.dataset.driveSrc : '';
-              const proxySrc = driveId ? `http://127.0.0.1:8787/drive-video?id=${encodeURIComponent(driveId)}` : directSrc;
-              const src = location.protocol === 'file:' ? proxySrc : directSrc;
-              if (!video || !src) {
-                if (loading) loading.textContent = 'Видео-анонс недоступен.';
-                return;
-              }
-              const showPlayButton = () => { if (playButton) playButton.style.display = 'grid'; };
-              const hidePlayButton = () => { if (playButton) playButton.style.display = 'none'; };
-              video.addEventListener('loadeddata', () => {
-                if (loading) loading.style.display = 'none';
-                showPlayButton();
-              }, { once: true });
-              video.addEventListener('playing', () => {
-                hidePlayButton();
-              });
-              video.addEventListener('pause', () => {
-                if (!video.ended) showPlayButton();
-              });
-              video.addEventListener('ended', () => {
-                showPlayButton();
-              });
-              video.addEventListener('error', () => {
-                if (loading) loading.textContent = 'Видео-анонс не удалось загрузить.';
-                hidePlayButton();
-              }, { once: true });
-              if (playButton) {
-                playButton.addEventListener('click', async () => {
-                  try {
-                    hidePlayButton();
-                    await video.play();
-                    if (loading) loading.style.display = 'none';
-                  } catch (e) {
-                    if (loading) loading.textContent = 'Нажмите ещё раз, чтобы начать воспроизведение.';
-                    showPlayButton();
-                  }
-                });
-              }
-              video.src = src;
-              video.hidden = false;
-              video.load();
-            })();
-          </script>
           <p>Короткий ролик помогает быстро познакомиться с темой встречи до покупки полной лекции или запроса записи.</p>
           <div class="hero-actions"><a class="btn secondary" href="event-request.html?event=psihologiya-otnosheniy-muzhchina-20042026&amp;intent=purchase">Купить полную лекцию</a></div>
         </article>
