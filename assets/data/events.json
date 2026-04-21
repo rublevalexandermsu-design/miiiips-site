@@ -138,48 +138,6 @@
       ]
     },
     {
-      "id": "psihologiya-otnosheniy-muzhchina-20042026",
-      "title": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "upcoming",
-      "statusLabel": "Анонс",
-      "start": "2026-04-20T19:00:00+03:00",
-      "venue": "Культурный центр \"Полярный\", Москва",
-      "speaker": "Татьяна Мунн",
-      "opponent": "Психология мужчины",
-      "directions": [
-        "psychology",
-        "lecture_series"
-      ],
-      "directionLabels": [
-        "Психология",
-        "Лекционные циклы"
-      ],
-      "summary": "Бесплатная живая лекция на тему \"Психология ОТНОШЕНИЙ\" пройдет в Культурном Центре \"Полярный\" в понедельник 20 апреля с 19.00 до 21.00.",
-      "detailPage": "event-psihologiya-otnosheniy-muzhchina-20042026.html",
-      "registrationPage": "https://moonn.timepad.ru/event/3921611/",
-      "calendarFile": "assets/calendar/psihologiya-otnosheniy-muzhchina-20042026.ics",
-      "timepad": "https://moonn.timepad.ru/event/3921611/",
-      "theme": "teal",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-925b70d4.jpg",
-      "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-muzhchina-20042026.json",
-      "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
-      "seoKeywords": [
-        "Бесплатная Лекция \"Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ\"",
-        "Психология",
-        "Татьяна Мунн",
-        "Культурный центр \"Полярный\", Москва",
-        "спикер по эмоциональному интеллекту Татьяна Мунн",
-        "Татьяна Мунн МГУ",
-        "Татьяна Мунн МИИИИПС",
-        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
-      ]
-    },
-    {
       "id": "kak-nayti-idealnogo-partnera-27042026",
       "title": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
       "type": "public_lecture",
@@ -354,6 +312,55 @@
         "Татьяна Мунн МИИИИПС",
         "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
       ]
+    },
+    {
+      "id": "psihologiya-otnosheniy-muzhchina-20042026",
+      "title": "Психология мужчины",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "start": "2026-04-20T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Психология мужчины",
+      "directions": [
+        "psychology",
+        "lecture_series"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Лекционные циклы"
+      ],
+      "summary": "Бесплатная живая лекция на тему \"Психология ОТНОШЕНИЙ\" пройдет в Культурном Центре \"Полярный\" в понедельник 20 апреля с 19.00 до 21.00",
+      "detailPage": "event-psihologiya-otnosheniy-muzhchina-20042026.html",
+      "feedbackPage": "event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
+      "videoRequestPage": "event-request.html?event=psihologiya-otnosheniy-muzhchina-20042026&intent=video",
+      "inviteRequestPage": "event-request.html?event=psihologiya-otnosheniy-muzhchina-20042026&intent=invite",
+      "registrationPage": "https://moonn.timepad.ru/event/3921611/",
+      "calendarFile": "assets/calendar/psihologiya-otnosheniy-muzhchina-20042026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3921611/",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-7c4d6fab.png",
+      "imageAlt": "Фото лекции",
+      "imageCaption": "Фото лекции",
+      "previewVideo": "https://drive.google.com/file/d/15XL5-atimpmvjrsl6lehrD3kCR_HX5OC/preview",
+      "previewVideoTitle": "Короткий видео-анонс лекции «Психология мужчины»",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-muzhchina-20042026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
+      "seoKeywords": [
+        "Психология мужчины",
+        "Понедельничная лекция",
+        "Татьяна Мунн",
+        "Культурный центр \"Полярный\", Москва",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "Татьяна Мунн МИИИИПС",
+        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+      ],
+      "theme": "teal",
+      "previewVideoPath": "",
+      "previewVideoUrl": "https://drive.google.com/file/d/15XL5-atimpmvjrsl6lehrD3kCR_HX5OC/preview"
     },
     {
       "id": "ideya-takaya-chto-ya-registr-4fec521510-17042026",
