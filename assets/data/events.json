@@ -340,7 +340,7 @@
       "registrationPage": "https://moonn.timepad.ru/event/3921611/",
       "calendarFile": "assets/calendar/psihologiya-otnosheniy-muzhchina-20042026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921611/",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-c790eff1.jpg",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
       "imageAlt": "Фото лекции",
       "imageCaption": "Фото лекции",
       "previewVideo": "https://drive.usercontent.google.com/download?id=15XL5-atimpmvjrsl6lehrD3kCR_HX5OC&export=download&confirm=t",
@@ -517,7 +517,7 @@
       "calendarFile": "",
       "timepad": "",
       "theme": "teal",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-c790eff1.jpg",
+      "image": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
       "imageCaption": "Фото мероприятия",
       "imageAlt": "Психология женщины",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-otnosheniy-zhenshhina-13042026.json",
@@ -993,4 +993,5 @@
     }
   ]
 }
+
 
