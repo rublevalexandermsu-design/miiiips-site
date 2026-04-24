@@ -19,6 +19,19 @@
       note: "После заявки команда увидит запрос, зафиксирует его в таблице сайта и пришлёт следующий шаг по доступу к записи и условиям оплаты.",
       formType: "event_video_request"
     },
+    purchase: {
+      eyebrow: "Покупка полной лекции",
+      title: "Купить полную лекцию",
+      lead: "Оставьте заявку, если вам нужен полный доступ к записи лекции для личного просмотра, команды или внутреннего обучения. Команда института пришлёт следующий шаг по оплате и доступу к материалу.",
+      formTitle: "Заявка на покупку полной лекции",
+      submitLabel: "Купить лекцию",
+      interestLabel: "Как вы планируете использовать лекцию",
+      interestPlaceholder: "Например: личный просмотр, методический разбор, обучение команды, архив",
+      messageLabel: "Что важно по заявке",
+      messagePlaceholder: "Укажите, для кого нужен доступ, нужен ли быстрый ответ и интересуют ли вас условия оплаты.",
+      note: "После заявки команда увидит запрос, зафиксирует его в таблице сайта и пришлёт следующий шаг по оплате и доступу к полному материалу.",
+      formType: "event_purchase_request"
+    },
     invite: {
       eyebrow: "Приглашение лектора",
       title: "Пригласить лектора на своё событие",
@@ -166,13 +179,13 @@
     }
 
     const paymentLabelNode = document.getElementById("payment-stage-label");
-    if (intentKey === "video") {
-      paymentLabelNode.classList.remove("miiiips-hidden");
-      const paymentSelect = paymentLabelNode.querySelector('select');
-      if (paymentSelect && integrations && integrations.payments && integrations.payments.videoPaymentLabel && !integrations.payments.videoPaymentEnabled) {
-        paymentSelect.insertAdjacentHTML("afterend", '<div class="note" style="margin-top:8px;">' + safe(integrations.payments.videoPaymentLabel) + '</div>');
+      if (intentKey === "video" || intentKey === "purchase") {
+        paymentLabelNode.classList.remove("miiiips-hidden");
+        const paymentSelect = paymentLabelNode.querySelector('select');
+        if (paymentSelect && integrations && integrations.payments && integrations.payments.videoPaymentLabel && !integrations.payments.videoPaymentEnabled) {
+          paymentSelect.insertAdjacentHTML("afterend", '<div class="note" style="margin-top:8px;">' + safe(integrations.payments.videoPaymentLabel) + '</div>');
+        }
       }
-    }
 
     const form = document.getElementById("event-request-form");
     const statusNode = document.getElementById("form-status");
@@ -193,7 +206,7 @@
       fd.forEach(function (value, key) { payload[key] = value; });
       payload.sourcePage = page;
       payload.sourcePageUrl = location.href;
-      payload.role = intentKey === "video" ? "Запрос видео" : "Приглашение лектора";
+      payload.role = intentKey === "video" ? "Запрос видео" : intentKey === "purchase" ? "Покупка полной лекции" : "Приглашение лектора";
       payload.requestKind = intentKey;
       statusNode.textContent = "Отправляем заявку...";
       try {

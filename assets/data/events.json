@@ -139,7 +139,7 @@
     },
     {
       "id": "kak-nayti-idealnogo-partnera-27042026",
-      "title": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+      "title": "Бесплатная лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
       "status": "upcoming",
@@ -147,41 +147,62 @@
       "start": "2026-04-27T19:00:00+03:00",
       "venue": "Культурный центр \"Полярный\", Москва",
       "speaker": "Татьяна Мунн",
-      "opponent": "Выбор партнёра",
+      "opponent": "Цикл \"Психология\"",
       "directions": [
         "psychology",
-        "lecture_series"
+        "emotional_intelligence"
       ],
       "directionLabels": [
         "Психология",
-        "Лекционные циклы"
+        "Эмоциональный интеллект"
       ],
-      "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Как найти ИДЕАЛЬНОГО ПАРТНЕРА\" пройдет в Культурном Центре \"Полярный\" в понедельник 27 апреля с 19.00 до 21.00.",
+      "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Как найти ИДЕАЛЬНОГО ПАРТНЕРА\" пройдет в Культурном Центре \"Полярный\" в понедельник 27 апреля с 19.00 до 21.00 — Лекцию читает Эксперт в области эмоционального интеллекта, психологии эмоций и психологии состояний — дипломированный психолог (МГУ) Татьяна Мунн.",
       "detailPage": "event-kak-nayti-idealnogo-partnera-27042026.html",
       "registrationPage": "https://moonn.timepad.ru/event/3921628/",
       "calendarFile": "assets/calendar/kak-nayti-idealnogo-partnera-27042026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921628/",
       "theme": "teal",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-kak-nayti-idealnogo-photo-fc403844.jpg",
+      "image": "assets/images/lectures/2026-04-27_kak-nayti-idealnogo-partnera_psiholog-tatyana-munn-mgu_miiiips_photo-3921628.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+      "imageAlt": "Как найти ИДЕАЛЬНОГО ПАРТНЕРА. Психолог Татьяна Мунн МГУ. МИИИИПС",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-nayti-idealnogo-partnera-27042026.json",
       "pageUrl": "https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-kak-nayti-idealnogo-partnera-27042026.html",
       "seoKeywords": [
-        "Бесплатная Лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+        "Как найти ИДЕАЛЬНОГО ПАРТНЕРА",
         "Психология",
         "Татьяна Мунн",
-        "Культурный центр \"Полярный\", Москва",
-        "спикер по эмоциональному интеллекту Татьяна Мунн",
         "Татьяна Мунн МГУ",
-        "Татьяна Мунн МИИИИПС",
-        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
-      ]
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "kak-nayti-idealnogo-partnera-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3921628/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3921628/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Как найти ИДЕАЛЬНОГО ПАРТНЕРА"
     },
     {
       "id": "psihologiya-znakomstva-04052026",
-      "title": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+      "title": "Бесплатная лекция \"Психология ЗНАКОМСТВА\"",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
       "status": "upcoming",
@@ -189,41 +210,62 @@
       "start": "2026-05-04T19:00:00+03:00",
       "venue": "Культурный центр \"Полярный\", Москва",
       "speaker": "Татьяна Мунн",
-      "opponent": "Психология знакомства",
+      "opponent": "Цикл \"Психология\"",
       "directions": [
         "psychology",
-        "lecture_series"
+        "emotional_intelligence"
       ],
       "directionLabels": [
         "Психология",
-        "Лекционные циклы"
+        "Эмоциональный интеллект"
       ],
-      "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Психология ЗНАКОМСТВА\" пройдет в Культурном Центре \"Полярный\" в понедельник 04 мая с 19.00 до 21.00.",
+      "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Психология ЗНАКОМСТВА\" пройдет в Культурном Центре \"Полярный\" в понедельник 04 мая с 19.00 до 21.00 — Лекцию читает Эксперт в области эмоционального интеллекта, психологии эмоций и психологии состояний — дипломированный психолог (МГУ) Татьяна Мунн.",
       "detailPage": "event-psihologiya-znakomstva-04052026.html",
       "registrationPage": "https://moonn.timepad.ru/event/3921617/",
       "calendarFile": "assets/calendar/psihologiya-znakomstva-04052026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921617/",
       "theme": "teal",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-photo-3f92105a.jpg",
+      "image": "assets/images/lectures/2026-05-04_psihologiya-znakomstva_psiholog-tatyana-munn-mgu_miiiips_photo-3921617.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+      "imageAlt": "Психология ЗНАКОМСТВА. Психолог Татьяна Мунн МГУ. МИИИИПС",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-znakomstva-04052026.json",
       "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-znakomstva-04052026.html",
       "seoKeywords": [
-        "Бесплатная Лекция \"Психология ЗНАКОМСТВА\"",
+        "Психология ЗНАКОМСТВА",
         "Психология",
         "Татьяна Мунн",
-        "Культурный центр \"Полярный\", Москва",
-        "спикер по эмоциональному интеллекту Татьяна Мунн",
         "Татьяна Мунн МГУ",
-        "Татьяна Мунн МИИИИПС",
-        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
-      ]
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "psihologiya-znakomstva-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3921617/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3921617/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Психология ЗНАКОМСТВА"
     },
     {
       "id": "psihologiya-lyubvi-11052026",
-      "title": "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+      "title": "Бесплатная лекция \"Психология ЛЮБВИ\"",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
       "status": "upcoming",
@@ -231,37 +273,58 @@
       "start": "2026-05-11T19:00:00+03:00",
       "venue": "Культурный центр \"Полярный\", Москва",
       "speaker": "Татьяна Мунн",
-      "opponent": "Психология любви",
+      "opponent": "Цикл \"Психология\"",
       "directions": [
         "psychology",
-        "lecture_series"
+        "emotional_intelligence"
       ],
       "directionLabels": [
         "Психология",
-        "Лекционные циклы"
+        "Эмоциональный интеллект"
       ],
-      "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Психология ЛЮБВИ\" пройдет в Культурном Центре \"Полярный\" в понедельник 11 мая с 19.00 до 21.00.",
+      "summary": "Лекция на тему \"Психология ОТНОШЕНИЙ. Психология ЛЮБВИ\" пройдет в Культурном Центре \"Полярный\" в понедельник 11 мая с 19.00 до 21.00 — Лекцию читает Эксперт в области эмоционального интеллекта, психологии эмоций и психологии состояний — дипломированный психолог (МГУ) Татьяна Мунн.",
       "detailPage": "event-psihologiya-lyubvi-11052026.html",
       "registrationPage": "https://moonn.timepad.ru/event/3921633/",
       "calendarFile": "assets/calendar/psihologiya-lyubvi-11052026.ics",
       "timepad": "https://moonn.timepad.ru/event/3921633/",
       "theme": "teal",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-besplatnaya-lektsiya-psihologiya-lyubvi-photo-26b63e52.jpg",
+      "image": "assets/images/lectures/2026-05-11_psihologiya-lyubvi_psiholog-tatyana-munn-mgu_miiiips_photo-3921633.jpg",
       "imageCaption": "Фото мероприятия",
-      "imageAlt": "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+      "imageAlt": "Психология ЛЮБВИ. Психолог Татьяна Мунн МГУ. МИИИИПС",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json",
       "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lyubvi-11052026.html",
       "seoKeywords": [
-        "Бесплатная Лекция \"Психология ЛЮБВИ\"",
+        "Психология ЛЮБВИ",
         "Психология",
         "Татьяна Мунн",
-        "Культурный центр \"Полярный\", Москва",
-        "спикер по эмоциональному интеллекту Татьяна Мунн",
         "Татьяна Мунн МГУ",
-        "Татьяна Мунн МИИИИПС",
-        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
-      ]
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "psihologiya-lyubvi-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3921633/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3921633/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Психология ЛЮБВИ"
     },
     {
       "id": "gelendzhik",
@@ -993,8 +1056,888 @@
         "istina.msu.ru",
         "uchastie miiiips"
       ]
+    },
+    {
+      "id": "psihologiya-dlitelnyh-otnosheniy-18052026",
+      "title": "Бесплатная лекция \"Психология длительных отношений\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-05-18T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Психология\"",
+      "directions": [
+        "psychology",
+        "emotional_intelligence"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Эмоциональный интеллект"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Психология длительных отношений\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-psihologiya-dlitelnyh-otnosheniy-18052026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944310/",
+      "calendarFile": "assets/calendar/psihologiya-dlitelnyh-otnosheniy-18052026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944310/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-05-18_psihologiya-dlitelnyh-otnosheniy_psiholog-tatyana-munn-mgu_miiiips_photo-3944310.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология длительных отношений. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-dlitelnyh-otnosheniy-18052026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-dlitelnyh-otnosheniy-18052026.html",
+      "seoKeywords": [
+        "Психология длительных отношений",
+        "Психология",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "psihologiya-dlitelnyh-otnosheniy-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944310/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944310/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Психология длительных отношений"
+    },
+    {
+      "id": "krizisy-v-otnosheniyah-25052026",
+      "title": "Бесплатная лекция \"Кризисы в отношениях\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-05-25T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Психология\"",
+      "directions": [
+        "psychology",
+        "emotional_intelligence"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Эмоциональный интеллект"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Кризисы в отношениях\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-krizisy-v-otnosheniyah-25052026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944311/",
+      "calendarFile": "assets/calendar/krizisy-v-otnosheniyah-25052026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944311/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-05-25_krizisy-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944311.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Кризисы в отношениях. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/krizisy-v-otnosheniyah-25052026.json",
+      "pageUrl": "https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-krizisy-v-otnosheniyah-25052026.html",
+      "seoKeywords": [
+        "Кризисы в отношениях",
+        "Психология",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "krizisy-v-otnosheniyah-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944311/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944311/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Кризисы в отношениях"
+    },
+    {
+      "id": "kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026",
+      "title": "Бесплатная лекция \"Как детство влияет на наши отношения\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-06-01T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Психология\"",
+      "directions": [
+        "psychology",
+        "emotional_intelligence"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Эмоциональный интеллект"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Как детство влияет на наши отношения\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944312/",
+      "calendarFile": "assets/calendar/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944312/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-06-01_kak-detstvo-vliyaet-na-nashi-otnosheniya_psiholog-tatyana-munn-mgu_miiiips_photo-3944312.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Как детство влияет на наши отношения. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.json",
+      "pageUrl": "https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
+      "seoKeywords": [
+        "Как детство влияет на наши отношения",
+        "Психология",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "kak-detstvo-vliyaet-na-nashi-otnosheniya-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944312/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944312/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Как детство влияет на наши отношения"
+    },
+    {
+      "id": "psihologiya-lyubvi-k-sebe-08062026",
+      "title": "Бесплатная лекция \"Психология любви к себе\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-06-08T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Психология\"",
+      "directions": [
+        "psychology",
+        "emotional_intelligence"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Эмоциональный интеллект"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Психология любви к себе\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-psihologiya-lyubvi-k-sebe-08062026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944313/",
+      "calendarFile": "assets/calendar/psihologiya-lyubvi-k-sebe-08062026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944313/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-06-08_psihologiya-lyubvi-k-sebe_psiholog-tatyana-munn-mgu_miiiips_photo-3944313.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология любви к себе. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-k-sebe-08062026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-k-sebe-08062026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lyubvi-k-sebe-08062026.html",
+      "seoKeywords": [
+        "Психология любви к себе",
+        "Психология",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "psihologiya-lyubvi-k-sebe-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944313/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944313/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Психология любви к себе"
+    },
+    {
+      "id": "psihologiya-lichnyh-granits-15062026",
+      "title": "Бесплатная лекция \"Психология личных границ\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-06-15T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Психология\"",
+      "directions": [
+        "psychology",
+        "emotional_intelligence"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Эмоциональный интеллект"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Психология личных границ\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-psihologiya-lichnyh-granits-15062026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944314/",
+      "calendarFile": "assets/calendar/psihologiya-lichnyh-granits-15062026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944314/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-06-15_psihologiya-lichnyh-granits_psiholog-tatyana-munn-mgu_miiiips_photo-3944314.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология личных границ. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lichnyh-granits-15062026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-lichnyh-granits-15062026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lichnyh-granits-15062026.html",
+      "seoKeywords": [
+        "Психология личных границ",
+        "Психология",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "psihologiya-lichnyh-granits-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944314/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944314/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Психология личных границ"
+    },
+    {
+      "id": "psihologiya-konfliktov-22062026",
+      "title": "Бесплатная лекция \"Психология конфликтов\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-06-22T19:00:00+03:00",
+      "venue": "Культурный центр \"Полярный\", Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Психология\"",
+      "directions": [
+        "psychology",
+        "emotional_intelligence"
+      ],
+      "directionLabels": [
+        "Психология",
+        "Эмоциональный интеллект"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Психология конфликтов\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-psihologiya-konfliktov-22062026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944315/",
+      "calendarFile": "assets/calendar/psihologiya-konfliktov-22062026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944315/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-06-22_psihologiya-konfliktov_psiholog-tatyana-munn-mgu_miiiips_photo-3944315.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Психология конфликтов. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-konfliktov-22062026.json",
+      "pageUrl": "https://miiiips.ru/event-psihologiya-konfliktov-22062026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-konfliktov-22062026.html",
+      "seoKeywords": [
+        "Психология конфликтов",
+        "Психология",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Культурный центр \"Полярный\", Москва",
+        "psihologiya-konfliktov-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944315/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944315/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Психология конфликтов"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-v-otnosheniyah-29062026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект в отношениях\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-06-29T19:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Эмоциональный интеллект в отношениях\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944317/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-otnosheniyah-29062026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944317/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944317.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект в отношениях. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-otnosheniyah-29062026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект в отношениях",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-v-otnosheniyah-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944317/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944317/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект в отношениях"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-zdorove-14072026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и здоровье\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-07-14T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и здоровье\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-zdorove-14072026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944874/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-zdorove-14072026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944874/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944874.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и здоровье. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-zdorove-14072026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-zdorove-14072026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-zdorove-14072026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и здоровье",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-zdorove-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944874/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944874/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и здоровье"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-07-21T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и духовное развитие\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944875/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944875/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-07-21_emotsionalnyy-intellekt-i-duhovnoe-razvitie_psiholog-tatyana-munn-mgu_miiiips_photo-3944875.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и духовное развитие. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и духовное развитие",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-duhovnoe-razvitie-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944875/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944875/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и духовное развитие"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-otnosheniya-28072026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и отношения\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-07-28T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и отношения\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-otnosheniya-28072026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944876/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-otnosheniya-28072026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944876/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-07-28_emotsionalnyy-intellekt-i-otnosheniya_psiholog-tatyana-munn-mgu_miiiips_photo-3944876.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и отношения. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-otnosheniya-28072026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-otnosheniya-28072026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-otnosheniya-28072026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и отношения",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-otnosheniya-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944876/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944876/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и отношения"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и любовь к себе\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-08-04T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и любовь к себе\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944877/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944877/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-08-04_emotsionalnyy-intellekt-i-lyubov-k-sebe_psiholog-tatyana-munn-mgu_miiiips_photo-3944877.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и любовь к себе. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и любовь к себе",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-lyubov-k-sebe-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944877/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944877/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и любовь к себе"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и хроническая усталость\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-08-11T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и хроническая усталость\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944878/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944878/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-08-11_emotsionalnyy-intellekt-i-hronicheskaya-ustalost_psiholog-tatyana-munn-mgu_miiiips_photo-3944878.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и хроническая усталость. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и хроническая усталость",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-hronicheskaya-ustalost-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944878/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944878/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и хроническая усталость"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и цифровая среда\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-08-18T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и цифровая среда\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944880/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944880/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-08-18_emotsionalnyy-intellekt-i-tsifrovaya-sreda_psiholog-tatyana-munn-mgu_miiiips_photo-3944880.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и цифровая среда. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и цифровая среда",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-tsifrovaya-sreda-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944880/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944880/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и цифровая среда"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-i-obuchenie-25082026",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект и обучение\"",
+      "type": "public_lecture",
+      "typeLabel": "Публичная лекция",
+      "status": "upcoming",
+      "statusLabel": "Анонс",
+      "start": "2026-08-25T17:00:00+03:00",
+      "venue": "Парк ЧерМянка, Москва",
+      "speaker": "Татьяна Мунн",
+      "opponent": "Цикл \"Эмоциональный интеллект\"",
+      "directions": [
+        "emotional_intelligence",
+        "psychology"
+      ],
+      "directionLabels": [
+        "Эмоциональный интеллект",
+        "Психология"
+      ],
+      "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и обучение\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+      "detailPage": "event-emotsionalnyy-intellekt-i-obuchenie-25082026.html",
+      "registrationPage": "https://moonn.timepad.ru/event/3944881/",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-obuchenie-25082026.ics",
+      "timepad": "https://moonn.timepad.ru/event/3944881/",
+      "theme": "teal",
+      "linkedCourse": "ei-core",
+      "linkedResearch": "sandbox-hub",
+      "linkedPublication": "article-softskills-lab",
+      "materials": [
+        "timepad",
+        "public-program",
+        "calendar",
+        "seo-image",
+        "video-slot-reserved"
+      ],
+      "image": "assets/images/lectures/2026-08-25_emotsionalnyy-intellekt-i-obuchenie_psiholog-tatyana-munn-mgu_miiiips_photo-3944881.jpg",
+      "imageCaption": "Фото мероприятия",
+      "imageAlt": "Эмоциональный интеллект и обучение. Психолог Татьяна Мунн МГУ. МИИИИПС",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-obuchenie-25082026.json",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-obuchenie-25082026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-obuchenie-25082026.html",
+      "seoKeywords": [
+        "Эмоциональный интеллект и обучение",
+        "Эмоциональный интеллект",
+        "Татьяна Мунн",
+        "Татьяна Мунн МГУ",
+        "психолог Татьяна Мунн МГУ",
+        "спикер по эмоциональному интеллекту Татьяна Мунн",
+        "эмоциональный интеллект",
+        "психология",
+        "лекции по психологии",
+        "публичная лекция",
+        "МИИИИПС",
+        "Парк ЧерМянка, Москва",
+        "emotsionalnyy-intellekt-i-obuchenie-psiholog-tatyana-munn-mgu-miiiips"
+      ],
+      "sourceLinks": [
+        "https://moonn.timepad.ru/event/3944881/"
+      ],
+      "sourceLink": "https://moonn.timepad.ru/event/3944881/",
+      "previewVideo": "",
+      "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и обучение"
     }
   ]
 }
-
-
