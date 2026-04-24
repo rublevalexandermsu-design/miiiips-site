@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:psihologiya-lichnyh-granits-15062026@miiiips.ru
+DTSTAMP:20260424T172738Z
+DTSTART;TZID=Europe/Moscow:20260615T190000
+DTEND;TZID=Europe/Moscow:20260615T210000
+SUMMARY:Бесплатная лекция "Психология личных границ"
+LOCATION:Культурный центр "Полярный", Москва
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-psihologiya-lichnyh-granits-15062026.html
+URL:https://miiiips.ru/event-psihologiya-lichnyh-granits-15062026.html
+END:VEVENT
+END:VCALENDAR
