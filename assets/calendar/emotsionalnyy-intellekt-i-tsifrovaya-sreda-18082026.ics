@@ -1,15 +1,29 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//MIIIIPS//Events//RU
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026@miiiips.ru
-DTSTAMP:20260424T172809Z
-DTSTART;TZID=Europe/Moscow:20260818T170000
-DTEND;TZID=Europe/Moscow:20260818T190000
-SUMMARY:Бесплатная лекция "Эмоциональный интеллект и цифровая среда"
-LOCATION:Парк ЧерМянка, Москва
-DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html
-URL:https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026@miiiips.ru
+
+DTSTAMP:20260426T133417Z
+
+DTSTART;TZID=Europe/Moscow:20260818T170000
+
+DTEND;TZID=Europe/Moscow:20260818T190000
+
+SUMMARY:Бесплатная лекция "Эмоциональный интеллект и цифровая среда"
+
+LOCATION:Парк ЧерМянка, Москва
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html
+
+URL:https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html
+
+END:VEVENT
+
+END:VCALENDAR

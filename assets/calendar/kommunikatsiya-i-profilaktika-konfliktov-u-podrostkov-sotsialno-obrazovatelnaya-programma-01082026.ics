@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026@miiiips.ru
+
+DTSTAMP:20260426T133402Z
+
+DTSTART;TZID=Europe/Moscow:20260801T120000
+
+DTEND;TZID=Europe/Moscow:20260822T190000
+
+SUMMARY:Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа
+
+LOCATION:Москва, Москва, ул. Полярная, д. 9 метро Бабушкинская Культурный центр "Полярный"
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html
+
+URL:https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html
+
+END:VEVENT
+
+END:VCALENDAR

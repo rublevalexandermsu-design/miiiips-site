@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
   "kind": "conference",
   "kindLabel": "Конференции",
@@ -55,7 +55,7 @@
   "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ.",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-20T18:30:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
     "type": "conference",
     "typeLabel": "Конференция",
@@ -79,6 +79,12 @@
     "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
     "imageAlt": "Постер конференции",
     "imageCaption": "Постер конференции",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
     "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
     "sourceLinks": [
       "https://istina.msu.ru/conferences/presentations/620913097/"

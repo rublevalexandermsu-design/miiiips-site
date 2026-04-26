@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-24T20:28:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "psihologiya-lyubvi-k-sebe-08062026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -12,7 +12,7 @@
   "reportType": "",
   "speaker": "Татьяна Мунн",
   "venue": "Культурный центр \"Полярный\", Москва",
-  "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Психология любви к себе\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+  "summary": "Лекция на тему \"Психология отношений. Психология любви к себе\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Лектор — дипломированный психолог МГУ Татьяна Мунн. Организатор — МИИИИПС, Международный институт исследований искусственного интеллекта, психологии и спорта.",
   "start": "2026-06-08T19:00:00+03:00",
   "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-k-sebe-08062026.html",
   "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-lyubvi-k-sebe-08062026.html",
@@ -20,8 +20,8 @@
   "detailPage": "event-psihologiya-lyubvi-k-sebe-08062026.html",
   "feedbackPage": "event-feedback-psihologiya-lyubvi-k-sebe-08062026.html",
   "calendarFile": "assets/calendar/psihologiya-lyubvi-k-sebe-08062026.ics",
-  "image": "https://miiiips.ru/assets/images/lectures/2026-06-08_psihologiya-lyubvi-k-sebe_psiholog-tatyana-munn-mgu_miiiips_photo-3944313.jpg",
-  "imagePath": "assets/images/lectures/2026-06-08_psihologiya-lyubvi-k-sebe_psiholog-tatyana-munn-mgu_miiiips_photo-3944313.jpg",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-06-08_psihologiya-lyubvi-k-sebe_psiholog-tatyana-munn-mgu_miiiips_photo-3944217.jpg",
+  "imagePath": "assets/images/lectures/2026-06-08_psihologiya-lyubvi-k-sebe_psiholog-tatyana-munn-mgu_miiiips_photo-3944217.jpg",
   "imageAlt": "Психология любви к себе. Психолог Татьяна Мунн МГУ. МИИИИПС",
   "imageCaption": "Фото мероприятия",
   "previewVideo": "",
@@ -30,9 +30,9 @@
   "previewVideoTitle": "Видео-анонс: Психология любви к себе",
   "videoSlotReserved": true,
   "previewVideoAvailable": false,
-  "sourceLink": "https://moonn.timepad.ru/event/3944313/",
+  "sourceLink": "https://miiiips.timepad.ru/event/3944217/",
   "sourceLinks": [
-    "https://moonn.timepad.ru/event/3944313/"
+    "https://miiiips.timepad.ru/event/3944217/"
   ],
   "directions": [
     "psychology",
@@ -50,7 +50,7 @@
     "спикер по эмоциональному интеллекту Татьяна Мунн",
     "Татьяна Мунн МГУ",
     "Татьяна Мунн МИИИИПС",
-    "moonn.timepad.ru",
+    "miiiips.timepad.ru",
     "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
   ],
   "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",

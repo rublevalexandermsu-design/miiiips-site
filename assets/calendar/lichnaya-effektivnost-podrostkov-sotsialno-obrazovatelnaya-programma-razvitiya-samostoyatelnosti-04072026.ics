@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026@miiiips.ru
+
+DTSTAMP:20260426T133342Z
+
+DTSTART;TZID=Europe/Moscow:20260704T120000
+
+DTEND;TZID=Europe/Moscow:20260725T190000
+
+SUMMARY:Личная эффективность подростков: социально-образовательная программа развития самостоятельности
+
+LOCATION:Москва, Москва, ул. Полярная, д. 9 метро Бабушкинская Культурный центр "Полярный"
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html
+
+URL:https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html
+
+END:VEVENT
+
+END:VCALENDAR

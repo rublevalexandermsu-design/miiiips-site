@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "kumskov-mik-lektsiya-9-ot-08042026",
   "kind": "public_lecture",
   "kindLabel": "Публичные лекции",
@@ -49,7 +49,7 @@
   "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Кумсков МИК лекция 9.",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-20T18:30:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "kumskov-mik-lektsiya-9-ot-08042026",
     "type": "public_lecture",
     "typeLabel": "Публичная лекция",
@@ -73,6 +73,12 @@
     "imagePath": "assets/images/lectures/miiiips-lektsiya-po-sredam-kumskov-mikhail-ivanovich-mgu-kumskov-mik-lektsiya-9-6e80c5ab.png",
     "imageAlt": "Кумсков МИК лекция 9",
     "imageCaption": "Фото мероприятия",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
     "sourceLink": "",
     "sourceLinks": [],
     "directions": [

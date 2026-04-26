@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "psihologiya-otnosheniy-06042026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-otnosheniy-granitsy-06042026-photo-355e678b.jpg",
   "imageAlt": "Психология отношений: границы, совместимость и динамика близости",
   "imageCaption": "Фото мероприятия",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [

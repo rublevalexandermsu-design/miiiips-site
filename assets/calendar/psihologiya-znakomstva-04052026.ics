@@ -1,15 +1,29 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//MIIIIPS//Events//RU
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:psihologiya-znakomstva-04052026@miiiips.ru
-DTSTAMP:20260424T172719Z
-DTSTART;TZID=Europe/Moscow:20260504T190000
-DTEND;TZID=Europe/Moscow:20260504T210000
-SUMMARY:Бесплатная лекция "Психология ЗНАКОМСТВА"
-LOCATION:Культурный центр "Полярный", Москва
-DESCRIPTION:Событие на сайте: https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
-URL:https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:psihologiya-znakomstva-04052026@miiiips.ru
+
+DTSTAMP:20260426T133237Z
+
+DTSTART;TZID=Europe/Moscow:20260504T190000
+
+DTEND;TZID=Europe/Moscow:20260504T210000
+
+SUMMARY:Бесплатная лекция "Психология знакомства"
+
+LOCATION:Культурный центр "Полярный", Москва
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
+
+URL:https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
+
+END:VEVENT
+
+END:VCALENDAR

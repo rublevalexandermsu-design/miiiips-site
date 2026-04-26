@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "data-fusion-09042026",
   "kind": "conference",
   "kindLabel": "Конференции",
@@ -46,7 +46,7 @@
   "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Data Fusion 2026.",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-20T18:30:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "data-fusion-09042026",
     "type": "conference",
     "typeLabel": "Конференция",
@@ -70,6 +70,12 @@
     "imagePath": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
     "imageAlt": "Data Fusion 2026",
     "imageCaption": "Постер конференции",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
     "sourceLink": "",
     "sourceLinks": [],
     "directions": [

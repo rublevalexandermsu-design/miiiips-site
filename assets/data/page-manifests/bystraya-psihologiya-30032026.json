@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "bystraya-psihologiya-30032026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-bystraya-psihologiya-30032026-photo-01979d5e.jpg",
   "imageAlt": "Быстрая психология",
   "imageCaption": "Фото мероприятия",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "kind": "public_event",
   "kindLabel": "Мероприятия",
-  "count": 1,
+  "count": 5,
   "items": [
     {
       "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
@@ -14,6 +14,50 @@
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
       "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
       "answerSummary": "Поддержка бизнеса, методы развития публичных выступлений — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
+    },
+    {
+      "id": "otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026",
+      "title": "Открытое занятие социально-образовательной программы по soft skills для подростков",
+      "conferenceTitle": "",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-06-06T10:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.json",
+      "answerSummary": "Открытое занятие социально-образовательной программы по soft skills для подростков — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
+    },
+    {
+      "id": "letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026",
+      "title": "Летняя социально-образовательная программа развития soft skills подростков",
+      "conferenceTitle": "",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-06-06T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.json",
+      "answerSummary": "Летняя социально-образовательная программа развития soft skills подростков — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
+    },
+    {
+      "id": "lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026",
+      "title": "Личная эффективность подростков: социально-образовательная программа развития самостоятельности",
+      "conferenceTitle": "",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-07-04T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.json",
+      "answerSummary": "Личная эффективность подростков: социально-образовательная программа развития самостоятельности — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
+    },
+    {
+      "id": "kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026",
+      "title": "Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа",
+      "conferenceTitle": "",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-08-01T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.json",
+      "answerSummary": "Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника."
     }
   ]
 }

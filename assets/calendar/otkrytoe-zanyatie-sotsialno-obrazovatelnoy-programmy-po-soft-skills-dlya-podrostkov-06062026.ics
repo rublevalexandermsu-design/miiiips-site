@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026@miiiips.ru
+
+DTSTAMP:20260426T133312Z
+
+DTSTART;TZID=Europe/Moscow:20260606T100000
+
+DTEND;TZID=Europe/Moscow:20260822T120000
+
+SUMMARY:Открытое занятие социально-образовательной программы по soft skills для подростков
+
+LOCATION:Москва, Москва, ул. Полярная, д. 9 метро Бабушкинская Культурный центр "Полярный"
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html
+
+URL:https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html
+
+END:VEVENT
+
+END:VCALENDAR

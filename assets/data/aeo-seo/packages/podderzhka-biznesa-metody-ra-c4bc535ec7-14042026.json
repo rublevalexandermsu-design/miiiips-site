@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
   "kind": "public_event",
   "kindLabel": "Мероприятия",
@@ -52,7 +52,7 @@
   "agentInstructions": "Это каноническая карточка мероприятия. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Поддержка бизнеса, методы развития публичных выступлений.",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-20T18:30:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
     "type": "public_event",
     "typeLabel": "Мероприятие",
@@ -76,6 +76,12 @@
     "imagePath": "assets/images/lectures/miiiips-otdelnoe-spiker-po-emotsionalnomu-intellektu-tatyana-podderzhka-biznesa-5bbe3989.jpg",
     "imageAlt": "Поддержка бизнеса, методы развития публичных выступлений",
     "imageCaption": "Фото мероприятия",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
     "sourceLink": "",
     "sourceLinks": [],
     "directions": [

@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
   "type": "conference",
   "typeLabel": "Конференция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
   "imageAlt": "Постер конференции",
   "imageCaption": "Постер конференции",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
   "sourceLinks": [
     "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",

@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "data-fusion-09042026",
   "type": "conference",
   "typeLabel": "Конференция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
   "imageAlt": "Data Fusion 2026",
   "imageCaption": "Постер конференции",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [

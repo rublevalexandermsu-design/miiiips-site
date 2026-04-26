@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
   "type": "conference",
   "typeLabel": "Конференция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
   "imageAlt": "Постер конференции",
   "imageCaption": "Постер конференции",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
   "sourceLinks": [
     "https://istina.msu.ru/conferences/presentations/620913097/"

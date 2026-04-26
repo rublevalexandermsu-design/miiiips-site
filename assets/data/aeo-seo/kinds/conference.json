@@ -1,30 +1,19 @@
 {
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "kind": "conference",
   "kindLabel": "Конференции",
   "count": 4,
   "items": [
     {
-      "id": "data-fusion-09042026",
-      "title": "Data Fusion 2026",
-      "conferenceTitle": "",
-      "speaker": "",
-      "start": "2026-04-09T00:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
-      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
-      "answerSummary": "Конференция «Data Fusion 2026» с участием уточнённого автора прошла 09.04.2026 на площадке Технологический кластер «Ломоносов», Москва."
-    },
-    {
-      "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
-      "title": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
-      "conferenceTitle": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
-      "speaker": "МИИИИПС",
-      "start": "2025-12-19T19:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
-      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
-      "answerSummary": "Конференция «VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г» с участием МИИИИПС прошла 19.12.2025 на площадке Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан."
+      "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+      "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "speaker": "Участие МИИИИПС",
+      "start": "2023-12-22T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан."
     },
     {
       "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
@@ -38,15 +27,26 @@
       "answerSummary": "Конференция «XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\"» с участием МИИИИПС прошла 19.11.2025 на площадке Москва, ГАОУ ВО МГУСиТ: 18 ноября — Южный кампус (ул. Кировоградская, д. 21, корп. 1) и Северный кампус (Кронштадтский бульвар, д. 43А); 19 ноября — ВДНХ, павильон 27 «Физкультура."
     },
     {
-      "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
-      "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
-      "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
-      "speaker": "Участие МИИИИПС",
-      "start": "2023-12-22T19:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
-      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
-      "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан."
+      "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
+      "title": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "conferenceTitle": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "speaker": "МИИИИПС",
+      "start": "2025-12-19T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "answerSummary": "Конференция «VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г» с участием МИИИИПС прошла 19.12.2025 на площадке Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан."
+    },
+    {
+      "id": "data-fusion-09042026",
+      "title": "Data Fusion 2026",
+      "conferenceTitle": "",
+      "speaker": "",
+      "start": "2026-04-09T00:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
+      "answerSummary": "Конференция «Data Fusion 2026» с участием уточнённого автора прошла 09.04.2026 на площадке Технологический кластер «Ломоносов», Москва."
     }
   ]
 }

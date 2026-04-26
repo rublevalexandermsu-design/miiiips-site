@@ -28,6 +28,10 @@ How to use:
 
 ## Мероприятия
 - Поддержка бизнеса, методы развития публичных выступлений (2026-04-14T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html
+- Открытое занятие социально-образовательной программы по soft skills для подростков (2026-06-06T10:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html
+- Летняя социально-образовательная программа развития soft skills подростков (2026-06-06T12:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html
+- Личная эффективность подростков: социально-образовательная программа развития самостоятельности (2026-07-04T12:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html
+- Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа (2026-08-01T12:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html
 
 ## Публичные лекции
 - Психология мужчины: доверие и общение (2026-02-23T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psychology-men.html
@@ -40,12 +44,13 @@ How to use:
 - Решение проблем и принятие решений часть 2 (2026-04-15T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
 - Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра (2026-04-17T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html
 - Психология мужчины (2026-04-20T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html
-- Бесплатная лекция "Как найти ИДЕАЛЬНОГО ПАРТНЕРА" (2026-04-27T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
-- Бесплатная лекция "Психология ЗНАКОМСТВА" (2026-05-04T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
-- Бесплатная лекция "Психология ЛЮБВИ" (2026-05-11T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lyubvi-11052026.html
+- Бесплатная лекция "Как найти идеального партнера" (2026-04-27T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
+- Бесплатная лекция "Психология знакомства" (2026-05-04T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
+- Бесплатная лекция "Психология любви" (2026-05-11T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lyubvi-11052026.html
 - Бесплатная лекция "Психология длительных отношений" (2026-05-18T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html
 - Бесплатная лекция "Кризисы в отношениях" (2026-05-25T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
 - Бесплатная лекция "Как детство влияет на наши отношения" (2026-06-01T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html
+- Бесплатная лекция "Эмоциональный интеллект подростков: социально-образовательная программа развития саморегуляции и общения" (2026-06-06T12:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.html
 - Бесплатная лекция "Психология любви к себе" (2026-06-08T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lyubvi-k-sebe-08062026.html
 - Выездной образовательный маршрут в Геленджик (2026-06-12T18:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-gelendzhik.html
 - Бесплатная лекция "Психология личных границ" (2026-06-15T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lichnyh-granits-15062026.html

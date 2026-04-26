@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-24T20:28:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "emotsionalnyy-intellekt-i-zdorove-14072026",
   "kind": "public_lecture",
   "kindLabel": "Публичные лекции",
@@ -15,19 +15,19 @@
   "speaker": "Татьяна Мунн",
   "venue": "Парк ЧерМянка, Москва",
   "start": "2026-07-14T17:00:00+03:00",
-  "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и здоровье\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+  "summary": "Бесплатная лекция \"Эмоциональный интеллект и здоровье\" из цикла \"Эмоциональный интеллект\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Лектор — психолог МГУ Татьяна Мунн. Организатор — МИИИИПС.",
   "answerSummary": "Бесплатная лекция \"Эмоциональный интеллект и здоровье\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
   "primaryEntity": "Бесплатная лекция \"Эмоциональный интеллект и здоровье\"",
   "sourceLinks": [
-    "https://moonn.timepad.ru/event/3944874/"
+    "https://miiiips.timepad.ru/event/3944866/"
   ],
   "sourcePriority": [
     "pageManifest",
     "eventsJson",
     "sourceLink"
   ],
-  "image": "https://miiiips.ru/assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944874.jpg",
-  "imagePath": "assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944874.jpg",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944866.jpg",
+  "imagePath": "assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944866.jpg",
   "imageAlt": "Эмоциональный интеллект и здоровье. Психолог Татьяна Мунн МГУ. МИИИИПС",
   "imageCaption": "Фото мероприятия",
   "keywords": [
@@ -38,7 +38,7 @@
     "спикер по эмоциональному интеллекту Татьяна Мунн",
     "Татьяна Мунн МГУ",
     "Татьяна Мунн МИИИИПС",
-    "moonn.timepad.ru",
+    "miiiips.timepad.ru",
     "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
   ],
   "recommendedQueries": [
@@ -55,7 +55,7 @@
   "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Бесплатная лекция \"Эмоциональный интеллект и здоровье\".",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-24T20:28:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "emotsionalnyy-intellekt-i-zdorove-14072026",
     "type": "public_lecture",
     "typeLabel": "Публичная лекция",
@@ -67,7 +67,7 @@
     "reportType": "",
     "speaker": "Татьяна Мунн",
     "venue": "Парк ЧерМянка, Москва",
-    "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и здоровье\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+    "summary": "Бесплатная лекция \"Эмоциональный интеллект и здоровье\" из цикла \"Эмоциональный интеллект\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Лектор — психолог МГУ Татьяна Мунн. Организатор — МИИИИПС.",
     "start": "2026-07-14T17:00:00+03:00",
     "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-zdorove-14072026.html",
     "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-zdorove-14072026.html",
@@ -75,8 +75,8 @@
     "detailPage": "event-emotsionalnyy-intellekt-i-zdorove-14072026.html",
     "feedbackPage": "event-feedback-emotsionalnyy-intellekt-i-zdorove-14072026.html",
     "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-zdorove-14072026.ics",
-    "image": "https://miiiips.ru/assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944874.jpg",
-    "imagePath": "assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944874.jpg",
+    "image": "https://miiiips.ru/assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944866.jpg",
+    "imagePath": "assets/images/lectures/2026-07-14_emotsionalnyy-intellekt-i-zdorove_psiholog-tatyana-munn-mgu_miiiips_photo-3944866.jpg",
     "imageAlt": "Эмоциональный интеллект и здоровье. Психолог Татьяна Мунн МГУ. МИИИИПС",
     "imageCaption": "Фото мероприятия",
     "previewVideo": "",
@@ -85,9 +85,9 @@
     "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и здоровье",
     "videoSlotReserved": true,
     "previewVideoAvailable": false,
-    "sourceLink": "https://moonn.timepad.ru/event/3944874/",
+    "sourceLink": "https://miiiips.timepad.ru/event/3944866/",
     "sourceLinks": [
-      "https://moonn.timepad.ru/event/3944874/"
+      "https://miiiips.timepad.ru/event/3944866/"
     ],
     "directions": [
       "emotional_intelligence",
@@ -105,7 +105,7 @@
       "спикер по эмоциональному интеллекту Татьяна Мунн",
       "Татьяна Мунн МГУ",
       "Татьяна Мунн МИИИИПС",
-      "moonn.timepad.ru",
+      "miiiips.timepad.ru",
       "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
     ],
     "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",

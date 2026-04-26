@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "bandits",
   "type": "seminar",
   "typeLabel": "Семинар МИИИИПС",
@@ -24,6 +24,12 @@
   "imagePath": "",
   "imageAlt": "",
   "imageCaption": "",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [
