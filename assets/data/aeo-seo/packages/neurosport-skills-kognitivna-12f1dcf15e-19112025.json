@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
   "kind": "conference",
   "kindLabel": "Конференции",
@@ -56,7 +56,7 @@
   "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: XVI Международная научно-практическая конференции \"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА\".",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-20T18:30:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
     "type": "conference",
     "typeLabel": "Конференция",
@@ -80,6 +80,12 @@
     "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
     "imageAlt": "Постер конференции",
     "imageCaption": "Постер конференции",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
     "sourceLink": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
     "sourceLinks": [
       "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026@miiiips.ru
+
+DTSTAMP:20260426T133318Z
+
+DTSTART;TZID=Europe/Moscow:20260606T120000
+
+DTEND;TZID=Europe/Moscow:20260822T190000
+
+SUMMARY:Летняя социально-образовательная программа развития soft skills подростков
+
+LOCATION:Москва, Москва, ул. Полярная, д. 9 метро Бабушкинская Культурный центр "Полярный"
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html
+
+URL:https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html
+
+END:VEVENT
+
+END:VCALENDAR

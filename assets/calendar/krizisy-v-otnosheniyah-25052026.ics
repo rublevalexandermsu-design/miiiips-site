@@ -1,15 +1,29 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//MIIIIPS//Events//RU
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:krizisy-v-otnosheniyah-25052026@miiiips.ru
-DTSTAMP:20260424T172727Z
-DTSTART;TZID=Europe/Moscow:20260525T190000
-DTEND;TZID=Europe/Moscow:20260525T210000
-SUMMARY:Бесплатная лекция "Кризисы в отношениях"
-LOCATION:Культурный центр "Полярный", Москва
-DESCRIPTION:Событие на сайте: https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
-URL:https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:krizisy-v-otnosheniyah-25052026@miiiips.ru
+
+DTSTAMP:20260426T133304Z
+
+DTSTART;TZID=Europe/Moscow:20260525T190000
+
+DTEND;TZID=Europe/Moscow:20260525T210000
+
+SUMMARY:Бесплатная лекция "Кризисы в отношениях"
+
+LOCATION:Культурный центр "Полярный", Москва
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
+
+URL:https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
+
+END:VEVENT
+
+END:VCALENDAR

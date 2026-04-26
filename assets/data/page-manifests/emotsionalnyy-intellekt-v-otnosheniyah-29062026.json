@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-24T20:28:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "emotsionalnyy-intellekt-v-otnosheniyah-29062026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -12,7 +12,7 @@
   "reportType": "",
   "speaker": "Татьяна Мунн",
   "venue": "Парк ЧерМянка, Москва",
-  "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Эмоциональный интеллект в отношениях\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+  "summary": "Лекция на тему \"Психология отношений. Эмоциональный интеллект в отношениях\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Лектор — дипломированный психолог МГУ Татьяна Мунн. Организатор — МИИИИПС, Международный институт исследований искусственного интеллекта, психологии и спорта.",
   "start": "2026-06-29T19:00:00+03:00",
   "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
   "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
@@ -20,8 +20,8 @@
   "detailPage": "event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
   "feedbackPage": "event-feedback-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
   "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-otnosheniyah-29062026.ics",
-  "image": "https://miiiips.ru/assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944317.jpg",
-  "imagePath": "assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944317.jpg",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944221.jpg",
+  "imagePath": "assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944221.jpg",
   "imageAlt": "Эмоциональный интеллект в отношениях. Психолог Татьяна Мунн МГУ. МИИИИПС",
   "imageCaption": "Фото мероприятия",
   "previewVideo": "",
@@ -30,9 +30,9 @@
   "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект в отношениях",
   "videoSlotReserved": true,
   "previewVideoAvailable": false,
-  "sourceLink": "https://moonn.timepad.ru/event/3944317/",
+  "sourceLink": "https://miiiips.timepad.ru/event/3944221/",
   "sourceLinks": [
-    "https://moonn.timepad.ru/event/3944317/"
+    "https://miiiips.timepad.ru/event/3944221/"
   ],
   "directions": [
     "emotional_intelligence",
@@ -50,7 +50,7 @@
     "спикер по эмоциональному интеллекту Татьяна Мунн",
     "Татьяна Мунн МГУ",
     "Татьяна Мунн МИИИИПС",
-    "moonn.timepad.ru",
+    "miiiips.timepad.ru",
     "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
   ],
   "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",

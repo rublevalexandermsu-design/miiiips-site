@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "psychology-men",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-psihologiya-muzhchiny-doverie-i-23022026-photo-19a5aca6.jpg",
   "imageAlt": "Психология мужчины: доверие и общение",
   "imageCaption": "Фото мероприятия",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [

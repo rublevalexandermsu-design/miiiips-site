@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "parkgorkogo",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/tatyana-munn/miiiips-publichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-otkrytaya-lektsiya-5b83ff71.jpg",
   "imageAlt": "Открытая лекция Татьяны Мунн в Парке Горького",
   "imageCaption": "Фото мероприятия",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [

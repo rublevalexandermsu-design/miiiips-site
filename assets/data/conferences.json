@@ -1,100 +1,42 @@
 {
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "count": 4,
   "conferences": [
     {
       "manifestVersion": 1,
-      "generatedAt": "2026-04-20T18:30:13",
-      "id": "data-fusion-09042026",
+      "generatedAt": "2026-04-26T16:34:20",
+      "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
       "type": "conference",
       "typeLabel": "Конференция",
       "status": "past",
       "statusLabel": "Прошедшее",
-      "title": "Data Fusion 2026",
-      "conferenceTitle": "",
-      "conferenceDates": "",
-      "reportType": "",
-      "speaker": "",
-      "venue": "Технологический кластер «Ломоносов», Москва",
-      "summary": "Международная конференция по экономике данных и технологиям ИИ с фокусом на работе с данными и диалоге бизнеса, науки и государства.",
-      "start": "2026-04-09T00:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
-      "canonicalUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
-      "detailPage": "event-data-fusion-09042026.html",
-      "feedbackPage": "event-feedback-data-fusion-09042026.html",
-      "calendarFile": "",
-      "image": "https://miiiips.ru/assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
-      "imagePath": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
-      "imageAlt": "Data Fusion 2026",
-      "imageCaption": "Постер конференции",
-      "sourceLink": "",
-      "sourceLinks": [],
-      "directions": [
-        "ai_research"
-      ],
-      "directionLabels": [
-        "ИИ и исследования"
-      ],
-      "keywords": [
-        "Data Fusion 2026",
-        "ИИ и исследования",
-        "Технологический кластер «Ломоносов», Москва"
-      ],
-      "marketingHint": "",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
-      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
-      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
-      "kind": "conference",
-      "pageType": "conference",
-      "answerSummary": "Конференция «Data Fusion 2026» с участием уточнённого автора прошла 09.04.2026 на площадке Технологический кластер «Ломоносов», Москва.",
-      "primaryEntity": "Data Fusion 2026",
-      "recommendedQueries": [
-        "Data Fusion 2026",
-        "09.04.2026"
-      ],
-      "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Data Fusion 2026.",
-      "sourcePriority": [
-        "pageManifest",
-        "eventsJson",
-        "conferenceIndex",
-        "sourceLink"
-      ],
-      "relatedPages": [
-        "https://miiiips.ru/event-data-fusion-09042026.html",
-        "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
-        "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json"
-      ]
-    },
-    {
-      "manifestVersion": 1,
-      "generatedAt": "2026-04-20T18:30:13",
-      "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
-      "type": "conference",
-      "typeLabel": "Конференция",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "title": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
-      "conferenceTitle": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
-      "conferenceDates": "19-20 декабря 2025",
+      "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "conferenceDates": "22-23 декабря 2023",
       "reportType": "Устный",
-      "speaker": "МИИИИПС",
-      "venue": "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
-      "summary": "Эмоциональный интеллект в профессиональном становлении личности",
-      "start": "2025-12-19T19:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-      "canonicalUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-      "detailPage": "event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-      "feedbackPage": "event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-pr-b0b854dbbb.ics",
-      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
-      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
+      "speaker": "Участие МИИИИПС",
+      "venue": "Ташкент, Узбекистан",
+      "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
+      "start": "2023-12-22T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "canonicalUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "detailPage": "event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "feedbackPage": "event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+      "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
       "imageAlt": "Постер конференции",
       "imageCaption": "Постер конференции",
-      "sourceLink": "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka",
+      "previewVideo": "",
+      "previewVideoPath": "",
+      "previewVideoUrl": "",
+      "previewVideoTitle": "",
+      "videoSlotReserved": true,
+      "previewVideoAvailable": false,
+      "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
       "sourceLinks": [
-        "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka"
+        "https://istina.msu.ru/conferences/presentations/620913097/"
       ],
       "directions": [
         "conference"
@@ -103,30 +45,30 @@
         "Конференция"
       ],
       "keywords": [
-        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
         "Конференция",
-        "МИИИИПС",
-        "19-20 декабря 2025",
+        "Участие МИИИИПС",
+        "22-23 декабря 2023",
         "Устный",
-        "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
-        "msu.uz",
-        "miiiips mgu"
+        "Ташкент, Узбекистан",
+        "istina.msu.ru",
+        "uchastie miiiips"
       ],
-      "marketingHint": "miiiips-mgu",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
-      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
-      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "marketingHint": "uchastie-miiiips",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
       "kind": "conference",
       "pageType": "conference",
-      "answerSummary": "Конференция «VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г» с участием МИИИИПС прошла 19.12.2025 на площадке Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан.",
-      "primaryEntity": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан.",
+      "primaryEntity": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
       "recommendedQueries": [
-        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
-        "МИИИИПС Конференция",
-        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г МИИИИПС",
-        "19.12.2025"
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+        "Участие МИИИИПС Конференция",
+        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ Участие МИИИИПС",
+        "22.12.2023"
       ],
-      "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г.",
+      "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ.",
       "sourcePriority": [
         "pageManifest",
         "eventsJson",
@@ -134,14 +76,14 @@
         "sourceLink"
       ],
       "relatedPages": [
-        "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-        "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
-        "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json"
+        "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+        "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
+        "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json"
       ]
     },
     {
       "manifestVersion": 1,
-      "generatedAt": "2026-04-20T18:30:13",
+      "generatedAt": "2026-04-26T16:34:20",
       "id": "neurosport-skills-kognitivna-12f1dcf15e-19112025",
       "type": "conference",
       "typeLabel": "Конференция",
@@ -165,6 +107,12 @@
       "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-xvi-mezhdunarodnaya-e80d592e.jpg",
       "imageAlt": "Постер конференции",
       "imageCaption": "Постер конференции",
+      "previewVideo": "",
+      "previewVideoPath": "",
+      "previewVideoUrl": "",
+      "previewVideoTitle": "",
+      "videoSlotReserved": true,
+      "previewVideoAvailable": false,
       "sourceLink": "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
       "sourceLinks": [
         "https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/",
@@ -215,33 +163,39 @@
     },
     {
       "manifestVersion": 1,
-      "generatedAt": "2026-04-20T18:30:13",
-      "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
+      "generatedAt": "2026-04-26T16:34:20",
+      "id": "emotsionalnyy-intellekt-v-pr-6d05436520-19122025",
       "type": "conference",
       "typeLabel": "Конференция",
       "status": "past",
       "statusLabel": "Прошедшее",
-      "title": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
-      "conferenceTitle": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
-      "conferenceDates": "22-23 декабря 2023",
+      "title": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "conferenceTitle": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+      "conferenceDates": "19-20 декабря 2025",
       "reportType": "Устный",
-      "speaker": "Участие МИИИИПС",
-      "venue": "Ташкент, Узбекистан",
-      "summary": "Развитие «Soft Skills» навыков становится важным для ИТ-специалистов, чтобы быть успешными и эффективными в своей профессии. Коммуникационные, управленческие и лидерские навыки помогают ИТ-специалистам не только качестве",
-      "start": "2023-12-22T19:00:00+03:00",
-      "pageUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-      "canonicalUrl": "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-      "detailPage": "event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-      "feedbackPage": "event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-      "calendarFile": "assets/calendar/razvitie-soft-skills-navykov-778db50128.ics",
-      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
-      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-iv-traditsionnaya-be82c8e2.jpg",
+      "speaker": "МИИИИПС",
+      "venue": "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
+      "summary": "Эмоциональный интеллект в профессиональном становлении личности",
+      "start": "2025-12-19T19:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "canonicalUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "detailPage": "event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "feedbackPage": "event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+      "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-pr-b0b854dbbb.ics",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
+      "imagePath": "assets/images/lectures/miiiips-konferentsiya-tatyana-munn-mgu-rublev-aleksandr-mgu-viii-mezhdunarodnaya-78a5eaa0.jpg",
       "imageAlt": "Постер конференции",
       "imageCaption": "Постер конференции",
-      "sourceLink": "https://istina.msu.ru/conferences/presentations/620913097/",
+      "previewVideo": "",
+      "previewVideoPath": "",
+      "previewVideoUrl": "",
+      "previewVideoTitle": "",
+      "videoSlotReserved": true,
+      "previewVideoAvailable": false,
+      "sourceLink": "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka",
       "sourceLinks": [
-        "https://istina.msu.ru/conferences/presentations/620913097/"
+        "https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka"
       ],
       "directions": [
         "conference"
@@ -250,30 +204,30 @@
         "Конференция"
       ],
       "keywords": [
-        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
         "Конференция",
-        "Участие МИИИИПС",
-        "22-23 декабря 2023",
+        "МИИИИПС",
+        "19-20 декабря 2025",
         "Устный",
-        "Ташкент, Узбекистан",
-        "istina.msu.ru",
-        "uchastie miiiips"
+        "Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан",
+        "msu.uz",
+        "miiiips mgu"
       ],
-      "marketingHint": "uchastie-miiiips",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
-      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
-      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json",
+      "marketingHint": "miiiips-mgu",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json",
       "kind": "conference",
       "pageType": "conference",
-      "answerSummary": "Конференция «IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ» с участием Участие МИИИИПС прошла 22.12.2023 на площадке Ташкент, Узбекистан.",
-      "primaryEntity": "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
+      "answerSummary": "Конференция «VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г» с участием МИИИИПС прошла 19.12.2025 на площадке Филиал МГУ имени М.В.Ломоносова в г.Ташкент, Узбекистан.",
+      "primaryEntity": "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
       "recommendedQueries": [
-        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ",
-        "Участие МИИИИПС Конференция",
-        "IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ Участие МИИИИПС",
-        "22.12.2023"
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г",
+        "МИИИИПС Конференция",
+        "VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г МИИИИПС",
+        "19.12.2025"
       ],
-      "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ.",
+      "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г.",
       "sourcePriority": [
         "pageManifest",
         "eventsJson",
@@ -281,9 +235,79 @@
         "sourceLink"
       ],
       "relatedPages": [
-        "https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-        "https://miiiips.ru/event-feedback-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html",
-        "https://miiiips.ru/assets/data/page-manifests/razvitie-soft-skills-navykov-bd9c5912c7-22122023.json"
+        "https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+        "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html",
+        "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-pr-6d05436520-19122025.json"
+      ]
+    },
+    {
+      "manifestVersion": 1,
+      "generatedAt": "2026-04-26T16:34:20",
+      "id": "data-fusion-09042026",
+      "type": "conference",
+      "typeLabel": "Конференция",
+      "status": "past",
+      "statusLabel": "Прошедшее",
+      "title": "Data Fusion 2026",
+      "conferenceTitle": "",
+      "conferenceDates": "",
+      "reportType": "",
+      "speaker": "",
+      "venue": "Технологический кластер «Ломоносов», Москва",
+      "summary": "Международная конференция по экономике данных и технологиям ИИ с фокусом на работе с данными и диалоге бизнеса, науки и государства.",
+      "start": "2026-04-09T00:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+      "feedbackUrl": "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
+      "canonicalUrl": "https://miiiips.ru/event-data-fusion-09042026.html",
+      "detailPage": "event-data-fusion-09042026.html",
+      "feedbackPage": "event-feedback-data-fusion-09042026.html",
+      "calendarFile": "",
+      "image": "https://miiiips.ru/assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+      "imagePath": "assets/images/lectures/miiiips-mezhdunarodnaya-tatyana-munn-mgu-rublev-aleksandr-mgu-data-fusion-2026-7a9fb9c8.jpg",
+      "imageAlt": "Data Fusion 2026",
+      "imageCaption": "Постер конференции",
+      "previewVideo": "",
+      "previewVideoPath": "",
+      "previewVideoUrl": "",
+      "previewVideoTitle": "",
+      "videoSlotReserved": true,
+      "previewVideoAvailable": false,
+      "sourceLink": "",
+      "sourceLinks": [],
+      "directions": [
+        "ai_research"
+      ],
+      "directionLabels": [
+        "ИИ и исследования"
+      ],
+      "keywords": [
+        "Data Fusion 2026",
+        "ИИ и исследования",
+        "Технологический кластер «Ломоносов», Москва"
+      ],
+      "marketingHint": "",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json",
+      "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
+      "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/data-fusion-09042026.json",
+      "kind": "conference",
+      "pageType": "conference",
+      "answerSummary": "Конференция «Data Fusion 2026» с участием уточнённого автора прошла 09.04.2026 на площадке Технологический кластер «Ломоносов», Москва.",
+      "primaryEntity": "Data Fusion 2026",
+      "recommendedQueries": [
+        "Data Fusion 2026",
+        "09.04.2026"
+      ],
+      "agentInstructions": "Это каноническая карточка конференции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson, conferenceIndex. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Data Fusion 2026.",
+      "sourcePriority": [
+        "pageManifest",
+        "eventsJson",
+        "conferenceIndex",
+        "sourceLink"
+      ],
+      "relatedPages": [
+        "https://miiiips.ru/event-data-fusion-09042026.html",
+        "https://miiiips.ru/event-feedback-data-fusion-09042026.html",
+        "https://miiiips.ru/assets/data/page-manifests/data-fusion-09042026.json"
       ]
     }
   ]

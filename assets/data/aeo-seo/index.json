@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-24T20:28:13",
-  "count": 36,
+  "generatedAt": "2026-04-26T16:34:20",
+  "count": 41,
   "sections": [
     {
       "kind": "applied_demo",
@@ -74,7 +74,7 @@
     {
       "kind": "public_event",
       "kindLabel": "Мероприятия",
-      "count": 1,
+      "count": 5,
       "packages": [
         {
           "id": "podderzhka-biznesa-metody-ra-c4bc535ec7-14042026",
@@ -83,13 +83,45 @@
           "pageUrl": "https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html",
           "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json",
           "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.json"
+        },
+        {
+          "id": "otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026",
+          "title": "Открытое занятие социально-образовательной программы по soft skills для подростков",
+          "speaker": "Татьяна Мунн",
+          "pageUrl": "https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html",
+          "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.json",
+          "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.json"
+        },
+        {
+          "id": "letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026",
+          "title": "Летняя социально-образовательная программа развития soft skills подростков",
+          "speaker": "Татьяна Мунн",
+          "pageUrl": "https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html",
+          "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.json",
+          "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.json"
+        },
+        {
+          "id": "lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026",
+          "title": "Личная эффективность подростков: социально-образовательная программа развития самостоятельности",
+          "speaker": "Татьяна Мунн",
+          "pageUrl": "https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html",
+          "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.json",
+          "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.json"
+        },
+        {
+          "id": "kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026",
+          "title": "Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа",
+          "speaker": "Татьяна Мунн",
+          "pageUrl": "https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html",
+          "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.json",
+          "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.json"
         }
       ]
     },
     {
       "kind": "public_lecture",
       "kindLabel": "Публичные лекции",
-      "count": 28,
+      "count": 29,
       "packages": [
         {
           "id": "psychology-men",
@@ -173,7 +205,7 @@
         },
         {
           "id": "kak-nayti-idealnogo-partnera-27042026",
-          "title": "Бесплатная лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+          "title": "Бесплатная лекция \"Как найти идеального партнера\"",
           "speaker": "Татьяна Мунн",
           "pageUrl": "https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html",
           "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-nayti-idealnogo-partnera-27042026.json",
@@ -181,7 +213,7 @@
         },
         {
           "id": "psihologiya-znakomstva-04052026",
-          "title": "Бесплатная лекция \"Психология ЗНАКОМСТВА\"",
+          "title": "Бесплатная лекция \"Психология знакомства\"",
           "speaker": "Татьяна Мунн",
           "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
           "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-znakomstva-04052026.json",
@@ -189,7 +221,7 @@
         },
         {
           "id": "psihologiya-lyubvi-11052026",
-          "title": "Бесплатная лекция \"Психология ЛЮБВИ\"",
+          "title": "Бесплатная лекция \"Психология любви\"",
           "speaker": "Татьяна Мунн",
           "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
           "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json",
@@ -218,6 +250,14 @@
           "pageUrl": "https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
           "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.json",
           "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.json"
+        },
+        {
+          "id": "emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026",
+          "title": "Бесплатная лекция \"Эмоциональный интеллект подростков: социально-образовательная программа развития саморегуляции и общения\"",
+          "speaker": "Татьяна Мунн",
+          "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.html",
+          "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.json",
+          "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.json"
         },
         {
           "id": "psihologiya-lyubvi-k-sebe-08062026",

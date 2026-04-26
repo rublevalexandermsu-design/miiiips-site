@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "ideya-takaya-chto-ya-registr-4fec521510-17042026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -24,6 +24,12 @@
   "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-ideya-takaya-954f10c1.jpg",
   "imageAlt": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
   "imageCaption": "Постер конференции",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
   "sourceLink": "",
   "sourceLinks": [],
   "directions": [

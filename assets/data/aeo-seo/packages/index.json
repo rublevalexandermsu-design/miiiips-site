@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-24T20:28:13",
-  "count": 36,
+  "generatedAt": "2026-04-26T16:34:20",
+  "count": 41,
   "items": [
     {
       "id": "razvitie-soft-skills-navykov-bd9c5912c7-22122023",
@@ -204,7 +204,7 @@
       "id": "kak-nayti-idealnogo-partnera-27042026",
       "kind": "public_lecture",
       "kindLabel": "Публичные лекции",
-      "title": "Бесплатная лекция \"Как найти ИДЕАЛЬНОГО ПАРТНЕРА\"",
+      "title": "Бесплатная лекция \"Как найти идеального партнера\"",
       "speaker": "Татьяна Мунн",
       "start": "2026-04-27T19:00:00+03:00",
       "pageUrl": "https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html",
@@ -215,7 +215,7 @@
       "id": "psihologiya-znakomstva-04052026",
       "kind": "public_lecture",
       "kindLabel": "Публичные лекции",
-      "title": "Бесплатная лекция \"Психология ЗНАКОМСТВА\"",
+      "title": "Бесплатная лекция \"Психология знакомства\"",
       "speaker": "Татьяна Мунн",
       "start": "2026-05-04T19:00:00+03:00",
       "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
@@ -226,7 +226,7 @@
       "id": "psihologiya-lyubvi-11052026",
       "kind": "public_lecture",
       "kindLabel": "Публичные лекции",
-      "title": "Бесплатная лекция \"Психология ЛЮБВИ\"",
+      "title": "Бесплатная лекция \"Психология любви\"",
       "speaker": "Татьяна Мунн",
       "start": "2026-05-11T19:00:00+03:00",
       "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
@@ -265,6 +265,39 @@
       "pageUrl": "https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.json",
       "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.json"
+    },
+    {
+      "id": "otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026",
+      "kind": "public_event",
+      "kindLabel": "Мероприятия",
+      "title": "Открытое занятие социально-образовательной программы по soft skills для подростков",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-06-06T10:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.json"
+    },
+    {
+      "id": "emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026",
+      "kind": "public_lecture",
+      "kindLabel": "Публичные лекции",
+      "title": "Бесплатная лекция \"Эмоциональный интеллект подростков: социально-образовательная программа развития саморегуляции и общения\"",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-06-06T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.json"
+    },
+    {
+      "id": "letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026",
+      "kind": "public_event",
+      "kindLabel": "Мероприятия",
+      "title": "Летняя социально-образовательная программа развития soft skills подростков",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-06-06T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.json"
     },
     {
       "id": "psihologiya-lyubvi-k-sebe-08062026",
@@ -322,6 +355,17 @@
       "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-otnosheniyah-29062026.json"
     },
     {
+      "id": "lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026",
+      "kind": "public_event",
+      "kindLabel": "Мероприятия",
+      "title": "Личная эффективность подростков: социально-образовательная программа развития самостоятельности",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-07-04T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.json"
+    },
+    {
       "id": "emotsionalnyy-intellekt-i-zdorove-14072026",
       "kind": "public_lecture",
       "kindLabel": "Публичные лекции",
@@ -353,6 +397,17 @@
       "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-otnosheniya-28072026.html",
       "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-otnosheniya-28072026.json",
       "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-i-otnosheniya-28072026.json"
+    },
+    {
+      "id": "kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026",
+      "kind": "public_event",
+      "kindLabel": "Мероприятия",
+      "title": "Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-08-01T12:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.json"
     },
     {
       "id": "emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026",

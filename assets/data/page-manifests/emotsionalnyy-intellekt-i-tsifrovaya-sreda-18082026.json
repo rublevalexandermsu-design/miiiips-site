@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-24T20:28:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -12,7 +12,7 @@
   "reportType": "",
   "speaker": "Татьяна Мунн",
   "venue": "Парк ЧерМянка, Москва",
-  "summary": "Лекция Татьяны Мунн на тему \"Эмоциональный интеллект и цифровая среда\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+  "summary": "Бесплатная лекция \"Эмоциональный интеллект и цифровая среда\" из цикла \"Эмоциональный интеллект\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Лектор — психолог МГУ Татьяна Мунн. Организатор — МИИИИПС.",
   "start": "2026-08-18T17:00:00+03:00",
   "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
   "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
@@ -20,8 +20,8 @@
   "detailPage": "event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
   "feedbackPage": "event-feedback-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html",
   "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.ics",
-  "image": "https://miiiips.ru/assets/images/lectures/2026-08-18_emotsionalnyy-intellekt-i-tsifrovaya-sreda_psiholog-tatyana-munn-mgu_miiiips_photo-3944880.jpg",
-  "imagePath": "assets/images/lectures/2026-08-18_emotsionalnyy-intellekt-i-tsifrovaya-sreda_psiholog-tatyana-munn-mgu_miiiips_photo-3944880.jpg",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-08-18_emotsionalnyy-intellekt-i-tsifrovaya-sreda_psiholog-tatyana-munn-mgu_miiiips_photo-3944872.jpg",
+  "imagePath": "assets/images/lectures/2026-08-18_emotsionalnyy-intellekt-i-tsifrovaya-sreda_psiholog-tatyana-munn-mgu_miiiips_photo-3944872.jpg",
   "imageAlt": "Эмоциональный интеллект и цифровая среда. Психолог Татьяна Мунн МГУ. МИИИИПС",
   "imageCaption": "Фото мероприятия",
   "previewVideo": "",
@@ -30,9 +30,9 @@
   "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и цифровая среда",
   "videoSlotReserved": true,
   "previewVideoAvailable": false,
-  "sourceLink": "https://moonn.timepad.ru/event/3944880/",
+  "sourceLink": "https://miiiips.timepad.ru/event/3944872/",
   "sourceLinks": [
-    "https://moonn.timepad.ru/event/3944880/"
+    "https://miiiips.timepad.ru/event/3944872/"
   ],
   "directions": [
     "emotional_intelligence",
@@ -50,7 +50,7 @@
     "спикер по эмоциональному интеллекту Татьяна Мунн",
     "Татьяна Мунн МГУ",
     "Татьяна Мунн МИИИИПС",
-    "moonn.timepad.ru",
+    "miiiips.timepad.ru",
     "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
   ],
   "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",

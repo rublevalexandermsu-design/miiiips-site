@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-21T10:01:28",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "psihologiya-otnosheniy-muzhchina-20042026",
   "kind": "public_lecture",
   "kindLabel": "Публичные лекции",
@@ -24,8 +24,8 @@
     "eventsJson",
     "sourceLink"
   ],
-  "image": "https://miiiips.ru/assets/images/lectures/0421.png",
-  "imagePath": "assets/images/lectures/0421.png",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-04-20_psihologiya-muzhchiny_0421.png",
+  "imagePath": "assets/images/lectures/2026-04-20_psihologiya-muzhchiny_0421.png",
   "imageAlt": "Фото лекции",
   "imageCaption": "Фото лекции",
   "keywords": [
@@ -52,7 +52,7 @@
   "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Психология мужчины.",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-21T10:01:28",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "psihologiya-otnosheniy-muzhchina-20042026",
     "type": "public_lecture",
     "typeLabel": "Публичная лекция",
@@ -72,13 +72,16 @@
     "detailPage": "event-psihologiya-otnosheniy-muzhchina-20042026.html",
     "feedbackPage": "event-feedback-psihologiya-otnosheniy-muzhchina-20042026.html",
     "calendarFile": "assets/calendar/psihologiya-otnosheniy-muzhchina-20042026.ics",
-    "image": "https://miiiips.ru/assets/images/lectures/0421.png",
-    "imagePath": "assets/images/lectures/0421.png",
+    "image": "https://miiiips.ru/assets/images/lectures/2026-04-20_psihologiya-muzhchiny_0421.png",
+    "imagePath": "assets/images/lectures/2026-04-20_psihologiya-muzhchiny_0421.png",
     "imageAlt": "Фото лекции",
     "imageCaption": "Фото лекции",
-    "previewVideo": "https://miiiips.ru/assets/media/event-previews/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-5a6f8038.mp4",
-    "previewVideoPath": "assets/media/event-previews/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-psihologiya-5a6f8038.mp4",
+    "previewVideo": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4",
+    "previewVideoPath": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4",
+    "previewVideoUrl": "assets/media/event-previews/2026-04-20_psihologiya-muzhchiny-preview-h264.mp4",
     "previewVideoTitle": "Короткий видео-анонс лекции «Психология мужчины»",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": true,
     "sourceLink": "",
     "sourceLinks": [],
     "directions": [

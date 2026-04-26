@@ -1,15 +1,29 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//MIIIIPS//Events//RU
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026@miiiips.ru
-DTSTAMP:20260424T172805Z
-DTSTART;TZID=Europe/Moscow:20260811T170000
-DTEND;TZID=Europe/Moscow:20260811T190000
-SUMMARY:Бесплатная лекция "Эмоциональный интеллект и хроническая усталость"
-LOCATION:Парк ЧерМянка, Москва
-DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html
-URL:https://miiiips.ru/event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//MIIIIPS//Events//RU
+
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+
+UID:emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026@miiiips.ru
+
+DTSTAMP:20260426T133412Z
+
+DTSTART;TZID=Europe/Moscow:20260811T170000
+
+DTEND;TZID=Europe/Moscow:20260811T190000
+
+SUMMARY:Бесплатная лекция "Эмоциональный интеллект и хроническая усталость"
+
+LOCATION:Парк ЧерМянка, Москва
+
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html
+
+URL:https://miiiips.ru/event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html
+
+END:VEVENT
+
+END:VCALENDAR

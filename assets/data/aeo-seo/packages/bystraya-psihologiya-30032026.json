@@ -1,6 +1,6 @@
 {
   "packageVersion": 1,
-  "generatedAt": "2026-04-20T18:30:13",
+  "generatedAt": "2026-04-26T16:34:21",
   "id": "bystraya-psihologiya-30032026",
   "kind": "public_lecture",
   "kindLabel": "Публичные лекции",
@@ -52,7 +52,7 @@
   "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Быстрая психология.",
   "pageManifest": {
     "manifestVersion": 1,
-    "generatedAt": "2026-04-20T18:30:13",
+    "generatedAt": "2026-04-26T16:34:21",
     "id": "bystraya-psihologiya-30032026",
     "type": "public_lecture",
     "typeLabel": "Публичная лекция",
@@ -76,6 +76,12 @@
     "imagePath": "assets/images/lectures/miiiips-ponedelnichnaya-bystraya-psihologiya-30032026-photo-01979d5e.jpg",
     "imageAlt": "Быстрая психология",
     "imageCaption": "Фото мероприятия",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
     "sourceLink": "",
     "sourceLinks": [],
     "directions": [

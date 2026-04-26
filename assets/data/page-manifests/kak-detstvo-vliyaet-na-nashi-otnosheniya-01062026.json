@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-04-24T20:28:13",
+  "generatedAt": "2026-04-26T16:34:20",
   "id": "kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026",
   "type": "public_lecture",
   "typeLabel": "Публичная лекция",
@@ -12,7 +12,7 @@
   "reportType": "",
   "speaker": "Татьяна Мунн",
   "venue": "Культурный центр \"Полярный\", Москва",
-  "summary": "Лекция Татьяны Мунн на тему \"Психология отношений. Как детство влияет на наши отношения\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Татьяна Мунн — психолог МГУ, спикер и эксперт в области эмоционального интеллекта, психологии эмоций и состояний.",
+  "summary": "Лекция на тему \"Психология отношений. Как детство влияет на наши отношения\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Лектор — дипломированный психолог МГУ Татьяна Мунн. Организатор — МИИИИПС, Международный институт исследований искусственного интеллекта, психологии и спорта.",
   "start": "2026-06-01T19:00:00+03:00",
   "pageUrl": "https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
   "feedbackUrl": "https://miiiips.ru/event-feedback-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
@@ -20,8 +20,8 @@
   "detailPage": "event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
   "feedbackPage": "event-feedback-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html",
   "calendarFile": "assets/calendar/kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.ics",
-  "image": "https://miiiips.ru/assets/images/lectures/2026-06-01_kak-detstvo-vliyaet-na-nashi-otnosheniya_psiholog-tatyana-munn-mgu_miiiips_photo-3944312.jpg",
-  "imagePath": "assets/images/lectures/2026-06-01_kak-detstvo-vliyaet-na-nashi-otnosheniya_psiholog-tatyana-munn-mgu_miiiips_photo-3944312.jpg",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-06-01_kak-detstvo-vliyaet-na-nashi-otnosheniya_psiholog-tatyana-munn-mgu_miiiips_photo-3944216.jpg",
+  "imagePath": "assets/images/lectures/2026-06-01_kak-detstvo-vliyaet-na-nashi-otnosheniya_psiholog-tatyana-munn-mgu_miiiips_photo-3944216.jpg",
   "imageAlt": "Как детство влияет на наши отношения. Психолог Татьяна Мунн МГУ. МИИИИПС",
   "imageCaption": "Фото мероприятия",
   "previewVideo": "",
@@ -30,9 +30,9 @@
   "previewVideoTitle": "Видео-анонс: Как детство влияет на наши отношения",
   "videoSlotReserved": true,
   "previewVideoAvailable": false,
-  "sourceLink": "https://moonn.timepad.ru/event/3944312/",
+  "sourceLink": "https://miiiips.timepad.ru/event/3944216/",
   "sourceLinks": [
-    "https://moonn.timepad.ru/event/3944312/"
+    "https://miiiips.timepad.ru/event/3944216/"
   ],
   "directions": [
     "psychology",
@@ -50,7 +50,7 @@
     "спикер по эмоциональному интеллекту Татьяна Мунн",
     "Татьяна Мунн МГУ",
     "Татьяна Мунн МИИИИПС",
-    "moonn.timepad.ru",
+    "miiiips.timepad.ru",
     "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
   ],
   "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
