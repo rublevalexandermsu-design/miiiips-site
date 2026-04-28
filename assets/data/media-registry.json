@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-28",
+  "publication": {
+    "title": "MIIIIPS Global Review",
+    "russianTitleTranslation": "Глобальное обозрение МИИИИПС",
+    "type": "science-media",
+    "registrationTarget": "сетевое издание",
+    "registrationStatus": "preparing-application",
+    "founder": "АНО «Международный институт исследований искусственного интеллекта, психологии и спорта»",
+    "editor": "Татьяна Мунн",
+    "sitePath": "media.html",
+    "languages": ["ru", "en"],
+    "distributionTerritory": ["Российская Федерация", "зарубежные страны"],
+    "ageRating": "16+",
+    "frequency": "по мере выхода материалов, не реже одного раза в месяц"
+  },
+  "editorialRules": {
+    "copyPasteAllowed": false,
+    "sourceRequired": true,
+    "humanEditorialReviewRequired": true,
+    "politicalAgitationAllowed": false,
+    "legalComplianceReviewRequired": true,
+    "doNotClaimRegistrationBeforeRegistryRecord": true,
+    "scope": [
+      "наука",
+      "образование",
+      "международные события",
+      "искусственный интеллект",
+      "психология",
+      "спорт",
+      "конференции",
+      "публичные лекции"
+    ]
+  },
+  "legalComplianceGate": {
+    "lastReviewedAt": "2026-04-28",
+    "jurisdiction": "RU",
+    "officialSources": [
+      "https://70.rkn.gov.ru/directions/p1885/p5691/",
+      "https://22.rkn.gov.ru/directions/p5797/p2558/p4502/",
+      "https://www.consultant.ru/document/cons_doc_LAW_1511/",
+      "https://www.consultant.ru/document/cons_doc_LAW_108808/"
+    ],
+    "requiredChecks": [
+      "точное название СМИ без кавычек",
+      "перевод иностранного названия на русский язык",
+      "форма распространения: сетевое издание",
+      "учредитель и редакционный ответственный",
+      "языки и территория распространения",
+      "тематика и периодичность",
+      "возрастная маркировка",
+      "выходные данные после регистрации",
+      "отсутствие ложного статуса регистрации",
+      "проверка рекламы, персональных данных, авторских прав и запрещённых материалов"
+    ],
+    "updateRule": "При изменении требований Роскомнадзора, законодательства РФ или правил площадок обновить этот registry до публикации новых материалов."
+  },
+  "sections": [
+    {"id": "news", "title": "Новости", "url": "media-news.html"},
+    {"id": "events", "title": "События", "url": "media-events.html"},
+    {"id": "conferences", "title": "Конференции", "url": "media-conferences.html"},
+    {"id": "interviews", "title": "Интервью", "url": "media-interviews.html"},
+    {"id": "reviews", "title": "Обзоры", "url": "media-reviews.html"},
+    {"id": "press", "title": "Пресс-центр", "url": "media-press.html"}
+  ],
+  "materials": [
+    {"id": "media-2026-001", "title": "Data Fusion 2026: что обсуждали на конференции о данных и ИИ", "type": "review", "section": "conferences", "url": "media-story-data-fusion-2026.html"},
+    {"id": "media-2026-002", "title": "Лекции по отношениям становятся публичной научной повесткой", "type": "event-story", "section": "events", "url": "media-story-psychology-relations.html"},
+    {"id": "media-2026-003", "title": "Татьяна Мунн: редакционный фокус на человека, образование и доверие", "type": "profile", "section": "interviews", "url": "media-story-tatyana-munn-editor.html"},
+    {"id": "media-2026-004", "title": "Эмоциональный интеллект выходит в формат открытых образовательных встреч", "type": "review", "section": "events", "url": "media-story-emotional-intelligence.html"},
+    {"id": "media-2026-005", "title": "Открытые встречи о психологии становятся городской образовательной практикой", "type": "event-story", "section": "events", "url": "media-events.html"},
+    {"id": "media-2026-006", "title": "Международные научные новости: образование, технологии, человек", "type": "review", "section": "news", "url": "media-story-global-newsroom.html"}
+  ]
+}
