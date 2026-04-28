@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-04-27T07:43:48.512327+00:00",
+  "generatedAt": "2026-04-28T07:43:10.929107+00:00",
   "ticker": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://moonn.ru/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "moonn.ru"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://moonn.ru/20251216",
-      "source": "moonn.ru"
-    },
     {
       "title": "Почему мы после отпуска снова хотим в отпуск? На лекции про психологию отдыха я задала этот вопрос. И знаете, что ответили люди? «Потому что работа утомляет». «Потому что в отпуске",
       "url": "https://t.me/moonn_official/745",
@@ -27,9 +17,9 @@
       "source": "Наука РФ"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "mos.ru"
+      "source": "Официальный сайт Мэра Москвы"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -47,9 +37,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "Как проживать жизненные кризисы и лучше понять себя: в центрах московского долголетия открыт курс по психологии / Новости города / Сайт Москвы - mos.ru",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xWXdYdV9HS0Z1WEdFaW5iaG9VNjd3VVpMRU5JbkZtbkY5RFlwdEl1NjR2Z05CSHJLdS14eE5JbTNLclZsb05YUmhwMUpSaVlZ?oc=5",
-      "source": "mos.ru"
+      "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBONG1jWFRWNXpWbzZOaS1UUTlSakNHcDZ5bVI1eGRqNzBuMjZNd3NHY2JUTUFNTTdvR0RHVGJVaw?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея - Ведомости",
@@ -62,14 +52,14 @@
       "source": "Moneytimes.Ru"
     },
     {
-      "title": "Путин подписал закон о квотах на поступление в вузы вдовам участников СВО - Москвич Mag",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnRKbXZ2dHVycm9lQlo5VTRHZEk1cjI1VUhPXzZkUVcwYm0wbmw3TG5GRFUtUVZGR2xhQWhGb2FrMGk4MjR4RmxlbTNyZXNGdV94TDZpRV9JczBXOXhLRHJiMDlNVnlkejlISC1aTFkxS25vMlAwVzBQc195SjdJYzkwOUxFVjlpOGl4S2ZuUW5SNV9yOGNtMjB4T1BRU0szM2F3ZVpJcw?oc=5",
-      "source": "Москвич Mag"
-    },
-    {
       "title": "Путин подписал закон о бесплатном высшем образовании для вдов и вдовцов участников СВО - Новости Омска и Омской области — СуперОмск",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN25SbC1lZERhdDd5eHk2WDBtVTdGV2s5MGxIeHNXOVdGQXBHc2ZWQktYa3EyenlWclBIX0VlV1B5Wk1UbVVxcnhZVUJvQ3RwNTdVNXZrbHNHTHBCTFF4R1hrdWE5Znc4U0F0aVpsMVloNU5jcFpXejFhb2kwcURkWUx6ZmJBOGJ1NndSYw?oc=5",
       "source": "Новости Омска и Омской области — СуперОмск"
+    },
+    {
+      "title": "Образование - профессиональное кредо грамотного специалиста - istochnik.online",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTTY3TFRVLVpITlBzbUp3S3lTR042MGlTcy1ITFpETHpFVmNoUWFRc2dGUmJCdi1jOFpwQWs5Q0NFV1VuaVRaYXZqMDcweDJGSC1SeW9JZmtvS0JVa0tiVXVfNXR0ZjAyN1dmc2FOSUlzeWFWZGxQRjBqX0RRbGNoaU5nSEFBd0o1RDE0T01rSUhqREk?oc=5",
+      "source": "istochnik.online"
     }
   ],
   "psychologyTrends": [
@@ -79,13 +69,6 @@
       "source": "Психологическая газета",
       "published": "Sat, 25 Apr 2026 16:59:44 GMT",
       "summary": "Психиатрия и психология — связи и границы Психологическая газета"
-    },
-    {
-      "title": "Как проживать жизненные кризисы и лучше понять себя: в центрах московского долголетия открыт курс по психологии / Новости города / Сайт Москвы - mos.ru",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xWXdYdV9HS0Z1WEdFaW5iaG9VNjd3VVpMRU5JbkZtbkY5RFlwdEl1NjR2Z05CSHJLdS14eE5JbTNLclZsb05YUmhwMUpSaVlZ?oc=5",
-      "source": "mos.ru",
-      "published": "Sat, 01 Nov 2025 07:00:00 GMT",
-      "summary": "Как проживать жизненные кризисы и лучше понять себя: в центрах московского долголетия открыт курс по психологии / Новости города / Сайт Москвы mos.ru"
     },
     {
       "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
@@ -109,21 +92,21 @@
       "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     },
     {
-      "title": "КБГУ – в топе лучших вузов страны по направлению «Психология» - РИА «Кабардино-Балкария»",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOXN3NGpCUGxKYlJ0YllpT0dOcExMa3hXZFRTZ3psQlJucW5zcjVHWVRkbVpSSHB4a0c3S0ZkN1FIdkpyeFJac2ItTHFRME9XX0pXMkIzY240dmZlTndpV0F4b3pJc18wMkVSYXVlUTNyeTd4M3JlZHBQWkVtckdmMXd0blVpSDVWMUg5TmducEQ?oc=5",
-      "source": "РИА «Кабардино-Балкария»",
-      "published": "Thu, 28 Aug 2025 07:00:00 GMT",
-      "summary": "КБГУ – в топе лучших вузов страны по направлению «Психология» РИА «Кабардино-Балкария»"
+      "title": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5OcEkzWWdiRjktdmh2SU90enNDcVM0RFdJSjN3anBCWUgzSUYyMWZ6SHVnbUdZUS1NOVFtOVVjUQ?oc=5",
+      "source": "Психологическая газета",
+      "published": "Sat, 18 Apr 2026 21:00:13 GMT",
+      "summary": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете Психологическая газета"
+    },
+    {
+      "title": "Что нас ждет? Психология в поиске новой устойчивости - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9Yc1hHSEN5MjUwTjdSSTFmUVZ2OVRwMW1Ndk1iUkdlUWF1UlRJNlZWY1p3ZGdCdnlBN19Pa2R1MA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Sat, 18 Apr 2026 07:00:00 GMT",
+      "summary": "Что нас ждет? Психология в поиске новой устойчивости Психологическая газета"
     }
   ],
   "educationPolicy": [
-    {
-      "title": "Путин подписал закон о квотах на поступление в вузы вдовам участников СВО - Москвич Mag",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnRKbXZ2dHVycm9lQlo5VTRHZEk1cjI1VUhPXzZkUVcwYm0wbmw3TG5GRFUtUVZGR2xhQWhGb2FrMGk4MjR4RmxlbTNyZXNGdV94TDZpRV9JczBXOXhLRHJiMDlNVnlkejlISC1aTFkxS25vMlAwVzBQc195SjdJYzkwOUxFVjlpOGl4S2ZuUW5SNV9yOGNtMjB4T1BRU0szM2F3ZVpJcw?oc=5",
-      "source": "Москвич Mag",
-      "published": "Sun, 26 Apr 2026 15:18:16 GMT",
-      "summary": "Путин подписал закон о квотах на поступление в вузы вдовам участников СВО Москвич Mag"
-    },
     {
       "title": "Путин подписал закон о бесплатном высшем образовании для вдов и вдовцов участников СВО - Новости Омска и Омской области — СуперОмск",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN25SbC1lZERhdDd5eHk2WDBtVTdGV2s5MGxIeHNXOVdGQXBHc2ZWQktYa3EyenlWclBIX0VlV1B5Wk1UbVVxcnhZVUJvQ3RwNTdVNXZrbHNHTHBCTFF4R1hrdWE5Znc4U0F0aVpsMVloNU5jcFpXejFhb2kwcURkWUx6ZmJBOGJ1NndSYw?oc=5",
@@ -132,32 +115,39 @@
       "summary": "Путин подписал закон о бесплатном высшем образовании для вдов и вдовцов участников СВО Новости Омска и Омской области — СуперОмск"
     },
     {
+      "title": "Образование - профессиональное кредо грамотного специалиста - istochnik.online",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTTY3TFRVLVpITlBzbUp3S3lTR042MGlTcy1ITFpETHpFVmNoUWFRc2dGUmJCdi1jOFpwQWs5Q0NFV1VuaVRaYXZqMDcweDJGSC1SeW9JZmtvS0JVa0tiVXVfNXR0ZjAyN1dmc2FOSUlzeWFWZGxQRjBqX0RRbGNoaU5nSEFBd0o1RDE0T01rSUhqREk?oc=5",
+      "source": "istochnik.online",
+      "published": "Mon, 27 Apr 2026 14:33:18 GMT",
+      "summary": "Образование - профессиональное кредо грамотного специалиста istochnik.online"
+    },
+    {
+      "title": "Вдовы погибших воинов СВО теперь могут бесплатно поступать в вузы - zvezda-gafuri.ru",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWUlOSGhVeVVqdXJXSW9SdXpGMm1OZ0paMC1zaDdRV2ZCdmh2OUJFb2s5eklXX0FLQkpnS3FkeC1OaXBMbXpQZVFfSnRrN242X2ZFTlhaS3FkR3RnY2FCcU1fVkZyVTkwOWR2ZTFrS25xWFFTS2N1Yk5TeDlWX1JqanBVZGtHYmJLNU5rMHp4YWRUQzUxNEdVZHVyR0l1dU9RNV9uR250ai1XcmpOOHZsSG5kbGktLTRPRTZLRHUtZDk2LUE?oc=5",
+      "source": "zvezda-gafuri.ru",
+      "published": "Mon, 27 Apr 2026 13:56:25 GMT",
+      "summary": "Вдовы погибших воинов СВО теперь могут бесплатно поступать в вузы zvezda-gafuri.ru"
+    },
+    {
+      "title": "Столицы теряют хватку? Почему абитуриенты все чаще выбирают вузы в регионах - Online47.ru",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcEVFN0Y0dHJXTk81WjhlSk1rZ3pKLV8yTHg2STd2TUwxTGpCc1NCb3lCUEJWZUl3U0p5aEhsMm15cnhiYWZYaWRwdXZiVTNlQ3AxcGFsS2JkMENEV1h1RThRcEYzM29HRTQ1VVdOMXlFX2l5dVI5RzJxbHpUUlFocmNRUGhscWczbFF2Y0JEUXhEcGIwYm5ObXRrNGdwZkpYVzd1a2xuYll4c3ZBR1lwR3VuSVVtVlNXdGdPamo3aDk?oc=5",
+      "source": "Online47.ru",
+      "published": "Mon, 27 Apr 2026 13:34:00 GMT",
+      "summary": "Столицы теряют хватку? Почему абитуриенты все чаще выбирают вузы в регионах Online47.ru"
+    },
+    {
       "title": "Вдовы участников СВО теперь могут бесплатно поступать в вузы - nzd22.ru",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb2JCNklDRmEtek1uUVRidGFPVl94cmt5UThaNm8zaVE3OXhBRnF3b3hjb3Y4M2xVZzRTWlp6bnRiZnBmMld0VlNtXzV0WVhmN3VMa1Z0S1dteTdPZXdsV184UlAtTDMzeU9GQ1dQSDdJenliaHVJcUdfcGw2bVNLdXA1VGRsaHZ6NEZ2S3dNSFE?oc=5",
       "source": "nzd22.ru",
-      "published": "Mon, 27 Apr 2026 05:53:30 GMT",
+      "published": "Mon, 27 Apr 2026 12:53:05 GMT",
       "summary": "Вдовы участников СВО теперь могут бесплатно поступать в вузы nzd22.ru"
     },
     {
-      "title": "Супруги участников СВО смогут бесплатно поступать в вузы и колледжи - Deita.ru",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE93RHpkN0dBbmNvd0VUdWJZVl9wODZJR3lmWkFoWmhSQWpaS0pPd3g0dFFWNUZwY29Qc0d6OUQwbXlNTmFLbFE?oc=5",
-      "source": "Deita.ru",
-      "published": "Sun, 26 Apr 2026 23:20:08 GMT",
-      "summary": "Супруги участников СВО смогут бесплатно поступать в вузы и колледжи Deita.ru"
-    },
-    {
-      "title": "Путин подписал закон о бесплатном поступлении в вузы для вдов участников СВО - Донецкое Агентство Новостей",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTdjc0RCMmJ0d1Q1Rk5VRlRLSVNacERoY29tOWduUE53dlZPU1R5bVprNFE1ZGpJR0d2NmdJUzVjTzZ3bTJVMFdLc0J0V29oU1paTDdMd2ViWFZSckl1Zm8ya0Jzc0wxVFBSdFh4RHhqTjJHb281RnEzU0FBZGJIQ3NzZy1ZLVZHR2FlcTRwcnhHdmdNOEdkcFVLWTNJNFIyTUdhbEQ4RXNQZw?oc=5",
-      "source": "Донецкое Агентство Новостей",
-      "published": "Sat, 25 Apr 2026 12:39:25 GMT",
-      "summary": "Путин подписал закон о бесплатном поступлении в вузы для вдов участников СВО Донецкое Агентство Новостей"
-    },
-    {
-      "title": "Супруги погибших участников СВО получили право бесплатно поступить в вузы и колледжи - mskvremya.ru",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOVdFRHlUV1pIV3BueW5sd0xicTZWdEl0dTlXYlZaYktEVmNtV2NvSl84cWYxWWlTU3NvZ2JydExna1hOR214WjVQMG9xTVN0WGJSMEpXS0pQZmVLVDRHOHF5Tm1XZWNpUWNwZDZmdllJTXgwUDdrWGVLeDg4TWhVNA?oc=5",
-      "source": "mskvremya.ru",
-      "published": "Sat, 25 Apr 2026 21:00:00 GMT",
-      "summary": "Супруги погибших участников СВО получили право бесплатно поступить в вузы и колледжи mskvremya.ru"
+      "title": "Путин подписал закон о квотах на поступление в вузы вдовам участников СВО - Москвич Mag",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnRKbXZ2dHVycm9lQlo5VTRHZEk1cjI1VUhPXzZkUVcwYm0wbmw3TG5GRFUtUVZGR2xhQWhGb2FrMGk4MjR4RmxlbTNyZXNGdV94TDZpRV9JczBXOXhLRHJiMDlNVnlkejlISC1aTFkxS25vMlAwVzBQc195SjdJYzkwOUxFVjlpOGl4S2ZuUW5SNV9yOGNtMjB4T1BRU0szM2F3ZVpJcw?oc=5",
+      "source": "Москвич Mag",
+      "published": "Sat, 25 Apr 2026 09:11:31 GMT",
+      "summary": "Путин подписал закон о квотах на поступление в вузы вдовам участников СВО Москвич Mag"
     }
   ],
   "conferenceUpdates": [
@@ -169,11 +159,11 @@
       "summary": "Легковесные системы ИИ стали лучше распознавать сложные эмоции Наука РФ"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "mos.ru",
+      "source": "Официальный сайт Мэра Москвы",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
-      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
+      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
     },
     {
       "title": "В Казани проходит конференция «Цифра для гуманитариев» - МГИМО",
@@ -197,11 +187,11 @@
       "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
     },
     {
-      "title": "Импульсивные покупки — как их избежать? - skillbox.ru",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yWk1YVWlNSjgxS2hHai1hNjNLR2pxaVI4cnNiREtxUGlza2ZJZ1JmTUJLSndrZXVOWFdwTlRXdlJoMmdNX1czQ2tzbVJOV1ZPdV9XNmtpN0t0TnB0enVubXBZeWp2SUEyR0tScmpKc1VuN3BtYW5CM1Z3?oc=5",
-      "source": "skillbox.ru",
-      "published": "Wed, 07 Dec 2022 08:00:00 GMT",
-      "summary": "Импульсивные покупки — как их избежать? skillbox.ru"
+      "title": "Лекции Грановской Рады Михайловны «Психология религии» - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBwbm8xWDQtYTFpVFJyX1hob1JfRUZjSC1lcVgyNEZyVG1sc0ZHbXhRVTFWdGdsOXVqWTFnOV9R?oc=5",
+      "source": "Психологическая газета",
+      "published": "Fri, 21 Apr 2017 18:07:10 GMT",
+      "summary": "Лекции Грановской Рады Михайловны «Психология религии» Психологическая газета"
     }
   ],
   "sportAiUpdates": [
@@ -220,6 +210,13 @@
       "summary": "Фитнес-революция: ИИ строит тренировки, а живой тренер остаётся незаменим с эмпатией в сердце Moneytimes.Ru"
     },
     {
+      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
+      "source": "Российский государственный педагогический университет им. А. И. Герцена",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
+    },
+    {
       "title": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов - Правда.Ру",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LS003Qjh1Y1VoOFZyM29iUXlNbTBhZXphQ3JwR1VZQ09wNVVRWDd1V01IaXRrLUpRWXUtTTlZdGhyUFFHdTg5RURWTS05Z3BlT2N3MVgtRlRLYlR0TVd2Y3ViYVJSRkdpRlRLdQ?oc=5",
       "source": "Правда.Ру",
@@ -227,11 +224,11 @@
       "summary": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов Правда.Ру"
     },
     {
-      "title": "Томские психологи проверили надежность ИИ-консультантов - Tomsk.ru",
+      "title": "Томские психологи проверили надежность ИИ-консультантов - tomsk.ru",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbmpMSThjOTJYSkVzVEVWT09hNlR0QlVCMmMzZDBTS3NkenNLTVMxMVplcGRQaFJqM0IxUUZHZjU2MV83MmZRRGVJWElNTWkzS1JYQnJrNkItVkZvaUswN3JvTVRXcGJIZG9oZjdzVTZ4X05mQnVhWGhBWm5taWlTOENiVEhNMjJkTEJ1M1FOWQ?oc=5",
-      "source": "Tomsk.ru",
+      "source": "tomsk.ru",
       "published": "Tue, 24 Feb 2026 08:00:00 GMT",
-      "summary": "Томские психологи проверили надежность ИИ-консультантов Tomsk.ru"
+      "summary": "Томские психологи проверили надежность ИИ-консультантов tomsk.ru"
     },
     {
       "title": "ИИ свел на нет достоверность исследований человеческого поведения - naukatv.ru",
@@ -239,13 +236,6 @@
       "source": "naukatv.ru",
       "published": "Tue, 19 Aug 2025 07:00:00 GMT",
       "summary": "ИИ свел на нет достоверность исследований человеческого поведения naukatv.ru"
-    },
-    {
-      "title": "Искусственный интеллект в психологическом консультировании и психотерапии - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE84S1dseUhORVNINDRpZ1NLYjJpLThGSlJObFdJc2ZXMTFsN2tJZ1Vvd1VmVFlrd3ZBN1VfdUxXYw?oc=5",
-      "source": "Психологическая газета",
-      "published": "Wed, 18 Jun 2025 07:00:00 GMT",
-      "summary": "Искусственный интеллект в психологическом консультировании и психотерапии Психологическая газета"
     }
   ],
   "openPublications": [
@@ -292,50 +282,7 @@
       "summary": "Marek Klasa, Michał Klasa · Przegląd Bezpieczeństwa Wewnętrznego"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://moonn.ru/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://moonn.ru/20251216",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
-      "url": "https://moonn.ru/20251213",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
-    },
-    {
-      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
-      "url": "https://moonn.ru/novosti20251113",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
-    },
-    {
-      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
-      "url": "https://moonn.ru/speaker",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
-    },
-    {
-      "title": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн",
-      "url": "https://moonn.ru/events_tp",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "Почему мы после отпуска снова хотим в отпуск? На лекции про психологию отдыха я задала этот вопрос. И знаете, что ответили люди? «Потому что работа утомляет». «Потому что в отпуске",
