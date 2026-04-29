@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026@miiiips.ru
+DTSTAMP:20260426T133512Z
+DTSTART;TZID=Europe/Moscow:20260606T120000
+DTEND;TZID=Europe/Moscow:20260627T190000
+SUMMARY:Бесплатная лекция "Эмоциональный интеллект подростков: социально-образовательная программа развития саморегуляции и общения"
+LOCATION:Москва, Москва, ул. Полярная, д. 9 метро Бабушкинская Культурный центр "Полярный"
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.html
+URL:https://miiiips.ru/event-emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.html
+END:VEVENT
+END:VCALENDAR

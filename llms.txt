@@ -1,0 +1,61 @@
+# MIIIPS LLM index
+
+Canonical machine-readable sources:
+- https://miiiips.ru/assets/data/events.json
+- https://miiiips.ru/assets/data/conferences.json
+- https://miiiips.ru/assets/data/aeo-seo/index.json
+- https://miiiips.ru/assets/data/aeo-seo/packages/index.json
+- https://miiiips.ru/assets/data/page-manifests/index.json
+- https://miiiips.ru/image-sitemap.xml
+
+Guidance:
+- Prefer JSON and page manifests before HTML parsing.
+- Prefer the AEO / SEO package JSON before visible page text when building answers for agents.
+- For conferences, use conferenceTitle, conferenceDates, reportType, sourceLinks, and canonical page URL.
+- For lectures and events, use the canonical page manifest and events.json as the source of truth.
+- Keep public page text separate from hidden SEO tokens and machine metadata.
+
+## Conferences
+- IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ (22.12.2023) | Участие МИИИИПС | source: https://istina.msu.ru/conferences/presentations/620913097/ | https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html
+- XVI Международная научно-практическая конференции "СОВРЕМЕННЫЕ ТЕНДЕНЦИИ, ПРОБЛЕМЫ И ПУТИ РАЗВИТИЯ ФИЗИЧЕСКОЙ КУЛЬТУРЫ, СПОРТА, ТУРИЗМА И ГОСТЕПРИИМСТВА" (19.11.2025) | МИИИИПС | source: https://sportvmoskve.ru/news/20251028-1819-noyabria-v-mgusit-sostoitsya-xix-mezhdunarodnuyu-nauchno-prakticheskaya-konferentsiya-sovremennie-tendentsii-problemi-i-puti-razvitiya-fizicheskoy-kulturi-sporta-turizma-i-gostepriimstva/ | https://miiiips.ru/event-neurosport-skills-kognitivna-12f1dcf15e-19112025.html
+- VIII Международная научно-практическая онлайн-конференция «Профессиональное становление личности: глобальные тренды в формировании компетенций ХХІ века». Филиал МГУ в г.Ташкент. 19-20 декабря 2025 г (19.12.2025) | МИИИИПС | source: https://msu.uz/articles/2025-12-19-viii-mezhdunarodnaya-nauchno-prakticheskoi-onlain-konferentsii-professional-noye-stanovleniye-lichnosti-global-nyye-trendy-v-formirovanii-kompetentsii-xxi-veka | https://miiiips.ru/event-emotsionalnyy-intellekt-v-pr-6d05436520-19122025.html
+- Data Fusion 2026 (09.04.2026) |  | https://miiiips.ru/event-data-fusion-09042026.html
+
+## Lectures and events
+- Психология мужчины: доверие и общение (23.02.2026) | Татьяна Мунн | https://miiiips.ru/event-psychology-men.html
+- AI-аналитика гребли и биомеханики (14.03.2026) | Команда МИИИИПС | https://miiiips.ru/biomechanics-rowing.html
+- Линейные стохастические бандиты с точки зрения онлайн-оптимизации (25.03.2026) | Юрий Дорн | https://miiiips.ru/event-bandits.html
+- Быстрая психология (30.03.2026) | Татьяна Мунн | https://miiiips.ru/event-bystraya-psihologiya-30032026.html
+- Открытая лекция Татьяны Мунн в Парке Горького (02.04.2026) | Татьяна Мунн | https://miiiips.ru/event-parkgorkogo.html
+- Психология отношений: границы, совместимость и динамика близости (06.04.2026) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-06042026.html
+- Кумсков МИК лекция 9 (08.04.2026) | Кумсков Михаил Иванович | https://miiiips.ru/event-kumskov-mik-lektsiya-9-ot-08042026.html
+- Решение проблем и принятие решений (08.04.2026) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-resheniy-08042026.html
+- Эмоциональный интеллект для переговорных и sales-команд (09.04.2026) | Татьяна Мунн | https://miiiips.ru/contacts-partners.html
+- Психология женщины (13.04.2026) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-zhenshhina-13042026.html
+- Поддержка бизнеса, методы развития публичных выступлений (14.04.2026) | Татьяна Мунн | https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html
+- Решение проблем и принятие решений часть 2 (15.04.2026) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
+- Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра (17.04.2026) | Татьяна Мунн | https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html
+- Бесплатная Лекция "Психология ОТНОШЕНИЙ. Психология МУЖЧИНЫ" (20.04.2026) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html
+- Бесплатная лекция "Как найти идеального партнера" (27.04.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941824/ | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
+- Бесплатная лекция "Психология знакомства" (04.05.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941826/ | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
+- Бесплатная лекция "Психология любви" (11.05.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941823/ | https://miiiips.ru/event-psihologiya-lyubvi-11052026.html
+- Бесплатная лекция "Психология длительных отношений" (18.05.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944213/ | https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html
+- Бесплатная лекция "Кризисы в отношениях" (25.05.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944215/ | https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
+- Бесплатная лекция "Как детство влияет на наши отношения" (01.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944216/ | https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html
+- Открытое занятие социально-образовательной программы по soft skills для подростков (06.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3945588/ | https://miiiips.ru/event-otkrytoe-zanyatie-sotsialno-obrazovatelnoy-programmy-po-soft-skills-dlya-podrostkov-06062026.html
+- Бесплатная лекция "Эмоциональный интеллект подростков: социально-образовательная программа развития саморегуляции и общения" (06.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3945624/ | https://miiiips.ru/event-emotsionalnyy-intellekt-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samoregulyatsii-i-obscheniya-06062026.html
+- Летняя социально-образовательная программа развития soft skills подростков (06.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3945589/ | https://miiiips.ru/event-letnyaya-sotsialno-obrazovatelnaya-programma-razvitiya-soft-skills-podrostkov-06062026.html
+- Бесплатная лекция "Психология любви к себе" (08.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944217/ | https://miiiips.ru/event-psihologiya-lyubvi-k-sebe-08062026.html
+- Выездной образовательный маршрут в Геленджик (12.06.2026) | Татьяна Мунн | https://miiiips.ru/event-gelendzhik.html
+- Бесплатная лекция "Психология личных границ" (15.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941827/ | https://miiiips.ru/event-psihologiya-lichnyh-granits-15062026.html
+- Бесплатная лекция "Психология конфликтов" (22.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941829/ | https://miiiips.ru/event-psihologiya-konfliktov-22062026.html
+- Бесплатная лекция "Эмоциональный интеллект в отношениях" (29.06.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944221/ | https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html
+- Личная эффективность подростков: социально-образовательная программа развития самостоятельности (04.07.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3945625/ | https://miiiips.ru/event-lichnaya-effektivnost-podrostkov-sotsialno-obrazovatelnaya-programma-razvitiya-samostoyatelnosti-04072026.html
+- Бесплатная лекция "Эмоциональный интеллект и здоровье" (14.07.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944866/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-zdorove-14072026.html
+- Бесплатная лекция "Эмоциональный интеллект и духовное развитие" (21.07.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944867/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html
+- Бесплатная лекция "Эмоциональный интеллект и отношения" (28.07.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944869/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-otnosheniya-28072026.html
+- Коммуникация и профилактика конфликтов у подростков: социально-образовательная программа (01.08.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3945626/ | https://miiiips.ru/event-kommunikatsiya-i-profilaktika-konfliktov-u-podrostkov-sotsialno-obrazovatelnaya-programma-01082026.html
+- Бесплатная лекция "Эмоциональный интеллект и любовь к себе" (04.08.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944870/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-lyubov-k-sebe-04082026.html
+- Бесплатная лекция "Эмоциональный интеллект и хроническая усталость" (11.08.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944871/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-hronicheskaya-ustalost-11082026.html
+- Бесплатная лекция "Эмоциональный интеллект и цифровая среда" (18.08.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944872/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-tsifrovaya-sreda-18082026.html
+- Бесплатная лекция "Эмоциональный интеллект и обучение" (25.08.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3944873/ | https://miiiips.ru/event-emotsionalnyy-intellekt-i-obuchenie-25082026.html

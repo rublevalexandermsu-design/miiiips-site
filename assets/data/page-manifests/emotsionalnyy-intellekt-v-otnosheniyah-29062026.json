@@ -1,0 +1,81 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-04-26T16:36:07",
+  "id": "emotsionalnyy-intellekt-v-otnosheniyah-29062026",
+  "type": "public_lecture",
+  "typeLabel": "Публичная лекция",
+  "status": "upcoming",
+  "statusLabel": "Анонс",
+  "title": "Бесплатная лекция \"Эмоциональный интеллект в отношениях\"",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Парк ЧерМянка, Москва",
+  "summary": "Лекция на тему \"Психология отношений. Эмоциональный интеллект в отношениях\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Лектор — дипломированный психолог МГУ Татьяна Мунн. Организатор — МИИИИПС, Международный институт исследований искусственного интеллекта, психологии и спорта.",
+  "start": "2026-06-29T19:00:00+03:00",
+  "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+  "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+  "canonicalUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+  "detailPage": "event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+  "feedbackPage": "event-feedback-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+  "calendarFile": "assets/calendar/emotsionalnyy-intellekt-v-otnosheniyah-29062026.ics",
+  "image": "https://miiiips.ru/assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944221.jpg",
+  "imagePath": "assets/images/lectures/2026-06-29_emotsionalnyy-intellekt-v-otnosheniyah_psiholog-tatyana-munn-mgu_miiiips_photo-3944221.jpg",
+  "imageAlt": "Эмоциональный интеллект в отношениях. Психолог Татьяна Мунн МГУ. МИИИИПС",
+  "imageCaption": "Фото мероприятия",
+  "previewVideo": "",
+  "previewVideoPath": "",
+  "previewVideoUrl": "",
+  "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект в отношениях",
+  "videoSlotReserved": true,
+  "previewVideoAvailable": false,
+  "sourceLink": "https://miiiips.timepad.ru/event/3944221/",
+  "sourceLinks": [
+    "https://miiiips.timepad.ru/event/3944221/"
+  ],
+  "directions": [
+    "emotional_intelligence",
+    "psychology"
+  ],
+  "directionLabels": [
+    "Эмоциональный интеллект",
+    "Психология"
+  ],
+  "keywords": [
+    "Бесплатная лекция \"Эмоциональный интеллект в отношениях\"",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Парк ЧерМянка, Москва",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "miiiips.timepad.ru",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-otnosheniyah-29062026.json",
+  "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-otnosheniyah-29062026.json",
+  "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-v-otnosheniyah-29062026.json",
+  "kind": "public_lecture",
+  "pageType": "public_lecture",
+  "answerSummary": "Бесплатная лекция \"Эмоциональный интеллект в отношениях\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+  "primaryEntity": "Бесплатная лекция \"Эмоциональный интеллект в отношениях\"",
+  "recommendedQueries": [
+    "Бесплатная лекция \"Эмоциональный интеллект в отношениях\"",
+    "Татьяна Мунн Публичная лекция",
+    "Бесплатная лекция \"Эмоциональный интеллект в отношениях\" Татьяна Мунн",
+    "29.06.2026"
+  ],
+  "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Бесплатная лекция \"Эмоциональный интеллект в отношениях\".",
+  "sourcePriority": [
+    "pageManifest",
+    "eventsJson",
+    "sourceLink"
+  ],
+  "relatedPages": [
+    "https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+    "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html",
+    "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-v-otnosheniyah-29062026.json"
+  ]
+}

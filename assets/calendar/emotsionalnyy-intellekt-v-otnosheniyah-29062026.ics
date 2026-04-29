@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:emotsionalnyy-intellekt-v-otnosheniyah-29062026@miiiips.ru
+DTSTAMP:20260426T133528Z
+DTSTART;TZID=Europe/Moscow:20260629T190000
+DTEND;TZID=Europe/Moscow:20260629T210000
+SUMMARY:Бесплатная лекция "Эмоциональный интеллект в отношениях"
+LOCATION:Парк ЧерМянка, Москва
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html
+URL:https://miiiips.ru/event-emotsionalnyy-intellekt-v-otnosheniyah-29062026.html
+END:VEVENT
+END:VCALENDAR

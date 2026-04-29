@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-25",
+  "publication": {
+    "title": "MIIIIPS Global Review",
+    "type": "science-media",
+    "registrationTarget": "сетевое издание",
+    "founder": "АНО МИИИИПС",
+    "editor": "Татьяна Мунн",
+    "sitePath": "media.html"
+  },
+  "editorialRules": {
+    "copyPasteAllowed": false,
+    "sourceRequired": true,
+    "humanEditorialReviewRequired": true,
+    "politicalAgitationAllowed": false,
+    "scope": [
+      "наука",
+      "образование",
+      "международные события",
+      "искусственный интеллект",
+      "психология",
+      "спорт",
+      "конференции",
+      "публичные лекции"
+    ]
+  },
+  "sections": [
+    {"id": "news", "title": "Новости", "url": "media-news.html"},
+    {"id": "events", "title": "События", "url": "media-events.html"},
+    {"id": "conferences", "title": "Конференции", "url": "media-conferences.html"},
+    {"id": "interviews", "title": "Интервью", "url": "media-interviews.html"},
+    {"id": "reviews", "title": "Обзоры", "url": "media-reviews.html"},
+    {"id": "press", "title": "Пресс-центр", "url": "media-press.html"}
+  ],
+  "materials": [
+    {"id": "media-2026-001", "title": "Data Fusion как зеркало рынка данных и искусственного интеллекта", "type": "review", "section": "conferences", "url": "media-story-data-fusion-2026.html"},
+    {"id": "media-2026-002", "title": "Лекции по отношениям становятся публичной научной повесткой", "type": "event-story", "section": "events", "url": "media-story-psychology-relations.html"},
+    {"id": "media-2026-003", "title": "Татьяна Мунн: редакционный фокус на человека, образование и доверие", "type": "profile", "section": "interviews", "url": "media-story-tatyana-munn-editor.html"},
+    {"id": "media-2026-004", "title": "Эмоциональный интеллект выходит в формат открытых образовательных встреч", "type": "review", "section": "events", "url": "media-story-emotional-intelligence.html"},
+    {"id": "media-2026-005", "title": "Научный журнал и медиа работают рядом, но решают разные задачи", "type": "explainer", "section": "reviews", "url": "media-story-journal-and-media.html"},
+    {"id": "media-2026-006", "title": "Как Global Review будет отбирать международные научные новости", "type": "editorial-method", "section": "news", "url": "media-story-global-newsroom.html"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-04-26T16:36:07",
+  "kind": "corporate_module",
+  "kindLabel": "Корпоративные модули",
+  "count": 1,
+  "items": [
+    {
+      "id": "sales-lab",
+      "title": "Эмоциональный интеллект для переговорных и sales-команд",
+      "conferenceTitle": "",
+      "speaker": "Татьяна Мунн",
+      "start": "2026-04-09T11:00:00+03:00",
+      "pageUrl": "https://miiiips.ru/contacts-partners.html",
+      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/sales-lab.json",
+      "packageUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/sales-lab.json",
+      "answerSummary": "Корпоративный модуль «Эмоциональный интеллект для переговорных и sales-команд» связан с практическим применением темы Татьяна Мунн для партнёрского контекста."
+    }
+  ]
+}

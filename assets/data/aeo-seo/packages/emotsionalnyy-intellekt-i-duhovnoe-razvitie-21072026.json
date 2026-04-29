@@ -1,0 +1,137 @@
+{
+  "packageVersion": 1,
+  "generatedAt": "2026-04-26T16:36:07",
+  "id": "emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026",
+  "kind": "public_lecture",
+  "kindLabel": "Публичные лекции",
+  "pageType": "public_lecture",
+  "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+  "canonicalUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+  "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json",
+  "title": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+  "conferenceTitle": "",
+  "conferenceDates": "",
+  "reportType": "",
+  "speaker": "Татьяна Мунн",
+  "venue": "Парк ЧерМянка, Москва",
+  "start": "2026-07-21T17:00:00+03:00",
+  "summary": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\" из цикла \"Эмоциональный интеллект\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Лектор — психолог МГУ Татьяна Мунн. Организатор — МИИИИПС.",
+  "answerSummary": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+  "primaryEntity": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+  "sourceLinks": [
+    "https://miiiips.timepad.ru/event/3944867/"
+  ],
+  "sourcePriority": [
+    "pageManifest",
+    "eventsJson",
+    "sourceLink"
+  ],
+  "image": "https://miiiips.ru/assets/images/lectures/2026-07-21_emotsionalnyy-intellekt-i-duhovnoe-razvitie_psiholog-tatyana-munn-mgu_miiiips_photo-3944867.jpg",
+  "imagePath": "assets/images/lectures/2026-07-21_emotsionalnyy-intellekt-i-duhovnoe-razvitie_psiholog-tatyana-munn-mgu_miiiips_photo-3944867.jpg",
+  "imageAlt": "Эмоциональный интеллект и духовное развитие. Психолог Татьяна Мунн МГУ. МИИИИПС",
+  "imageCaption": "Фото мероприятия",
+  "keywords": [
+    "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+    "Эмоциональный интеллект",
+    "Татьяна Мунн",
+    "Парк ЧерМянка, Москва",
+    "спикер по эмоциональному интеллекту Татьяна Мунн",
+    "Татьяна Мунн МГУ",
+    "Татьяна Мунн МИИИИПС",
+    "miiiips.timepad.ru",
+    "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+  ],
+  "recommendedQueries": [
+    "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+    "Татьяна Мунн Публичная лекция",
+    "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\" Татьяна Мунн",
+    "21.07.2026"
+  ],
+  "relatedPages": [
+    "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json"
+  ],
+  "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\".",
+  "pageManifest": {
+    "manifestVersion": 1,
+    "generatedAt": "2026-04-26T16:36:07",
+    "id": "emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026",
+    "type": "public_lecture",
+    "typeLabel": "Публичная лекция",
+    "status": "upcoming",
+    "statusLabel": "Анонс",
+    "title": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+    "conferenceTitle": "",
+    "conferenceDates": "",
+    "reportType": "",
+    "speaker": "Татьяна Мунн",
+    "venue": "Парк ЧерМянка, Москва",
+    "summary": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\" из цикла \"Эмоциональный интеллект\" пройдет в парке ЧерМянка во вторник с 17.00 до 19.00. Лектор — психолог МГУ Татьяна Мунн. Организатор — МИИИИПС.",
+    "start": "2026-07-21T17:00:00+03:00",
+    "pageUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "feedbackUrl": "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "canonicalUrl": "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "detailPage": "event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "feedbackPage": "event-feedback-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+    "calendarFile": "assets/calendar/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.ics",
+    "image": "https://miiiips.ru/assets/images/lectures/2026-07-21_emotsionalnyy-intellekt-i-duhovnoe-razvitie_psiholog-tatyana-munn-mgu_miiiips_photo-3944867.jpg",
+    "imagePath": "assets/images/lectures/2026-07-21_emotsionalnyy-intellekt-i-duhovnoe-razvitie_psiholog-tatyana-munn-mgu_miiiips_photo-3944867.jpg",
+    "imageAlt": "Эмоциональный интеллект и духовное развитие. Психолог Татьяна Мунн МГУ. МИИИИПС",
+    "imageCaption": "Фото мероприятия",
+    "previewVideo": "",
+    "previewVideoPath": "",
+    "previewVideoUrl": "",
+    "previewVideoTitle": "Видео-анонс: Эмоциональный интеллект и духовное развитие",
+    "videoSlotReserved": true,
+    "previewVideoAvailable": false,
+    "sourceLink": "https://miiiips.timepad.ru/event/3944867/",
+    "sourceLinks": [
+      "https://miiiips.timepad.ru/event/3944867/"
+    ],
+    "directions": [
+      "emotional_intelligence",
+      "psychology"
+    ],
+    "directionLabels": [
+      "Эмоциональный интеллект",
+      "Психология"
+    ],
+    "keywords": [
+      "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+      "Эмоциональный интеллект",
+      "Татьяна Мунн",
+      "Парк ЧерМянка, Москва",
+      "спикер по эмоциональному интеллекту Татьяна Мунн",
+      "Татьяна Мунн МГУ",
+      "Татьяна Мунн МИИИИПС",
+      "miiiips.timepad.ru",
+      "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
+    ],
+    "marketingHint": "spiker-po-emotsionalnomu-intellektu-tatyana-munn-tatyana-munn-mgu",
+    "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json",
+    "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json",
+    "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json",
+    "kind": "public_lecture",
+    "pageType": "public_lecture",
+    "answerSummary": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
+    "primaryEntity": "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+    "recommendedQueries": [
+      "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\"",
+      "Татьяна Мунн Публичная лекция",
+      "Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\" Татьяна Мунн",
+      "21.07.2026"
+    ],
+    "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Бесплатная лекция \"Эмоциональный интеллект и духовное развитие\".",
+    "sourcePriority": [
+      "pageManifest",
+      "eventsJson",
+      "sourceLink"
+    ],
+    "relatedPages": [
+      "https://miiiips.ru/event-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+      "https://miiiips.ru/event-feedback-emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.html",
+      "https://miiiips.ru/assets/data/page-manifests/emotsionalnyy-intellekt-i-duhovnoe-razvitie-21072026.json"
+    ]
+  }
+}
