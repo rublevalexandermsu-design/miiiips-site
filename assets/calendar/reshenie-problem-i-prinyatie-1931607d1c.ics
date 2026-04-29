@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MIIIIPS//Events//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:reshenie-problem-i-prinyatie-resheniy-08042026@miiiips.ru
+DTSTAMP:20260427T164914Z
+DTSTART;TZID=Europe/Moscow:20260408T190000
+DTEND;TZID=Europe/Moscow:20260408T210000
+SUMMARY:Тест мероприятие на среду
+LOCATION:Культурный центр "Полярный", Москва
+DESCRIPTION:Событие на сайте: https://miiiips.ru/event-reshenie-problem-i-prinyatie-resheniy-08042026.html
+URL:https://miiiips.ru/event-reshenie-problem-i-prinyatie-resheniy-08042026.html
+END:VEVENT
+END:VCALENDAR
