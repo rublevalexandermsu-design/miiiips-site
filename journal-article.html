@@ -5,14 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Карточка статьи | Журнал МИИИИПС</title>
   <meta name="description" content="Шаблон карточки статьи для журнала МИИИИПС."/>
-  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/css/journal.css"/>
   <script defer src="assets/js/journal-ui.js"></script>
-  <script defer src="prototype-enhancements.js"></script>
-  <script defer src="miiiips-live-layer.js"></script>
 </head>
 <body class="journal-body" data-lang="ru">
   <header class="journal-topbar">
@@ -26,8 +23,8 @@
             <span data-lang="en">Article card</span>
           </div>
           <div class="journal-brand-subtitle">
-            <span data-lang="ru">Issue route · DOI · Open access</span>
-            <span data-lang="en">Issue route · DOI · Open access</span>
+            <span data-lang="ru">Метаданные · Аннотация · Open access</span>
+            <span data-lang="en">Metadata · Abstract · Open access</span>
           </div>
         </div>
       </a>
@@ -64,11 +61,11 @@
         <div class="journal-hero-copy">
           <div class="journal-eyebrow"><span data-lang="ru">Статья</span><span data-lang="en">Article</span></div>
           <h1 class="journal-title">
-            <span data-lang="ru">Карточка статьи показывает материал так, как он выглядит в журнале.</span>
+            <span data-lang="ru">Карточка статьи показывает публикацию после редакционного решения.</span>
             <span data-lang="en">The article card shows how the material appears inside the journal.</span>
           </h1>
           <p class="journal-lead">
-            <span data-lang="ru">Страница статьи показывает заголовок, авторов, аннотацию, выпуск и путь к публикации.</span>
+            <span data-lang="ru">Страница статьи содержит заголовок, авторов, аффилиации, аннотацию, ключевые слова, выпуск, ссылки на файл и статус идентификаторов.</span>
             <span data-lang="en">The article page shows the title, authors, abstract, issue, and publication path.</span>
           </p>
         </div>
@@ -85,12 +82,12 @@
           <article class="journal-card pad-32">
             <span class="journal-chip">Article route</span>
             <h2 class="journal-section-title" style="font-size:clamp(28px,3vw,42px); margin-top:12px;">
-              <span data-lang="ru">ИИ, редактор и автор: как сохранить голос статьи</span>
+              <span data-lang="ru">Название статьи будет размещено после утверждения материала</span>
               <span data-lang="en">AI, editor, and author: preserving the article's voice</span>
             </h2>
-            <p style="margin-top:12px;">Редакционный разбор про ответственность автора, прозрачность правок и публикационный маршрут.</p>
+            <p style="margin-top:12px;">Карточка будет заполнена после поступления статьи, рецензирования и включения материала в выпуск.</p>
             <div class="journal-divider"></div>
-            <p><strong style="color:var(--journal-ink);">Татьяна Мунн · Рублёв Александр Маркович</strong></p>
+            <p><strong style="color:var(--journal-ink);">Автор · аффилиация · ORCID при наличии</strong></p>
             <p><span data-lang="ru">Выпуск 1 · Весна 2026 · Open access</span><span data-lang="en">Issue 1 · Spring 2026 · Open access</span></p>
           </article>
           <article class="journal-card pad-32">
@@ -101,7 +98,7 @@
             <ul class="journal-list" style="margin-top:12px;">
               <li><span data-lang="ru">Название, авторы, аннотация, keywords</span><span data-lang="en">Title, authors, abstract, keywords</span></li>
               <li><span data-lang="ru">Выпуск и рубрику</span><span data-lang="en">Issue and section</span></li>
-              <li><span data-lang="ru">DOI и ссылку на публикацию</span><span data-lang="en">DOI and publication link</span></li>
+              <li><span data-lang="ru">ISSN, DOI и EDN указываются только после присвоения</span><span data-lang="en">ISSN, DOI and EDN are shown only after assignment</span></li>
               <li><span data-lang="ru">Редакционный статус и ссылку на архив</span><span data-lang="en">Editorial status and archive link</span></li>
             </ul>
             <div class="journal-actions-row" style="margin-top:18px;">
@@ -115,3 +112,5 @@
   </main>
 </body>
 </html>
+
+

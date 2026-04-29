@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Подать статью | Журнал МИИИИПС</title>
   <meta name="description" content="Форма подачи статьи в журнал МИИИИПС. RU/EN. Загрузка файла, контакты, тематика, сопроводительное письмо."/>
-  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/css/journal.css"/>
   <script defer src="assets/js/journal-ui.js"></script>
   <script defer src="assets/js/journal-submit.js"></script>
-  <script defer src="prototype-enhancements.js"></script>
-  <script defer src="miiiips-live-layer.js"></script>
   <link rel="canonical" href="journal-submit.html"/>
 </head>
 <body class="journal-body" data-lang="ru">
@@ -36,7 +33,7 @@
       <nav class="journal-nav" aria-label="Вкладки журнала">
         <a href="journal.html"><span data-lang="ru">Главная</span><span data-lang="en">Home</span></a>
         <a href="journal-about.html"><span data-lang="ru">О журнале</span><span data-lang="en">About</span></a>
-        <a href="journal.html#editorial"><span data-lang="ru">Редколлегия</span><span data-lang="en">Board</span></a>
+        <a href="journal-editorial.html"><span data-lang="ru">Редколлегия</span><span data-lang="en">Board</span></a>
         <a href="journal-authors.html"><span data-lang="ru">Авторам</span><span data-lang="en">Authors</span></a>
         <a href="journal-reviewers.html"><span data-lang="ru">Рецензентам</span><span data-lang="en">Reviewers</span></a>
         <a href="journal-issue.html"><span data-lang="ru">Текущий выпуск</span><span data-lang="en">Issue</span></a>
@@ -98,6 +95,12 @@
             <form id="journal-submit-form" class="journal-form" data-captcha-answer="7" novalidate>
               <input type="hidden" name="event_url" value=""/>
               <input type="hidden" name="event_title" value=""/>
+              <input type="hidden" name="event_date" value=""/>
+              <input type="hidden" name="journal_title" value=""/>
+              <input type="hidden" name="issue_id" value=""/>
+              <input type="hidden" name="issue_label" value=""/>
+              <input type="hidden" name="source_page" value="journal-submit.html"/>
+              <input type="hidden" name="source_page_url" value=""/>
               <input type="hidden" name="formType" value="journal_submission"/>
               <input type="hidden" name="request_kind" value="Подача статьи в журнал"/>
               <input type="hidden" name="role" value="author"/>
@@ -148,7 +151,7 @@
 
               <div class="journal-field">
                 <label for="issue"><span data-lang="ru">Выпуск (если уже согласовано)</span><span data-lang="en">Issue (if agreed)</span></label>
-                <input id="issue" name="issue" placeholder="journal-2026-spring / Весна 2026"/>
+                <select id="issue" name="issue"></select>
               </div>
 
               <div class="journal-field">
@@ -173,6 +176,19 @@
               <div class="journal-field">
                 <label for="message"><span data-lang="ru">Сопроводительное письмо</span><span data-lang="en">Cover note</span></label>
                 <textarea id="message" name="message" placeholder="1-2 абзаца: почему материал важен, кому адресован, какие данные использованы."></textarea>
+              </div>
+
+              <div class="journal-field">
+                <label style="display:flex; gap:10px; align-items:flex-start;">
+                  <input name="privacy_consent" type="checkbox" required style="width:auto; margin-top:6px;"/>
+                  <span>
+                    <span data-lang="ru">Я подтверждаю согласие на обработку персональных данных для рассмотрения рукописи и принимаю правила подачи статьи.</span>
+                    <span data-lang="en">I consent to personal data processing for manuscript review and accept the submission rules.</span>
+                    <br/>
+                    <a href="privacy-policy.html"><span data-lang="ru">Политика конфиденциальности</span><span data-lang="en">Privacy policy</span></a>
+                    · <a href="journal-policies.html"><span data-lang="ru">Редакционная этика</span><span data-lang="en">Publication ethics</span></a>
+                  </span>
+                </label>
               </div>
 
               <div class="journal-field-grid">
@@ -215,7 +231,7 @@
               <span data-lang="en">For submission questions, use the editorial email.</span>
             </p>
             <div class="journal-divider"></div>
-            <a class="journal-btn ghost" href="mailto:moonn.official@yandex.ru">
+            <a class="journal-btn ghost" href="mailto:monn.official@yandex.ru">
               <span data-lang="ru">Написать в редакцию</span><span data-lang="en">Email editorial office</span>
             </a>
           </aside>
@@ -240,3 +256,5 @@
   </footer>
 </body>
 </html>
+
+

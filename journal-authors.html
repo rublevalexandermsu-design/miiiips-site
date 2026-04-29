@@ -5,14 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Авторам | Журнал МИИИИПС</title>
   <meta name="description" content="Инструкция для авторов журнала МИИИИПС."/>
-  <meta name="x-local-prototype" content="clickable-site-v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/css/journal.css"/>
   <script defer src="assets/js/journal-ui.js"></script>
-  <script defer src="prototype-enhancements.js"></script>
-  <script defer src="miiiips-live-layer.js"></script>
 </head>
 <body class="journal-body" data-lang="ru">
   <header class="journal-topbar">
@@ -34,7 +31,7 @@
       <nav class="journal-nav" aria-label="Вкладки журнала">
         <a href="journal.html">Главная</a>
         <a href="journal-about.html">О журнале</a>
-        <a href="journal.html#editorial">Редколлегия</a>
+        <a href="journal-editorial.html">Редколлегия</a>
         <a class="is-active" href="journal-authors.html">Авторам</a>
         <a href="journal-reviewers.html">Рецензентам</a>
         <a href="journal-issue.html">Текущий выпуск</a>
@@ -65,12 +62,12 @@
           <div class="journal-eyebrow"><span data-lang="ru">Авторам</span><span data-lang="en">For authors</span></div>
           <div class="journal-kicker">Submission guide</div>
           <h1 class="journal-title">
-            <span data-lang="ru">Понятный маршрут для подачи статьи без лишней бюрократии.</span>
-            <span data-lang="en">A clear submission route without unnecessary bureaucracy.</span>
+            <span data-lang="ru">Требования к статье, файлу, метаданным и ответственности автора.</span>
+            <span data-lang="en">Requirements for the article, file, metadata and author responsibility.</span>
           </h1>
           <p class="journal-lead">
-            <span data-lang="ru">Если у вас уже есть текст, файл и короткое описание, журнал принимает материал по понятной форме и передаёт его в редакционный маршрут.</span>
-            <span data-lang="en">If you already have the text, the file, and a short description, the journal accepts the material through a clear form and routes it to the editors.</span>
+            <span data-lang="ru">Перед отправкой проверьте структуру рукописи, оригинальность текста, список источников, аффилиацию автора, согласие соавторов и сведения о возможном конфликте интересов.</span>
+            <span data-lang="en">Before submission, check manuscript structure, originality, references, author affiliation, coauthor consent and possible conflicts of interest.</span>
           </p>
           <div class="journal-actions-row">
             <a class="journal-btn primary" href="journal-submit.html">
@@ -103,7 +100,7 @@
         <div class="journal-grid cols-2" style="margin-top:18px; align-items:start;">
           <article class="journal-card pad-28">
             <h2 class="journal-section-title" style="font-size: clamp(28px, 3vw, 42px);">
-              <span data-lang="ru">Соберите статью как редакционно готовый материал.</span>
+              <span data-lang="ru">Соберите рукопись как научный материал.</span>
               <span data-lang="en">Prepare the article as an editorial-ready piece.</span>
             </h2>
             <div class="journal-kv" style="margin-top:14px;">
@@ -120,7 +117,7 @@
               <span data-lang="ru">Формат</span><span data-lang="en">Format</span>
             </h3>
             <p style="margin-top:12px;">
-              <span data-lang="ru">Журнал принимает материалы в распространённых текстовых форматах и просит загрузить тот файл, который удобнее всего проверить редакции.</span>
+              <span data-lang="ru">Журнал принимает материалы в распространённых текстовых форматах. Для рецензирования предпочтительны DOCX и PDF с сохранённой структурой статьи.</span>
               <span data-lang="en">The journal accepts common text formats and asks for the file that is easiest for the editors to review.</span>
             </p>
             <div class="journal-grid cols-2" style="margin-top:14px;">
@@ -146,6 +143,15 @@
         </div>
       </section>
 
+      <section class="journal-section" id="responsibility">
+        <div class="journal-eyebrow"><span data-lang="ru">Ответственность автора</span><span data-lang="en">Author responsibility</span></div>
+        <div class="journal-grid cols-3" style="margin-top:18px;">
+          <article class="journal-card pad-24"><h3 class="journal-card-title">Оригинальность</h3><p><span data-lang="ru">Автор подтверждает, что материал является оригинальным, а заимствования, цитаты, данные и изображения указаны корректно.</span><span data-lang="en">The author confirms originality and proper attribution of borrowed text, quotes, data and images.</span></p></article>
+          <article class="journal-card pad-24"><h3 class="journal-card-title">Соавторы</h3><p><span data-lang="ru">Все лица, внесшие существенный вклад, должны быть указаны в составе авторов или в благодарностях.</span><span data-lang="en">All substantial contributors must be listed as authors or acknowledged.</span></p></article>
+          <article class="journal-card pad-24"><h3 class="journal-card-title">Конфликт интересов</h3><p><span data-lang="ru">Если автор связан с редакцией, он сообщает об этом при подаче. Решение по такой статье принимает другой редактор или внешний рецензент.</span><span data-lang="en">If an author is connected to the editorial board, this is disclosed at submission. Another editor or external reviewer handles the decision.</span></p></article>
+        </div>
+      </section>
+
     </div>
   </main>
 
@@ -165,3 +171,5 @@
   </footer>
 </body>
 </html>
+
+

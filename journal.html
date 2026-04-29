@@ -5,14 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Журнал МИИИИПС | Наука, образование и исследования XXI века</title>
   <meta name="description" content="Журнал МИИИИПС — международный научный журнал с редакционной коллегией, выпуском, архивом и подачей статьи."/>
-  <meta name="x-local-prototype" content="clickable-site_v1_2"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..800&family=Manrope:wght@300..800&family=Public+Sans:wght@300..800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/css/journal.css"/>
   <script defer src="assets/js/journal-ui.js"></script>
-  <script defer src="prototype-enhancements.js"></script>
-  <script defer src="miiiips-live-layer.js"></script>
   <style>
     body.journal-home-body {
       background: #f7f7ef;
@@ -39,7 +36,7 @@
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      color: #fff;
+      color: #fff !important;
       text-decoration: none;
       min-width: 0;
       flex: 1 1 360px;
@@ -89,7 +86,7 @@
       flex: 0 0 auto;
       white-space: nowrap;
       text-decoration: none;
-      color: rgba(255, 255, 255, 0.96);
+      color: rgba(255, 255, 255, 0.96) !important;
       font: 700 11px/1 Public Sans, sans-serif;
       letter-spacing: 0.02em;
       padding: 9px 10px;
@@ -223,8 +220,13 @@
     .journal-home-hero-subtitle {
       margin-top: 16px;
       max-width: 980px;
-      color: rgba(255, 255, 255, 0.88);
+      color: rgba(255, 255, 255, 0.92) !important;
       font: 600 18px/1.55 Manrope, sans-serif;
+      text-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+    }
+
+    .journal-home-hero-subtitle span {
+      color: rgba(255, 255, 255, 0.92) !important;
     }
 
     .journal-home-hero-note {
@@ -529,17 +531,17 @@
 
       <nav class="journal-home-menu" aria-label="Разделы журнала">
         <a href="journal-about.html"><span data-lang="ru">О журнале</span><span data-lang="en">About</span></a>
-        <a href="journal.html#editorial"><span data-lang="ru">Редколлегия</span><span data-lang="en">Board</span></a>
+        <a href="journal-editorial.html"><span data-lang="ru">Редколлегия</span><span data-lang="en">Board</span></a>
         <a href="journal-authors.html"><span data-lang="ru">Авторам</span><span data-lang="en">For authors</span></a>
         <a href="journal-reviewers.html"><span data-lang="ru">Рецензентам</span><span data-lang="en">Reviewers</span></a>
         <a href="journal-archive.html"><span data-lang="ru">Архив</span><span data-lang="en">Archive</span></a>
         <a href="journal-issue.html"><span data-lang="ru">Текущий выпуск</span><span data-lang="en">Current issue</span></a>
         <a href="journal-submit.html"><span data-lang="ru">Подать статью</span><span data-lang="en">Submit article</span></a>
-        <a href="journal-about.html"><span data-lang="ru">Индексирование</span><span data-lang="en">Indexing</span></a>
+        <a href="journal-indexing.html"><span data-lang="ru">Индексирование</span><span data-lang="en">Indexing</span></a>
         <a href="journal-contacts.html"><span data-lang="ru">Контакты</span><span data-lang="en">Contacts</span></a>
-        <a href="journal-about.html"><span data-lang="ru">Новости</span><span data-lang="en">News</span></a>
-        <a href="journal-about.html"><span data-lang="ru">История научной мысли</span><span data-lang="en">History of science</span></a>
-        <a href="journal-about.html"><span data-lang="ru">Об учредителях</span><span data-lang="en">Founders</span></a>
+        <a href="journal-policies.html"><span data-lang="ru">Этика</span><span data-lang="en">Ethics</span></a>
+        <a href="privacy-policy.html"><span data-lang="ru">Конфиденциальность</span><span data-lang="en">Privacy</span></a>
+        <a href="journal-contacts.html"><span data-lang="ru">Учредитель</span><span data-lang="en">Founder</span></a>
       </nav>
 
       <div class="journal-home-actions">
@@ -579,15 +581,14 @@
       <div class="journal-home-shell">
         <div class="journal-home-feature-grid">
           <article class="journal-home-editor-card" id="editorial">
-            <img class="journal-home-portrait" src="assets/images/tatyana-munn/tatyana-munn-portrait-color.jpg" alt="Редактор журнала МИИИИПС"/>
             <div class="journal-home-editor-copy">
-              <a class="journal-home-editor-name" href="journal-about.html">
-                <span data-lang="ru">Татьяна Мунн</span>
-                <span data-lang="en">Tatyana Munn</span>
+              <a class="journal-home-editor-name" href="journal-editorial.html">
+                <span data-lang="ru">Кумсков Михаил Иванович</span>
+                <span data-lang="en">Mikhail Kumskov</span>
               </a>
               <div class="journal-home-editor-title">
-                <span data-lang="ru">Главный редактор журнала, руководитель редакционного маршрута и публикационной политики МИИИИПС.</span>
-                <span data-lang="en">Editor-in-chief, responsible for the journal route and publication policy of MIIIIPS.</span>
+                <span data-lang="ru">Главный редактор научного журнала. Отвечает за редакционные решения, рецензирование и выпуск материалов.</span>
+                <span data-lang="en">Editor-in-chief responsible for editorial decisions, peer review and issue preparation.</span>
               </div>
               <div class="journal-home-editor-role">
                 <span data-lang="ru">Главный редактор</span>
@@ -602,15 +603,15 @@
                 <span data-lang="ru">Для информации:</span>
                 <span data-lang="en">For information:</span>
               </div>
-              <a class="journal-home-info-phone" href="mailto:moonn.official@yandex.ru">moonn.official@yandex.ru</a>
+              <a class="journal-home-info-phone" href="mailto:monn.official@yandex.ru">monn.official@yandex.ru</a>
               <div class="journal-home-info-actions">
                 <a class="journal-btn secondary" href="journal-contacts.html">
                   <span data-lang="ru">Редакционные контакты</span>
                   <span data-lang="en">Editorial contacts</span>
                 </a>
                 <a class="journal-btn secondary" href="journal-submit.html">
-                  <span data-lang="ru">Информационное письмо</span>
-                  <span data-lang="en">Information letter</span>
+                <span data-lang="ru">Подать статью</span>
+                <span data-lang="en">Submit article</span>
                 </a>
               </div>
             </div>
@@ -623,16 +624,16 @@
       <div class="journal-home-shell">
         <div class="journal-home-summary">
           <p>
-            <span data-lang="ru">Журнал МИИИИПС публикует статьи преподавателей, исследователей, авторов практических кейсов и представителей смежных областей. Мы собираем материалы так, чтобы читатель видел журнал как настоящий выпуск: с редактором, контактным маршрутом, архивом и подачей статей.</span>
-            <span data-lang="en">The MIIIIPS journal publishes articles by teachers, researchers, case authors, and adjacent practitioners. We present the journal as a real issue: with an editor, contact route, archive, and article submission.</span>
+            <span data-lang="ru">Журнал МИИИИПС публикует научные и научно-практические материалы по образованию, искусственному интеллекту, психологии, спорту, исследовательским практикам и междисциплинарным проектам.</span>
+            <span data-lang="en">MIIIIPS Journal publishes scholarly and practice-oriented materials on education, artificial intelligence, psychology, sport, research practice and interdisciplinary projects.</span>
           </p>
           <p>
-            <span data-lang="ru">Формат ориентирован на открытый доступ, двуязычную навигацию и аккуратную журнальную подачу без лишнего технического текста.</span>
-            <span data-lang="en">The format focuses on open access, bilingual navigation, and a clean journal presentation without extra explanatory text.</span>
+            <span data-lang="ru">Материалы принимаются через редакцию, проходят первичную проверку, рецензирование и подготовку к выпуску. Решения по рукописям принимаются с учётом конфликта интересов.</span>
+            <span data-lang="en">Submissions are received by the editorial office, screened, reviewed and prepared for issue publication. Manuscript decisions take conflicts of interest into account.</span>
           </p>
           <p>
-            <span data-lang="ru">Учредитель журнала: АНО «Международный институт исследований искусственного интеллекта, психологии и спорта». Выпуски, архив, редакция и форма подачи уже доступны в навигации.</span>
-            <span data-lang="en">Journal founder: ANO “International Institute of Artificial Intelligence, Psychology and Sport Research”. Issues, archive, editorial board, and submission form are already available in the navigation.</span>
+            <span data-lang="ru">Учредитель журнала: АНО «Международный институт исследований искусственного интеллекта, психологии и спорта». Государственная регистрация сетевого издания и научная индексация оформляются отдельными процедурами.</span>
+            <span data-lang="en">Journal founder: ANO “International Institute of Artificial Intelligence, Psychology and Sport Research”. State registration and scholarly indexing are handled as separate procedures.</span>
           </p>
         </div>
       </div>
@@ -641,29 +642,21 @@
     <section class="journal-home-databases">
       <div class="journal-home-shell">
         <div class="journal-home-database-title">
-          <span data-lang="ru">Научная база данных</span>
-          <span data-lang="en">Scientific databases</span>
+          <span data-lang="ru">Публикационная инфраструктура</span>
+          <span data-lang="en">Publication infrastructure</span>
         </div>
       </div>
-      <div class="journal-home-database-strip" aria-label="Научные базы данных журнала">
+      <div class="journal-home-database-strip" aria-label="Публикационная инфраструктура журнала">
         <div class="journal-home-shell">
           <div class="journal-home-logos">
-            <div class="journal-home-logo"><strong>eLIBRARY</strong><span>Library</span></div>
-            <div class="journal-home-logo"><strong>Google Scholar</strong><span>Index</span></div>
-            <div class="journal-home-logo"><strong>SLIB.UZ</strong><span>Scientific library</span></div>
-            <div class="journal-home-logo"><strong>Zenodo</strong><span>Archive</span></div>
-            <div class="journal-home-logo"><strong>DOI</strong><span>Identifier</span></div>
-            <div class="journal-home-logo"><strong>OpenAlex</strong><span>Research graph</span></div>
-            <div class="journal-home-logo"><strong>Crossref</strong><span>Metadata</span></div>
-            <div class="journal-home-logo"><strong>ОРЦИД</strong><span>Author ID</span></div>
-            <div class="journal-home-logo"><strong>eLIBRARY</strong><span>Library</span></div>
-            <div class="journal-home-logo"><strong>Google Scholar</strong><span>Index</span></div>
-            <div class="journal-home-logo"><strong>SLIB.UZ</strong><span>Scientific library</span></div>
-            <div class="journal-home-logo"><strong>Zenodo</strong><span>Archive</span></div>
-            <div class="journal-home-logo"><strong>DOI</strong><span>Identifier</span></div>
-            <div class="journal-home-logo"><strong>OpenAlex</strong><span>Research graph</span></div>
-            <div class="journal-home-logo"><strong>Crossref</strong><span>Metadata</span></div>
-            <div class="journal-home-logo"><strong>ОРЦИД</strong><span>Author ID</span></div>
+            <div class="journal-home-logo"><strong>ISSN</strong><span>после присвоения</span></div>
+            <div class="journal-home-logo"><strong>eLIBRARY</strong><span>после договора</span></div>
+            <div class="journal-home-logo"><strong>РИНЦ</strong><span>после экспертизы</span></div>
+            <div class="journal-home-logo"><strong>DOI</strong><span>после подключения</span></div>
+            <div class="journal-home-logo"><strong>ORCID</strong><span>для авторов</span></div>
+            <div class="journal-home-logo"><strong>Архив</strong><span>выпуски и статьи</span></div>
+            <div class="journal-home-logo"><strong>Метаданные</strong><span>RU / EN</span></div>
+            <div class="journal-home-logo"><strong>Open access</strong><span>доступ к выпуску</span></div>
           </div>
         </div>
       </div>
@@ -688,3 +681,5 @@
   </footer>
 </body>
 </html>
+
+
