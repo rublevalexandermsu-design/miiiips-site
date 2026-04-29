@@ -1,7 +1,7 @@
 # MCP next steps for MIIIIPS site
 
 ## Что уже подготовлено в проекте
-- сайт опубликован в GitHub Pages
+- сайт подготовлен для GitHub Pages под кастомным доменом `miiiips.ru`
 - есть локальный API и аудиторы
 - есть дорожная карта MCP в `mcp/codex-mcp-roadmap.md`
 - есть smoke/full audit сценарии
@@ -21,6 +21,16 @@
 3. Google / YouTube MCP
 - чтение табличных реестров
 - работа с контентом лекций и лентой обновлений
+
+4. Search Console + GA4
+- поисковые запросы, клики, CTR и позиции
+- трафик, поведение, конверсии и drop-off
+- единый observability-слой для MIIIIPS и moon/moonn
+
+5. InsightfulPipe / Codex CLI MCP
+- чтение GA4 и Search Console из одной точки
+- регулярные отчёты по страницам и запросам
+- рекомендации по росту контента и конверсии
 
 ## Что это даст
 - меньше ручного прокликивания

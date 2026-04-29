@@ -141,6 +141,19 @@
 - Владелец:
   - `Architecture Agent`
 
+## internal-compliance-orchestrator
+- Страницы:
+  - `internal-compliance.html`
+- Данные:
+  - `assets/data/internal-compliance/internal-compliance-dashboard-data.json`
+  - `assets/data/internal-compliance/reporting-registry.json`
+  - `assets/data/internal-compliance/reporting-pack.json`
+- Скрипты:
+  - `internal-compliance-dashboard.js`
+  - `projects/telegram_materials_bot/telegram_materials_bot.py`
+- Владелец:
+  - `Compliance Agent`
+
 ## site-content-qa-guard
 - Страницы:
   - весь публичный HTML
