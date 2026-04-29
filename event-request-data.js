@@ -52,7 +52,6 @@
             forms: {
               publicApiBase: "",
               googleAppsScriptWebAppUrl: "",
-              localApiBase: "http://127.0.0.1:3007",
               mailtoFallback: DEFAULT_MAIL_FALLBACK
             },
             payments: {
@@ -70,8 +69,6 @@
     const forms = (config && config.forms) || {};
     if (forms.publicApiBase) candidates.push(String(forms.publicApiBase).replace(/\/+$/, ""));
     if (location.origin && location.origin.startsWith('http')) candidates.push(location.origin);
-    if (forms.localApiBase) candidates.push(String(forms.localApiBase).replace(/\/+$/, ""));
-    else candidates.push('http://127.0.0.1:3007');
     return Array.from(new Set(candidates.filter(Boolean)));
   }
 
