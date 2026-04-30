@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-29T07:37:22.730279+00:00",
+  "generatedAt": "2026-04-30T07:40:45.196936+00:00",
   "ticker": [
+    {
+      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
+      "url": "https://moonn.ru/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "moonn.ru"
+    },
+    {
+      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
+      "url": "https://moonn.ru/20251216",
+      "source": "moonn.ru"
+    },
     {
       "title": "Почему мы после отпуска снова хотим в отпуск? На лекции про психологию отдыха я задала этот вопрос. И знаете, что ответили люди? «Потому что работа утомляет». «Потому что в отпуске",
       "url": "https://t.me/moonn_official/745",
@@ -17,9 +27,9 @@
       "source": "Наука РФ"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "Официальный сайт Мэра Москвы"
+      "source": "mos.ru"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -32,14 +42,19 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
+      "title": "Что нас ждет? Психология в поиске новой устойчивости - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9Yc1hHSEN5MjUwTjdSSTFmUVZ2OVRwMW1Ndk1iUkdlUWF1UlRJNlZWY1p3ZGdCdnlBN19Pa2R1MA?oc=5",
+      "source": "Психологическая газета"
+    },
+    {
       "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBONG1jWFRWNXpWbzZOaS1UUTlSakNHcDZ5bVI1eGRqNzBuMjZNd3NHY2JUTUFNTTdvR0RHVGJVaw?oc=5",
       "source": "Психологическая газета"
     },
     {
-      "title": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5OcEkzWWdiRjktdmh2SU90enNDcVM0RFdJSjN3anBCWUgzSUYyMWZ6SHVnbUdZUS1NOVFtOVVjUQ?oc=5",
-      "source": "Психологическая газета"
+      "title": "В Асториуме Бурятии подвели итоги первой спортивной смены по ориентированию - tvatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGxkU1JyV2ZydFJWbEx6dnk2Z3BhcVNBZnd6NHZiN1d2NDFDbjZiZzh0ZHc4VzlMeVotQlJKRkJQQkZsQ1VGajhLbVRhNnQtMTMwWF9YTzU3aWhGaHNYXzNRNlZKOVE1MWpxLXM4OVBvQlRmTjhSWXpHTGRoc2QwZld5MC1RZGhSZ2hOSmtmZVVTRHhIejBKb3ZlbXFTSjVPNzlRYUdyazBIclZZTWhNbW1n?oc=5",
+      "source": "tvatv.ru"
     },
     {
       "title": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея - Ведомости",
@@ -47,35 +62,30 @@
       "source": "Ведомости"
     },
     {
-      "title": "Фитнес-революция: ИИ строит тренировки, а живой тренер остаётся незаменим с эмпатией в сердце - Moneytimes.Ru",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NcnZkaEZwMHB2OU0wbV9ENE8zRmNjRllidzE4cVdiNXNOSVJwTG9Qa1BEWVNmc0dleVVMZExESDZxSkExVjBMTGpVcThuVHZlcUstUlk4dWFwNDVTNGZhRURsVXNuQUtEOVRQU1F3M0VNU2dH0gF6QVVfeXFMUGFfc0h3emJJMmU2aVVTako4NDRMbV9BVlNtRFUzWDcxM0JkcHMwdjdNZDRlbGlPSDZjMFBSRDRFSkVFc3g0WmF0eVRPZ3l5alp4QTV3SU5YVW5Ib2p1R2pFSm5JcTU2RTE2UjVuOTRLR2I4Q3B5Vl9oaWc?oc=5",
-      "source": "Moneytimes.Ru"
+      "title": "Правила поступления в вузы изменили для выпускников СПО - ЯСИА",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2dGV3aFF1cFpzb05RODNuMkdDdFJnb2hFdDYwenN2elZqN3EyY1lYXzc1M3Y3b29pZy1oWWY3LTJuWTBCcXc3emEtS0dFWFh0ckZZbHp1LWpQdzFIZ2pTMHFLbXdMaXRfbXkwWFNuamM3d1gxMWZLMWVpQXZfU3M?oc=5",
+      "source": "ЯСИА"
     },
     {
-      "title": "Педагогов дополнительного образования подсчитали в Волгоградской области - Городские вести» - Волгоград",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamE2VjFneTk4V0duSk5hLThTdTBKX0VsRV96ZnhuNGZINDNsbHlzSVd1M1gyc293V2VaN09DYUZ0LV95V1hfUUViendERHFPUWQ2aDJkTDBwdElnNFBXaXVnc0JWN0NCdzNwbDdTeVVJVzJuQk00TDBkMGJ4X0J1bjBFbnMzVjhqYmpqU3RzbVJ0UjBRMFJsVGRRUHQ3M2lST1N5WkM0WndzZ0JaLWp2U3BiMjg1dw?oc=5",
-      "source": "Городские вести» - Волгоград"
-    },
-    {
-      "title": "Карьера и образование на заводе ОСК «Красное Сормово» - Корабел.ру",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTHVQYVVNaG1kNTB2WVZpZGpjb2N3dnA2MV9NNDMwVjJFRzhnbkJLQ1dtVEc5MjRWNF9TNEtBMUNaU2FZNFhHSGFEeHlOaHBsd00yYjlZbHVzd05EU01zM3VaeEJIVXVHZExaekZ3dFQ4RFJPblBPMjBKYWN2NjBUSE1lMjluc1ZuMU5WeE9maHhkREJOOEEw?oc=5",
-      "source": "Корабел.ру"
+      "title": "В УрФУ меняют сроки обучения у инженеров из-за реформы образования - Европейско-Азиатские Новости",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUnoxMmhDelN5TTZ4VTczOHJDZW1DcnhNSTZqZGdGTTg4ejF5d0lCNHFMS0ljMmNackxXT3VPU09VRFF4ekVxSWdHM0MtZ1ZRdmlKbmw1N2dpZHB1TjN1NkNEX2JLc0dOMWp6SnUzTmI4THZiNWtfQWZVMXZtQ3luakZMa2c3Z2Z3SmpVOGd1OVNuY2ppNU92WUxDY3BSZUFMZFBBV01lbGVfeXVXc0M4eWtNMnZoNXlNM2c?oc=5",
+      "source": "Европейско-Азиатские Новости"
     }
   ],
   "psychologyTrends": [
+    {
+      "title": "Что нас ждет? Психология в поиске новой устойчивости - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9Yc1hHSEN5MjUwTjdSSTFmUVZ2OVRwMW1Ndk1iUkdlUWF1UlRJNlZWY1p3ZGdCdnlBN19Pa2R1MA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Sat, 18 Apr 2026 07:00:00 GMT",
+      "summary": "Что нас ждет? Психология в поиске новой устойчивости Психологическая газета"
+    },
     {
       "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBONG1jWFRWNXpWbzZOaS1UUTlSakNHcDZ5bVI1eGRqNzBuMjZNd3NHY2JUTUFNTTdvR0RHVGJVaw?oc=5",
       "source": "Психологическая газета",
       "published": "Wed, 08 Apr 2026 07:00:00 GMT",
       "summary": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим Психологическая газета"
-    },
-    {
-      "title": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5OcEkzWWdiRjktdmh2SU90enNDcVM0RFdJSjN3anBCWUgzSUYyMWZ6SHVnbUdZUS1NOVFtOVVjUQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Sat, 18 Apr 2026 21:00:13 GMT",
-      "summary": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете Психологическая газета"
     },
     {
       "title": "Психология будущего: заменят ли нейросети психологов - Казанский федеральный университет",
@@ -92,62 +102,62 @@
       "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     },
     {
-      "title": "Что нас ждет? Психология в поиске новой устойчивости - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9Yc1hHSEN5MjUwTjdSSTFmUVZ2OVRwMW1Ndk1iUkdlUWF1UlRJNlZWY1p3ZGdCdnlBN19Pa2R1MA?oc=5",
-      "source": "Психологическая газета",
-      "published": "Sat, 18 Apr 2026 07:00:00 GMT",
-      "summary": "Что нас ждет? Психология в поиске новой устойчивости Психологическая газета"
+      "title": "Что такое эмоциональный интеллект и как его развить - skillbox.ru",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS0twd1ZTU3ZPcE9RRG8yb29sM0ZfZ3pJSU93Zm1rTlVLTFlsMGxvVm1TNTctR3F5bERIUzlUWmI0QUdUSWV1LUxCM2FFSlQ2NktGSGEtajdKV0txcXlaSzBXeE5NcDV0eVRHRUhmRWkzMmd6V1pma1o5T25qUFgtREQzUEFXY2xOZ0RnTDhB?oc=5",
+      "source": "skillbox.ru",
+      "published": "Mon, 27 Jun 2022 07:00:00 GMT",
+      "summary": "Что такое эмоциональный интеллект и как его развить skillbox.ru"
     },
     {
-      "title": "10 апреля. Рязань, online - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBFekVoTlpmbmNycm9PeHY1dFV4U21Ta3UtVjFzbkUwSTJPc2NmNVhnSThkTGZQeWlZSzhKU05yQnVhbkVmNGcw?oc=5",
+      "title": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5OcEkzWWdiRjktdmh2SU90enNDcVM0RFdJSjN3anBCWUgzSUYyMWZ6SHVnbUdZUS1NOVFtOVVjUQ?oc=5",
       "source": "Психологическая газета",
-      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "summary": "10 апреля. Рязань, online Психологическая газета"
+      "published": "Sun, 19 Apr 2026 07:00:00 GMT",
+      "summary": "Психология и метафизика. 140 лет Психологическому обществу и 30 лет «Психологической газете Психологическая газета"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Педагогов дополнительного образования подсчитали в Волгоградской области - Городские вести» - Волгоград",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamE2VjFneTk4V0duSk5hLThTdTBKX0VsRV96ZnhuNGZINDNsbHlzSVd1M1gyc293V2VaN09DYUZ0LV95V1hfUUViendERHFPUWQ2aDJkTDBwdElnNFBXaXVnc0JWN0NCdzNwbDdTeVVJVzJuQk00TDBkMGJ4X0J1bjBFbnMzVjhqYmpqU3RzbVJ0UjBRMFJsVGRRUHQ3M2lST1N5WkM0WndzZ0JaLWp2U3BiMjg1dw?oc=5",
-      "source": "Городские вести» - Волгоград",
-      "published": "Wed, 29 Apr 2026 06:55:14 GMT",
-      "summary": "Педагогов дополнительного образования подсчитали в Волгоградской области Городские вести» - Волгоград"
+      "title": "Правила поступления в вузы изменили для выпускников СПО - ЯСИА",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2dGV3aFF1cFpzb05RODNuMkdDdFJnb2hFdDYwenN2elZqN3EyY1lYXzc1M3Y3b29pZy1oWWY3LTJuWTBCcXc3emEtS0dFWFh0ckZZbHp1LWpQdzFIZ2pTMHFLbXdMaXRfbXkwWFNuamM3d1gxMWZLMWVpQXZfU3M?oc=5",
+      "source": "ЯСИА",
+      "published": "Thu, 30 Apr 2026 03:51:22 GMT",
+      "summary": "Правила поступления в вузы изменили для выпускников СПО ЯСИА"
     },
     {
-      "title": "Карьера и образование на заводе ОСК «Красное Сормово» - Корабел.ру",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTHVQYVVNaG1kNTB2WVZpZGpjb2N3dnA2MV9NNDMwVjJFRzhnbkJLQ1dtVEc5MjRWNF9TNEtBMUNaU2FZNFhHSGFEeHlOaHBsd00yYjlZbHVzd05EU01zM3VaeEJIVXVHZExaekZ3dFQ4RFJPblBPMjBKYWN2NjBUSE1lMjluc1ZuMU5WeE9maHhkREJOOEEw?oc=5",
-      "source": "Корабел.ру",
-      "published": "Tue, 28 Apr 2026 14:27:00 GMT",
-      "summary": "Карьера и образование на заводе ОСК «Красное Сормово» Корабел.ру"
+      "title": "В УрФУ меняют сроки обучения у инженеров из-за реформы образования - Европейско-Азиатские Новости",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUnoxMmhDelN5TTZ4VTczOHJDZW1DcnhNSTZqZGdGTTg4ejF5d0lCNHFMS0ljMmNackxXT3VPU09VRFF4ekVxSWdHM0MtZ1ZRdmlKbmw1N2dpZHB1TjN1NkNEX2JLc0dOMWp6SnUzTmI4THZiNWtfQWZVMXZtQ3luakZMa2c3Z2Z3SmpVOGd1OVNuY2ppNU92WUxDY3BSZUFMZFBBV01lbGVfeXVXc0M4eWtNMnZoNXlNM2c?oc=5",
+      "source": "Европейско-Азиатские Новости",
+      "published": "Thu, 30 Apr 2026 06:47:06 GMT",
+      "summary": "В УрФУ меняют сроки обучения у инженеров из-за реформы образования Европейско-Азиатские Новости"
     },
     {
-      "title": "В Минобрнауки назвали крупнейшие вузы страны по количеству студентов - Правмир",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcElOYWJEdVplQXpQWEpUR29FaW45YlZpNmdjZTNxN0ZmYjh2UjVRa1hGMmlFZE9zQm1QQ0hzNnhuQ0JpN0lQbXU1bldkUXJBYlFMS21zRlE5UW9uVm1pRXBtRjhTZkNXbWdoQ1lFSHhWdVc4QWxGVmJOSkx6THFkR3F4WGpZVWF0YUVFZVV4VVRwbjd2dTJWU2Rn?oc=5",
-      "source": "Правмир",
-      "published": "Tue, 28 Apr 2026 18:44:51 GMT",
-      "summary": "В Минобрнауки назвали крупнейшие вузы страны по количеству студентов Правмир"
+      "title": "Новые правила поступления в вузы для выпускников СПО введут с 2026 года - Якутия24",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXNqaVJrT1dBWGVPMGJBZE5qUDBMNHJBSEpaRGlMaDlrdG1QeV9iVFJrVE9HWl9ieXNGRmtTTUVOMUVTVFd6TEdDZ2d5NURiYjg5T1J1Q29rejUwVWJCY0t4bnBCaTNmMHNqekJYNnREbG5JOFhmcjNyd2hnWG43QWltc1AxaElxS0gyUnVfaEJ5eE9icGtkNHR1U2dpRGM?oc=5",
+      "source": "Якутия24",
+      "published": "Thu, 30 Apr 2026 04:01:20 GMT",
+      "summary": "Новые правила поступления в вузы для выпускников СПО введут с 2026 года Якутия24"
     },
     {
-      "title": "ChatGPT набрал высшие баллы на экзаменах в топовые вузы Японии и обогнал лучших студентов - Хабр",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfRWlzTmdqbkthb2Y1OGtfMmpuQ3QxdDVXZDlwemRZTU5GUEI2VklHWUp4ZXB4Q1pNbFFya1RXci1XUXdnWWFrRtIBWEFVX3lxTE5zNzczamlwOFZ6NUx1T1V0RzRsaUxIbURpWmZpbjF1aTFLdkQ3by1YNWdSOG1oWHUtTGdZcWxkZHpGdkJmcDAyd0FCZFctYU9CY1pWT3BIYVM?oc=5",
-      "source": "Хабр",
-      "published": "Tue, 28 Apr 2026 12:45:20 GMT",
-      "summary": "ChatGPT набрал высшие баллы на экзаменах в топовые вузы Японии и обогнал лучших студентов Хабр"
+      "title": "Сергей Катырин: пользователи на рынке образования требуют быстрых и прикладных знаний - Восток-Медиа",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR3hydFhOQ3VXdldZS1NSTXJMbC1MblFaNmE4WWNfQnRqd3hta2l1Vks5RExFcjRVelpidWhIOVZXdWFTVzNBOHFZdkpSWVlCUkQ3YUE0TEJ2RG03MmpoUExydHdqQmJScDU2OFZZQllFMTFtbkM1eFJrdmpFQ2xLSnpmOW9lZjlsWlZlMWJiSkVvRGlobGwwMjkwNUo3YlhxMzk0dWFKcTRpX21vMTVrSEpNTzV0VkRwczhRS3oyQTJXLUQ3ZmN5dFF4Z1NxUQ?oc=5",
+      "source": "Восток-Медиа",
+      "published": "Thu, 30 Apr 2026 07:25:00 GMT",
+      "summary": "Сергей Катырин: пользователи на рынке образования требуют быстрых и прикладных знаний Восток-Медиа"
     },
     {
-      "title": "Михаил Мишустин выступил с лекцией в рамках просветительского марафона «Знание.Первые» - Правительство России",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9QWDlwZHgyU3NxZDA0QUFUZFNfazh0X1RabmNsYWFlbXpMOEJuMHlHREttc2VqYWNaOXQwdzVsSkV5SjZ4UXRr?oc=5",
-      "source": "Правительство России",
-      "published": "Tue, 28 Apr 2026 14:07:16 GMT",
-      "summary": "Михаил Мишустин выступил с лекцией в рамках просветительского марафона «Знание.Первые» Правительство России"
+      "title": "Для поступления в магистратуру введут требование соответствия предыдущего образования ее программе - Интерфакс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YOS04QXotVmhzbEowWXJJWktKajlacWdjWmo1bk5QYUs4aUh5eHFvVnoySWVZcFFLWnJ0ZW9zOVdtUlJSelcyOEZJeUZ6VjDSAUtBVV95cUxQa3RuLWtPeEFqb1gtTUV1VEU5TV9BRjNreVhPdDNnZXBicjgwYzRrTDZVX01xaFZsREtkVVdPc2N3VnpoUzRFLVg2ZU0?oc=5",
+      "source": "Интерфакс",
+      "published": "Wed, 29 Apr 2026 15:36:00 GMT",
+      "summary": "Для поступления в магистратуру введут требование соответствия предыдущего образования ее программе Интерфакс"
     },
     {
-      "title": "В ВШЭ сокращают скидки на платное обучение для студентов. Учеба в вузе стоит до миллиона в год - ФОНТАНКА.ру",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBkbDNUZ1k4bk9valgyTTNaTkNMX2haV29VNDBXcWZsaWlyVmhvQ3hwdEROQW01V2NXY3FSd1FxNDN4U0kyMHlaUkxmc09mREFjVm5MWXpaOA?oc=5",
-      "source": "ФОНТАНКА.ру",
-      "published": "Tue, 28 Apr 2026 22:01:00 GMT",
-      "summary": "В ВШЭ сокращают скидки на платное обучение для студентов. Учеба в вузе стоит до миллиона в год ФОНТАНКА.ру"
+      "title": "Сергей Катырин: рынок онлайн-образования остаётся растущим, но меняет структуру - gorod55.ru",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYzNzdjRUaHpDU1pLR2puVE84WWhiazd3SlRsVHI1cGE0QUJ3MFpscXZHZkcwZUJDOUF2ZTBKRUp4Q1R1dy1fR2hydlRXQU83UUpqQWdFWkRjUktUOExRR1hTVFBvdFNQLVBIRWNGTVBFcms5WDF6dkZyeWNCdS15V0praWs3ZkRfdkZDT3JWay1iZUphQVcwejBQMFk4b25adlhFV2Fqd1ZpczJ3VTBUUzRJWUxTZ1U2OFVOQXpsX0RJQnEz?oc=5",
+      "source": "gorod55.ru",
+      "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+      "summary": "Сергей Катырин: рынок онлайн-образования остаётся растущим, но меняет структуру gorod55.ru"
     }
   ],
   "conferenceUpdates": [
@@ -159,11 +169,11 @@
       "summary": "Легковесные системы ИИ стали лучше распознавать сложные эмоции Наука РФ"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "Официальный сайт Мэра Москвы",
+      "source": "mos.ru",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
-      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
+      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
     },
     {
       "title": "В Казани проходит конференция «Цифра для гуманитариев» - МГИМО",
@@ -196,6 +206,13 @@
   ],
   "sportAiUpdates": [
     {
+      "title": "В Асториуме Бурятии подвели итоги первой спортивной смены по ориентированию - tvatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGxkU1JyV2ZydFJWbEx6dnk2Z3BhcVNBZnd6NHZiN1d2NDFDbjZiZzh0ZHc4VzlMeVotQlJKRkJQQkZsQ1VGajhLbVRhNnQtMTMwWF9YTzU3aWhGaHNYXzNRNlZKOVE1MWpxLXM4OVBvQlRmTjhSWXpHTGRoc2QwZld5MC1RZGhSZ2hOSmtmZVVTRHhIejBKb3ZlbXFTSjVPNzlRYUdyazBIclZZTWhNbW1n?oc=5",
+      "source": "tvatv.ru",
+      "published": "Thu, 30 Apr 2026 00:00:29 GMT",
+      "summary": "В Асториуме Бурятии подвели итоги первой спортивной смены по ориентированию tvatv.ru"
+    },
+    {
       "title": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея - Ведомости",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFlzMndHaWxxZ2ZfQmw4SEZpTnZBbUJ4VlNvM1FNYUpheWxyN2lRRFc2ZUhPQXFRY2ZJampRclVsOF9lMHBTMkVMb2Y2OFRISU5qVzByc0x0MEd2SnBPV2MtdUtmbjZKNDlvaUNxOUdQZkhrWUFNcUUzYU9jeVdGV2tMY290cHVvZlU1TTR1eks?oc=5",
       "source": "Ведомости",
@@ -222,13 +239,6 @@
       "source": "Правда.Ру",
       "published": "Mon, 13 Oct 2025 07:00:00 GMT",
       "summary": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов Правда.Ру"
-    },
-    {
-      "title": "Томские психологи проверили надежность ИИ-консультантов - Tomsk.ru",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbmpMSThjOTJYSkVzVEVWT09hNlR0QlVCMmMzZDBTS3NkenNLTVMxMVplcGRQaFJqM0IxUUZHZjU2MV83MmZRRGVJWElNTWkzS1JYQnJrNkItVkZvaUswN3JvTVRXcGJIZG9oZjdzVTZ4X05mQnVhWGhBWm5taWlTOENiVEhNMjJkTEJ1M1FOWQ?oc=5",
-      "source": "Tomsk.ru",
-      "published": "Tue, 24 Feb 2026 08:00:00 GMT",
-      "summary": "Томские психологи проверили надежность ИИ-консультантов Tomsk.ru"
     },
     {
       "title": "ИИ свел на нет достоверность исследований человеческого поведения - naukatv.ru",
@@ -282,7 +292,50 @@
       "summary": "Marek Klasa, Michał Klasa · Przegląd Bezpieczeństwa Wewnętrznego"
     }
   ],
-  "moonnUpdates": [],
+  "moonnUpdates": [
+    {
+      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
+      "url": "https://moonn.ru/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "moonn.ru",
+      "published": "",
+      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
+    },
+    {
+      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
+      "url": "https://moonn.ru/20251216",
+      "source": "moonn.ru",
+      "published": "",
+      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
+    },
+    {
+      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
+      "url": "https://moonn.ru/20251213",
+      "source": "moonn.ru",
+      "published": "",
+      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
+    },
+    {
+      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
+      "url": "https://moonn.ru/novosti20251113",
+      "source": "moonn.ru",
+      "published": "",
+      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
+    },
+    {
+      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
+      "url": "https://moonn.ru/speaker",
+      "source": "moonn.ru",
+      "published": "",
+      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
+    },
+    {
+      "title": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн",
+      "url": "https://moonn.ru/events_tp",
+      "source": "moonn.ru",
+      "published": "",
+      "summary": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн"
+    }
+  ],
   "telegramUpdates": [
     {
       "title": "Почему мы после отпуска снова хотим в отпуск? На лекции про психологию отдыха я задала этот вопрос. И знаете, что ответили люди? «Потому что работа утомляет». «Потому что в отпуске",
