@@ -52,3 +52,18 @@ Append-only project history for `miiiips-live-publish`.
 - Open questions:
   - Finish the four rate-limited Moonn Timepad emotional-intelligence events: 3944877, 3944878, 3944880, 3944881.
   - If Tilda source image replacement is still required, use visual Tilda editor/upload workflow or a documented Tilda-supported import path, not unofficial internal endpoints.
+
+## 2026-05-03 — Heartbeat Resume Confirmed / Timepad Rollout Completed
+
+- Project: Moonn / MIIIIPS / Timepad SEO bridge.
+- Workstream: autonomous SEO follow-up supervisor.
+- Trigger: Codex heartbeat `finish-timepad-speaker-block-rollout`.
+- Result:
+  - Heartbeat resumed the thread automatically after the assistant turn.
+  - Remaining Timepad events `3944877`, `3944878`, `3944880`, `3944881` were retried after the rate-limit window.
+  - All four were updated and verified with the visible speaker block.
+  - Rollout report now contains `34` events and `0` failed verifications.
+- Report:
+  - `docs/timepad-tatyana-speaker-block-rollout-2026-05-03.json`
+- Follow-up rule:
+  - For future Timepad batches, update in throttled chunks and verify changed items first; avoid immediate full rereads if Timepad starts returning `HTTP 429`.

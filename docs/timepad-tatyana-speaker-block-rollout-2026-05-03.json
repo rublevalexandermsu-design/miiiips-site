@@ -1,42 +1,11 @@
 {
-  "updatedAt": "2026-05-03T13:44:24.574439+00:00",
-  "events_total": 30,
-  "updated_count": 30,
+  "updatedAt": "2026-05-03T14:32:57.017264+00:00",
+  "events_total": 34,
+  "updated_count": 34,
   "already_present_count": 0,
-  "errors": [
-    {
-      "event_id": 3944877,
-      "url": "https://moonn.timepad.ru/event/3944877/",
-      "title": "Эмоциональный интеллект и любовь к себе",
-      "error": "Timepad API GET /events/3944877 failed: HTTP 429: {\"error\":\"Rate limit exceeded. Please refer to http://dev.timepad.ru/api/what-api-can/\"}"
-    },
-    {
-      "event_id": 3944878,
-      "url": "https://moonn.timepad.ru/event/3944878/",
-      "title": "Эмоциональный интеллект и хроническая усталость",
-      "error": "Timepad API GET /events/3944878 failed: HTTP 429: {\"error\":\"Rate limit exceeded. Please refer to http://dev.timepad.ru/api/what-api-can/\"}"
-    },
-    {
-      "event_id": 3944880,
-      "url": "https://moonn.timepad.ru/event/3944880/",
-      "title": "Эмоциональный интеллект и цифровая среда",
-      "error": "Timepad API GET /events/3944880 failed: HTTP 429: {\"error\":\"Rate limit exceeded. Please refer to http://dev.timepad.ru/api/what-api-can/\"}"
-    },
-    {
-      "event_id": 3944881,
-      "url": "https://moonn.timepad.ru/event/3944881/",
-      "title": "Эмоциональный интеллект и обучение",
-      "error": "Timepad API GET /events/3944881 failed: HTTP 429: {\"error\":\"Rate limit exceeded. Please refer to http://dev.timepad.ru/api/what-api-can/\"}"
-    }
-  ],
+  "errors": [],
   "verification_failed": [],
-  "verification_errors": [
-    {
-      "event_id": 3921617,
-      "url": "https://moonn.timepad.ru/event/3921617/",
-      "error": "Timepad API GET /events/3921617 failed: HTTP 429: {\"error\":\"Rate limit exceeded. Please refer to http://dev.timepad.ru/api/what-api-can/\"}"
-    }
-  ],
+  "verification_errors": [],
   "events": [
     {
       "event_id": 3921617,
@@ -277,7 +246,93 @@
       "action": "inserted-before-marker",
       "changed": true,
       "source_map": "integrations\\timepad\\tatyana-emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944877,
+      "url": "https://moonn.timepad.ru/event/3944877/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и любовь к себе&quot; - 2026-08-04 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:13.357106+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "d29ca8742a2d1a8e0f859e96011b87b211aeb2e3a68b2b3842524e27973c783b"
+    },
+    {
+      "event_id": 3944878,
+      "url": "https://moonn.timepad.ru/event/3944878/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и хроническая усталость&quot; - 2026-08-11 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:25.543853+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "5c0c3754cf4f92e9522817c3516e57d226fa1b1079b88963bc1b776956b9a2e2"
+    },
+    {
+      "event_id": 3944880,
+      "url": "https://moonn.timepad.ru/event/3944880/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и цифровая среда&quot; - 2026-08-18 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:37.716313+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "682cac681a01f1ce332493eb4be944d79cec721832444ae848413dedb86c6d49"
+    },
+    {
+      "event_id": 3944881,
+      "url": "https://moonn.timepad.ru/event/3944881/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и обучение&quot; - 2026-08-25 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:50.016378+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "7bd8dc722cdb32b0a3c2c8f687234799a8c8b04c33ad646e974bb98a919391c6"
     }
   ],
-  "verification": []
+  "verification": [
+    {
+      "event_id": 3944877,
+      "url": "https://moonn.timepad.ru/event/3944877/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:13.357106+00:00"
+    },
+    {
+      "event_id": 3944878,
+      "url": "https://moonn.timepad.ru/event/3944878/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:25.543853+00:00"
+    },
+    {
+      "event_id": 3944880,
+      "url": "https://moonn.timepad.ru/event/3944880/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:37.716313+00:00"
+    },
+    {
+      "event_id": 3944881,
+      "url": "https://moonn.timepad.ru/event/3944881/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:50.016378+00:00"
+    }
+  ],
+  "remaining_unverified_note": "Full 34-event reread is intentionally throttled; this run verified retried events and preserves previous report entries."
 }
