@@ -67,3 +67,38 @@ Append-only project history for `miiiips-live-publish`.
   - `docs/timepad-tatyana-speaker-block-rollout-2026-05-03.json`
 - Follow-up rule:
   - For future Timepad batches, update in throttled chunks and verify changed items first; avoid immediate full rereads if Timepad starts returning `HTTP 429`.
+
+## 2026-05-03 — SEO/AEO Legacy Event Quarantine
+
+- Project: Moonn / MIIIIPS public SEO bridge.
+- Workstream: autonomous SEO follow-up supervisor.
+- Trigger: user paused paid video lectures and asked to return to SEO/AEO automation.
+- Decisions:
+  - Paid video lecture rollout is paused until a verified video registry exists: article/SKU, title, date, source, final link and access status.
+  - Existing heartbeat automation was updated instead of creating a second thread heartbeat.
+  - A draft-like event page with internal task wording was treated as a legacy/test artifact, not rewritten into invented public facts.
+- Changed files:
+  - `assets/data/events.json`
+  - `assets/data/page-manifests/index.json`
+  - `assets/data/aeo-seo/index.json`
+  - `assets/data/aeo-seo/index.md`
+  - `assets/data/aeo-seo/kinds/public_lecture.json`
+  - `assets/data/aeo-seo/packages/index.json`
+  - `llms.txt`
+  - `sitemap.xml`
+  - `image-sitemap.xml`
+  - `event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html`
+  - `event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html`
+  - `docs/seo-aeo-legacy-event-quarantine-2026-05-03.json`
+- Removed files:
+  - `assets/data/page-manifests/ideya-takaya-chto-ya-registr-4fec521510-17042026.json`
+  - `assets/data/aeo-seo/packages/ideya-takaya-chto-ya-registr-4fec521510-17042026.json`
+- Verified:
+  - Internal phrase scan no longer finds the leaked draft wording in public HTML or machine indexes.
+  - JSON validation passed for updated event/AEO/page-manifest files.
+  - `site_smoke_test.py` returned HTTP 200 for checked pages and assets.
+- Incident:
+  - Symptom: internal task wording leaked into public SEO/AEO surfaces and a live HTML page.
+  - Root cause: a draft event was promoted into generated page manifests, AEO packages, sitemap, image sitemap and `llms.txt` without a public-content gate.
+  - Resolution: removed it from indexable machine layers, deleted its generated sidecar JSON files, added `noindex,nofollow,noarchive` to the legacy HTML pages and replaced visible wording with neutral archive copy.
+  - Follow-up rule: before closing SEO/AEO work, scan public HTML and machine indexes for internal task language and quarantine/remove unverified test pages from indexable surfaces.
