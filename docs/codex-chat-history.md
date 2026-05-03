@@ -102,3 +102,27 @@ Append-only project history for `miiiips-live-publish`.
   - Root cause: a draft event was promoted into generated page manifests, AEO packages, sitemap, image sitemap and `llms.txt` without a public-content gate.
   - Resolution: removed it from indexable machine layers, deleted its generated sidecar JSON files, added `noindex,nofollow,noarchive` to the legacy HTML pages and replaced visible wording with neutral archive copy.
   - Follow-up rule: before closing SEO/AEO work, scan public HTML and machine indexes for internal task language and quarantine/remove unverified test pages from indexable surfaces.
+
+## 2026-05-03 — SEO/AEO Reindex Packet
+
+- Project: Moonn / MIIIIPS public SEO bridge.
+- Workstream: autonomous SEO follow-up supervisor.
+- Trigger: user asked to create the next automation and begin the remaining SEO work.
+- Decisions:
+  - Continue the existing heartbeat automation instead of creating parallel reminders.
+  - Convert the next indexing step into a reusable machine-first URL packet, not a chat-only checklist.
+  - Keep public deploy/merge, reviews publication, Yandex Services editing, MSU Istina editing and paid-video/payment work behind the appropriate approval/access gates.
+- Created files:
+  - `docs/seo-aeo-reindex-url-packet-2026-05-03.json`
+  - `docs/seo-aeo-reindex-url-packet-2026-05-03.md`
+- Current PR status:
+  - PR #11: `https://github.com/rublevalexandermsu-design/miiiips-site/pull/11`
+  - Branch: `codex/miiiips-tatyana-entity-seo`
+  - GitHub merge state: `CLEAN`
+  - Status checks: none reported by GitHub at packet creation time.
+- Open questions / blockers:
+  - Merge/deploy PR #11 after public publication gate.
+  - Request indexing in GSC/Yandex Webmaster after live deploy verification.
+  - Pre-deploy live check: `https://miiiips.ru/`, `image-sitemap.xml` and `llms.txt` return `200`; `sitemap.xml`, `author-tatyana-munn-kumskova.html` and `person.json` still return `404`, which is expected until PR #11 is deployed but must be verified before indexing.
+  - Synchronize Yandex Services and MSU Istina through visual/editor access.
+  - Do not publish reviews screenshots/text or paid-video products until the separate compliance/data gates are complete.
