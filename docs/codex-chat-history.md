@@ -126,3 +126,26 @@ Append-only project history for `miiiips-live-publish`.
   - Pre-deploy live check: `https://miiiips.ru/`, `image-sitemap.xml` and `llms.txt` return `200`; `sitemap.xml`, `author-tatyana-munn-kumskova.html` and `person.json` still return `404`, which is expected until PR #11 is deployed but must be verified before indexing.
   - Synchronize Yandex Services and MSU Istina through visual/editor access.
   - Do not publish reviews screenshots/text or paid-video products until the separate compliance/data gates are complete.
+
+## 2026-05-03 — Yandex Services Reviews Page Planning
+
+- Project: Moonn / MIIIIPS public SEO bridge.
+- Workstream: autonomous SEO follow-up supervisor / Moonn reviews page.
+- Trigger: heartbeat resumed the SEO/AEO supervisor loop.
+- Decisions:
+  - Do not create a screenshot dump of Yandex Services reviews.
+  - Use a structured review registry with source URL, review-level URL if available, date, rating, category, approved excerpt/summary, proof status and publication approval.
+  - Screenshots are optional supporting evidence only after personal-data, platform-policy and copyright checks.
+  - Keep the first step as a plan and data contract; do not publish review text, screenshots, reviewer names or avatars automatically.
+- Created files:
+  - `docs/moonn-yandex-services-reviews-page-plan-2026-05-03.json`
+  - `docs/moonn-yandex-services-reviews-page-plan-2026-05-03.md`
+- Sources checked:
+  - Yandex review rules: `https://yandex.ru/support2/reviews/ru/rules?lang=ru`
+  - Yandex Business review management: `https://yandex.ru/support/business-priority/ru/manage/reviews`
+  - Yandex Webmaster scores/reviews: `https://yandex.ru/support/webmaster/ru/service/scores-and-reviews`
+  - 152-FZ and 38-FZ baseline links from the existing publication compliance gate.
+- Open questions / blockers:
+  - Need visual access to Yandex Services reviews.
+  - Need to verify whether individual review permalinks exist.
+  - Need approval for screenshot policy, reviewer name/avatar policy and target Moonn URL.
