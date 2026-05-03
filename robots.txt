@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Sitemap: https://miiiips.ru/sitemap.xml
 Sitemap: https://miiiips.ru/image-sitemap.xml

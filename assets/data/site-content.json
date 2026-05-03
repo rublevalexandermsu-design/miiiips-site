@@ -347,7 +347,7 @@
         }
       },
       {
-        "name": "Кунцкова Татьяна Михайловна",
+        "name": "Кумскова Татьяна Михайловна",
         "personId": "kuntskova-tatyana-mikhailovna",
         "role": {
           "ru": "Учредитель и научный редактор",
@@ -642,6 +642,9 @@
   ],
   "authorDemo": {
     "name": "Татьяна Мунн",
+    "legalName": "Кумскова Татьяна Михайловна",
+    "canonicalAuthorPage": "author-tatyana-munn-kumskova.html",
+    "machineReadableProfile": "person.json",
     "authorId": "AUTH-MI-2026-001",
     "track": "publication-evidence-first",
     "article": "Психология регуляции в цифровой среде",
