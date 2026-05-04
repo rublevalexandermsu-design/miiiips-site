@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-05-03",
+  "project": "miiiips.ru",
+  "workstream": "tatyana-munn-kumskova-entity-seo",
+  "publicationType": "author profile and machine-readable entity graph",
+  "jurisdiction": "RU",
+  "publicUrls": [
+    "https://miiiips.ru/author-tatyana-munn-kumskova.html",
+    "https://miiiips.ru/person.json"
+  ],
+  "applicableChecks": [
+    "152-ФЗ: no private contact or sensitive personal data added; only public professional identity links are used",
+    "38-ФЗ: no paid advertising claim, promo marking or commercial endorsement is introduced",
+    "436-ФЗ: public professional profile is age-neutral; site media registry already uses 16+ where applicable",
+    "СМИ / сетевое издание: no false claim of registered media status is introduced",
+    "Copyright: existing portrait asset is reused; no new third-party media is imported",
+    "SEO integrity: no hidden keyword stuffing or invisible public text is added"
+  ],
+  "sourcesForGate": [
+    "https://www.consultant.ru/document/cons_doc_LAW_61801/",
+    "https://www.consultant.ru/document/cons_doc_LAW_58968/",
+    "https://www.consultant.ru/document/cons_doc_LAW_108808/",
+    "https://www.consultant.ru/document/cons_doc_LAW_1511/",
+    "https://70.rkn.gov.ru/directions/p1885/p5691/"
+  ],
+  "decision": "approved-for-publication-after-static-validation",
+  "riskFlags": [
+    "identity-linking depends on external profile URLs staying stable",
+    "Yandex Services and MSU Istina text must be synchronized later through visual access"
+  ],
+  "followUpRule": "When any external profile or public author name changes, update author page, person.json, llms.txt, sitemap, Timepad speaker block and Moonn entity bridge in one pass."
+}

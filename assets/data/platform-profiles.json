@@ -100,7 +100,18 @@
     },
     {
       "id": "kuntskova-tatyana-mikhailovna",
-      "name": "Кунцкова Татьяна Михайловна",
+      "canonicalPersonId": "tatyana-munn-kumskova",
+      "name": "Кумскова Татьяна Михайловна",
+      "publicName": "Татьяна Мунн",
+      "alternateNames": ["Татьяна Мунн", "Татьяна Мунн (Кумскова)", "Татьяна Кумскова"],
+      "canonicalAuthorPage": "author-tatyana-munn-kumskova.html",
+      "externalProfiles": {
+        "moonn": "https://moonn.ru/",
+        "timepad": "https://moonn.timepad.ru/events/",
+        "yandexServices": "https://uslugi.yandex.ru/profile/TatyanaKumskovatatyanamunn-948629",
+        "istina": "https://istina.msu.ru/workers/816305440/",
+        "psyJournals": "https://psyjournals.ru/authors/15337"
+      },
       "primaryRole": "author",
       "roles": ["author", "supervisor"],
       "directions": ["Психология", "Эмоциональный интеллект", "Публикации"],

@@ -21,3 +21,12 @@
 - встроенную регистрацию прямо на сайте;
 - автоподгрузку будущих событий;
 - единый маршрут из сайта института без ручной переклейки ссылок.
+# Timepad Speaker Entity Block
+
+Canonical block for events where Татьяна Мунн is the speaker:
+
+- manifest: `tatyana-speaker-entity-block.json`
+- canonical author page: `https://miiiips.ru/author-tatyana-munn-kumskova.html`
+- machine-readable person graph: `https://miiiips.ru/person.json`
+
+Rollout rule: add the visible `О лекторе` block to Timepad event descriptions only through the Timepad API scripts after `TIMEPAD_API_TOKEN` is loaded in a separate Timepad branch. Do not add hidden SEO text; the identity bridge must stay visible and natural.

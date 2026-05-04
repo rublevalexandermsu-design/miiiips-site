@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-05-03",
+  "workstream": "miiiips-tatyana-entity-seo",
+  "action": "quarantine_legacy_internal_event_from_seo_aeo_indexes",
+  "legacyEventId": "ideya-takaya-chto-ya-registr-4fec521510-17042026",
+  "reason": "Internal draft-like event title leaked into public SEO/AEO surfaces. Removed from public indexes and set noindex on page files instead of inventing unverified public facts.",
+  "removedFromEventsJson": 1,
+  "quarantinedHtml": [
+    "event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
+    "event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html"
+  ],
+  "removedMachineFiles": [
+    "assets/data/page-manifests/ideya-takaya-chto-ya-registr-4fec521510-17042026.json",
+    "assets/data/aeo-seo/packages/ideya-takaya-chto-ya-registr-4fec521510-17042026.json"
+  ],
+  "updatedIndexes": [
+    "assets/data/events.json",
+    "assets/data/page-manifests/index.json",
+    "assets/data/aeo-seo/index.json",
+    "assets/data/aeo-seo/packages/index.json",
+    "assets/data/aeo-seo/kinds/public_lecture.json",
+    "llms.txt",
+    "sitemap.xml",
+    "image-sitemap.xml"
+  ],
+  "followUpRule": "Before closing SEO/AEO work, scan public HTML and machine indexes for internal task language and quarantine/remove unverified test pages from indexable surfaces.",
+  "secondPass": "Removed nested AEO section package, AEO markdown line, and residual visible internal headings from quarantined HTML.",
+  "thirdPass": "Replaced visible noindex wording with neutral archive wording and removed dead machine sidecar references from quarantined pages.",
+  "fourthPass": "Rewrote the remaining visible event body into a neutral archive notice."
+}
