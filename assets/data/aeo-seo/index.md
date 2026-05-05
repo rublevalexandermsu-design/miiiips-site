@@ -44,7 +44,7 @@ How to use:
 - Решение проблем и принятие решений часть 2 (2026-04-15T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
 - Психология мужчины (2026-04-20T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html
 - Бесплатная лекция "Как найти идеального партнера" (2026-04-27T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
-- Бесплатная лекция "Психология знакомства" (2026-05-04T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
+- Психология знакомств (2026-05-04T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
 - Бесплатная лекция "Психология любви" (2026-05-11T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lyubvi-11052026.html
 - Бесплатная лекция "Психология длительных отношений" (2026-05-18T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html
 - Бесплатная лекция "Кризисы в отношениях" (2026-05-25T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html

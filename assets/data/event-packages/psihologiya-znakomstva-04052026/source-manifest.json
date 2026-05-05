@@ -1,0 +1,24 @@
+{
+  "eventId": "psihologiya-znakomstva-04052026",
+  "eventTitle": "Психология знакомств",
+  "eventDate": "2026-05-04",
+  "checkedAt": "2026-05-04T23:47:14",
+  "googleDriveFolder": "https://drive.google.com/drive/folders/1TERKrukBgr8vTXssGmB_Ed6Rozuq1NvB?usp=sharing",
+  "assets": {
+    "photo": {
+      "driveFileId": "1uhXdIDGYn1S7D6zziEckBP1ZI0zFKQ89",
+      "sitePath": "assets/images/lectures/2026-05-04_psihologiya-znakomstva_psiholog-tatyana-munn-mgu_miiiips_photo-google-drive.png"
+    },
+    "previewVideo": {
+      "driveFileId": "1mLJcf7cpeR-_ONJiuNGhGgaIxaOePBnt",
+      "driveViewUrl": "https://drive.google.com/file/d/1mLJcf7cpeR-_ONJiuNGhGgaIxaOePBnt/view",
+      "sitePath": "assets/media/event-previews/2026-05-04_psihologiya-znakomstva-preview.mp4"
+    },
+    "audio": {
+      "driveFileId": "1ECiAjlXIIXzS0nLbQJ0gGwl8JPjV4oqF",
+      "note": "Audio binary is not committed to the site repository; transcript and provenance are stored in this package.",
+      "sourceFileName": "Мп3.запись.психология знпкомства.04.05.26..m4a",
+      "sourceType": "user-provided local upload and mirrored Google Drive file"
+    }
+  }
+}

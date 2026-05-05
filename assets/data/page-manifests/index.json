@@ -528,11 +528,11 @@
     },
     {
       "id": "psihologiya-znakomstva-04052026",
-      "title": "Бесплатная лекция \"Психология знакомства\"",
+      "title": "Психология знакомств",
       "conferenceTitle": "",
       "type": "public_lecture",
       "typeLabel": "Публичная лекция",
-      "status": "upcoming",
+      "status": "past",
       "start": "2026-05-04T19:00:00+03:00",
       "pageUrl": "https://miiiips.ru/event-psihologiya-znakomstva-04052026.html",
       "feedbackUrl": "https://miiiips.ru/event-feedback-psihologiya-znakomstva-04052026.html",
@@ -540,13 +540,14 @@
       "agentBriefUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-znakomstva-04052026.json",
       "contentPackUrl": "https://miiiips.ru/assets/data/aeo-seo/packages/psihologiya-znakomstva-04052026.json",
       "pageType": "public_lecture",
-      "answerSummary": "Бесплатная лекция \"Психология знакомства\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
-      "primaryEntity": "Бесплатная лекция \"Психология знакомства\"",
+      "answerSummary": "Психология знакомств — лекция Татьяны Мунн о зрелом контакте, ожиданиях, инициативе и страхе отказа.",
+      "primaryEntity": "Психология знакомств",
       "recommendedQueries": [
-        "Бесплатная лекция \"Психология знакомства\"",
-        "Татьяна Мунн Публичная лекция",
-        "Бесплатная лекция \"Психология знакомства\" Татьяна Мунн",
-        "04.05.2026"
+        "Психология знакомств Татьяна Мунн",
+        "лекция Психология знакомств 04.05.2026",
+        "психология знакомств и отношений",
+        "Татьяна Мунн МГУ знакомства",
+        "МИИИИПС Психология знакомств"
       ],
       "sourcePriority": [
         "pageManifest",

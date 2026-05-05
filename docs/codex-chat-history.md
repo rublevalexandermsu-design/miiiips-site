@@ -174,3 +174,46 @@ Append-only project history for `miiiips-live-publish`.
   - Yandex Services reviews access and personal-data/platform/legal gate.
   - MSU Istina profile access.
   - Paid-video registry and payment/provider approval.
+
+## 2026-05-04 — Direct Event Publication: Psychology of Dating
+
+- Project: MIIIIPS public site.
+- Workstream: `miiiips-event-publication`.
+- Branch: `codex/miiiips-event-psychology-dating-20260504`.
+- Trigger: user asked to bypass the unstable Telegram intake bot and publish the 04.05.2026 lecture directly from Google Drive assets and a local audio recording.
+- Event:
+  - Title: `Психология знакомств`.
+  - Speaker: `Татьяна Мунн`.
+  - Date/time: `2026-05-04T19:00:00+03:00`.
+  - Page: `event-psihologiya-znakomstva-04052026.html`.
+- Decisions:
+  - Reused the existing canonical page and registry entry instead of creating a duplicate page.
+  - Stored Drive-derived photo and video as site assets with stable Latin filenames; kept Drive IDs and source folder in the event package provenance.
+  - Did not commit the 94 MB source audio binary; stored transcript, segment log and source manifest in the event package.
+  - Updated the public page from announcement status to archive/event-result status and kept public text editorial, not internal/technical.
+- Created or updated files:
+  - `event-psihologiya-znakomstva-04052026.html`
+  - `assets/images/lectures/2026-05-04_psihologiya-znakomstva_psiholog-tatyana-munn-mgu_miiiips_photo-google-drive.png`
+  - `assets/media/event-previews/2026-05-04_psihologiya-znakomstva-preview.mp4`
+  - `assets/data/event-packages/psihologiya-znakomstva-04052026/transcript.md`
+  - `assets/data/event-packages/psihologiya-znakomstva-04052026/transcript.segments.jsonl`
+  - `assets/data/event-packages/psihologiya-znakomstva-04052026/source-manifest.json`
+  - `assets/data/event-packages/psihologiya-znakomstva-04052026/verification-report.json`
+  - `assets/data/page-manifests/psihologiya-znakomstva-04052026.json`
+  - `assets/data/aeo-seo/packages/psihologiya-znakomstva-04052026.json`
+  - `assets/data/events.json`
+  - `assets/calendar/psihologiya-znakomstva-04052026.ics`
+  - `image-sitemap.xml`
+  - `llms.txt`
+  - `assets/data/aeo-seo/index.md`
+  - AEO/page-manifest index JSON files.
+- Verification:
+  - JSON parse passed for `events.json`, page manifest, AEO package and index JSON files.
+  - Video probe: `assets/media/event-previews/2026-05-04_psihologiya-znakomstva-preview.mp4` is H.264/AAC, duration `112.919311` seconds, video frame `1440x1440`.
+  - Browser media smoke: image loaded with natural size `3840x2160`; video loaded with duration `112.919311`, `readyState=4`; after programmatic play and 10 seconds, `currentTime=9.565508`, `paused=false`, `videoWidth=1440`, `videoHeight=1440`.
+  - Screenshots saved in the event package: `verification-before-play.png`, `verification-after-10s.png`.
+  - `site_smoke_test.py` returned HTTP 200 for the event page and the broader static page set.
+- Existing unrelated blockers:
+  - `tools/site_data_guard.py` and `tools/site_release_guard.py` still fail on older unrelated `events.json` records with missing `materials` and stale linked-course/publication references. The new `psihologiya-znakomstva-04052026` event is not among those failures.
+- Follow-up rule:
+  - For event pages with user-provided Drive media, create/update one canonical event package with `source-manifest.json`, transcript, media provenance and verification report before declaring completion.

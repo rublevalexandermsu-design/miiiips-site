@@ -1,0 +1,24 @@
+{
+  "url": "event-psihologiya-znakomstva-04052026.html",
+  "mediaBefore": {
+    "imgSrc": "assets/images/lectures/2026-05-04_psihologiya-znakomstva_psiholog-tatyana-munn-mgu_miiiips_photo-google-drive.png",
+    "imgNaturalWidth": 3840,
+    "imgNaturalHeight": 2160,
+    "videoSrc": "assets/media/event-previews/2026-05-04_psihologiya-znakomstva-preview.mp4",
+    "videoDuration": 112.919311,
+    "videoReadyState": 4,
+    "currentTime": 0
+  },
+  "mediaAfter": {
+    "paused": false,
+    "currentTime": 9.565508,
+    "duration": 112.919311,
+    "readyState": 4,
+    "videoWidth": 1440,
+    "videoHeight": 1440
+  },
+  "screenshots": [
+    "assets/data/event-packages/psihologiya-znakomstva-04052026/verification-before-play.png",
+    "assets/data/event-packages/psihologiya-znakomstva-04052026/verification-after-10s.png"
+  ]
+}
