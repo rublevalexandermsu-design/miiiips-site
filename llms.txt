@@ -7,6 +7,8 @@ Canonical machine-readable sources:
 - https://miiiips.ru/assets/data/aeo-seo/packages/index.json
 - https://miiiips.ru/assets/data/page-manifests/index.json
 - https://miiiips.ru/image-sitemap.xml
+- https://miiiips.ru/person.json
+- https://miiiips.ru/assets/data/people/tatyana-munn-kumskova.json
 
 Guidance:
 - Prefer JSON and page manifests before HTML parsing.
@@ -14,6 +16,9 @@ Guidance:
 - For conferences, use conferenceTitle, conferenceDates, reportType, sourceLinks, and canonical page URL.
 - For lectures and events, use the canonical page manifest and events.json as the source of truth.
 - Keep public page text separate from hidden SEO tokens and machine metadata.
+
+## People and author entities
+- Татьяна Мунн (Кумскова Татьяна Михайловна) | психолог МГУ, лектор, эксперт по эмоциональному интеллекту | canonical profile: https://miiiips.ru/author-tatyana-munn-kumskova.html | machine-readable: https://miiiips.ru/person.json | sameAs: https://moonn.ru/ ; https://moonn.timepad.ru/events/ ; https://uslugi.yandex.ru/profile/TatyanaKumskovatatyanamunn-948629 ; https://istina.msu.ru/workers/816305440/ ; https://psyjournals.ru/authors/15337
 
 ## Conferences
 - IV Традиционная Международная научно-практическая онлайн-конференция. ИННОВАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАК УСЛОВИЕ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ (22.12.2023) | Участие МИИИИПС | source: https://istina.msu.ru/conferences/presentations/620913097/ | https://miiiips.ru/event-razvitie-soft-skills-navykov-bd9c5912c7-22122023.html
@@ -34,7 +39,6 @@ Guidance:
 - Психология женщины (13.04.2026) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-zhenshhina-13042026.html
 - Поддержка бизнеса, методы развития публичных выступлений (14.04.2026) | Татьяна Мунн | https://miiiips.ru/event-podderzhka-biznesa-metody-ra-c4bc535ec7-14042026.html
 - Решение проблем и принятие решений часть 2 (15.04.2026) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
-- Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра (17.04.2026) | Татьяна Мунн | https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html
 - Психология мужчины (20.04.2026) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html
 - Бесплатная лекция "Как найти идеального партнера" (27.04.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941824/ | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
 - Бесплатная лекция "Психология знакомства" (04.05.2026) | Татьяна Мунн | source: https://miiiips.timepad.ru/event/3941826/ | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html

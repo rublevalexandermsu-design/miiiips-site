@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://miiiips.ru/author-tatyana-munn-kumskova.html#person",
+      "name": "Татьяна Мунн",
+      "alternateName": [
+        "Татьяна Мунн (Кумскова)",
+        "Татьяна Кумскова",
+        "Кумскова Татьяна Михайловна"
+      ],
+      "jobTitle": [
+        "психолог",
+        "лектор",
+        "эксперт по эмоциональному интеллекту",
+        "научный редактор"
+      ],
+      "description": "Татьяна Мунн — публичное имя Татьяны Кумсковой, психолога МГУ, лектора и эксперта по эмоциональному интеллекту, связанного с образовательными и медийными проектами МИИИИПС.",
+      "url": "https://miiiips.ru/author-tatyana-munn-kumskova.html",
+      "image": "https://miiiips.ru/assets/images/tatyana-munn/tatyana-munn-portrait-color.jpg",
+      "worksFor": {
+        "@id": "https://miiiips.ru/#organization"
+      },
+      "affiliation": [
+        {
+          "@id": "https://miiiips.ru/#organization"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://istina.msu.ru/workers/816305440/#organization",
+          "name": "МГУ имени М. В. Ломоносова",
+          "url": "https://istina.msu.ru/workers/816305440/"
+        }
+      ],
+      "knowsAbout": [
+        "эмоциональный интеллект",
+        "психология эмоций",
+        "психология отношений",
+        "психология состояний",
+        "психологические консультации",
+        "лекции по психологии",
+        "soft skills подростков"
+      ],
+      "sameAs": [
+        "https://moonn.ru/",
+        "https://moonn.timepad.ru/events/",
+        "https://uslugi.yandex.ru/profile/TatyanaKumskovatatyanamunn-948629",
+        "https://istina.msu.ru/workers/816305440/",
+        "https://psyjournals.ru/authors/15337",
+        "https://miiiips.ru/media-story-tatyana-munn-editor.html"
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://miiiips.ru/author-tatyana-munn-kumskova.html#webpage"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://miiiips.ru/#organization",
+      "name": "АНО «Международный институт исследований искусственного интеллекта, психологии и спорта»",
+      "alternateName": "МИИИИПС",
+      "url": "https://miiiips.ru/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://miiiips.ru/author-tatyana-munn-kumskova.html#webpage",
+      "url": "https://miiiips.ru/author-tatyana-munn-kumskova.html",
+      "name": "Татьяна Мунн (Кумскова) — психолог МГУ и эксперт по эмоциональному интеллекту",
+      "isPartOf": {
+        "@id": "https://miiiips.ru/#website"
+      },
+      "about": {
+        "@id": "https://miiiips.ru/author-tatyana-munn-kumskova.html#person"
+      },
+      "inLanguage": "ru-RU"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://miiiips.ru/#website",
+      "url": "https://miiiips.ru/",
+      "name": "МИИИИПС"
+    }
+  ],
+  "provenance": {
+    "updatedAt": "2026-05-03",
+    "canonicalSource": "https://miiiips.ru/assets/data/people/tatyana-munn-kumskova.json",
+    "updateRule": "Обновлять синхронно с авторской страницей, llms.txt, Timepad speaker block и внешними профилями."
+  }
+}

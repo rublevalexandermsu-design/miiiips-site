@@ -68,6 +68,7 @@
     {"id": "media-2026-001", "title": "Data Fusion 2026: что обсуждали на конференции о данных и ИИ", "type": "review", "section": "conferences", "url": "media-story-data-fusion-2026.html"},
     {"id": "media-2026-002", "title": "Лекции по отношениям становятся публичной научной повесткой", "type": "event-story", "section": "events", "url": "media-story-psychology-relations.html"},
     {"id": "media-2026-003", "title": "Татьяна Мунн: редакционный фокус на человека, образование и доверие", "type": "profile", "section": "interviews", "url": "media-story-tatyana-munn-editor.html"},
+    {"id": "person-2026-001", "title": "Татьяна Мунн (Кумскова): авторский профиль", "type": "author-profile", "section": "profiles", "url": "author-tatyana-munn-kumskova.html"},
     {"id": "media-2026-004", "title": "Эмоциональный интеллект выходит в формат открытых образовательных встреч", "type": "review", "section": "events", "url": "media-story-emotional-intelligence.html"},
     {"id": "media-2026-005", "title": "Открытые встречи о психологии становятся городской образовательной практикой", "type": "event-story", "section": "events", "url": "media-events.html"},
     {"id": "media-2026-006", "title": "Международные научные новости: образование, технологии, человек", "type": "review", "section": "news", "url": "media-story-global-newsroom.html"}

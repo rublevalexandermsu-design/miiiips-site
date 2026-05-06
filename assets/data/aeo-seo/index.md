@@ -42,7 +42,6 @@ How to use:
 - Решение проблем и принятие решений (2026-04-08T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-resheniy-08042026.html
 - Психология женщины (2026-04-13T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-zhenshhina-13042026.html
 - Решение проблем и принятие решений часть 2 (2026-04-15T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-reshenie-problem-i-prinyatie-f9d807d260-15042026.html
-- Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра (2026-04-17T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html
 - Психология мужчины (2026-04-20T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html
 - Бесплатная лекция "Как найти идеального партнера" (2026-04-27T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
 - Бесплатная лекция "Психология знакомства" (2026-05-04T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html

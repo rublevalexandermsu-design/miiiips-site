@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "createdAt": "2026-05-03",
+  "project": "Moonn / Tatiana Moonn reviews page",
+  "workstream": "moonn-yandex-services-reviews-seo",
+  "status": "plan-only-no-publication",
+  "sourceProfile": {
+    "platform": "Yandex Services",
+    "url": "https://uslugi.yandex.ru/profile/TatyanaKumskovatatyanamunn-948629",
+    "accessNeeded": "visual access to the public profile and, if available, review-level permalinks"
+  },
+  "strategicDecision": "Build a verified reviews page using structured review evidence, not a screenshot dump. Screenshots can be used only as supporting visual proof after approval, with personal-data minimization and platform-policy review.",
+  "publicationBoundary": {
+    "allowedNow": [
+      "Create plan and data contract",
+      "Prepare review manifest schema",
+      "Define SEO/AEO metadata, schema.org strategy and compliance gate",
+      "List access and approval blockers"
+    ],
+    "notAllowedWithoutApproval": [
+      "Publish screenshots of reviews",
+      "Republish full review texts in bulk",
+      "Expose reviewer names, avatars or other personal data",
+      "Claim Yandex endorsement",
+      "Use review content without checking platform terms and source availability"
+    ]
+  },
+  "recommendedImplementation": {
+    "pageUrlCandidate": "https://moonn.ru/reviews",
+    "publicPageTitle": "Отзывы о консультациях и лекциях Татьяны Мунн",
+    "seoIntent": [
+      "отзывы Татьяна Мунн",
+      "Татьяна Мунн психолог отзывы",
+      "Кумскова Татьяна Михайловна отзывы",
+      "психолог МГУ консультация отзывы",
+      "эмоциональный интеллект отзывы"
+    ],
+    "contentModel": [
+      "Short editorial intro connecting Tatiana Moonn / Kumskova Tatiana Mikhailovna / MSU / emotional intelligence",
+      "Aggregate ratings and source explanation",
+      "Filtered review cards grouped by service type: consultations, lectures, emotional intelligence, adolescent psychology, relationships",
+      "Each card stores source URL, review date, rating, service category, approved excerpt or summary, proof status",
+      "CTA to Yandex Services profile and Moonn consultation/lecture pages",
+      "FAQ block for AEO: where reviews come from, how they are verified, how to book a consultation or lecture"
+    ],
+    "preferredEvidencePolicy": "Use direct source links/permalinks where available. If review-level permalinks are unavailable, link to the public Yandex Services profile and store internal screenshot proof without publishing it by default.",
+    "schemaOrg": [
+      "Person",
+      "ProfessionalService",
+      "Review",
+      "AggregateRating",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "imagePolicy": {
+      "screenshots": "optional-after-approval",
+      "default": "avoid screenshots; use text excerpts/summaries with source links",
+      "fileNaming": "latin filenames only, e.g. yandex-services-review-tatyana-moonn-consultation-2026-05-03-001.webp",
+      "altTemplate": "Подтвержденный отзыв о консультации Татьяны Мунн на Яндекс Услугах"
+    }
+  },
+  "reviewManifestSchema": {
+    "id": "string",
+    "sourcePlatform": "Yandex Services",
+    "sourceProfileUrl": "string",
+    "sourceReviewUrl": "string|null",
+    "capturedAt": "date",
+    "reviewDate": "date|null",
+    "rating": "number|null",
+    "reviewerDisplayName": "string|null",
+    "reviewerPersonalDataPolicy": "hidden|initials|public-as-shown-with-approval",
+    "serviceCategory": "consultation|lecture|course|adolescent-psychology|relationships|emotional-intelligence|other",
+    "topicTags": ["string"],
+    "approvedExcerpt": "string|null",
+    "publicSummary": "string",
+    "screenshotPathInternal": "string|null",
+    "screenshotPublishApproved": "boolean",
+    "proofStatus": "linked|profile-linked|internal-screenshot-only|needs-review",
+    "publicationApproved": "boolean"
+  },
+  "complianceRisks": [
+    {
+      "risk": "personal_data",
+      "description": "Reviewer names, avatars, profile links and review text may contain personal data or sensitive context.",
+      "rule": "Minimize public reviewer identity; publish only approved excerpts or summaries and source links."
+    },
+    {
+      "risk": "platform_policy",
+      "description": "Yandex may restrict how review content and screenshots are reused outside the platform.",
+      "rule": "Check Yandex review/business rules before publishing screenshots or bulk copied reviews."
+    },
+    {
+      "risk": "copyright_and_database_rights",
+      "description": "Bulk copying reviews/screenshots can be treated differently from quoting short excerpts with attribution.",
+      "rule": "Prefer short excerpts, summaries and links; avoid full bulk republication without approval."
+    },
+    {
+      "risk": "advertising_claims",
+      "description": "The page promotes professional services and can become advertising-like if written as guarantees.",
+      "rule": "Avoid unverifiable promises and keep wording factual."
+    },
+    {
+      "risk": "medical_psychology_claims",
+      "description": "Psychological services content must avoid guaranteed treatment/medical claims.",
+      "rule": "Use careful service wording and keep age/health-sensitive claims reviewed."
+    }
+  ],
+  "sourcesChecked": [
+    {
+      "type": "platform-rule",
+      "url": "https://yandex.ru/support2/reviews/ru/rules?lang=ru",
+      "note": "Yandex review publication rules and moderation expectations."
+    },
+    {
+      "type": "platform-rule",
+      "url": "https://yandex.ru/support/business-priority/ru/manage/reviews",
+      "note": "Yandex Business review management documentation."
+    },
+    {
+      "type": "search-appearance",
+      "url": "https://yandex.ru/support/webmaster/ru/service/scores-and-reviews",
+      "note": "Yandex Webmaster scores/reviews search surface."
+    },
+    {
+      "type": "legal-baseline",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_61801/",
+      "note": "152-FZ personal data baseline; full legal gate needed before publication."
+    },
+    {
+      "type": "legal-baseline",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_58968/",
+      "note": "38-FZ advertising baseline; full legal gate needed before publication."
+    }
+  ],
+  "nextSafeSteps": [
+    "Get visual access to Yandex Services public reviews page.",
+    "Audit whether review-level permalinks exist.",
+    "Collect a small private pilot manifest of 10 reviews without publishing.",
+    "Classify each review by topic and service category.",
+    "Prepare a Tilda reviews page draft with placeholders and schema, but do not publish until approval.",
+    "After approval, publish a limited page with source links, summaries/excerpts and no exposed reviewer personal data by default.",
+    "Request indexing for the reviews page only after live QA and compliance gate."
+  ],
+  "blockers": [
+    "Need visual access to Yandex Services reviews.",
+    "Need decision on whether reviewer names/avatars can be shown or must be minimized.",
+    "Need decision on screenshot publication policy.",
+    "Need confirmation whether source review permalinks exist.",
+    "Need Tilda page target decision: new /reviews page or an existing reviews page retrofit."
+  ]
+}

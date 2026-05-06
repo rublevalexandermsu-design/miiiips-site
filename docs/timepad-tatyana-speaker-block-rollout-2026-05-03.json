@@ -1,0 +1,338 @@
+{
+  "updatedAt": "2026-05-03T14:32:57.017264+00:00",
+  "events_total": 34,
+  "updated_count": 34,
+  "already_present_count": 0,
+  "errors": [],
+  "verification_failed": [],
+  "verification_errors": [],
+  "events": [
+    {
+      "event_id": 3921617,
+      "url": "https://moonn.timepad.ru/event/3921617/",
+      "title": "Бесплатная Лекция &quot;Психология ЗНАКОМСТВА&quot; - 04 мая 2026 (пн, 19.00- 21.00). Психолог Татьяна Мунн",
+      "action": "appended",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3921628,
+      "url": "https://moonn.timepad.ru/event/3921628/",
+      "title": "Бесплатная Лекция &quot;Как найти ИДЕАЛЬНОГО ПАРТНЕРА&quot; - 27 апреля 2026 (пн, 19.00- 21.00). Психолог Татьяна Мунн",
+      "action": "appended",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3921633,
+      "url": "https://moonn.timepad.ru/event/3921633/",
+      "title": "Бесплатная Лекция &quot;Психология ЛЮБВИ&quot; - 11 мая 2026 (пн, 19.00- 21.00). Психолог Татьяна Мунн",
+      "action": "appended",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3941823,
+      "url": "https://miiiips.timepad.ru/event/3941823/",
+      "title": "Бесплатная лекция &quot;Психология любви&quot; - 2026-05-11 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3941824,
+      "url": "https://miiiips.timepad.ru/event/3941824/",
+      "title": "Бесплатная лекция &quot;Как найти идеального партнера&quot; - 2026-04-27 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3941826,
+      "url": "https://miiiips.timepad.ru/event/3941826/",
+      "title": "Бесплатная лекция &quot;Психология знакомства&quot; - 2026-05-04 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3941827,
+      "url": "https://miiiips.timepad.ru/event/3941827/",
+      "title": "Бесплатная лекция &quot;Психология личных границ&quot; - 2026-06-15 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3941829,
+      "url": "https://miiiips.timepad.ru/event/3941829/",
+      "title": "Бесплатная лекция &quot;Психология конфликтов&quot; - 2026-06-22 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944213,
+      "url": "https://miiiips.timepad.ru/event/3944213/",
+      "title": "Бесплатная лекция &quot;Психология длительных отношений&quot; - 2026-05-18 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944215,
+      "url": "https://miiiips.timepad.ru/event/3944215/",
+      "title": "Бесплатная лекция &quot;Кризисы в отношениях&quot; - 2026-05-25 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944216,
+      "url": "https://miiiips.timepad.ru/event/3944216/",
+      "title": "Бесплатная лекция &quot;Как детство влияет на наши отношения&quot; - 2026-06-01 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944217,
+      "url": "https://miiiips.timepad.ru/event/3944217/",
+      "title": "Бесплатная лекция &quot;Психология любви к себе&quot; - 2026-06-08 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944221,
+      "url": "https://miiiips.timepad.ru/event/3944221/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект в отношениях&quot; - 2026-06-29 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\psychology-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944310,
+      "url": "https://moonn.timepad.ru/event/3944310/",
+      "title": "Бесплатная лекция &quot;Психология длительных отношений&quot; - 2026-05-18 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944311,
+      "url": "https://moonn.timepad.ru/event/3944311/",
+      "title": "Бесплатная лекция &quot;Кризисы в отношениях&quot; - 2026-05-25 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944312,
+      "url": "https://moonn.timepad.ru/event/3944312/",
+      "title": "Бесплатная лекция &quot;Как детство влияет на наши отношения&quot; - 2026-06-01 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944313,
+      "url": "https://moonn.timepad.ru/event/3944313/",
+      "title": "Бесплатная лекция &quot;Психология любви к себе&quot; - 2026-06-08 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944314,
+      "url": "https://moonn.timepad.ru/event/3944314/",
+      "title": "Бесплатная лекция &quot;Психология личных границ&quot; - 2026-06-15 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944315,
+      "url": "https://moonn.timepad.ru/event/3944315/",
+      "title": "Бесплатная лекция &quot;Психология конфликтов&quot; - 2026-06-22 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944317,
+      "url": "https://moonn.timepad.ru/event/3944317/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект в отношениях&quot; - 2026-06-29 (пн, 19.00-21.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-relations-2026-map.json"
+    },
+    {
+      "event_id": 3944866,
+      "url": "https://miiiips.timepad.ru/event/3944866/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и здоровье&quot; - 2026-07-14 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944867,
+      "url": "https://miiiips.timepad.ru/event/3944867/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и духовное развитие&quot; - 2026-07-21 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944869,
+      "url": "https://miiiips.timepad.ru/event/3944869/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и отношения&quot; - 2026-07-28 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944870,
+      "url": "https://miiiips.timepad.ru/event/3944870/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и любовь к себе&quot; - 2026-08-04 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944871,
+      "url": "https://miiiips.timepad.ru/event/3944871/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и хроническая усталость&quot; - 2026-08-11 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944872,
+      "url": "https://miiiips.timepad.ru/event/3944872/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и цифровая среда&quot; - 2026-08-18 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944873,
+      "url": "https://miiiips.timepad.ru/event/3944873/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и обучение&quot; - 2026-08-25 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ. МИИИИПС",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944874,
+      "url": "https://moonn.timepad.ru/event/3944874/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и здоровье&quot; - 2026-07-14 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944875,
+      "url": "https://moonn.timepad.ru/event/3944875/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и духовное развитие&quot; - 2026-07-21 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944876,
+      "url": "https://moonn.timepad.ru/event/3944876/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и отношения&quot; - 2026-07-28 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "integrations\\timepad\\tatyana-emotional-intelligence-2026-map.json"
+    },
+    {
+      "event_id": 3944877,
+      "url": "https://moonn.timepad.ru/event/3944877/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и любовь к себе&quot; - 2026-08-04 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:13.357106+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "d29ca8742a2d1a8e0f859e96011b87b211aeb2e3a68b2b3842524e27973c783b"
+    },
+    {
+      "event_id": 3944878,
+      "url": "https://moonn.timepad.ru/event/3944878/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и хроническая усталость&quot; - 2026-08-11 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:25.543853+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "5c0c3754cf4f92e9522817c3516e57d226fa1b1079b88963bc1b776956b9a2e2"
+    },
+    {
+      "event_id": 3944880,
+      "url": "https://moonn.timepad.ru/event/3944880/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и цифровая среда&quot; - 2026-08-18 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:37.716313+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "682cac681a01f1ce332493eb4be944d79cec721832444ae848413dedb86c6d49"
+    },
+    {
+      "event_id": 3944881,
+      "url": "https://moonn.timepad.ru/event/3944881/",
+      "title": "Бесплатная лекция &quot;Эмоциональный интеллект и обучение&quot; - 2026-08-25 (вт, 17.00-19.00). Психолог Татьяна Мунн, МГУ",
+      "action": "inserted-before-marker",
+      "changed": true,
+      "source_map": "retry-after-rate-limit",
+      "verified_at": "2026-05-03T14:32:50.016378+00:00",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "description_hash": "7bd8dc722cdb32b0a3c2c8f687234799a8c8b04c33ad646e974bb98a919391c6"
+    }
+  ],
+  "verification": [
+    {
+      "event_id": 3944877,
+      "url": "https://moonn.timepad.ru/event/3944877/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:13.357106+00:00"
+    },
+    {
+      "event_id": 3944878,
+      "url": "https://moonn.timepad.ru/event/3944878/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:25.543853+00:00"
+    },
+    {
+      "event_id": 3944880,
+      "url": "https://moonn.timepad.ru/event/3944880/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:37.716313+00:00"
+    },
+    {
+      "event_id": 3944881,
+      "url": "https://moonn.timepad.ru/event/3944881/",
+      "has_kumskova": true,
+      "has_author_page": true,
+      "block_count": 1,
+      "verified_at": "2026-05-03T14:32:50.016378+00:00"
+    }
+  ],
+  "remaining_unverified_note": "Full 34-event reread is intentionally throttled; this run verified retried events and preserves previous report entries."
+}

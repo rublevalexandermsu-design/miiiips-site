@@ -724,49 +724,6 @@
       ]
     },
     {
-      "id": "ideya-takaya-chto-ya-registr-4fec521510-17042026",
-      "title": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
-      "type": "public_lecture",
-      "typeLabel": "Публичная лекция",
-      "status": "past",
-      "statusLabel": "Прошедшее",
-      "start": "2026-04-17T19:00:00+03:00",
-      "venue": "Культурный центр \"Полярный\", Москва",
-      "speaker": "Татьяна Мунн",
-      "opponent": "Понедельничная лекция",
-      "directions": [
-        "lecture_series"
-      ],
-      "directionLabels": [
-        "Понедельничная лекция"
-      ],
-      "summary": "идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы была история когда вернуться: завтра",
-      "detailPage": "event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
-      "feedbackPage": "event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
-      "videoRequestPage": "event-request.html?event=ideya-takaya-chto-ya-registr-4fec521510-17042026&intent=video",
-      "inviteRequestPage": "event-request.html?event=ideya-takaya-chto-ya-registr-4fec521510-17042026&intent=invite",
-      "registrationPage": "",
-      "calendarFile": "",
-      "timepad": "",
-      "theme": "teal",
-      "image": "assets/images/lectures/miiiips-ponedelnichnaya-spiker-po-emotsionalnomu-intellektu-tatyana-ideya-takaya-954f10c1.jpg",
-      "imageCaption": "Постер конференции",
-      "imageAlt": "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
-      "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/ideya-takaya-chto-ya-registr-4fec521510-17042026.json",
-      "pageUrl": "https://miiiips.ru/event-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
-      "feedbackUrl": "https://miiiips.ru/event-feedback-ideya-takaya-chto-ya-registr-4fec521510-17042026.html",
-      "seoKeywords": [
-        "Идея: такая,что я региструюсь аношкой -ано в таймпаде, для чего: что бы там запустить конференции что бы история когда вернуться: завтра",
-        "Понедельничная лекция",
-        "Татьяна Мунн",
-        "Культурный центр \"Полярный\", Москва",
-        "спикер по эмоциональному интеллекту Татьяна Мунн",
-        "Татьяна Мунн МГУ",
-        "Татьяна Мунн МИИИИПС",
-        "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
-      ]
-    },
-    {
       "id": "psihologiya-otnosheniy-muzhchina-20042026",
       "title": "Психология мужчины",
       "type": "public_lecture",

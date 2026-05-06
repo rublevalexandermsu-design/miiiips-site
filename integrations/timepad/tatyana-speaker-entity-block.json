@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-03",
+  "scope": "Timepad events where Татьяна Мунн is the lecturer or speaker",
+  "canonicalPersonId": "tatyana-munn-kumskova",
+  "requiredVisibleBlock": {
+    "heading": "О лекторе",
+    "html": "<h3><span style=\"font-size:1.1875rem;\"><strong>О ЛЕКТОРЕ</strong></span></h3>\n<p><span style=\"font-size:11pt;\"><strong>Татьяна Мунн (Кумскова Татьяна Михайловна)</strong> — психолог МГУ, практикующий психолог, лектор и эксперт по эмоциональному интеллекту, психологии эмоций и состояний.</span></p>\n<p><span style=\"font-size:11pt;\">Официальный сайт: <a href=\"https://moonn.ru/\" target=\"_blank\" rel=\"noreferrer noopener\">moonn.ru</a>. Профиль мероприятий: <a href=\"https://moonn.timepad.ru/events/\" target=\"_blank\" rel=\"noreferrer noopener\">Timepad Татьяны Мунн</a>. Авторский профиль МИИИИПС: <a href=\"https://miiiips.ru/author-tatyana-munn-kumskova.html\" target=\"_blank\" rel=\"noreferrer noopener\">Татьяна Мунн (Кумскова)</a>.</span></p>"
+  },
+  "requiredKeywords": [
+    "Татьяна Мунн",
+    "Татьяна Мунн (Кумскова)",
+    "Кумскова Татьяна Михайловна",
+    "психолог МГУ",
+    "эмоциональный интеллект",
+    "психология эмоций",
+    "психология состояний",
+    "лекции по психологии",
+    "moonn.ru"
+  ],
+  "sameAs": [
+    "https://moonn.ru/",
+    "https://moonn.timepad.ru/events/",
+    "https://miiiips.ru/author-tatyana-munn-kumskova.html",
+    "https://uslugi.yandex.ru/profile/TatyanaKumskovatatyanamunn-948629",
+    "https://istina.msu.ru/workers/816305440/",
+    "https://psyjournals.ru/authors/15337"
+  ],
+  "apiRolloutPlan": {
+    "status": "prepared-not-published",
+    "blocker": "TIMEPAD_API_TOKEN is not loaded in the current shell",
+    "targetScripts": [
+      "scripts/timepad_update_tatyana_relations_series.py",
+      "scripts/timepad_publish_emotional_intelligence_series.py",
+      "scripts/timepad_publish_relations_series.py"
+    ],
+    "safeSequence": [
+      "create separate Timepad branch in the root repository",
+      "load TIMEPAD_API_TOKEN without printing it",
+      "run dry-run for target event series",
+      "verify generated description_html contains this block exactly once",
+      "publish only events where speaker is Татьяна Мунн",
+      "write updated event ids and URLs back to integrations/timepad maps"
+    ]
+  },
+  "validationRules": [
+    "Do not add hidden SEO text to Timepad descriptions.",
+    "The speaker block must be visible and editorially natural.",
+    "The block must appear once per event description.",
+    "Do not update non-Tatiana events.",
+    "Do not print or commit the Timepad API token."
+  ]
+}
