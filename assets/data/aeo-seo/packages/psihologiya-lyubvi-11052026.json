@@ -8,16 +8,16 @@
   "pageUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
   "canonicalUrl": "https://miiiips.ru/event-psihologiya-lyubvi-11052026.html",
   "pageManifestUrl": "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json",
-  "title": "Бесплатная лекция \"Психология любви\"",
+  "title": "Психология любви",
   "conferenceTitle": "",
   "conferenceDates": "",
   "reportType": "",
   "speaker": "Татьяна Мунн",
   "venue": "Культурный центр \"Полярный\", Москва",
   "start": "2026-05-11T19:00:00+03:00",
-  "summary": "Лекция на тему \"Психология отношений. Психология любви\" пройдет в Культурном центре \"Полярный\" в понедельник с 19.00 до 21.00. Лектор — дипломированный психолог МГУ Татьяна Мунн. Организатор — МИИИИПС, Международный институт исследований искусственного интеллекта, психологии и спорта.",
-  "answerSummary": "Бесплатная лекция \"Психология любви\" — Татьяна Мунн; страница предназначена для быстрого извлечения темы, даты, площадки и источника.",
-  "primaryEntity": "Бесплатная лекция \"Психология любви\"",
+  "summary": "Лекция Татьяны Мунн «Психология любви» из цикла «Психология отношений» прошла 11 мая 2026 года в Культурном центре «Полярный». В центре встречи были эмоциональная зрелость, доверие, выбор партнера и устойчивость близости.",
+  "answerSummary": "Психология любви — лекция Татьяны Мунн; страница содержит дату, площадку, видео-анонс и материалы события.",
+  "primaryEntity": "Психология любви",
   "sourceLinks": [
     "https://miiiips.timepad.ru/event/3941823/"
   ],
@@ -31,7 +31,7 @@
   "imageAlt": "Психология любви. Психолог Татьяна Мунн МГУ. МИИИИПС",
   "imageCaption": "Фото мероприятия",
   "keywords": [
-    "Бесплатная лекция \"Психология любви\"",
+    "Психология любви",
     "Психология",
     "Татьяна Мунн",
     "Культурный центр \"Полярный\", Москва",
@@ -42,9 +42,9 @@
     "spiker po emotsionalnomu intellektu tatyana munn tatyana munn mgu"
   ],
   "recommendedQueries": [
-    "Бесплатная лекция \"Психология любви\"",
+    "Психология любви",
     "Татьяна Мунн Публичная лекция",
-    "Бесплатная лекция \"Психология любви\" Татьяна Мунн",
+    "Психология любви",
     "11.05.2026"
   ],
   "relatedPages": [
@@ -52,7 +52,7 @@
     "https://miiiips.ru/event-feedback-psihologiya-lyubvi-11052026.html",
     "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json"
   ],
-  "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Бесплатная лекция \"Психология любви\".",
+  "agentInstructions": "Это каноническая карточка публичные лекции. Используй manifest и events.json как источник истины. Приоритет чтения: pageManifest, eventsJson. Если HTML и manifest расходятся, приоритет у manifest. Не выдумывай факты за пределами связанных источников. Для кратких ответов используй title, speaker, date, venue, sourceLinks и imageAlt. Для подробных ответов извлекай summary, relatedPages и recommendedQueries. Главная сущность страницы: Психология любви.",
   "pageManifest": {
     "manifestVersion": 1,
     "generatedAt": "2026-04-26T16:34:21",
@@ -133,5 +133,21 @@
       "https://miiiips.ru/event-feedback-psihologiya-lyubvi-11052026.html",
       "https://miiiips.ru/assets/data/page-manifests/psihologiya-lyubvi-11052026.json"
     ]
-  }
+  },
+  "status": "past",
+  "statusLabel": "Прошедшее событие",
+  "previewVideo": "assets/media/event-previews/2026-05-11_psihologiya-lyubvi-preview-h264.mp4",
+  "previewVideoTitle": "Видео-анонс лекции «Психология любви»",
+  "previewVideoPoster": "assets/images/lectures/2026-05-11_psihologiya-lyubvi_psiholog-tatyana-munn-mgu_miiiips_photo-3941823.jpg",
+  "previewVideoPath": "assets/media/event-previews/2026-05-11_psihologiya-lyubvi-preview-h264.mp4",
+  "previewVideoUrl": "assets/media/event-previews/2026-05-11_psihologiya-lyubvi-preview-h264.mp4",
+  "previewVideoPosterPath": "assets/images/lectures/2026-05-11_psihologiya-lyubvi_psiholog-tatyana-munn-mgu_miiiips_photo-3941823.jpg",
+  "previewVideoPosterUrl": "assets/images/lectures/2026-05-11_psihologiya-lyubvi_psiholog-tatyana-munn-mgu_miiiips_photo-3941823.jpg",
+  "previewVideoSourceUrl": "https://drive.google.com/file/d/1rDMflk3CJZfr_FGEntEsMl7_jv-n_L_p/view?usp=drivesdk",
+  "previewVideoAvailable": true,
+  "videoSlotReserved": false,
+  "feedbackPage": "event-feedback-psihologiya-lyubvi-11052026.html",
+  "videoRequestPage": "event-request.html?event=psihologiya-lyubvi-11052026&intent=video",
+  "inviteRequestPage": "event-request.html?event=psihologiya-lyubvi-11052026&intent=invite",
+  "purchaseRequestPage": "event-request.html?event=psihologiya-lyubvi-11052026&intent=purchase"
 }

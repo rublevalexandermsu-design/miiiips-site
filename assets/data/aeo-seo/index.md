@@ -46,7 +46,7 @@ How to use:
 - Психология мужчины (2026-04-20T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-otnosheniy-muzhchina-20042026.html
 - Бесплатная лекция "Как найти идеального партнера" (2026-04-27T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-nayti-idealnogo-partnera-27042026.html
 - Бесплатная лекция "Психология знакомства" (2026-05-04T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-znakomstva-04052026.html
-- Бесплатная лекция "Психология любви" (2026-05-11T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lyubvi-11052026.html
+- Психология любви (2026-05-11T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-lyubvi-11052026.html
 - Бесплатная лекция "Психология длительных отношений" (2026-05-18T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html
 - Бесплатная лекция "Кризисы в отношениях" (2026-05-25T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-krizisy-v-otnosheniyah-25052026.html
 - Бесплатная лекция "Как детство влияет на наши отношения" (2026-06-01T19:00:00+03:00) | Татьяна Мунн | https://miiiips.ru/event-kak-detstvo-vliyaet-na-nashi-otnosheniya-01062026.html
