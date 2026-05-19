@@ -7,7 +7,7 @@
     "url": "https://t.me/moonn_official",
     "handle": "@moonn_official"
   },
-  "status": "draft_pending_user_review",
+  "status": "private_test_sent_pending_channel_approval",
   "approvalGate": "Do not send before explicit user approval.",
   "source": {
     "transcriptPath": "registry/institute_materials_pool/inbox/лекции_по_понедельникам/20260518__drive__lecture__psihologiya-dlitelnyh-otnosheniy/transcript.md",
@@ -48,7 +48,10 @@
     "visibleCaptionChars": 826,
     "captionLimitGate": "Keep visible caption text below 1024 characters when sending as Telegram photo caption.",
     "linkStyleRule": "Use Telegram HTML links: visible text only, URL hidden in href. Do not paste raw long URLs into the visible message.",
-    "testSendTarget": "Private Telegram chat with Tatyana Moonn, only after confirming the correct desktop/API route."
+    "testSendTarget": "Private Telegram chat with Tatyana Moonn",
+    "testSendStatus": "sent_via_telegram_desktop_gui_2026-05-19T19:04:00+03:00",
+    "testSendProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-test-send-proof.png",
+    "implementationNote": "Telegram Desktop GUI route verified: attach photo, paste HTML clipboard into caption via context menu to preserve embedded links, invoke the Send button through UI Automation."
   },
   "mediaPolicy": {
     "sendPhoto": true,
