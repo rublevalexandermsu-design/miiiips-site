@@ -251,3 +251,28 @@ Append-only project history for `miiiips-live-publish`.
   - Follow-up rule: before reporting a site event complete, verify the actual deploy branch from `.github/workflows/pages.yml`, then check the live URL for image, video, JSON and absence of placeholder/Drive leakage.
 - Existing unrelated blockers:
   - `tools/site_release_guard.py` still fails on older unrelated `events.json` records with missing `materials` and stale `data-fusion` links. The current event is no longer among those guard failures.
+
+## 2026-05-19 — Event Workflow Extension: Telegram Follow-Up
+
+- Project: MIIIIPS public site / Moonn communication funnel.
+- Workstream: `miiiips-event-publication` + `telegram-followup-post`.
+- Trigger: user requested that every published Monday lecture also produces a Telegram channel post after the site page and calendar are live.
+- Decision:
+  - Extend the fixed Monday lecture template instead of creating a separate ad hoc Telegram process.
+  - Telegram publication is a downstream step after live URL verification, not a replacement for site publication.
+  - Post text must be derived from the transcript, use the event photo, link to the paid lecture route on Moonn, and include four standing Moonn offers: teen psychology camp, exam-prep course, consultations, and review page.
+  - Stop before sending the Telegram post and wait for user approval.
+- Created files:
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-draft.md`
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-packet.json`
+- Updated files:
+  - `docs/monday-event-template.md`
+- Verified facts:
+  - `https://moonn.ru/events_tp` lists `Психология ДЛИТЕЛЬНЫХ ОТНОШЕНИЙ` for `18.05.2026`.
+  - `https://moonn.ru/lectures1` is a general lecture archive/purchase-instruction page, but a specific paid card for `Психология длительных отношений` was not found.
+  - Standing Moonn links found: `https://moonn.ru/podrostkovyy-lager-psihologiya`, `https://moonn.ru/psypodgotovka1`, `https://moonn.ru/psiholog-konsultacii-moskva`, `https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel`.
+- Incident / follow-up rule:
+  - Symptom: event publication workflow previously stopped at site/calendar and did not create a channel follow-up draft.
+  - Root cause: Telegram follow-up was not encoded as a required downstream artifact in the event template.
+  - Resolution: add `telegram-followup-draft.md` and `telegram-followup-packet.json` as required post-publication artifacts.
+  - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting.

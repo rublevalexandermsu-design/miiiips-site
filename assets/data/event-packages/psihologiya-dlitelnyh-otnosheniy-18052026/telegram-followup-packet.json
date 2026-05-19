@@ -1,0 +1,35 @@
+{
+  "eventId": "psihologiya-dlitelnyh-otnosheniy-18052026",
+  "eventTitle": "Психология длительных отношений",
+  "eventDate": "2026-05-18",
+  "channel": {
+    "type": "telegram_channel",
+    "url": "https://t.me/moonn_official",
+    "handle": "@moonn_official"
+  },
+  "status": "draft_pending_user_review",
+  "approvalGate": "Do not send before explicit user approval.",
+  "source": {
+    "transcriptPath": "registry/institute_materials_pool/inbox/лекции_по_понедельникам/20260518__drive__lecture__psihologiya-dlitelnyh-otnosheniy/transcript.md",
+    "miiiipsLivePage": "https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html",
+    "photoPath": "assets/images/lectures/2026-05-18-psihologiya-dlitelnyh-otnosheniy-ponedelnichnaya-spiker-po-10045c07.jpg"
+  },
+  "moonnLinks": {
+    "lecturePurchase": {
+      "url": "https://moonn.ru/lectures1",
+      "status": "fallback_general_archive",
+      "note": "Specific paid lecture card for 'Психология длительных отношений' was not found on Moonn. Create/update the Tilda/Moonn lecture card before final Telegram publication if a direct purchase URL is required."
+    },
+    "teenCamp": "https://moonn.ru/podrostkovyy-lager-psihologiya",
+    "examPrep": "https://moonn.ru/psypodgotovka1",
+    "consultations": "https://moonn.ru/psiholog-konsultacii-moskva",
+    "review": "https://moonn.ru/otzivi?ostavit-otzyv=1&source=telegram_event_followup"
+  },
+  "postTextFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-draft.md",
+  "mediaPolicy": {
+    "sendPhoto": true,
+    "sendVideo": false,
+    "noPublicDriveLinks": true
+  },
+  "workflowRule": "After MIIIIPS event publication and live verification, prepare Telegram follow-up draft from transcript, attach the event photo, verify Moonn paid lecture route and four standing Moonn links, then stop for user approval before sending."
+}
