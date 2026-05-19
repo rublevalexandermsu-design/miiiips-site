@@ -217,3 +217,37 @@ Append-only project history for `miiiips-live-publish`.
   - `tools/site_data_guard.py` and `tools/site_release_guard.py` still fail on older unrelated `events.json` records with missing `materials` and stale linked-course/publication references. The new `psihologiya-znakomstva-04052026` event is not among those failures.
 - Follow-up rule:
   - For event pages with user-provided Drive media, create/update one canonical event package with `source-manifest.json`, transcript, media provenance and verification report before declaring completion.
+
+## 2026-05-19 — Live Fix: Long-Term Relationships Event
+
+- Project: MIIIIPS public site.
+- Workstream: `miiiips-event-publication`.
+- Branch: `codex/miiiips-event-psychology-dating-20260504`, then live deploy through `main`.
+- Trigger: user opened the live page for `Психология длительных отношений` and found the placeholder video block plus an old Timepad-style image instead of the Google Drive event photo.
+- Event:
+  - Title: `Психология длительных отношений`.
+  - Speaker: `Татьяна Мунн`.
+  - Date/time: `2026-05-18T19:00:00+03:00`.
+  - Page: `event-psihologiya-dlitelnyh-otnosheniy-18052026.html`.
+- Decisions:
+  - Use the Drive-derived auditorium photo as the only public event image with a Latin SEO-safe filename.
+  - Use local H.264 preview video from `assets/media/event-previews/`, not a visible Google Drive link.
+  - Keep Drive source URLs in the internal event package provenance, not in the public HTML/page manifest/AEO JSON for this event.
+  - Deploy must go through `main` because `.github/workflows/pages.yml` publishes GitHub Pages only on pushes to `main`.
+- Created or updated files:
+  - `event-psihologiya-dlitelnyh-otnosheniy-18052026.html`
+  - `event-feedback-psihologiya-dlitelnyh-otnosheniy-18052026.html`
+  - `assets/images/lectures/2026-05-18-psihologiya-dlitelnyh-otnosheniy-ponedelnichnaya-spiker-po-10045c07.jpg`
+  - `assets/media/event-previews/2026-05-18_psihologiya-dlitelnyh-otnosheniy-preview-h264.mp4`
+  - `assets/media/event-previews/2026-05-18_psihologiya-dlitelnyh-otnosheniy-preview-poster.png`
+  - `assets/data/events.json`
+  - `assets/data/page-manifests/psihologiya-dlitelnyh-otnosheniy-18052026.json`
+  - `assets/data/aeo-seo/packages/psihologiya-dlitelnyh-otnosheniy-18052026.json`
+  - `image-sitemap.xml`
+- Incident:
+  - Symptom: live page still showed `Видео-анонс появится позже` and the wrong image.
+  - Root cause: corrected artifacts existed in the local prototype, but were not propagated to `miiiips-live-publish/main`; GitHub Pages deploys only from `main`.
+  - Resolution: move corrected event assets and downstream JSON into the live publish repo, remove old duplicate image, add event `materials`, then publish via `main`.
+  - Follow-up rule: before reporting a site event complete, verify the actual deploy branch from `.github/workflows/pages.yml`, then check the live URL for image, video, JSON and absence of placeholder/Drive leakage.
+- Existing unrelated blockers:
+  - `tools/site_release_guard.py` still fails on older unrelated `events.json` records with missing `materials` and stale `data-fusion` links. The current event is no longer among those guard failures.
