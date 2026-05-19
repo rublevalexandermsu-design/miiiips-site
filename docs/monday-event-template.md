@@ -78,8 +78,10 @@
    - онлайн-консультация: брать прямой `#order:Онлайн-консультация Татьяны Мунн =8000` с главной страницы, если он доступен;
    - оставить отзыв о Татьяне Мунн: `https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel`.
 7. Сохранить `telegram-followup-draft.md` и `telegram-followup-packet.json` в event package.
-8. Остановиться перед отправкой и показать текст пользователю на утверждение.
-9. После утверждения отправить пост в `https://t.me/moonn_official` только через подтверждённый Telegram-контур, затем записать ссылку на опубликованный пост в event package, `docs/codex-chat-history.md` и, при наличии, event manifest.
+8. Отправить приватный preview в Telegram с фото и встроенными ссылками, сохранить proof-скриншот в event package и остановиться перед публикацией в канал.
+9. После явного утверждения пользователя отправить пост в `https://t.me/moonn_official` только через подтверждённый Telegram-контур.
+10. После отправки проверить пост в ленте канала: фото отображается, ссылки встроены в синий текст, нет raw URL в видимом тексте, нет Drive-ссылок.
+11. Сохранить proof-скриншот опубликованного канального поста в event package, обновить `telegram-followup-packet.json`, `docs/codex-chat-history.md` и, при наличии, event manifest.
 
 Правило веток:
 - Для live-публикации сайта сначала определить deploy branch из `.github/workflows/pages.yml`.

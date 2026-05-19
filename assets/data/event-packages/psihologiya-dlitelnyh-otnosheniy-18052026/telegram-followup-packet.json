@@ -7,8 +7,8 @@
     "url": "https://t.me/moonn_official",
     "handle": "@moonn_official"
   },
-  "status": "private_test_sent_pending_channel_approval",
-  "approvalGate": "Do not send before explicit user approval.",
+  "status": "channel_post_sent",
+  "approvalGate": "User approved channel publication on 2026-05-19; future posts still require explicit approval before channel send.",
   "source": {
     "transcriptPath": "registry/institute_materials_pool/inbox/лекции_по_понедельникам/20260518__drive__lecture__psihologiya-dlitelnyh-otnosheniy/transcript.md",
     "miiiipsLivePage": "https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html",
@@ -33,7 +33,7 @@
           "result": "direct_tilda_tbank_checkout_found_but_for_another_masterclass"
         }
       ],
-      "requiredAction": "Stop for user review of the Telegram post before sending."
+      "requiredAction": "Use this confirmed route for the published Telegram follow-up post."
     },
     "teenCamp": "https://moonn.ru/podrostkovyy-lager-psihologiya",
     "examPrep": "https://moonn.ru/psypodgotovka1",
@@ -45,18 +45,25 @@
     "captionHtmlFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-message.html",
     "parseMode": "HTML",
     "disableWebPagePreview": true,
-    "visibleCaptionChars": 826,
+    "visibleCaptionChars": 831,
     "captionLimitGate": "Keep visible caption text below 1024 characters when sending as Telegram photo caption.",
     "linkStyleRule": "Use Telegram HTML links: visible text only, URL hidden in href. Do not paste raw long URLs into the visible message.",
     "testSendTarget": "Private Telegram chat with Tatyana Moonn",
     "testSendStatus": "sent_via_telegram_desktop_gui_2026-05-19T19:04:00+03:00",
     "testSendProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-test-send-proof.png",
-    "implementationNote": "Telegram Desktop GUI route verified: attach photo, paste HTML clipboard into caption via context menu to preserve embedded links, invoke the Send button through UI Automation."
+    "lastPrivateTestStatus": "sent_after_user_text_edits_via_telegram_desktop_gui_2026-05-19T20:07:00+03:00",
+    "lastPrivateTestProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-test-send-proof-v2.png",
+    "channelSendStatus": "sent_via_telegram_desktop_gui_2026-05-19T20:44:00+03:00",
+    "channelSendTarget": "https://t.me/moonn_official",
+    "channelSendProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-channel-send-proof.png",
+    "channelSendVerification": "Visual Telegram Desktop proof confirms the post appears in the channel with the event photo and embedded blue Telegram links.",
+    "implementationNote": "Telegram Desktop GUI route verified: attach photo, paste HTML clipboard into caption via context menu to preserve embedded links, invoke the Send button through UI Automation.",
+    "deliveryClient": "Telegram Desktop"
   },
   "mediaPolicy": {
     "sendPhoto": true,
     "sendVideo": false,
     "noPublicDriveLinks": true
   },
-  "workflowRule": "After MIIIIPS event publication and live verification, prepare Telegram follow-up draft from transcript, attach the event photo, verify Moonn paid lecture route and four standing Moonn links, then stop for user approval before sending."
+  "workflowRule": "After MIIIIPS event publication and live verification, prepare Telegram follow-up draft from transcript, attach the event photo, verify Moonn paid lecture route and four standing Moonn links, send a private Telegram preview, stop for explicit user approval, then publish to https://t.me/moonn_official and store proof."
 }

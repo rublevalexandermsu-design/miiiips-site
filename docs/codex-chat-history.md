@@ -282,3 +282,26 @@ Append-only project history for `miiiips-live-publish`.
   - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting; if the direct Moonn paid lecture checkout is missing, the draft remains blocked and must not silently fall back to a general page; if the user confirms a Tilda route, record that confirmation and the inspected page/card anchor in the packet.
   - Telegram formatting rule: store a Telegram-ready HTML caption with `<a href="...">visible text</a>`, `parse_mode=HTML`, `disable_web_page_preview=true`, and send the event photo as the media; do not paste long raw URLs into visible Telegram text.
   - Telegram desktop delivery rule: if no direct Telegram API connector is available, use the verified Telegram Desktop GUI route: attach photo, paste HTML clipboard into the caption via the context menu so embedded links are preserved, verify the preview visually, then invoke the send button through UI Automation. Public channel posting still requires explicit user approval.
+
+## 2026-05-19 — Telegram Channel Publication: Long-Term Relationships Event
+
+- Project: MIIIIPS public site / Moonn communication funnel.
+- Workstream: `miiiips-event-publication` + `telegram-followup-post`.
+- Branch: `codex/miiiips-live-fix-20260518`.
+- Trigger: user approved the corrected Telegram preview and asked to publish it to the channel `https://t.me/moonn_official`.
+- Published artifact:
+  - Channel: `https://t.me/moonn_official`.
+  - Event: `Психология длительных отношений`, 18.05.2026.
+  - Media: event photo `assets/images/lectures/2026-05-18-psihologiya-dlitelnyh-otnosheniy-ponedelnichnaya-spiker-po-10045c07.jpg`.
+  - Caption source: `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-message.html`.
+- Updated files:
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-packet.json`.
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-channel-send-proof.png`.
+  - `docs/monday-event-template.md`.
+  - `docs/codex-chat-history.md`.
+- Verification:
+  - Private Telegram preview after user text edits was sent at `2026-05-19T20:07:00+03:00`; proof stored at `telegram-test-send-proof-v2.png`.
+  - Channel post was sent at `2026-05-19T20:44:00+03:00`; proof stored at `telegram-channel-send-proof.png`.
+  - Visual proof confirms the post appears in the channel with the event photo and embedded blue Telegram links, not raw visible URLs.
+- Follow-up rule:
+  - Every future Monday lecture publication must treat Telegram as a downstream step of the same event workflow: create caption HTML, send private preview, wait for explicit approval, publish to channel, save channel proof, update packet/history.
