@@ -16,14 +16,29 @@
   },
   "moonnLinks": {
     "lecturePurchase": {
-      "url": "https://moonn.ru/lectures1",
-      "status": "fallback_general_archive",
-      "note": "Specific paid lecture card for 'Психология длительных отношений' was not found on Moonn. Create/update the Tilda/Moonn lecture card before final Telegram publication if a direct purchase URL is required."
+      "url": null,
+      "status": "blocked_missing_direct_tilda_tbank_checkout",
+      "note": "Do not use https://moonn.ru/lectures1 as the purchase link: it is an archive/general storefront, not a direct checkout for this lecture. A direct Tilda/TBank checkout for 'Психология длительных отношений' was not found.",
+      "checkedCandidates": [
+        {
+          "url": "https://moonn.ru/lectures1",
+          "result": "general_archive_no_direct_tilda_checkout_for_this_lecture"
+        },
+        {
+          "url": "https://moonn.ru/events_tp",
+          "result": "event_card_with_timepad_registration_not_paid_recording_checkout"
+        },
+        {
+          "url": "https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555",
+          "result": "direct_tilda_tbank_checkout_found_but_for_another_masterclass"
+        }
+      ],
+      "requiredAction": "Create or locate the direct Tilda/TBank checkout for the paid recording 'Психология длительных отношений', then replace the placeholder in the Telegram draft before sending."
     },
     "teenCamp": "https://moonn.ru/podrostkovyy-lager-psihologiya",
     "examPrep": "https://moonn.ru/psypodgotovka1",
-    "consultations": "https://moonn.ru/psiholog-konsultacii-moskva",
-    "review": "https://moonn.ru/otzivi?ostavit-otzyv=1&source=telegram_event_followup"
+    "consultations": "https://moonn.ru/#order:%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D1%8B%20%D0%9C%D1%83%D0%BD%D0%BD%20=8000:::image=https://cdn.jsdelivr.net/gh/rublevalexandermsu-design/moonn-psy-pages@85584ecd84fee5511a6fed6b593aaea22c4b22de/assets/timepad/tatiana-munn-psychological-consultation-msu-online-offline-moscow-timepad-2026.png",
+    "review": "https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel"
   },
   "postTextFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-draft.md",
   "mediaPolicy": {

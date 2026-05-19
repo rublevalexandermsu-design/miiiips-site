@@ -19,7 +19,7 @@ Photo:
 Если вы не были на лекции, но тема отношений для вас сейчас актуальна, запись можно приобрести.
 
 Психология длительных отношений — приобрести лекцию:
-https://moonn.ru/lectures1
+[НУЖНА ПРЯМАЯ ССЫЛКА НА ОПЛАТУ В TILDA/TBANK ДЛЯ ЭТОЙ ЛЕКЦИИ]
 
 Ещё на моём сайте:
 
@@ -30,12 +30,14 @@ https://moonn.ru/podrostkovyy-lager-psihologiya
 https://moonn.ru/psypodgotovka1
 
 Консультации для вас и ваших близких:
-https://moonn.ru/psiholog-konsultacii-moskva
+https://moonn.ru/#order:%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D1%8B%20%D0%9C%D1%83%D0%BD%D0%BD%20=8000:::image=https://cdn.jsdelivr.net/gh/rublevalexandermsu-design/moonn-psy-pages@85584ecd84fee5511a6fed6b593aaea22c4b22de/assets/timepad/tatiana-munn-psychological-consultation-msu-online-offline-moscow-timepad-2026.png
 
 Оставить отзыв:
-https://moonn.ru/otzivi?ostavit-otzyv=1&source=telegram_event_followup
+https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel
 
 ## Проверка Перед Отправкой
 
-- Конкретная страница покупки лекции на Moonn не найдена. В черновике временно стоит общий архив лекций `https://moonn.ru/lectures1`, где описан порядок покупки через Telegram.
-- Перед публикацией лучше создать или обновить конкретную карточку «Психология длительных отношений» на Moonn/Tilda и заменить ссылку на прямую.
+- `https://moonn.ru/lectures1` проверена и не подходит как прямая Tilda/TBank-оплата: это архив/витрина, не checkout для конкретной лекции.
+- Найдена Tilda/TBank-оплата `https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555`, но она относится к другому мастер-классу и не может быть ссылкой для «Психологии длительных отношений».
+- На `https://moonn.ru/events_tp` найдена карточка «Психология длительных отношений» с регистрацией Timepad, не с оплатой записи.
+- Перед публикацией Telegram-поста нужно создать или найти прямую Tilda/TBank-оплату именно для записи «Психология длительных отношений» и заменить плейсхолдер выше.

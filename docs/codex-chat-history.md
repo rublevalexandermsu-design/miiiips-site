@@ -269,10 +269,11 @@ Append-only project history for `miiiips-live-publish`.
   - `docs/monday-event-template.md`
 - Verified facts:
   - `https://moonn.ru/events_tp` lists `Психология ДЛИТЕЛЬНЫХ ОТНОШЕНИЙ` for `18.05.2026`.
-  - `https://moonn.ru/lectures1` is a general lecture archive/purchase-instruction page, but a specific paid card for `Психология длительных отношений` was not found.
-  - Standing Moonn links found: `https://moonn.ru/podrostkovyy-lager-psihologiya`, `https://moonn.ru/psypodgotovka1`, `https://moonn.ru/psiholog-konsultacii-moskva`, `https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel`.
+  - `https://moonn.ru/lectures1` is a general lecture archive/purchase-instruction page, not a direct Tilda/TBank checkout for `Психология длительных отношений`.
+  - `https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555` is a direct Tilda/TBank checkout, but for another master-class, so it must not be used as the purchase route for this lecture.
+  - Standing Moonn links found from the homepage/cards: `https://moonn.ru/podrostkovyy-lager-psihologiya`, `https://moonn.ru/psypodgotovka1`, direct consultation `#order:Онлайн-консультация Татьяны Мунн =8000`, `https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel`.
 - Incident / follow-up rule:
   - Symptom: event publication workflow previously stopped at site/calendar and did not create a channel follow-up draft.
   - Root cause: Telegram follow-up was not encoded as a required downstream artifact in the event template.
   - Resolution: add `telegram-followup-draft.md` and `telegram-followup-packet.json` as required post-publication artifacts.
-  - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting.
+  - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting; if the direct Moonn paid lecture checkout is missing, the draft remains blocked and must not silently fall back to a general page.
