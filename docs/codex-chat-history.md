@@ -305,3 +305,20 @@ Append-only project history for `miiiips-live-publish`.
   - Visual proof confirms the post appears in the channel with the event photo and embedded blue Telegram links, not raw visible URLs.
 - Follow-up rule:
   - Every future Monday lecture publication must treat Telegram as a downstream step of the same event workflow: create caption HTML, send private preview, wait for explicit approval, publish to channel, save channel proof, update packet/history.
+
+## 2026-05-19 — Canonical Event Workflow Updated
+
+- Project: MIIIIPS public site / Moonn communication funnel.
+- Workstream: `miiiips-event-publication`.
+- Branch: `codex/miiiips-live-fix-20260518`.
+- Trigger: user confirmed the channel post worked and asked to update the event publication algorithm with Telegram channel post steps.
+- Decision:
+  - Promote the Telegram follow-up from a case-specific note into the canonical event publication workflow.
+  - Keep `docs/monday-event-template.md` as the page-specific template and add `docs/event-publication-workflow.md` as the full machine-first publication/checklist canon.
+- Created files:
+  - `docs/event-publication-workflow.md`.
+- Updated files:
+  - `docs/monday-event-template.md`.
+  - `docs/codex-chat-history.md`.
+- Follow-up rule:
+  - Future event publication is incomplete until site page, calendar, manifests, Telegram draft packet, private preview proof and post-approval channel proof are synchronized or explicitly blocked.
