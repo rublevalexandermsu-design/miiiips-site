@@ -41,6 +41,15 @@
     "review": "https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel"
   },
   "postTextFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-draft.md",
+  "telegramMessage": {
+    "captionHtmlFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-message.html",
+    "parseMode": "HTML",
+    "disableWebPagePreview": true,
+    "visibleCaptionChars": 826,
+    "captionLimitGate": "Keep visible caption text below 1024 characters when sending as Telegram photo caption.",
+    "linkStyleRule": "Use Telegram HTML links: visible text only, URL hidden in href. Do not paste raw long URLs into the visible message.",
+    "testSendTarget": "Private Telegram chat with Tatyana Moonn, only after confirming the correct desktop/API route."
+  },
   "mediaPolicy": {
     "sendPhoto": true,
     "sendVideo": false,
