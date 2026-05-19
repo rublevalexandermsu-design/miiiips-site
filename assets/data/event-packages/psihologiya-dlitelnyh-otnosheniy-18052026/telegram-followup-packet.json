@@ -16,24 +16,24 @@
   },
   "moonnLinks": {
     "lecturePurchase": {
-      "url": null,
-      "status": "blocked_missing_direct_tilda_tbank_checkout",
-      "note": "Do not use https://moonn.ru/lectures1 as the purchase link: it is an archive/general storefront, not a direct checkout for this lecture. A direct Tilda/TBank checkout for 'Психология длительных отношений' was not found.",
+      "url": "https://moonn.ru/events_tp#rec2169931711",
+      "status": "confirmed_by_user_tilda_tbank_payment_page",
+      "note": "Use the published Moonn events page confirmed by the user as the payment route for this lecture. Static HTML contains the target lecture card at #rec2169931711 and a Tilda/TBank cart on the same page.",
       "checkedCandidates": [
         {
           "url": "https://moonn.ru/lectures1",
           "result": "general_archive_no_direct_tilda_checkout_for_this_lecture"
         },
         {
-          "url": "https://moonn.ru/events_tp",
-          "result": "event_card_with_timepad_registration_not_paid_recording_checkout"
+          "url": "https://moonn.ru/events_tp#rec2169931711",
+          "result": "user_confirmed_working_payment_page_for_this_lecture"
         },
         {
           "url": "https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555",
           "result": "direct_tilda_tbank_checkout_found_but_for_another_masterclass"
         }
       ],
-      "requiredAction": "Create or locate the direct Tilda/TBank checkout for the paid recording 'Психология длительных отношений', then replace the placeholder in the Telegram draft before sending."
+      "requiredAction": "Stop for user review of the Telegram post before sending."
     },
     "teenCamp": "https://moonn.ru/podrostkovyy-lager-psihologiya",
     "examPrep": "https://moonn.ru/psypodgotovka1",

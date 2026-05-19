@@ -272,8 +272,9 @@ Append-only project history for `miiiips-live-publish`.
   - `https://moonn.ru/lectures1` is a general lecture archive/purchase-instruction page, not a direct Tilda/TBank checkout for `Психология длительных отношений`.
   - `https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555` is a direct Tilda/TBank checkout, but for another master-class, so it must not be used as the purchase route for this lecture.
   - Standing Moonn links found from the homepage/cards: `https://moonn.ru/podrostkovyy-lager-psihologiya`, `https://moonn.ru/psypodgotovka1`, direct consultation `#order:Онлайн-консультация Татьяны Мунн =8000`, `https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel`.
+  - User confirmed `https://moonn.ru/events_tp` as the working published payment page for the lecture; static HTML contains the target lecture card at `#rec2169931711` and a Tilda/TBank cart on the same page.
 - Incident / follow-up rule:
   - Symptom: event publication workflow previously stopped at site/calendar and did not create a channel follow-up draft.
   - Root cause: Telegram follow-up was not encoded as a required downstream artifact in the event template.
   - Resolution: add `telegram-followup-draft.md` and `telegram-followup-packet.json` as required post-publication artifacts.
-  - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting; if the direct Moonn paid lecture checkout is missing, the draft remains blocked and must not silently fall back to a general page.
+  - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting; if the direct Moonn paid lecture checkout is missing, the draft remains blocked and must not silently fall back to a general page; if the user confirms a Tilda route, record that confirmation and the inspected page/card anchor in the packet.
