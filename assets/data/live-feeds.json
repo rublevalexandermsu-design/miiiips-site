@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-05-20T08:38:56.816453+00:00",
+  "generatedAt": "2026-05-21T08:45:09.434375+00:00",
   "ticker": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://moonn.ru/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "moonn.ru"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://moonn.ru/20251216",
-      "source": "moonn.ru"
-    },
     {
       "title": "🌞 💜 ОТКРЫТ НАБОР В ПОДРОСТКОВЫЙ ЛАГЕРЬ ПО ПСИХОЛОГИИ 💜 🌞 ✨ Лето, которое меняет! Дорогие родители, у нас стартует особенный летний проект - подростковый лагерь по психологии для те",
       "url": "https://t.me/moonn_official/775",
@@ -42,14 +32,14 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
-      "title": "Новая эра цивилизаций: психология в эпоху перемен - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE53RkViNVN1eHdkXzQxcjB6bEk0MmtqZTdqR29qbjROWUNiSk1XSGF3NkZHbk5iejh2TEw2eHh0Mm1MYTM2?oc=5",
+      "title": "Философско-методологические основания психологии и психотерапии обсудили на круглых столах - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1rRC01UmFfd0lPall1RGRvVDFodEtsczBZOWNQV0JyMnJJS2dLdHhaTXJYV3JmSzlNM3QycXVuTQ?oc=5",
       "source": "Психологическая газета"
     },
     {
-      "title": "Психология будущего: заменят ли нейросети психологов - Казанский федеральный университет",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY09ZMElKM1BpdlRpMUxKZzlzVTFuVWkzSGxSRGw0ckRaMDZCS0xuSmpxYlk3M3hvTkl4ZWstRHF6bGpaZlVoSktWdlhIUTRCbEN5MkNaVzl3NWVxb3BOOG1WSXlMaGNwTHgwLVlNaG41U3poR3pSaEpseG9NbzFwNXpkTVdMX0xOeEo0cw?oc=5",
-      "source": "Казанский федеральный университет"
+      "title": "27 мая. Чебоксары, Волгоград, online - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1HY3dHZDRIME1vdnNGNFVKeGwtc2JPSUZCTDdZM0hvOHhuSEdleklIZ1JOaU5zSGp4MV9wT2ltZmpwMHJZQUhz?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея - Ведомости",
@@ -57,22 +47,36 @@
       "source": "Ведомости"
     },
     {
-      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
-      "source": "Российский государственный педагогический университет им. А. И. Герцена"
+      "title": "В Асториуме Бурятии подвели итоги первой спортивной смены по ориентированию - tvatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGxkU1JyV2ZydFJWbEx6dnk2Z3BhcVNBZnd6NHZiN1d2NDFDbjZiZzh0ZHc4VzlMeVotQlJKRkJQQkZsQ1VGajhLbVRhNnQtMTMwWF9YTzU3aWhGaHNYXzNRNlZKOVE1MWpxLXM4OVBvQlRmTjhSWXpHTGRoc2QwZld5MC1RZGhSZ2hOSmtmZVVTRHhIejBKb3ZlbXFTSjVPNzlRYUdyazBIclZZTWhNbW1n?oc=5",
+      "source": "tvatv.ru"
     },
     {
-      "title": "Доступность вузов 2026: Госдума регулирует цены на коммерческое обучение - АБН24",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDNUOHg2QmpuSnVXbGtPY1FZN1Azcno0WExBd3ViQ2JpbmlBTGUzdERacmFpVGlEMHZjaEgyU0xqRC1qeERwTnF0SHVIS0lWVW5odDl6Vi1yYThWelNJbzR5aFVJTTFLVUZ0aGpwMENDWG5idnFnd1BLSTdYUVY2c1NEdVpGN2x4M0drdUowWmVpanZEWGdVR2hXWXJkcGhTb05hMmhCNA?oc=5",
-      "source": "АБН24"
+      "title": "sgpress.ru: Самарские вузы переходят на новые правила приема - Самарский университет",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaklSTS03QmN6TUk3Q19ocWtnWHhFWXdtUXU1dUluWkF5T3dhSHZRRlpZN25rUElFeHQ3RVYwcVVVN2FDSGs0WkNNSHZCc2ppbFZSQUcweTg1aDJTR2pZMjlmOWxwMzdCWDMwNzF6VDdVRVJZTDQ1WnAxSmVjTEN0S2hLcWJOVkdqdGRaVy1KQnA?oc=5",
+      "source": "Самарский университет"
     },
     {
-      "title": "Амурчане предложили изменить правила целевого набора в вузы и создать мастер-планы сёл - amur.info",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMjBiQWIxcHFKNnlMd29vdlFmVlJvbEkzdGRTYnlBMEh3SEF4WU1OUTF3bTlrU2xFa2Y0UG4wdnF3S001X2NQTVFtbTMtODVsZ2R1UEo1NG1zc0xqVmt3V1p1Q2VjamZiV09ORmd2eUtNd09DWnJKWFd6TWhoWnZsRjRWMFJub2Y2NlB6al9YaG91VWZuN3Zaa0ExbW4zVG1DUExQd3VEUk9lLWJWb3otSm1yMU1VQVJsS0E?oc=5",
-      "source": "amur.info"
+      "title": "Верховный суд предложил разрешить студентам юрфаков работать в аппарате судов - Интерфакс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RcksxLVhHUWlQRzBKY3JGOTN6M3pqNWpDSDlZLVk5Ti13MzRlY3ZMZUo0dHB1RFBzZ1ZVZldPZElVYkFBTWxTd282NmVBb1XSAUtBVV95cUxNMFlQWThnZXhLYl9LU3Y5TDZqNmlYaUJsRmZSdDJfZXNmRDVmaUNtanRrQ0UtSTh5cTh2UFhfbDJ2TFFOcFozRHRoaUE?oc=5",
+      "source": "Интерфакс"
     }
   ],
   "psychologyTrends": [
+    {
+      "title": "Философско-методологические основания психологии и психотерапии обсудили на круглых столах - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1rRC01UmFfd0lPall1RGRvVDFodEtsczBZOWNQV0JyMnJJS2dLdHhaTXJYV3JmSzlNM3QycXVuTQ?oc=5",
+      "source": "Психологическая газета",
+      "published": "Wed, 20 May 2026 21:06:43 GMT",
+      "summary": "Философско-методологические основания психологии и психотерапии обсудили на круглых столах Психологическая газета"
+    },
+    {
+      "title": "27 мая. Чебоксары, Волгоград, online - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1HY3dHZDRIME1vdnNGNFVKeGwtc2JPSUZCTDdZM0hvOHhuSEdleklIZ1JOaU5zSGp4MV9wT2ltZmpwMHJZQUhz?oc=5",
+      "source": "Психологическая газета",
+      "published": "Wed, 20 May 2026 12:42:49 GMT",
+      "summary": "27 мая. Чебоксары, Волгоград, online Психологическая газета"
+    },
     {
       "title": "Новая эра цивилизаций: психология в эпоху перемен - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE53RkViNVN1eHdkXzQxcjB6bEk0MmtqZTdqR29qbjROWUNiSk1XSGF3NkZHbk5iejh2TEw2eHh0Mm1MYTM2?oc=5",
@@ -88,13 +92,6 @@
       "summary": "Психология будущего: заменят ли нейросети психологов Казанский федеральный университет"
     },
     {
-      "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBONG1jWFRWNXpWbzZOaS1UUTlSakNHcDZ5bVI1eGRqNzBuMjZNd3NHY2JUTUFNTTdvR0RHVGJVaw?oc=5",
-      "source": "Психологическая газета",
-      "published": "Thu, 02 Apr 2026 14:46:15 GMT",
-      "summary": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим Психологическая газета"
-    },
-    {
       "title": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту - Forbes.ru",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFdHRVNYVXplN1JDaDgwcHZGaUFXTHBoS3hVVWxXV09yQVZRLXpocjd5TmY1dWoxUHotcTY1Mm96NXJqZG5zZmNrNWZTYlNpMzNDT0tVdDlULUN2SWZUbzdlWVRkVVN1cXZqZjZjZ2hXeDBJMXFLTkFZdm1WZTk1RkQybHBhaWlRbXNpbVd1UlZzdE1jLTBMTDFNb2FZUlFLY2d0TURpdXlwbVVQR3BVQUFXbmFlZw?oc=5",
       "source": "Forbes.ru",
@@ -102,62 +99,55 @@
       "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     },
     {
-      "title": "Психиатрия и психология — связи и границы - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1abUpsSW9RRzBwOW4xbU95SjRBcHpqZWhvT2V2d3lwTW9GVVQ0QjRsWVFsWEpha0hPUDZ6bk1mZw?oc=5",
+      "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBONG1jWFRWNXpWbzZOaS1UUTlSakNHcDZ5bVI1eGRqNzBuMjZNd3NHY2JUTUFNTTdvR0RHVGJVaw?oc=5",
       "source": "Психологическая газета",
-      "published": "Thu, 23 Apr 2026 21:00:39 GMT",
-      "summary": "Психиатрия и психология — связи и границы Психологическая газета"
-    },
-    {
-      "title": "13 — 14 апреля. Дубна, online - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBDTUZOVlpScUlFRTlNSVZIaGhPck5ZUjlxZmRQZkk2SjVQMVV3V2p2eWdKQ2xYZFFNTjdpOHJNZUt4VHVHZlNV?oc=5",
-      "source": "Психологическая газета",
-      "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-      "summary": "13 — 14 апреля. Дубна, online Психологическая газета"
+      "published": "Thu, 02 Apr 2026 14:46:15 GMT",
+      "summary": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим Психологическая газета"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Доступность вузов 2026: Госдума регулирует цены на коммерческое обучение - АБН24",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDNUOHg2QmpuSnVXbGtPY1FZN1Azcno0WExBd3ViQ2JpbmlBTGUzdERacmFpVGlEMHZjaEgyU0xqRC1qeERwTnF0SHVIS0lWVW5odDl6Vi1yYThWelNJbzR5aFVJTTFLVUZ0aGpwMENDWG5idnFnd1BLSTdYUVY2c1NEdVpGN2x4M0drdUowWmVpanZEWGdVR2hXWXJkcGhTb05hMmhCNA?oc=5",
-      "source": "АБН24",
-      "published": "Wed, 20 May 2026 07:24:25 GMT",
-      "summary": "Доступность вузов 2026: Госдума регулирует цены на коммерческое обучение АБН24"
+      "title": "sgpress.ru: Самарские вузы переходят на новые правила приема - Самарский университет",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaklSTS03QmN6TUk3Q19ocWtnWHhFWXdtUXU1dUluWkF5T3dhSHZRRlpZN25rUElFeHQ3RVYwcVVVN2FDSGs0WkNNSHZCc2ppbFZSQUcweTg1aDJTR2pZMjlmOWxwMzdCWDMwNzF6VDdVRVJZTDQ1WnAxSmVjTEN0S2hLcWJOVkdqdGRaVy1KQnA?oc=5",
+      "source": "Самарский университет",
+      "published": "Thu, 21 May 2026 06:34:56 GMT",
+      "summary": "sgpress.ru: Самарские вузы переходят на новые правила приема Самарский университет"
     },
     {
-      "title": "Амурчане предложили изменить правила целевого набора в вузы и создать мастер-планы сёл - amur.info",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMjBiQWIxcHFKNnlMd29vdlFmVlJvbEkzdGRTYnlBMEh3SEF4WU1OUTF3bTlrU2xFa2Y0UG4wdnF3S001X2NQTVFtbTMtODVsZ2R1UEo1NG1zc0xqVmt3V1p1Q2VjamZiV09ORmd2eUtNd09DWnJKWFd6TWhoWnZsRjRWMFJub2Y2NlB6al9YaG91VWZuN3Zaa0ExbW4zVG1DUExQd3VEUk9lLWJWb3otSm1yMU1VQVJsS0E?oc=5",
-      "source": "amur.info",
-      "published": "Wed, 20 May 2026 08:27:27 GMT",
-      "summary": "Амурчане предложили изменить правила целевого набора в вузы и создать мастер-планы сёл amur.info"
+      "title": "Верховный суд предложил разрешить студентам юрфаков работать в аппарате судов - Интерфакс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RcksxLVhHUWlQRzBKY3JGOTN6M3pqNWpDSDlZLVk5Ti13MzRlY3ZMZUo0dHB1RFBzZ1ZVZldPZElVYkFBTWxTd282NmVBb1XSAUtBVV95cUxNMFlQWThnZXhLYl9LU3Y5TDZqNmlYaUJsRmZSdDJfZXNmRDVmaUNtanRrQ0UtSTh5cTh2UFhfbDJ2TFFOcFozRHRoaUE?oc=5",
+      "source": "Интерфакс",
+      "published": "Thu, 21 May 2026 08:05:00 GMT",
+      "summary": "Верховный суд предложил разрешить студентам юрфаков работать в аппарате судов Интерфакс"
     },
     {
-      "title": "КПРФ внесет в Госдуму законопроект об ограничении цен на высшее образование - RuNews24",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNU95ckdYMmx5Vm5fY1JsZUtZN3BxNEt3RDRlcUc2REk5dU5mTEZuTUNJVlJ0bkY4QXEwMzNLd3V2cjBRYmxCVmZaVERkT2ZFazFhTVpOTUtvQjIxNm1VNDJyY21XMDZzTGZ0eVFfZHNuaXZ0U1I5Sm82c1lqakphZFE5OERMOEU0b2dKRjV1M0JOSFZtUVVyQXozc0lPTjNpQzJwYXpIYWQxUjVXdG1xSlJkOWlUZVdjRkE?oc=5",
-      "source": "RuNews24",
-      "published": "Wed, 20 May 2026 06:10:51 GMT",
-      "summary": "КПРФ внесет в Госдуму законопроект об ограничении цен на высшее образование RuNews24"
+      "title": "Пленум ВС предлагает смягчить квалификационные требования к работникам судов - РАПСИ",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BN0pXdmlOSXFGR1RhblBRakJGc3FoRlZvVkJyV1RJekdTVWRGZXpGTFFSQ1N2cHBCZFRiVUU0ZzRheUNhY3JmNHNBWUhqc1Fmb0xaNkVNZWticGNGZlFhWHVWTFBUb1BXZTkwMkxLbw?oc=5",
+      "source": "РАПСИ",
+      "published": "Thu, 21 May 2026 07:58:00 GMT",
+      "summary": "Пленум ВС предлагает смягчить квалификационные требования к работникам судов РАПСИ"
     },
     {
-      "title": "В ГД хотят ограничить цену платного обучения в вузах 125% от бюджетного - tulapressa.ru",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVTktRWtYOC1UOExCNkFPNU9CWVRMb0FMVnp5Q291M0NnSHhSV2xQaU1jdmlhdjlseEpQM1dQQms5cU41clRIcHY5MVRHUDlqZmxuMzQ1amJsVjJvWGVJdEszUVdvTzkzbW5TQ19sYVdsenpZLWh6WktlWTlpR2dlTHQ1NkZnQ1owQ0x1U3l3TGxqNXRrOGpza0dWaERJc2lEWjQ5MEJzbzY3QdIBrwFBVV95cUxPMVVpSU8zWFgxM0d6YlN4enZoV25XMXd1VHEzMVhYWFBlNnBVMVcyWWF0YnNMSzJJZHhkRTRYYjJTNWNZVTJUQU1IRXFVa3JiM2p6QTUxR2Z5TUlhdU5FSE90WjVNaTRiWndmdlN2LVZuampkNXRjM19nOHVvWk1mc2hfYzlUa3AxNkJtcU82ckVlak43Sl9LQWN0MkhpNWRBLXk2NHdlcjhDR0toYzR3?oc=5",
-      "source": "tulapressa.ru",
-      "published": "Wed, 20 May 2026 06:56:15 GMT",
-      "summary": "В ГД хотят ограничить цену платного обучения в вузах 125% от бюджетного tulapressa.ru"
+      "title": "Член Общественной палаты РФ Александр Асафов провел лекцию о роли высшего образования в обеспечении технологического суверенитета - Единая Россия",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdDlyRVdKWUFEWTF0d3RPLUJyLXNWV1dCSFVEcU9oUTE3SGJzNHN3bmJuczhrYzdUdVdhQWRqZ1dMTDkzcGpoQmc4NFFUZjNkVXRBS2hjVU9sNVA1SVN5UGpsd01fa2EyUk9HdjNQYU45RlBNWWZVcXVwSFlXUjR1Sk5pQjlKNl9saW1TY0loRVowQktxaHk0ZzlEOUlMNVVlUVF3WmgyTDBfNFIyMmZ4bmFxX0IxSVlDeDNZSEl6UXZkbF9JVUc1VnZuSkJVemswbHFVZmVTZ0JBaUVMT3R6U3F6dS1Vc2pPR24yZmJOdVk4UHJ1TmZyRHo3bnR1a1F4?oc=5",
+      "source": "Единая Россия",
+      "published": "Wed, 20 May 2026 15:25:31 GMT",
+      "summary": "Член Общественной палаты РФ Александр Асафов провел лекцию о роли высшего образования в обеспечении технологического суверенитета Единая Россия"
     },
     {
-      "title": "В Бердске предварительная запись в колледж университетский. Высшее образование - Бердск-Онлайн",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeHJOVGk2Wi0yVnF5SFpHSVF4dWN4OW5jalhEcjZ2dWxQcUJCZXNwSGNQLVhqbEtsNS0xWkh5Y3RfZXYzeHc1LWJrNkFYSWR3aE5KNnoySkFXa1JkOFlVa3BBdWdqcTdJZzBGVDZCOEJxbEJUd0VGNk44cDVic0ZhWk5ZSENUWl92WkFVZnZfcmhJYnZLYXdrNjVKcEdUdnpnNXhUVmxFSjJRUTc5MTdEWlJ1clBKMWthZ0xYQWdKeFBTQ3E5MTcyS0ZBN2w1WUl4?oc=5",
-      "source": "Бердск-Онлайн",
-      "published": "Wed, 20 May 2026 04:01:11 GMT",
-      "summary": "В Бердске предварительная запись в колледж университетский. Высшее образование Бердск-Онлайн"
+      "title": "Величие России начинается не с лозунгов, а с доступного образования! - ЛДПР - Официальный сайт партии",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0RCLXJqNVFtSkxDVDNEZ2tGUF9nTHdQQUZERTRQNmh1VGNoOGdoOFJ5dk16dWlOXzEwXzEtd1hsRW9Eal8zVjhsQWdpUjlHT0I2ZUVzVXhzUXRhT0c3MHduVVFJVXFsc0JVNmtPVXZ6YlVsWTd2dk56RzdqNFhWZUp4RjgwNEJWRjNBc2ZGWEZKRWlrQUF5dA?oc=5",
+      "source": "ЛДПР - Официальный сайт партии",
+      "published": "Wed, 20 May 2026 04:33:12 GMT",
+      "summary": "Величие России начинается не с лозунгов, а с доступного образования! ЛДПР - Официальный сайт партии"
     },
     {
-      "title": "Студентов ждет новая модель обучения: вузы готовятся к большой реформе - Peterburg2.ru",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzNDWG1HN0RMZXlxQkNLM09JaWs3d2lpQWdWYUkxSEdtTjhwdWRIUnJxV0Q0ckR6TExCTF9zeVBBVnZfMlZ5Nk5UMnRlWlBnRGNkMjFVRjFPU0VlTFNTMlYzQTZKT0U2QnhmeEROSVVoRG9XZW9SUmhqZjJLYnZlMEF0S0dwVDY3aW9hYU1pbGxySWhISE5rUlBmajBiZDc1TUxadkNqbHZpUWEyN1E?oc=5",
-      "source": "Peterburg2.ru",
-      "published": "Tue, 19 May 2026 13:12:00 GMT",
-      "summary": "Студентов ждет новая модель обучения: вузы готовятся к большой реформе Peterburg2.ru"
+      "title": "На ЕГЭ придется очень постараться. Узнали проходные баллы в вузы Иркутска — на них можно ориентироваться - ИРСИТИ.ру",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nX0ZfUmZBTE5kR0Z0NEhidnBjcjhMQzBnTkl0Y2FESTNaY2RxSTN3NmFRT2ZETzd3YUhBWDlEcVdCekUwdWVsZS03ckFIbm5KSXVVM2ZCWGlmb1I1TXFPMzB2VQ?oc=5",
+      "source": "ИРСИТИ.ру",
+      "published": "Wed, 20 May 2026 23:30:10 GMT",
+      "summary": "На ЕГЭ придется очень постараться. Узнали проходные баллы в вузы Иркутска — на них можно ориентироваться ИРСИТИ.ру"
     }
   ],
   "conferenceUpdates": [
@@ -213,11 +203,11 @@
       "summary": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея Ведомости"
     },
     {
-      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
-      "source": "Российский государственный педагогический университет им. А. И. Герцена",
-      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
-      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
+      "title": "В Асториуме Бурятии подвели итоги первой спортивной смены по ориентированию - tvatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGxkU1JyV2ZydFJWbEx6dnk2Z3BhcVNBZnd6NHZiN1d2NDFDbjZiZzh0ZHc4VzlMeVotQlJKRkJQQkZsQ1VGajhLbVRhNnQtMTMwWF9YTzU3aWhGaHNYXzNRNlZKOVE1MWpxLXM4OVBvQlRmTjhSWXpHTGRoc2QwZld5MC1RZGhSZ2hOSmtmZVVTRHhIejBKb3ZlbXFTSjVPNzlRYUdyazBIclZZTWhNbW1n?oc=5",
+      "source": "tvatv.ru",
+      "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+      "summary": "В Асториуме Бурятии подвели итоги первой спортивной смены по ориентированию tvatv.ru"
     },
     {
       "title": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов - Правда.Ру",
@@ -227,6 +217,13 @@
       "summary": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов Правда.Ру"
     },
     {
+      "title": "Фитнес-революция: ИИ строит тренировки, а живой тренер остаётся незаменим с эмпатией в сердце - Moneytimes.Ru",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NcnZkaEZwMHB2OU0wbV9ENE8zRmNjRllidzE4cVdiNXNOSVJwTG9Qa1BEWVNmc0dleVVMZExESDZxSkExVjBMTGpVcThuVHZlcUstUlk4dWFwNDVTNGZhRURsVXNuQUtEOVRQU1F3M0VNU2dH0gF6QVVfeXFMUGFfc0h3emJJMmU2aVVTako4NDRMbV9BVlNtRFUzWDcxM0JkcHMwdjdNZDRlbGlPSDZjMFBSRDRFSkVFc3g0WmF0eVRPZ3l5alp4QTV3SU5YVW5Ib2p1R2pFSm5JcTU2RTE2UjVuOTRLR2I4Q3B5Vl9oaWc?oc=5",
+      "source": "Moneytimes.Ru",
+      "published": "Sat, 04 Apr 2026 07:00:00 GMT",
+      "summary": "Фитнес-революция: ИИ строит тренировки, а живой тренер остаётся незаменим с эмпатией в сердце Moneytimes.Ru"
+    },
+    {
       "title": "Открыт ген, связанный с выносливостью спортсменов - naukatv.ru",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMFpaYy1pVVVTcHJpVkdxamxhMnpNMG9zb3l0dEVwbjM0emVzNlJUTDNQUTkwd2xCb3pHRmFjUDlsWWxSTXF6ekFCZTdaY255WUJSN3J5bmlXdzQyaHZmUlVGZXkxLUpLX0x2czJVSVJSOWFWcWh3bTZvUUw0Zkc5VQ?oc=5",
       "source": "naukatv.ru",
@@ -234,18 +231,11 @@
       "summary": "Открыт ген, связанный с выносливостью спортсменов naukatv.ru"
     },
     {
-      "title": "Технологии в спорте и киберспорте: как цифровая среда меняет правила игры - spbIT",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXIwQ3Vxb2RIUXBUU3REaHRGZmFMSGhXYUZEdzdQQUM3cGNIYzJKUkhSUGpjcVljV0ktNVhBWHJ1ZkluTkNWbGNRNlhkVzJEbWpjUzFzUC1OajhzcnZib1FkanphQlpXcDQ1dk9WR2tDSzIzVEQzQ050SzI4R3RWUlZXUUl5UFc2LUZuczFRVUU2VGs1WkJUU2VBMm5DNjdzZEZZRmZWLVJPQQ?oc=5",
-      "source": "spbIT",
-      "published": "Sun, 01 Mar 2026 08:00:00 GMT",
-      "summary": "Технологии в спорте и киберспорте: как цифровая среда меняет правила игры spbIT"
-    },
-    {
-      "title": "XXV Международная научно-практическая конференция молодых исследователей - Пресс-релиз.ру",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YRXNGUXRvd25Ka2VvZFdSVDBoODdoa3N3c1dEUXRQYTRlR0xXOTFVcEdrSm1kdGtJbFVqRXBPeXdMSTF5djQ3djVuc0tFWXJlSkEtRGEzTThRa05IVnJQVEJHT3BCaGxlTVg4Zkh5NnNTeDFE?oc=5",
-      "source": "Пресс-релиз.ру",
-      "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-      "summary": "XXV Международная научно-практическая конференция молодых исследователей Пресс-релиз.ру"
+      "title": "Искусственный интеллект научился угадывать пенальти лучше вратарей - Северный маяк",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVa2dlZFhTSVE3RDl0WlZBNkdIYzBhZjd2YXoyaXdkMVBOSl9kVFBNdzlXUnFVemtpZGw1Zk5wZG5YZGJoU1g5N1JybW05NGRxY094Z2VnVTQyNlV6SG84d243a25kcXVzZ0tuN2w0UFRCdVNLTF9rNEln?oc=5",
+      "source": "Северный маяк",
+      "published": "Thu, 24 Jul 2025 07:00:00 GMT",
+      "summary": "Искусственный интеллект научился угадывать пенальти лучше вратарей Северный маяк"
     }
   ],
   "openPublications": [
@@ -292,50 +282,7 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://moonn.ru/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://moonn.ru/20251216",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
-      "url": "https://moonn.ru/20251213",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
-    },
-    {
-      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
-      "url": "https://moonn.ru/novosti20251113",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
-    },
-    {
-      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
-      "url": "https://moonn.ru/speaker",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
-    },
-    {
-      "title": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн",
-      "url": "https://moonn.ru/events_tp",
-      "source": "moonn.ru",
-      "published": "",
-      "summary": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "🌞 💜 ОТКРЫТ НАБОР В ПОДРОСТКОВЫЙ ЛАГЕРЬ ПО ПСИХОЛОГИИ 💜 🌞 ✨ Лето, которое меняет! Дорогие родители, у нас стартует особенный летний проект - подростковый лагерь по психологии для те",
