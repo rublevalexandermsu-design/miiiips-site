@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T08:47:23.874672+00:00",
+  "generatedAt": "2026-05-27T08:50:52.526683+00:00",
   "ticker": [
     {
       "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
@@ -27,9 +27,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "Легковесные системы ИИ стали лучше распознавать сложные эмоции - Наука РФ",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRlIyVi1WNnVCWnpRQXZnQ2lwSXFISUE4d1ZLd0VJODFvVmxyZ05YUzlXY0xjSmdwTTN0RHp2TXhqX25BNGVob0FYdEVwcGt2WEVyRzhwSUs3Vll5cVJNTHg4ODBiUk0yRkd1QlpBRDFBQTdOdWZRTUFVNGRIX1JaYXdjQXVyR1JTZGIzS3UxV3BRMEVqVVVtTXl2d25PLXpFYVFWeA?oc=5",
-      "source": "Наука РФ"
+      "title": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» - Высшая школа экономики",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDVVZTYkhxWE9CLXN1M0x5ZFplQ2dlMHdOekViUW83a2VQMEg4Y1hnRG9ncVhrRXprSkV6bzJTTkpXbEM4NUI3dGJ2YUdHRFFseTBXdE1B?oc=5",
+      "source": "Высшая школа экономики"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -47,24 +47,29 @@
       "source": "Vietnam.vn"
     },
     {
+      "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBONG1jWFRWNXpWbzZOaS1UUTlSakNHcDZ5bVI1eGRqNzBuMjZNd3NHY2JUTUFNTTdvR0RHVGJVaw?oc=5",
+      "source": "Психологическая газета"
+    },
+    {
+      "title": "Успех в работе с ИИ зависит от адаптивности - Электронная газета «Век»",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNanB1NGl0SThJU0NnVFBkMWdsSTBOWXJHTmtmVkxockk1Yk5SQXA4UVlOUnIxTmk1eUV3WV8zdjdWX1c2djlEc3o1LTg2TUotSmluRk55XzFicTVUbUE4ZnZmY1ZzMk9nQkdFZnptZ25tbUpmZzV3TFk5NHpFdnBUVFRkY05kT2JUWktpXzZrcUs5YnRJejVETVlmYlBEVXJra1d1QURJRDNKbTEwQmR1a2xPaTVYLUZn?oc=5",
+      "source": "Электронная газета «Век»"
+    },
+    {
       "title": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея - Ведомости",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFlzMndHaWxxZ2ZfQmw4SEZpTnZBbUJ4VlNvM1FNYUpheWxyN2lRRFc2ZUhPQXFRY2ZJampRclVsOF9lMHBTMkVMb2Y2OFRISU5qVzByc0x0MEd2SnBPV2MtdUtmbjZKNDlvaUNxOUdQZkhrWUFNcUUzYU9jeVdGV2tMY290cHVvZlU1TTR1eks?oc=5",
       "source": "Ведомости"
     },
     {
-      "title": "97% крупных российских компаний уже внедрили ИИ либо планируют - KGD.RU",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPamN4ZUN4anJYaE1hcHhoaDJSWFZRMVUydlowU0VpQm50MXBCNjNCMk5WV08zcl9kUk9BYUx4ckpXTTNnRmdsNGZrZTlrTzViT0luZTF5R2tlbHZZeUY0c0RhMUFBNHRaZlZVZFRaWEVoTmRZbktTNkU0dW1XV2JqeWJGOTRid2tFRWs2YUtzaTR5cG5PMGRXUEhjS2xXdkNx0gGmAUFVX3lxTE1icFR3VXY5YllEOTBGYUFRYy11cFFzSHZfNlZHMmZ5X2dtNzhObVY5U1dRek1US0RIVVlqYnN2SDEtc1lycWw1SGlGc0JXR21hSlB6N1JtOGt0VjZoZ3RtVWM4SW5XdlU0bGU5TkVjTHJvWXhzQ1BRLU9MaGRUMjNYTGRLQm0wZjRoMDVTU1ZhY0VMYVFHaTYtcC04cG00N01IYkEtMlE?oc=5",
-      "source": "KGD.RU"
+      "title": "Саранский кооперативный институт открывает новые специальности в вузе - Известия Мордовии",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOenlaVzgwYk02RGIzTUpWZDViNzZCVm45Wmtna29WN2FuQTc2bFlKdkZyMUp2c3V0T2d1U2pNVnRmZ3J5eUwyS0RIdlQ5Y0UwWVMyVVpOUjNWcXBkOEhUREt2eW5lTWlzU0NxeEN0am00bkt5NkE3ZzZJdHZBWi01bnRONE9ZSUc1TGtKaVNxNnRRWTNSRFZwVG9zV2I0RjRnZ1pRSU5DSmRjdw?oc=5",
+      "source": "Известия Мордовии"
     },
     {
-      "title": "Дмитрий Чернышенко провёл совещание по готовности к приёмной кампании 2026/2027 учебного года - Правительство России",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9pa0lWY19BQ1JySTBweXdJQjh2OWxGR0dCV29mR3dEY2VYZTREeGg2WXdXbXFVOXFYMnYxTUlVVGExSG5RVHh3?oc=5",
-      "source": "Правительство России"
-    },
-    {
-      "title": "Российские вузы перейдут на новую систему образования с 1 сентября - VladNews",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoQlVTOTJjV2FNYXV0VEk5TU03V012OVFaejVHd1Q0Vmx0NTJIZG12dG5CdkJMalFpNmgzdTNZNTcxbzUtbnYycUJzOEhvV256RlM1Q25aT1dUYU1KcXFEQUhoMNIBaEFVX3lxTE5LMDNmWmxpbUNLeWVmSVBGcFpWNFlwcFJtTUhmSnBYYlFkOGU3RHMwR0NTZDFyaXR5UGpPUHA2UFJOdXdPREVtcVRBUkVGaUN1b1RSUjl5MFhZSTNsaTZYSmgwS2FCb2d3?oc=5",
-      "source": "VladNews"
+      "title": "В Бердске предварительная запись в колледж университетский. Высшее образование - Бердск-Онлайн",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakctRlFsdzRfazdvX0twQ2ZCMjFYWVNicjh6andVY0RSWDVrcDVvd1pmSkpPWmpQQm5iZHZoQ2F4Nkk1cm02SnBqV0FCOWdsTjdPZFBfNnYxOFQ1MmtCdUZ6ZWNRUDVReHpuNzlweGR6Ml9ScTdfdVVSSlpZeHM0Sk9UVWZLZjBVc09sOWY1b0hsZEdaSWJPQXNKV05xeVZBSWktWFBoLUxoQVE0amNEVTBmMzY1RmZuTzl0ajJZbFRPRDdpNXR1Mnk3TXdUY0pt?oc=5",
+      "source": "Бердск-Онлайн"
     }
   ],
   "psychologyTrends": [
@@ -74,13 +79,6 @@
       "source": "Vietnam.vn",
       "published": "Tue, 26 May 2026 00:13:56 GMT",
       "summary": "Приёмная комиссия 2026 года: выбор психологии в качестве специальности — карьерные возможности с точки зрения искусственного интеллекта? Vietnam.vn"
-    },
-    {
-      "title": "15 — 16 октября. Москва, online - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE53ZWhBUDZKaUJJZTluWDhfeWVjQzVXVGNENXpJS2FmckJzWThCcGpNRi1yTURUZ0JEMVl1N21ad2J0bnZhVG1R?oc=5",
-      "source": "Психологическая газета",
-      "published": "Mon, 25 May 2026 10:08:54 GMT",
-      "summary": "15 — 16 октября. Москва, online Психологическая газета"
     },
     {
       "title": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим - Психологическая газета",
@@ -97,6 +95,13 @@
       "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     },
     {
+      "title": "14 — 15 мая. Москва, online - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1jN1JMRkdjNlYxak41U1ZUU1o3SDlZSVZ2LW1wT1hkN3YteWs4aWFaUS1lNS02WkN0R2x2Q0FvLWNXclFnTDlz?oc=5",
+      "source": "Психологическая газета",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "14 — 15 мая. Москва, online Психологическая газета"
+    },
+    {
       "title": "Психология будущего: заменят ли нейросети психологов - Казанский федеральный университет",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY09ZMElKM1BpdlRpMUxKZzlzVTFuVWkzSGxSRGw0ckRaMDZCS0xuSmpxYlk3M3hvTkl4ZWstRHF6bGpaZlVoSktWdlhIUTRCbEN5MkNaVzl3NWVxb3BOOG1WSXlMaGNwTHgwLVlNaG41U3poR3pSaEpseG9NbzFwNXpkTVdMX0xOeEo0cw?oc=5",
       "source": "Казанский федеральный университет",
@@ -104,55 +109,55 @@
       "summary": "Психология будущего: заменят ли нейросети психологов Казанский федеральный университет"
     },
     {
-      "title": "Что нас ждет? Психология в поиске новой устойчивости - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1RNUNjRkxIbzhlc2ZRYXJxU1l6LWpnYVp1WUxyRmFoNkdtM0RHQ0E1ei1JQWtwMnNqVmRmUnpORzVGMVc0?oc=5",
+      "title": "10 апреля. Рязань, online - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBFekVoTlpmbmNycm9PeHY1dFV4U21Ta3UtVjFzbkUwSTJPc2NmNVhnSThkTGZQeWlZSzhKU05yQnVhbkVmNGcw?oc=5",
       "source": "Психологическая газета",
-      "published": "Sat, 18 Apr 2026 07:00:00 GMT",
-      "summary": "Что нас ждет? Психология в поиске новой устойчивости Психологическая газета"
+      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "summary": "10 апреля. Рязань, online Психологическая газета"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Дмитрий Чернышенко провёл совещание по готовности к приёмной кампании 2026/2027 учебного года - Правительство России",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9pa0lWY19BQ1JySTBweXdJQjh2OWxGR0dCV29mR3dEY2VYZTREeGg2WXdXbXFVOXFYMnYxTUlVVGExSG5RVHh3?oc=5",
+      "title": "Саранский кооперативный институт открывает новые специальности в вузе - Известия Мордовии",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOenlaVzgwYk02RGIzTUpWZDViNzZCVm45Wmtna29WN2FuQTc2bFlKdkZyMUp2c3V0T2d1U2pNVnRmZ3J5eUwyS0RIdlQ5Y0UwWVMyVVpOUjNWcXBkOEhUREt2eW5lTWlzU0NxeEN0am00bkt5NkE3ZzZJdHZBWi01bnRONE9ZSUc1TGtKaVNxNnRRWTNSRFZwVG9zV2I0RjRnZ1pRSU5DSmRjdw?oc=5",
+      "source": "Известия Мордовии",
+      "published": "Tue, 26 May 2026 15:29:00 GMT",
+      "summary": "Саранский кооперативный институт открывает новые специальности в вузе Известия Мордовии"
+    },
+    {
+      "title": "В Бердске предварительная запись в колледж университетский. Высшее образование - Бердск-Онлайн",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakctRlFsdzRfazdvX0twQ2ZCMjFYWVNicjh6andVY0RSWDVrcDVvd1pmSkpPWmpQQm5iZHZoQ2F4Nkk1cm02SnBqV0FCOWdsTjdPZFBfNnYxOFQ1MmtCdUZ6ZWNRUDVReHpuNzlweGR6Ml9ScTdfdVVSSlpZeHM0Sk9UVWZLZjBVc09sOWY1b0hsZEdaSWJPQXNKV05xeVZBSWktWFBoLUxoQVE0amNEVTBmMzY1RmZuTzl0ajJZbFRPRDdpNXR1Mnk3TXdUY0pt?oc=5",
+      "source": "Бердск-Онлайн",
+      "published": "Wed, 27 May 2026 04:01:44 GMT",
+      "summary": "В Бердске предварительная запись в колледж университетский. Высшее образование Бердск-Онлайн"
+    },
+    {
+      "title": "Минобрнауки пересмотрит ограничения на платный прием в вузы - ВФокусе Mail",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcWxEUlJDZVV3ekJyejNuMlFzU2xlRERWOWxxdDl3MzYwdVpTb0JpN1RvZU1IUkFHeWZtS25lYjhRYThGUDR5NVN1d2ZGVzB3a1RfR1BxejRmaFBHZVJSZlZRVy1vd3M1X19LM1VGTm82TDJtWHZGRVZEVjREeFVwOFh6eV9YbENqbzd0amc1cTlQOVd3WEtVaVMzMjBmOFJOcEE?oc=5",
+      "source": "ВФокусе Mail",
+      "published": "Tue, 26 May 2026 10:55:14 GMT",
+      "summary": "Минобрнауки пересмотрит ограничения на платный прием в вузы ВФокусе Mail"
+    },
+    {
+      "title": "Не ждите, пока у вас не получится поступить в университет, чтобы выбрать вуз. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtbk1Da0VlZkt6NkJiRUo5aF9kdHI0Nmh3d0UwaVlyWXliM1g4dmZtbnhkVFNDUE00WEpTbWk2MXI2LV9sVlNoSFlzX3V6N2hwQ0NQZEVnaUs3RFpsSjIzeXFybWt6UlZPa05ESkh1eDZsUkVw?oc=5",
+      "source": "Vietnam.vn",
+      "published": "Wed, 27 May 2026 07:11:26 GMT",
+      "summary": "Не ждите, пока у вас не получится поступить в университет, чтобы выбрать вуз. Vietnam.vn"
+    },
+    {
+      "title": "Вузы МЧС России: о требованиях к абитуриентам и отсрочке для курсантов - Кубань 24",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSGowQ0ZtcnVZc0plUGNTSE1ZWm9yT1FFaWJ3YTRQZ3c5SVhENjBHeEt5MHAyNzVrZTRPNVgwUHhVWExMS2pXVTBMY0JSM0pyb0ltT2s3Zk5JSGlMSnMtN3NmWVJybWNsLUVUM0ZYeW5fMGd0V1RITGJKM1hROVROY09RWVVHaXNGaW9sckVfenBtMUtqV1liRWZQNzZDUQ?oc=5",
+      "source": "Кубань 24",
+      "published": "Tue, 26 May 2026 15:08:23 GMT",
+      "summary": "Вузы МЧС России: о требованиях к абитуриентам и отсрочке для курсантов Кубань 24"
+    },
+    {
+      "title": "Александр Новак: CASE-IN вносит весомый вклад в подготовку нового поколения специалистов для ключевых секторов экономики - Правительство России",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE40RmZVbkJtQ2lYM2NEa2FOOXg2MGtLMlY1dEZmZGhZZFBXRG5UZFJjclhiMFJ3TmRCX3F5M2s4SnNrczBPdE9j?oc=5",
       "source": "Правительство России",
-      "published": "Mon, 25 May 2026 17:13:31 GMT",
-      "summary": "Дмитрий Чернышенко провёл совещание по готовности к приёмной кампании 2026/2027 учебного года Правительство России"
-    },
-    {
-      "title": "Российские вузы перейдут на новую систему образования с 1 сентября - VladNews",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoQlVTOTJjV2FNYXV0VEk5TU03V012OVFaejVHd1Q0Vmx0NTJIZG12dG5CdkJMalFpNmgzdTNZNTcxbzUtbnYycUJzOEhvV256RlM1Q25aT1dUYU1KcXFEQUhoMNIBaEFVX3lxTE5LMDNmWmxpbUNLeWVmSVBGcFpWNFlwcFJtTUhmSnBYYlFkOGU3RHMwR0NTZDFyaXR5UGpPUHA2UFJOdXdPREVtcVRBUkVGaUN1b1RSUjl5MFhZSTNsaTZYSmgwS2FCb2d3?oc=5",
-      "source": "VladNews",
-      "published": "Mon, 25 May 2026 14:26:00 GMT",
-      "summary": "Российские вузы перейдут на новую систему образования с 1 сентября VladNews"
-    },
-    {
-      "title": "Большие перемены: в России пересматривают контроль за платным набором в вузы - ruinformer.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2lZWnhFb1doa1pZNlJyaHBaaGJxYkJiTEx6NjdDZl80cDB1X0JLQUY5SzFMWmxSM2Q5ZnYyQ05odWw4Qld0QnRlUlpIUlV4V0d4eDRRQXhPaERNRS02Q3ZhUHJ5UGZsOHRvUUhlVGxnMWVFVmZyaGItRmFXYmJLel9CVkhORnVYdE1SU1c2V0JmbURTU2hVbmMtcFFqVl9LMGw0MnpR?oc=5",
-      "source": "ruinformer.com",
-      "published": "Mon, 25 May 2026 14:48:47 GMT",
-      "summary": "Большие перемены: в России пересматривают контроль за платным набором в вузы ruinformer.com"
-    },
-    {
-      "title": "Туляков информируют об изменениях в правилах поступления в вузы - Газета Тула",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAyZUg1cVN0VWVkM3pHYXp1bUtoaDBPT1pINzZzQldPckZEby1MdGNYOFRiZ25PNk4zY3ltU2EwSUxUbFJReWJsMUZtblY?oc=5",
-      "source": "Газета Тула",
-      "published": "Mon, 25 May 2026 16:50:58 GMT",
-      "summary": "Туляков информируют об изменениях в правилах поступления в вузы Газета Тула"
-    },
-    {
-      "title": "Образование за миллион: почему диплом российского вуза дороже европейского и что получает за эти деньги студент - Пруфы",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTmFDS1VuNzNDMnVDd3ZQU3IyNmo5VGxlYnFOZjZrTkVJWlNLeVdIcTdFaHlDRGpmUlVPem4xMW5TVFNzbGU0STdMX3UxeEVwcmxBQzhhMmltWTJ0R2tya2FVV0FXTTNSbnp5QTBsQ3BPTWJwUU1tMlBCemtVOFN1MzBURE9sdzdxTjVvRFdnNV95WGN3TEtLWWRYWHJVQVp6UjBGVEtWdklrY3ZTWTlZZ1p2MlVpNnVaWklhZndoZ0VVaVB3VWt3NWZhWjhzaTRvakFNYdIB3AFBVV95cUxQYVgwck9KbTNFU3dqa0ZQdjByc0Q2ZHpXdXpTVW5KcnJiWHhhNkNxNG9sREh1T3FSWm0zRm55bXk3NlRKNFBLVC1veUhNc3ZfQkswNW9yRDZ3dGNGTkkydFRoNy1XbThVc01mVVU2amNWeHhIT3N6Y2k2SEdkcGVpZ19heXpwaVhzSXRvTUcyWUFjU2F4SjV5MC04YmhiaGdNRDNpdmtUdW5uQV9faGs0d0hYczR0WTRQRVR3azdIME9xV1Q5NEJmb2xIT1ZkVG9TMTE3VGRuQUM0RlJs?oc=5",
-      "source": "Пруфы",
-      "published": "Sun, 24 May 2026 12:00:00 GMT",
-      "summary": "Образование за миллион: почему диплом российского вуза дороже европейского и что получает за эти деньги студент Пруфы"
-    },
-    {
-      "title": "Платный приём в вузы сократят почти на 47 тыс. мест — сильнее всего ограничат набор юристов и экономистов - RB.RU",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM3lsdlYtSEZMUmdXNGwySFE2Zm5DdnBDVVUxWlNWeEZXZ2pJb21XZXFYcWRNNG9iZU83Sks5WERaZWhRdDlNNF9QdkYzdk5RT3JkTFp2SWJQQUJadFFSVlNYWEpIYUh2enhaQjg3dW5PcEJxWjlUaE9kbDNoYkNacXl4NTVjeFQxOW50ZWYtUkVOekdDeUxsMEVmRFIxSElEdVF1T3JCMUowSmFtNmM0VTNjb09RSF9vd0dwSGhHWlpqQ2hT?oc=5",
-      "source": "RB.RU",
-      "published": "Mon, 25 May 2026 15:40:00 GMT",
-      "summary": "Платный приём в вузы сократят почти на 47 тыс. мест — сильнее всего ограничат набор юристов и экономистов RB.RU"
+      "published": "Tue, 26 May 2026 15:41:00 GMT",
+      "summary": "Александр Новак: CASE-IN вносит весомый вклад в подготовку нового поколения специалистов для ключевых секторов экономики Правительство России"
     }
   ],
   "conferenceUpdates": [
@@ -162,6 +167,13 @@
       "source": "Психологическая газета",
       "published": "Mon, 25 May 2026 10:08:54 GMT",
       "summary": "15 — 16 октября. Москва, online Психологическая газета"
+    },
+    {
+      "title": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» - Высшая школа экономики",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDVVZTYkhxWE9CLXN1M0x5ZFplQ2dlMHdOekViUW83a2VQMEg4Y1hnRG9ncVhrRXprSkV6bzJTTkpXbEM4NUI3dGJ2YUdHRFFseTBXdE1B?oc=5",
+      "source": "Высшая школа экономики",
+      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "summary": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» Высшая школа экономики"
     },
     {
       "title": "Легковесные системы ИИ стали лучше распознавать сложные эмоции - Наука РФ",
@@ -178,34 +190,41 @@
       "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
     },
     {
+      "title": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ndXNhWU8tRU96WWx6RWtOV1ZTQ3NBSVRmMjA4dzFvOXdleHZVcmdwMnJTemx3UVpaVjA5X3JDTG14MERIbXoxM0pqWlA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Tue, 20 Jan 2026 13:42:02 GMT",
+      "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
+    },
+    {
       "title": "Психология в моей будущей профессии - Московский городской педагогический университет",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ibVNXanhRbjdRY2tmaVlVZlRJdDdiZzg4ZUxzQzdKS2NLMHFNNGp4Y3BIYzVRQno1Y3pGVExnTHhmdHJwcFRkazNnQmNiNWlIRnU2MVpnX21qOFotQ3EyTk9iX21tYUN4VXpJ?oc=5",
       "source": "Московский городской педагогический университет",
       "published": "Sun, 21 Apr 2024 07:00:00 GMT",
       "summary": "Психология в моей будущей профессии Московский городской педагогический университет"
-    },
-    {
-      "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjNkc2QzRTd6VzZ5Q3Q3QnBCeGMtQUVjbHk3WVhHUlVYdW1KVm1RUUsyaUt1UEtqZ2xwc1BKZEstb0pvY3VBNXBSM3p6THFsSTJ2SmF0eTJVbG16eEhPNE9NNTd2RU9CTmQ3TzNMNlYwVnZTYWlzTDhYb1cyN245ZG1yaFlZTzFwdmVQTENxcGxlZlVMc0pOYXcxNU5EaURZYXpUUGx2QkJOMW1tdDAwLVdVMnpQTkhF?oc=5",
-      "source": "Biz360",
-      "published": "Fri, 07 Feb 2025 08:00:00 GMT",
-      "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
-    },
-    {
-      "title": "Предпринимателей СЗФО приглашают на бизнес-форум СберБизнес|Live «Перезагрузка бизнеса» - KGD.RU",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQblp1QkNvakcwUjhZZFRDUlVXMllXd1NzNFZNT1ZDbkx4a0RiTGotOThtUS1vNVgzc2hvT2pTSXlJWE9iQl9HWGRPS2pkNmt2cVhYTHp3VzlnajRwc2pGTFBCRHEyUXh1bFNlZmY3RERBMHlyWVh0WmFpai1hcURiNXIzMU9NejRHNlo2Mm1yd3U2VVlLYTRYVThabzdWbks4U1dnTWl3T3hPR19OcVREQk9peDR4ZjFJQmfSAb8BQVVfeXFMTzBjZGN2RW1JckFDWWlyVnAyQ2RrX1ZlYWwyVy1Vb2tiNkRobkpDV3BISjBjeDBoQUpYSGZ5NmlzYkxSYWFGbzh0OWFUNnQ3LVVOcndaNTkwWEhFRkl3bWc1RVV6dGltcF9SMVZhckhoVHBzSXU0TWRoeV9ucUxuY3FHb2hmV21BV3ZTenZKdEFBZUJqZ0ZDUWpLUW9GT3BqZ2FZekVzMTFNRzVhOEk0N21zVGN5b1Z2STdTQlktNUU?oc=5",
-      "source": "KGD.RU",
-      "published": "Sat, 10 Sep 2022 07:00:00 GMT",
-      "summary": "Предпринимателей СЗФО приглашают на бизнес-форум СберБизнес|Live «Перезагрузка бизнеса» KGD.RU"
     }
   ],
   "sportAiUpdates": [
+    {
+      "title": "Успех в работе с ИИ зависит от адаптивности - Электронная газета «Век»",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNanB1NGl0SThJU0NnVFBkMWdsSTBOWXJHTmtmVkxockk1Yk5SQXA4UVlOUnIxTmk1eUV3WV8zdjdWX1c2djlEc3o1LTg2TUotSmluRk55XzFicTVUbUE4ZnZmY1ZzMk9nQkdFZnptZ25tbUpmZzV3TFk5NHpFdnBUVFRkY05kT2JUWktpXzZrcUs5YnRJejVETVlmYlBEVXJra1d1QURJRDNKbTEwQmR1a2xPaTVYLUZn?oc=5",
+      "source": "Электронная газета «Век»",
+      "published": "Wed, 27 May 2026 08:07:00 GMT",
+      "summary": "Успех в работе с ИИ зависит от адаптивности Электронная газета «Век»"
+    },
     {
       "title": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея - Ведомости",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFlzMndHaWxxZ2ZfQmw4SEZpTnZBbUJ4VlNvM1FNYUpheWxyN2lRRFc2ZUhPQXFRY2ZJampRclVsOF9lMHBTMkVMb2Y2OFRISU5qVzByc0x0MEd2SnBPV2MtdUtmbjZKNDlvaUNxOUdQZkhrWUFNcUUzYU9jeVdGV2tMY290cHVvZlU1TTR1eks?oc=5",
       "source": "Ведомости",
       "published": "Thu, 16 Apr 2026 07:00:00 GMT",
       "summary": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея Ведомости"
+    },
+    {
+      "title": "Названы отрасли, где сложнее всего найти работу: дело совсем не в высоких зарплатах - MenToday",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVFdiSjlTY1A2ZGMyME9waXRVWDlxRnFSOHBKZFdzYXRMcGFGRjczQi1kOHdMMUszUW9QQ09pLVFCM1pLRGk3ZGRuaTZTSjVIaEVLUTltTWhLTHN3RGI1VFZYSXdFU3NKUDBxRFltNlpPekF1ekh3TkNKX25WaEtqY1Q4UmdfeUhSMklTcnFwUGZXaG9lMGgwMjE5X0xGYl9neHRtZlc1MzRTNWNxb3B2aTlvT05LWDA2bnVmZU1Bdk12S2JXWEE?oc=5",
+      "source": "MenToday",
+      "published": "Tue, 12 May 2026 11:54:00 GMT",
+      "summary": "Названы отрасли, где сложнее всего найти работу: дело совсем не в высоких зарплатах MenToday"
     },
     {
       "title": "97% крупных российских компаний уже внедрили ИИ либо планируют - KGD.RU",
@@ -227,20 +246,6 @@
       "source": "Tomsk.ru",
       "published": "Tue, 24 Feb 2026 08:00:00 GMT",
       "summary": "Томские психологи проверили надежность ИИ-консультантов Tomsk.ru"
-    },
-    {
-      "title": "Фитнес-революция: ИИ строит тренировки, а живой тренер остаётся незаменим с эмпатией в сердце - Moneytimes.Ru",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NcnZkaEZwMHB2OU0wbV9ENE8zRmNjRllidzE4cVdiNXNOSVJwTG9Qa1BEWVNmc0dleVVMZExESDZxSkExVjBMTGpVcThuVHZlcUstUlk4dWFwNDVTNGZhRURsVXNuQUtEOVRQU1F3M0VNU2dH0gF6QVVfeXFMUGFfc0h3emJJMmU2aVVTako4NDRMbV9BVlNtRFUzWDcxM0JkcHMwdjdNZDRlbGlPSDZjMFBSRDRFSkVFc3g0WmF0eVRPZ3l5alp4QTV3SU5YVW5Ib2p1R2pFSm5JcTU2RTE2UjVuOTRLR2I4Q3B5Vl9oaWc?oc=5",
-      "source": "Moneytimes.Ru",
-      "published": "Sat, 04 Apr 2026 07:00:00 GMT",
-      "summary": "Фитнес-революция: ИИ строит тренировки, а живой тренер остаётся незаменим с эмпатией в сердце Moneytimes.Ru"
-    },
-    {
-      "title": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов - Правда.Ру",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LS003Qjh1Y1VoOFZyM29iUXlNbTBhZXphQ3JwR1VZQ09wNVVRWDd1V01IaXRrLUpRWXUtTTlZdGhyUFFHdTg5RURWTS05Z3BlT2N3MVgtRlRLYlR0TVd2Y3ViYVJSRkdpRlRLdQ?oc=5",
-      "source": "Правда.Ру",
-      "published": "Mon, 13 Oct 2025 07:00:00 GMT",
-      "summary": "Спорт будущего уже здесь: вот как искусственный интеллект заменяет фитнес-инструкторов Правда.Ру"
     }
   ],
   "openPublications": [
