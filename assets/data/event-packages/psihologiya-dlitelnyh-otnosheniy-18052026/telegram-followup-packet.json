@@ -1,0 +1,69 @@
+{
+  "eventId": "psihologiya-dlitelnyh-otnosheniy-18052026",
+  "eventTitle": "Психология длительных отношений",
+  "eventDate": "2026-05-18",
+  "channel": {
+    "type": "telegram_channel",
+    "url": "https://t.me/moonn_official",
+    "handle": "@moonn_official"
+  },
+  "status": "channel_post_sent",
+  "approvalGate": "User approved channel publication on 2026-05-19; future posts still require explicit approval before channel send.",
+  "source": {
+    "transcriptPath": "registry/institute_materials_pool/inbox/лекции_по_понедельникам/20260518__drive__lecture__psihologiya-dlitelnyh-otnosheniy/transcript.md",
+    "miiiipsLivePage": "https://miiiips.ru/event-psihologiya-dlitelnyh-otnosheniy-18052026.html",
+    "photoPath": "assets/images/lectures/2026-05-18-psihologiya-dlitelnyh-otnosheniy-ponedelnichnaya-spiker-po-10045c07.jpg"
+  },
+  "moonnLinks": {
+    "lecturePurchase": {
+      "url": "https://moonn.ru/events_tp#rec2169931711",
+      "status": "confirmed_by_user_tilda_tbank_payment_page",
+      "note": "Use the published Moonn events page confirmed by the user as the payment route for this lecture. Static HTML contains the target lecture card at #rec2169931711 and a Tilda/TBank cart on the same page.",
+      "checkedCandidates": [
+        {
+          "url": "https://moonn.ru/lectures1",
+          "result": "general_archive_no_direct_tilda_checkout_for_this_lecture"
+        },
+        {
+          "url": "https://moonn.ru/events_tp#rec2169931711",
+          "result": "user_confirmed_working_payment_page_for_this_lecture"
+        },
+        {
+          "url": "https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555",
+          "result": "direct_tilda_tbank_checkout_found_but_for_another_masterclass"
+        }
+      ],
+      "requiredAction": "Use this confirmed route for the published Telegram follow-up post."
+    },
+    "teenCamp": "https://moonn.ru/podrostkovyy-lager-psihologiya",
+    "examPrep": "https://moonn.ru/psypodgotovka1",
+    "consultations": "https://moonn.ru/#order:%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D1%8B%20%D0%9C%D1%83%D0%BD%D0%BD%20=8000:::image=https://cdn.jsdelivr.net/gh/rublevalexandermsu-design/moonn-psy-pages@85584ecd84fee5511a6fed6b593aaea22c4b22de/assets/timepad/tatiana-munn-psychological-consultation-msu-online-offline-moscow-timepad-2026.png",
+    "review": "https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel"
+  },
+  "postTextFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-draft.md",
+  "telegramMessage": {
+    "captionHtmlFile": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-message.html",
+    "parseMode": "HTML",
+    "disableWebPagePreview": true,
+    "visibleCaptionChars": 831,
+    "captionLimitGate": "Keep visible caption text below 1024 characters when sending as Telegram photo caption.",
+    "linkStyleRule": "Use Telegram HTML links: visible text only, URL hidden in href. Do not paste raw long URLs into the visible message.",
+    "testSendTarget": "Private Telegram chat with Tatyana Moonn",
+    "testSendStatus": "sent_via_telegram_desktop_gui_2026-05-19T19:04:00+03:00",
+    "testSendProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-test-send-proof.png",
+    "lastPrivateTestStatus": "sent_after_user_text_edits_via_telegram_desktop_gui_2026-05-19T20:07:00+03:00",
+    "lastPrivateTestProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-test-send-proof-v2.png",
+    "channelSendStatus": "sent_via_telegram_desktop_gui_2026-05-19T20:44:00+03:00",
+    "channelSendTarget": "https://t.me/moonn_official",
+    "channelSendProof": "assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-channel-send-proof.png",
+    "channelSendVerification": "Visual Telegram Desktop proof confirms the post appears in the channel with the event photo and embedded blue Telegram links.",
+    "implementationNote": "Telegram Desktop GUI route verified: attach photo, paste HTML clipboard into caption via context menu to preserve embedded links, invoke the Send button through UI Automation.",
+    "deliveryClient": "Telegram Desktop"
+  },
+  "mediaPolicy": {
+    "sendPhoto": true,
+    "sendVideo": false,
+    "noPublicDriveLinks": true
+  },
+  "workflowRule": "After MIIIIPS event publication and live verification, prepare Telegram follow-up draft from transcript, attach the event photo, verify Moonn paid lecture route and four standing Moonn links, send a private Telegram preview, stop for explicit user approval, then publish to https://t.me/moonn_official and store proof."
+}

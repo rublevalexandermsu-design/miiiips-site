@@ -251,3 +251,74 @@ Append-only project history for `miiiips-live-publish`.
   - Follow-up rule: before reporting a site event complete, verify the actual deploy branch from `.github/workflows/pages.yml`, then check the live URL for image, video, JSON and absence of placeholder/Drive leakage.
 - Existing unrelated blockers:
   - `tools/site_release_guard.py` still fails on older unrelated `events.json` records with missing `materials` and stale `data-fusion` links. The current event is no longer among those guard failures.
+
+## 2026-05-19 — Event Workflow Extension: Telegram Follow-Up
+
+- Project: MIIIIPS public site / Moonn communication funnel.
+- Workstream: `miiiips-event-publication` + `telegram-followup-post`.
+- Trigger: user requested that every published Monday lecture also produces a Telegram channel post after the site page and calendar are live.
+- Decision:
+  - Extend the fixed Monday lecture template instead of creating a separate ad hoc Telegram process.
+  - Telegram publication is a downstream step after live URL verification, not a replacement for site publication.
+  - Post text must be derived from the transcript, use the event photo, link to the paid lecture route on Moonn, and include four standing Moonn offers: teen psychology camp, exam-prep course, consultations, and review page.
+  - Stop before sending the Telegram post and wait for user approval.
+- Created files:
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-draft.md`
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-packet.json`
+- Updated files:
+  - `docs/monday-event-template.md`
+- Verified facts:
+  - `https://moonn.ru/events_tp` lists `Психология ДЛИТЕЛЬНЫХ ОТНОШЕНИЙ` for `18.05.2026`.
+  - `https://moonn.ru/lectures1` is a general lecture archive/purchase-instruction page, not a direct Tilda/TBank checkout for `Психология длительных отношений`.
+  - `https://moonn.ru/recomend#order:Как быстро убрать негативные состояния=1555` is a direct Tilda/TBank checkout, but for another master-class, so it must not be used as the purchase route for this lecture.
+  - Standing Moonn links found from the homepage/cards: `https://moonn.ru/podrostkovyy-lager-psihologiya`, `https://moonn.ru/psypodgotovka1`, direct consultation `#order:Онлайн-консультация Татьяны Мунн =8000`, `https://moonn.ru/otzivi?ostavit-otzyv=1&source=homepage_reviews_banner#moonn-review-funnel`.
+  - User confirmed `https://moonn.ru/events_tp` as the working published payment page for the lecture; static HTML contains the target lecture card at `#rec2169931711` and a Tilda/TBank cart on the same page.
+  - Telegram draft was converted from visible raw URLs to Telegram HTML links and shortened to a photo-caption-safe visible length below 1024 characters.
+  - Private Telegram test was sent to the Tatyana Moonn personal chat via Telegram Desktop GUI with the event photo and embedded blue links; proof screenshot stored at `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-test-send-proof.png`.
+- Incident / follow-up rule:
+  - Symptom: event publication workflow previously stopped at site/calendar and did not create a channel follow-up draft.
+  - Root cause: Telegram follow-up was not encoded as a required downstream artifact in the event template.
+  - Resolution: add `telegram-followup-draft.md` and `telegram-followup-packet.json` as required post-publication artifacts.
+  - Follow-up rule: every future Monday lecture publication must end with a Telegram draft packet and explicit approval gate before channel posting; if the direct Moonn paid lecture checkout is missing, the draft remains blocked and must not silently fall back to a general page; if the user confirms a Tilda route, record that confirmation and the inspected page/card anchor in the packet.
+  - Telegram formatting rule: store a Telegram-ready HTML caption with `<a href="...">visible text</a>`, `parse_mode=HTML`, `disable_web_page_preview=true`, and send the event photo as the media; do not paste long raw URLs into visible Telegram text.
+  - Telegram desktop delivery rule: if no direct Telegram API connector is available, use the verified Telegram Desktop GUI route: attach photo, paste HTML clipboard into the caption via the context menu so embedded links are preserved, verify the preview visually, then invoke the send button through UI Automation. Public channel posting still requires explicit user approval.
+
+## 2026-05-19 — Telegram Channel Publication: Long-Term Relationships Event
+
+- Project: MIIIIPS public site / Moonn communication funnel.
+- Workstream: `miiiips-event-publication` + `telegram-followup-post`.
+- Branch: `codex/miiiips-live-fix-20260518`.
+- Trigger: user approved the corrected Telegram preview and asked to publish it to the channel `https://t.me/moonn_official`.
+- Published artifact:
+  - Channel: `https://t.me/moonn_official`.
+  - Event: `Психология длительных отношений`, 18.05.2026.
+  - Media: event photo `assets/images/lectures/2026-05-18-psihologiya-dlitelnyh-otnosheniy-ponedelnichnaya-spiker-po-10045c07.jpg`.
+  - Caption source: `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-message.html`.
+- Updated files:
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-followup-packet.json`.
+  - `assets/data/event-packages/psihologiya-dlitelnyh-otnosheniy-18052026/telegram-channel-send-proof.png`.
+  - `docs/monday-event-template.md`.
+  - `docs/codex-chat-history.md`.
+- Verification:
+  - Private Telegram preview after user text edits was sent at `2026-05-19T20:07:00+03:00`; proof stored at `telegram-test-send-proof-v2.png`.
+  - Channel post was sent at `2026-05-19T20:44:00+03:00`; proof stored at `telegram-channel-send-proof.png`.
+  - Visual proof confirms the post appears in the channel with the event photo and embedded blue Telegram links, not raw visible URLs.
+- Follow-up rule:
+  - Every future Monday lecture publication must treat Telegram as a downstream step of the same event workflow: create caption HTML, send private preview, wait for explicit approval, publish to channel, save channel proof, update packet/history.
+
+## 2026-05-19 — Canonical Event Workflow Updated
+
+- Project: MIIIIPS public site / Moonn communication funnel.
+- Workstream: `miiiips-event-publication`.
+- Branch: `codex/miiiips-live-fix-20260518`.
+- Trigger: user confirmed the channel post worked and asked to update the event publication algorithm with Telegram channel post steps.
+- Decision:
+  - Promote the Telegram follow-up from a case-specific note into the canonical event publication workflow.
+  - Keep `docs/monday-event-template.md` as the page-specific template and add `docs/event-publication-workflow.md` as the full machine-first publication/checklist canon.
+- Created files:
+  - `docs/event-publication-workflow.md`.
+- Updated files:
+  - `docs/monday-event-template.md`.
+  - `docs/codex-chat-history.md`.
+- Follow-up rule:
+  - Future event publication is incomplete until site page, calendar, manifests, Telegram draft packet, private preview proof and post-approval channel proof are synchronized or explicitly blocked.
