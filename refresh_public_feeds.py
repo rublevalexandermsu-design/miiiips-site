@@ -21,7 +21,9 @@ QUERIES = {
     'conferenceUpdates': 'конференция психология искусственный интеллект OR конференция спортивная психология OR конференция эмоциональный интеллект',
     'sportAiUpdates': 'спорт искусственный интеллект исследование OR спортивная аналитика OR спортивная психология технологии',
 }
-MOONN_URL = 'https://moonn.ru/'
+MOONN_URL = 'https://xn--l1acaw.xn--p1ai/'
+MOONN_PUBLIC_URL = 'https://мунн.рф'
+MOONN_SOURCE = 'мунн.рф'
 TELEGRAM_URL = 'https://t.me/s/moonn_official'
 CROSSREF_URL = 'https://api.crossref.org/works?rows={rows}&sort=published&order=desc&query.title={query}'
 
@@ -107,7 +109,9 @@ def fetch_moonn_updates(limit: int = 6) -> list[dict]:
         if 'Татьяна Мунн' not in text and 'Новости:' not in text and 'лекц' not in text.lower() and 'выступ' not in text.lower():
             continue
         if href.startswith('/'):
-            href = 'https://moonn.ru' + href
+            href = MOONN_PUBLIC_URL + href
+        elif href.startswith('https://moonn.ru'):
+            href = href.replace('https://moonn.ru', MOONN_PUBLIC_URL, 1)
         key = (href, text)
         if key in seen:
             continue
@@ -115,7 +119,7 @@ def fetch_moonn_updates(limit: int = 6) -> list[dict]:
         updates.append({
             'title': text[:180],
             'url': href,
-            'source': 'moonn.ru',
+            'source': MOONN_SOURCE,
             'published': '',
             'summary': text[:260],
         })
