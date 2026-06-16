@@ -322,3 +322,31 @@ Append-only project history for `miiiips-live-publish`.
   - `docs/codex-chat-history.md`.
 - Follow-up rule:
   - Future event publication is incomplete until site page, calendar, manifests, Telegram draft packet, private preview proof and post-approval channel proof are synchronized or explicitly blocked.
+
+## 2026-06-16 — Refresh Public Feeds GitHub Actions Domain Fix
+
+- Project: MIIIIPS public site.
+- Workstream: `miiiips-public-feeds`.
+- Branch: `main`.
+- Trigger: GitHub email reported `Run failed: Refresh public feeds - main`.
+- Symptom:
+  - Scheduled GitHub Actions workflow `Refresh public feeds` failed daily.
+  - Latest inspected failure was run `27610898959`.
+- Root cause:
+  - `refresh_public_feeds.py` still fetched Moonn updates from legacy `https://moonn.ru/`.
+  - GitHub runner could not resolve `moonn.ru`, causing `requests.exceptions.ConnectionError` before `assets/data/live-feeds.json` could be refreshed.
+- Fix:
+  - Updated `MOONN_URL` to `https://xn--l1acaw.xn--p1ai/`.
+  - Added public output base `https://мунн.рф`.
+  - Rewrites legacy absolute `https://moonn.ru` links from fetched HTML to `https://мунн.рф` if they appear.
+  - Updated Moonn source label to `мунн.рф`.
+- Verification:
+  - `python -m py_compile refresh_public_feeds.py` passed.
+  - Local `python refresh_public_feeds.py` wrote `assets/data/live-feeds.json`.
+  - GitHub workflow run `27628658572` completed successfully.
+  - GitHub Actions created commit `6c4819f Refresh public feeds`.
+- Commits:
+  - `2e35b68` — `Point public feeds to Moonn RF domain`.
+  - `6c4819f` — `Refresh public feeds`.
+- Follow-up rule:
+  - Do not restore `https://moonn.ru/` as a live fetch target. It is legacy-only. Use `https://xn--l1acaw.xn--p1ai/` for machine fetches and `https://мунн.рф` for public-facing links.
