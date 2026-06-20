@@ -215,6 +215,30 @@
       ]
     },
     {
+      "id": "compliance-agent",
+      "role": "Compliance Agent",
+      "skills": [
+        "internal-compliance-orchestrator"
+      ],
+      "domains": [
+        "reporting",
+        "compliance",
+        "calendar",
+        "telegram"
+      ],
+      "pages": [
+        "internal-compliance.html"
+      ],
+      "data": [
+        "assets/data/internal-compliance/internal-compliance-dashboard-data.json",
+        "assets/data/internal-compliance/reporting-registry.json",
+        "assets/data/internal-compliance/reporting-pack.json"
+      ],
+      "scripts": [
+        "internal-compliance-dashboard.js"
+      ]
+    },
+    {
       "id": "qa-agent",
       "role": "QA Agent",
       "skills": [
@@ -268,6 +292,10 @@
     ],
     "research": [
       "research-agent",
+      "qa-agent"
+    ],
+    "internal-compliance": [
+      "compliance-agent",
       "qa-agent"
     ],
     "accounts": [

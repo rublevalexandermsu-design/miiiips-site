@@ -11,7 +11,7 @@ import requests
 SITE_ROOT = Path(__file__).resolve().parent
 BASES = {
     "local": "http://127.0.0.1:3007/",
-    "github_pages": "https://rublevalexandermsu-design.github.io/miiiips-site/",
+    "custom_domain": "https://miiiips.ru/",
 }
 
 class LinkParser(HTMLParser):
