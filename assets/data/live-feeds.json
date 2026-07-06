@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-07-05T08:23:16.247404+00:00",
+  "generatedAt": "2026-07-06T09:14:52.756020+00:00",
   "ticker": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф"
-    },
     {
       "title": "Наш сайт временно переехал на новый домен) Вот ссылка на сайт) Татьяна Мунн — психолог МГУ и эксперт по эмоциональному интеллекту https://share.google/sl3GPHYO2u91tWLkl мунн.рф теп",
       "url": "https://t.me/moonn_official/804",
@@ -22,14 +12,14 @@
       "source": "Telegram"
     },
     {
+      "title": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ndXNhWU8tRU96WWx6RWtOV1ZTQ3NBSVRmMjA4dzFvOXdleHZVcmdwMnJTemx3UVpaVjA5X3JDTG14MERIbXoxM0pqWlA?oc=5",
+      "source": "Психологическая газета"
+    },
+    {
       "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
       "source": "Официальный сайт Мэра Москвы"
-    },
-    {
-      "title": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBTeDJDV2hqbFpMcTZQLWhCUjdtSmMtb19lQjJ4TDdUWlVPQk9RUmFHYkdIeUwyNU1VbFU3MmV3?oc=5",
-      "source": "Психологическая газета"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -62,14 +52,14 @@
       "source": "24 Канал"
     },
     {
-      "title": "Прощайте, бакалавры и магистры: вузы РТ на пороге большой реформы - БИЗНЕС Online — Новости Казани",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10VzV4WHBpbG5xLXlxR3ZvMTRtcjlFMFM0MGw0TzRGSGdDdEpCd2FZa2xGY01LUXdlNktsV1llWTRLelM3RjlvaWV0VzNMNm5WWmJDb2tBWVg?oc=5",
-      "source": "БИЗНЕС Online — Новости Казани"
+      "title": "Впервые были изданы нормативные акты, регулирующие использование ИИ в высшем образовании и профессиональной подготовке. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcEpOM1k5ZVJ0czNaY21KN1U3S1hHYkxpR2kzaVZyOU83SFZ3N2NFbzB1SFljeGF3SzZUSWVUMmZNS3l0Q3ZSdUdzZGN3bWV6M1JHOEd6YjFBeUpMc3A3X3RhWjhiOU1XVFRXVHJ1VnRsaF9uNjB3VTlPLUg5WGlnYS12WUhtWUpTT0V1d21zT3Y3OFg1TEw2OG93VjgwMzE2VUd0OE9EZm0?oc=5",
+      "source": "Vietnam.vn"
     },
     {
-      "title": "Нейросети победили «финального босса» высшего образования. Крупный российский вуз разрешил студентам не писать дипломы - CNews.ru",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91WkxTNXVEd2R3aXA1N05DWTRsMEg0SHVuam16T1l3T214R0FtZVpxNGIwMDF6MEtDWnJmSUpxLTVwQkFidEJxWTd1aFY3T0ZIbkNqWURRbXRZQTg3MXhMTF8zNExnV1k5dm0teWtrS2w2YkppcmdmMg?oc=5",
-      "source": "CNews.ru"
+      "title": "Студентка АмГПГУ – лучший выпускник высшего образования Хабаровского края-2026 - Хабаровский край сегодня",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yZm8zd0xwblgyVnJGemZtMGdEcFVYMDZrQkU2di14dk81NTJEa3JUTnJDVkFDNDdhYjI5T3pOR3JqdTZSb1A5SHBaZFhWYzRL?oc=5",
+      "source": "Хабаровский край сегодня"
     }
   ],
   "psychologyTrends": [
@@ -102,65 +92,72 @@
       "summary": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» Высшая школа экономики"
     },
     {
-      "title": "Топ-5 книг про эмоциональный интеллект для HR-ов - Директор по персоналу",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUHhPYWhTV1VKX3IzN2FPTEgxTjVKYTg4T1psanJJWnp2LUxGbWt4ckZkSExlN0hadTluV3B0NW5XUFJGaERiakNmanBGb3dBbm81dllMdXJVMEFzdkk3N3ZVSk5raUNDQlNTMk9tbnZtMk5NX2NIVUwzVmFxTzNKVE1oc3ZobW8?oc=5",
-      "source": "Директор по персоналу",
-      "published": "Mon, 08 Dec 2025 08:00:00 GMT",
-      "summary": "Топ-5 книг про эмоциональный интеллект для HR-ов Директор по персоналу"
+      "title": "Интерфакс представил новое рейтинговое исследование психологического образования, в ТОП-5 - четыре государственных и один частный вуз - Интерфакс",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iWFJWWklhUkh3SFd2Z0QzbUFLQ3pmX2RzUlJsNGpRd0dIdi11VUZ0TGRyYWhrMTk3ZG5HcXlfNzZBYUZXb3A1MWx2WVRvYTFYMmN6SzNn0gFLQVVfeXFMTUtRNDQ2NDBCN2dBaHMyUGVPTUQtOEplMzk2d1hJV2Z4UDdhdnVoUXVMTXk5NzREZDRIM21NRGNhRkU5QkVwcDRIWjVZ?oc=5",
+      "source": "Интерфакс",
+      "published": "Tue, 19 Aug 2025 07:00:00 GMT",
+      "summary": "Интерфакс представил новое рейтинговое исследование психологического образования, в ТОП-5 - четыре государственных и один частный вуз Интерфакс"
     },
     {
-      "title": "Люди открываются ИИ больше, чем другим людям — выяснили психологи - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZG9IU2t0b0xaVE9nUVRXS3NJN2FfaTZLTzRDWEg2VnlvLUZHdVJ1VXB6eU5WUUVWS1Jkb2VGU1RXN2RoMVJIUV96QW5vTFBZRFBqS1l0dU1wQzZHaUNWOEZxbkt1b2NoMnluRDBhQmFsWWZEVkFtblY1R29sNGEyQ0k1cGYxR29UX0hUaXlnQ2xwZVlpYm9HNjAxcUVobTF2X1lLbXdMOA?oc=5",
-      "source": "naukatv.ru",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-      "summary": "Люди открываются ИИ больше, чем другим людям — выяснили психологи naukatv.ru"
+      "title": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту - Forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFdHRVNYVXplN1JDaDgwcHZGaUFXTHBoS3hVVWxXV09yQVZRLXpocjd5TmY1dWoxUHotcTY1Mm96NXJqZG5zZmNrNWZTYlNpMzNDT0tVdDlULUN2SWZUbzdlWVRkVVN1cXZqZjZjZ2hXeDBJMXFLTkFZdm1WZTk1RkQybHBhaWlRbXNpbVd1UlZzdE1jLTBMTDFNb2FZUlFLY2d0TURpdXlwbVVQR3BVQUFXbmFlZw?oc=5",
+      "source": "Forbes.ru",
+      "published": "Sat, 18 Oct 2025 07:00:00 GMT",
+      "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Прощайте, бакалавры и магистры: вузы РТ на пороге большой реформы - БИЗНЕС Online — Новости Казани",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10VzV4WHBpbG5xLXlxR3ZvMTRtcjlFMFM0MGw0TzRGSGdDdEpCd2FZa2xGY01LUXdlNktsV1llWTRLelM3RjlvaWV0VzNMNm5WWmJDb2tBWVg?oc=5",
-      "source": "БИЗНЕС Online — Новости Казани",
-      "published": "Thu, 02 Jul 2026 04:46:00 GMT",
-      "summary": "Прощайте, бакалавры и магистры: вузы РТ на пороге большой реформы БИЗНЕС Online — Новости Казани"
+      "title": "Впервые были изданы нормативные акты, регулирующие использование ИИ в высшем образовании и профессиональной подготовке. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcEpOM1k5ZVJ0czNaY21KN1U3S1hHYkxpR2kzaVZyOU83SFZ3N2NFbzB1SFljeGF3SzZUSWVUMmZNS3l0Q3ZSdUdzZGN3bWV6M1JHOEd6YjFBeUpMc3A3X3RhWjhiOU1XVFRXVHJ1VnRsaF9uNjB3VTlPLUg5WGlnYS12WUhtWUpTT0V1d21zT3Y3OFg1TEw2OG93VjgwMzE2VUd0OE9EZm0?oc=5",
+      "source": "Vietnam.vn",
+      "published": "Mon, 06 Jul 2026 02:51:15 GMT",
+      "summary": "Впервые были изданы нормативные акты, регулирующие использование ИИ в высшем образовании и профессиональной подготовке. Vietnam.vn"
     },
     {
-      "title": "Нейросети победили «финального босса» высшего образования. Крупный российский вуз разрешил студентам не писать дипломы - CNews.ru",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91WkxTNXVEd2R3aXA1N05DWTRsMEg0SHVuam16T1l3T214R0FtZVpxNGIwMDF6MEtDWnJmSUpxLTVwQkFidEJxWTd1aFY3T0ZIbkNqWURRbXRZQTg3MXhMTF8zNExnV1k5dm0teWtrS2w2YkppcmdmMg?oc=5",
-      "source": "CNews.ru",
-      "published": "Thu, 02 Jul 2026 11:56:15 GMT",
-      "summary": "Нейросети победили «финального босса» высшего образования. Крупный российский вуз разрешил студентам не писать дипломы CNews.ru"
+      "title": "Студентка АмГПГУ – лучший выпускник высшего образования Хабаровского края-2026 - Хабаровский край сегодня",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yZm8zd0xwblgyVnJGemZtMGdEcFVYMDZrQkU2di14dk81NTJEa3JUTnJDVkFDNDdhYjI5T3pOR3JqdTZSb1A5SHBaZFhWYzRL?oc=5",
+      "source": "Хабаровский край сегодня",
+      "published": "Mon, 06 Jul 2026 06:01:44 GMT",
+      "summary": "Студентка АмГПГУ – лучший выпускник высшего образования Хабаровского края-2026 Хабаровский край сегодня"
     },
     {
-      "title": "Бакалавриат или специалитет: как меняется высшее образование в Ростове в 2026 году - Rostovgazeta.ru",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREx1UGt0WXgtYWdHSktYbkE3SkszZUpJWm45QmhXWE4xRHZQX1F5VHBUSC1mc1NmMWVuMjJvbVd5UE5nTGNMNVc3RUVnSnhOa1p4cmZOM3NCOUNBbXRteVMwOXZFSnU5UUV6aC0zZF9UeDNUeGtxWFh4anlMaDNRLVJHektDT08yWXhHdWdNel9QSXVLVEV3dEtYT1ZhY2VkOFhNcXVxX0ZxQTQ4a2dkeUx0OU85SnJVMGt3LVE4eG9aMng1X1ViTHR3aVJCUQ?oc=5",
-      "source": "Rostovgazeta.ru",
-      "published": "Wed, 01 Jul 2026 16:06:00 GMT",
-      "summary": "Бакалавриат или специалитет: как меняется высшее образование в Ростове в 2026 году Rostovgazeta.ru"
+      "title": "Атомщики заявили о необходимости «донастроить» высшее образование для инженеров - Европейско-Азиатские Новости",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTGpPelYybjNfU2ZPOVNTemI3clZvUjdnLVF4cXRqSl9xWW1kMHhHRnp4QnVoSGZiWnhWNHBURV9oZ292TFpiTmhINmpHMFhuc0tRQXh0V0FPd01SejJVek1wQlg0UVJQcmIyd28wWms2ZHVMcC1WaFFKVkQ4cG43aTNualZhVTJoc3N1THhTaDVHeU1aSDB6VHZSSERLTWNUSzViSVZpU0dZakR5a3RPczhBQy1hazl4U0ltb0VqLVpobXVpOUpV?oc=5",
+      "source": "Европейско-Азиатские Новости",
+      "published": "Mon, 06 Jul 2026 06:11:10 GMT",
+      "summary": "Атомщики заявили о необходимости «донастроить» высшее образование для инженеров Европейско-Азиатские Новости"
     },
     {
-      "title": "Специалитет или бакалавриат: как меняется высшее образование и чего ждать выпускникам - Новые Известия",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmhWNXJGV3pycWRJcjBieFRiVTdyRTVZNG1Lb1V4S1EzSHFqME9adDlhMlp2dzdMYVJPX0tWMkFZcjhKVklDY0l2QW95NmRsX2FpdG1iY01SdnhIM0xhUXM2QVpJN1NTTGtWOUMzMUpTZFFOanFXRXhuVWR6NDhhVjd6X3RCVzRZWVY3TGc2UnAzNGctT3NDelo5bFRqQU9pZkNGRWtsckZHVzkzQWpaOHlJOWhDS3d2SzJMOU1oQlVHakpvQXBUWER3?oc=5",
-      "source": "Новые Известия",
-      "published": "Wed, 01 Jul 2026 02:12:00 GMT",
-      "summary": "Специалитет или бакалавриат: как меняется высшее образование и чего ждать выпускникам Новые Известия"
+      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
+      "source": "obltv.ru",
+      "published": "Sun, 05 Jul 2026 04:30:00 GMT",
+      "summary": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости obltv.ru"
     },
     {
-      "title": "Болевой порог: как изменились баллы ЕГЭ для поступления в медицинские вузы - Forbes.ru",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV2IzSEpDckEweVJiWE1BZ0xJR1IzQ2RhM2I1VmFHZ2JHbXAxQzJWN0FKUWVBSGNuU3FTMFdZM0JuLUgweExmSUVzQ251dVZKZHRRaDg2QVdCQWZ3Q19sQjdTZ3FWRDhxbmR3Qm1LLXVWTnRibGxGcTFXYWU3TEV6VlR0dWVuRVp4clZSaHFlWlN5dkd0VFJpTFZ1M19zWlV4aGM3ajZVOUxibXA4c2NEeA?oc=5",
+      "title": "Новый русский: в 2027 году в вузах появится предмет, обязательный для всех студентов - Forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSjU1eE82NzVvcUsxSTRLWmZuM1M4NEdlZnBhUmdFNG95LXd2YVdoMG5xakJGYXRkTE5CTjVYZnJXU0tVT211cV9nUm1SVnpyVDdtcy1fbk1TWVoyVHU1S1dsR0pNOFoxbUNrRnpOek9UMXRsM0VkckE1eGtNRU95WnQtd0tia2lmbE44bjFyNmwxMGg3MWJzYURLa2NTZm1nUzlpUTRBdUI4V3VWZnBYeERLbnh1Nkh0d3BCMlpR?oc=5",
       "source": "Forbes.ru",
-      "published": "Thu, 02 Jul 2026 13:13:23 GMT",
-      "summary": "Болевой порог: как изменились баллы ЕГЭ для поступления в медицинские вузы Forbes.ru"
+      "published": "Fri, 03 Jul 2026 11:42:49 GMT",
+      "summary": "Новый русский: в 2027 году в вузах появится предмет, обязательный для всех студентов Forbes.ru"
     },
     {
-      "title": "12 преимуществ ЮУрГУ: новая модель высшего образования в действии - South Ural State University",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEo1dXVXMzM3NmxPdEdOeHQ2MldQc2Rja2IxYXhhMVUzaGstSG5BRlBINzRhTnpyVDdadzhmY2Z1cHZGVXZTcTF1T2RDQTVGWkVjNC02aUFvc0g1bXZZUy1jc3YxTXd3eGgyYURKcUFTMUNZQS1ZSjJmazJtdHdvTll6STZfUjJhYzhINnVYMG16djAzVy1mSjNJYnF5V1FfVFA4cw?oc=5",
-      "source": "South Ural State University",
-      "published": "Mon, 29 Jun 2026 05:07:34 GMT",
-      "summary": "12 преимуществ ЮУрГУ: новая модель высшего образования в действии South Ural State University"
+      "title": "В Госдуме призвали одинаково учитывать спортивные достижения при поступлении в вузы - Amic.ru",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUHAyTVlCVGtqLTExMkZFTjkySGNKVEo4NDBxeF9GNFhWeTRKdF9sZDU2cF9MNjZrbXRMMzloTVVRLXByTUZDSzhMTE5PcnI5SHExaXZ5czNtRFZfbnJldFVVQ0dOQ2RNcEtveGFuRy0yWW9TNHRmTXhPM3RabEtZTnVmRlQ1TERiTzNwb0hhdlJGc1VsNEZPTENRZmtFNDBNRThqZ3N1SjJKNF9tVFg5Z1Z5cERQTnY20gFLQVVfeXFMTmRyYUczR2VJRU5kd29MUUxLMmN5Q0pPRV9jSmFCOFAtYk1wUTNSOUpBTk1OMEJFYzdLQ0NrUGloU19rVTM0ODVSUmpn?oc=5",
+      "source": "Amic.ru",
+      "published": "Mon, 06 Jul 2026 07:25:31 GMT",
+      "summary": "В Госдуме призвали одинаково учитывать спортивные достижения при поступлении в вузы Amic.ru"
     }
   ],
   "conferenceUpdates": [
+    {
+      "title": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ndXNhWU8tRU96WWx6RWtOV1ZTQ3NBSVRmMjA4dzFvOXdleHZVcmdwMnJTemx3UVpaVjA5X3JDTG14MERIbXoxM0pqWlA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Tue, 20 Jan 2026 13:42:02 GMT",
+      "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
+    },
     {
       "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
@@ -257,64 +254,21 @@
       "summary": "Diego Oliveira Farias, Eric Hans Messias da Silva, Erick Muzart Fonseca dos Santo · International Journal of Government Auditing"
     },
     {
-      "title": "Russian ‘special military operation’ as a failed coup de main. An intelligence analysis perspective",
-      "url": "https://doi.org/10.4467/20801335pbw.25.015.22181",
-      "source": "Przegląd Bezpieczeństwa Wewnętrznego",
-      "published": "2028-08-14",
-      "summary": "Marek Klasa, Michał Klasa · Przegląd Bezpieczeństwa Wewnętrznego"
-    },
-    {
       "title": "Analysis on The Construction Strategy of Intelligent Music Teaching Classroom Based on Emotional Education",
       "url": "https://doi.org/10.1504/ijart.2028.10077158",
       "source": "International Journal of Arts and Technology",
       "published": "2028-01-01",
       "summary": "Xinyu Du · International Journal of Arts and Technology"
+    },
+    {
+      "title": "Different optimal controllers for cable driven continuum robot based on artificial circulation system algorithms",
+      "url": "https://doi.org/10.1504/ijaac.2028.10079258",
+      "source": "International Journal of Automation and Control",
+      "published": "2028-01-01",
+      "summary": "Kawthar Abd Al Jabbar Hashim, Ekhlas Hameed Karam · International Journal of Automation and Control"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
-      "url": "https://мунн.рф/20251213",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
-    },
-    {
-      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
-      "url": "https://мунн.рф/novosti20251113",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
-    },
-    {
-      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
-      "url": "https://мунн.рф/speaker",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
-    },
-    {
-      "title": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн",
-      "url": "https://мунн.рф/events_tp",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "Наш сайт временно переехал на новый домен) Вот ссылка на сайт) Татьяна Мунн — психолог МГУ и эксперт по эмоциональному интеллекту https://share.google/sl3GPHYO2u91tWLkl мунн.рф теп",
