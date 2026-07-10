@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-07-09T08:49:44.503059+00:00",
+  "generatedAt": "2026-07-10T08:46:43.447493+00:00",
   "ticker": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф"
-    },
     {
       "title": "Наш сайт временно переехал на новый домен) Вот ссылка на сайт) Татьяна Мунн — психолог МГУ и эксперт по эмоциональному интеллекту https://share.google/sl3GPHYO2u91tWLkl мунн.рф теп",
       "url": "https://t.me/moonn_official/804",
@@ -27,9 +17,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "Официальный сайт Мэра Москвы"
+      "source": "mos.ru"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -62,14 +52,14 @@
       "source": "om1.ru"
     },
     {
-      "title": "Вузы Тюмени: в ТюмГУ изменили формат образования в магистратуре - Nashgorod.ru",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOTRuZ2RQQm1rVUJ0WS01NHEzcUlMTFNnX0Y3cGh1a213RUtXYURIaEJ3Y2xQdV8wZ1FuQm9FdVI5b05pRmg1VnphWmJpOHhEVU9rWjlJcDNjMVlOOHE2Yk9NRnQ4T3pfTEFHVlVlZVk2c2lJbFQtdjFwQUItNk9XV1BGeVR5cXd1VGZyTmFtZjNNYV80STFpUE85ZVNfcHBtdEVTZ0IwamdjOEZ3OVk4TXVGdFFFRkhaZEJRcTdXUFFGTjEzU2tfTFF3bUc3THlm?oc=5",
-      "source": "Nashgorod.ru"
+      "title": "Студент из Кемерова покоряет заграничные вузы - РИА «Кузбасс",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcWNUOFZqOEJNNWxTaGpacmUwb1hyV0tEU2QwX28xNE8wS0RfeGRHS182SnFzRFlUay04WWZ2MzBfenp2S0E2YUNJdHJGU1dsWlQwQzg1Zw?oc=5",
+      "source": "РИА «Кузбасс"
     },
     {
-      "title": "8 осуждённых получают высшее образование и около 2000 - профессиональное в колониях свердловского ГУФСИН - Твой Континент",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2RkaTBPWnk2REREc24wTElvbExoYnhlZVo5eWluR2U0dXU0U1NvZG9vUTRRMURtR0ctLXlMSWhnYzQ4Q2czMl9yM3NZQVgwWFNZYk01Y1NydVBuRjBLZ1BFRlQ1NG4xVWoyLVhVRTQ4cVg0U3VsRER3S2pRTldfMzNOVXRndjd4VHFSa3doZFV0Q3c0VU54YS1LNGNIRW1zUFFHN3hZYjFFZTh6UGZPOHZfdjV4TXhzNlg4RFZBR1pTRXM?oc=5",
-      "source": "Твой Континент"
+      "title": "Российские вузы улучшили результаты интеллектуальной деятельности - ComNews.ru",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV2tIdGQzOVFndGpmV256R3BRRlFGZmhpbEZLQ0tabm5iSmdFR2E3dG9rN0xjdjFhUWJmQ1NFc0piTzlBRkhXX2UxQjQyNHJ5ZEZ5anVSUVl2N2xlRG5xSExNcFRDdTRFdFdGc2dZaWkyQV9zRWpuOXRXUW84NXRYUjRXcERObFctOHMyaHVfcEtkYnNhOFhjODlVVjREZ1l5OE9UUFRPRHBQdjhlTTgxclJTSmwxcV9SN0pyMWNWMVlGdDU3SWpv?oc=5",
+      "source": "ComNews.ru"
     }
   ],
   "psychologyTrends": [
@@ -88,20 +78,6 @@
       "summary": "Опубликована программа конференции «Психология XXI века: Будущее становится настоящим Психологическая газета"
     },
     {
-      "title": "Новые тренды в психологии: от социальных кризисов до экологичного потребления - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkFmR2MtOHBMazJjZ24zYXI0SmZfYzhxSVFIVTQ5T0xEMWRvRThUZVBqY1BuYnhuWDhwSHp6cXh6ZU1KdXA2TWJNSzAxTnZxbGl1QTBxX1o2RzV3djJOU3hBT0ZvQlVJNXpOdjduU29OOUFzN0M0aUpaRGs0S3N5Y1dfOHpqa2JENGZzcGNxcF93dDVUcHVjX3dxeUxwY0NuUUJWSkFNbjBrOXZT?oc=5",
-      "source": "naukatv.ru",
-      "published": "Mon, 02 Feb 2026 08:00:00 GMT",
-      "summary": "Новые тренды в психологии: от социальных кризисов до экологичного потребления naukatv.ru"
-    },
-    {
-      "title": "«Мягкое родительство» больше не работает. Психолог назвала три способа вырастить эмоционально зрелого ребенка - НЭН",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRUF5NGdDRE90cW0xM1B1dXBpQVlZLTNaVFhHV2RSWFlKbU9vMU5tS05ja2owX0RiV1Bic3pzcXFGUDFoYWxCdG1CbHNDU1FjWE50SzB6UVhFQTJ1RDk5TXVjdzRReGMtWTAyTFpFcC1uZlpMN25OT0I5TzVRSzJIb2FsdVVZQ2dmbzlWZUltaHk0NXpwWUlJd2FrUV9Va3NJc2tUYUd4TQ?oc=5",
-      "source": "НЭН",
-      "published": "Sun, 14 Jun 2026 07:00:00 GMT",
-      "summary": "«Мягкое родительство» больше не работает. Психолог назвала три способа вырастить эмоционально зрелого ребенка НЭН"
-    },
-    {
       "title": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту - Forbes.ru",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFdHRVNYVXplN1JDaDgwcHZGaUFXTHBoS3hVVWxXV09yQVZRLXpocjd5TmY1dWoxUHotcTY1Mm96NXJqZG5zZmNrNWZTYlNpMzNDT0tVdDlULUN2SWZUbzdlWVRkVVN1cXZqZjZjZ2hXeDBJMXFLTkFZdm1WZTk1RkQybHBhaWlRbXNpbVd1UlZzdE1jLTBMTDFNb2FZUlFLY2d0TURpdXlwbVVQR3BVQUFXbmFlZw?oc=5",
       "source": "Forbes.ru",
@@ -109,55 +85,69 @@
       "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     },
     {
-      "title": "Что изменится в работе школьных психологов в 2026 году, и какие проблемы они помогут решить - Счастливые родители",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc0FKQ3hYSWd4T3dDTmhPZ0w0TVVxQ2k3ekRxbDk0RHdLVlNjc1pLT2UtTGx3ZWdCVEZHRER1dlR2Ti05X0padDdHWml5Tk5sT18yejRRc055R3hNWElEcnA4alB2MXJmQTVnZnprZEZhTUFzQXFBOEtNWnc4dnpKRUNYR2VPZWVzTUpIUDcxaU5fZ0NQUTdYQW9ZSzRpNjJYS1VQeUcxbjdCU3Y1d19zTmp0ZXJqaDI1OS1TdkdNQ3AycDA2VEhjRHl2eDBETE82?oc=5",
-      "source": "Счастливые родители",
-      "published": "Mon, 24 Nov 2025 08:00:00 GMT",
-      "summary": "Что изменится в работе школьных психологов в 2026 году, и какие проблемы они помогут решить Счастливые родители"
+      "title": "Новая эра цивилизаций: психология в эпоху перемен - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBxbUU2aGMxbjBhUllXLUdVSG5rR3l1UHFyVjFtc3ZhLUh2RlBqWWJLWjhMd05fMFZ4M3FOMEl5WQ?oc=5",
+      "source": "Психологическая газета",
+      "published": "Tue, 05 May 2026 07:00:00 GMT",
+      "summary": "Новая эра цивилизаций: психология в эпоху перемен Психологическая газета"
+    },
+    {
+      "title": "Что такое эмоциональный интеллект и как его развить - skillbox.ru",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS0twd1ZTU3ZPcE9RRG8yb29sM0ZfZ3pJSU93Zm1rTlVLTFlsMGxvVm1TNTctR3F5bERIUzlUWmI0QUdUSWV1LUxCM2FFSlQ2NktGSGEtajdKV0txcXlaSzBXeE5NcDV0eVRHRUhmRWkzMmd6V1pma1o5T25qUFgtREQzUEFXY2xOZ0RnTDhB?oc=5",
+      "source": "skillbox.ru",
+      "published": "Mon, 27 Jun 2022 07:00:00 GMT",
+      "summary": "Что такое эмоциональный интеллект и как его развить skillbox.ru"
+    },
+    {
+      "title": "Психология будущего: заменят ли нейросети психологов - Казанский (Приволжский) федеральный университет",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY09ZMElKM1BpdlRpMUxKZzlzVTFuVWkzSGxSRGw0ckRaMDZCS0xuSmpxYlk3M3hvTkl4ZWstRHF6bGpaZlVoSktWdlhIUTRCbEN5MkNaVzl3NWVxb3BOOG1WSXlMaGNwTHgwLVlNaG41U3poR3pSaEpseG9NbzFwNXpkTVdMX0xOeEo0cw?oc=5",
+      "source": "Казанский (Приволжский) федеральный университет",
+      "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+      "summary": "Психология будущего: заменят ли нейросети психологов Казанский (Приволжский) федеральный университет"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Вузы Тюмени: в ТюмГУ изменили формат образования в магистратуре - Nashgorod.ru",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOTRuZ2RQQm1rVUJ0WS01NHEzcUlMTFNnX0Y3cGh1a213RUtXYURIaEJ3Y2xQdV8wZ1FuQm9FdVI5b05pRmg1VnphWmJpOHhEVU9rWjlJcDNjMVlOOHE2Yk9NRnQ4T3pfTEFHVlVlZVk2c2lJbFQtdjFwQUItNk9XV1BGeVR5cXd1VGZyTmFtZjNNYV80STFpUE85ZVNfcHBtdEVTZ0IwamdjOEZ3OVk4TXVGdFFFRkhaZEJRcTdXUFFGTjEzU2tfTFF3bUc3THlm?oc=5",
-      "source": "Nashgorod.ru",
-      "published": "Wed, 08 Jul 2026 12:34:12 GMT",
-      "summary": "Вузы Тюмени: в ТюмГУ изменили формат образования в магистратуре Nashgorod.ru"
+      "title": "Студент из Кемерова покоряет заграничные вузы - РИА «Кузбасс",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcWNUOFZqOEJNNWxTaGpacmUwb1hyV0tEU2QwX28xNE8wS0RfeGRHS182SnFzRFlUay04WWZ2MzBfenp2S0E2YUNJdHJGU1dsWlQwQzg1Zw?oc=5",
+      "source": "РИА «Кузбасс",
+      "published": "Fri, 10 Jul 2026 07:53:42 GMT",
+      "summary": "Студент из Кемерова покоряет заграничные вузы РИА «Кузбасс"
     },
     {
-      "title": "8 осуждённых получают высшее образование и около 2000 - профессиональное в колониях свердловского ГУФСИН - Твой Континент",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2RkaTBPWnk2REREc24wTElvbExoYnhlZVo5eWluR2U0dXU0U1NvZG9vUTRRMURtR0ctLXlMSWhnYzQ4Q2czMl9yM3NZQVgwWFNZYk01Y1NydVBuRjBLZ1BFRlQ1NG4xVWoyLVhVRTQ4cVg0U3VsRER3S2pRTldfMzNOVXRndjd4VHFSa3doZFV0Q3c0VU54YS1LNGNIRW1zUFFHN3hZYjFFZTh6UGZPOHZfdjV4TXhzNlg4RFZBR1pTRXM?oc=5",
-      "source": "Твой Континент",
-      "published": "Thu, 09 Jul 2026 07:20:38 GMT",
-      "summary": "8 осуждённых получают высшее образование и около 2000 - профессиональное в колониях свердловского ГУФСИН Твой Континент"
+      "title": "Российские вузы улучшили результаты интеллектуальной деятельности - ComNews.ru",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV2tIdGQzOVFndGpmV256R3BRRlFGZmhpbEZLQ0tabm5iSmdFR2E3dG9rN0xjdjFhUWJmQ1NFc0piTzlBRkhXX2UxQjQyNHJ5ZEZ5anVSUVl2N2xlRG5xSExNcFRDdTRFdFdGc2dZaWkyQV9zRWpuOXRXUW84NXRYUjRXcERObFctOHMyaHVfcEtkYnNhOFhjODlVVjREZ1l5OE9UUFRPRHBQdjhlTTgxclJTSmwxcV9SN0pyMWNWMVlGdDU3SWpv?oc=5",
+      "source": "ComNews.ru",
+      "published": "Thu, 09 Jul 2026 23:35:02 GMT",
+      "summary": "Российские вузы улучшили результаты интеллектуальной деятельности ComNews.ru"
     },
     {
-      "title": "Принят закон о стажировках для выпускников и студентов - новости Право.ру - ПРАВО.Ru",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9IeUp4czMwZVozOXFzMnVELWF1TkhqVl9nNlp0VEhybkZ4UFg2ODRVYWZvOEt4eVE4cnVKSE5sYXJIdWvSAUhBVV95cUxOY2stc2JhczFCQmstSXh2d0ZzcktTYjFPTWdmUThnbkcxMkFJVTZ1VTBCWkdyZUlfNWcwWW5vN1JObHZLNjZIQ0M?oc=5",
+      "title": "В России унифицируют юридическое образование - новости Право.ру - ПРАВО.Ru",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qenJKS21Lb1UybFAwaXBubDdjVmtnR0pPN3NtTjFnaklZNUpqc183VzhpSTJzR1NtbGQtWTl3TktPOG_SAUhBVV95cUxNRlBmZTJKOGhBUnRnZE50S2F6cDdiVHRGc3JnMGIyRXFWOXN6ZkRBc2pjYXA3YWt2QUo4blZoNDVuU3F5NjlJeXU?oc=5",
       "source": "ПРАВО.Ru",
-      "published": "Wed, 08 Jul 2026 18:06:43 GMT",
-      "summary": "Принят закон о стажировках для выпускников и студентов - новости Право.ру ПРАВО.Ru"
+      "published": "Thu, 09 Jul 2026 11:46:59 GMT",
+      "summary": "В России унифицируют юридическое образование - новости Право.ру ПРАВО.Ru"
     },
     {
-      "title": "Богатые получат высшее образование, бедные — нет: Госдума хочет изменить правила приема в вузы - RuNews24",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT2lKMHV4VmVQR1djVUJCQ3NjUk1Nc2VxLXZ6cWR4a1JLSHAyV19HZU5Ga2RVdm1xZmZXX21KY2drWGFWNnRWX3pXVTZ2Q0ZxeGdfSzhHYlVFRXRmTmtyLVhJMlloc2NvcFA2bWhQUlB5ZWpLODdNR0ZvbVhMTDRoWjB6d000TWQwel9rRWwzMUpkOWRLWkpMU1JoUWYzWmlpNjJPYXNuYjI5a2hUdkVQWnh1ZHU1emh2Q1JwbjVXNFlMeGFkdGJFUlRXMnI2R2RVSWc?oc=5",
-      "source": "RuNews24",
-      "published": "Wed, 08 Jul 2026 11:14:28 GMT",
-      "summary": "Богатые получат высшее образование, бедные — нет: Госдума хочет изменить правила приема в вузы RuNews24"
+      "title": "Российские вузы не будут отказываться от письменных работ из-за развития ИИ — Минобрнауки - Мел",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa19LMTAxSm5CTDc5bkpVRzB1N2FjRUY3bnU1OXhNT3RKYm9NYU9FRzFrMXdTRjI4SEx3WG1WSV82OVRkU1ZEdFBpU2tyQVRHTzh0Z3VrT19nNGgzSF95cFN0dmEzMzlROW1pSWhHVUlqXzNRaE4wTjlhZEpvemU4bU1xbC1IWFlNUVhFZVNsOGgtVW15NGp5TzNtdTU5RVZBVEdZZTIwTzdxdE92UDhVbHZwMnUxN3FvLWlCQ9IBwgFBVV95cUxOYU9QZnhvS2luMWNQNVVLU0lrcEt2VUx5UUZpc2c4QmlNSFIxRm9UelVxanUtZXVDOUhEVG1MMk9kWGNWVFJEWE4wamV1TWRHZUUxWUlGdVAxTmdYZzBscmU5VjBzRi1xbkIzWlQ1WEtHSm1URmx3aF9mMmFHX3JXaG15LXR5M0xZaVFqVUFkaE9BWmoyckU4ZUd1MC1yay0ydXhGTTJhZGJzZmJzN3RpdUlfUF9kZkw0UHNUaFI1eHpDUQ?oc=5",
+      "source": "Мел",
+      "published": "Fri, 10 Jul 2026 07:12:57 GMT",
+      "summary": "Российские вузы не будут отказываться от письменных работ из-за развития ИИ — Минобрнауки Мел"
     },
     {
-      "title": "Куда поступать в 2026 году: Студенты назвали лучшие вузы России - Общественная служба новостей",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMzJ6YTVMR21qQzF6SXVtbGlWbU42a0Y2dFR0a1BlT09Da0p2Y0lILTU3UmNkN2tMOC1RX3o2TGZzeF9pWFNjSGxfSUg4WlZOMGo2dGludldkM3NsOEtwZVctYmNCMzd0U2l5ZXM4QzJXYy1fU1A0eFQ5SEVHRW5wVkstOTYxMjdRdEVvTlVRaEFWN2JiaXJWN2VRMDJYbjZ6?oc=5",
-      "source": "Общественная служба новостей",
-      "published": "Thu, 09 Jul 2026 03:35:26 GMT",
-      "summary": "Куда поступать в 2026 году: Студенты назвали лучшие вузы России Общественная служба новостей"
+      "title": "Минобрнауки: российские вузы не откажутся от письменных работ из-за ИИ - Вечерний Санкт-Петербург",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ0dFRVFYOGJVWF9UYlNsNHp5dm54ODV6STI1Nkk5aDJyMWdiblJSVlp5Y0RFdThhOHY0QUplc2paT240VzdueVR1UlJwLUZraG9NR2dqX3pJV3NORWkxRzVycmFLTUV4Q0ZfZGZSSTNNWmdoX2Fpbnp1eWg0MEZLb3NtMWZMVXFIajI0TUItdDFWR0UzbGlidjZtck5fWGpMcEFpZkpWMXA?oc=5",
+      "source": "Вечерний Санкт-Петербург",
+      "published": "Fri, 10 Jul 2026 07:57:24 GMT",
+      "summary": "Минобрнауки: российские вузы не откажутся от письменных работ из-за ИИ Вечерний Санкт-Петербург"
     },
     {
-      "title": "Высшее образование в России дошло до предела: в 2026 году студенты выбирают бессмысленные профессии - primpress.ru",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QeHM0YjVJVHhNR1JLUWhWTklaVmpZcXlSaGlZQ1p4ejFrYUpxNUYtbVhvUnJKMk5paGlMZFgyTHNabk5Rb2tvd0FiTQ?oc=5",
-      "source": "primpress.ru",
-      "published": "Tue, 07 Jul 2026 18:00:47 GMT",
-      "summary": "Высшее образование в России дошло до предела: в 2026 году студенты выбирают бессмысленные профессии primpress.ru"
+      "title": "ГК «Титан» открыла набор на целевое обучение - SuperOmsk",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLW04WDR5eVZTX3dkaFd4U3h4WUU1bTJDODJNcmVsTllxVHd2LWF3NzFiWjIxdEx1aWZSbmtVaEI5dXdUVzVNM1pDOUZ2WlhWYXFGUDhiVzVhdk5DamZ3bUdTNFo4Q19IYUVLZXYzLW5MVEV4LUZhQ1B5OG5TSENlSTFfaw?oc=5",
+      "source": "SuperOmsk",
+      "published": "Fri, 10 Jul 2026 06:13:51 GMT",
+      "summary": "ГК «Титан» открыла набор на целевое обучение SuperOmsk"
     }
   ],
   "conferenceUpdates": [
@@ -169,11 +159,11 @@
       "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "Официальный сайт Мэра Москвы",
+      "source": "mos.ru",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
-      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
+      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
     },
     {
       "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
@@ -227,18 +217,18 @@
       "summary": "Синдром подчиненного: искусственный интеллект нарушает правила безопасности из-за навязанных социальных ролей 24 Канал"
     },
     {
-      "title": "Общение с умершими через искусственный интеллект: исследование дало неожиданные результаты - Zamin.uz",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNamxrRGtSWFRrcV9SdEJYUHFTRlRVai1SYVRQU25QRFpXdk5yODZtMFcxaEpCM3ZVS0FhdldYdUl2SDdCSmhoRl8zcWpZLTE1eE43aVBvWjloUFg0N0M3TmRpeGFvV1M1MkExRG41TG1YYzNtYW1JLVl1M2FNUUI1MTNmTzcwZUR1T24wN3h1U183cXdDV3lCd0YzOGR6T1JaRkh5RE5KNlpfWVRpbWVMN0EwdDBnSHpfT1BITWUySjZGc1lWcjY3VFBTRXhjQjNPbFJKQQ?oc=5",
-      "source": "Zamin.uz",
-      "published": "Fri, 03 Jul 2026 23:26:59 GMT",
-      "summary": "Общение с умершими через искусственный интеллект: исследование дало неожиданные результаты Zamin.uz"
-    },
-    {
       "title": "Открыт ген, связанный с выносливостью спортсменов - naukatv.ru",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMFpaYy1pVVVTcHJpVkdxamxhMnpNMG9zb3l0dEVwbjM0emVzNlJUTDNQUTkwd2xCb3pHRmFjUDlsWWxSTXF6ekFCZTdaY255WUJSN3J5bmlXdzQyaHZmUlVGZXkxLUpLX0x2czJVSVJSOWFWcWh3bTZvUUw0Zkc5VQ?oc=5",
       "source": "naukatv.ru",
       "published": "Wed, 18 Feb 2026 08:00:00 GMT",
       "summary": "Открыт ген, связанный с выносливостью спортсменов naukatv.ru"
+    },
+    {
+      "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXVzQ1NlSWw1cDNFRjhqUC1Xb1E1QllOOWFOUnZXeXItSVhPRVdOakp5SVg0eFJ2OVRCNnFJdGk3eEp2VEhLMm1nMWJkUTBkdl82TTVNa1EyVW53ODVWOW5mX3hCZzlXYURobjI2MXpjeUFKMDM3XzJubm5TYkVmYnhheFJRRmhOeEdscGhKczEyS01udGRVam1DamNwdHB6d01fY0xQV27SAa4BQVVfeXFMTTkwVjZXalN2T01kT0ZBbXI4NXBkNUJIY0t0M1RjRXp5SF9QNU5hWThuMUJDZHpvNThOMm1ieFlNN0hvSkpXUkRHM2Z5UVlrQ1hTLXJpMjh0SW9jcHBxUU90T0JuMlU3Y2U0aXVqOUNWMGFzc3d1T0RHWTdFTkVuUkJjLWh6cTFIY1BYRy1nQ2YxRUJKN0Y5N1UwVVZfcFhfd25ZRHVHcFFkcklsMnFR?oc=5",
+      "source": "Sport24.ru",
+      "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
     }
   ],
   "openPublications": [
@@ -285,50 +275,7 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
-      "url": "https://мунн.рф/20251213",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
-    },
-    {
-      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
-      "url": "https://мунн.рф/novosti20251113",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
-    },
-    {
-      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
-      "url": "https://мунн.рф/speaker",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
-    },
-    {
-      "title": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн",
-      "url": "https://мунн.рф/events_tp",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "Наш сайт временно переехал на новый домен) Вот ссылка на сайт) Татьяна Мунн — психолог МГУ и эксперт по эмоциональному интеллекту https://share.google/sl3GPHYO2u91tWLkl мунн.рф теп",
