@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-07-19T07:38:02.220213+00:00",
+  "generatedAt": "2026-07-20T08:20:52.954580+00:00",
   "ticker": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф"
-    },
     {
       "title": "Сегодня лекция -психология личных границ) Регистрация пока не работает, приходите так)",
       "url": "https://t.me/moonn_official/816",
@@ -22,14 +12,14 @@
       "source": "Telegram"
     },
     {
+      "title": "Конференция Psychologies с ведущими экспертами по психологии пройдет в Москве и Екатеринбурге в мае - MSK1.RU",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FdTd6V3NQbTA3R2xLZ0tzZUpZamVXT1E0VW1JS2ZfZFZhU0RtQ3hhZ24xeVAyMGZ0YkJkc3VaV2tBaGx1OS1xOGo2aXBhT0lKVmtWYVBjMndFVzVNYzd6d3E4TVZzR0dRTjFXQm93Sm1Ldw?oc=5",
+      "source": "MSK1.RU"
+    },
+    {
       "title": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ndXNhWU8tRU96WWx6RWtOV1ZTQ3NBSVRmMjA4dzFvOXdleHZVcmdwMnJTemx3UVpaVjA5X3JDTG14MERIbXoxM0pqWlA?oc=5",
       "source": "Психологическая газета"
-    },
-    {
-      "title": "В Москве прошла конференция AdIndex City 2026: ИИ, спорт, реклама и новые тренды рынка - irbis.spb.ru",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN0N2RlhIRmZsaXVoRVFNV0duc19sODNjVjh2QzRMMlBKS0NXaUlST1drS1JWVk53bDFDYWt5TjEzckRfTHduLXZNWC1LQzIyYS1iaWwwQzVQdlVJdURpb3dqa0NoYVNnUklYcVJ6UVdmbU9qLU52aklIQk5UM1V4cE5TaV9taGpXT2k1WWhWX0NBMVhXS1RSX1FtM3BqSUR1aVc5bkZFdUNIMDFBLWFqRUJ6eENSRGdRa0pZMmZqZ2I2S0E?oc=5",
-      "source": "irbis.spb.ru"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -52,24 +42,24 @@
       "source": "ВФокусе Mail"
     },
     {
-      "title": "Аспирант ТГУ получил медаль за исследование отношений человека и ИИ - РИА Томск",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVjlxZG5TRjEwRkR2V3FHV2ExcHlnQ2NtaG0zZ0tQOUFra1ppaTRZNmotRHotM3FfMWdaYUV4RVFPREpTenFRbGZ5V2JfZlJFWDRZWEJDUE1ON0VrUjFubERPajJnQ2NTU1JQbEh6ZkFqVm11VkdCdTVVb25WNzdsQWNzZ1NGbERVeDNHOGtzc3A1R0tJUDZ2M0FCOUtMNUJ4UGRrR2V2TVNsUzNWbHFr?oc=5",
-      "source": "РИА Томск"
-    },
-    {
       "title": "Чемпионат мира по футболу FIFA 2026™: крупнейшая в мире технологическая витрина в мире футбола. - Vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZVpyakNmSFUza0xhT0NyekdmVHY2U1B4bFl5N3lZeVFzZjhEcmRfbWhBZUNoaURPTndnZ1FFdlJDYTRpMEtqa3diYWRUZldWd3JEWThRci1BTUx3WHlzUU1QbXlIVlp6MmNsZnMzVkRLc3NlTmdrLXdVNjhVaW9maExScE1Zd01MLVJzN1prUmIzcW5jRU9yb3RrQ24zcTdsXy1Zdm5jenI?oc=5",
       "source": "Vietnam.vn"
     },
     {
-      "title": "Без бакалавриата и магистратуры: кого коснётся реформа вы?... - Добро.Медиа",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOblhfVjRVZEI0TktpTHI4TjY3OVlIMHFlOTNvcXhSbFFfdlNLX0xSQjk2eTl3LTFtNUVlNWh0TE13T1A4Ulh4a0l1VGJ1RUNRbEQ4ZmtWNkFTSGw5Mlc1cFN5dWhlMHZGX1NibnotU1RtSk1fM1dnUDJqSGxvY19EQ2Nnc0lWbTjSAYwBQVVfeXFMTnU5Rjg3WFhWOHZPS0VJc3VQY3pDNUhtV2NfQ1VJX3VxQmdBdFNXeDY2UUh5ajZaZEFjeHFGWEFGZTBVSmd2SG41MmFSMUF1X3B2QlZRNXR4VURTdmNTcnBIOFhGU1hGb3BYZFJIZjEzMFJuUVZCbjBIUnZjZWMyNTI1cU94aDc0ODFoQUY?oc=5",
-      "source": "Добро.Медиа"
+      "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
+      "source": "Пресс-релиз.ру"
     },
     {
-      "title": "Экзамена не будет, всем автомат. Как государство сокращает доступность высшего образования в России - theins.ru",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01MDNyaWhDRDRabjRzUG9TTWtMTG9JUFBqS1NXakszTUc4SlFqNlA0eDNCX3RYdV8zMkFGSWZqa1ViSklTeVlzblB3?oc=5",
-      "source": "theins.ru"
+      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
+      "source": "obltv.ru"
+    },
+    {
+      "title": "Как россияне выбирают высшее образование и Университет в регионах? - Инфоорел",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVE03OUJOVW9EZ3ZIWVR1MkF3UHZ3dzhnUUZVRHM3WU44LUlCdVM0VTV4TDMwVG92dUNlU3dxRnhfdDRDU1oxaW14aEF0Y19lNndkUEFqcWI5MTFIUFpyRnI2VXM4dEJYbnpBWjlQVk0yZEUwYWRhc3ZpVDhsbDVwUk4xWmNjcTQ4OGxFRENxc0xQVlFRTG9mZHRVVFBfeDNSVERLLQ?oc=5",
+      "source": "Инфоорел"
     }
   ],
   "psychologyTrends": [
@@ -86,13 +76,6 @@
       "source": "ВФокусе Mail",
       "published": "Fri, 17 Jul 2026 08:27:12 GMT",
       "summary": "Представители крупнейших вузов обсудили тренды развития психологического образования ВФокусе Mail"
-    },
-    {
-      "title": "В Общественной палате обсудили главные тренды развития науки о человеке - NEWS.ru",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXdTOGkxYTZyNFpqWVlJSzBZSEc1SHpOSlhQVWNRVWVwcFZpZEJpX05vZERjVGZhQ00xSVNMLWNmRzlXOFVnOE55MEhUd3dpME9EdTFXaF84dkNwYTRHc0p0M29oYUw1WkpSVENxWFR2QXA1YmJRY1JwVU0yMzVFYWo3NlFySnFHajF5cXVMLWVhT3dCbTVhQ0tDM1laTnVSZUtfQtIBpAFBVV95cUxPZXdTOGkxYTZyNFpqWVlJSzBZSEc1SHpOSlhQVWNRVWVwcFZpZEJpX05vZERjVGZhQ00xSVNMLWNmRzlXOFVnOE55MEhUd3dpME9EdTFXaF84dkNwYTRHc0p0M29oYUw1WkpSVENxWFR2QXA1YmJRY1JwVU0yMzVFYWo3NlFySnFHajF5cXVMLWVhT3dCbTVhQ0tDM1laTnVSZUtfQg?oc=5",
-      "source": "NEWS.ru",
-      "published": "Fri, 17 Jul 2026 10:36:55 GMT",
-      "summary": "В Общественной палате обсудили главные тренды развития науки о человеке NEWS.ru"
     },
     {
       "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
@@ -114,53 +97,67 @@
       "source": "South Ural State University",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» South Ural State University"
+    },
+    {
+      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
+      "source": "Sostav.ru",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Без бакалавриата и магистратуры: кого коснётся реформа вы?... - Добро.Медиа",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOblhfVjRVZEI0TktpTHI4TjY3OVlIMHFlOTNvcXhSbFFfdlNLX0xSQjk2eTl3LTFtNUVlNWh0TE13T1A4Ulh4a0l1VGJ1RUNRbEQ4ZmtWNkFTSGw5Mlc1cFN5dWhlMHZGX1NibnotU1RtSk1fM1dnUDJqSGxvY19EQ2Nnc0lWbTjSAYwBQVVfeXFMTnU5Rjg3WFhWOHZPS0VJc3VQY3pDNUhtV2NfQ1VJX3VxQmdBdFNXeDY2UUh5ajZaZEFjeHFGWEFGZTBVSmd2SG41MmFSMUF1X3B2QlZRNXR4VURTdmNTcnBIOFhGU1hGb3BYZFJIZjEzMFJuUVZCbjBIUnZjZWMyNTI1cU94aDc0ODFoQUY?oc=5",
-      "source": "Добро.Медиа",
-      "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-      "summary": "Без бакалавриата и магистратуры: кого коснётся реформа вы?... Добро.Медиа"
-    },
-    {
-      "title": "Экзамена не будет, всем автомат. Как государство сокращает доступность высшего образования в России - theins.ru",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01MDNyaWhDRDRabjRzUG9TTWtMTG9JUFBqS1NXakszTUc4SlFqNlA0eDNCX3RYdV8zMkFGSWZqa1ViSklTeVlzblB3?oc=5",
-      "source": "theins.ru",
-      "published": "Wed, 15 Jul 2026 10:26:25 GMT",
-      "summary": "Экзамена не будет, всем автомат. Как государство сокращает доступность высшего образования в России theins.ru"
-    },
-    {
-      "title": "Свердловские студенты смогут получить бесплатное высшее образование в Индии - Ugra-news.ru",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMGZrd3JVbVJVU3U5a2xWamNjdjZ1aFdoOEptenhFaHh0allfcnJiSXZJdjlrWHdraDgwZ3dTenF5Z2t5X0ZJNzdzUmppRHlXaUQwcUVuaE5CUkZRR1BFUXJ0cUJyN0lQaXhObUpHbmphTXhZYTZ5aHpWTF9fcFZacnJQa01CQWY2RjlYR0J3c1hMQWI2YjJMWnZoX25zVGpGYUFCcGoyeG5DRVhMa01ZVWJmTEtkdFl2VjdJSk5DYU44V2M?oc=5",
-      "source": "Ugra-news.ru",
-      "published": "Sat, 18 Jul 2026 07:25:11 GMT",
-      "summary": "Свердловские студенты смогут получить бесплатное высшее образование в Индии Ugra-news.ru"
-    },
-    {
-      "title": "В ВШЭ предложили бесплатное образование за военный контракт - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZGpNajdZLWotR1p0cnRLQXhrVDZwbWc1d29NUmNBLVF2NWhOc05SYmVkMVRrQnlkcE1zUXczbXFXVXRIcnRXR0VKelUxeEIxZUVMYmVVNUVZQ0ZDNU50VmdUQWhOTXFadVdCT0wxQTJVZ3QzZThhcFdSVE9hd0FjdEhCM2xUdEVraVVBMVdRQ0F1UnNjbGFr0gGXAUFVX3lxTE1WR3MzaldTcGUwaEJzdDBnVzZDMFRYVWRxMkhQVnJxYngyRDBZUUM4OUd5cmVKR0hCQlpncmlLa0FVUnAwV0J0X0NLNWR6cnM1OGgxb0FWSmR6WnF2el9qWWpiWmpTZnhpblBVZHJrYWFsblAwRGZBR09Xd0FRNzdrV0owVGJNMEx2Y2oxbkZ1eFYwVkN3Yjg?oc=5",
-      "source": "DW.com",
-      "published": "Thu, 16 Jul 2026 15:52:10 GMT",
-      "summary": "В ВШЭ предложили бесплатное образование за военный контракт DW.com"
-    },
-    {
-      "title": "Бесплатное второе высшее 2026: кому доступны бюджетные места и квоты - vnd12.ru",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTGtkbWtJR2RwczJGaVJNVWQ2T2pSelpPZWFHV3lXN2E3SE50clh6WGtzUGtxLTVLM1dRUXFKeWJBMjdQUHpsb3ZTRjJManFfLTByc1FWRXNaeU1IRE1QRXRJTVpUNFNPWjhsU2FBN09hV0trc0VvaHNBTHJCZDUwMVV1ZS1VZ3M0dnA3elhfWnlKd2lDNzRqVDFjemtSNHpNWU5JYWZrUWtJRHdLZWwzSVdBd3hBNzlYTmc?oc=5",
-      "source": "vnd12.ru",
-      "published": "Sat, 18 Jul 2026 05:47:16 GMT",
-      "summary": "Бесплатное второе высшее 2026: кому доступны бюджетные места и квоты vnd12.ru"
-    },
-    {
-      "title": "На Среднем Урале девятиклассники, не сдавшие ОГЭ, могут получить среднее профессиональное образование - obltv.ru",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdFlTeHBkZ1RkU25hYVpneFozcUtKbEUwQUlkTXF3T1pybUxTRG9xX3h4RnJpbUdTblNaRE8zcXA1YkQ2WUw2TUhJNHM0bUlXZFl5d0k0dktWQXpWbFpDRGJNQVc4bDlQVkVHaktKZ0ozUHZidHU1d3VCMGowWkdKVE5Cc3VfN3RYVXQwQmhwZ2E5VUhOLVVCNUFHVEg4MW1NYlgyZ25CNk9INDJTZUZKRGdJQndMVjJhWVN1eEZfc01VUkNaMmVn?oc=5",
+      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
       "source": "obltv.ru",
-      "published": "Wed, 15 Jul 2026 14:32:51 GMT",
-      "summary": "На Среднем Урале девятиклассники, не сдавшие ОГЭ, могут получить среднее профессиональное образование obltv.ru"
+      "published": "Mon, 20 Jul 2026 05:46:00 GMT",
+      "summary": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости obltv.ru"
+    },
+    {
+      "title": "Как россияне выбирают высшее образование и Университет в регионах? - Инфоорел",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVE03OUJOVW9EZ3ZIWVR1MkF3UHZ3dzhnUUZVRHM3WU44LUlCdVM0VTV4TDMwVG92dUNlU3dxRnhfdDRDU1oxaW14aEF0Y19lNndkUEFqcWI5MTFIUFpyRnI2VXM4dEJYbnpBWjlQVk0yZEUwYWRhc3ZpVDhsbDVwUk4xWmNjcTQ4OGxFRENxc0xQVlFRTG9mZHRVVFBfeDNSVERLLQ?oc=5",
+      "source": "Инфоорел",
+      "published": "Mon, 20 Jul 2026 06:24:57 GMT",
+      "summary": "Как россияне выбирают высшее образование и Университет в регионах? Инфоорел"
+    },
+    {
+      "title": "Реформа высшего образования в России: что такое БВО И СПВО и когда отменят бакалавриат - inkazan.ru",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMTlaaVViXzZCQ0xrZmpQOGtlOUM0enhLMkhuWTlrdXdlc1RUcW9wMjM2R1NHSmVrUkhhZS1rWU1mWmpqZ2tfTzJyY1dxeHNiZ1BnMmFoM3YzdVplSm1RLUNEbmRuVHl5WjBJMzd5Vjhia1VKNEpsbUtJNVpreDhZT3lrTnhrVWNkeHA0NDI0ZWxKWnlDZHdkN1NoRDg0UWtOQm5ud3pKcTVDdWlDZjBWcVA4Nzl4YjF3ZllwejMzTE5QWTlPWW10T2NkOFA?oc=5",
+      "source": "inkazan.ru",
+      "published": "Sun, 19 Jul 2026 14:35:54 GMT",
+      "summary": "Реформа высшего образования в России: что такое БВО И СПВО и когда отменят бакалавриат inkazan.ru"
+    },
+    {
+      "title": "ПГУ подготовил более 200 иностранных абитуриентов к поступлению в российские вузы - Пензенский государственный университет",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtZndDano3aEpUdUN1NVRTczNQSGtTQjA1RUR6TkVUQnNsNjVidEc1TTJEWlkzT3N5NWlodWpWOHU2VkpHOEEtVnkwdG5oSEo5S2ZhUVZnUQ?oc=5",
+      "source": "Пензенский государственный университет",
+      "published": "Mon, 20 Jul 2026 06:38:16 GMT",
+      "summary": "ПГУ подготовил более 200 иностранных абитуриентов к поступлению в российские вузы Пензенский государственный университет"
+    },
+    {
+      "title": "Бакалавриат уходит: что ждет студентов ДВФУ и остальных - Сахалин-Курилы",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd19jY20yWXVQZkNjS3ptUTBFSDZEcDFOeXBHbFNzSl8tNk44OEVFM2U0UDZhTHR5UjZDMU1IZF9wWUpVUm5nZXNqcHJxaG9kNHNjMkV6SS1XVTI0Y2NTTlNGOUcwNk1JRXJXVmdjLWVaZDVDeDMydFEyZW1OaXNId1pBV3RDQjAzN1lIblVtcGdFTlJaQ0pLWFdnTVpQWE5XUGJKSE5sbkFNV1d1WXRfd3VXRTZ3dkFZR2J1MzdrVXlGUW1IQjh0N3NKWGZoTnJIOHZ4cGFleE5MdEtuV3c?oc=5",
+      "source": "Сахалин-Курилы",
+      "published": "Mon, 20 Jul 2026 05:01:52 GMT",
+      "summary": "Бакалавриат уходит: что ждет студентов ДВФУ и остальных Сахалин-Курилы"
+    },
+    {
+      "title": "Конкурс в томские вузы по ряду направлений достиг 8-12 человек на место - vtomske.ru",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWJCZFdHdUpkSjRDdEplNmVhU3RydlB1VXh4UnBZcE11NjBZNHlPNUhQSjZwdjE4MnBtd2tmdEpKVHVwNENQbmtRcUprNFhoZVM4c2FXWHl2dW1PaHJiUEMzR3RsWTlaRURZTG5Odzl6X3hTSWt3bWdqTm1PeWJfMGJIWEJaQ1M0RzhfNTAzcWJhZDJkSUVaV2xGWjZoa1prX2N6cFRIZ9IBpgFBVV95cUxObzJIVy1wNGRvcGRaTGh2ZG41cHVoQUo1am1CSmhwdndzX003dFRaTklpRURFQS1PNG9LNTlMamczOVd5ZGlTTUlKckVfcnljQS16OUZkZElndy02Q3ZaTjZ0LUc2dDlSdmpoV0E4UDYzeUdZWXR6VDFiWUFNVHdpNmNZZ1dKcmpKVG8zQTQ2RDQxMFBESmxEai1nMzdTdU1ST2J2aHNB?oc=5",
+      "source": "vtomske.ru",
+      "published": "Mon, 20 Jul 2026 03:00:00 GMT",
+      "summary": "Конкурс в томские вузы по ряду направлений достиг 8-12 человек на место vtomske.ru"
     }
   ],
   "conferenceUpdates": [
+    {
+      "title": "Конференция Psychologies с ведущими экспертами по психологии пройдет в Москве и Екатеринбурге в мае - MSK1.RU",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FdTd6V3NQbTA3R2xLZ0tzZUpZamVXT1E0VW1JS2ZfZFZhU0RtQ3hhZ24xeVAyMGZ0YkJkc3VaV2tBaGx1OS1xOGo2aXBhT0lKVmtWYVBjMndFVzVNYzd6d3E4TVZzR0dRTjFXQm93Sm1Ldw?oc=5",
+      "source": "MSK1.RU",
+      "published": "Thu, 07 May 2026 07:00:00 GMT",
+      "summary": "Конференция Psychologies с ведущими экспертами по психологии пройдет в Москве и Екатеринбурге в мае MSK1.RU"
+    },
     {
       "title": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ndXNhWU8tRU96WWx6RWtOV1ZTQ3NBSVRmMjA4dzFvOXdleHZVcmdwMnJTemx3UVpaVjA5X3JDTG14MERIbXoxM0pqWlA?oc=5",
@@ -169,25 +166,11 @@
       "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
     },
     {
-      "title": "В Москве прошла конференция AdIndex City 2026: ИИ, спорт, реклама и новые тренды рынка - irbis.spb.ru",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN0N2RlhIRmZsaXVoRVFNV0duc19sODNjVjh2QzRMMlBKS0NXaUlST1drS1JWVk53bDFDYWt5TjEzckRfTHduLXZNWC1LQzIyYS1iaWwwQzVQdlVJdURpb3dqa0NoYVNnUklYcVJ6UVdmbU9qLU52aklIQk5UM1V4cE5TaV9taGpXT2k1WWhWX0NBMVhXS1RSX1FtM3BqSUR1aVc5bkZFdUNIMDFBLWFqRUJ6eENSRGdRa0pZMmZqZ2I2S0E?oc=5",
-      "source": "irbis.spb.ru",
-      "published": "Thu, 02 Jul 2026 07:00:00 GMT",
-      "summary": "В Москве прошла конференция AdIndex City 2026: ИИ, спорт, реклама и новые тренды рынка irbis.spb.ru"
-    },
-    {
       "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
       "source": "Официальный сайт Мэра Москвы",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
       "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
-    },
-    {
-      "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjNkc2QzRTd6VzZ5Q3Q3QnBCeGMtQUVjbHk3WVhHUlVYdW1KVm1RUUsyaUt1UEtqZ2xwc1BKZEstb0pvY3VBNXBSM3p6THFsSTJ2SmF0eTJVbG16eEhPNE9NNTd2RU9CTmQ3TzNMNlYwVnZTYWlzTDhYb1cyN245ZG1yaFlZTzFwdmVQTENxcGxlZlVMc0pOYXcxNU5EaURZYXpUUGx2QkJOMW1tdDAwLVdVMnpQTkhF?oc=5",
-      "source": "Biz360",
-      "published": "Fri, 07 Feb 2025 08:00:00 GMT",
-      "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
     },
     {
       "title": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов - Психологическая газета",
@@ -206,13 +189,6 @@
   ],
   "sportAiUpdates": [
     {
-      "title": "Аспирант ТГУ получил медаль за исследование отношений человека и ИИ - РИА Томск",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVjlxZG5TRjEwRkR2V3FHV2ExcHlnQ2NtaG0zZ0tQOUFra1ppaTRZNmotRHotM3FfMWdaYUV4RVFPREpTenFRbGZ5V2JfZlJFWDRZWEJDUE1ON0VrUjFubERPajJnQ2NTU1JQbEh6ZkFqVm11VkdCdTVVb25WNzdsQWNzZ1NGbERVeDNHOGtzc3A1R0tJUDZ2M0FCOUtMNUJ4UGRrR2V2TVNsUzNWbHFr?oc=5",
-      "source": "РИА Томск",
-      "published": "Thu, 16 Jul 2026 05:07:00 GMT",
-      "summary": "Аспирант ТГУ получил медаль за исследование отношений человека и ИИ РИА Томск"
-    },
-    {
       "title": "Чемпионат мира по футболу FIFA 2026™: крупнейшая в мире технологическая витрина в мире футбола. - Vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZVpyakNmSFUza0xhT0NyekdmVHY2U1B4bFl5N3lZeVFzZjhEcmRfbWhBZUNoaURPTndnZ1FFdlJDYTRpMEtqa3diYWRUZldWd3JEWThRci1BTUx3WHlzUU1QbXlIVlp6MmNsZnMzVkRLc3NlTmdrLXdVNjhVaW9maExScE1Zd01MLVJzN1prUmIzcW5jRU9yb3RrQ24zcTdsXy1Zdm5jenI?oc=5",
       "source": "Vietnam.vn",
@@ -227,13 +203,6 @@
       "summary": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» Пресс-релиз.ру"
     },
     {
-      "title": "Идеальная красота от искусственного интеллекта: почему ИИ устанавливает новые стандарты, которым практически невозможно соответствовать - ТСН",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVjVhTWlDYXVaVERKTTlwUkFsLXlNTVQwSmtBNlRLTW5vR21VRnNhNDB0MFAyUXlnUW01elYxeHpJSFZvQ0EtS1JBVkJuS2pGTk0zdHNoVDJyU1g1RzVIZFY4N0kzRmVoOFF0MXhPWHY5NHNrNkhHQzFRUlRBbFJ0NlRXVjRXX1BDYjNBcEdCV1lQMGhibWxzMlZBUmZ5NG04MXZWZG9yd2RCQTF2TFkyQUprVWYzWk1ZdnY3czJiMmhWOC1ETzRDakFyWkxveFVWNkphSUk2dXZVOEwzNzRSdFZRWEJsYjZzSV9zdXR2LVl5ZmZmbWV5S0ZQeUlacDhSLVE2NGhiTEdQUDJFalJNTzItTDNpUQ?oc=5",
-      "source": "ТСН",
-      "published": "Thu, 16 Jul 2026 16:32:12 GMT",
-      "summary": "Идеальная красота от искусственного интеллекта: почему ИИ устанавливает новые стандарты, которым практически невозможно соответствовать ТСН"
-    },
-    {
       "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
       "source": "Forbes.ru",
@@ -241,11 +210,25 @@
       "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
     },
     {
+      "title": "Спорт и щедрость: как тренировки делают людей добрее - Наука Mail",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNamk4bk9zVUpjQVZrbC1oSVFzNFVTZVdNanhKZjVrQkxJYzJjN2wwcThtQ0dlUVBWZDJXcGJZaFVJM0ZTYjVfc1hKSzIxX0RIazd4d05IX1BKd2w5YnZ3a1VKdDBrNXhoNnVsUEtIQklkZU1SRFBJaHBiQXd6YV9PZzVmbERBYVhKNkRMZzZ0cWY4Mlk?oc=5",
+      "source": "Наука Mail",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Спорт и щедрость: как тренировки делают людей добрее Наука Mail"
+    },
+    {
       "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
       "source": "Российский государственный педагогический университет им. А. И. Герцена",
       "published": "Wed, 08 Oct 2025 07:00:00 GMT",
       "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
+    },
+    {
+      "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXVzQ1NlSWw1cDNFRjhqUC1Xb1E1QllOOWFOUnZXeXItSVhPRVdOakp5SVg0eFJ2OVRCNnFJdGk3eEp2VEhLMm1nMWJkUTBkdl82TTVNa1EyVW53ODVWOW5mX3hCZzlXYURobjI2MXpjeUFKMDM3XzJubm5TYkVmYnhheFJRRmhOeEdscGhKczEyS01udGRVam1DamNwdHB6d01fY0xQV27SAa4BQVVfeXFMTTkwVjZXalN2T01kT0ZBbXI4NXBkNUJIY0t0M1RjRXp5SF9QNU5hWThuMUJDZHpvNThOMm1ieFlNN0hvSkpXUkRHM2Z5UVlrQ1hTLXJpMjh0SW9jcHBxUU90T0JuMlU3Y2U0aXVqOUNWMGFzc3d1T0RHWTdFTkVuUkJjLWh6cTFIY1BYRy1nQ2YxRUJKN0Y5N1UwVVZfcFhfd25ZRHVHcFFkcklsMnFR?oc=5",
+      "source": "Sport24.ru",
+      "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
     }
   ],
   "openPublications": [
@@ -292,50 +275,7 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
-      "url": "https://мунн.рф/20251213",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
-    },
-    {
-      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
-      "url": "https://мунн.рф/novosti20251113",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
-    },
-    {
-      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
-      "url": "https://мунн.рф/speaker",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
-    },
-    {
-      "title": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн",
-      "url": "https://мунн.рф/events_tp",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Ближайшие Лекции по ПСИХОЛОГИИ - Психолог Татьяна Мунн"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "Сегодня лекция -психология личных границ) Регистрация пока не работает, приходите так)",
