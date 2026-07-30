@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T08:02:27.765481+00:00",
+  "generatedAt": "2026-07-30T07:44:10.971107+00:00",
   "ticker": [
     {
       "title": "Выбрать лекцию",
@@ -27,9 +27,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "Официальный сайт Мэра Москвы"
+      "source": "mos.ru"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -52,19 +52,19 @@
       "source": "ВФокусе Mail"
     },
     {
-      "title": "Стоит ли быть вежливым с ChatGPT – неочевидное мнение ученых - Cursorinfo",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3g0aEt6WGlEYXhtSGpScThpd2NGdF83R0hKQzRjLWMweVk5dEFFVkZLdWNqUVdwVkJyLS1sLVllNVRzVzhnT0c3QXVkN0hZaVkzX2syS3BxR2VJXzQ5MUFYS3FiU2Z1dTBvR2lyTlRNdVBENnhGN284bmFxcXNuZnM3eU1jQUUzTEg5WEdYZ3lFUWtCM1Y2Z1k1dTAyYzBZ0gGgAUFVX3lxTE93eDRoS3pYaURheG1IalJxOGl3Y0Z0XzdHSEpDNGMtYzB5WTl0QUVWRkt1Y2pRV3BWQnItLWwtWWU1VHNXOGdPRzdBdWQ3SFlpWTNfazJLcHFHZUlfNDkxQVhLcWJTZnV1MG9HaXJOVE11UEQ2eEY3bzhuYXFxc25mczd5TWNBRTNMSDlYR1hneUVRa0IzVjZnWTV1MDJjMFk?oc=5",
-      "source": "Cursorinfo"
-    },
-    {
       "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
       "source": "Forbes.ru"
     },
     {
-      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
-      "source": "obltv.ru"
+      "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
+      "source": "Пресс-релиз.ру"
+    },
+    {
+      "title": "Молодёжные кредиты: как подростку оплатить высшее образование без ущерба для будущего - Сибирское Агентство Новостей",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12ZlhKRzh4aG9sbXRUS2daRFV1TXVZUC1yd1hyZ0hfQkpHcWgycW5OUE03aEVJc2lFSlBjVmRUZHhpVUg5cmdxQ3dhdERtZw?oc=5",
+      "source": "Сибирское Агентство Новостей"
     },
     {
       "title": "Как российских школьников вытесняют в колледжи, лишая шанса на высшее образование - BBC",
@@ -95,6 +95,13 @@
       "summary": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» South Ural State University"
     },
     {
+      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
+      "source": "Sostav.ru",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
+    },
+    {
       "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
       "source": "Пресс-релиз.ру",
@@ -107,22 +114,15 @@
       "source": "Высшая школа экономики",
       "published": "Tue, 17 Mar 2026 07:00:00 GMT",
       "summary": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» Высшая школа экономики"
-    },
-    {
-      "title": "Психологи раскрыли два механизма развития зависимости от сериалов - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPenRveW96Y3lLNEU5N1p3bnZpRjB0ODdYdTNPV204MWU1aG9HOF84blh5TGc3ZUVzbHZ2emNrOWJmbDg2RTNFekk4SkdnOWY3ak9Ha09DUUhTaDZtWTkya015dS1XLWUxcGhNUW01cC1HQnlyRVNkZ2gwaDZYTm5DSlc3YVctYjA5VDAtdG1jbURFU1gta0VmRTNGUTJMeE14eXk5eEpOel9LRkhlWk5iTVBneDg5YTJqZzlBekFlbVJBbVd3M09EZFFWM1hjSURhdm84?oc=5",
-      "source": "naukatv.ru",
-      "published": "Sat, 30 May 2026 07:00:00 GMT",
-      "summary": "Психологи раскрыли два механизма развития зависимости от сериалов naukatv.ru"
     }
   ],
   "educationPolicy": [
     {
-      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
-      "source": "obltv.ru",
-      "published": "Wed, 29 Jul 2026 05:47:01 GMT",
-      "summary": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости obltv.ru"
+      "title": "Молодёжные кредиты: как подростку оплатить высшее образование без ущерба для будущего - Сибирское Агентство Новостей",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12ZlhKRzh4aG9sbXRUS2daRFV1TXVZUC1yd1hyZ0hfQkpHcWgycW5OUE03aEVJc2lFSlBjVmRUZHhpVUg5cmdxQ3dhdERtZw?oc=5",
+      "source": "Сибирское Агентство Новостей",
+      "published": "Thu, 30 Jul 2026 05:09:41 GMT",
+      "summary": "Молодёжные кредиты: как подростку оплатить высшее образование без ущерба для будущего Сибирское Агентство Новостей"
     },
     {
       "title": "Как российских школьников вытесняют в колледжи, лишая шанса на высшее образование - BBC",
@@ -132,32 +132,32 @@
       "summary": "Как российских школьников вытесняют в колледжи, лишая шанса на высшее образование BBC"
     },
     {
-      "title": "Вузы России ввели дни тишины при зачислении студентов в августе - Правда.Ру",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa1RVUUJSenR3T3U1aFZvVmhITkNCMGY3MVlqOFFaN0MwT2phYUZ1SWY1amxSQi00cVpGSUNrMGJJUUpTajlCeWRDVFI1VmpyemhsSGNCcm5ETjZzc2Z4N2dQUTVWaDh6bE83MWZMeS11c1VmZ0RuN0ZNTHEwWWo4eXF3?oc=5",
-      "source": "Правда.Ру",
-      "published": "Tue, 28 Jul 2026 19:17:00 GMT",
-      "summary": "Вузы России ввели дни тишины при зачислении студентов в августе Правда.Ру"
+      "title": "Куда пойти учиться, если не смог поступить в вуз: гид для челябинских абитуриентов - Курс Дела",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ3pGZmdQOTJGN0dYYm1WUm0zZUxNUmJmek5BTE42YndKVWVXTURMMGZhenB0UFVfemt1SHd1MFNReFM1RHBIZERUbWczR29DNVNjd2RCWEhvc2NjaEtvSWc0WnZMV3kyczJvY2h6Y1lUN202ZWZTSTJXYmdRNzVWblo3YmswMXdYeXZ0LUZib1FHQXpUMGhpSXBFOVh5T1NmMjRWOXNoNkJSWWhLV1M5NWVlRG9LWXRHTGt2UUtKUmlvWDh4SzNZ?oc=5",
+      "source": "Курс Дела",
+      "published": "Thu, 30 Jul 2026 01:30:00 GMT",
+      "summary": "Куда пойти учиться, если не смог поступить в вуз: гид для челябинских абитуриентов Курс Дела"
     },
     {
-      "title": "Провал или нет? В чем истинные причины провала конкурса в медицинские вузы - belsat.ru",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE51YnNnMzJWSVo2c25EVXdJczdCUXJfcWxEY2xlRGhEV015R0s0ckZEb0JBTWdqOV9XWDBVTHFnT25td0VmRFFYbWtXdC1ueFlyYXppSFNoanJSMjdkMGVBeG9iRUkwdmdqZGU5VXItYkhWUQ?oc=5",
-      "source": "belsat.ru",
-      "published": "Wed, 29 Jul 2026 05:07:00 GMT",
-      "summary": "Провал или нет? В чем истинные причины провала конкурса в медицинские вузы belsat.ru"
+      "title": "Удастся ли стобальникам Хакасии поступить в федеральные вузы - 19rusinfo.ru",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON053ZTc3TW5tcjBOaV9XQ2xLMTAwOVh1SzlFcVQtdXA2V3MxbjFzNlRvTFB4SUpRSHZqbXRzYnlybjlVNy1GNnBEM0VfalFrV19sZWo1cDd5WVY4NDRZS0pCYU9GWXJFY2VFMU5ZeDhTdmZYXzNOR3lsMDVaRUx3dGdLdTFad1lRc2dlMzJ1QkxsdmZFYlpyMU5NUjNSeE5N?oc=5",
+      "source": "19rusinfo.ru",
+      "published": "Thu, 30 Jul 2026 05:02:33 GMT",
+      "summary": "Удастся ли стобальникам Хакасии поступить в федеральные вузы 19rusinfo.ru"
     },
     {
-      "title": "Списки поступающих в 2026 году в вузы: где смотреть и как узнать, поступил ли ты - ВФокусе Mail",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKZmtmdThRT0xPbG5mV0VRX1lQbTN5SUhxUzNoNGRpbnhkWlRrajRGUFBDenFZbnh5RDJZUHZrbUR5aUNyU0hjNG5YNGc0VWNKeVNMUEdlV3lTendaQ3NhR2lJbXd4NC0tV2lJWHJUcHFVQQ?oc=5",
-      "source": "ВФокусе Mail",
-      "published": "Tue, 28 Jul 2026 14:21:20 GMT",
-      "summary": "Списки поступающих в 2026 году в вузы: где смотреть и как узнать, поступил ли ты ВФокусе Mail"
+      "title": "Петербургские вузы готовят самых высокооплачиваемых специалистов в сфере фармацевтики - 78.ru",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmJUbDFtRlZfMUJycGtxbGk2TWkyWC1PRjhXUFphN01vUG9CZ0JJNW8tdzY5RGh6Rld6aDBBYXRRV0R1WVVXeVJCLXY4U2NDY2dHc1h2cEFmTzA0aUYxS3FNaTZVbXFqQkdQS2gwQXNQOFhDU0w2NTZuX0VkWklJVlBKdkhXZGs3bXRzSVBYMkpsVk4yUXFLX3hhVzlPbEoxVHYwS3dNb3o2eE5zeldfRGRUeWtRb1VS?oc=5",
+      "source": "78.ru",
+      "published": "Thu, 30 Jul 2026 07:27:34 GMT",
+      "summary": "Петербургские вузы готовят самых высокооплачиваемых специалистов в сфере фармацевтики 78.ru"
     },
     {
-      "title": "В Трудовом кодексе закрепили права стажеров - UfaTime.ru",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLUEwbDh2MGlUYWt5QnByZmNKRXBPbUFQZlZkTHRadUNRM25ObFQxVXlFaDQ1RHRVT2tSZ0xOV1lNWVlCNnY0aERNcmNvbkc1V1ZzYmR3MTVyN25SOHZYYmFxbHk5bU1WNDEyWjQ0dnBQdW9SYnhSSjVrV3BsMlFid2x4NXhXOUnSAYwBQVVfeXFMTlpKSXFxSGRNcTFOa083ZlNKbWVNb1kwaktiZTQ5MVRCemF6U083QUduNC1uYmNoZlBoNGlhQ09uaVNocldoS0JrN211M1U2dVR4dGVSa2ZNdWxjemFUUkNJTHc5YXVUWUJGMi1nNTg3Skc4U1RjM2t0a0pIa0R1SThVeXhaSEYtR0ZGYU4?oc=5",
-      "source": "UfaTime.ru",
-      "published": "Wed, 29 Jul 2026 06:54:03 GMT",
-      "summary": "В Трудовом кодексе закрепили права стажеров UfaTime.ru"
+      "title": "ВГИК вербует абитуриентов для участия в войне с Украиной - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaDhnYXlQNTVQVVR2ZlB0T0NYVlQzdjBTbmhmTUtZY2RZcHU4NnlpRUtySW13anloQU5lYXZfaEs5NmlUbTFLS0RTb2NBR3hqZUVvR3hQcE1ZOVZ5Z1BHdVM4U2FFZHJlZ2dlYUNIQ3V5UXdqWkhBa3RnQmRUUE5nUGJ3U1ViWVBaLWJQLXZPNVh2UEXSAZMBQVVfeXFMT2tBamVlenFMcTFVSFdLakJ5ZHhfcVlvLXJnNWdQTlRZZXlBdXRUM1UwTnZOLVRkRjdmcEQtalV4TXI0d0RUQXB3ZzRZRlJ4bkpEaklraG1WM3pwLXVGUzNBR1UxMFgwMUgyRy0zc3VkeE1vZjUyendBaE5nYW42XzF6RjV2dzZKZWo5eWpvSWpGMGZj?oc=5",
+      "source": "DW.com",
+      "published": "Wed, 29 Jul 2026 15:21:36 GMT",
+      "summary": "ВГИК вербует абитуриентов для участия в войне с Украиной DW.com"
     }
   ],
   "conferenceUpdates": [
@@ -169,11 +169,11 @@
       "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "Официальный сайт Мэра Москвы",
+      "source": "mos.ru",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
-      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
+      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
     },
     {
       "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
@@ -181,6 +181,13 @@
       "source": "Biz360",
       "published": "Fri, 07 Feb 2025 08:00:00 GMT",
       "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
+    },
+    {
+      "title": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE96T2N1VXF0Umt4eUJieE9aYTNGc1BQd24wdUhua1djWmtaclEtOUMteXQxNEpPcXNBcXBrSEltQQ?oc=5",
+      "source": "Психологическая газета",
+      "published": "Tue, 17 Jun 2025 07:00:00 GMT",
+      "summary": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов Психологическая газета"
     },
     {
       "title": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы - Психологическая газета",
@@ -198,13 +205,6 @@
     }
   ],
   "sportAiUpdates": [
-    {
-      "title": "Стоит ли быть вежливым с ChatGPT – неочевидное мнение ученых - Cursorinfo",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3g0aEt6WGlEYXhtSGpScThpd2NGdF83R0hKQzRjLWMweVk5dEFFVkZLdWNqUVdwVkJyLS1sLVllNVRzVzhnT0c3QXVkN0hZaVkzX2syS3BxR2VJXzQ5MUFYS3FiU2Z1dTBvR2lyTlRNdVBENnhGN284bmFxcXNuZnM3eU1jQUUzTEg5WEdYZ3lFUWtCM1Y2Z1k1dTAyYzBZ0gGgAUFVX3lxTE93eDRoS3pYaURheG1IalJxOGl3Y0Z0XzdHSEpDNGMtYzB5WTl0QUVWRkt1Y2pRV3BWQnItLWwtWWU1VHNXOGdPRzdBdWQ3SFlpWTNfazJLcHFHZUlfNDkxQVhLcWJTZnV1MG9HaXJOVE11UEQ2eEY3bzhuYXFxc25mczd5TWNBRTNMSDlYR1hneUVRa0IzVjZnWTV1MDJjMFk?oc=5",
-      "source": "Cursorinfo",
-      "published": "Tue, 28 Jul 2026 15:30:02 GMT",
-      "summary": "Стоит ли быть вежливым с ChatGPT – неочевидное мнение ученых Cursorinfo"
-    },
     {
       "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
@@ -227,18 +227,25 @@
       "summary": "Изменение маркетинга под влиянием технологий искусственного интеллекта Ведомости"
     },
     {
-      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
-      "source": "Российский государственный педагогический университет им. А. И. Герцена",
-      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
-      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
+      "title": "Психолог объяснила, как возникает феномен «отпускного похмелья» - МИРЭА - Российский технологический университет",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHlxblQ0bFhMWnR1elMtMnh6UWs2QTlMR3dEaG42OHpUUl96ZWVsbHYtVGtxVHBUNGhOd2t4Uk5kNFZBZDZVUXc0aDU0RGMtbGNLWG9FbVVSWXVqUUg4UFExYzZmX25zSzNEby1BSzliSDRlWlRSNzlwdEU2TTNFVGlSbUhyMHFQbXZwR1BiMGtkc0Z1T3NzSTBaN3g3elNERGt2QUVTUGpMaDR4?oc=5",
+      "source": "МИРЭА - Российский технологический университет",
+      "published": "Mon, 06 Jul 2026 18:04:16 GMT",
+      "summary": "Психолог объяснила, как возникает феномен «отпускного похмелья» МИРЭА - Российский технологический университет"
     },
     {
-      "title": "Опыт украинских дронов пойдет на обучение ИИ для США: детали соглашения Swarmer - РБК-Україна",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLXFmSUJKa3ZMeW1jWmhMUEdORHVUUnRBd2g5ZzBMeXpLRE9aQ3Y5dVJ4QTF4OWxnS3FnWGZTT3Z6TWMzNDJocTFvMGJwWC1CV1ZFVzAtMEtlV0JHY0xOakYzeU1FdjhPcHlESEU3MHFrSzluMEgxZkNpMnh2NU1mYjROaFhHSGNpNDNSNmhVX3JRT2_SAZMBQVVfeXFMUC1xZklCSmt2THltY1poTFBHTkR1VFJ0QXdoOWcwTHl6S0RPWkN2OXVSeEExeDlsZ0txZ1hmU092ek1jMzQyaHExbzBicFgtQldWRVcwLTBLZVdCR2NMTmpGM3lNRXY4T3B5REhFNzBxa0s5bjBIMWZDaTJ4djVNZmI0TmhYR0hjaTQzUjZoVV9yUU9v?oc=5",
-      "source": "РБК-Україна",
-      "published": "Tue, 28 Jul 2026 07:34:21 GMT",
-      "summary": "Опыт украинских дронов пойдет на обучение ИИ для США: детали соглашения Swarmer РБК-Україна"
+      "title": "Открыт ген, связанный с выносливостью спортсменов - naukatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMFpaYy1pVVVTcHJpVkdxamxhMnpNMG9zb3l0dEVwbjM0emVzNlJUTDNQUTkwd2xCb3pHRmFjUDlsWWxSTXF6ekFCZTdaY255WUJSN3J5bmlXdzQyaHZmUlVGZXkxLUpLX0x2czJVSVJSOWFWcWh3bTZvUUw0Zkc5VQ?oc=5",
+      "source": "naukatv.ru",
+      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
+      "summary": "Открыт ген, связанный с выносливостью спортсменов naukatv.ru"
+    },
+    {
+      "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXVzQ1NlSWw1cDNFRjhqUC1Xb1E1QllOOWFOUnZXeXItSVhPRVdOakp5SVg0eFJ2OVRCNnFJdGk3eEp2VEhLMm1nMWJkUTBkdl82TTVNa1EyVW53ODVWOW5mX3hCZzlXYURobjI2MXpjeUFKMDM3XzJubm5TYkVmYnhheFJRRmhOeEdscGhKczEyS01udGRVam1DamNwdHB6d01fY0xQV27SAa4BQVVfeXFMTTkwVjZXalN2T01kT0ZBbXI4NXBkNUJIY0t0M1RjRXp5SF9QNU5hWThuMUJDZHpvNThOMm1ieFlNN0hvSkpXUkRHM2Z5UVlrQ1hTLXJpMjh0SW9jcHBxUU90T0JuMlU3Y2U0aXVqOUNWMGFzc3d1T0RHWTdFTkVuUkJjLWh6cTFIY1BYRy1nQ2YxRUJKN0Y5N1UwVVZfcFhfd25ZRHVHcFFkcklsMnFR?oc=5",
+      "source": "Sport24.ru",
+      "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
     }
   ],
   "openPublications": [
