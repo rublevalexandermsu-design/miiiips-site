@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-05T07:59:34.596491+00:00",
+  "generatedAt": "2026-08-06T07:58:48.766663+00:00",
   "ticker": [
+    {
+      "title": "Выбрать лекцию",
+      "url": "'+PAGE_URL+'",
+      "source": "мунн.рф"
+    },
+    {
+      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
     {
       "title": "В слелующий понедельник последняя лекция)) Будем раздавать сертификаты для тех кто ходил на лекции) Они вам пригодятся, Для тех кто ходил более 4-х раз-будет выдаваться сертификат.",
       "url": "https://t.me/moonn_official/823",
@@ -17,9 +27,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "mos.ru"
+      "source": "Официальный сайт Мэра Москвы"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -32,8 +42,8 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
-      "title": "Техники позитивной психологии для родителей детей с ОВЗ: помочь найти ресурсы и обрести силу - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1UY0hteGs3RTJacFYxcUNaM1Y4aUJlb1hHVE8yYkpqX2gtdWpIU2ZqUjN0TktUNnVjalg5c1N2dw?oc=5",
+      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
       "source": "Психологическая газета"
     },
     {
@@ -47,28 +57,28 @@
       "source": "Vietnam.vn"
     },
     {
-      "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
-      "source": "Пресс-релиз.ру"
+      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
+      "source": "Forbes.ru"
     },
     {
-      "title": "Инвестиция в будущее: что на самом деле ищут в ИТ-вузе родители и абитуриенты - СТОЛИЦА на Онего",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlA0Mk5iTTVZOURNV3NBa1hXSFlIbm43VFJBR3J2ODRRV0hzZWlsaFRGWHMyQTFqMHdrM0plb1dKOXozajBqRkJ4WW5Ca3MzOUFVSmozLTZtNmMxVGcxQ2JkOGU0RDVIeVEzaE0xeXEycUY0TE9VcnJxeWNZMVNJTW5tM3VmYWhjNE02VHM1TjNSZFZHQVJTNU45VVFKaEZnNUwyX1F1WEhwaTZHdFp1am5MbDJDVUth?oc=5",
-      "source": "СТОЛИЦА на Онего"
+      "title": "Высшее и среднее профессиональное образование от 45 000 рублей в год — МФЮА приглашает абитуриентов! - Блокнот Волгоград",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUWtPVDU0V0tOUDE4eDJpa2dSdGlqc2JOc1gyX2lSQXI4V1lGLVh6d2lwcThLai16M3hHOUNEdlAtUHdUZjROcVQ5NkxJU2FiZXlKT0ZweEVudzNvNmtwUldCNkpaRTVSX1E5TlNxQlV2bVF5VXV3SUFJdzBrQ2h1UHd2anJ2UUJJZUM3ejloLXAxUkpHcDlR?oc=5",
+      "source": "Блокнот Волгоград"
     },
     {
-      "title": "Студентам стали реже выдавать кредиты на высшее образование - Важные истории",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLWh0a0poVTc0Rm0xUjF1M3NhMzNZOWFxS2x5bmxPQkJTek1YTkQwVHhDUzkzcElmc1NyWndnTUUxdm5uY1FrTjV1YWRFZmRKbWM0ajU3OGdXV1BvMnpyMTNQOUwzcG4tbHNDUWlsay13WFZxMDNxdWtkT2NlUGpaNXBlYVhEZTZ5a21panROeXB3QWpZdTdLeVdwRXFjeFNHUVE?oc=5",
-      "source": "Важные истории"
+      "title": "Минобразования изменит правила приема в вузы из-за конкурса олимпиадников и стобалльников — Смолин - Росбалт",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDM0Y3lMWmtWdkpSRzJuUEY5RFJCWlF5X19QN09qVkJzMEtBMDlBWTNkRjNYLXJ1TlVlUzcyNHRhRjBGYmh3RWdBcDFvNXE4VTRtcmROY1Zqd25VeDlncU5BT0dqQUVpOHJQYmt5d3NsYWNLMGJfTUs0X3o4Z3pRRHRhVGdkd016eFViSnMtZEp0a3M3VmlyU1NlQUE1LTM3dU54WVdIMDkxMlA0MExxcVJpOTAyYWVSY0tlb3lNUVE5R1NP?oc=5",
+      "source": "Росбалт"
     }
   ],
   "psychologyTrends": [
     {
-      "title": "Техники позитивной психологии для родителей детей с ОВЗ: помочь найти ресурсы и обрести силу - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1UY0hteGs3RTJacFYxcUNaM1Y4aUJlb1hHVE8yYkpqX2gtdWpIU2ZqUjN0TktUNnVjalg5c1N2dw?oc=5",
+      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
       "source": "Психологическая газета",
-      "published": "Sat, 01 Aug 2026 21:00:21 GMT",
-      "summary": "Техники позитивной психологии для родителей детей с ОВЗ: помочь найти ресурсы и обрести силу Психологическая газета"
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "summary": "Казнь психологии: в новых УГСН не будет психологических наук Психологическая газета"
     },
     {
       "title": "Представители крупнейших вузов обсудили тренды развития психологического образования - ВФокусе Mail",
@@ -78,20 +88,6 @@
       "summary": "Представители крупнейших вузов обсудили тренды развития психологического образования ВФокусе Mail"
     },
     {
-      "title": "Качественное высшее образование в дистанционном формате: как выбрать вуз - 24 Канал",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORTRJNmRnTTgtV1Nzc1RZQUVzLUd1cGtHRVhkbjFGZXBxYXFOMDZpXzFVLXdqQXBiOGRCb0ZBMWRrZFlwY2N3WnFJRFE4SnNuNUEydDBsTkozTXhranlyMk9POXl3b3M3Y0ZBNmxGN2c1QlR4dnprOV9JNm1RdGtlcllfX2pnN0E5TVdWdFRocFNWbDBmS2lNV0RtQzc4b1B1N0JMctIBqgFBVV95cUxNem9jclQwUDhBM2dCamprOTlwZmNpQjYxRThmMGpWNUdtV1pZV1Blc19oY3BGTGJqLS15NUtPUlRXZlhlYkxqYVVLMTNkbDM3QnJDSzBUWG1CVkNCaEhFcVZlMU9YamtRSXhtN0tnM2ZLeHdRSk5BdGVoNDRiMkNhZVU5STJ0R2RQbHlnM2RwS2N2TmJTenZ4VkxFQlR5WjVQbGpJa2tOWEk4UQ?oc=5",
-      "source": "24 Канал",
-      "published": "Mon, 03 Aug 2026 09:00:00 GMT",
-      "summary": "Качественное высшее образование в дистанционном формате: как выбрать вуз 24 Канал"
-    },
-    {
-      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "summary": "Казнь психологии: в новых УГСН не будет психологических наук Психологическая газета"
-    },
-    {
       "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
       "source": "Sostav.ru",
@@ -99,20 +95,41 @@
       "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
     },
     {
-      "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
-      "source": "Пресс-релиз.ру",
-      "published": "Tue, 14 Jul 2026 18:36:06 GMT",
-      "summary": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» Пресс-релиз.ру"
+      "title": "Качественное высшее образование в дистанционном формате: как выбрать вуз - 24 Канал",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORTRJNmRnTTgtV1Nzc1RZQUVzLUd1cGtHRVhkbjFGZXBxYXFOMDZpXzFVLXdqQXBiOGRCb0ZBMWRrZFlwY2N3WnFJRFE4SnNuNUEydDBsTkozTXhranlyMk9POXl3b3M3Y0ZBNmxGN2c1QlR4dnprOV9JNm1RdGtlcllfX2pnN0E5TVdWdFRocFNWbDBmS2lNV0RtQzc4b1B1N0JMctIBqgFBVV95cUxNem9jclQwUDhBM2dCamprOTlwZmNpQjYxRThmMGpWNUdtV1pZV1Blc19oY3BGTGJqLS15NUtPUlRXZlhlYkxqYVVLMTNkbDM3QnJDSzBUWG1CVkNCaEhFcVZlMU9YamtRSXhtN0tnM2ZLeHdRSk5BdGVoNDRiMkNhZVU5STJ0R2RQbHlnM2RwS2N2TmJTenZ4VkxFQlR5WjVQbGpJa2tOWEk4UQ?oc=5",
+      "source": "24 Канал",
+      "published": "Mon, 03 Aug 2026 09:00:00 GMT",
+      "summary": "Качественное высшее образование в дистанционном формате: как выбрать вуз 24 Канал"
+    },
+    {
+      "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBscW9FNTlUTDVfbW1YbmJFX29TQzNOTTBfeGpLWlBTQW13RWZtSlpuN3JTcWxJQ2p4amVqelUwMA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Fri, 17 Jul 2026 14:40:47 GMT",
+      "summary": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате Психологическая газета"
+    },
+    {
+      "title": "Психологи раскрыли два механизма развития зависимости от сериалов - naukatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPenRveW96Y3lLNEU5N1p3bnZpRjB0ODdYdTNPV204MWU1aG9HOF84blh5TGc3ZUVzbHZ2emNrOWJmbDg2RTNFekk4SkdnOWY3ak9Ha09DUUhTaDZtWTkya015dS1XLWUxcGhNUW01cC1HQnlyRVNkZ2gwaDZYTm5DSlc3YVctYjA5VDAtdG1jbURFU1gta0VmRTNGUTJMeE14eXk5eEpOel9LRkhlWk5iTVBneDg5YTJqZzlBekFlbVJBbVd3M09EZFFWM1hjSURhdm84?oc=5",
+      "source": "naukatv.ru",
+      "published": "Sat, 30 May 2026 07:00:00 GMT",
+      "summary": "Психологи раскрыли два механизма развития зависимости от сериалов naukatv.ru"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Инвестиция в будущее: что на самом деле ищут в ИТ-вузе родители и абитуриенты - СТОЛИЦА на Онего",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlA0Mk5iTTVZOURNV3NBa1hXSFlIbm43VFJBR3J2ODRRV0hzZWlsaFRGWHMyQTFqMHdrM0plb1dKOXozajBqRkJ4WW5Ca3MzOUFVSmozLTZtNmMxVGcxQ2JkOGU0RDVIeVEzaE0xeXEycUY0TE9VcnJxeWNZMVNJTW5tM3VmYWhjNE02VHM1TjNSZFZHQVJTNU45VVFKaEZnNUwyX1F1WEhwaTZHdFp1am5MbDJDVUth?oc=5",
-      "source": "СТОЛИЦА на Онего",
-      "published": "Wed, 05 Aug 2026 06:03:47 GMT",
-      "summary": "Инвестиция в будущее: что на самом деле ищут в ИТ-вузе родители и абитуриенты СТОЛИЦА на Онего"
+      "title": "Высшее и среднее профессиональное образование от 45 000 рублей в год — МФЮА приглашает абитуриентов! - Блокнот Волгоград",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUWtPVDU0V0tOUDE4eDJpa2dSdGlqc2JOc1gyX2lSQXI4V1lGLVh6d2lwcThLai16M3hHOUNEdlAtUHdUZjROcVQ5NkxJU2FiZXlKT0ZweEVudzNvNmtwUldCNkpaRTVSX1E5TlNxQlV2bVF5VXV3SUFJdzBrQ2h1UHd2anJ2UUJJZUM3ejloLXAxUkpHcDlR?oc=5",
+      "source": "Блокнот Волгоград",
+      "published": "Thu, 06 Aug 2026 07:05:08 GMT",
+      "summary": "Высшее и среднее профессиональное образование от 45 000 рублей в год — МФЮА приглашает абитуриентов! Блокнот Волгоград"
+    },
+    {
+      "title": "Минобразования изменит правила приема в вузы из-за конкурса олимпиадников и стобалльников — Смолин - Росбалт",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDM0Y3lMWmtWdkpSRzJuUEY5RFJCWlF5X19QN09qVkJzMEtBMDlBWTNkRjNYLXJ1TlVlUzcyNHRhRjBGYmh3RWdBcDFvNXE4VTRtcmROY1Zqd25VeDlncU5BT0dqQUVpOHJQYmt5d3NsYWNLMGJfTUs0X3o4Z3pRRHRhVGdkd016eFViSnMtZEp0a3M3VmlyU1NlQUE1LTM3dU54WVdIMDkxMlA0MExxcVJpOTAyYWVSY0tlb3lNUVE5R1NP?oc=5",
+      "source": "Росбалт",
+      "published": "Wed, 05 Aug 2026 11:56:00 GMT",
+      "summary": "Минобразования изменит правила приема в вузы из-за конкурса олимпиадников и стобалльников — Смолин Росбалт"
     },
     {
       "title": "Студентам стали реже выдавать кредиты на высшее образование - Важные истории",
@@ -122,18 +139,11 @@
       "summary": "Студентам стали реже выдавать кредиты на высшее образование Важные истории"
     },
     {
-      "title": "Последний шанс поступить: вузы прекращают принимать согласия на зачисление - URA.RU",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5qb2E1d2dQdUd1SzNpdDY1LUo0X0ttWFA4Zmd6TTFIbC1vNDNHWklJRUVtakNkZzg1elQ2SWxPSnFpaGdBMnNnVV9MWEU?oc=5",
-      "source": "URA.RU",
-      "published": "Wed, 05 Aug 2026 06:33:00 GMT",
-      "summary": "Последний шанс поступить: вузы прекращают принимать согласия на зачисление URA.RU"
-    },
-    {
-      "title": "По ком звонит колокольчик. Привычная дорога из девятого класса до первого курса стала полосой препятствий — Новая Газета - Новая газета",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YYzZsXzRzc2Zpd0pUTWpvSVROaW1uOUZhbzU5QkFtcXUwaThfZWxhSTUzSjQxdkxVc3pxSzVONXRuX3ZPc28xRmllTHBpdEp3b0QwckEwMnlKeEdzNGF3WW9aUTdJa2ZDbDdoeFM1RFM4WFhMVXhBaNIBfkFVX3lxTE8wSjlvZlNjOHdVTHFPSFRPOE9RbVkwNENMTGotdndUMDVKRmZsTVBEZEJZRkdHZTFPZ2UzMjRLVDdqTlk5Z1ZPRFVyZ1hwZFpOTXVrcFA0ZUgzbFNET0NUUUlZODBJY3l4Z3pMZG14MjdoNGFUOXc4Skl5SWlrQQ?oc=5",
-      "source": "Новая газета",
-      "published": "Tue, 04 Aug 2026 13:04:23 GMT",
-      "summary": "По ком звонит колокольчик. Привычная дорога из девятого класса до первого курса стала полосой препятствий — Новая Газета Новая газета"
+      "title": "Образование в кредит - actualcomment.ru",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Dd3A3dUN2ZUlqUEpIQ2hMTlJWaUQ5VzUxZEI2ZmdxeTNzQVpNMjh3OUktNklwQkZlbmsyRXZmWTZfUENJOXQxZWpGZnpid0NZd2ZVZlhkY1RldlBEem04WXFCbXljRDFLMW9zWld3?oc=5",
+      "source": "actualcomment.ru",
+      "published": "Wed, 05 Aug 2026 14:50:00 GMT",
+      "summary": "Образование в кредит actualcomment.ru"
     },
     {
       "title": "Девять из 17 пилотных вузов РФ полностью перестроились под новую модель высшего образования - Интерфакс",
@@ -143,11 +153,11 @@
       "summary": "Девять из 17 пилотных вузов РФ полностью перестроились под новую модель высшего образования Интерфакс"
     },
     {
-      "title": "Цена высшего образования: как меняются университеты и рынок труда Казахстана - Казинформ",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeGFRV0JfOG5WZDJGdHd0R0xBSzRRemhISHB6NkVXYV83eUFaSm5WM0lSNE9ya1gySjRybXVmZTNicE43WVdIcXI5aV8xY1NMYTRxdnVCbUtIbk9jMVBIb243TGZlS01KMWZId2lic2FSQXZQSFRXZ3ZNaVlPb3pyTVJhRXNhNk4zbldsbVFqRTlPSGh3MVBVYWZKYmJQQWQ2SzRQVUxLblRwM2g1Q2ttUXhxUXnSAbYBQVVfeXFMTWIzMlcwa3NCQkhCLVFmUGE0alVpc2pWZGhJM01FSHRsOF9XQ3JOMjNVV2lRUHlSR0VkU0ZxTWtPbnAyRlFzN3JOd1FoNVZGQkRybFp2RzdUUFlDX3FFVVN6ZTdPTkxfaUFQbHYwMElSdlRIdi1TWGVZYnhhUnNZc0JiOW5WLWVzNGpqRU9PRkxWRzhXNm1nUGZuZ1F2RjdrdzRvMWpzSTEzNG1qNkpwX0VVUmctcmc?oc=5",
-      "source": "Казинформ",
-      "published": "Wed, 05 Aug 2026 06:50:23 GMT",
-      "summary": "Цена высшего образования: как меняются университеты и рынок труда Казахстана Казинформ"
+      "title": "«Китайские вузы предлагают стипендии». Куда еще поступают российские абитуриенты - pravmir.ru",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMjcxSkxtbm9UaWdlWGx2dmpVQzBKdnFqbnJsNzkyN2x1QlpaWElEQnlhNFFBYXhEaklqRlM1RGFhZHRXSDhELVRzZmFnZG5kdS1ZNVpPUzVuWHBSMC1kemFYTm1BWDZ2ejR4SVZNdGxzc0JWMjlLSVA5ZjNINEtZYW9vMTh1LU9JcWRpRWNwSDhRaHVneTFaaEZtRWZoQVk2TjBlSVhTT1A?oc=5",
+      "source": "pravmir.ru",
+      "published": "Wed, 05 Aug 2026 11:43:35 GMT",
+      "summary": "«Китайские вузы предлагают стипендии». Куда еще поступают российские абитуриенты pravmir.ru"
     }
   ],
   "conferenceUpdates": [
@@ -159,11 +169,11 @@
       "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "mos.ru",
+      "source": "Официальный сайт Мэра Москвы",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
-      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
+      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
     },
     {
       "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
@@ -171,6 +181,13 @@
       "source": "Biz360",
       "published": "Fri, 07 Feb 2025 08:00:00 GMT",
       "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
+    },
+    {
+      "title": "Елена Алексеевна Сергиенко - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHSkNWLWFjQ2V1ckRkZlpJT1FNOVA0T2lMd0FQQUZyMS04Z0hXRGxXUzVHWjdNMlotTW5vYzgybGdRZi1pR0x6TE01RWJrQzk1d2pZNF9KXy1vSE04Wk1vcmhR?oc=5",
+      "source": "Психологическая газета",
+      "published": "Fri, 05 Jan 2024 22:13:47 GMT",
+      "summary": "Елена Алексеевна Сергиенко Психологическая газета"
     },
     {
       "title": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов - Психологическая газета",
@@ -185,13 +202,6 @@
       "source": "Психологическая газета",
       "published": "Mon, 30 Aug 2021 00:39:53 GMT",
       "summary": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы Психологическая газета"
-    },
-    {
-      "title": "Сафуанов Фарит Суфиянович - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqOXIzdmt6T0U2cXE1Znd6SEMyVVI5ODJqaG5aQndHa1BCRnE3WGRMSkU4dXRZNzhjTUF6c3pXZENPaktZaVZzN3BHQlVmMDhaUGR5Vk9iYlk0U0xLbnI0TVVGWUNSUQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Fri, 21 Apr 2017 07:57:21 GMT",
-      "summary": "Сафуанов Фарит Суфиянович Психологическая газета"
     }
   ],
   "sportAiUpdates": [
@@ -203,13 +213,6 @@
       "summary": "Студенты Университета Хоа Сен представили свои исследования по применению искусственного интеллекта в изучении английского языка на конференции Union TESOL 2026 в Сингапуре. Vietnam.vn"
     },
     {
-      "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
-      "source": "Пресс-релиз.ру",
-      "published": "Tue, 14 Jul 2026 18:36:06 GMT",
-      "summary": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» Пресс-релиз.ру"
-    },
-    {
       "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
       "source": "Forbes.ru",
@@ -217,18 +220,25 @@
       "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
     },
     {
+      "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0hHT0RZbEJtYWZ2SlhsbW1JcG1MMmtjOEgwNXJ1enhKLXpuc1FvWFhHeEl2N1Jad0dTWHVWWVlGUDVRU2Jia0k4cnYtR3o1TkVKZlFHY2NHT1BkTEJPVTVKaWthS1pRQW9EaV8yQXBqME1zRnc?oc=5",
+      "source": "Пресс-релиз.ру",
+      "published": "Tue, 14 Jul 2026 18:36:06 GMT",
+      "summary": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» Пресс-релиз.ру"
+    },
+    {
+      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
+      "source": "Российский государственный педагогический университет им. А. И. Герцена",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
+    },
+    {
       "title": "Ученые рассказали, как правильно внедрять ИИ - naukatv.ru",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbHNPa1NaNlBtUWhOdjRYekNfU0RSY3U4SVdLemtUa04yR2FDZllkNUtneWlHeHlJNjdmWTUxdk9GS25TTEU3bUdscTVaemFYaDIwSTNTY2NZVVRMQWo3T3pfcXpuREhlVVAzV3k2V0JCSGZsLVJkOXdsVHpTOUdIUC01c2Y0ejdtV0t1ZnBsYUw4Q3pldDNKMExMWGFmT1Ruc2VIUlAwSmE1N0NkRHd5ZkZGcjR3Y2xJc1RkRDlBQXNRYzFyaU5pdWItVnM?oc=5",
       "source": "naukatv.ru",
       "published": "Fri, 13 Mar 2026 07:00:00 GMT",
       "summary": "Ученые рассказали, как правильно внедрять ИИ naukatv.ru"
-    },
-    {
-      "title": "Трансформация фитнес-индустрии: почему современные тренировочные пространства меняют подход к здоровью - Izhlife.ru",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTzVNU244d2hHbjk2S0Y2QXpIMlFzODh2ZzBUd0VybGUyaXJBbzh1RURtQlZXR1BXY25Bdjhob2xKMXpwci1LSExYZnNqNDVfZ2dtZDc1eU1FRTNkV1VtYUcwYkV5T1FBaDc5NUp6UUtCTjN1TVYtUXNqRWpSbzNob0dQWG1pVG90X1o0eVFFMUYxeThaeGlMRFNqbmNPRnd0dE5GN3RRZV8zSmh2bmxCTDVKY0FQR0U1eFdaalNmQWhtdUdjVVoySERB?oc=5",
-      "source": "Izhlife.ru",
-      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-      "summary": "Трансформация фитнес-индустрии: почему современные тренировочные пространства меняют подход к здоровью Izhlife.ru"
     },
     {
       "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
@@ -282,7 +292,50 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [],
+  "moonnUpdates": [
+    {
+      "title": "Выбрать лекцию",
+      "url": "'+PAGE_URL+'",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Выбрать лекцию"
+    },
+    {
+      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
+    },
+    {
+      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
+      "url": "https://мунн.рф/20251216",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
+    },
+    {
+      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
+      "url": "https://мунн.рф/20251213",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
+    },
+    {
+      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
+      "url": "https://мунн.рф/novosti20251113",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
+    },
+    {
+      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
+      "url": "https://мунн.рф/speaker",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
+    }
+  ],
   "telegramUpdates": [
     {
       "title": "В слелующий понедельник последняя лекция)) Будем раздавать сертификаты для тех кто ходил на лекции) Они вам пригодятся, Для тех кто ходил более 4-х раз-будет выдаваться сертификат.",
