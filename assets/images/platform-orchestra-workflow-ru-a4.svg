@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1754" viewBox="0 0 1240 1754" role="img" aria-labelledby="title desc">
+  <title id="title">Оркестр работы МИИИИПС</title>
+  <desc id="desc">Вертикальная A4-схема того, как большая цель проходит через роли агентов, skills и проекты.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fcfcfa"/>
+      <stop offset="100%" stop-color="#eef4f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0a3f34" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title { font: 700 38px Arial, sans-serif; fill: #12372f; }
+      .subtitle { font: 400 20px Arial, sans-serif; fill: #4b6660; }
+      .section { font: 700 24px Arial, sans-serif; fill: #12372f; }
+      .label { font: 700 20px Arial, sans-serif; fill: #12372f; }
+      .small { font: 400 16px Arial, sans-serif; fill: #57746c; }
+      .tiny { font: 400 13px Arial, sans-serif; fill: #6d8a82; }
+      .box { fill: #ffffff; stroke: #d8e7e1; stroke-width: 2; rx: 20; ry: 20; }
+      .boxStrong { fill: #f5fbf8; stroke: #0c5a4b; stroke-width: 3; rx: 24; ry: 24; }
+      .pill { fill: #e7f4ef; stroke: #bfd6cf; stroke-width: 1.5; rx: 999; ry: 999; }
+      .line { stroke: #6d8f86; stroke-width: 4; fill: none; stroke-linecap: round; }
+      .thin { stroke: #9ab6af; stroke-width: 2.5; fill: none; stroke-linecap: round; }
+      .accent { fill: #0c5a4b; }
+      .gold { fill: #9a701d; }
+      .teal { fill: #2a7061; }
+      .violet { fill: #5d5b9f; }
+      .orange { fill: #a95d2a; }
+    </style>
+  </defs>
+
+  <rect width="1240" height="1754" rx="34" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <text x="620" y="82" text-anchor="middle" class="title">Оркестр работы МИИИИПС</text>
+  <text x="620" y="122" text-anchor="middle" class="subtitle">Как одна большая цель проходит через роли планировщика, сборщика, проверяющего, оценщика и репортёра</text>
+
+  <!-- Goal -->
+  <g filter="url(#shadow)">
+    <rect x="240" y="170" width="760" height="110" class="boxStrong"/>
+    <text x="620" y="214" text-anchor="middle" class="label">Большая цель</text>
+    <text x="620" y="244" text-anchor="middle" class="small">Например: запустить новый контур публикаций, грантов, событий или кабинетов без ручного хаоса</text>
+  </g>
+
+  <path class="line" d="M620 280 L620 340"/>
+
+  <!-- Planning -->
+  <g filter="url(#shadow)">
+    <rect x="120" y="340" width="1000" height="190" class="box"/>
+    <text x="620" y="382" text-anchor="middle" class="section">1. Планировщик — собирает и разбивает цель</text>
+    <text x="620" y="412" text-anchor="middle" class="small">Планировщик не решает всё сам. Он раскладывает цель на рабочие ветки.</text>
+
+    <g>
+      <rect x="170" y="450" width="230" height="54" class="pill"/>
+      <text x="285" y="482" text-anchor="middle" class="small">Публикации</text>
+    </g>
+    <g>
+      <rect x="430" y="450" width="170" height="54" class="pill"/>
+      <text x="515" y="482" text-anchor="middle" class="small">Гранты</text>
+    </g>
+    <g>
+      <rect x="630" y="450" width="170" height="54" class="pill"/>
+      <text x="715" y="482" text-anchor="middle" class="small">События</text>
+    </g>
+    <g>
+      <rect x="830" y="450" width="210" height="54" class="pill"/>
+      <text x="935" y="482" text-anchor="middle" class="small">Кабинеты и shell</text>
+    </g>
+  </g>
+
+  <path class="line" d="M620 530 L620 585"/>
+
+  <!-- Roles -->
+  <g filter="url(#shadow)">
+    <rect x="100" y="585" width="1040" height="320" class="box"/>
+    <text x="620" y="627" text-anchor="middle" class="section">2. Рабочие роли агентов</text>
+    <text x="620" y="656" text-anchor="middle" class="small">Каждая роль получает свой кусок работы и возвращает готовый результат</text>
+
+    <g>
+      <circle cx="190" cy="744" r="20" class="accent"/>
+      <text x="225" y="738" class="label">Планировщик</text>
+      <text x="225" y="763" class="tiny">Разбивает задачу на workstreams</text>
+    </g>
+    <g>
+      <circle cx="430" cy="744" r="20" class="teal"/>
+      <text x="465" y="738" class="label">Сборщик</text>
+      <text x="465" y="763" class="tiny">Делает рабочие варианты</text>
+    </g>
+    <g>
+      <circle cx="655" cy="744" r="20" class="gold"/>
+      <text x="690" y="738" class="label">Проверяющий</text>
+      <text x="690" y="763" class="tiny">Ищет риски и слабые места</text>
+    </g>
+    <g>
+      <circle cx="875" cy="744" r="20" class="violet"/>
+      <text x="910" y="738" class="label">Оценщик</text>
+      <text x="910" y="763" class="tiny">Сравнивает варианты и выбирает сильнейшие</text>
+    </g>
+    <g>
+      <circle cx="1045" cy="744" r="20" class="orange"/>
+      <text x="1080" y="738" class="label">Репортёр</text>
+      <text x="1080" y="763" class="tiny">Пишет итог по-человечески</text>
+    </g>
+  </g>
+
+  <path class="line" d="M620 905 L620 960"/>
+
+  <!-- Skills -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="960" width="1060" height="260" class="box"/>
+    <text x="620" y="1002" text-anchor="middle" class="section">3. Skills — кто умеет что делать</text>
+    <text x="620" y="1031" text-anchor="middle" class="small">Skills дают специализацию, чтобы агент не решал всё универсально и медленно</text>
+
+    <g>
+      <rect x="150" y="1065" width="190" height="72" class="pill"/>
+      <text x="245" y="1093" text-anchor="middle" class="small">Платформенный архитектор</text>
+      <text x="245" y="1116" text-anchor="middle" class="tiny">institute-platform-architect</text>
+    </g>
+    <g>
+      <rect x="370" y="1065" width="190" height="72" class="pill"/>
+      <text x="465" y="1093" text-anchor="middle" class="small">Единые кабинеты</text>
+      <text x="465" y="1116" text-anchor="middle" class="tiny">account-shell-integrator</text>
+    </g>
+    <g>
+      <rect x="590" y="1065" width="190" height="72" class="pill"/>
+      <text x="685" y="1093" text-anchor="middle" class="small">Публикации</text>
+      <text x="685" y="1116" text-anchor="middle" class="tiny">autoarticle-pipeline</text>
+    </g>
+    <g>
+      <rect x="810" y="1065" width="190" height="72" class="pill"/>
+      <text x="905" y="1093" text-anchor="middle" class="small">Гранты</text>
+      <text x="905" y="1116" text-anchor="middle" class="tiny">grants-online-orchestrator</text>
+    </g>
+    <g>
+      <rect x="1030" y="1065" width="70" height="72" class="pill"/>
+      <text x="1065" y="1093" text-anchor="middle" class="small">ИИ</text>
+      <text x="1065" y="1116" text-anchor="middle" class="tiny">multi-agent-orchestrator</text>
+    </g>
+  </g>
+
+  <path class="line" d="M620 1220 L620 1270"/>
+
+  <!-- Projects -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="1270" width="1060" height="340" class="box"/>
+    <text x="620" y="1312" text-anchor="middle" class="section">4. Проекты, которые исполняют оркестр</text>
+    <text x="620" y="1341" text-anchor="middle" class="small">Оркестр распределяет роли по проектам, а итог возвращает в общую платформу</text>
+
+    <g>
+      <rect x="145" y="1385" width="950" height="54" class="pill"/>
+      <text x="180" y="1419" class="label">АНО Институт глобализации</text>
+      <text x="520" y="1419" class="tiny">главный shell и координатор</text>
+    </g>
+    <g>
+      <rect x="145" y="1456" width="950" height="54" class="pill"/>
+      <text x="180" y="1490" class="label">АвтоСтатьи Кумсковой</text>
+      <text x="520" y="1490" class="tiny">редакция, SEO, статьи, article conveyor</text>
+    </g>
+    <g>
+      <rect x="145" y="1527" width="950" height="54" class="pill"/>
+      <text x="180" y="1561" class="label">Гранты / Курс ЭИ / rowing_agent / События</text>
+      <text x="710" y="1561" class="tiny">другие модули платформы</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="620" y="1662" text-anchor="middle" class="subtitle">Смысл оркестра: одна цель не делается одним агентом. Её раскладывают, проверяют и собирают обратно в один результат.</text>
+  <text x="620" y="1696" text-anchor="middle" class="tiny">Если нужно, я могу ещё сделать версию с русскими названиями всех skills вместо английских alias-меток.</text>
+</svg>

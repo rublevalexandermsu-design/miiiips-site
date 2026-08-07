@@ -1,7 +1,7 @@
 # Статус MCP-усилений для сайта МИИИИПС
 
 ## Что уже подготовлено
-- сайт опубликован в GitHub Pages;
+- сайт подготовлен для публикации под кастомным доменом `miiiips.ru` через GitHub Pages;
 - есть рабочий GitHub-репозиторий;
 - формы идут по маршруту email + Google Sheets;
 - есть аудиторы `site_smoke_test.py` и `site_full_audit.py`;
@@ -25,6 +25,13 @@
 - Google Sheets и Gmail уже участвуют в форме заявок;
 - есть публичный JSON-слой с источниками лекций, контактами и видео;
 - есть отдельный генератор живых фидов `refresh_public_feeds.py`.
+
+## Что подготовлено под домен и наблюдаемость
+- `CNAME` для `miiiips.ru`;
+- `robots.txt` и `sitemap.xml`;
+- `assets/data/site-settings.json`;
+- `assets/js/site-observability.js`;
+- базовые hooks для GA4, Search Console и будущего InsightfulPipe.
 
 ## Что ещё требует внешней настройки в среде Codex
 1. Browser MCP

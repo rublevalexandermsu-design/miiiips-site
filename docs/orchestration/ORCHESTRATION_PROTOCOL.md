@@ -106,6 +106,12 @@ QA Agent прогоняет:
 2. `QA Agent`
 3. `Global Orchestrator`
 
+### F. Отчётность и внутренний контур
+1. `Compliance Agent`
+2. `Global Orchestrator` при изменении правил и маршрутов
+3. `QA Agent`
+4. `Global Orchestrator`
+
 ---
 
 ## 5. Write-set правило
@@ -132,6 +138,11 @@ QA Agent прогоняет:
   - research registries
 - `QA Agent`
   - guards only
+- `Compliance Agent`
+  - internal compliance page
+  - reporting registry
+  - report pack
+  - Telegram report mirror
 
 Если задача требует пересечения write-set, решение принимает `Global Orchestrator`.
 
@@ -145,6 +156,7 @@ QA Agent прогоняет:
   - content
   - QA
   - release
+- не смешивать отчётность и публикационный поток без `Compliance Agent`;
 - не публиковать без QA;
 - не менять shared entities без сверки с `Architecture Agent`.
 
