@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-08-09T06:05:32.779804+00:00",
+  "generatedAt": "2026-08-10T06:48:51.246774+00:00",
   "ticker": [
-    {
-      "title": "Выбрать лекцию",
-      "url": "'+PAGE_URL+'",
-      "source": "мунн.рф"
-    },
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
     {
       "title": "В слелующий понедельник последняя лекция)) Будем раздавать сертификаты для тех кто ходил на лекции) Они вам пригодятся, Для тех кто ходил более 4-х раз-будет выдаваться сертификат.",
       "url": "https://t.me/moonn_official/823",
@@ -42,14 +32,14 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
-      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
+      "title": "Развитие жизнедеятельности В.П. Зинченко и его психологии рефлексирующего сознания и творческого акта - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5peTFSYUtSaHh0UVhqVWRhOW1KRU1LYUhidVhfaHhhNElVdGg3YmZ1UURTU0RybERIV1o5MUpCWQ?oc=5",
       "source": "Психологическая газета"
     },
     {
-      "title": "Представители крупнейших вузов обсудили тренды развития психологического образования - ВФокусе Mail",
+      "title": "Представители крупнейших вузов обсудили тренды развития психологического образования - vfokuse.mail.ru",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaWsweXFJN1dESWFLa1g5WU44SUhTSGtjX1RNT2I5YmIwVUwwUXdhME55dTlIQVBwdzdFVGpzb040NE1ZMF90djIwVC1NTzRWVEZ0TVFaRHVGWTNvaTY2MERmYjA2SFd2Qng0Qjl1aXhUTy1BM0dXUm1MZ3JZZTEzUlZnZEdPTUx5SFhZN0FYZmdlQXJId2JVZjl4dW5NWHNBSWhyY3FLTWZNZVV0RnBtQkRpdm4zRTJOX0xfLVcyNDUzSUEwM2Rn?oc=5",
-      "source": "ВФокусе Mail"
+      "source": "vfokuse.mail.ru"
     },
     {
       "title": "Студенты Университета Хоа Сен представили свои исследования по применению искусственного интеллекта в изучении английского языка на конференции Union TESOL 2026 в Сингапуре. - Vietnam.vn",
@@ -62,30 +52,30 @@
       "source": "Forbes.ru"
     },
     {
+      "title": "Почти 42 тысячи участников СВО и дети бойцов спецоперации стали студентами вузов в этом году - Фактор - новости Карелии",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdHVFR3ZaMG9UX0J5Tm1hX2pnc1lFMW5kQUF4N3NmRURXUEJkeG1IWVpDUHpkM0tlcGN0VzNhc1JkaXBQZG1WNXhDckYxdDFlQi1xbl92U1pWa1ZrLURWT1pScFdXUFpWaW82bTNNSW1iWEo3aUZ5S2lnRzRuQmlZa1JhMFkwTndkcUo0ZDc1U1RGLXNkaXNWdmJLcG43UUtfZUlCUzllVW9yYzZMQjNoVTJGcWpGd1NxeFA0?oc=5",
+      "source": "Фактор - новости Карелии"
+    },
+    {
       "title": "Вузы добавят свыше 62 тыс. бюджетных мест для поступления после зачисления льготников - Объясняем.рф",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSlF3QVh1RXBPZG5JU2RtQXhUM2VTbWNiaXpBRmxLbEU0WXNGMkdSYlBWUGRWMmc5OGlka0lkdmljUllnNzZjZ1JqalVxdVVXbnVPOHQ0dGhLYWxTdHZmWHdsMUNEdUY0VFdJaUlXempWZ05UWVVNMkRoY0J3V2JvN2tqM0JZSC1RMXNmRUoxdWt6OHBjaU1TdVJCb1hrWWVPOGpOOUpMLU5PX2I3S3M1dUc5emhLSU9yLUx1eTJabTg5dGtveE5CZnMtbHQtZE84aWl0bEJmZ2xQQQ?oc=5",
       "source": "Объясняем.рф"
-    },
-    {
-      "title": "Крупные вузы начали объявлять дополнительный набор в ординатуру - medvestnik.ru",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORWZ6R1c3aENDVGZWc0RZRnF1ZTdtVHBndE54THJKZlZMMTBPYkhXYVlIMjJBaW8wUDJTSDAxS21XeFd3UFlsNl9TdTh6QnVVYUZkSGVVeG54OVNfbVFwMWxodzkxWHhKN0RpWUFUQkZQVGNzWlBCU2FVSHhYZU9XTENucUJrUHZXb0lDWGMwUzlwamlQNkxIU21mNWhhZkRybWoxMWp3?oc=5",
-      "source": "medvestnik.ru"
     }
   ],
   "psychologyTrends": [
     {
-      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
+      "title": "Развитие жизнедеятельности В.П. Зинченко и его психологии рефлексирующего сознания и творческого акта - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5peTFSYUtSaHh0UVhqVWRhOW1KRU1LYUhidVhfaHhhNElVdGg3YmZ1UURTU0RybERIV1o5MUpCWQ?oc=5",
       "source": "Психологическая газета",
-      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "summary": "Казнь психологии: в новых УГСН не будет психологических наук Психологическая газета"
+      "published": "Sun, 09 Aug 2026 21:00:40 GMT",
+      "summary": "Развитие жизнедеятельности В.П. Зинченко и его психологии рефлексирующего сознания и творческого акта Психологическая газета"
     },
     {
-      "title": "Представители крупнейших вузов обсудили тренды развития психологического образования - ВФокусе Mail",
+      "title": "Представители крупнейших вузов обсудили тренды развития психологического образования - vfokuse.mail.ru",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaWsweXFJN1dESWFLa1g5WU44SUhTSGtjX1RNT2I5YmIwVUwwUXdhME55dTlIQVBwdzdFVGpzb040NE1ZMF90djIwVC1NTzRWVEZ0TVFaRHVGWTNvaTY2MERmYjA2SFd2Qng0Qjl1aXhUTy1BM0dXUm1MZ3JZZTEzUlZnZEdPTUx5SFhZN0FYZmdlQXJId2JVZjl4dW5NWHNBSWhyY3FLTWZNZVV0RnBtQkRpdm4zRTJOX0xfLVcyNDUzSUEwM2Rn?oc=5",
-      "source": "ВФокусе Mail",
+      "source": "vfokuse.mail.ru",
       "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "summary": "Представители крупнейших вузов обсудили тренды развития психологического образования ВФокусе Mail"
+      "summary": "Представители крупнейших вузов обсудили тренды развития психологического образования vfokuse.mail.ru"
     },
     {
       "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
@@ -95,11 +85,18 @@
       "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
     },
     {
-      "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBscW9FNTlUTDVfbW1YbmJFX29TQzNOTTBfeGpLWlBTQW13RWZtSlpuN3JTcWxJQ2p4amVqelUwMA?oc=5",
+      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
       "source": "Психологическая газета",
-      "published": "Fri, 17 Jul 2026 14:40:47 GMT",
-      "summary": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате Психологическая газета"
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "summary": "Казнь психологии: в новых УГСН не будет психологических наук Психологическая газета"
+    },
+    {
+      "title": "Психологи раскрыли два механизма развития зависимости от сериалов - naukatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPenRveW96Y3lLNEU5N1p3bnZpRjB0ODdYdTNPV204MWU1aG9HOF84blh5TGc3ZUVzbHZ2emNrOWJmbDg2RTNFekk4SkdnOWY3ak9Ha09DUUhTaDZtWTkya015dS1XLWUxcGhNUW01cC1HQnlyRVNkZ2gwaDZYTm5DSlc3YVctYjA5VDAtdG1jbURFU1gta0VmRTNGUTJMeE14eXk5eEpOel9LRkhlWk5iTVBneDg5YTJqZzlBekFlbVJBbVd3M09EZFFWM1hjSURhdm84?oc=5",
+      "source": "naukatv.ru",
+      "published": "Sat, 30 May 2026 07:00:00 GMT",
+      "summary": "Психологи раскрыли два механизма развития зависимости от сериалов naukatv.ru"
     },
     {
       "title": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» - Пресс-релиз.ру",
@@ -107,16 +104,16 @@
       "source": "Пресс-релиз.ру",
       "published": "Tue, 14 Jul 2026 18:36:06 GMT",
       "summary": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» Пресс-релиз.ру"
-    },
-    {
-      "title": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту - Forbes.ru",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFdHRVNYVXplN1JDaDgwcHZGaUFXTHBoS3hVVWxXV09yQVZRLXpocjd5TmY1dWoxUHotcTY1Mm96NXJqZG5zZmNrNWZTYlNpMzNDT0tVdDlULUN2SWZUbzdlWVRkVVN1cXZqZjZjZ2hXeDBJMXFLTkFZdm1WZTk1RkQybHBhaWlRbXNpbVd1UlZzdE1jLTBMTDFNb2FZUlFLY2d0TURpdXlwbVVQR3BVQUFXbmFlZw?oc=5",
-      "source": "Forbes.ru",
-      "published": "Sat, 18 Oct 2025 07:00:00 GMT",
-      "summary": "Как сделать свою жизнь лучше: топ-10 книг по саморазвитию и личностному росту Forbes.ru"
     }
   ],
   "educationPolicy": [
+    {
+      "title": "Почти 42 тысячи участников СВО и дети бойцов спецоперации стали студентами вузов в этом году - Фактор - новости Карелии",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdHVFR3ZaMG9UX0J5Tm1hX2pnc1lFMW5kQUF4N3NmRURXUEJkeG1IWVpDUHpkM0tlcGN0VzNhc1JkaXBQZG1WNXhDckYxdDFlQi1xbl92U1pWa1ZrLURWT1pScFdXUFpWaW82bTNNSW1iWEo3aUZ5S2lnRzRuQmlZa1JhMFkwTndkcUo0ZDc1U1RGLXNkaXNWdmJLcG43UUtfZUlCUzllVW9yYzZMQjNoVTJGcWpGd1NxeFA0?oc=5",
+      "source": "Фактор - новости Карелии",
+      "published": "Sun, 09 Aug 2026 20:33:53 GMT",
+      "summary": "Почти 42 тысячи участников СВО и дети бойцов спецоперации стали студентами вузов в этом году Фактор - новости Карелии"
+    },
     {
       "title": "Вузы добавят свыше 62 тыс. бюджетных мест для поступления после зачисления льготников - Объясняем.рф",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSlF3QVh1RXBPZG5JU2RtQXhUM2VTbWNiaXpBRmxLbEU0WXNGMkdSYlBWUGRWMmc5OGlka0lkdmljUllnNzZjZ1JqalVxdVVXbnVPOHQ0dGhLYWxTdHZmWHdsMUNEdUY0VFdJaUlXempWZ05UWVVNMkRoY0J3V2JvN2tqM0JZSC1RMXNmRUoxdWt6OHBjaU1TdVJCb1hrWWVPOGpOOUpMLU5PX2I3S3M1dUc5emhLSU9yLUx1eTJabTg5dGtveE5CZnMtbHQtZE84aWl0bEJmZ2xQQQ?oc=5",
@@ -125,39 +122,32 @@
       "summary": "Вузы добавят свыше 62 тыс. бюджетных мест для поступления после зачисления льготников Объясняем.рф"
     },
     {
-      "title": "Крупные вузы начали объявлять дополнительный набор в ординатуру - medvestnik.ru",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORWZ6R1c3aENDVGZWc0RZRnF1ZTdtVHBndE54THJKZlZMMTBPYkhXYVlIMjJBaW8wUDJTSDAxS21XeFd3UFlsNl9TdTh6QnVVYUZkSGVVeG54OVNfbVFwMWxodzkxWHhKN0RpWUFUQkZQVGNzWlBCU2FVSHhYZU9XTENucUJrUHZXb0lDWGMwUzlwamlQNkxIU21mNWhhZkRybWoxMWp3?oc=5",
-      "source": "medvestnik.ru",
-      "published": "Fri, 07 Aug 2026 06:55:02 GMT",
-      "summary": "Крупные вузы начали объявлять дополнительный набор в ординатуру medvestnik.ru"
-    },
-    {
-      "title": "Правила приёма в вузы на следующий год опубликуют не позднее 1 ноября - Интерфакс",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzQ1lGbHZJX2JuUEN1YVhJampvc1RSbjJrODc3TXdob3N3MmJxQldzRmZ5UjhoQ3JLVTFab0V3V21OaVNjNVJIVy1YSdIBS0FVX3lxTFAzQ1lGbHZJX2JuUEN1YVhJampvc1RSbjJrODc3TXdob3N3MmJxQldzRmZ5UjhoQ3JLVTFab0V3V21OaVNjNVJIVy1YSQ?oc=5",
-      "source": "Интерфакс",
-      "published": "Thu, 06 Aug 2026 09:24:00 GMT",
-      "summary": "Правила приёма в вузы на следующий год опубликуют не позднее 1 ноября Интерфакс"
-    },
-    {
-      "title": "Более 9,6 тысячи студентов зачислили в нижегородские вузы - niann.ru",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8xdEtzeDVCcFhxMUF5RV82U3RMTWZHODJtcjF3bFJFZHdoSEFxTlZ4aGQwN0p6QXhSSEpNRTVuZ2hNTUFSd0E?oc=5",
-      "source": "niann.ru",
-      "published": "Fri, 07 Aug 2026 14:07:00 GMT",
-      "summary": "Более 9,6 тысячи студентов зачислили в нижегородские вузы niann.ru"
-    },
-    {
-      "title": "Студентам стали реже выдавать кредиты на высшее образование - Важные истории",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLWh0a0poVTc0Rm0xUjF1M3NhMzNZOWFxS2x5bmxPQkJTek1YTkQwVHhDUzkzcElmc1NyWndnTUUxdm5uY1FrTjV1YWRFZmRKbWM0ajU3OGdXV1BvMnpyMTNQOUwzcG4tbHNDUWlsay13WFZxMDNxdWtkT2NlUGpaNXBlYVhEZTZ5a21panROeXB3QWpZdTdLeVdwRXFjeFNHUVE?oc=5",
-      "source": "Важные истории",
-      "published": "Tue, 04 Aug 2026 13:39:37 GMT",
-      "summary": "Студентам стали реже выдавать кредиты на высшее образование Важные истории"
-    },
-    {
       "title": "«ИИ — убийца образования или его второе дыхание?» Честный разговор с преподавателем - Хабр",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QTlWQU0yWWQwdVY3Q0xjeHJiSkZXWkVWU3A1SzBBZUc1ZUN3WlJsVHZPdllPWHFXQTFQUlYybU56Qi1jMTUzQjZWX2RMbFpvZWlERVZOck1GUkE2SlV5SlptY0RxTGfSAVhBVV95cUxPWVY5Y0haSGhRZXp2NjFPUk5DMjdaQ3VmcXhzTlRxU1pxNE5CQ2otQ2VRZXNzNHJZT1BrRzhWLU4tWXZ0aWRQOVhybnRSNERrTlRHdzFWVmts?oc=5",
       "source": "Хабр",
       "published": "Thu, 06 Aug 2026 08:00:13 GMT",
       "summary": "«ИИ — убийца образования или его второе дыхание?» Честный разговор с преподавателем Хабр"
+    },
+    {
+      "title": "Крупные вузы начали объявлять дополнительный набор в ординатуру - Medvestnik",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORWZ6R1c3aENDVGZWc0RZRnF1ZTdtVHBndE54THJKZlZMMTBPYkhXYVlIMjJBaW8wUDJTSDAxS21XeFd3UFlsNl9TdTh6QnVVYUZkSGVVeG54OVNfbVFwMWxodzkxWHhKN0RpWUFUQkZQVGNzWlBCU2FVSHhYZU9XTENucUJrUHZXb0lDWGMwUzlwamlQNkxIU21mNWhhZkRybWoxMWp3?oc=5",
+      "source": "Medvestnik",
+      "published": "Fri, 07 Aug 2026 06:55:02 GMT",
+      "summary": "Крупные вузы начали объявлять дополнительный набор в ординатуру Medvestnik"
+    },
+    {
+      "title": "Шесть стобалльников и 335 медалистов поступили в вузы Забайкалья - ChitaMedia.su",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QWHdHT2JiZnFQaU43d0k0UmlWazVtUzNrdFRCQzBaUmxFUVFDZFdKRUNCbFROeVBFT1dMT2VWRzZoNENVaHpTMGlzRQ?oc=5",
+      "source": "ChitaMedia.su",
+      "published": "Mon, 10 Aug 2026 01:34:02 GMT",
+      "summary": "Шесть стобалльников и 335 медалистов поступили в вузы Забайкалья ChitaMedia.su"
+    },
+    {
+      "title": "Более 9,6 тысячи студентов зачислили в нижегородские вузы - НИА «Нижний Новгород",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8xdEtzeDVCcFhxMUF5RV82U3RMTWZHODJtcjF3bFJFZHdoSEFxTlZ4aGQwN0p6QXhSSEpNRTVuZ2hNTUFSd0E?oc=5",
+      "source": "НИА «Нижний Новгород",
+      "published": "Fri, 07 Aug 2026 14:07:00 GMT",
+      "summary": "Более 9,6 тысячи студентов зачислили в нижегородские вузы НИА «Нижний Новгород"
     }
   ],
   "conferenceUpdates": [
@@ -292,50 +282,7 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "Выбрать лекцию",
-      "url": "'+PAGE_URL+'",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Выбрать лекцию"
-    },
-    {
-      "title": "ВЫСТУПЛЕНИЯ Татьяны Мунн",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "ВЫСТУПЛЕНИЯ Татьяны Мунн"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»",
-      "url": "https://мунн.рф/20251216",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Международной научно-практической конференции «Урбан-психология: вызовы нового времени и ответ мегаполиса»"
-    },
-    {
-      "title": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\".",
-      "url": "https://мунн.рф/20251213",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Татьяна Мунн выступит на Московской Неделе Интерьера и Дизайна. Тема выступления \"Порядок в доме и в голове\"."
-    },
-    {
-      "title": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера",
-      "url": "https://мунн.рф/novosti20251113",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Новости: 16 ноября 2025 года Татьяна Мунн выступит на Конгрессе специалистов БРИКС с докладом об эмоциональном интеллекте лидера"
-    },
-    {
-      "title": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов.",
-      "url": "https://xn--l1acaw.xn--p1ai/speaker",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Принимаю приглашения для выступлений на различных мероприятиях, корпоративах, фестивалях, преподавание в ВУЗах Москвы и других городов."
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "В слелующий понедельник последняя лекция)) Будем раздавать сертификаты для тех кто ходил на лекции) Они вам пригодятся, Для тех кто ходил более 4-х раз-будет выдаваться сертификат.",
