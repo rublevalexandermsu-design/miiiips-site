@@ -1,11 +1,6 @@
 {
-  "generatedAt": "2026-08-16T05:50:43.745559+00:00",
+  "generatedAt": "2026-08-17T05:57:52.147795+00:00",
   "ticker": [
-    {
-      "title": "Выступления",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
     {
       "title": "Эмоциональный интеллект в отношениях) ) Сегодня, в 19.00. Последняя лекция, и выдача сертификатов для тех кто был на лекциях не менее 4-х раз) Плюс, подарки от меня)",
       "url": "https://t.me/moonn_official/829",
@@ -17,14 +12,14 @@
       "source": "Telegram"
     },
     {
-      "title": "Романтические отношения с ИИ развиваются по тем же законам, что и с человеком - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRzhfZDlYM1V6Q3FjSWZRakNkQk16ckJWNTRuS3pkQnh5RHdOemR4YVJPS3FMUUhHOW9FbHE2OUlwblFKTkU4b1lUV3FWQjdWX09NSC1pT2lONGxIWklOWHZGb0lZYmF3NjdWRFEtQjVYN0lSamp6R1pBX3J1VDJnZEVMRHNNVHRhZWVDektYajdyZ3Q0NDk4aDdfQk9LeUk2WWhjTm9BVjlEblFZ?oc=5",
-      "source": "naukatv.ru"
-    },
-    {
       "title": "Перспективы психологии развития обсудили на Ананьевских чтениях - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9rVnltVXZYTkpvOFpvNE1RMExxNjRqSzlsdlVrSHpFLUF5X3ZkYmw5cDlDWGJxNW9Ea19LTG5oRQ?oc=5",
       "source": "Психологическая газета"
+    },
+    {
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
+      "source": "mos.ru"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -37,14 +32,14 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
-      "title": "30 книг по психологии: системный маршрут чтения - quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVE4wWGxWcWs5cGRTcm5FcUtVYmJaX05sYU1PbG5sS0hIMVFfcllwWG1Kb3M1ZTNqYUlNMHVVUUlHV1hfM3NrWGpzQnRnU0VIOTZiRW9RNGVfbzBwam8zLXA5bHNUWEowbmZvUVA2bzdRR213ZEFrdmExOXVMR0FfWHA3UVg0bWo2LVJtN3U0M0NuZ0k?oc=5",
-      "source": "quasa.io"
-    },
-    {
       "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBscW9FNTlUTDVfbW1YbmJFX29TQzNOTTBfeGpLWlBTQW13RWZtSlpuN3JTcWxJQ2p4amVqelUwMA?oc=5",
       "source": "Психологическая газета"
+    },
+    {
+      "title": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» - susu.ru",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcVBXc3VINW1IbWthQnFMbmdYSGxfRzNHd0Zlalh0cXhxUFdGN20wXzFFZklmLVoyVWExWEhONUhnR2J5M2wxbWpLTGVPY2RNQ011NEpGaEtTWkZsMGx5X0p5OG5CVURoNUtjTFZvNXBEWkJnanUySXpjMnVZUVNnVmtPcDVCZjVrN1N5RmRCNnRXWkVyUll5WTJvbjdMQlRlN2pZS00wa3l0UEl6YjdBVA?oc=5",
+      "source": "susu.ru"
     },
     {
       "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
@@ -52,29 +47,22 @@
       "source": "Forbes.ru"
     },
     {
-      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - herzen.spb.ru",
+      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
-      "source": "herzen.spb.ru"
+      "source": "Российский государственный педагогический университет им. А. И. Герцена"
     },
     {
-      "title": "Про вуз рассказала подруга: студенты из Конго приехали поступать в челябинский агроуниверситет - Хорошие новости Челябинской области",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZnBqdS0yUHpmMUdZTnJFY3lxb2xZNml5aHZFS0VhME5Uc3N2THlCc0F5bm1HMDdnUUN6bkFvYmRtcG9qRmc0a3g2QXhmVXZnT2lEN0MzWjFucm52ak4xQ1lEZ3JsV1pVWFh0d3h2ZXpPYzd2cGVnRXYxVEI0d1QzemhYQlp5S1ROUkFmYzVZQWFWV3pFM0tWRVhieVpHRGdISHJMY3YyQ0RBZmt3aXYzc09NNXJfZGtMOXc?oc=5",
-      "source": "Хорошие новости Челябинской области"
+      "title": "Бюджетные места есть, а студентов нет: зачем вузы набирают «мертвые души» - Мел",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcFNTQ2FXM2RuY0REbnhfOEJyV09kX082V3p2NXJuZ1RJcjRVRG11cFNtdzZFMHphUlJrdUt2MWo5VTVKUjhGNlItSFEyZ1ZSQ0l0dV9CQ3BYM3dfMEhwUXRLME9EWHVzbjl6U0pMaGVDRjVNRkpfc3dld2xLWWpiODF1MlJMSzQ3cndHTzBxUnIxdHV5SFlLVDNWcE5XTEtjZFFCbEZsQ1RXT2lhWXfSAbMBQVVfeXFMTkRhSE5QMTJmbGhRMFRnQkFsaTB6YVJvdi1tMHBhNjRLTGNnSXp4YS00Z2NLZ3NwVHFmM2l6NnZDc2tjZ2lMMDlHX0w3REMyWEtJU0VnNW1ic2NNellSbHYxc1lIYUE4Y2F3MENrajBLZjNHMkJvM3hXQ1cwblVHMGF0Nm80U3E5bE93ZVh4ay12WnE4YklndldteG9JWXN2QXZoQno3cmpTNE13ZVp0c3l4Y28?oc=5",
+      "source": "Мел"
     },
     {
-      "title": "Объявлен дополнительный набор на бакалавриат и базовое высшее образование - Московский городской педагогический университет",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOG1fTUV2VkxnS2poM1BrSF96UlBJWF9LZzE3WUpmd1JBbTNaY3d5YWx0UHBSdHdmczdLR1BUeFBUVUFsTHd2UmhkLWVyRFB6NTd3eWVUdDFQY21Qbm5mV3ZySl9GUENJZnVkNzUycGJzX2RpWEZJQzhnaEVyMGFoWmVmemxTYldVejdnOERzSzJPUURmcnlJQzlR?oc=5",
-      "source": "Московский городской педагогический университет"
+      "title": "В Дубае запустят первую программу высшего образования для музыкантов - russianemirates.family",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdFg5Zld5WjZwdGZScVRaamR1TVdaUFZ0VUQ3cjUwR0dFcFZDSWxnQm1yUzdPelEwLWpDWU93dUprX3BXUU9yWEtnRVBaTTJnVE5ZSFcxVGN4TktKNVNLRGxwV2Q0ejR6WkpnYW5RUXpzY1R6dkpWLUtQVl9ROFlvUUFuSGZPVTRQUWdfcjc0SzBjR1NvUjNOZDNqa1FHUC1PVFhzU09jbXd5ODNjU3dnLVA5OGtHdmRJSGFyb3BHNkY?oc=5",
+      "source": "russianemirates.family"
     }
   ],
   "psychologyTrends": [
-    {
-      "title": "30 книг по психологии: системный маршрут чтения - quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVE4wWGxWcWs5cGRTcm5FcUtVYmJaX05sYU1PbG5sS0hIMVFfcllwWG1Kb3M1ZTNqYUlNMHVVUUlHV1hfM3NrWGpzQnRnU0VIOTZiRW9RNGVfbzBwam8zLXA5bHNUWEowbmZvUVA2bzdRR213ZEFrdmExOXVMR0FfWHA3UVg0bWo2LVJtN3U0M0NuZ0k?oc=5",
-      "source": "quasa.io",
-      "published": "Wed, 12 Aug 2026 01:13:39 GMT",
-      "summary": "30 книг по психологии: системный маршрут чтения quasa.io"
-    },
     {
       "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBscW9FNTlUTDVfbW1YbmJFX29TQzNOTTBfeGpLWlBTQW13RWZtSlpuN3JTcWxJQ2p4amVqelUwMA?oc=5",
@@ -83,11 +71,18 @@
       "summary": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате Психологическая газета"
     },
     {
-      "title": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» - South Ural State University",
+      "title": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» - susu.ru",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcVBXc3VINW1IbWthQnFMbmdYSGxfRzNHd0Zlalh0cXhxUFdGN20wXzFFZklmLVoyVWExWEhONUhnR2J5M2wxbWpLTGVPY2RNQ011NEpGaEtTWkZsMGx5X0p5OG5CVURoNUtjTFZvNXBEWkJnanUySXpjMnVZUVNnVmtPcDVCZjVrN1N5RmRCNnRXWkVyUll5WTJvbjdMQlRlN2pZS00wa3l0UEl6YjdBVA?oc=5",
-      "source": "South Ural State University",
+      "source": "susu.ru",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» South Ural State University"
+      "summary": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» susu.ru"
+    },
+    {
+      "title": "30 книг по психологии: системный маршрут чтения - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVE4wWGxWcWs5cGRTcm5FcUtVYmJaX05sYU1PbG5sS0hIMVFfcllwWG1Kb3M1ZTNqYUlNMHVVUUlHV1hfM3NrWGpzQnRnU0VIOTZiRW9RNGVfbzBwam8zLXA5bHNUWEowbmZvUVA2bzdRR213ZEFrdmExOXVMR0FfWHA3UVg0bWo2LVJtN3U0M0NuZ0k?oc=5",
+      "source": "quasa.io",
+      "published": "Wed, 12 Aug 2026 01:13:39 GMT",
+      "summary": "30 книг по психологии: системный маршрут чтения quasa.io"
     },
     {
       "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
@@ -104,20 +99,27 @@
       "summary": "Представители крупнейших вузов обсудили тренды развития психологического образования ВФокусе Mail"
     },
     {
-      "title": "Народный фронт и факультет психологии МГУ запустили онлайн-курс по адаптации вет | #Главные новости - onf.ru",
+      "title": "Народный фронт и факультет психологии МГУ запустили онлайн-курс по адаптации вет | #Главные новости - Народный фронт",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQnMyTmFya09OekVnUU56R2dOMVVrQV9nV3RLNW9CbmhjdkRUcWJwLTlHaGdNX0hDVjM2TjdzeUFqSjFtZS1XQl9ja3JsbTVEd1lybS1wYUVoS2MyWC1UWWg3UU56cUlxd1oyM0doQ3FweVNpekdTbDN5bURtUFE5OHROTTYyVVdXSWd6Tkp3N1BLTmVhUi1DMFQ1bi0yV3pMZVMwQXlXUTQ3OFF2dlJqcjZBRWVmcGk1QThjOFVqLXVVQTQ?oc=5",
-      "source": "onf.ru",
+      "source": "Народный фронт",
       "published": "Thu, 26 Feb 2026 08:00:00 GMT",
-      "summary": "Народный фронт и факультет психологии МГУ запустили онлайн-курс по адаптации вет | #Главные новости onf.ru"
+      "summary": "Народный фронт и факультет психологии МГУ запустили онлайн-курс по адаптации вет | #Главные новости Народный фронт"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Про вуз рассказала подруга: студенты из Конго приехали поступать в челябинский агроуниверситет - Хорошие новости Челябинской области",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZnBqdS0yUHpmMUdZTnJFY3lxb2xZNml5aHZFS0VhME5Uc3N2THlCc0F5bm1HMDdnUUN6bkFvYmRtcG9qRmc0a3g2QXhmVXZnT2lEN0MzWjFucm52ak4xQ1lEZ3JsV1pVWFh0d3h2ZXpPYzd2cGVnRXYxVEI0d1QzemhYQlp5S1ROUkFmYzVZQWFWV3pFM0tWRVhieVpHRGdISHJMY3YyQ0RBZmt3aXYzc09NNXJfZGtMOXc?oc=5",
-      "source": "Хорошие новости Челябинской области",
-      "published": "Sat, 15 Aug 2026 17:22:18 GMT",
-      "summary": "Про вуз рассказала подруга: студенты из Конго приехали поступать в челябинский агроуниверситет Хорошие новости Челябинской области"
+      "title": "Бюджетные места есть, а студентов нет: зачем вузы набирают «мертвые души» - Мел",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcFNTQ2FXM2RuY0REbnhfOEJyV09kX082V3p2NXJuZ1RJcjRVRG11cFNtdzZFMHphUlJrdUt2MWo5VTVKUjhGNlItSFEyZ1ZSQ0l0dV9CQ3BYM3dfMEhwUXRLME9EWHVzbjl6U0pMaGVDRjVNRkpfc3dld2xLWWpiODF1MlJMSzQ3cndHTzBxUnIxdHV5SFlLVDNWcE5XTEtjZFFCbEZsQ1RXT2lhWXfSAbMBQVVfeXFMTkRhSE5QMTJmbGhRMFRnQkFsaTB6YVJvdi1tMHBhNjRLTGNnSXp4YS00Z2NLZ3NwVHFmM2l6NnZDc2tjZ2lMMDlHX0w3REMyWEtJU0VnNW1ic2NNellSbHYxc1lIYUE4Y2F3MENrajBLZjNHMkJvM3hXQ1cwblVHMGF0Nm80U3E5bE93ZVh4ay12WnE4YklndldteG9JWXN2QXZoQno3cmpTNE13ZVp0c3l4Y28?oc=5",
+      "source": "Мел",
+      "published": "Sun, 16 Aug 2026 21:07:44 GMT",
+      "summary": "Бюджетные места есть, а студентов нет: зачем вузы набирают «мертвые души» Мел"
+    },
+    {
+      "title": "В Дубае запустят первую программу высшего образования для музыкантов - russianemirates.family",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdFg5Zld5WjZwdGZScVRaamR1TVdaUFZ0VUQ3cjUwR0dFcFZDSWxnQm1yUzdPelEwLWpDWU93dUprX3BXUU9yWEtnRVBaTTJnVE5ZSFcxVGN4TktKNVNLRGxwV2Q0ejR6WkpnYW5RUXpzY1R6dkpWLUtQVl9ROFlvUUFuSGZPVTRQUWdfcjc0SzBjR1NvUjNOZDNqa1FHUC1PVFhzU09jbXd5ODNjU3dnLVA5OGtHdmRJSGFyb3BHNkY?oc=5",
+      "source": "russianemirates.family",
+      "published": "Mon, 17 Aug 2026 04:53:32 GMT",
+      "summary": "В Дубае запустят первую программу высшего образования для музыкантов russianemirates.family"
     },
     {
       "title": "Объявлен дополнительный набор на бакалавриат и базовое высшее образование - Московский городской педагогический университет",
@@ -127,18 +129,11 @@
       "summary": "Объявлен дополнительный набор на бакалавриат и базовое высшее образование Московский городской педагогический университет"
     },
     {
-      "title": "Отмена Болонской системы: когда вузы перейдут на новую модель - Наука Mail",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBcDhrY29pa2pjangtOUVFUzY4LUw1a0FTRjdDWU1hLTREMW1rU2t6eTdiYkp1ZGZNM2JGUVl6VG9OZVJTdjNDbEZaY2VuWVl0N1pPMlY0SjNPSDJybUxjTmRuNktNXy1ydy1GckpIbnlBemhYOEhTYkRiY2FkUQ?oc=5",
-      "source": "Наука Mail",
-      "published": "Mon, 10 Aug 2026 15:14:24 GMT",
-      "summary": "Отмена Болонской системы: когда вузы перейдут на новую модель Наука Mail"
-    },
-    {
-      "title": "Спрос на вузы Коми резко вырос: какие профессии стали самыми популярными - Правда.Ру",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzZVRxMEl0eDBrTmwzeDJlYUh3SlhpeWJQT1VjdjVOcTVXQ25iYXlSRmNFOUxvZmRVYnpJQ0dXVUpCZUxjQnJFRUd6X0FMYWdwOGtIQlBPOFhwTC1zOTM5V2ViVVpVVHZ0a2ZWSE9Ta2w4bFJ5S0E?oc=5",
-      "source": "Правда.Ру",
-      "published": "Sat, 15 Aug 2026 19:44:00 GMT",
-      "summary": "Спрос на вузы Коми резко вырос: какие профессии стали самыми популярными Правда.Ру"
+      "title": "Инструкция для родителей и выпускников: что делать, если попасть в вуз не получилось - moika78.ru",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGx2Y28xX3kxU05fYXcxSUdqQzZLcmVRS3hlLU1nbDgzaUhONGZEdG5SZlRMNl9KRHFRdC1WS0Rta1FBOGhfVVBYUE9jR0psS1lDWHMtTC1DVVBnUHpGWEc2bktiMlRkZklzT2lGamQzbHBUaEtOUGJkVzdCTlp6anFKMlVubjVmNlM2T01SeDRFZktDTzhjVDB4cmx6ejRmVUJURERkbzBJc3BydGpObkMzVlBBM04tUkZ2cHJuOVBKVk5uVXRZ?oc=5",
+      "source": "moika78.ru",
+      "published": "Sun, 16 Aug 2026 15:52:45 GMT",
+      "summary": "Инструкция для родителей и выпускников: что делать, если попасть в вуз не получилось moika78.ru"
     },
     {
       "title": "Британским вузам грозит банкротство из-за уменьшения количества иностранных студентов — The Guardian - theins.ru",
@@ -148,21 +143,14 @@
       "summary": "Британским вузам грозит банкротство из-за уменьшения количества иностранных студентов — The Guardian theins.ru"
     },
     {
-      "title": "Стало известно, когда российским студентам выдадут дипломы нового образца - gazeta.press",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sNjktME44SEFCT2pXWGxWTE4xTDI0Z3IyR1I1TW5PaTNvejVONl80WjBPWk5ublh5ZDRHY1BwN1RpOXFtTk44bmJKeFJRQ2o0TE9OUk9BM2JfY3dBczFhTUN4RkxOeU1Zc05SUTVzSdIBdEFVX3lxTFBmSUJCMUMzNmdsWnUtNUFCNzFQdHVaYkdTRGxndXVXOTRDdDhZU1ZUSW1Pb3JYd2xQU3doYlVBb3lZU002VkUtVXhON0pQV3RqY2RsLTdVbzY5eGRHS0xRQ3JwZ29aRE4tcGYtNXNYa1UwQnU2?oc=5",
-      "source": "gazeta.press",
-      "published": "Sat, 15 Aug 2026 23:07:34 GMT",
-      "summary": "Стало известно, когда российским студентам выдадут дипломы нового образца gazeta.press"
+      "title": "В 2027 году выпускники вузов впервые начнут получать дипломы нового образца о базовом высшем образовании - Мел",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZDVONmdMTENxVW1jRnREdTF3OGhUWDlXOElQRXZ4QktfTEpUcGgtUVB3Rm5XTXRtOUN4RWR3aHlsanZtOXkySTYzbC1GUzk4eFp5a1pPcVdpVDBWS0xrVGFwWVFhRTNEaUlsTEFOOERKTkhsQkloUnhWRW1jRzRrVjRWN1lvLVhfSFZua0t1Q0V4QXpCZEI1WXZjWWtDaEwydDMtSktlMmxTNTBSUDd3alExVFBHWVpRMTVPYnZoeTNFdm5vYzlCN2NnY9IB0AFBVV95cUxQZnlROUh0Rk9BY0NZSjZwV1hJZ0ZXaGticUdyWWpoNXVnNGV2TUJhRElFbWlpUGl2TzhVM3dFR0FyamdpR3VPZkVCUFQyR1cwelRfd1g5NkJ5cHlRTkZWMDFwYVJfZG16YXZUOEtlaUhhNFN2Rl9rMWtrWms0RHQxNGZaMXhsX05PZjU0aEpiUnQzMEFJbTk5bk1EaGxGOGdhNVh0aWJaSzRtYWh5UkdUdDRKU0Y3aTNFaXdrUWlpSl9sY0VNV2h2NWlDLThNVkhx?oc=5",
+      "source": "Мел",
+      "published": "Sun, 16 Aug 2026 09:34:33 GMT",
+      "summary": "В 2027 году выпускники вузов впервые начнут получать дипломы нового образца о базовом высшем образовании Мел"
     }
   ],
   "conferenceUpdates": [
-    {
-      "title": "Романтические отношения с ИИ развиваются по тем же законам, что и с человеком - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRzhfZDlYM1V6Q3FjSWZRakNkQk16ckJWNTRuS3pkQnh5RHdOemR4YVJPS3FMUUhHOW9FbHE2OUlwblFKTkU4b1lUV3FWQjdWX09NSC1pT2lONGxIWklOWHZGb0lZYmF3NjdWRFEtQjVYN0lSamp6R1pBX3J1VDJnZEVMRHNNVHRhZWVDektYajdyZ3Q0NDk4aDdfQk9LeUk2WWhjTm9BVjlEblFZ?oc=5",
-      "source": "naukatv.ru",
-      "published": "Thu, 09 Jul 2026 07:00:00 GMT",
-      "summary": "Романтические отношения с ИИ развиваются по тем же законам, что и с человеком naukatv.ru"
-    },
     {
       "title": "Перспективы психологии развития обсудили на Ананьевских чтениях - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9rVnltVXZYTkpvOFpvNE1RMExxNjRqSzlsdlVrSHpFLUF5X3ZkYmw5cDlDWGJxNW9Ea19LTG5oRQ?oc=5",
@@ -192,11 +180,18 @@
       "summary": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы Психологическая газета"
     },
     {
-      "title": "Синдром дефицита внимания и гиперактивности: этиология, виды, психологическая помощь - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE55LWFjOFg0dTNTYXdjekV1bHNEMjZpcFQwRG4zMkRyT0VqLWxJS0ltdDB5cTVzcEt6VVFxR2Jn?oc=5",
+      "title": "Медитация. К вопросу о научной обоснованности известной психопрактики - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9SeEFDTmZrQ2M2V0JaT2NvNGZjYnZhNjVDWWRLWFdmOUl0TXU4bnhFa01SSHhVaDRLWHBqM1Nn?oc=5",
       "source": "Психологическая газета",
-      "published": "Sun, 03 Jul 2022 21:19:03 GMT",
-      "summary": "Синдром дефицита внимания и гиперактивности: этиология, виды, психологическая помощь Психологическая газета"
+      "published": "Wed, 03 Feb 2021 08:00:00 GMT",
+      "summary": "Медитация. К вопросу о научной обоснованности известной психопрактики Психологическая газета"
+    },
+    {
+      "title": "Девятая Всемирная конференция по ИИ стартует в Шанхае 17 июля - prospect.com.ru",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0pFRHMyWHN1NlBFTThsWUdNU3h5WFJYU0I4QV82eFBTZGFnbGJGd2Joc3VzNXZuUUVIQTJXS3ctRUtTajllb244bXljVFBjMS13VzRpbEZBSmtzX0xjTTlqeTdkcVBNcm5EOGI3OEJiYjV6RTdpVGJhd0lpbzdNVE9hbTE2aHNZRzZrYUVOaHllcFRGZGZRVTU2Tm5hYWE1bVIxVmRaQ0pVTmZtb1EyRg?oc=5",
+      "source": "prospect.com.ru",
+      "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "summary": "Девятая Всемирная конференция по ИИ стартует в Шанхае 17 июля prospect.com.ru"
     }
   ],
   "sportAiUpdates": [
@@ -208,11 +203,11 @@
       "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
     },
     {
-      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - herzen.spb.ru",
+      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
-      "source": "herzen.spb.ru",
+      "source": "Российский государственный педагогический университет им. А. И. Герцена",
       "published": "Wed, 08 Oct 2025 07:00:00 GMT",
-      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии herzen.spb.ru"
+      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
     },
     {
       "title": "Психологи нашли связь между частым общением с чат-ботами и депрессией - Наука: новости и видео - naukatv.ru",
@@ -229,18 +224,18 @@
       "summary": "О цифровой социализации и использовании технологий искусственного интеллекта – в выпуске журнала «Социальная психология и общество» Пресс-релиз.ру"
     },
     {
-      "title": "Профессия перестала быть “судьбой”. Как искусственный интеллект меняет рынок труда? - Smartpress.by",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTB4RG03dnZ1MzM1OG1ZdEpOVmttRDRndGlCRXN6RlE4bnBNeTEzajM1b3U1dnpiUm5tTzhYS3g2Vy1ldUlBOXZrd1dpeldWLVhVMG96T0tPNS1DTkw1ZGNMWllYMHRTRXVOeXhVUS1Cb0c0OWJBMGs4Y3U4SjMySGJ0dFJzMTkwd05uWi1CcVBfZmhSTUNJNUY1M2lXOUdfZW5GOUp3WVoxcHh1aW5RRnprUUFDQzJsQUNTdC1DbUl0UEJTMm43XzZrRQ?oc=5",
-      "source": "Smartpress.by",
-      "published": "Wed, 08 Jul 2026 10:40:10 GMT",
-      "summary": "Профессия перестала быть “судьбой”. Как искусственный интеллект меняет рынок труда? Smartpress.by"
-    },
-    {
       "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXVzQ1NlSWw1cDNFRjhqUC1Xb1E1QllOOWFOUnZXeXItSVhPRVdOakp5SVg0eFJ2OVRCNnFJdGk3eEp2VEhLMm1nMWJkUTBkdl82TTVNa1EyVW53ODVWOW5mX3hCZzlXYURobjI2MXpjeUFKMDM3XzJubm5TYkVmYnhheFJRRmhOeEdscGhKczEyS01udGRVam1DamNwdHB6d01fY0xQV27SAa4BQVVfeXFMTTkwVjZXalN2T01kT0ZBbXI4NXBkNUJIY0t0M1RjRXp5SF9QNU5hWThuMUJDZHpvNThOMm1ieFlNN0hvSkpXUkRHM2Z5UVlrQ1hTLXJpMjh0SW9jcHBxUU90T0JuMlU3Y2U0aXVqOUNWMGFzc3d1T0RHWTdFTkVuUkJjLWh6cTFIY1BYRy1nQ2YxRUJKN0Y5N1UwVVZfcFhfd25ZRHVHcFFkcklsMnFR?oc=5",
       "source": "Sport24.ru",
       "published": "Thu, 26 Feb 2026 08:00:00 GMT",
       "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
+    },
+    {
+      "title": "Масштабное научно-практическое событие по современным проблемам педагогики и психологии состоялось в Педагогическом институте ВятГУ - 1istochnik",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4taDhUdk1TWnd6dl9VQjEtdVhVWXd0Q2tieXFEY3FfWkxSNWVpcWdBejJFWGZPLUNBV2stTXNRM2o1MFpreGd1QQ?oc=5",
+      "source": "1istochnik",
+      "published": "Sun, 10 May 2026 07:00:00 GMT",
+      "summary": "Масштабное научно-практическое событие по современным проблемам педагогики и психологии состоялось в Педагогическом институте ВятГУ 1istochnik"
     }
   ],
   "openPublications": [
@@ -287,15 +282,7 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "Выступления",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Выступления"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "Эмоциональный интеллект в отношениях) ) Сегодня, в 19.00. Последняя лекция, и выдача сертификатов для тех кто был на лекциях не менее 4-х раз) Плюс, подарки от меня)",
