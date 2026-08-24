@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:52:22.070912+00:00",
+  "generatedAt": "2026-08-24T06:00:16.056358+00:00",
   "ticker": [
     {
       "title": "Выступления",
@@ -17,14 +17,14 @@
       "source": "Telegram"
     },
     {
-      "title": "Эмоциональный интеллект, творчество, креативность: соотношение понятий и практика - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9HUFBVYkxFMkx5YTlEX3RRcXRMVjdiNzdfNXpjV0JETkRFSHh2YW5PNC11cG1GWFBtS0RZbFFR?oc=5",
-      "source": "Психологическая газета"
-    },
-    {
       "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
       "source": "mos.ru"
+    },
+    {
+      "title": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBTeDJDV2hqbFpMcTZQLWhCUjdtSmMtb19lQjJ4TDdUWlVPQk9RUmFHYkdIeUwyNU1VbFU3MmV3?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "The Effects of Emotional Schema Therapy and Differentiation Training on Emotional Divorce in Women",
@@ -52,19 +52,19 @@
       "source": "Incrussia"
     },
     {
-      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
-      "source": "Forbes.ru"
+      "title": "В СПбГУ попытались найти идеального ИИ-интервьюера - Наука Mail",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSWVnd3dXWGNRS19UeU5OaTVPQTVQdmRYbHBEX1VlbFdGN3N1b0hWeS05Y0NsbzVfcWZYMWxkN1B5QnMtdmlBVlF5V2dRTlo5clVXeUNIRlJxajdyU3k5bzctWThuMjkweTFselZ2MVNoT3hSTWR4bEo1dHI2Y0FaSUJkUzVUb0VwTE5SWQ?oc=5",
+      "source": "Наука Mail"
     },
     {
-      "title": "Родители платят миллионы, а студентам отрабатывать всю жизнь? Сколько на самом деле стоит высшее образование в России - MSK1.RU",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42TzZxeVY1NklyanF3cGVlUHoyUGJHbHRGeVMzcFc2dVlSUUpxckUwV2g5b1NtV3F2VFAtYjI5akVIbkQ5V0pVUzA5SzlwcEhvaE5yNmo1Ymgzc1NHUnBrbg?oc=5",
-      "source": "MSK1.RU"
+      "title": "Новая система образования: кузбасские студенты будут учиться по-новому - НК-ТВ",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5OTmRFMmNxaVJFT0JucHFFcFdOaFdtSG03U0NFak1EckIyZ21scGpHM3M0Q0xWTzhjc00tYzJ6c196VWM?oc=5",
+      "source": "НК-ТВ"
     },
     {
-      "title": "С 1 сентября в России стартует переход вузов на новую систему образования - Дети Mail",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXFrbjJSaWYycUtudUVaWDlnUEc5VGRQTy1YckNsWHJ5NC0ydGw5dlR1T1dUMHR1Y3dva2g5OGQwQ1ZwNjhYZkdKUDBuMEozc1VWWXJMT3VCT21TRkNGUnIzSTVGVXpIZjdUa1UyeUUxNnRCbTRiVlVWQWkxdWFLZU1rV3dwUFE?oc=5",
-      "source": "Дети Mail"
+      "title": "Труд должен быть престижным во всех сферах государственной деятельности - Выбор народа",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN2NFdG1haUdGNUJTZUtXNVJDbjVTQk5ySE9pdHlFYUlWOXRNOV93SzFlWGlHYW1jU09meWZpX0Y5YUFKbnVoR1ZaN215Ukk4MUZWbU5TM0F2QlRhbVdCcE83eHJMY0pjeEpwYWpzbTFtdWh0VlhSajJTN0VMMkk3ZklCc1R1WWdvZnlpWUJLN2VNOTc2WmV0SHBtc2t3Wlh5REtUeGZlVTBVZF9udlI3dFUzWEZVY21ObVJKSmtaajNHVkVYTlE2OXY5emk?oc=5",
+      "source": "Выбор народа"
     }
   ],
   "psychologyTrends": [
@@ -72,7 +72,7 @@
       "title": "Логопедия и психология возглавили топ популярных направлений в ЮУрГГПУ - 1obl.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV19WdFNtaUw4c0l1cE96RC15NzBVeWdhMzUxaHJ5Yzk0UUxsemdMc3Z3cUFNZmJFVHFxcnJ4MU51SndYWXFfU3ctMWVBcXVDalA4eUQwaENMNFlBLTZwMVcxWGZrOEVMVDI4QWFDYkNzWDE5N0I1clZneTY0LUFnWmVWQk40SFF4VGxReVNuRWZYMHhucmVCNHE4WVEtTExCQXBHUy1ycVpwcFpjT01fc0hBbw?oc=5",
       "source": "1obl.",
-      "published": "Thu, 20 Aug 2026 23:30:11 GMT",
+      "published": "Fri, 21 Aug 2026 03:00:00 GMT",
       "summary": "Логопедия и психология возглавили топ популярных направлений в ЮУрГГПУ 1obl."
     },
     {
@@ -90,6 +90,13 @@
       "summary": "Школьная психология в цифровую эпоху: мы не можем просто ждать, пока возникнет проблема. Vietnam.vn"
     },
     {
+      "title": "30 книг по психологии: системный маршрут чтения - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVE4wWGxWcWs5cGRTcm5FcUtVYmJaX05sYU1PbG5sS0hIMVFfcllwWG1Kb3M1ZTNqYUlNMHVVUUlHV1hfM3NrWGpzQnRnU0VIOTZiRW9RNGVfbzBwam8zLXA5bHNUWEowbmZvUVA2bzdRR213ZEFrdmExOXVMR0FfWHA3UVg0bWo2LVJtN3U0M0NuZ0k?oc=5",
+      "source": "quasa.io",
+      "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "summary": "30 книг по психологии: системный маршрут чтения quasa.io"
+    },
+    {
       "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
       "source": "Sostav.ru",
@@ -102,22 +109,29 @@
       "source": "ВФокусе Mail",
       "published": "Fri, 17 Jul 2026 07:00:00 GMT",
       "summary": "Представители крупнейших вузов обсудили тренды развития психологического образования ВФокусе Mail"
-    },
-    {
-      "title": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» - Высшая школа экономики",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDVVZTYkhxWE9CLXN1M0x5ZFplQ2dlMHdOekViUW83a2VQMEg4Y1hnRG9ncVhrRXprSkV6bzJTTkpXbEM4NUI3dGJ2YUdHRFFseTBXdE1B?oc=5",
-      "source": "Высшая школа экономики",
-      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
-      "summary": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» Высшая школа экономики"
     }
   ],
   "educationPolicy": [
     {
-      "title": "Родители платят миллионы, а студентам отрабатывать всю жизнь? Сколько на самом деле стоит высшее образование в России - MSK1.RU",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42TzZxeVY1NklyanF3cGVlUHoyUGJHbHRGeVMzcFc2dVlSUUpxckUwV2g5b1NtV3F2VFAtYjI5akVIbkQ5V0pVUzA5SzlwcEhvaE5yNmo1Ymgzc1NHUnBrbg?oc=5",
-      "source": "MSK1.RU",
-      "published": "Sun, 23 Aug 2026 03:30:00 GMT",
-      "summary": "Родители платят миллионы, а студентам отрабатывать всю жизнь? Сколько на самом деле стоит высшее образование в России MSK1.RU"
+      "title": "Новая система образования: кузбасские студенты будут учиться по-новому - НК-ТВ",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5OTmRFMmNxaVJFT0JucHFFcFdOaFdtSG03U0NFak1EckIyZ21scGpHM3M0Q0xWTzhjc00tYzJ6c196VWM?oc=5",
+      "source": "НК-ТВ",
+      "published": "Mon, 24 Aug 2026 02:03:44 GMT",
+      "summary": "Новая система образования: кузбасские студенты будут учиться по-новому НК-ТВ"
+    },
+    {
+      "title": "Труд должен быть престижным во всех сферах государственной деятельности - Выбор народа",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN2NFdG1haUdGNUJTZUtXNVJDbjVTQk5ySE9pdHlFYUlWOXRNOV93SzFlWGlHYW1jU09meWZpX0Y5YUFKbnVoR1ZaN215Ukk4MUZWbU5TM0F2QlRhbVdCcE83eHJMY0pjeEpwYWpzbTFtdWh0VlhSajJTN0VMMkk3ZklCc1R1WWdvZnlpWUJLN2VNOTc2WmV0SHBtc2t3Wlh5REtUeGZlVTBVZF9udlI3dFUzWEZVY21ObVJKSmtaajNHVkVYTlE2OXY5emk?oc=5",
+      "source": "Выбор народа",
+      "published": "Sun, 23 Aug 2026 09:38:21 GMT",
+      "summary": "Труд должен быть престижным во всех сферах государственной деятельности Выбор народа"
+    },
+    {
+      "title": "300 баллов не помогут. Почему конкуренция в вузы бьет рекорды, хотя «высшее образование обесценилось» - Пруфы",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWJDbVRkbFR6WTBVcS11NUxTZWVDMjBmVFFrMTNkVjJnNXY2WW1JV1BkX05CRkRRblJva1BFWEUwMGpkNzdlcnJheHBmT0tUWFdDbEpVWm1RNUVTbHpvRkVObDhORnFaenRCSC1BWHBNR2E2ZFdLX3hINnYtRFMxanhhQ2l4WUlLQTVaYzByaXVBX2VzbWg0VnBLQ19FNE91eTQwLTJaRF9jUE1KZkY2MW1oYVZLQnM2eFBsdlFrLUpGT25sZGRHZFZIZl94Qi1pbndxZNIB3AFBVV95cUxQSWw5by15c2wtUDhlc2ljWnR4MDZEazFlOWw2Vkp2RUp4dUphSENEbFpKNUo0VmF2ekhheTFiZml2OTRubmRsOXplN2gzRkZzRldFdzlOejhhdmkwaDFzZHAxeG9LdEdPdGNFTUI1SGZmQmJocEo0MnpxOHk1VTA0RXNJWXVrYVVZLVpCSlBobzRQdGtscmNfc20yS1ZSVVJ5RkpjY3lHYjE0MUE2Y2lhbUlXUFlGQUtGWV9mQzRHTGxVYjkyZXNqeUFKLXFZeU9laXR6Ui05c0xqUmRh?oc=5",
+      "source": "Пруфы",
+      "published": "Sun, 23 Aug 2026 08:07:14 GMT",
+      "summary": "300 баллов не помогут. Почему конкуренция в вузы бьет рекорды, хотя «высшее образование обесценилось» Пруфы"
     },
     {
       "title": "С 1 сентября в России стартует переход вузов на новую систему образования - Дети Mail",
@@ -127,55 +141,27 @@
       "summary": "С 1 сентября в России стартует переход вузов на новую систему образования Дети Mail"
     },
     {
-      "title": "Около 120 тысяч студентов из стран БРИКС учатся в вузах России - ФОНД РУССКИЙ МИР",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5rN1VrU3VLTW1XeVZybXNCbzJJQnNhd2tQX1hReGozV3p3OTNLTDFMYzJUZDkyR2tuRG9jeDFNbzNpQkZyTkk1ZExn?oc=5",
-      "source": "ФОНД РУССКИЙ МИР",
-      "published": "Sat, 22 Aug 2026 10:05:24 GMT",
-      "summary": "Около 120 тысяч студентов из стран БРИКС учатся в вузах России ФОНД РУССКИЙ МИР"
+      "title": "Собственные дроны и виртуальная нефтяная шахта: УГТУ представил уникальные разработки на выставке «Достояние Севера - БНК",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tUGQzRFdsWjl6YWthSmc5R2prYmtlMUxYcWRsUVA4N1V4WnBWVkNiWGdpZzlmbkZOakkwN2o1TDRkUkF6YUEtc280U0F5ek1FbkVlemZTQQ?oc=5",
+      "source": "БНК",
+      "published": "Sun, 23 Aug 2026 13:30:00 GMT",
+      "summary": "Собственные дроны и виртуальная нефтяная шахта: УГТУ представил уникальные разработки на выставке «Достояние Севера БНК"
     },
     {
-      "title": "Всё больше абитуриентов НовГУ стремятся получить среднее профессиональное образование - Газета «Новгород",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTA0bUdwMjd5Q0xHVTItWWFtNmpjSXhGbkFwRFVLdDNvV3R4R1JNam9feUFvaUg1cFd6YTc5R1BSN0UwVG00TTBrVXhfWXQ5cDctZzlDZVlFc2xtTWJYZ2pHY2NMd0JQQnJhdUNMQWJqVDVaZG91M0F1WUtZUi1sWXh0LVpLTkVvVDIwYzlPR3VldE5fcHBmci0wWl9jU1U4MHNKZU51NnMyUDF5VjVnNVJXbVpmSTNidjEyMnFLRHB4MmFfMlE?oc=5",
-      "source": "Газета «Новгород",
-      "published": "Sat, 22 Aug 2026 07:59:08 GMT",
-      "summary": "Всё больше абитуриентов НовГУ стремятся получить среднее профессиональное образование Газета «Новгород"
-    },
-    {
-      "title": "Отказ от бакалавриата и магистратуры: что ждет российских студентов - Главный Региональный",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkY3NXhqMGdYT1I0anF0eDRtNDZkdklCbHFWVTN5OUZVTkphdF8ydldyVmlSd0Z1b3o4ZGVsMHVWeDJLYTZ3VDMzZ1BlLWt3QUJVRXBuUzhSWl9ScTZvUjF3RklFNHdkQmkxc1pTUVBXSW52M0Z0dW96d0RVVW9WRFlyZDhRNUNiaExidTY1Uk9jc0VHeW16aHVYX1VsbHVOWUE?oc=5",
-      "source": "Главный Региональный",
-      "published": "Fri, 21 Aug 2026 05:11:56 GMT",
-      "summary": "Отказ от бакалавриата и магистратуры: что ждет российских студентов Главный Региональный"
-    },
-    {
-      "title": "Новая система образования: кузбасские студенты будут учиться по-новому - VSE42",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB2cGRjNWo4N0xZQkZmRHpkR3BITHR3bTRNMld1QnlXZG5GRWY0d2pkRjJNVjNuTHZFWHg2MlZxLWluYXdp0gFKQVVfeXFMTTJZTjdZSWxwcTdBRDlVeW5ucjFFREFDbDRnVEowZ2tsYnpuclR0NXl1U1V4bWFQMV9tNUtNcVd5ZERyUC1qVnlrZUE?oc=5",
-      "source": "VSE42",
-      "published": "Fri, 21 Aug 2026 10:52:38 GMT",
-      "summary": "Новая система образования: кузбасские студенты будут учиться по-новому VSE42"
+      "title": "«Грандиозный парадокс»: крупнейшие медицинские вузы не могут набрать ординаторов - Активатика",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV3A0RjlJcGd6M3lWdmxSRDM2R0JTWUVVZFN4bUJDMmljMkxxMXZta3U1bnFxMjA0ZFQ3dU1xQW90aEFWS2FUU19qSTcxdEhocHZ5ZXNZWjY3NUJjX0s3VVZRbnBMa0lzWnBWcG8zcEhJYU51blBpREZKcXBBT2pCVHgwRV8tX2lQYkNQTW9RdWhTSHJUNk5nUUpvNTBZMEJ6VVVhTktMSmtnRFc4?oc=5",
+      "source": "Активатика",
+      "published": "Sun, 23 Aug 2026 17:15:50 GMT",
+      "summary": "«Грандиозный парадокс»: крупнейшие медицинские вузы не могут набрать ординаторов Активатика"
     }
   ],
   "conferenceUpdates": [
-    {
-      "title": "Эмоциональный интеллект, творчество, креативность: соотношение понятий и практика - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9HUFBVYkxFMkx5YTlEX3RRcXRMVjdiNzdfNXpjV0JETkRFSHh2YW5PNC11cG1GWFBtS0RZbFFR?oc=5",
-      "source": "Психологическая газета",
-      "published": "Fri, 09 Oct 2020 07:00:00 GMT",
-      "summary": "Эмоциональный интеллект, творчество, креативность: соотношение понятий и практика Психологическая газета"
-    },
     {
       "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
       "source": "mos.ru",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
       "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
-    },
-    {
-      "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjNkc2QzRTd6VzZ5Q3Q3QnBCeGMtQUVjbHk3WVhHUlVYdW1KVm1RUUsyaUt1UEtqZ2xwc1BKZEstb0pvY3VBNXBSM3p6THFsSTJ2SmF0eTJVbG16eEhPNE9NNTd2RU9CTmQ3TzNMNlYwVnZTYWlzTDhYb1cyN245ZG1yaFlZTzFwdmVQTENxcGxlZlVMc0pOYXcxNU5EaURZYXpUUGx2QkJOMW1tdDAwLVdVMnpQTkhF?oc=5",
-      "source": "Biz360",
-      "published": "Fri, 07 Feb 2025 08:00:00 GMT",
-      "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
     },
     {
       "title": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы - Психологическая газета",
@@ -208,18 +194,18 @@
       "summary": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю Incrussia"
     },
     {
-      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
-      "source": "Forbes.ru",
-      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
-      "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
-    },
-    {
       "title": "В СПбГУ попытались найти идеального ИИ-интервьюера - Наука Mail",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSWVnd3dXWGNRS19UeU5OaTVPQTVQdmRYbHBEX1VlbFdGN3N1b0hWeS05Y0NsbzVfcWZYMWxkN1B5QnMtdmlBVlF5V2dRTlo5clVXeUNIRlJxajdyU3k5bzctWThuMjkweTFselZ2MVNoT3hSTWR4bEo1dHI2Y0FaSUJkUzVUb0VwTE5SWQ?oc=5",
       "source": "Наука Mail",
       "published": "Thu, 28 May 2026 07:00:00 GMT",
       "summary": "В СПбГУ попытались найти идеального ИИ-интервьюера Наука Mail"
+    },
+    {
+      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
+      "source": "Forbes.ru",
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
     },
     {
       "title": "«Не верьте ИИ». Несуществующая болезнь обманула нейросети: что такое биксонимания - MenToday",
@@ -229,18 +215,18 @@
       "summary": "«Не верьте ИИ». Несуществующая болезнь обманула нейросети: что такое биксонимания MenToday"
     },
     {
-      "title": "Трансформация фитнес-индустрии: почему современные тренировочные пространства меняют подход к здоровью - Izhlife.ru",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTzVNU244d2hHbjk2S0Y2QXpIMlFzODh2ZzBUd0VybGUyaXJBbzh1RURtQlZXR1BXY25Bdjhob2xKMXpwci1LSExYZnNqNDVfZ2dtZDc1eU1FRTNkV1VtYUcwYkV5T1FBaDc5NUp6UUtCTjN1TVYtUXNqRWpSbzNob0dQWG1pVG90X1o0eVFFMUYxeThaeGlMRFNqbmNPRnd0dE5GN3RRZV8zSmh2bmxCTDVKY0FQR0U1eFdaalNmQWhtdUdjVVoySERB?oc=5",
-      "source": "Izhlife.ru",
-      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-      "summary": "Трансформация фитнес-индустрии: почему современные тренировочные пространства меняют подход к здоровью Izhlife.ru"
-    },
-    {
       "title": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем - Rus.Postimees.ee",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHhSZ0llTFhsZXVjbXlxMkxYdlRMMk9IV1R6R2hKdG04T3Q2dm1UZzdfRUttc2QxRk80OGM0dkVlVHEwRW9idGR5ekc4U01BSHRVTFp1V1J1WGptdmpFaWMzY0xOcXJEQUxiZjNpZ1Q0VlE3UEFaOXZYdXB1WXFCaXRudGJrdGkwMzVPUmt5aVZEd2RMNk9mSF8tTHN2cDZEX0piRVJ5TXZpNGJRc2VXMFpwYzBFX0NYOW5ieTlCd2Y?oc=5",
       "source": "Rus.Postimees.ee",
       "published": "Thu, 11 Jun 2026 07:00:00 GMT",
       "summary": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем Rus.Postimees.ee"
+    },
+    {
+      "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXVzQ1NlSWw1cDNFRjhqUC1Xb1E1QllOOWFOUnZXeXItSVhPRVdOakp5SVg0eFJ2OVRCNnFJdGk3eEp2VEhLMm1nMWJkUTBkdl82TTVNa1EyVW53ODVWOW5mX3hCZzlXYURobjI2MXpjeUFKMDM3XzJubm5TYkVmYnhheFJRRmhOeEdscGhKczEyS01udGRVam1DamNwdHB6d01fY0xQV27SAa4BQVVfeXFMTTkwVjZXalN2T01kT0ZBbXI4NXBkNUJIY0t0M1RjRXp5SF9QNU5hWThuMUJDZHpvNThOMm1ieFlNN0hvSkpXUkRHM2Z5UVlrQ1hTLXJpMjh0SW9jcHBxUU90T0JuMlU3Y2U0aXVqOUNWMGFzc3d1T0RHWTdFTkVuUkJjLWh6cTFIY1BYRy1nQ2YxRUJKN0Y5N1UwVVZfcFhfd25ZRHVHcFFkcklsMnFR?oc=5",
+      "source": "Sport24.ru",
+      "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
     }
   ],
   "openPublications": [
