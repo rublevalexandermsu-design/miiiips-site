@@ -1,6 +1,11 @@
 {
-  "generatedAt": "2026-08-30T10:34:02.715837+00:00",
+  "generatedAt": "2026-08-31T11:43:03.653857+00:00",
   "ticker": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
     {
       "title": "Я хорошо отдохнула) И у меня хорошие новости)) У нас возобновляются лекции, но только по вторникам теперь) Чуть позже напишу информацию по лекциям, а пока- кто рад ставим лайк)) 🔥 ",
       "url": "https://t.me/moonn_official/834",
@@ -17,9 +22,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "mos.ru"
+      "source": "Официальный сайт Мэра Москвы"
     },
     {
       "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
@@ -32,19 +37,14 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
-      "title": "Развитие прикладной клинической (медицинской) психологии в информационном обществе - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBsXzIzNUl5SmxkY1k1M1JRYnNQX1I0VXZ2QmNUQXdqS0JZb2p5V3R6NUxoejhCZ0RMWkxqalNR?oc=5",
-      "source": "Психологическая газета"
-    },
-    {
       "title": "Высшая медико-биологическая школа и НОЦ «Психология» приглашают на курсы профессиональной переподготовки «Основы психологии» - South Ural State University",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUlLVU9KY2JaTk1ZMGJiYVpfNEVKcmF1bHBHS3UwbXZiTUxsb0h1YmNWdGV5bGhiTngzb29IV0RLYzI0VExfZUZtQWpOQ04tLUFDZUhueTBwU1VkazJzLVNHZFN1Y2hSZ29CVXJJTWtsNEcxc1pPNUNvcnRheUF3SXpjR2ROWlZRNHNBMjY4c0t0U3YyQm5talR5SnkySnpYNE81Z0VJMlpBVl9sZjRWSWg2WUJRZm9k?oc=5",
       "source": "South Ural State University"
     },
     {
-      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
-      "source": "Forbes.ru"
+      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - Incrussia",
@@ -52,30 +52,35 @@
       "source": "Incrussia"
     },
     {
-      "title": "Когда запустят новую систему высшего образования в России? Что изменится для студентов - Живая Кубань",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTWdXMWJOXzlYOUh4aGFNS0RhVElVUGxXTXV0WFBXRy02cXMtQjNObmU1eWRfTDM1WWlidFdLOGZYZ1ZCb3NBZS1sUGNfWTRkalpqa09INko0bmMya2IyNFVPVUktY09WamcyY0NXdnI4MmtyT0NwVlhmMHlZRWdMWDlmS3M0c2RLM3ZhcjAtMlVDSTAyOXRrQTc1ZTdIbC00bmxXNWhYcjlrYTFCU2NZa1lYZlJEVXpBODVzZFZOR0FfNWM4cHUxTUljRC1mWjQ?oc=5",
-      "source": "Живая Кубань"
+      "title": "В СПбГУ попытались найти идеального ИИ-интервьюера - Наука Mail",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSWVnd3dXWGNRS19UeU5OaTVPQTVQdmRYbHBEX1VlbFdGN3N1b0hWeS05Y0NsbzVfcWZYMWxkN1B5QnMtdmlBVlF5V2dRTlo5clVXeUNIRlJxajdyU3k5bzctWThuMjkweTFselZ2MVNoT3hSTWR4bEo1dHI2Y0FaSUJkUzVUb0VwTE5SWQ?oc=5",
+      "source": "Наука Mail"
     },
     {
       "title": "Бакалавриат или базовое высшее: что выбирать после 11 класса. Все о реформе высшего образования - Мел",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdUtuNVhCWTAzNW5xSS1IUlkzNnVqSHlqTHJIWUFsQnhBbE5MWVhjcmxNbzlYaUNKZi1tRnl2YkxWd1pOelB6UElkY0pDWklXZVZ3eDg3RFpzX20wTkxyeS1kZVpjQ1luWkxnNHlYdk9nRDUwZUxaa0dvZ2VWemxyaWNTc1hURmZkakp3U0hMN3MzOUpKZ0NMSnVibEYtNTJxQzU4bE1RQ2o2SGNvQ3IwVXB4R21XcUFfSmZFaS1seWZHcnFGdmFRYVlXR2FNYTjSAdQBQVVfeXFMUFpQbHB3ck1OWGJnR0I1NnlDOEJ0aXlGTmxCYXgzS3JmSC13VnJKN1lQVFViUDBHR0dTalR3cy1RZFppa1RsU0dua1ZTWEpvazRMR002VmpBbllWbUp1dVhUZDJRU3VEVTA5T1IxUzlqb19mTDlsUTJsRXhEZHhXWXhuS0VBTEJ6TEVMalIwTFR0ellUQ3d4dG4yNFNlVHEzMWU3dW9oQWhkYjBhU0pSSDkyN1V2NTBfc0twMGxGU0hwenBzODd2R0hCUm1TTl9sLUVBX2w?oc=5",
       "source": "Мел"
+    },
+    {
+      "title": "В Башкирии в вузы по квотам зачислено более 2 тысяч студентов - Resbash.ru",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUDF1N3I1Z3lUU2dfX2VUOXZzbVJ5U3YzV1EzNm5jTkdpODZOdE9jcldjNTNWUW1LQ3NPZS1IVHRQWGo1dXBSdF9SbEhwY1g1U01JeHY0OEs0NnRFQlRPSHJwYkhLeklablZHMmlaSTZEMi0wSUI3MU1odk9ieWNWS2N0VFN2MFlNaTlLeEJVWjJfWVBjVjkwUUN2T2hESTVlVTBJYkxtWExQdl9PSzlXNFZYVDZNejlNaWlwQw?oc=5",
+      "source": "Resbash.ru"
     }
   ],
   "psychologyTrends": [
-    {
-      "title": "Развитие прикладной клинической (медицинской) психологии в информационном обществе - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBsXzIzNUl5SmxkY1k1M1JRYnNQX1I0VXZ2QmNUQXdqS0JZb2p5V3R6NUxoejhCZ0RMWkxqalNR?oc=5",
-      "source": "Психологическая газета",
-      "published": "Fri, 28 Aug 2026 21:13:44 GMT",
-      "summary": "Развитие прикладной клинической (медицинской) психологии в информационном обществе Психологическая газета"
-    },
     {
       "title": "Высшая медико-биологическая школа и НОЦ «Психология» приглашают на курсы профессиональной переподготовки «Основы психологии» - South Ural State University",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUlLVU9KY2JaTk1ZMGJiYVpfNEVKcmF1bHBHS3UwbXZiTUxsb0h1YmNWdGV5bGhiTngzb29IV0RLYzI0VExfZUZtQWpOQ04tLUFDZUhueTBwU1VkazJzLVNHZFN1Y2hSZ29CVXJJTWtsNEcxc1pPNUNvcnRheUF3SXpjR2ROWlZRNHNBMjY4c0t0U3YyQm5talR5SnkySnpYNE81Z0VJMlpBVl9sZjRWSWg2WUJRZm9k?oc=5",
       "source": "South Ural State University",
       "published": "Mon, 24 Aug 2026 10:49:17 GMT",
       "summary": "Высшая медико-биологическая школа и НОЦ «Психология» приглашают на курсы профессиональной переподготовки «Основы психологии» South Ural State University"
+    },
+    {
+      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
+      "source": "Психологическая газета",
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "summary": "Казнь психологии: в новых УГСН не будет психологических наук Психологическая газета"
     },
     {
       "title": "Логопедия и психология возглавили топ популярных направлений в ЮУрГГПУ - 1obl.",
@@ -85,13 +90,6 @@
       "summary": "Логопедия и психология возглавили топ популярных направлений в ЮУрГГПУ 1obl."
     },
     {
-      "title": "Школьная психология в цифровую эпоху: мы не можем просто ждать, пока возникнет проблема. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQkNVenFINkgyOW5zWW51NFNJQXFUMUF1RWJxRVptX2pYYjJ1ZTV1aVJ0dWoxZ1ZYVEVsa3YzTTg0MGhhdGpMTHVMRHVzY3JhaURObERKLVJMNTBzbjltX3paREpJbEwxTWs2NEE5MGJZekpaN1dZLWdHN2MxcVFBNGt4R0VDRmhDdS0yeGdGUGpzMDRjcmN0WVV4Zw?oc=5",
-      "source": "Vietnam.vn",
-      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "summary": "Школьная психология в цифровую эпоху: мы не можем просто ждать, пока возникнет проблема. Vietnam.vn"
-    },
-    {
       "title": "Обучение на Клинического Психолога: [ТОП-14] онлайн-курсов переподготовки и повышения квалификации по клинической психологии с дипломом - Клерк.ру",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yeGhTM0l0bnNjMG00SnpReVdUV2JrMmQ4bnlxOFdaaVlwdUVYVWVBRGtGcktyMm1XWHpISmZYY0tSUWh5T2pTejhmTGVDZEowd3QzeXJ5eGgtUVU?oc=5",
       "source": "Клерк.ру",
@@ -99,21 +97,21 @@
       "summary": "Обучение на Клинического Психолога: [ТОП-14] онлайн-курсов переподготовки и повышения квалификации по клинической психологии с дипломом Клерк.ру"
     },
     {
-      "title": "30 книг по психологии: системный маршрут чтения - quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVE4wWGxWcWs5cGRTcm5FcUtVYmJaX05sYU1PbG5sS0hIMVFfcllwWG1Kb3M1ZTNqYUlNMHVVUUlHV1hfM3NrWGpzQnRnU0VIOTZiRW9RNGVfbzBwam8zLXA5bHNUWEowbmZvUVA2bzdRR213ZEFrdmExOXVMR0FfWHA3UVg0bWo2LVJtN3U0M0NuZ0k?oc=5",
-      "source": "quasa.io",
-      "published": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "summary": "30 книг по психологии: системный маршрут чтения quasa.io"
+      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
+      "source": "Sostav.ru",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
+    },
+    {
+      "title": "Школьная психология в цифровую эпоху: мы не можем просто ждать, пока возникнет проблема. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQkNVenFINkgyOW5zWW51NFNJQXFUMUF1RWJxRVptX2pYYjJ1ZTV1aVJ0dWoxZ1ZYVEVsa3YzTTg0MGhhdGpMTHVMRHVzY3JhaURObERKLVJMNTBzbjltX3paREpJbEwxTWs2NEE5MGJZekpaN1dZLWdHN2MxcVFBNGt4R0VDRmhDdS0yeGdGUGpzMDRjcmN0WVV4Zw?oc=5",
+      "source": "Vietnam.vn",
+      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "summary": "Школьная психология в цифровую эпоху: мы не можем просто ждать, пока возникнет проблема. Vietnam.vn"
     }
   ],
   "educationPolicy": [
-    {
-      "title": "Когда запустят новую систему высшего образования в России? Что изменится для студентов - Живая Кубань",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTWdXMWJOXzlYOUh4aGFNS0RhVElVUGxXTXV0WFBXRy02cXMtQjNObmU1eWRfTDM1WWlidFdLOGZYZ1ZCb3NBZS1sUGNfWTRkalpqa09INko0bmMya2IyNFVPVUktY09WamcyY0NXdnI4MmtyT0NwVlhmMHlZRWdMWDlmS3M0c2RLM3ZhcjAtMlVDSTAyOXRrQTc1ZTdIbC00bmxXNWhYcjlrYTFCU2NZa1lYZlJEVXpBODVzZFZOR0FfNWM4cHUxTUljRC1mWjQ?oc=5",
-      "source": "Живая Кубань",
-      "published": "Sun, 30 Aug 2026 07:07:53 GMT",
-      "summary": "Когда запустят новую систему высшего образования в России? Что изменится для студентов Живая Кубань"
-    },
     {
       "title": "Бакалавриат или базовое высшее: что выбирать после 11 класса. Все о реформе высшего образования - Мел",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdUtuNVhCWTAzNW5xSS1IUlkzNnVqSHlqTHJIWUFsQnhBbE5MWVhjcmxNbzlYaUNKZi1tRnl2YkxWd1pOelB6UElkY0pDWklXZVZ3eDg3RFpzX20wTkxyeS1kZVpjQ1luWkxnNHlYdk9nRDUwZUxaa0dvZ2VWemxyaWNTc1hURmZkakp3U0hMN3MzOUpKZ0NMSnVibEYtNTJxQzU4bE1RQ2o2SGNvQ3IwVXB4R21XcUFfSmZFaS1seWZHcnFGdmFRYVlXR2FNYTjSAdQBQVVfeXFMUFpQbHB3ck1OWGJnR0I1NnlDOEJ0aXlGTmxCYXgzS3JmSC13VnJKN1lQVFViUDBHR0dTalR3cy1RZFppa1RsU0dua1ZTWEpvazRMR002VmpBbllWbUp1dVhUZDJRU3VEVTA5T1IxUzlqb19mTDlsUTJsRXhEZHhXWXhuS0VBTEJ6TEVMalIwTFR0ellUQ3d4dG4yNFNlVHEzMWU3dW9oQWhkYjBhU0pSSDkyN1V2NTBfc0twMGxGU0hwenBzODd2R0hCUm1TTl9sLUVBX2w?oc=5",
@@ -122,18 +120,18 @@
       "summary": "Бакалавриат или базовое высшее: что выбирать после 11 класса. Все о реформе высшего образования Мел"
     },
     {
-      "title": "Сургутские вузы рассказали об ажиотаже при поступлении и шансах стобалльников -Новости Сургута - SiTV.RU",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWduSWQyOXFVS1kyNTljbi1LV2lkYUFzWFZwMV9qYzNxMFNLRkhIbnRjaGdnSjlJQjZybm91b0hLTDBGMXdoMHdsNVlHWF9PNWo5WGxpNlM4bFRtYnoyS3lMVXR1RW9GazEwcDVsVm9JeWEzMVotSk1VZHpESGx1bFNrN0diTnVaQW9FZHRWMTZDZ0NkSUxWUUl5V1dxU3FhVHZ3LVE1S1hnQTg?oc=5",
-      "source": "SiTV.RU",
-      "published": "Sun, 30 Aug 2026 05:42:00 GMT",
-      "summary": "Сургутские вузы рассказали об ажиотаже при поступлении и шансах стобалльников -Новости Сургута SiTV.RU"
+      "title": "В Башкирии в вузы по квотам зачислено более 2 тысяч студентов - Resbash.ru",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUDF1N3I1Z3lUU2dfX2VUOXZzbVJ5U3YzV1EzNm5jTkdpODZOdE9jcldjNTNWUW1LQ3NPZS1IVHRQWGo1dXBSdF9SbEhwY1g1U01JeHY0OEs0NnRFQlRPSHJwYkhLeklablZHMmlaSTZEMi0wSUI3MU1odk9ieWNWS2N0VFN2MFlNaTlLeEJVWjJfWVBjVjkwUUN2T2hESTVlVTBJYkxtWExQdl9PSzlXNFZYVDZNejlNaWlwQw?oc=5",
+      "source": "Resbash.ru",
+      "published": "Mon, 31 Aug 2026 09:58:52 GMT",
+      "summary": "В Башкирии в вузы по квотам зачислено более 2 тысяч студентов Resbash.ru"
     },
     {
-      "title": "Петербург вошел в топ-3 регионов России по числу студентов-бюджетников - Росбалт",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUmhULVlYekx0QV9fdDFSbndjekVrNGpRc29NSXo0SHg5YS1nb0ZJRzI0d0daZ3E4TzkwcXRYNHFybkItVURyZi02OXlscnZJa0xNa1FzdDhSeUZSY3J2R0tNUmdPRXBMdkt4ZHcxeHJ5LWZYWnlBZy15STNSc2dHdjAzMnN5bFhPLWZaOHYtaW56QkdDVHZGZmFSWWxTLVJfZlhsZGVUVlZyWFp3RnkwaV85d3U1eGtiNWtLeE9B?oc=5",
-      "source": "Росбалт",
-      "published": "Sun, 30 Aug 2026 07:45:00 GMT",
-      "summary": "Петербург вошел в топ-3 регионов России по числу студентов-бюджетников Росбалт"
+      "title": "Сибирский институт бизнеса и информационных технологий продолжает набор абитуриентов - Новости Омска и Омской области",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84clJTanczaDk5VmR2WUVWQVlZTjV5dDBHRU8tZEU3V3V4U2dESVlsdk1jbjkxTTNOZEdWS2dORU85MlB5emIxcw?oc=5",
+      "source": "Новости Омска и Омской области",
+      "published": "Mon, 31 Aug 2026 04:01:00 GMT",
+      "summary": "Сибирский институт бизнеса и информационных технологий продолжает набор абитуриентов Новости Омска и Омской области"
     },
     {
       "title": "Как смена высшего образования скажется на новых студентах - URA.RU",
@@ -143,11 +141,18 @@
       "summary": "Как смена высшего образования скажется на новых студентах URA.RU"
     },
     {
-      "title": "Британские университеты теряют иностранных студентов - ИА Реалист",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNlF6ZHlpR0ROTTEzdjhDaGE5RHY0WWIzakZMZ3h6LVZPLTBjWmV4MUdiV3IzUExSS2pzQkZ2ZWdubDRkVEdHWi0xN19aTmZ1eUIwbFVDQm8xLUR1bk5LSnl2VlAta1hYcUFnNkFZakRpX184TGZsaGg0bVl0MVJUX2Vxbm0?oc=5",
-      "source": "ИА Реалист",
-      "published": "Sun, 30 Aug 2026 08:38:36 GMT",
-      "summary": "Британские университеты теряют иностранных студентов ИА Реалист"
+      "title": "Мифы и реальность высшего образования в России - Центр прикладных исследований и программ",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2S1YyUVBSV18zWndrU0ZUMHV4dFI4cUNfOElPU0ZEZzhMbFBNWU5CdVNNUEROTmVEcm55OG1COG5jNW5HQUtzTzQyX3QzcmprbFRFekdlQVFyeE55QV9wRmJGdUhlMXozaVczc0tCMDFHNUc2NFhoZWJsUG9GQQ?oc=5",
+      "source": "Центр прикладных исследований и программ",
+      "published": "Mon, 31 Aug 2026 08:25:42 GMT",
+      "summary": "Мифы и реальность высшего образования в России Центр прикладных исследований и программ"
+    },
+    {
+      "title": "Как пилотный проект повлиял на осознанность выбора абитуриентов в 2026 году - Форпост Северо-Запад",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObk1kbko5Q3BZTkgtcmpRMDVtM0F5bWQ5dThMcmcyaGpidXUyTC1jNU5sZ2V1R3k1MzFWbVBrcmEyQm00NjRrcTVDemZNMFlDUmh1YzVvSzI0OTF0Y195Y082TFN2VjlHOG8ycnNtR1N1alU5TTVVTkkzN2F6bE5NeWxmd1pySWY4MzVGVUpyQkNVaGFuZkZHS0lOWXpqUG52ZEctazRXOGVGS0VuYTd30gG0AUFVX3lxTE1aZEkyelMzVXQxaDRpWEVuWnZZWm1ycU9LODVWazBHSThpQXhtSmFIa3FMS2dJbUVzN1d1SjhFSUttU0N4RUdYa241N0xnaURPemZMOV9LTFZQVHU4OHhUejhMU2F2MlhzNzA0Z1VMZ2U4dDNmR1dIQ0NRc2tDbGhKV2pWTXFYYmFsVWQwS0htZ3IwOVJTV1JyR0o1NkpxWEFUdXRubG9GRy0waGQ4cVBRbm9zRQ?oc=5",
+      "source": "Форпост Северо-Запад",
+      "published": "Mon, 31 Aug 2026 08:37:47 GMT",
+      "summary": "Как пилотный проект повлиял на осознанность выбора абитуриентов в 2026 году Форпост Северо-Запад"
     }
   ],
   "conferenceUpdates": [
@@ -159,11 +164,11 @@
       "summary": "Межрегиональный фестиваль практической психологии \"Лаборатория души\" Психологическая газета"
     },
     {
-      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - mos.ru",
+      "title": "В Гостином Дворе откроется лекторий форума «Москва 2030» - Официальный сайт Мэра Москвы",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52cWowNFhTTUlBb3h5VHFSTHE1bTFjWlV4UXMzRS1rZ2EyRHhuclZKR2FIOFJVNnBVbUdpZ1JWckxxN1hpeXFhV0xQUGpSQy1y?oc=5",
-      "source": "mos.ru",
+      "source": "Официальный сайт Мэра Москвы",
       "published": "Tue, 29 Jul 2025 07:00:00 GMT",
-      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» mos.ru"
+      "summary": "В Гостином Дворе откроется лекторий форума «Москва 2030» Официальный сайт Мэра Москвы"
     },
     {
       "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
@@ -196,13 +201,6 @@
   ],
   "sportAiUpdates": [
     {
-      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
-      "source": "Forbes.ru",
-      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
-      "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
-    },
-    {
       "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - Incrussia",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NMmF2ekhQMTJBejc3MnhCWWl5akNNU1BmLXBWNTF6NGNJZ0VPcGVmX0RMTEFOLXN2V0QxaGotZWs2S0tFR040UnREMzNJWkZIT3V2a1RYb09oZnNxZXQwbEE5Tm9Wa1dCbXc4N1hoWWRrR045Vmc?oc=5",
       "source": "Incrussia",
@@ -210,18 +208,18 @@
       "summary": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю Incrussia"
     },
     {
-      "title": "Новая специальность в Подольске: вуз стал готовить специалистов по социальной работе - REGIONS.ru",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFc5MVowNGZKVVJmQUVwWlRkWUpMcUxwU2k0VUlQSVdLR01INlhDTHBKT1pIN0xjY1BjTVpMZGZVVG9jWGY4d1M1MndfdTdOSFIyLVh6amdmeDhGbUFaa1RJVDlDR3VUYl9lcm1mcGQtUTgyNXpfV20xaGxncEsxTWZOY1dzS3psM2JkVnZNS2RtMnYtVnJibnVMZUlRaDFQT0xydVFwaHh2eUFBd1AzQ1pZaVhRaWxxbnZGamRR?oc=5",
-      "source": "REGIONS.ru",
-      "published": "Tue, 25 Aug 2026 11:12:00 GMT",
-      "summary": "Новая специальность в Подольске: вуз стал готовить специалистов по социальной работе REGIONS.ru"
+      "title": "В СПбГУ попытались найти идеального ИИ-интервьюера - Наука Mail",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSWVnd3dXWGNRS19UeU5OaTVPQTVQdmRYbHBEX1VlbFdGN3N1b0hWeS05Y0NsbzVfcWZYMWxkN1B5QnMtdmlBVlF5V2dRTlo5clVXeUNIRlJxajdyU3k5bzctWThuMjkweTFselZ2MVNoT3hSTWR4bEo1dHI2Y0FaSUJkUzVUb0VwTE5SWQ?oc=5",
+      "source": "Наука Mail",
+      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "summary": "В СПбГУ попытались найти идеального ИИ-интервьюера Наука Mail"
     },
     {
-      "title": "Нейробиологи связали тексты песен с уровнем интеллекта слушателя - Наука: новости и видео - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVWlOV0kyNGZLRWpINWZTN0JZUXRFTVNfNTA0dERsTnN0a2I0em4zZjVmU1FlYlp4dEF4MnI4TEpHaFdITTBvaTJ6Q0lGX3pDX2NiSWRKbFo0YTJVRDlQTm00cGJUaUJuQUZHYmlmLVNLMEpPN2FOQklMdzRiLWVoeFlLbFowTHE4M2UzM2Q2NFRPVzROQWc?oc=5",
+      "title": "Исследование раскрыло, от чего зависит содержание снов - naukatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnJ2b2lYM0h2czdOSXdqdlFkZmFaSGpxZXppQ3FfSjJuNm14SjY0ZmE2bDJEbHAxbjZ6akxsQlZKdm1mckFkV0NrcGFvNERENEItcUZlemtsTTFMbnRCNFVDTlJtNkZudW1rdnhWZVRqejlYTDhNOWRzNWtsUGJLSllCVEdYUQ?oc=5",
       "source": "naukatv.ru",
-      "published": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "summary": "Нейробиологи связали тексты песен с уровнем интеллекта слушателя - Наука: новости и видео naukatv.ru"
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "summary": "Исследование раскрыло, от чего зависит содержание снов naukatv.ru"
     },
     {
       "title": "«Не верьте ИИ». Несуществующая болезнь обманула нейросети: что такое биксонимания - MenToday",
@@ -236,6 +234,13 @@
       "source": "Sport24.ru",
       "published": "Thu, 26 Feb 2026 08:00:00 GMT",
       "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
+    },
+    {
+      "title": "Где севастопольцу строить карьеру в 2026 году: анализ рынка труда, психология выбора и профессии будущего - ruinformer.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTzNic0xpMDk3Q1FSRnlXNm9SOWNqdkQ0VFJUbnVYN2xCQWhTYUxqbVl0Q1pWZWIweFljTXVPY1NNSFdZZ2NTdGJEQjVZOVdUenZnd3hKVW1HR1oyZW9MVXNGWTNBZ3ZXUXlxanNVdXM5Sk9aSkVJS0tQYjBrV09RTGRGYXRGbkpRdEF6ZVZFQVhsLTNnREdmNkhMNnNOajZDcFQtSldDZjEtQ2pEUndyUlNOaVFrMkZyOV92U0tGQUJacXN3UjRNY1BMRQ?oc=5",
+      "source": "ruinformer.com",
+      "published": "Fri, 05 Jun 2026 08:05:09 GMT",
+      "summary": "Где севастопольцу строить карьеру в 2026 году: анализ рынка труда, психология выбора и профессии будущего ruinformer.com"
     }
   ],
   "openPublications": [
@@ -282,7 +287,15 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [],
+  "moonnUpdates": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Выступления"
+    }
+  ],
   "telegramUpdates": [
     {
       "title": "Я хорошо отдохнула) И у меня хорошие новости)) У нас возобновляются лекции, но только по вторникам теперь) Чуть позже напишу информацию по лекциям, а пока- кто рад ставим лайк)) 🔥 ",
