@@ -1,6 +1,11 @@
 {
-  "generatedAt": "2026-09-21T10:54:12.730015+00:00",
+  "generatedAt": "2026-09-22T10:08:38.816460+00:00",
   "ticker": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
     {
       "title": "Завтра лекция)) https://moonn.timepad.ru/event/4178380/",
       "url": "https://t.me/moonn_official/895",
@@ -12,14 +17,14 @@
       "source": "Telegram"
     },
     {
-      "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - psy.su",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
-      "source": "psy.su"
+      "title": "Искусственный интеллект VS психолог: заменят ли нейросети психотерапию - Университет ИТМО",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xaGFKX3VwcVFpbHhPbWJOZzV4NGtvZW53ZVlsMmpNX2ROZGpmSUZRd0hZeE40Z0dVRlVKcFE3MkU2Z3dJNmRBMzV1TQ?oc=5",
+      "source": "Университет ИТМО"
     },
     {
-      "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjNkc2QzRTd6VzZ5Q3Q3QnBCeGMtQUVjbHk3WVhHUlVYdW1KVm1RUUsyaUt1UEtqZ2xwc1BKZEstb0pvY3VBNXBSM3p6THFsSTJ2SmF0eTJVbG16eEhPNE9NNTd2RU9CTmQ3TzNMNlYwVnZTYWlzTDhYb1cyN245ZG1yaFlZTzFwdmVQTENxcGxlZlVMc0pOYXcxNU5EaURZYXpUUGx2QkJOMW1tdDAwLVdVMnpQTkhF?oc=5",
-      "source": "Biz360"
+      "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
@@ -42,24 +47,24 @@
       "source": "ANHA"
     },
     {
+      "title": "Международные эксперты и тренеры сборных обсудили в Рекордике новые подходы к подготовке российских спортсменов - Совспорт - Советский спорт",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzFZOEhQNmtHdWZuOFlsNXFqdXdZVi11cWg2SFVPeGpMOEF2cm1DanhUdU90V0dfM1BkN2NJaWo4bmRUWWtZX1dRQUtodzZzSXFWTTBlYUsyWS1NOWoyMUJ4Sk5hNWZ4cE8wTlRYSWl2OU9oMGtRdWVaX3lfc3E4MTNZMDFKV2U0QzVCdUJCRTBKR3l5LW4wSVBFRUtZZFNHcUVsVVFzUW5STTlJVUg0ckVNdkNmVkhtRVFSeG1LMmVpaFJRWW1PYjhOZS1HSDZjUHcxekR3TDNFaDBZLWc1MmliWWw5d00?oc=5",
+      "source": "Советский спорт"
+    },
+    {
       "title": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме - Омск Здесь",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5amcyZUZ0VjVGUXZVV1NyUVBFNDJWZi1xUklrSTZCb243LUMxaVM2U25vbDYtaVdOVllYMWo5aHhRa0JwMGk1TURmaU1CUm_SAVRBVV95cUxQTVdrUnBRMlV0VnhaLUtud1JYUElGTzdLdlYzbHFjNm90UWFBZUxDMWp3aGtzYjc2Q0RpWHIxQl9iU1ljRlFHZ1BSM0RiZkhPQ3hsdjA?oc=5",
       "source": "Омск Здесь"
     },
     {
-      "title": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу - 78.ru",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUVRSHFSS185ZlFKQWVIdjZtTDh6akQ1TmRMRjlDbjNiX29RMXB1NmZac0RsdTZWTDdGSjl0dUJvUTBGUDN6ZHI4SDAzTE9OSlBOUXk1NUs4ajV6WXpZZGVCOFlnd2RleDN3a1JSS0lIX3pESlFTbjh3VVJKLV91a1Y0TU9FTHJCaXFqa0M4dGlvdlQ1U1Y5NkRDNVBjNTg1QTgyTE5R?oc=5",
-      "source": "78.ru"
+      "title": "Ректор УрФУ о новой модели образования: «Нам говорят: экспериментируйте и рассказывайте, что получается - 66.ру",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPanBXNEVDTlN1eEdrODJKV25teVpURUpJTDdPUlhicS1TM19MZzNnSmxCMEIycXBXazFDLUstTXlKZ3lrbldkZVNjVXVGcEcwOE4wR2NjeHhBdlNsLXV0d3U4eHQ2RnpqNi05QUFxaWVNV0pILVdJYjBvdE9VTzducXdJSm5zbDVtZWE1ZTZ6V1M0THhyb1l4THBjN3lNNVUwS2xmWVAwcVZoNmdJbklDVmYwdE5oM3BzR09zYUZlN2N1TzZWTlBENDhwTWJ6dWVB?oc=5",
+      "source": "66.ру"
     },
     {
-      "title": "В РФ выросло число желающих получить среднее профессиональное образование - Смоленская газета",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcTFxS1ZGVElkRWVPOWhrYTlQZzFDeW5pS0xnN0g5VFFXZEQ1NjMtT1pHWWp2Y1JEYUNfWHpaSGFIV1JQU0xYbjRGdUh3MlFnNmdxRzZidkNLcURBaDd0Z0JGci1LTHZRSm9RYTk2R3JCTTZ1azlLWXJQdmJUTnpTQkdjRTEzQmItM1NGM1dR?oc=5",
-      "source": "Смоленская газета"
-    },
-    {
-      "title": "Социолог Чепуренко: Этикетки менее важны, чем содержание высшего образования - ВФокусе Mail",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTW5WWF9CQnJ1LUJFc2p2dmZCcTBwSVlYSjNfVmQtWHgyd0RPemlfck1LUmpMMTdvY0dUZkxjSi00MUFkWE13dzdDSnhCbnd0QjMtNFhjajN6Z1JoYVMzbEFlWlJGbVgzZ21IdVJ2VHpzbXI1cEstcUVYY1lEbzJzTlc1ZnhxWThLOExnZEJfcEJVamMtNVF2cXNxc3lUeG1qV3lGbFVhVkZmRkUtOTNxVThONGN6TGRGWUNsS2I0Yw?oc=5",
-      "source": "ВФокусе Mail"
+      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
+      "source": "obltv.ru"
     }
   ],
   "psychologyTrends": [
@@ -78,11 +83,11 @@
       "summary": "Эксперт: Навязывание ребенку языка обучения влияет на его психологию, успеваемость и самоидентификацию ANHA"
     },
     {
-      "title": "Социальная психология в противоречивом мире: Андреевские чтения — 2026 - psy.su",
+      "title": "Социальная психология в противоречивом мире: Андреевские чтения — 2026 - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE91Vk0xYVhrd1Fkejh5WS1FeG96VW1wdkRoSWJoOEUzZmJhY3ljRlRvckxNcnhmRDZCRUNXN1Bwbw?oc=5",
-      "source": "psy.su",
+      "source": "Психологическая газета",
       "published": "Mon, 14 Sep 2026 21:13:36 GMT",
-      "summary": "Социальная психология в противоречивом мире: Андреевские чтения — 2026 psy.su"
+      "summary": "Социальная психология в противоречивом мире: Андреевские чтения — 2026 Психологическая газета"
     },
     {
       "title": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» - South Ural State University",
@@ -92,11 +97,11 @@
       "summary": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» South Ural State University"
     },
     {
-      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - sostav.ru",
+      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
-      "source": "sostav.ru",
+      "source": "Sostav.ru",
       "published": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году sostav.ru"
+      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
     },
     {
       "title": "Топ-7 курсов повышения квалификации психологов в 2026 - Хабр",
@@ -108,55 +113,62 @@
   ],
   "educationPolicy": [
     {
-      "title": "В РФ выросло число желающих получить среднее профессиональное образование - Смоленская газета",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcTFxS1ZGVElkRWVPOWhrYTlQZzFDeW5pS0xnN0g5VFFXZEQ1NjMtT1pHWWp2Y1JEYUNfWHpaSGFIV1JQU0xYbjRGdUh3MlFnNmdxRzZidkNLcURBaDd0Z0JGci1LTHZRSm9RYTk2R3JCTTZ1azlLWXJQdmJUTnpTQkdjRTEzQmItM1NGM1dR?oc=5",
-      "source": "Смоленская газета",
-      "published": "Mon, 21 Sep 2026 08:04:24 GMT",
-      "summary": "В РФ выросло число желающих получить среднее профессиональное образование Смоленская газета"
+      "title": "Ректор УрФУ о новой модели образования: «Нам говорят: экспериментируйте и рассказывайте, что получается - 66.ру",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPanBXNEVDTlN1eEdrODJKV25teVpURUpJTDdPUlhicS1TM19MZzNnSmxCMEIycXBXazFDLUstTXlKZ3lrbldkZVNjVXVGcEcwOE4wR2NjeHhBdlNsLXV0d3U4eHQ2RnpqNi05QUFxaWVNV0pILVdJYjBvdE9VTzducXdJSm5zbDVtZWE1ZTZ6V1M0THhyb1l4THBjN3lNNVUwS2xmWVAwcVZoNmdJbklDVmYwdE5oM3BzR09zYUZlN2N1TzZWTlBENDhwTWJ6dWVB?oc=5",
+      "source": "66.ру",
+      "published": "Tue, 22 Sep 2026 08:31:05 GMT",
+      "summary": "Ректор УрФУ о новой модели образования: «Нам говорят: экспериментируйте и рассказывайте, что получается 66.ру"
     },
     {
-      "title": "Социолог Чепуренко: Этикетки менее важны, чем содержание высшего образования - ВФокусе Mail",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTW5WWF9CQnJ1LUJFc2p2dmZCcTBwSVlYSjNfVmQtWHgyd0RPemlfck1LUmpMMTdvY0dUZkxjSi00MUFkWE13dzdDSnhCbnd0QjMtNFhjajN6Z1JoYVMzbEFlWlJGbVgzZ21IdVJ2VHpzbXI1cEstcUVYY1lEbzJzTlc1ZnhxWThLOExnZEJfcEJVamMtNVF2cXNxc3lUeG1qV3lGbFVhVkZmRkUtOTNxVThONGN6TGRGWUNsS2I0Yw?oc=5",
-      "source": "ВФокусе Mail",
-      "published": "Sun, 20 Sep 2026 14:49:10 GMT",
-      "summary": "Социолог Чепуренко: Этикетки менее важны, чем содержание высшего образования ВФокусе Mail"
+      "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ1RENnZNNnhoWjlJdzF0bmRfVXBqYXpiTnRCR0c1aWxvbWItME1nZk40am5wQ3JFSlY4VUpocVozaldrenlXMC14WmlHcTVZYU94S1NxSzVsVlM1NTVfUkc2SkRtU24yanVQUFlwMHI3NHJEVHBSMzRpQ2dTNURvT2RuVlR4T2I5V1VtVU5sRG1fX1ZzUE45N2ZDS283MUFlYTdSZzhtSVBMNmV1ckVIOXlkaw?oc=5",
+      "source": "obltv.ru",
+      "published": "Tue, 22 Sep 2026 05:36:49 GMT",
+      "summary": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости obltv.ru"
     },
     {
-      "title": "«Высшее образование – всегда игра вдолгую»: и.о. ректора УрГЭУ Яков Силин – о том, как вуз отвечает на современные вызовы - Областная газета | Свердловская область",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEbDJUUVNiQ0drZTZHTUtFQkFvY2t6VDF1eGZ6Qk5MUWRIMjNTRm1SWjJ1MTA3SnNleFRHTXBkaXh5REF1UzJuWDJjd19MU1ZndHZJ?oc=5",
-      "source": "Областная газета | Свердловская область",
-      "published": "Fri, 18 Sep 2026 05:00:40 GMT",
-      "summary": "«Высшее образование – всегда игра вдолгую»: и.о. ректора УрГЭУ Яков Силин – о том, как вуз отвечает на современные вызовы Областная газета | Свердловская область"
+      "title": "Названы направления в вузах, для которых экзамены по физике и истории будут обязательными - Сноб",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc1dlX3JhLWM4UWYzcEhlUzFmYmh3M1lRSlNkeUtod1M2WlJQUm5ZQXJRaVJ6V055QV9ETTBlREFNU2V3MDFISFZXblc1NXhyMnVkb19ncS1tNF94a0s2RTI2TGczc1lPel95VTV1dDZOdUtGSGZGd0NQaVFMYmotQ0d5UGl1OTFJV3lkcG1rc1JieVhTNW8zXy13NkVSQUFyNXRhenZtVnhBZGhubjctODN5SE8?oc=5",
+      "source": "Сноб",
+      "published": "Tue, 22 Sep 2026 05:57:27 GMT",
+      "summary": "Названы направления в вузах, для которых экзамены по физике и истории будут обязательными Сноб"
     },
     {
-      "title": "Превращение высшего образования в национальную стратегическую инфраструктуру знаний. - vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNk5aQUNCQno1MXZaU21fWGVDNlAxLWxDZnpBczhTSklPcVlkaGZ5Z1Y0YVZYekdrWl9PSUxUNUxmV3lPS3FxQ1JWanBTLWJOOGdOUkdEN3QtRlRJdTJlMXlGa01TTXJQYnRIX0doV0JaMF8xYlA3UW9GZ1lOazcydDc0LWlVUzBFV1RiZ1A2WWlJb0JUQ1VOWg?oc=5",
-      "source": "vietnam.vn",
-      "published": "Mon, 21 Sep 2026 09:50:54 GMT",
-      "summary": "Превращение высшего образования в национальную стратегическую инфраструктуру знаний. vietnam.vn"
+      "title": "Минобрнауки России предложило внести изменения в правила поступления в вузы - ГАРАНТ",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yd1pqQXBreGMwNUZEaHZUNTdaYlEzYWE5OFVpcmwybVhwTjFCNXVmUnNrSVJfT3hZdVBoVG14VG1qQkNyNVdFMUZ0Zw?oc=5",
+      "source": "ГАРАНТ",
+      "published": "Tue, 22 Sep 2026 09:39:00 GMT",
+      "summary": "Минобрнауки России предложило внести изменения в правила поступления в вузы ГАРАНТ"
     },
     {
-      "title": "Бакалавриат или базовое высшее: что выбирать после 11 класса. Все о реформе высшего образования - Мел",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdUtuNVhCWTAzNW5xSS1IUlkzNnVqSHlqTHJIWUFsQnhBbE5MWVhjcmxNbzlYaUNKZi1tRnl2YkxWd1pOelB6UElkY0pDWklXZVZ3eDg3RFpzX20wTkxyeS1kZVpjQ1luWkxnNHlYdk9nRDUwZUxaa0dvZ2VWemxyaWNTc1hURmZkakp3U0hMN3MzOUpKZ0NMSnVibEYtNTJxQzU4bE1RQ2o2SGNvQ3IwVXB4R21XcUFfSmZFaS1seWZHcnFGdmFRYVlXR2FNYTjSAdQBQVVfeXFMUFpQbHB3ck1OWGJnR0I1NnlDOEJ0aXlGTmxCYXgzS3JmSC13VnJKN1lQVFViUDBHR0dTalR3cy1RZFppa1RsU0dua1ZTWEpvazRMR002VmpBbllWbUp1dVhUZDJRU3VEVTA5T1IxUzlqb19mTDlsUTJsRXhEZHhXWXhuS0VBTEJ6TEVMalIwTFR0ellUQ3d4dG4yNFNlVHEzMWU3dW9oQWhkYjBhU0pSSDkyN1V2NTBfc0twMGxGU0hwenBzODd2R0hCUm1TTl9sLUVBX2w?oc=5",
-      "source": "Мел",
-      "published": "Thu, 27 Aug 2026 07:00:00 GMT",
-      "summary": "Бакалавриат или базовое высшее: что выбирать после 11 класса. Все о реформе высшего образования Мел"
+      "title": "Минобрнауки предложило изменить вступительные испытания в вузы с 2027 года - expert.ru",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0dCOGFRdHdPcWxyWTdabnhQeTVTSEtLOEE4UVVZYXpsWlhsNFI2S3haeWgtMXJ2REhieF93cVRwUFlMVGNSYmdhclBwLUJiYUpGTGFmUHNTRFViTjRHMk5yTFRiZG8zSC1vWDE4clhfSWFNSkplOTR6YmhiMW1TOGY5dFRHdkhJaUJ0X0J2di1jQkVILVJrcmE5NVZQQQ?oc=5",
+      "source": "expert.ru",
+      "published": "Tue, 22 Sep 2026 06:36:00 GMT",
+      "summary": "Минобрнауки предложило изменить вступительные испытания в вузы с 2027 года expert.ru"
     },
     {
-      "title": "В РФ выросло число желающих получить среднее профессиональное образование - РИА «ТОП68",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWlllN0VUVS11VXZ6UDRWQi10OWNQcnczWkJFdGN3dlVkY1I0VDFKMTEzeUY2aU5EY2FJdGFwTDNXQnFVTWVQZ2dXMF93YmhYR0V3LTkyUV9LNW01QzRLcXlkMkhUZGNDOGdKdDM5UTUwQ28zUU1xTVdibkw2ZExpZ1FZdXE3N3lNRmU2LUZ1NGdvbHJSMDNUTTd4QlpPdFByZ2Y2bVNFWEJWRDZET0lXWjNzVi1UbGpaTmJOdVVzcjIzMkk?oc=5",
-      "source": "РИА «ТОП68",
-      "published": "Thu, 17 Sep 2026 12:32:00 GMT",
-      "summary": "В РФ выросло число желающих получить среднее профессиональное образование РИА «ТОП68"
+      "title": "Правила поступления в вузы решили изменить с 2027 года - Daily Карелия",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRGNYaWFQSGtBYUs1emhyVlpidU02R2Y2R0lZRnE4Y1gzZU9uU0ZRWnpBdXduUlE3QTA2aUhFRnJvUFkxZGc5RFc3anBaU0p0aGk2Ym1EbF9rTkE1YklCYl8tOTZqbFJaVFlfYWlGWmNTRXBWbDJTQjg2RDMyeXBNM1prZw?oc=5",
+      "source": "Daily Карелия",
+      "published": "Tue, 22 Sep 2026 06:42:20 GMT",
+      "summary": "Правила поступления в вузы решили изменить с 2027 года Daily Карелия"
     }
   ],
   "conferenceUpdates": [
     {
-      "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - psy.su",
+      "title": "Искусственный интеллект VS психолог: заменят ли нейросети психотерапию - Университет ИТМО",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xaGFKX3VwcVFpbHhPbWJOZzV4NGtvZW53ZVlsMmpNX2ROZGpmSUZRd0hZeE40Z0dVRlVKcFE3MkU2Z3dJNmRBMzV1TQ?oc=5",
+      "source": "Университет ИТМО",
+      "published": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "summary": "Искусственный интеллект VS психолог: заменят ли нейросети психотерапию Университет ИТМО"
+    },
+    {
+      "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
-      "source": "psy.su",
+      "source": "Психологическая газета",
       "published": "Tue, 11 Jun 2024 07:00:00 GMT",
-      "summary": "18-й Саммит психологов: опыт коллег в условиях кризиса psy.su"
+      "summary": "18-й Саммит психологов: опыт коллег в условиях кризиса Психологическая газета"
     },
     {
       "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
@@ -173,28 +185,28 @@
       "summary": "Более тысячи человек из разных городов: как прошла конференция Psychologies со звездными экспертами Счастливые родители"
     },
     {
-      "title": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов - psy.su",
+      "title": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE96T2N1VXF0Umt4eUJieE9aYTNGc1BQd24wdUhua1djWmtaclEtOUMteXQxNEpPcXNBcXBrSEltQQ?oc=5",
-      "source": "psy.su",
+      "source": "Психологическая газета",
       "published": "Tue, 17 Jun 2025 07:00:00 GMT",
-      "summary": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов psy.su"
+      "summary": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов Психологическая газета"
     },
     {
-      "title": "Эмоционально-личностные детерминанты субъективного благополучия военнослужащих, участвовавших в боевых действиях - psy.su",
+      "title": "Эмоционально-личностные детерминанты субъективного благополучия военнослужащих, участвовавших в боевых действиях - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1DV1VBWTdoMHpNQ0ZVLWJXSVkzWmgyN3pDQVhiN1doZlBRZlBnNkNDVDBYMEZJVVBaNmhpMnh4aw?oc=5",
-      "source": "psy.su",
+      "source": "Психологическая газета",
       "published": "Sat, 22 Feb 2025 21:00:30 GMT",
-      "summary": "Эмоционально-личностные детерминанты субъективного благополучия военнослужащих, участвовавших в боевых действиях psy.su"
-    },
-    {
-      "title": "Чем удивлял 15-й Саммит психологов? Рефлексия и действия - psy.su",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9uM3BkaXVZQzJLcHdKM3o4Q3JhNE9ZRHN0S1p0bEJEeGVXckRMZ04td18xMFBtbkVhb1Q1WFlR?oc=5",
-      "source": "psy.su",
-      "published": "Fri, 11 Jun 2021 07:00:00 GMT",
-      "summary": "Чем удивлял 15-й Саммит психологов? Рефлексия и действия psy.su"
+      "summary": "Эмоционально-личностные детерминанты субъективного благополучия военнослужащих, участвовавших в боевых действиях Психологическая газета"
     }
   ],
   "sportAiUpdates": [
+    {
+      "title": "Международные эксперты и тренеры сборных обсудили в Рекордике новые подходы к подготовке российских спортсменов - Совспорт - Советский спорт",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzFZOEhQNmtHdWZuOFlsNXFqdXdZVi11cWg2SFVPeGpMOEF2cm1DanhUdU90V0dfM1BkN2NJaWo4bmRUWWtZX1dRQUtodzZzSXFWTTBlYUsyWS1NOWoyMUJ4Sk5hNWZ4cE8wTlRYSWl2OU9oMGtRdWVaX3lfc3E4MTNZMDFKV2U0QzVCdUJCRTBKR3l5LW4wSVBFRUtZZFNHcUVsVVFzUW5STTlJVUg0ckVNdkNmVkhtRVFSeG1LMmVpaFJRWW1PYjhOZS1HSDZjUHcxekR3TDNFaDBZLWc1MmliWWw5d00?oc=5",
+      "source": "Советский спорт",
+      "published": "Mon, 21 Sep 2026 13:53:00 GMT",
+      "summary": "Международные эксперты и тренеры сборных обсудили в Рекордике новые подходы к подготовке российских спортсменов - Совспорт Советский спорт"
+    },
     {
       "title": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме - Омск Здесь",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5amcyZUZ0VjVGUXZVV1NyUVBFNDJWZi1xUklrSTZCb243LUMxaVM2U25vbDYtaVdOVllYMWo5aHhRa0JwMGk1TURmaU1CUm_SAVRBVV95cUxQTVdrUnBRMlV0VnhaLUtud1JYUElGTzdLdlYzbHFjNm90UWFBZUxDMWp3aGtzYjc2Q0RpWHIxQl9iU1ljRlFHZ1BSM0RiZkhPQ3hsdjA?oc=5",
@@ -210,32 +222,25 @@
       "summary": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу 78.ru"
     },
     {
-      "title": "В Хошимине создана Ассоциация спортивной медицины, целью которой является применение искусственного интеллекта. - vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQVd3M3NsV1hmVnZ2UUN1VURya2JrLUNFTzdweWhzWXdGSlRtOF9hUWhMQTE0ZTVfdERJcWx4Mkl1UFhfcUNBeWo0aUtIcndvNGtzcERabHBXaWV1SU0xdVJpaUROZWVQVUJEanlwZkVZQ2F0cEY2WmdrYmpyR0c3S3g1b0pCQ3hiYTc3U0FrQjA?oc=5",
-      "source": "vietnam.vn",
-      "published": "Sat, 12 Sep 2026 07:00:00 GMT",
-      "summary": "В Хошимине создана Ассоциация спортивной медицины, целью которой является применение искусственного интеллекта. vietnam.vn"
-    },
-    {
-      "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - incrussia.ru",
+      "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - Inc. Russia",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NMmF2ekhQMTJBejc3MnhCWWl5akNNU1BmLXBWNTF6NGNJZ0VPcGVmX0RMTEFOLXN2V0QxaGotZWs2S0tFR040UnREMzNJWkZIT3V2a1RYb09oZnNxZXQwbEE5Tm9Wa1dCbXc4N1hoWWRrR045Vmc?oc=5",
-      "source": "incrussia.ru",
+      "source": "Inc. Russia",
       "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-      "summary": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю incrussia.ru"
+      "summary": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю Inc. Russia"
     },
     {
-      "title": "Почему женщины раздражительны в ПМС, объяснили ученые - Наука: новости и видео - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQTZreldsVHZOU2tpVTNUQlhmQzZIMS1iQXlwSi1zVmZQaDViNXJEaGxrMFJqNWFnNDZSV2tQXzJsS3JrMXJiOFA5dU5FeENnVlpXTDJmY3JxbHljSzdkSkFjTDZnNjFETEtXMnZIVkxDTV8zaXFiNm1ERmprMGVOdEhYV1lHVTJCSlIyNEUyVkt4MXRxaGU0VzMwbXRLZVJsMF9jRFpNY05QUUowZnc?oc=5",
-      "source": "naukatv.ru",
-      "published": "Thu, 03 Sep 2026 07:00:00 GMT",
-      "summary": "Почему женщины раздражительны в ПМС, объяснили ученые - Наука: новости и видео naukatv.ru"
+      "title": "В Хошимине создана Ассоциация спортивной медицины, целью которой является применение искусственного интеллекта. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQVd3M3NsV1hmVnZ2UUN1VURya2JrLUNFTzdweWhzWXdGSlRtOF9hUWhMQTE0ZTVfdERJcWx4Mkl1UFhfcUNBeWo0aUtIcndvNGtzcERabHBXaWV1SU0xdVJpaUROZWVQVUJEanlwZkVZQ2F0cEY2WmdrYmpyR0c3S3g1b0pCQ3hiYTc3U0FrQjA?oc=5",
+      "source": "Vietnam.vn",
+      "published": "Sat, 12 Sep 2026 07:00:00 GMT",
+      "summary": "В Хошимине создана Ассоциация спортивной медицины, целью которой является применение искусственного интеллекта. Vietnam.vn"
     },
     {
-      "title": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии - Российский государственный педагогический университет им. А. И. Герцена",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkVEeFcxYTRFNGVhRlBmRlR3djZxQjZYVEFBSWdHRWkzdjBiWnNUUHBXWDNIVG8zTmctOUZRblZXOGtiM2JqQ0F6dHVZX1gzRU1HRTQ4cUhLbjhfbHBhTDd6UGFaczl4SndDakpVU1V6ZlVBMXpB?oc=5",
-      "source": "Российский государственный педагогический университет им. А. И. Герцена",
-      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
-      "summary": "От перцептронов до промптов: как ИИ меняет исследовательскую практику в психологии Российский государственный педагогический университет им. А. И. Герцена"
+      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
+      "source": "forbes.ru",
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ forbes.ru"
     }
   ],
   "openPublications": [
@@ -282,7 +287,15 @@
       "summary": "Xinyu Du · International Journal of Arts and Technology"
     }
   ],
-  "moonnUpdates": [],
+  "moonnUpdates": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Выступления"
+    }
+  ],
   "telegramUpdates": [
     {
       "title": "Завтра лекция)) https://moonn.timepad.ru/event/4178380/",
@@ -297,6 +310,13 @@
       "source": "Telegram",
       "published": "",
       "summary": "Быстрая психология Татьяны Мунн pinned « Завтра лекция)) https://moonn.timepad.ru/event/4178380/ »"
+    },
+    {
+      "title": "Спасибо всем, кто сегодня пришёл на мою лекцию о детях и цифровой среде! 💜 ✨ Мне было очень приятно видеть столько людей, которым действительно интересны темы внимания, обучения, в",
+      "url": "https://t.me/moonn_official/902",
+      "source": "Telegram",
+      "published": "",
+      "summary": "Спасибо всем, кто сегодня пришёл на мою лекцию о детях и цифровой среде! 💜 ✨ Мне было очень приятно видеть столько людей, которым действительно интересны темы внимания, обучения, влияния гаджетов и того, как меняется жизнь детей и взрослых в цифровом мире. 📱 🧠"
     }
   ]
 }
