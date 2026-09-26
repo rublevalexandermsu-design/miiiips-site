@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T10:20:42.952676+00:00",
+  "generatedAt": "2026-09-26T10:00:32.287154+00:00",
   "ticker": [
     {
       "title": "Выступления",
@@ -47,14 +47,14 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме - Омск Здесь",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5amcyZUZ0VjVGUXZVV1NyUVBFNDJWZi1xUklrSTZCb243LUMxaVM2U25vbDYtaVdOVllYMWo5aHhRa0JwMGk1TURmaU1CUm_SAVRBVV95cUxQTVdrUnBRMlV0VnhaLUtud1JYUElGTzdLdlYzbHFjNm90UWFBZUxDMWp3aGtzYjc2Q0RpWHIxQl9iU1ljRlFHZ1BSM0RiZkhPQ3hsdjA?oc=5",
-      "source": "Омск Здесь"
-    },
-    {
       "title": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу - 78.ru",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUVRSHFSS185ZlFKQWVIdjZtTDh6akQ1TmRMRjlDbjNiX29RMXB1NmZac0RsdTZWTDdGSjl0dUJvUTBGUDN6ZHI4SDAzTE9OSlBOUXk1NUs4ajV6WXpZZGVCOFlnd2RleDN3a1JSS0lIX3pESlFTbjh3VVJKLV91a1Y0TU9FTHJCaXFqa0M4dGlvdlQ1U1Y5NkRDNVBjNTg1QTgyTE5R?oc=5",
       "source": "78.ru"
+    },
+    {
+      "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - Inc. Russia",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NMmF2ekhQMTJBejc3MnhCWWl5akNNU1BmLXBWNTF6NGNJZ0VPcGVmX0RMTEFOLXN2V0QxaGotZWs2S0tFR040UnREMzNJWkZIT3V2a1RYb09oZnNxZXQwbEE5Tm9Wa1dCbXc4N1hoWWRrR045Vmc?oc=5",
+      "source": "Inc. Russia"
     },
     {
       "title": "Минобрнауки России предложило внести изменения в правила поступления в вузы - ГАРАНТ",
@@ -62,9 +62,9 @@
       "source": "ГАРАНТ"
     },
     {
-      "title": "Выставка о российском образовании работает в Ташкенте - ФОНД РУССКИЙ МИР",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2M0dWSHBfYllTWUZaLUFaZGowalBWY3Zta2g1MFlGd0dBSVJHeUVzUTFwZmZSU3pvcmlHY3Z6ZnFTY3hMczR6d1JyTTdqYlE?oc=5",
-      "source": "ФОНД РУССКИЙ МИР"
+      "title": "Минобрнауки предлагает изменить правила поступления в вузы с 2027 года - MagCity74",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQllmcGJzZ3hkT0o3cGZNQVF5ZVdyTHd2YlRiQ0MtbWdNS0w4OXJtSE9ZeHJMeWlQaTZvWjN2SEJ4ZzJwU2NJc0RocF9YYW1LV2VuMVlLZVlJaS1QQ0xMR2ZJcGFxQmg5UDRnYVVJZ3dGeHJaR1VJUTdiLXZ5UXNkbnpkZnpJN3o4QmVoYU91dVZzN1JtWjRNY00yZjlaNWRTTFRCSHFCRU5FRFNJNE5R?oc=5",
+      "source": "MagCity74"
     }
   ],
   "psychologyTrends": [
@@ -120,18 +120,11 @@
       "summary": "Минобрнауки России предложило внести изменения в правила поступления в вузы ГАРАНТ"
     },
     {
-      "title": "Выставка о российском образовании работает в Ташкенте - ФОНД РУССКИЙ МИР",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2M0dWSHBfYllTWUZaLUFaZGowalBWY3Zta2g1MFlGd0dBSVJHeUVzUTFwZmZSU3pvcmlHY3Z6ZnFTY3hMczR6d1JyTTdqYlE?oc=5",
-      "source": "ФОНД РУССКИЙ МИР",
-      "published": "Fri, 25 Sep 2026 08:30:51 GMT",
-      "summary": "Выставка о российском образовании работает в Ташкенте ФОНД РУССКИЙ МИР"
-    },
-    {
-      "title": "Минобрнауки планирует ужесточить правила приема в российские вузы с 2027 года - Твой Иркутск",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YejktSjExUHpIaU5vZWdiQzhOS2dyYnJSbGZIVzBUUVI4b045elRMcU1sN2lGYklRZ18yaVI2NDB0Q3N3VTFJYXktTWxDTnhU?oc=5",
-      "source": "Твой Иркутск",
-      "published": "Fri, 25 Sep 2026 05:31:00 GMT",
-      "summary": "Минобрнауки планирует ужесточить правила приема в российские вузы с 2027 года Твой Иркутск"
+      "title": "Минобрнауки предлагает изменить правила поступления в вузы с 2027 года - MagCity74",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQllmcGJzZ3hkT0o3cGZNQVF5ZVdyTHd2YlRiQ0MtbWdNS0w4OXJtSE9ZeHJMeWlQaTZvWjN2SEJ4ZzJwU2NJc0RocF9YYW1LV2VuMVlLZVlJaS1QQ0xMR2ZJcGFxQmg5UDRnYVVJZ3dGeHJaR1VJUTdiLXZ5UXNkbnpkZnpJN3o4QmVoYU91dVZzN1JtWjRNY00yZjlaNWRTTFRCSHFCRU5FRFNJNE5R?oc=5",
+      "source": "MagCity74",
+      "published": "Sat, 26 Sep 2026 08:05:16 GMT",
+      "summary": "Минобрнауки предлагает изменить правила поступления в вузы с 2027 года MagCity74"
     },
     {
       "title": "Минобрнауки РФ меняет правила приема в вузы с 2027/28 учебного года - Интерфакс",
@@ -139,6 +132,13 @@
       "source": "Интерфакс",
       "published": "Tue, 22 Sep 2026 10:48:00 GMT",
       "summary": "Минобрнауки РФ меняет правила приема в вузы с 2027/28 учебного года Интерфакс"
+    },
+    {
+      "title": "Казахстанские вузы ждут перемены: что изменится для студентов - Inbusiness.kz",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX2laZDFNUzRoZmdHdk5ZWU8xX2FQU3gtWVRiNEhxaGtoelVvdTBWd2JxNFltdUZyUU56bENaTDExY1loRXBBNTNIV01zc3AyRHlGNlZyeVZNMVYyVnJUWHAyUkJuV3FqTExHcEJfdktEX0JqZ1d0LXR4QVFrVC1xVVZZUUFOOC03ejhFdnZoQVBGeVEzN3IyRTdB?oc=5",
+      "source": "Inbusiness.kz",
+      "published": "Sat, 26 Sep 2026 09:48:24 GMT",
+      "summary": "Казахстанские вузы ждут перемены: что изменится для студентов Inbusiness.kz"
     },
     {
       "title": "УрФУ вошел в пилотный проект по реформе высшего образования | ОТВ - Новости - obltv.ru",
@@ -201,13 +201,6 @@
   ],
   "sportAiUpdates": [
     {
-      "title": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме - Омск Здесь",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5amcyZUZ0VjVGUXZVV1NyUVBFNDJWZi1xUklrSTZCb243LUMxaVM2U25vbDYtaVdOVllYMWo5aHhRa0JwMGk1TURmaU1CUm_SAVRBVV95cUxQTVdrUnBRMlV0VnhaLUtud1JYUElGTzdLdlYzbHFjNm90UWFBZUxDMWp3aGtzYjc2Q0RpWHIxQl9iU1ljRlFHZ1BSM0RiZkhPQ3hsdjA?oc=5",
-      "source": "Омск Здесь",
-      "published": "Sun, 13 Sep 2026 04:17:00 GMT",
-      "summary": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме Омск Здесь"
-    },
-    {
       "title": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу - 78.ru",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUVRSHFSS185ZlFKQWVIdjZtTDh6akQ1TmRMRjlDbjNiX29RMXB1NmZac0RsdTZWTDdGSjl0dUJvUTBGUDN6ZHI4SDAzTE9OSlBOUXk1NUs4ajV6WXpZZGVCOFlnd2RleDN3a1JSS0lIX3pESlFTbjh3VVJKLV91a1Y0TU9FTHJCaXFqa0M4dGlvdlQ1U1Y5NkRDNVBjNTg1QTgyTE5R?oc=5",
       "source": "78.ru",
@@ -215,11 +208,11 @@
       "summary": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу 78.ru"
     },
     {
-      "title": "В Хошимине создана Ассоциация спортивной медицины, целью которой является применение искусственного интеллекта. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQVd3M3NsV1hmVnZ2UUN1VURya2JrLUNFTzdweWhzWXdGSlRtOF9hUWhMQTE0ZTVfdERJcWx4Mkl1UFhfcUNBeWo0aUtIcndvNGtzcERabHBXaWV1SU0xdVJpaUROZWVQVUJEanlwZkVZQ2F0cEY2WmdrYmpyR0c3S3g1b0pCQ3hiYTc3U0FrQjA?oc=5",
-      "source": "Vietnam.vn",
-      "published": "Sat, 12 Sep 2026 07:00:00 GMT",
-      "summary": "В Хошимине создана Ассоциация спортивной медицины, целью которой является применение искусственного интеллекта. Vietnam.vn"
+      "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - Inc. Russia",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NMmF2ekhQMTJBejc3MnhCWWl5akNNU1BmLXBWNTF6NGNJZ0VPcGVmX0RMTEFOLXN2V0QxaGotZWs2S0tFR040UnREMzNJWkZIT3V2a1RYb09oZnNxZXQwbEE5Tm9Wa1dCbXc4N1hoWWRrR045Vmc?oc=5",
+      "source": "Inc. Russia",
+      "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "summary": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю Inc. Russia"
     },
     {
       "title": "Казахский национальный университет спорта и Университет Стерлинга рассматривают новые модели партнерства - Регистр ТВ Казахстан",
@@ -229,18 +222,25 @@
       "summary": "Казахский национальный университет спорта и Университет Стерлинга рассматривают новые модели партнерства Регистр ТВ Казахстан"
     },
     {
-      "title": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю - Inc Russia",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NMmF2ekhQMTJBejc3MnhCWWl5akNNU1BmLXBWNTF6NGNJZ0VPcGVmX0RMTEFOLXN2V0QxaGotZWs2S0tFR040UnREMzNJWkZIT3V2a1RYb09oZnNxZXQwbEE5Tm9Wa1dCbXc4N1hoWWRrR045Vmc?oc=5",
-      "source": "Inc Russia",
-      "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-      "summary": "Футбол больших данных. Сделали ли технологии Чемпионат мира-2026 самым справедливым за всю историю Inc Russia"
-    },
-    {
       "title": "Сбер представил ИИ-решения для тренеров спортивных клубов - Сбербанк",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU1TLTJucndGVDFiZmJvbUJXRnpMMC1ydnYyamVxbDZZU3RkWkRCa1RTNkxjQVllaHdlRlBJZ1NwQnZyNEUtSXlXY0ZMTVFuQlFaQmdvNWNabXNHTUJ1WE5DeDMxUDItaGlCWlpPV3pnZWZBd0E2WW1iRW8wX3NDVEhsZTVKWFlRRUJEZW12d3l5dE1SWHI0RzdpUHljdC0zMmdnT1BFU1ZQaVBDUGNBT0t3Wl9yTUNJUXR1Y0VOQWphbnF4Vm53dlNvLWxJUW9y?oc=5",
       "source": "Сбербанк",
       "published": "Tue, 04 Aug 2026 07:00:00 GMT",
       "summary": "Сбер представил ИИ-решения для тренеров спортивных клубов Сбербанк"
+    },
+    {
+      "title": "Кибербезопасность в эпоху искусственного интеллекта: вызовы, этика, благополучие - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9YUEZSdURTZzVWaDdpN3Ixdnk5dDhwRnN5VUdOVnAwNkEwQ1pPUnR6QjBwQ2RjdUVLelY4N1cyNA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Thu, 12 Mar 2026 07:00:00 GMT",
+      "summary": "Кибербезопасность в эпоху искусственного интеллекта: вызовы, этика, благополучие Психологическая газета"
+    },
+    {
+      "title": "Открыт ген, связанный с выносливостью спортсменов - naukatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMFpaYy1pVVVTcHJpVkdxamxhMnpNMG9zb3l0dEVwbjM0emVzNlJUTDNQUTkwd2xCb3pHRmFjUDlsWWxSTXF6ekFCZTdaY255WUJSN3J5bmlXdzQyaHZmUlVGZXkxLUpLX0x2czJVSVJSOWFWcWh3bTZvUUw0Zkc5VQ?oc=5",
+      "source": "naukatv.ru",
+      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
+      "summary": "Открыт ген, связанный с выносливостью спортсменов naukatv.ru"
     }
   ],
   "openPublications": [
