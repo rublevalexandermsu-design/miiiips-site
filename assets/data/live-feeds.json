@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:27:41.487401+00:00",
+  "generatedAt": "2026-09-30T11:15:21.455867+00:00",
   "ticker": [
     {
       "title": "Выступления",
@@ -22,13 +22,13 @@
       "source": "Telegram"
     },
     {
-      "title": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' - Казанский федеральный университет",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX05CYU1qZ0pKYkota0w2U01EZzkzTm04VF9wYzh3ZDRyMmJycjV2VXdiSEl2RFZ2UWZlWWVudVhnZGNfUFczOG1Ic3Y3NTdaTEtlTUFxcXVEcTJHWVd3RVVZaExkTHYyVkJwSFdfeVRZOEFqZ0poc0lFN3NsanZLTUNQYw?oc=5",
-      "source": "Казанский федеральный университет"
-    },
-    {
       "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - psy.su",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
+      "source": "psy.su"
+    },
+    {
+      "title": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов - psy.su",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE96T2N1VXF0Umt4eUJieE9aYTNGc1BQd24wdUhua1djWmtaclEtOUMteXQxNEpPcXNBcXBrSEltQQ?oc=5",
       "source": "psy.su"
     },
     {
@@ -57,14 +57,14 @@
       "source": "volganet.net"
     },
     {
-      "title": "В Волгограде стартовала регистрация на конференцию молодых ученых - Городские вести» - Волгоград",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWs1SEUzeXhPREVsd3VxUVB3VmNNSHNRWE4xVktsb3dlWXRteHRUdEVIT2JpZC1wUmVMWVFsckxMQWxrQ2NNZHpLV0hURjdlR1J5d09FcnpzM0RkR3RVcVgwVkZyM191LXJSRU9LNTlodkJMa1I4WWg0eGhxZ0pqcGJEYlFVUjI4VlY3MWJfNTVFTUxhc1pIaGJqLTFJT3Q3MFJPRFdnci05TjJweVE5OTZOTWw?oc=5",
-      "source": "Городские вести» - Волгоград"
+      "title": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу - 78.ru",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUVRSHFSS185ZlFKQWVIdjZtTDh6akQ1TmRMRjlDbjNiX29RMXB1NmZac0RsdTZWTDdGSjl0dUJvUTBGUDN6ZHI4SDAzTE9OSlBOUXk1NUs4ajV6WXpZZGVCOFlnd2RleDN3a1JSS0lIX3pESlFTbjh3VVJKLV91a1Y0TU9FTHJCaXFqa0M4dGlvdlQ1U1Y5NkRDNVBjNTg1QTgyTE5R?oc=5",
+      "source": "78.ru"
     },
     {
-      "title": "В вузы Самарской области в 2026 году поступили более 12 тысяч студентов - Самарский университет",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0l2OVJKXzRzTjRzRnFwSlpyU19uTTUwSXhnaWFfRVFTQzJ4cW80UkxMWl9RRjZ5RWJyTUwzczdKSm41bU5nMzI2UGxtRGRlSmNRQ2tOZUZsS2lPOWFoN1EwcHduN2RyZHBsblFBbW4wdWhBQzNWM2F3NTFVMFBGSVlCY3ljZVZuQVZ6ZVFVRmZHRDN4clo5TWFtSDZqTm9zN2c?oc=5",
-      "source": "Самарский университет"
+      "title": "С развитием искусственного интеллекта предприятиям больше не требуется высшее образование: ускоренное обучение, междисциплинарная подготовка. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcFRzNG9SRWxBSHBxV1JNNVkxd25pajVKekJobHRiM2FjY0o3bTVjT1RVenpOTGpzd1pGZUx4eVVpbFh4eXVhNmJPNVU0eWNoQ2hrdGRaSjJ4a3BQQndyWjgtcHZnVmVpNU9odVBwcElESmtqcXc4WjI5eExEQ0JfRHV0bloyQ0tGU2ducXB0MTNpbUd0VDgxWlUwRm5KQjF3ZkhoMHZqQQ?oc=5",
+      "source": "Vietnam.vn"
     },
     {
       "title": "Что происходит с высшим образованием: тупик, кризис и крах системы - Новые Известия",
@@ -88,11 +88,18 @@
       "summary": "Социальная психология в противоречивом мире: Андреевские чтения — 2026 psy.su"
     },
     {
-      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
+      "title": "Психологическому институту нужна психологическая помощь - psy.su",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqTmFMQVN3MW12bUJ4cTNUQTlFVnRlNEFlUmZqUVZpYWJwZ2VfMUh1VE81QmZMX2Fua3RmeTQtMA?oc=5",
+      "source": "psy.su",
+      "published": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "summary": "Психологическому институту нужна психологическая помощь psy.su"
+    },
+    {
+      "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - sostav.ru",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNUtMOHNZRV9leHVFRWtRUDJIYmcwNlpZNjZQQVMyMDI0SnJ5eDFOUXhBSmxrR0o2dUpGQmIxaXVrbVVQdjN3UGNjeXJRd3gzaEE?oc=5",
-      "source": "Sostav.ru",
+      "source": "sostav.ru",
       "published": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году Sostav.ru"
+      "summary": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году sostav.ru"
     },
     {
       "title": "Топ-7 курсов повышения квалификации психологов в 2026 - Хабр",
@@ -102,27 +109,20 @@
       "summary": "Топ-7 курсов повышения квалификации психологов в 2026 Хабр"
     },
     {
-      "title": "Казнь психологии: в новых УГСН не будет психологических наук - psy.su",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
-      "source": "psy.su",
-      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "summary": "Казнь психологии: в новых УГСН не будет психологических наук psy.su"
-    },
-    {
-      "title": "Новые тренды в психологии: от социальных кризисов до экологичного потребления - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkFmR2MtOHBMazJjZ24zYXI0SmZfYzhxSVFIVTQ5T0xEMWRvRThUZVBqY1BuYnhuWDhwSHp6cXh6ZU1KdXA2TWJNSzAxTnZxbGl1QTBxX1o2RzV3djJOU3hBT0ZvQlVJNXpOdjduU29OOUFzN0M0aUpaRGs0S3N5Y1dfOHpqa2JENGZzcGNxcF93dDVUcHVjX3dxeUxwY0NuUUJWSkFNbjBrOXZT?oc=5",
+      "title": "Психологи раскрыли два механизма развития зависимости от сериалов - naukatv.ru",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPenRveW96Y3lLNEU5N1p3bnZpRjB0ODdYdTNPV204MWU1aG9HOF84blh5TGc3ZUVzbHZ2emNrOWJmbDg2RTNFekk4SkdnOWY3ak9Ha09DUUhTaDZtWTkya015dS1XLWUxcGhNUW01cC1HQnlyRVNkZ2gwaDZYTm5DSlc3YVctYjA5VDAtdG1jbURFU1gta0VmRTNGUTJMeE14eXk5eEpOel9LRkhlWk5iTVBneDg5YTJqZzlBekFlbVJBbVd3M09EZFFWM1hjSURhdm84?oc=5",
       "source": "naukatv.ru",
-      "published": "Mon, 02 Feb 2026 08:00:00 GMT",
-      "summary": "Новые тренды в психологии: от социальных кризисов до экологичного потребления naukatv.ru"
+      "published": "Sat, 30 May 2026 07:00:00 GMT",
+      "summary": "Психологи раскрыли два механизма развития зависимости от сериалов naukatv.ru"
     }
   ],
   "educationPolicy": [
     {
-      "title": "В вузы Самарской области в 2026 году поступили более 12 тысяч студентов - Самарский университет",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0l2OVJKXzRzTjRzRnFwSlpyU19uTTUwSXhnaWFfRVFTQzJ4cW80UkxMWl9RRjZ5RWJyTUwzczdKSm41bU5nMzI2UGxtRGRlSmNRQ2tOZUZsS2lPOWFoN1EwcHduN2RyZHBsblFBbW4wdWhBQzNWM2F3NTFVMFBGSVlCY3ljZVZuQVZ6ZVFVRmZHRDN4clo5TWFtSDZqTm9zN2c?oc=5",
-      "source": "Самарский университет",
-      "published": "Tue, 29 Sep 2026 10:37:29 GMT",
-      "summary": "В вузы Самарской области в 2026 году поступили более 12 тысяч студентов Самарский университет"
+      "title": "С развитием искусственного интеллекта предприятиям больше не требуется высшее образование: ускоренное обучение, междисциплинарная подготовка. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcFRzNG9SRWxBSHBxV1JNNVkxd25pajVKekJobHRiM2FjY0o3bTVjT1RVenpOTGpzd1pGZUx4eVVpbFh4eXVhNmJPNVU0eWNoQ2hrdGRaSjJ4a3BQQndyWjgtcHZnVmVpNU9odVBwcElESmtqcXc4WjI5eExEQ0JfRHV0bloyQ0tGU2ducXB0MTNpbUd0VDgxWlUwRm5KQjF3ZkhoMHZqQQ?oc=5",
+      "source": "Vietnam.vn",
+      "published": "Tue, 29 Sep 2026 23:40:07 GMT",
+      "summary": "С развитием искусственного интеллекта предприятиям больше не требуется высшее образование: ускоренное обучение, междисциплинарная подготовка. Vietnam.vn"
     },
     {
       "title": "Что происходит с высшим образованием: тупик, кризис и крах системы - Новые Известия",
@@ -132,42 +132,35 @@
       "summary": "Что происходит с высшим образованием: тупик, кризис и крах системы Новые Известия"
     },
     {
-      "title": "Минобрнауки готовит масштабные изменения в правилах приёма в вузы - Новости «Северного Города»",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV21DSmhmZmtqYlZURnBzYmNYdlZ2RjZHampMTzYxWDlmbXpZam5hRWlva210bktxVnV0eUE0YkZzUlQ5ZVF6U3ljLUxUWW84Q1dHbEFKRTNiUmFjYVA0TVFXdnV3QktLZW9acTR2cEFlZFFWam9jSHhPR0I5Vi1CS3lFVHVTc29xV1lFdUtXNGdqOFR1eWJ2dDdBV08wcC1WRG16T2JvLTcxdw?oc=5",
-      "source": "Новости «Северного Города»",
-      "published": "Tue, 29 Sep 2026 06:13:00 GMT",
-      "summary": "Минобрнауки готовит масштабные изменения в правилах приёма в вузы Новости «Северного Города»"
+      "title": "Минобрнауки готовит новые правила поступления в вузы с 2027 года - РИЦ «Югра",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUWVEZVhYdnZ6cU9nY3c4N210QWs0UVR6MzV6blpuOV9aQUlDa0V6RWNmZVlQX3Jxc3NmQmV6STY2SlBGeXljdkxmNjdaeVUxek1jcUZQNnRxUk1nOHFTcG9ycGRVNG54WVJQZV9HbGliQUJrQlZJZmoyMzAyU1NDRWlNVVhHcUthei1ReWR1ZnB2UnR5NlAtXy1uaTJ1YWJLZlhfNHJ2cFg?oc=5",
+      "source": "РИЦ «Югра",
+      "published": "Wed, 30 Sep 2026 05:55:07 GMT",
+      "summary": "Минобрнауки готовит новые правила поступления в вузы с 2027 года РИЦ «Югра"
     },
     {
-      "title": "В России собираются ужесточить правила поступления в вузы - TV Губерния",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR0FGZkdDLXBUSHVMcGJLZkdPT3NVVU4xT19qU0VaOGxUTE5yMFg5cU5BUkhOSU5UZlkxT3FPeUxOMEVlSndheFYxMXg3b0ZvcUJ1OUlCZGlfcFlNVTB4b1lFWERuSHJyTXFsUFByeFoxTXRjS0dTbnc5Z3JLS0UwcC1adUplcTBMeWdFQ2FKT25GNDRfUGRuRllDRWdBRDRUN280ag?oc=5",
-      "source": "TV Губерния",
-      "published": "Tue, 29 Sep 2026 11:10:16 GMT",
-      "summary": "В России собираются ужесточить правила поступления в вузы TV Губерния"
+      "title": "Ольга Артамонова: Учебный отпуск – не привилегия, а государственная гарантия - Онлайн Тамбов",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU0RjaWVWcXk3S0ZhbGIwWTZaNEpFN0w0UklJOVpLa0w4c3RCaHlUcTBNSm41VV9hbHhtcHM5YTN6MDgzUGJQdGhRNFlqQXlZTmo4ZlJFeklidWItYmM3Q2hFb3NwSnJxSGY3czhXQ2ZMZ2VzejlXNEl2M0NSUHNDN0pZUVFRUTN6LXNJVVM0S0F6dktxQVhkbVNXNmQtYTVQdHFMaG5GcDJXeDQzbVF4djFCbUFlREpk?oc=5",
+      "source": "Онлайн Тамбов",
+      "published": "Wed, 30 Sep 2026 07:05:15 GMT",
+      "summary": "Ольга Артамонова: Учебный отпуск – не привилегия, а государственная гарантия Онлайн Тамбов"
     },
     {
-      "title": "С развитием искусственного интеллекта предприятиям больше не требуется высшее образование: как должны измениться университеты? - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNUZRMTF2UGgwc2h3WDdxaVNseWhyVnNmYjNRRG9UWVVDX1h3ZWdWMDRHclZZZnFnUWx5OENWLThHZUhkM0xWZUtXTEF6MUVtX0htdWJPX3E5TEpxNE42NGQ3WDF0RE16d0NRbExnQlo5bjJXSkU4T0RfUEpIVXBXQ01MYnY5X05mdW5SRUxsV1ZmRW9ieUphT0ZQMHFfNmlDYm8wb29LRQ?oc=5",
-      "source": "Vietnam.vn",
-      "published": "Mon, 28 Sep 2026 23:41:03 GMT",
-      "summary": "С развитием искусственного интеллекта предприятиям больше не требуется высшее образование: как должны измениться университеты? Vietnam.vn"
+      "title": "Филиал РГСУ в Сочи прекращает работу: студентов переведут в другие вузы - Sochi24.tv",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbXY1S21IeWRLd2ZlbzRnU3Rnc3JhbUpQLTFLMEVRRDJrLW1YeFpmck51SVBkSDJIamd0SUlVMDhHUWgxb29Db3dFd0Rlbkxnei1nUWVWcmpvWkVaaF9nM1o1MGczMVltbmVDZmdqd2twT29KOG4wLVExT09jdTVEaWZPcmFxSlUtVmtHeUljVTFGbm0tS2Y2eA?oc=5",
+      "source": "Sochi24.tv",
+      "published": "Wed, 30 Sep 2026 10:03:36 GMT",
+      "summary": "Филиал РГСУ в Сочи прекращает работу: студентов переведут в другие вузы Sochi24.tv"
     },
     {
-      "title": "Почти четверть предпринимателей имеют два высших образования - PrimaMedia.ru",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FT2p0cmw5SlZVbi1ndFEtYkZHSkI3aWVmcjh2QWoyUUJVNGNhRVdQdVQ5Q1J1MDRNTjBBTUx1bG9aU1ZRWE8xcm1nMA?oc=5",
-      "source": "PrimaMedia.ru",
-      "published": "Mon, 28 Sep 2026 01:09:28 GMT",
-      "summary": "Почти четверть предпринимателей имеют два высших образования PrimaMedia.ru"
+      "title": "Министр Фальков заявил об интересе российских абитуриентов к новой модели образования - Европейско-Азиатские Новости",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX004SE5LcUJCcThMRTlaNHhkLXZDQ20tcWNtV2RJV2paYVIxcGZNRXQ1QXpLdzZVeGtJYlpPRGF5MXlScXVPNkZZaXZ4MHNxRm1QcjlJZWkyS1hqd3ZRMVRqbUVyZ0FZRDJpMXl2QUFMc2NsVTl5d1lGX0VFYVhlMFZVbjFwblp1OGtuRlczV0t4UXBtTmJFaGRmRzJRblVfbWNzVlYxWXVZWXNreHNyWHJoSFZQQlE4cEdjM3ByR3RpdkhTcVE?oc=5",
+      "source": "Европейско-Азиатские Новости",
+      "published": "Wed, 30 Sep 2026 03:36:23 GMT",
+      "summary": "Министр Фальков заявил об интересе российских абитуриентов к новой модели образования Европейско-Азиатские Новости"
     }
   ],
   "conferenceUpdates": [
-    {
-      "title": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' - Казанский федеральный университет",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX05CYU1qZ0pKYkota0w2U01EZzkzTm04VF9wYzh3ZDRyMmJycjV2VXdiSEl2RFZ2UWZlWWVudVhnZGNfUFczOG1Ic3Y3NTdaTEtlTUFxcXVEcTJHWVd3RVVZaExkTHYyVkJwSFdfeVRZOEFqZ0poc0lFN3NsanZLTUNQYw?oc=5",
-      "source": "Казанский федеральный университет",
-      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "summary": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' Казанский федеральный университет"
-    },
     {
       "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - psy.su",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
@@ -190,6 +183,13 @@
       "summary": "Эмоционально-личностные детерминанты субъективного благополучия военнослужащих, участвовавших в боевых действиях psy.su"
     },
     {
+      "title": "Чем удивлял 15-й Саммит психологов? Рефлексия и действия - psy.su",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9uM3BkaXVZQzJLcHdKM3o4Q3JhNE9ZRHN0S1p0bEJEeGVXckRMZ04td18xMFBtbkVhb1Q1WFlR?oc=5",
+      "source": "psy.su",
+      "published": "Fri, 11 Jun 2021 07:00:00 GMT",
+      "summary": "Чем удивлял 15-й Саммит психологов? Рефлексия и действия psy.su"
+    },
+    {
       "title": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы - psy.su",
       "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBTeDJDV2hqbFpMcTZQLWhCUjdtSmMtb19lQjJ4TDdUWlVPQk9RUmFHYkdIeUwyNU1VbFU3MmV3?oc=5",
       "source": "psy.su",
@@ -197,11 +197,11 @@
       "summary": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы psy.su"
     },
     {
-      "title": "Чем удивлял 15-й Саммит психологов? Рефлексия и действия - psy.su",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9uM3BkaXVZQzJLcHdKM3o4Q3JhNE9ZRHN0S1p0bEJEeGVXckRMZ04td18xMFBtbkVhb1Q1WFlR?oc=5",
+      "title": "Структура интеллекта детей с РАС и детей с легкой степенью умственной отсталости - psy.su",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE44c2NseGhZRVBEQ2J3aDZsLXN3eXJWYzVCUWZPR1E1dE5jdlBrdW9EblFDazVITFR1UWtXUWp3?oc=5",
       "source": "psy.su",
-      "published": "Fri, 11 Jun 2021 07:00:00 GMT",
-      "summary": "Чем удивлял 15-й Саммит психологов? Рефлексия и действия psy.su"
+      "published": "Wed, 19 Oct 2022 07:00:00 GMT",
+      "summary": "Структура интеллекта детей с РАС и детей с легкой степенью умственной отсталости psy.su"
     }
   ],
   "sportAiUpdates": [
@@ -213,18 +213,18 @@
       "summary": "Регистрация на конференцию молодых ученых открылась в Волгоградской области volganet.net"
     },
     {
-      "title": "В Волгограде стартовала регистрация на конференцию молодых ученых - Городские вести» - Волгоград",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWs1SEUzeXhPREVsd3VxUVB3VmNNSHNRWE4xVktsb3dlWXRteHRUdEVIT2JpZC1wUmVMWVFsckxMQWxrQ2NNZHpLV0hURjdlR1J5d09FcnpzM0RkR3RVcVgwVkZyM191LXJSRU9LNTlodkJMa1I4WWg0eGhxZ0pqcGJEYlFVUjI4VlY3MWJfNTVFTUxhc1pIaGJqLTFJT3Q3MFJPRFdnci05TjJweVE5OTZOTWw?oc=5",
-      "source": "Городские вести» - Волгоград",
-      "published": "Mon, 28 Sep 2026 16:06:00 GMT",
-      "summary": "В Волгограде стартовала регистрация на конференцию молодых ученых Городские вести» - Волгоград"
-    },
-    {
       "title": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу - 78.ru",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUVRSHFSS185ZlFKQWVIdjZtTDh6akQ1TmRMRjlDbjNiX29RMXB1NmZac0RsdTZWTDdGSjl0dUJvUTBGUDN6ZHI4SDAzTE9OSlBOUXk1NUs4ajV6WXpZZGVCOFlnd2RleDN3a1JSS0lIX3pESlFTbjh3VVJKLV91a1Y0TU9FTHJCaXFqa0M4dGlvdlQ1U1Y5NkRDNVBjNTg1QTgyTE5R?oc=5",
       "source": "78.ru",
       "published": "Mon, 07 Sep 2026 07:00:00 GMT",
       "summary": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу 78.ru"
+    },
+    {
+      "title": "Казахский национальный университет спорта и Университет Стерлинга рассматривают новые модели партнерства - Білімді Ел",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16aVpDUjVtX3dHYW43SlFnUzE3SVNiMGdaMjVvM0xHMXBQSmxjbklpVDFwTmQxRzRoZndheThJT0pfdzQ4czVj?oc=5",
+      "source": "Білімді Ел",
+      "published": "Thu, 24 Sep 2026 04:12:27 GMT",
+      "summary": "Казахский национальный университет спорта и Университет Стерлинга рассматривают новые модели партнерства Білімді Ел"
     },
     {
       "title": "Сбер представил ИИ-решения для тренеров спортивных клубов - Сбербанк",
@@ -234,18 +234,18 @@
       "summary": "Сбер представил ИИ-решения для тренеров спортивных клубов Сбербанк"
     },
     {
-      "title": "Кибербезопасность в эпоху искусственного интеллекта: вызовы, этика, благополучие - psy.su",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9YUEZSdURTZzVWaDdpN3Ixdnk5dDhwRnN5VUdOVnAwNkEwQ1pPUnR6QjBwQ2RjdUVLelY4N1cyNA?oc=5",
+      "title": "Основания для конструирования понятия «психологическая цена цифровых взаимодействий» (теоретический анализ) - psy.su",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5WXzdnUnphcjV6dDM2UmNONmI3TWVwT0dKamRVU0NkMmg2aTQ3b18teUwyT1hWS1UtOTZTTGMyTQ?oc=5",
       "source": "psy.su",
-      "published": "Thu, 12 Mar 2026 07:00:00 GMT",
-      "summary": "Кибербезопасность в эпоху искусственного интеллекта: вызовы, этика, благополучие psy.su"
+      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "summary": "Основания для конструирования понятия «психологическая цена цифровых взаимодействий» (теоретический анализ) psy.su"
     },
     {
-      "title": "Открыт ген, связанный с выносливостью спортсменов - naukatv.ru",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMFpaYy1pVVVTcHJpVkdxamxhMnpNMG9zb3l0dEVwbjM0emVzNlJUTDNQUTkwd2xCb3pHRmFjUDlsWWxSTXF6ekFCZTdaY255WUJSN3J5bmlXdzQyaHZmUlVGZXkxLUpLX0x2czJVSVJSOWFWcWh3bTZvUUw0Zkc5VQ?oc=5",
-      "source": "naukatv.ru",
-      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
-      "summary": "Открыт ген, связанный с выносливостью спортсменов naukatv.ru"
+      "title": "Delfi RUS - Delfi RUS",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOW91U25EeW95WGVpMWxVWFNNam1TaEc1TVhYNWE1bmV6aDJSVE5EVDhDQW4tTGNabVJDbkRRcDNNR2UzWnotaksxV1ZSQ2FnOEhCaXc2N0hSX2ltLVo5YWZLYWw3OW5GT3lrMWdid1RHWkFKdElET2QteS1yWDdpXzNPUkVKTWJ4Q0E0OWFsdzRGRTZOLVZsSzZNT0VmWFRCTGVDN3dzc1hpeE5OY3BIQ1Uza3YzS09mQ3FWVURxZjVKbDJILVYxVjFuaHN0ZnZCTV9ZRGJ4SEszTFVfQ1dQWEJnNDFwbG1UVXc?oc=5",
+      "source": "Delfi RUS",
+      "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "summary": "Delfi RUS Delfi RUS"
     }
   ],
   "openPublications": [
