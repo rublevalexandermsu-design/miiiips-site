@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:23:24.197254+00:00",
+  "generatedAt": "2026-10-15T10:08:46.960779+00:00",
   "ticker": [
     {
       "title": "Выступления",
@@ -42,14 +42,14 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
+      "title": "«Психология помогла понять, что каждый человек индивидуален» - Томский государственный университет",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0E0cUN2OXVjX2dWOHFxUG43cUt2eHZPRkR3NkpFT29xVGdqWjVhMW5YUi12WmJIc0FEU2J3eHlVUXdzQW00TUxHX2dkSElueE15QVc0a0Q2YXBBUGRrV3ZGd3FJNnpGSmFESmpweGRkclpmUV9qTGhfN19HbFBGbVk3Zmtpbkcwa0s4Zzd5Wkk0Zw?oc=5",
+      "source": "Томский государственный университет"
+    },
+    {
       "title": "Значимость эмоционального интеллекта в эпоху «цифрового разума» - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFAwbmVkYmtmc3J0UV9NdzVkcTFsS2JTSHJ6LWNOZEozQXZYS21tdkRWTHVxNnByOEY3NHNIS093VQ?oc=5",
       "source": "Психологическая газета"
-    },
-    {
-      "title": "Высшая медико-биологическая школа и НОЦ «Психология» приглашают на курсы профессиональной переподготовки «Основы психологии» - South Ural State University",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUlLVU9KY2JaTk1ZMGJiYVpfNEVKcmF1bHBHS3UwbXZiTUxsb0h1YmNWdGV5bGhiTngzb29IV0RLYzI0VExfZUZtQWpOQ04tLUFDZUhueTBwU1VkazJzLVNHZFN1Y2hSZ29CVXJJTWtsNEcxc1pPNUNvcnRheUF3SXpjR2ROWlZRNHNBMjY4c0t0U3YyQm5talR5SnkySnpYNE81Z0VJMlpBVl9sZjRWSWg2WUJRZm9k?oc=5",
-      "source": "South Ural State University"
     },
     {
       "title": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований - Донской государственный технический университет",
@@ -57,22 +57,29 @@
       "source": "Донской государственный технический университет"
     },
     {
-      "title": "Больше, чем спорт: как Нурасыл Медеу создает новые возможности для молодежи Казахстана - NUR.KZ",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTc2OUJ0cm54QWNwaGhWWGZ5YnFrRTZ3RnhKOERWVDZhNXVXRUlnSW9sZ1FlbUtMOUhBaFF3WE1zODNZNDZkVXhDOWUyTlNhMUppZVpFNDQ5TXM0SFVsQ2FMdE9OdFc4SWpPY19jVUp1dkZnZEdHWWFSMWlPZFhPV3g2TGhQSzR5TnpTajdkVXU3U0dZUkI3MFJENG12UGRQbjhGM0tjTk5uN1UycXRwU3Z2MFZXOWRYS2dKOXpMY3o2R0RZNjNBcGs1MXQtTTFS?oc=5",
-      "source": "NUR.KZ"
+      "title": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме - Омск Здесь",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5amcyZUZ0VjVGUXZVV1NyUVBFNDJWZi1xUklrSTZCb243LUMxaVM2U25vbDYtaVdOVllYMWo5aHhRa0JwMGk1TURmaU1CUm_SAVRBVV95cUxQTVdrUnBRMlV0VnhaLUtud1JYUElGTzdLdlYzbHFjNm90UWFBZUxDMWp3aGtzYjc2Q0RpWHIxQl9iU1ljRlFHZ1BSM0RiZkhPQ3hsdjA?oc=5",
+      "source": "Омск Здесь"
     },
     {
-      "title": "В России меняются правила приема в вузы для одной категории студентов - Пруфы",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0VuZFV4WUxNaUlDS01mRU1xal9PVjJObF9HdjNWcHdjNEtZRWRaNzctX205UnNOVDN0TGI2eU4wNlNaV0F5aXZtNk1aa1VFemFNSG5id1BBOXBSMlZ0OFVyMU5kdEJ1ZDFvbGNWOUtVM21vX1lUS2dYZXJnRzVGSnc2dVlOemJiZnlhSnR2R3hFT0tNQjhrYzhYamUybkdfaWNoM1UwcU1EZkp4WFhBMlJXTDQ0Vnll0gHAAUFVX3lxTFBkLWhlR1NXNUpBbHBSdERFOHh0Z241eGV6ZFZFWDRIZUEzOWg1ZDM0WHd6dGFFcDNYa01lR040VFBJandqcGgzTi1XSEZRN3NYNnY4anFXa3llMk9VYWVVVGpHTVg1RUlqeExQTFlIbURna25hcVZqTWpTaWR1bWZpZXJpTmRNbm0xU3MzNGhmb2ltMnFqaXRyTTRDZHlmdDdRM21iRmg3MWp5QThTeXZSX0xVdTFLZTdHTEpWQkpRSQ?oc=5",
-      "source": "Пруфы"
+      "title": "Бурятия – центр притяжения молодежи - Infpol.ru",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14R3VWRlF5TUpyVnVVVGszMlhiRHd5V0pqSGxuUzBVeEVIeVd3bC1DMjVUSF85SDBSSlVueWVNXzZKTWtrYTNoY1FxNmRac2NudHUwVjlHc3BpS1NPZnpKOEI3LUFINUpDem1XbFlWZUIyaEVaV2NILTZn?oc=5",
+      "source": "Infpol.ru"
     },
     {
-      "title": "В Самарской области обсудили перспективы сотрудничества с Узбекистаном в сфере науки и высшего образования - Волга Ньюс",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qZVBseDlyemhUMFpfVG1DakJkWG45VWl4SW81SlpobURqYTdUM3ZZSFg5cy1RM0N5LTFZYTNLcGM0M3JGN0dwaFBQcEZtUW8?oc=5",
-      "source": "Волга Ньюс"
+      "title": "Диплом есть, опыта нет: аграрные вузы перестраивают подготовку кадров под запрос бизнеса - Агентство Бизнес Информации - Черноземье",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1tanRLMWxaa19HZ1BvWGdQel9KRkNjZUZCd3BRUGJRZEVBdldCS0pvTXVFT0RzUXBIY0RmTEJZMTU0QjR0OE5CM1N3?oc=5",
+      "source": "Агентство Бизнес Информации - Черноземье"
     }
   ],
   "psychologyTrends": [
+    {
+      "title": "«Психология помогла понять, что каждый человек индивидуален» - Томский государственный университет",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0E0cUN2OXVjX2dWOHFxUG43cUt2eHZPRkR3NkpFT29xVGdqWjVhMW5YUi12WmJIc0FEU2J3eHlVUXdzQW00TUxHX2dkSElueE15QVc0a0Q2YXBBUGRrV3ZGd3FJNnpGSmFESmpweGRkclpmUV9qTGhfN19HbFBGbVk3Zmtpbkcwa0s4Zzd5Wkk0Zw?oc=5",
+      "source": "Томский государственный университет",
+      "published": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "summary": "«Психология помогла понять, что каждый человек индивидуален» Томский государственный университет"
+    },
     {
       "title": "Значимость эмоционального интеллекта в эпоху «цифрового разума» - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFAwbmVkYmtmc3J0UV9NdzVkcTFsS2JTSHJ6LWNOZEozQXZYS21tdkRWTHVxNnByOEY3NHNIS093VQ?oc=5",
@@ -107,57 +114,50 @@
       "source": "Психологическая газета",
       "published": "Sat, 18 Jul 2026 07:00:00 GMT",
       "summary": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате Психологическая газета"
-    },
-    {
-      "title": "Психологи раскрыли два механизма развития зависимости от сериалов - Телеканал «Наука",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPenRveW96Y3lLNEU5N1p3bnZpRjB0ODdYdTNPV204MWU1aG9HOF84blh5TGc3ZUVzbHZ2emNrOWJmbDg2RTNFekk4SkdnOWY3ak9Ha09DUUhTaDZtWTkya015dS1XLWUxcGhNUW01cC1HQnlyRVNkZ2gwaDZYTm5DSlc3YVctYjA5VDAtdG1jbURFU1gta0VmRTNGUTJMeE14eXk5eEpOel9LRkhlWk5iTVBneDg5YTJqZzlBekFlbVJBbVd3M09EZFFWM1hjSURhdm84?oc=5",
-      "source": "Телеканал «Наука",
-      "published": "Sat, 30 May 2026 07:00:00 GMT",
-      "summary": "Психологи раскрыли два механизма развития зависимости от сериалов Телеканал «Наука"
     }
   ],
   "educationPolicy": [
     {
-      "title": "В России меняются правила приема в вузы для одной категории студентов - Пруфы",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0VuZFV4WUxNaUlDS01mRU1xal9PVjJObF9HdjNWcHdjNEtZRWRaNzctX205UnNOVDN0TGI2eU4wNlNaV0F5aXZtNk1aa1VFemFNSG5id1BBOXBSMlZ0OFVyMU5kdEJ1ZDFvbGNWOUtVM21vX1lUS2dYZXJnRzVGSnc2dVlOemJiZnlhSnR2R3hFT0tNQjhrYzhYamUybkdfaWNoM1UwcU1EZkp4WFhBMlJXTDQ0Vnll0gHAAUFVX3lxTFBkLWhlR1NXNUpBbHBSdERFOHh0Z241eGV6ZFZFWDRIZUEzOWg1ZDM0WHd6dGFFcDNYa01lR040VFBJandqcGgzTi1XSEZRN3NYNnY4anFXa3llMk9VYWVVVGpHTVg1RUlqeExQTFlIbURna25hcVZqTWpTaWR1bWZpZXJpTmRNbm0xU3MzNGhmb2ltMnFqaXRyTTRDZHlmdDdRM21iRmg3MWp5QThTeXZSX0xVdTFLZTdHTEpWQkpRSQ?oc=5",
-      "source": "Пруфы",
-      "published": "Wed, 14 Oct 2026 04:19:00 GMT",
-      "summary": "В России меняются правила приема в вузы для одной категории студентов Пруфы"
+      "title": "Бурятия – центр притяжения молодежи - Infpol.ru",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14R3VWRlF5TUpyVnVVVGszMlhiRHd5V0pqSGxuUzBVeEVIeVd3bC1DMjVUSF85SDBSSlVueWVNXzZKTWtrYTNoY1FxNmRac2NudHUwVjlHc3BpS1NPZnpKOEI3LUFINUpDem1XbFlWZUIyaEVaV2NILTZn?oc=5",
+      "source": "Infpol.ru",
+      "published": "Thu, 15 Oct 2026 08:48:13 GMT",
+      "summary": "Бурятия – центр притяжения молодежи Infpol.ru"
     },
     {
-      "title": "В Самарской области обсудили перспективы сотрудничества с Узбекистаном в сфере науки и высшего образования - Волга Ньюс",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qZVBseDlyemhUMFpfVG1DakJkWG45VWl4SW81SlpobURqYTdUM3ZZSFg5cy1RM0N5LTFZYTNLcGM0M3JGN0dwaFBQcEZtUW8?oc=5",
-      "source": "Волга Ньюс",
-      "published": "Wed, 14 Oct 2026 08:14:00 GMT",
-      "summary": "В Самарской области обсудили перспективы сотрудничества с Узбекистаном в сфере науки и высшего образования Волга Ньюс"
+      "title": "Диплом есть, опыта нет: аграрные вузы перестраивают подготовку кадров под запрос бизнеса - Агентство Бизнес Информации - Черноземье",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1tanRLMWxaa19HZ1BvWGdQel9KRkNjZUZCd3BRUGJRZEVBdldCS0pvTXVFT0RzUXBIY0RmTEJZMTU0QjR0OE5CM1N3?oc=5",
+      "source": "Агентство Бизнес Информации - Черноземье",
+      "published": "Thu, 15 Oct 2026 08:37:22 GMT",
+      "summary": "Диплом есть, опыта нет: аграрные вузы перестраивают подготовку кадров под запрос бизнеса Агентство Бизнес Информации - Черноземье"
     },
     {
-      "title": "Сроки обучения в вузах будут зависеть от специальности: от четырех до шести лет - Первое сентября",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRTjdvdFhYVzd2c0Z6WXlyVXhjaEF5d0VxTTEyZmd4cFVRZ3hzZ3c4X0QzcnRsQldfRWIzUzFHdWN0SHBJb0J6SUpRWVk1TjQ?oc=5",
-      "source": "Первое сентября",
-      "published": "Sun, 11 Oct 2026 12:02:57 GMT",
-      "summary": "Сроки обучения в вузах будут зависеть от специальности: от четырех до шести лет Первое сентября"
+      "title": "Платный приём в вузы хотят ужесточить - EAOMedia",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55TTlwYlNheGpTSkRFRGdtTkI5MjRRSVpjcjRUMVBMdXBIM21RdHpXS1JJRE5EMkZkSE1CeHMwRkVadV9nUFFTcA?oc=5",
+      "source": "EAOMedia",
+      "published": "Thu, 15 Oct 2026 03:00:13 GMT",
+      "summary": "Платный приём в вузы хотят ужесточить EAOMedia"
     },
     {
-      "title": "Отчисленных планируют лишить права поступления в тот же вуз в течение 5 лет - ГАРАНТ",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB3RjI5djRhS2dReWp4THVSUXJkbHZsejNYUi1LR0oxZlBZYTMxNFBlMlJ1TmJ2WkJFUzFJZGJ6TWFJNmF6RXF0UnJpWQ?oc=5",
-      "source": "ГАРАНТ",
-      "published": "Tue, 13 Oct 2026 10:51:00 GMT",
-      "summary": "Отчисленных планируют лишить права поступления в тот же вуз в течение 5 лет ГАРАНТ"
-    },
-    {
-      "title": "Минобрнауки предлагает ужесточить правила повторного поступления в вузы - Росбалт",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFVudnpqQXlidVVOT2ZYMUo2WXlxUWtqLWRLUVhnREY2TWhSNUxRcHYzRzY2bEl2ZWU3SUM5bzhDVEVRRks0RUJuYnJJNm1MSmRxM1RsRUt3UE5kNkhJMExwaUcxOU5xUDlJWW05d2xTZXpoalRJTVlvZVM3THR5VFBQN1hUMHpla0kyMzMwTEJYWWx4amxpenZyZ0NLdTVWRExEeDFkOHZHZFJDTEhYVldTQWFUNWF5c1gtaQ?oc=5",
-      "source": "Росбалт",
-      "published": "Wed, 14 Oct 2026 00:11:47 GMT",
-      "summary": "Минобрнауки предлагает ужесточить правила повторного поступления в вузы Росбалт"
-    },
-    {
-      "title": "Социальный фильтр в Португалии: студенты требуют пересмотра критериев поступления в вузы - Правда.Ру",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQU9NTU5TUTZwejdQMURreGU1VkNpUlNFY3FIdXZGZ3drOGduN1g2ak5QMnUxQ0FfeF9Na1FRNDF2VldDN1ZhOUdWTDRLSEw4RE9CNzluRVNoajFOS1oyMS1YbFJ2MENRVFN0aW50ekRtTnU4LW5lWGVaLTlpRjFyZUNEOEtmUQ?oc=5",
+      "title": "Конец \"виртуальным студентам\": вузы могут обязать абитуриентов оплачивать семестр до начала учёбы - Правда.Ру",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WNkxnN09mdEcxaDZEZV82M1NNRGNIRmgzZjF1Y1h1aXVnRFJYeC1KemR3OWlILThjRjVQYmRGV2REN2ZpOGtwVHZlT3hVOHpZVk9tYzQ1dDRIaDhjcjNIX1puczNtcEpLRlM5Zko4NktPUndiVGZKVkJudHBFQQ?oc=5",
       "source": "Правда.Ру",
-      "published": "Tue, 13 Oct 2026 18:21:58 GMT",
-      "summary": "Социальный фильтр в Португалии: студенты требуют пересмотра критериев поступления в вузы Правда.Ру"
+      "published": "Thu, 15 Oct 2026 05:49:00 GMT",
+      "summary": "Конец \"виртуальным студентам\": вузы могут обязать абитуриентов оплачивать семестр до начала учёбы Правда.Ру"
+    },
+    {
+      "title": "Матвиенко предложила пересмотреть правила поступления в вузы для олимпиадников - Вечерний Санкт-Петербург",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlEzSk84VXFXcldUMGRPcjJKa3E3MmM0NDB2aW1sdmhlMTBLWGV3WmhVV1NsQTVmaGNhOU13OWM0ajV4UEFveVFqR3NMVk9QdU5PMlNJVkJuOGdWQVdHTTYyUjJ5dHJ6V2VGTk5oTGFYYXRkeWEwQThTY0dNMFJXUFI5Sy1PSEtxckNHUDMxZ05GTWp0ZEI3LW1Pa1MxdlpadWVNZURYLUQzVmdkNjc2dnNlQjdjZw?oc=5",
+      "source": "Вечерний Санкт-Петербург",
+      "published": "Thu, 15 Oct 2026 08:39:30 GMT",
+      "summary": "Матвиенко предложила пересмотреть правила поступления в вузы для олимпиадников Вечерний Санкт-Петербург"
+    },
+    {
+      "title": "Модули по ИИ появятся во всех программах высшего образования с 2027 года - RB.ru",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOHZPd3FlMHppakhMZjFwdTZSc2pHUTJhZF9ZdUtQdGdqVXdMOHNpMHlLQWZIRnN4NnUwVlM4a295WFdGNklWNkk5S1hwTEUwc3RrRjFKaHdVY3NsMUhvUkR4UURmbm9FZi03VWtoYnpTTDNPNGR3NUNFXy1ZbzRyUlhHejAtZHR0VTJIdFcydG5aOVJXZkdQejgzek9OZktYWG44ZWhQTkJPMEdaMEpxdGlyWTlVMDVfN1JweTdrX05RaW9VRVdST0FjTQ?oc=5",
+      "source": "RB.ru",
+      "published": "Wed, 14 Oct 2026 17:20:00 GMT",
+      "summary": "Модули по ИИ появятся во всех программах высшего образования с 2027 года RB.ru"
     }
   ],
   "conferenceUpdates": [
@@ -213,13 +213,6 @@
       "summary": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований Донской государственный технический университет"
     },
     {
-      "title": "Больше, чем спорт: как Нурасыл Медеу создает новые возможности для молодежи Казахстана - NUR.KZ",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTc2OUJ0cm54QWNwaGhWWGZ5YnFrRTZ3RnhKOERWVDZhNXVXRUlnSW9sZ1FlbUtMOUhBaFF3WE1zODNZNDZkVXhDOWUyTlNhMUppZVpFNDQ5TXM0SFVsQ2FMdE9OdFc4SWpPY19jVUp1dkZnZEdHWWFSMWlPZFhPV3g2TGhQSzR5TnpTajdkVXU3U0dZUkI3MFJENG12UGRQbjhGM0tjTk5uN1UycXRwU3Z2MFZXOWRYS2dKOXpMY3o2R0RZNjNBcGs1MXQtTTFS?oc=5",
-      "source": "NUR.KZ",
-      "published": "Sat, 10 Oct 2026 08:01:00 GMT",
-      "summary": "Больше, чем спорт: как Нурасыл Медеу создает новые возможности для молодежи Казахстана NUR.KZ"
-    },
-    {
       "title": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме - Омск Здесь",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5amcyZUZ0VjVGUXZVV1NyUVBFNDJWZi1xUklrSTZCb243LUMxaVM2U25vbDYtaVdOVllYMWo5aHhRa0JwMGk1TURmaU1CUm_SAVRBVV95cUxQTVdrUnBRMlV0VnhaLUtud1JYUElGTzdLdlYzbHFjNm90UWFBZUxDMWp3aGtzYjc2Q0RpWHIxQl9iU1ljRlFHZ1BSM0RiZkhPQ3hsdjA?oc=5",
       "source": "Омск Здесь",
@@ -246,6 +239,13 @@
       "source": "Психологическая газета",
       "published": "Fri, 24 Apr 2026 07:00:00 GMT",
       "summary": "Основания для конструирования понятия «психологическая цена цифровых взаимодействий» (теоретический анализ) Психологическая газета"
+    },
+    {
+      "title": "Ученые рассказали, как правильно внедрять ИИ - Телеканал «Наука",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbHNPa1NaNlBtUWhOdjRYekNfU0RSY3U4SVdLemtUa04yR2FDZllkNUtneWlHeHlJNjdmWTUxdk9GS25TTEU3bUdscTVaemFYaDIwSTNTY2NZVVRMQWo3T3pfcXpuREhlVVAzV3k2V0JCSGZsLVJkOXdsVHpTOUdIUC01c2Y0ejdtV0t1ZnBsYUw4Q3pldDNKMExMWGFmT1Ruc2VIUlAwSmE1N0NkRHd5ZkZGcjR3Y2xJc1RkRDlBQXNRYzFyaU5pdWItVnM?oc=5",
+      "source": "Телеканал «Наука",
+      "published": "Fri, 13 Mar 2026 07:00:00 GMT",
+      "summary": "Ученые рассказали, как правильно внедрять ИИ Телеканал «Наука"
     }
   ],
   "openPublications": [
