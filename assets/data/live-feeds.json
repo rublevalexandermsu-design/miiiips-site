@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-10-19T11:00:29.932495+00:00",
+  "generatedAt": "2026-10-20T10:14:15.908114+00:00",
   "ticker": [
-    {
-      "title": "Выступления",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
-    {
-      "title": "Психолог Татьяна Мунн",
-      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
     {
       "title": "🧠 Как понять подростка и сохранить с ним близость? Приглашаю родителей и бабушек на лекцию «Психология подростка: как понять своего ребёнка и сохранить близость». 👨‍👩‍👧‍👦 Обсудим, ",
       "url": "https://t.me/moonn_official/974",
@@ -42,14 +32,14 @@
       "source": "Journal of Client-Centered Nursing Care"
     },
     {
-      "title": "Значимость эмоционального интеллекта в эпоху «цифрового разума» - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFAwbmVkYmtmc3J0UV9NdzVkcTFsS2JTSHJ6LWNOZEozQXZYS21tdkRWTHVxNnByOEY3NHNIS093VQ?oc=5",
-      "source": "Психологическая газета"
-    },
-    {
       "title": "«Психология помогла понять, что каждый человек индивидуален» - Томский государственный университет",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0E0cUN2OXVjX2dWOHFxUG43cUt2eHZPRkR3NkpFT29xVGdqWjVhMW5YUi12WmJIc0FEU2J3eHlVUXdzQW00TUxHX2dkSElueE15QVc0a0Q2YXBBUGRrV3ZGd3FJNnpGSmFESmpweGRkclpmUV9qTGhfN19HbFBGbVk3Zmtpbkcwa0s4Zzd5Wkk0Zw?oc=5",
       "source": "Томский государственный университет"
+    },
+    {
+      "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBscW9FNTlUTDVfbW1YbmJFX29TQzNOTTBfeGpLWlBTQW13RWZtSlpuN3JTcWxJQ2p4amVqelUwMA?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований - Донской государственный технический университет",
@@ -62,24 +52,17 @@
       "source": "Атомная энергия 2.0"
     },
     {
-      "title": "Вузы теряют деньги, а студенты — места. Первые последствия конкурса на платный прием - ФОНТАНКА.ру",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xaUlycnZ6dnU2VVllZTFFcnZMQ1RxTHhDOXhRekJaMmV6cTZuYmE0bHZuMUNPWlNqYXZWdGFRSTdOd09EYlhRT1Q3Rmg3ZTdlRTREdVFYWQ?oc=5",
-      "source": "ФОНТАНКА.ру"
+      "title": "В Саратове до конца года будет создано дополнительно 3175 новых ученических мест - Saratov24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbzVGWUkwdXlHenlBc0l6ZE5feEpTZEt0cHhoeGZJYVFYN21GWmd5NGVwX09LaEtIWUY4QlphQXdRVHNmdml0ZVpUUWJRazNEbEc1NWFGbWVjdEpfcTVuQXlHZ0o5NVBrTGs3R00tZ1B1UlBmU09wekNsNnB1OVFGaXp1d0FaZjRIa0FBY0VnZjFzSDg3NTJVZENOZUJWNExNX1RZWFg3SU01LTgtTjRLWNIBtgFBVV95cUxPb2ZYbHNTbm10bFI5ZExoUlpzMXdXQy02Wkx2SzZoQ2hFQVo3dDEyWk84NFNydFFqV3RBeUNvRXByYXl6WW1HODhwMkZmeGROY1duMzJRRUNsYnRvUTY3U2w0RXhCMllWVnR5VDVNUDl3VFYwUDhtWjdELUF3Vk90WS1Jck9fSTVVQ21vRTJHQTdOSml5N0U5M2FjeGU1LWI4SDA3aWRJWTZsZHk0Ym5zbUNyZkVFQQ?oc=5",
+      "source": "Saratov24"
     },
     {
-      "title": "Назван самый востребованный вид допобразования при найме в Псковской области - ПЛН",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLMW1nUWVPbkZzRzVkTlB0ZmU1ZVZJV215a095N0JnRWc1OEt5OU45SUFrRDdOTkIyMkFiZlk4Y0hJUGF6T3l6N29YYXlZQTFQOGc?oc=5",
-      "source": "ПЛН"
+      "title": "Учить. Помогать. Развивать. - Клопс - новости Калининград",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDdlb1BJTksxQzE5T3ZhR3RIYnMzMWhGR0NKd3RHRnAxTGx3WWtSMWMxY1ppV3VhZkNWQ1ZObzczZE43cHBZT1Y0NTMxLUY5Rmg5dXg2QnJyZ2RaUUJlMGRrUnNzZFkzX0JYc0E4d2VPbFU5b2pwRmVxRXV6TmFVOWJB?oc=5",
+      "source": "Клопс - новости Калининград"
     }
   ],
   "psychologyTrends": [
-    {
-      "title": "Значимость эмоционального интеллекта в эпоху «цифрового разума» - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFAwbmVkYmtmc3J0UV9NdzVkcTFsS2JTSHJ6LWNOZEozQXZYS21tdkRWTHVxNnByOEY3NHNIS093VQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Sun, 12 Jul 2026 07:00:00 GMT",
-      "summary": "Значимость эмоционального интеллекта в эпоху «цифрового разума» Психологическая газета"
-    },
     {
       "title": "«Психология помогла понять, что каждый человек индивидуален» - Томский государственный университет",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0E0cUN2OXVjX2dWOHFxUG43cUt2eHZPRkR3NkpFT29xVGdqWjVhMW5YUi12WmJIc0FEU2J3eHlVUXdzQW00TUxHX2dkSElueE15QVc0a0Q2YXBBUGRrV3ZGd3FJNnpGSmFESmpweGRkclpmUV9qTGhfN19HbFBGbVk3Zmtpbkcwa0s4Zzd5Wkk0Zw?oc=5",
@@ -88,11 +71,18 @@
       "summary": "«Психология помогла понять, что каждый человек индивидуален» Томский государственный университет"
     },
     {
-      "title": "Высшая медико-биологическая школа и НОЦ «Психология» приглашают на курсы профессиональной переподготовки «Основы психологии» - South Ural State University",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUlLVU9KY2JaTk1ZMGJiYVpfNEVKcmF1bHBHS3UwbXZiTUxsb0h1YmNWdGV5bGhiTngzb29IV0RLYzI0VExfZUZtQWpOQ04tLUFDZUhueTBwU1VkazJzLVNHZFN1Y2hSZ29CVXJJTWtsNEcxc1pPNUNvcnRheUF3SXpjR2ROWlZRNHNBMjY4c0t0U3YyQm5talR5SnkySnpYNE81Z0VJMlpBVl9sZjRWSWg2WUJRZm9k?oc=5",
+      "title": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBscW9FNTlUTDVfbW1YbmJFX29TQzNOTTBfeGpLWlBTQW13RWZtSlpuN3JTcWxJQ2p4amVqelUwMA?oc=5",
+      "source": "Психологическая газета",
+      "published": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "summary": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате Психологическая газета"
+    },
+    {
+      "title": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» - South Ural State University",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcVBXc3VINW1IbWthQnFMbmdYSGxfRzNHd0Zlalh0cXhxUFdGN20wXzFFZklmLVoyVWExWEhONUhnR2J5M2wxbWpLTGVPY2RNQ011NEpGaEtTWkZsMGx5X0p5OG5CVURoNUtjTFZvNXBEWkJnanUySXpjMnVZUVNnVmtPcDVCZjVrN1N5RmRCNnRXWkVyUll5WTJvbjdMQlRlN2pZS00wa3l0UEl6YjdBVA?oc=5",
       "source": "South Ural State University",
-      "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-      "summary": "Высшая медико-биологическая школа и НОЦ «Психология» приглашают на курсы профессиональной переподготовки «Основы психологии» South Ural State University"
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "В ЮУрГУ прошла молодёжная конференция «Психология в меняющемся мире» South Ural State University"
     },
     {
       "title": "Где учиться на психолога: что нужно сдавать после 9 и 11 класса, вузы, направления в 2026 году - Sostav.ru",
@@ -118,6 +108,27 @@
   ],
   "educationPolicy": [
     {
+      "title": "В Саратове до конца года будет создано дополнительно 3175 новых ученических мест - Saratov24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbzVGWUkwdXlHenlBc0l6ZE5feEpTZEt0cHhoeGZJYVFYN21GWmd5NGVwX09LaEtIWUY4QlphQXdRVHNmdml0ZVpUUWJRazNEbEc1NWFGbWVjdEpfcTVuQXlHZ0o5NVBrTGs3R00tZ1B1UlBmU09wekNsNnB1OVFGaXp1d0FaZjRIa0FBY0VnZjFzSDg3NTJVZENOZUJWNExNX1RZWFg3SU01LTgtTjRLWNIBtgFBVV95cUxPb2ZYbHNTbm10bFI5ZExoUlpzMXdXQy02Wkx2SzZoQ2hFQVo3dDEyWk84NFNydFFqV3RBeUNvRXByYXl6WW1HODhwMkZmeGROY1duMzJRRUNsYnRvUTY3U2w0RXhCMllWVnR5VDVNUDl3VFYwUDhtWjdELUF3Vk90WS1Jck9fSTVVQ21vRTJHQTdOSml5N0U5M2FjeGU1LWI4SDA3aWRJWTZsZHk0Ym5zbUNyZkVFQQ?oc=5",
+      "source": "Saratov24",
+      "published": "Tue, 20 Oct 2026 03:32:00 GMT",
+      "summary": "В Саратове до конца года будет создано дополнительно 3175 новых ученических мест Saratov24"
+    },
+    {
+      "title": "Учить. Помогать. Развивать. - Клопс - новости Калининград",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDdlb1BJTksxQzE5T3ZhR3RIYnMzMWhGR0NKd3RHRnAxTGx3WWtSMWMxY1ppV3VhZkNWQ1ZObzczZE43cHBZT1Y0NTMxLUY5Rmg5dXg2QnJyZ2RaUUJlMGRrUnNzZFkzX0JYc0E4d2VPbFU5b2pwRmVxRXV6TmFVOWJB?oc=5",
+      "source": "Клопс - новости Калининград",
+      "published": "Tue, 20 Oct 2026 06:45:00 GMT",
+      "summary": "Учить. Помогать. Развивать. Клопс - новости Калининград"
+    },
+    {
+      "title": "В Саратове создадут еще 3175 школьных мест для перехода на обучение в одну смену - https://prov-telegraf.ru/",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYlh5Mk9sMkxhZGp6c2dvSzhxRGY0M0JIbnBBZXVkWWJGVE5BZWZoWjRBZjllWXlHcEdMUGlwX3Q5c1lVX1VvWnZXWGVJSVduX2xyMmxFa2VOUFBZS21EaFhWSGV5UktZUktsc2c0TzhBdWphekh1b1hLZWRJRE1taXI3cWpla21qempMLWRMam5JT3N0WUdwOGNyWi1CS29BMkJ2UjFYV0JMNWtBU0FTNW9Dcm1Idw?oc=5",
+      "source": "https://prov-telegraf.ru/",
+      "published": "Tue, 20 Oct 2026 03:59:17 GMT",
+      "summary": "В Саратове создадут еще 3175 школьных мест для перехода на обучение в одну смену https://prov-telegraf.ru/"
+    },
+    {
       "title": "Вузы теряют деньги, а студенты — места. Первые последствия конкурса на платный прием - ФОНТАНКА.ру",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xaUlycnZ6dnU2VVllZTFFcnZMQ1RxTHhDOXhRekJaMmV6cTZuYmE0bHZuMUNPWlNqYXZWdGFRSTdOd09EYlhRT1Q3Rmg3ZTdlRTREdVFYWQ?oc=5",
       "source": "ФОНТАНКА.ру",
@@ -125,39 +136,18 @@
       "summary": "Вузы теряют деньги, а студенты — места. Первые последствия конкурса на платный прием ФОНТАНКА.ру"
     },
     {
-      "title": "Назван самый востребованный вид допобразования при найме в Псковской области - ПЛН",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLMW1nUWVPbkZzRzVkTlB0ZmU1ZVZJV215a095N0JnRWc1OEt5OU45SUFrRDdOTkIyMkFiZlk4Y0hJUGF6T3l6N29YYXlZQTFQOGc?oc=5",
-      "source": "ПЛН",
-      "published": "Mon, 19 Oct 2026 07:25:04 GMT",
-      "summary": "Назван самый востребованный вид допобразования при найме в Псковской области ПЛН"
+      "title": "В ОАЭ упростили процедуру поступления в университеты - Russian Emirates Family",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONkdweHYzYVNMelVZbjgtZFh4eW4xT1h5TFB4dXJZWHQ1QzJkU0J5OFh1all5cVh2UVZ0dGdtYzNjY0tyVDhFem1nZHdxbkp5NVkwLXdlVnRXMXF1ai13cTE2d25RMTVBNkJHZjJYdUxfVkVfVjg5WmdONHBvVTNDc0R1RnM3UEktZEtOdXgwZG9lWUlEV0E3WUlJLWMzS3Yzd2RiQ0Rn?oc=5",
+      "source": "Russian Emirates Family",
+      "published": "Tue, 20 Oct 2026 04:57:44 GMT",
+      "summary": "В ОАЭ упростили процедуру поступления в университеты Russian Emirates Family"
     },
     {
-      "title": "Сказано в Сенате. Иван Новиков. Привлечение иностранных студентов в российские вузы - Вместе-РФ",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeWxQclVOZlhrMTc3QTllRVZfV0RwYlRjUmRUUGlNUGx6ckJOeXRtZ2FOaWN2NWItUzZFdjV3eVNYQXlvNFcwUkJzdWdTanpMYkhmTTluNElpZ3RPZWFkWTlmdkZaaU9qUTVsMEVIWTloVWF3UXVQVDBkaDYzSGdXTVp4dUZVaVhFZ1M0THA2RkZjNTdiaUJBbUlRNlhUQTZ0V05MUDdJUllCLVFqUG5uaVJ4RkZYcGY4REFFeTM3S3R5RThNYmhhY1ZVdw?oc=5",
-      "source": "Вместе-РФ",
-      "published": "Mon, 19 Oct 2026 10:52:17 GMT",
-      "summary": "Сказано в Сенате. Иван Новиков. Привлечение иностранных студентов в российские вузы Вместе-РФ"
-    },
-    {
-      "title": "Работодатели Ленобласти рассказали, какое дополнительное образование ценят при найме - Online47.ru",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSmF2X0YxWDlSOWxoc05MNHIxTkpkSkR5NkpTM2JUUG9YaGdjTnQyUGpoMndYRjYtMlhJaXI2QTJpTTc5aHUxZlpSRVhxS25faW1YMXJSdTlvRkhuYVVlS2dFZEFLVmd1dXRiY3BXb1BkaFA4U1VwMDBwRlpwUmpDUWxib0tmQktBNTh1WnJwUjBiTHJRV0ozUHNodVdrQW9jQ2NnTDZNcnFaZkEtLTlaVzlMRU1jbm1RNXgxM0tOa9IBxAFBVV95cUxQMGo0RFViSXNGcnZUejFDa0ZSQ3JUWTlHaG5IYTdYZ2FXS011VjFMYWJQR0s1NXdsRFljeFJOcDM3c3F2bjNUWTZlb3NnclNWWkRGRWs2YlZtb0NlbzZLTlVRaFBhX3lncHRyb3pLUTVqdWVYcF81Rjk3aWFGQ0JZbHFPbmh4QU9tUUF2YXk5ZkFaM2xILXU2d3k4R1JzYWo5MjlueV9Ub1o4bm5vVDhsYU5WSVlheFd5bTBFeVh2R0Q4VHdR?oc=5",
-      "source": "Online47.ru",
-      "published": "Mon, 19 Oct 2026 06:34:53 GMT",
-      "summary": "Работодатели Ленобласти рассказали, какое дополнительное образование ценят при найме Online47.ru"
-    },
-    {
-      "title": "За 20 лет число студентов в высших учебных заведениях выросло более - UNESCO",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLTdfcjA0RUVuaUYxSktTRE05SFVCX2hEZmFIR1N5RXFlLU1fcUtUTnNvdUlzWEJSLXZvLS1Rc2JXOVZWVG1QYmExcE11OGRNOURyZEVYaXIweTN1OWdTd1BzbmloWDJaYTc1OWNSYU96eDVsTS1HZ3cwT3VRTlFLMXY5a3hSR1ViZjdkaWppN3kxOF9QM0J5aENhaF9lZlR5NW1qTlI2WVBEOW5ocnphY0FPZ1NRMHdoenlXbV8zdWhVak9yaHc?oc=5",
-      "source": "UNESCO",
-      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "summary": "За 20 лет число студентов в высших учебных заведениях выросло более UNESCO"
-    },
-    {
-      "title": "Профессиональное образование должно увязывать цифровую трансформацию с потребностями рынка труда. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObHREZXZpTDRDckxJa3FfbEhGMkRCT0h5TXdCTFRHYi12aVVaN25hdXJGZVRMbUtZQkZ2eFRZdVlfNmZKMzdsWXFZRS1ReTIxRmJrT2VYUHd2ZGI0VUxoVnFTVUxLVTY4WmJzbWhpQ19IR25uaDZObHdMRmJkcXRnbXRaZ3FfSmhLOUxHbnJRRjRQZ2FONU1FcTBiZlRhX1lvRGc?oc=5",
-      "source": "Vietnam.vn",
-      "published": "Mon, 19 Oct 2026 10:12:18 GMT",
-      "summary": "Профессиональное образование должно увязывать цифровую трансформацию с потребностями рынка труда. Vietnam.vn"
+      "title": "В России изменятся правила стажировки - Курское Интернет Телевидение",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORUQ4X2kybkY1R2UzTnFzLW9vZk5wQWUxb0UyejRQcTZhcXJ4WDI2MGlhNFJMTlRrTTRGZ2hNX2hqdzQ4OWRKdDQ4dE16UDUtMXJxMUdHa2ZJZEwzYm9WTHBXUTZRbk8wVnNpUDkweUM5LURFeHp5VXFvNHk2X1k1aXJRc0xyNTRpNU1ZZkxfSFgyXzZxMnc?oc=5",
+      "source": "Курское Интернет Телевидение",
+      "published": "Tue, 20 Oct 2026 09:40:02 GMT",
+      "summary": "В России изменятся правила стажировки Курское Интернет Телевидение"
     }
   ],
   "conferenceUpdates": [
@@ -183,13 +173,6 @@
       "summary": "Перспективы психологии развития обсудили на Ананьевских чтениях Психологическая газета"
     },
     {
-      "title": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи - Biz360",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjNkc2QzRTd6VzZ5Q3Q3QnBCeGMtQUVjbHk3WVhHUlVYdW1KVm1RUUsyaUt1UEtqZ2xwc1BKZEstb0pvY3VBNXBSM3p6THFsSTJ2SmF0eTJVbG16eEhPNE9NNTd2RU9CTmQ3TzNMNlYwVnZTYWlzTDhYb1cyN245ZG1yaFlZTzFwdmVQTENxcGxlZlVMc0pOYXcxNU5EaURZYXpUUGx2QkJOMW1tdDAwLVdVMnpQTkhF?oc=5",
-      "source": "Biz360",
-      "published": "Fri, 07 Feb 2025 08:00:00 GMT",
-      "summary": "Ивент в России – больше, чем ивент: как корпоративные мероприятия решают бизнес-задачи Biz360"
-    },
-    {
       "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
       "source": "Психологическая газета",
@@ -202,6 +185,13 @@
       "source": "Психологическая газета",
       "published": "Tue, 17 Jun 2025 07:00:00 GMT",
       "summary": "Путь человека: встречи на 19-м Санкт-Петербургском саммите психологов Психологическая газета"
+    },
+    {
+      "title": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBTeDJDV2hqbFpMcTZQLWhCUjdtSmMtb19lQjJ4TDdUWlVPQk9RUmFHYkdIeUwyNU1VbFU3MmV3?oc=5",
+      "source": "Психологическая газета",
+      "published": "Mon, 30 Aug 2021 00:39:53 GMT",
+      "summary": "Технологии виртуальной реальности: методологические аспекты, достижения и перспективы Психологическая газета"
     }
   ],
   "sportAiUpdates": [
@@ -227,6 +217,13 @@
       "summary": "Атлет цифровой эпохи: как психология помогает создавать ИИ-ассистентов и побеждать в силовом экстриме Омск Здесь"
     },
     {
+      "title": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу - 78.ru",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUVRSHFSS185ZlFKQWVIdjZtTDh6akQ1TmRMRjlDbjNiX29RMXB1NmZac0RsdTZWTDdGSjl0dUJvUTBGUDN6ZHI4SDAzTE9OSlBOUXk1NUs4ajV6WXpZZGVCOFlnd2RleDN3a1JSS0lIX3pESlFTbjh3VVJKLV91a1Y0TU9FTHJCaXFqa0M4dGlvdlQ1U1Y5NkRDNVBjNTg1QTgyTE5R?oc=5",
+      "source": "78.ru",
+      "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+      "summary": "Психологи объяснили, почему люди устают от ИИ и когда пора сделать паузу 78.ru"
+    },
+    {
       "title": "Сбер представил ИИ-решения для тренеров спортивных клубов - Сбербанк",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU1TLTJucndGVDFiZmJvbUJXRnpMMC1ydnYyamVxbDZZU3RkWkRCa1RTNkxjQVllaHdlRlBJZ1NwQnZyNEUtSXlXY0ZMTVFuQlFaQmdvNWNabXNHTUJ1WE5DeDMxUDItaGlCWlpPV3pnZWZBd0E2WW1iRW8wX3NDVEhsZTVKWFlRRUJEZW12d3l5dE1SWHI0RzdpUHljdC0zMmdnT1BFU1ZQaVBDUGNBT0t3Wl9yTUNJUXR1Y0VOQWphbnF4Vm53dlNvLWxJUW9y?oc=5",
       "source": "Сбербанк",
@@ -234,18 +231,11 @@
       "summary": "Сбер представил ИИ-решения для тренеров спортивных клубов Сбербанк"
     },
     {
-      "title": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем - Rus.Postimees.ee",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHhSZ0llTFhsZXVjbXlxMkxYdlRMMk9IV1R6R2hKdG04T3Q2dm1UZzdfRUttc2QxRk80OGM0dkVlVHEwRW9idGR5ekc4U01BSHRVTFp1V1J1WGptdmpFaWMzY0xOcXJEQUxiZjNpZ1Q0VlE3UEFaOXZYdXB1WXFCaXRudGJrdGkwMzVPUmt5aVZEd2RMNk9mSF8tTHN2cDZEX0piRVJ5TXZpNGJRc2VXMFpwYzBFX0NYOW5ieTlCd2Y?oc=5",
-      "source": "Rus.Postimees.ee",
-      "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-      "summary": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем Rus.Postimees.ee"
-    },
-    {
-      "title": "Основания для конструирования понятия «психологическая цена цифровых взаимодействий» (теоретический анализ) - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5WXzdnUnphcjV6dDM2UmNONmI3TWVwT0dKamRVU0NkMmg2aTQ3b18teUwyT1hWS1UtOTZTTGMyTQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-      "summary": "Основания для конструирования понятия «психологическая цена цифровых взаимодействий» (теоретический анализ) Психологическая газета"
+      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
+      "source": "Forbes.ru",
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
     }
   ],
   "openPublications": [
@@ -292,36 +282,7 @@
       "summary": "Kawthar Abd Al Jabbar Hashim, Ekhlas Hameed Karam · International Journal of Automation and Control"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "Выступления",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Выступления"
-    },
-    {
-      "title": "Психолог Татьяна Мунн",
-      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Психолог Татьяна Мунн"
-    },
-    {
-      "title": "К.Ц. Полярный — Татьяна Мунн, МГУ",
-      "url": "https://xn--l1acaw.xn--p1ai/k-ts-polyarnyy-tatyana-munn-mgu",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "К.Ц. Полярный — Татьяна Мунн, МГУ"
-    },
-    {
-      "title": "Лекции по эмоциональному интеллекту",
-      "url": "https://xn--l1acaw.xn--p1ai/emotional-intelligence-lectures",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Лекции по эмоциональному интеллекту"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "🧠 Как понять подростка и сохранить с ним близость? Приглашаю родителей и бабушек на лекцию «Психология подростка: как понять своего ребёнка и сохранить близость». 👨‍👩‍👧‍👦 Обсудим, ",
