@@ -1,0 +1,18 @@
+{
+  "siteName": "МИИИИПС",
+  "primaryDomain": "miiiips.ru",
+  "baseUrl": "https://miiiips.ru/",
+  "alternateDomains": [
+    "gelendzhik.miiiips.ru",
+    "moon.ru",
+    "moonn.ru"
+  ],
+  "analytics": {
+    "ga4MeasurementId": "",
+    "searchConsoleVerification": "",
+    "insightfulPipeMcpUrl": "",
+    "trackOutboundLinks": true,
+    "trackButtonClicks": true,
+    "debug": false
+  }
+}

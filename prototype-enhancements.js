@@ -1,12 +1,12 @@
 (function () {
-  const DEMO_PASSWORD = 'demo2026';
+  const DEMO_PASSWORD = window.__MIIIIPS_SITE_RUNTIME__?.demoPassword ?? null;
   const SITE_DATA_FALLBACK = {
     news: [],
     videos: [],
     playlists: [],
     courses: [],
     documents: [],
-    meta: { demoPassword: DEMO_PASSWORD }
+    meta: {}
   };
 
   const DOWNLOAD_MAP = {
@@ -38,7 +38,7 @@
   ];
 
   const page = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
-  const apiBase = location.origin && location.origin.startsWith('http') ? location.origin : 'http://127.0.0.1:3007';
+  const apiBase = location.origin && location.origin.startsWith('http') ? location.origin : '';
   const INTEGRATIONS_PATH = 'assets/data/site-integrations.json';
   let integrationsPromise = null;
 
@@ -54,7 +54,6 @@
             forms: {
               publicApiBase: '',
               googleAppsScriptWebAppUrl: '',
-              localApiBase: 'http://127.0.0.1:3007',
               mailtoFallback: 'mailto:rublevalexanderus@gmail.com'
             },
             payments: {
@@ -125,6 +124,7 @@
 
   async function loadSiteData() {
     try {
+      if (!apiBase) throw new Error('no api base');
       const response = await fetch(apiBase + '/api/site-data', { cache: 'no-store' });
       if (!response.ok) throw new Error('bad site-data response');
       return await response.json();
@@ -144,8 +144,6 @@
     const forms = (config && config.forms) || {};
     if (forms.publicApiBase) candidates.push(String(forms.publicApiBase).replace(/\/+$/, ''));
     if (location.origin && location.origin.startsWith('http')) candidates.push(location.origin);
-    if (forms.localApiBase) candidates.push(String(forms.localApiBase).replace(/\/+$/, ''));
-    else candidates.push('http://127.0.0.1:3007');
     return Array.from(new Set(candidates));
   }
 
@@ -502,7 +500,10 @@
     const section = document.createElement('section');
     section.id = 'miiiips-accounts-extra';
     section.className = 'miiiips-injected';
-    section.innerHTML = '<div class="miiiips-kicker">Тестовый доступ</div><div class="miiiips-card"><h3>Демо-доступ к кабинетам</h3><p>Для всей прототипной роли используется единый пароль <strong>' + DEMO_PASSWORD + '</strong>. Это упрощённый сценарий до настоящей авторизации.</p><div class="miiiips-role-grid"><div class="miiiips-role-card"><h3>Автор</h3><p>Публикации, журналы, статусы, документы.</p><div class="miiiips-actions"><a class="miiiips-btn" data-role-login="author" href="account-author.html">Войти как автор</a></div></div><div class="miiiips-role-card"><h3>Студент</h3><p>Курс ЭИ, лекции, библиотека и задания.</p><div class="miiiips-actions"><a class="miiiips-btn" data-role-login="student" href="account-student.html">Войти как студент</a></div></div><div class="miiiips-role-card"><h3>Научный руководитель</h3><p>Работа с соискателями, review doc, changelog.</p><div class="miiiips-actions"><a class="miiiips-btn" data-role-login="supervisor" href="account-supervisor.html">Войти как научрук</a></div></div><div class="miiiips-role-card"><h3>Редактор</h3><p>Manual gate, needs fix, ready queue.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" data-role-login="editor" href="account-editor.html">Войти как редактор</a></div></div><div class="miiiips-role-card"><h3>Координатор</h3><p>Гранты, заявки, лента, маршрутизация.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" data-role-login="coordinator" href="account-coordinator.html">Войти как координатор</a></div></div></div></div>';
+    const demoNote = DEMO_PASSWORD
+      ? '<p>Для всей прототипной роли используется подключаемый локально demo-доступ. Это упрощённый сценарий до настоящей авторизации.</p>'
+      : '<p>Демодоступ отключён в public build. Для локальной среды подключите site runtime, чтобы включить защищённый demo-доступ.</p>';
+    section.innerHTML = '<div class="miiiips-kicker">Тестовый доступ</div><div class="miiiips-card"><h3>Демо-доступ к кабинетам</h3>' + demoNote + '<div class="miiiips-role-grid"><div class="miiiips-role-card"><h3>Автор</h3><p>Публикации, журналы, статусы, документы.</p><div class="miiiips-actions"><a class="miiiips-btn" data-role-login="author" href="account-author.html">Войти как автор</a></div></div><div class="miiiips-role-card"><h3>Студент</h3><p>Курс ЭИ, лекции, библиотека и задания.</p><div class="miiiips-actions"><a class="miiiips-btn" data-role-login="student" href="account-student.html">Войти как студент</a></div></div><div class="miiiips-role-card"><h3>Научный руководитель</h3><p>Работа с соискателями, review doc, changelog.</p><div class="miiiips-actions"><a class="miiiips-btn" data-role-login="supervisor" href="account-supervisor.html">Войти как научрук</a></div></div><div class="miiiips-role-card"><h3>Редактор</h3><p>Manual gate, needs fix, ready queue.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" data-role-login="editor" href="account-editor.html">Войти как редактор</a></div></div><div class="miiiips-role-card"><h3>Координатор</h3><p>Гранты, заявки, лента, маршрутизация.</p><div class="miiiips-actions"><a class="miiiips-btn secondary" data-role-login="coordinator" href="account-coordinator.html">Войти как координатор</a></div></div></div></div>';
     target.appendChild(section);
   }
 
@@ -589,6 +590,11 @@
   function promptRoleLogin(event) {
     const link = event.currentTarget;
     const role = link.getAttribute('data-role-login') || 'participant';
+    if (!DEMO_PASSWORD) {
+      event.preventDefault();
+      toast('Демодоступ отключён в public build. Для локальной среды подключите site runtime.');
+      return;
+    }
     const password = window.prompt('Введите тестовый пароль для роли "' + role + '"', DEMO_PASSWORD);
     if (password === null) {
       event.preventDefault();
@@ -596,7 +602,7 @@
     }
     if (password !== DEMO_PASSWORD) {
       event.preventDefault();
-      toast('Пароль не подошёл. Для демонстрации используйте: ' + DEMO_PASSWORD);
+      toast('Пароль не подошёл. Для демонстрации используйте локально подключённый runtime secret.');
       return;
     }
     sessionStorage.setItem('miiiips-role', role);
@@ -829,6 +835,54 @@
     });
   }
 
+  function injectEventRequestButtons(events) {
+    if (!page.startsWith('event-')) return;
+    if (page.startsWith('event-feedback-')) return;
+    if (page === 'event-registration.html' || page === 'event-request.html') return;
+    if (!Array.isArray(events) || !events.length) return;
+    const event = events.find(function (item) {
+      return (item.detailPage || '').toLowerCase() === page;
+    });
+    if (!event) return;
+
+    const primaryActions = document.querySelector('.event-main .hero-actions') || document.querySelector('.hero .hero-actions');
+    if (primaryActions && !primaryActions.querySelector('[data-event-video-request]')) {
+      const videoHref = event.videoRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=video');
+      const inviteHref = event.inviteRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=invite');
+      const video = document.createElement('a');
+      video.className = 'btn secondary';
+      video.href = videoHref;
+      video.textContent = 'Получить видео';
+      video.setAttribute('data-event-video-request', '1');
+      const invite = document.createElement('a');
+      invite.className = 'btn secondary';
+      invite.href = inviteHref;
+      invite.textContent = 'Пригласить лектора';
+      invite.setAttribute('data-event-invite-request', '1');
+      primaryActions.appendChild(video);
+      primaryActions.appendChild(invite);
+    }
+
+    if (!document.getElementById('miiiips-event-request-block')) {
+      const topics = document.getElementById('topics');
+      const hostSection = document.createElement('section');
+      hostSection.id = 'miiiips-event-request-block';
+      hostSection.className = 'section';
+      const videoHref = event.videoRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=video');
+      const inviteHref = event.inviteRequestPage || ('event-request.html?event=' + encodeURIComponent(event.id) + '&intent=invite');
+      hostSection.innerHTML = [
+        '<span class="eyebrow">Продолжение маршрута</span>',
+        '<div class="grid-2" style="margin-top:18px;">',
+        '<article class="card metric"><h3>Получить видео встречи</h3><p>Если вам нужен доступ к видеозаписи для личного просмотра, команды или внутреннего обучения, можно оставить короткую заявку. Команда института пришлёт следующий шаг по доступу и условиям оплаты.</p><div class="hero-actions"><a class="btn primary" href="' + videoHref + '">Получить видео</a></div></article>',
+        '<article class="card metric"><h3>Пригласить лектора</h3><p>Если тема подходит для компании, вуза, конференции или закрытого образовательного формата, можно сразу оставить заявку. Она попадёт в рабочий контур института и в таблицу сайта.</p><div class="hero-actions"><a class="btn primary" href="' + inviteHref + '">Оставить заявку</a></div></article>',
+        '</div>'
+      ].join('');
+      if (topics && topics.parentNode) {
+        topics.parentNode.insertBefore(hostSection, topics.nextSibling);
+      }
+    }
+  }
+
   async function init() {
     const currentPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
     const overlayExcludedPages = new Set(['event-registration.html', 'event-bandits.html', 'event-parkgorkogo.html', 'event-gelendzhik.html']);
@@ -846,6 +900,7 @@
     const events = await loadEventsData();
     injectCourseEnrollmentForm();
     injectActionForms();
+    injectEventRequestButtons(events);
     renderNews(data);
     renderLectures(data);
     enhanceSuccessPage();

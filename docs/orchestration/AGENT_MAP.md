@@ -296,7 +296,41 @@
 
 ---
 
-## 9. QA Agent
+## 9. Compliance Agent
+
+### Роль
+Владелец внутреннего контура отчётности, календаря сроков и Telegram-отражения.
+
+### Отвечает за
+- перечень обязательных отчётов;
+- разбивку по месяцам;
+- архив неактуальных периодов;
+- папки хранения отчётов и доказательств;
+- напоминания и статусы подач;
+- синхронизацию сайта, Telegram-бота и внутреннего контурного реестра.
+
+### Skills
+- `internal-compliance-orchestrator`
+
+### Основные страницы и контуры
+- `internal-compliance.html`
+- `docs/internal_compliance_dashboard/README.md`
+- `assets/data/internal-compliance/reporting-pack.json`
+- `assets/data/internal-compliance/reporting-registry.json`
+- `projects/telegram_materials_bot/telegram_materials_bot.py`
+
+### Основные данные
+- `assets/data/internal-compliance/internal-compliance-dashboard-data.json`
+- `assets/data/internal-compliance/reporting-pack.json`
+- `assets/data/internal-compliance/reporting-registry.json`
+
+### Эскалация
+- в QA Agent перед выпуском внутреннего контура;
+- в Global Orchestrator, если меняются правила обязательности или маршруты отражения в Telegram.
+
+---
+
+## 10. QA Agent
 
 ### Роль
 Финальный guard публичного слоя.
