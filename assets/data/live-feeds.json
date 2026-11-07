@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-06T13:05:22.873226+00:00",
+  "generatedAt": "2026-11-07T11:50:54.489477+00:00",
   "ticker": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
+    {
+      "title": "Психолог Татьяна Мунн",
+      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
     {
       "title": "🧠 Сегодня в 19:00 приглашаю на лекцию «Психология боли»! Почему одну и ту же боль люди переживают по-разному? Как на её восприятие влияют эмоции, внимание и наши ожидания? И какую ",
       "url": "https://t.me/moonn_official/1002",
@@ -12,14 +22,14 @@
       "source": "Telegram"
     },
     {
+      "title": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс - Волга Ньюс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeUdPNjRKTlpJcFMxN1plZTlrNnNNa0VWaEx6T1JWV1BkenlfTEtxcmhoQmhhQ0I0Vl9ySnZXeG5peWRSQUE4aEZZdDJMRFk?oc=5",
+      "source": "Волга Ньюс"
+    },
+    {
       "title": "В Институте психологии и образования прошла международная научно-практическая конференция 'Антропология педагогического образования и межкультурный диалог в цифровую эпоху', посвященная 100-летию со дня рождения академика М. - Казанский (Приволжский) федеральный университет",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWFfTUhQTklQNHoydkUzNEl2ZE13WmJpZW83NGtuUGM1UXdENWtyb1pMbmtYLUN5VUVMcnZFVE9jNDhDdHpwYW10ajRiOXJQU2ltQUV4LUNZVUUtejFOUjFkNEFCbFU0WDRZTkZxNHR1S05aV2I5TG80bmxSQU1NMUE1dFZnaXBNNU1ITQ?oc=5",
       "source": "Казанский (Приволжский) федеральный университет"
-    },
-    {
-      "title": "Конференция «Бизнес-психология: теория и практика» - МГИМО",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0ybEVEM0ptMmxTUkJPeTk5U2NQUFlRblBseXpYeU8tSloyNnh6VEw1bGQzWUd3WTBDWk56bkNqTDV2UzI5VmltWmN5TUp0VUpOblBYX2k5cXpBdUFwS1R0YXlpSUJYWkdCXy10WnkzWm0teVk?oc=5",
-      "source": "МГИМО"
     },
     {
       "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
@@ -42,24 +52,24 @@
       "source": "Томский государственный университет"
     },
     {
-      "title": "Наука и технологии подпитывают стремление к покорению высочайших вершин. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWGNnd2c4UnNyeGR0bGZJN2NEQWFMZnRua0o2d1YyVGNKdUZlUGNhdWY2VEszOXRxWmhlN0xPNTJkY2RTb095aDFFWWpzRjN3TzZmRnQ2WHlRMkUzOUdJUEo4aXUwU2x5ajN4amZMSThKcEtWTE81dm9wak5mRnRCWVRuRk9xM3JCS2lEaW5wUUc?oc=5",
-      "source": "Vietnam.vn"
-    },
-    {
       "title": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований - Донской государственный технический университет",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdHFtODMtbGFlWG1hLVZXUFpwRDNjQWNkblVxQktHSWVLMWhIVnhkOXgzMVhRek1oSU5nVW9RSHpWdV9ZMnhTdjhOMldRUDI4SzBTQ3VXRFNrSXYxcG5GLVRNblpOcl9qa2FmbXd5VWY1Yl9iN1pERmZ3OXNya0xKTW5LV2hVd3M5TUxUdUdnRkNiUUVHWllQTU83ZTNaNXAtRUN5OC1zQ2h3TC1iY0ZLVTVOa3BxdEE4eFo1NFV5VQ?oc=5",
       "source": "Донской государственный технический университет"
     },
     {
-      "title": "В связи с резким увеличением масштабов обучения Министерство образования и профессиональной подготовки ужесточает правила, касающиеся программ получения второго высшего образования на английском языке. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQm9JNVo0aU9uZldtWk5yNzE0UXplY2p0cU1SeTRVT1l4bEJodk9QSEtuRDFEQ3AwOVFiTWFrQ0dNdkE0RUZzYXlfdGUyQWV2U3NFRS14SkdlSkJQdTZhcWhRZUtFbjk0NVBVSVZnWl9nX00xaGJWWnUyMkhjMW8teTFFdVJGd0U5ZHdtSEJ1cF8zaUlaV3hGcVlEaHJsZw?oc=5",
+      "title": "Наука и технологии подпитывают стремление к покорению высочайших вершин. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWGNnd2c4UnNyeGR0bGZJN2NEQWFMZnRua0o2d1YyVGNKdUZlUGNhdWY2VEszOXRxWmhlN0xPNTJkY2RTb095aDFFWWpzRjN3TzZmRnQ2WHlRMkUzOUdJUEo4aXUwU2x5ajN4amZMSThKcEtWTE81dm9wak5mRnRCWVRuRk9xM3JCS2lEaW5wUUc?oc=5",
       "source": "Vietnam.vn"
     },
     {
-      "title": "В вузах добавят добавят бюджетные места инженерам, медикам и аграриям - Нижегородская правда",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMGpDamxISk1iY3B0OXV0Z1RjdFB3aVlZQWFxTXhaLTFPdXliSl9ocV9HVlZjOVRWdVkyRjdsbGhZVDRyRmlNN3FUVHFpREpTcEp4ZW9GX3NtQnJNYjFLck5yZ1VsVTROX21WdGUwUC1DM1NpckR5cjRmRkJuU09uRUs0N1lWdVNDNndRVmN0Y1FWbTF4MDRzTkFWNWNwcEFUZWVR?oc=5",
-      "source": "Нижегородская правда"
+      "title": "На ВДНХ пройдет 63-я Московская международная выставка «Образование и карьера» - Официальный сайт ВДНХ",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE15TUF6eUJ6dGVERFoxSGdyZkNURS1DakpmM21xNk4yZ2pmUWZLRzZPZHg4YmFOMV9GS0U2UlZ3?oc=5",
+      "source": "Официальный сайт ВДНХ"
+    },
+    {
+      "title": "Тульские бойцы СВО без высшего образования смогут бесплатно получить профессию - Первый Тульский",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS1JKRUUtdTlyaFJkNW5QSkpGdGRZMEZWOFBVMmJwS09wclNKRm4tT2g0NUpjS3c2YnFrQ3NYMndhcG5VTnZ0bG5WUWhsRUJJTmdod1paN3BCSDRLR2JOMGc4TlpuVllhTnZHbkVELURXUnpfSkNnMGdQaHFNRWdUYWFSbk94MWh4a1hadm5CSDkyZnBVNXlsZlJuY01WQlRscWs5TExqQUowd0F3cWdpdVdIal9WNGRlVHBJ0gHAAUFVX3lxTE1MRGdHY2JYR2J5RGhMWEdSdFdJYW14R3RON1lkbXpvdlI1dGhpSjRIbXhKMkM0N01BMnFTNnNfWmlDRXItTEJrSXJQTzdsUHlyUWNVSFlueFh6bExxLUFoaDBQZ3htUUFqN0ptRXRSTjdmZkVRNWRXZ1Nabmt1alJSZUFWdnAwbFo0Y1R1RFVEeE53eEJUUWEzd3hfeWlLdDd3Ync1U3RFN09JYXhmOThXX3pZb2xySnVwUlBWaVFMcA?oc=5",
+      "source": "Первый Тульский"
     }
   ],
   "psychologyTrends": [
@@ -108,49 +118,56 @@
   ],
   "educationPolicy": [
     {
-      "title": "В связи с резким увеличением масштабов обучения Министерство образования и профессиональной подготовки ужесточает правила, касающиеся программ получения второго высшего образования на английском языке. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQm9JNVo0aU9uZldtWk5yNzE0UXplY2p0cU1SeTRVT1l4bEJodk9QSEtuRDFEQ3AwOVFiTWFrQ0dNdkE0RUZzYXlfdGUyQWV2U3NFRS14SkdlSkJQdTZhcWhRZUtFbjk0NVBVSVZnWl9nX00xaGJWWnUyMkhjMW8teTFFdVJGd0U5ZHdtSEJ1cF8zaUlaV3hGcVlEaHJsZw?oc=5",
-      "source": "Vietnam.vn",
-      "published": "Fri, 06 Nov 2026 12:02:17 GMT",
-      "summary": "В связи с резким увеличением масштабов обучения Министерство образования и профессиональной подготовки ужесточает правила, касающиеся программ получения второго высшего образования на английском языке. Vietnam.vn"
+      "title": "На ВДНХ пройдет 63-я Московская международная выставка «Образование и карьера» - Официальный сайт ВДНХ",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE15TUF6eUJ6dGVERFoxSGdyZkNURS1DakpmM21xNk4yZ2pmUWZLRzZPZHg4YmFOMV9GS0U2UlZ3?oc=5",
+      "source": "Официальный сайт ВДНХ",
+      "published": "Sat, 07 Nov 2026 09:17:48 GMT",
+      "summary": "На ВДНХ пройдет 63-я Московская международная выставка «Образование и карьера» Официальный сайт ВДНХ"
     },
     {
-      "title": "В вузах добавят добавят бюджетные места инженерам, медикам и аграриям - Нижегородская правда",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMGpDamxISk1iY3B0OXV0Z1RjdFB3aVlZQWFxTXhaLTFPdXliSl9ocV9HVlZjOVRWdVkyRjdsbGhZVDRyRmlNN3FUVHFpREpTcEp4ZW9GX3NtQnJNYjFLck5yZ1VsVTROX21WdGUwUC1DM1NpckR5cjRmRkJuU09uRUs0N1lWdVNDNndRVmN0Y1FWbTF4MDRzTkFWNWNwcEFUZWVR?oc=5",
-      "source": "Нижегородская правда",
-      "published": "Fri, 06 Nov 2026 09:38:21 GMT",
-      "summary": "В вузах добавят добавят бюджетные места инженерам, медикам и аграриям Нижегородская правда"
+      "title": "Тульские бойцы СВО без высшего образования смогут бесплатно получить профессию - Первый Тульский",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS1JKRUUtdTlyaFJkNW5QSkpGdGRZMEZWOFBVMmJwS09wclNKRm4tT2g0NUpjS3c2YnFrQ3NYMndhcG5VTnZ0bG5WUWhsRUJJTmdod1paN3BCSDRLR2JOMGc4TlpuVllhTnZHbkVELURXUnpfSkNnMGdQaHFNRWdUYWFSbk94MWh4a1hadm5CSDkyZnBVNXlsZlJuY01WQlRscWs5TExqQUowd0F3cWdpdVdIal9WNGRlVHBJ0gHAAUFVX3lxTE1MRGdHY2JYR2J5RGhMWEdSdFdJYW14R3RON1lkbXpvdlI1dGhpSjRIbXhKMkM0N01BMnFTNnNfWmlDRXItTEJrSXJQTzdsUHlyUWNVSFlueFh6bExxLUFoaDBQZ3htUUFqN0ptRXRSTjdmZkVRNWRXZ1Nabmt1alJSZUFWdnAwbFo0Y1R1RFVEeE53eEJUUWEzd3hfeWlLdDd3Ync1U3RFN09JYXhmOThXX3pZb2xySnVwUlBWaVFMcA?oc=5",
+      "source": "Первый Тульский",
+      "published": "Sat, 07 Nov 2026 05:19:23 GMT",
+      "summary": "Тульские бойцы СВО без высшего образования смогут бесплатно получить профессию Первый Тульский"
     },
     {
-      "title": "Прийт Рейска: редкая возможность увеличить число людей с высшим образованием - ERR",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV1F0TWNHcnpQMmNySnN0cG5ubjhnVHJQV1pFTm5BTENfTTBUTDJqOFpJLWpySEhzaV91V0xVU0gwZ1VxMDNRdUVidGJYWXl1aUN3c3pDbE5FMmwtT2c2Nlo4Z3BobDNvSGpxSVdmbzloWkZESDJkYW44dnJIWjI1cDNpd3pSbGhoQUs0VVhXTml5d1h5ckRkVFdMRkpDZjRlTTd2LTRVS1JsZi16RkE?oc=5",
-      "source": "ERR",
-      "published": "Fri, 06 Nov 2026 09:41:00 GMT",
-      "summary": "Прийт Рейска: редкая возможность увеличить число людей с высшим образованием ERR"
+      "title": "Тульская область готова оперативно включиться в федеральную программу развития ветеранов без высшего образования - Тульские известия",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5kUG8zX3pUanZkX3RIS3YtbklWUkg2Y0tzMnk1N3FLeU5CclJJVWVxZXdseU45bjJKNDNaVXYzaVVoUQ?oc=5",
+      "source": "Тульские известия",
+      "published": "Fri, 06 Nov 2026 17:56:28 GMT",
+      "summary": "Тульская область готова оперативно включиться в федеральную программу развития ветеранов без высшего образования Тульские известия"
     },
     {
-      "title": "С 2027 года в вузах появится социогуманитарное ядро для всех студентов - Первое сентября",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSUTdSdW40dTZNRnhGczRUSWU0N0NMZlV1RG1zN3JwMWFrVjRtNnpNeXMtb1h3MlNDR0VKLVpZeEhDSjN6ZkJtZnpnZ0VaTVE?oc=5",
-      "source": "Первое сентября",
-      "published": "Wed, 04 Nov 2026 10:03:15 GMT",
-      "summary": "С 2027 года в вузах появится социогуманитарное ядро для всех студентов Первое сентября"
+      "title": "«И не друг, и не враг, а так»: как российские вузы меняют Европу на Азию и Африку и при чем тут документы китайского студента за МКАДом - Ostorozhno Media",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE40OGYwZkFuQTBRb0FWNmJFQ1hwSlBUOW1CcmZRWG03b0hTT2Z3TmJHSnRMSFZtU2J5Mjk5RFhBUnJGZEU?oc=5",
+      "source": "Ostorozhno Media",
+      "published": "Fri, 06 Nov 2026 17:23:46 GMT",
+      "summary": "«И не друг, и не враг, а так»: как российские вузы меняют Европу на Азию и Африку и при чем тут документы китайского студента за МКАДом Ostorozhno Media"
     },
     {
-      "title": "Информационное сообщение о проведении конкурса на замещение вакантной должности директора муниципального общеобразовательного учреждения «Основная общеобразовательная школа № 81» - Администрация Саратова",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUmFKM3JMV3VrZDNWMVBEY2UxYk04bzZmd2N2N01OX2tteS1vc1lDYVQyNjFyOTdZMU5aLWpSVGw2bWpySkJSTEU4V2prdl9TQ19QREp1aTVtbTVwck9GUjMyY0g3SlpjLW9oQUF0NktPbUJlRDlUZDlWcGl0enhiLU1rWWZuOXRLd2J0S0RtRzZHWlpYXzNDUkVwdDd6UjVwR2tfOFNKUjNyYnpKRnNQaVoyUG9PYkZNMkVsRERrMk5DeHhlWHJvM2RyZUxkZ2NDRFdF?oc=5",
-      "source": "Администрация Саратова",
-      "published": "Thu, 05 Nov 2026 12:59:46 GMT",
-      "summary": "Информационное сообщение о проведении конкурса на замещение вакантной должности директора муниципального общеобразовательного учреждения «Основная общеобразовательная школа № 81» Администрация Саратова"
+      "title": "Для тульских бойцов СВО без высшего образования разработают отдельную программу профразвития - | ИА “Тульская Пресса”",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXFwOG0zMC1XVW9oVjlOR1lRYzlQV3k5X2RlY2pXUWN0SC1nMVBYbTBjWEdITERvNTJrYzJ0cHdjTlJ0TThjbS1JSlIzUmFJNXhCcmNFTGl4Snh4cloxMWdKeU5yMTNrNi1HZTFlUjlJN3VkMW83OXFEOG1nemVwZW5RejBIcWxpcXdLMk5CN295alRDUnZ1dHpmckwxQ01obExkbkRSd01rVFRubmNuR3gxUmNlSFdaNDZKNXpqMVpJc0JSYVHSAcsBQVVfeXFMTzVRSlh1azhySTc5OERvTlg4RjZzMEU5Q203OVQ3SjVqc2dMNm8xNGNwNlEtZmt4RlhrRFhtTXNmUDgxYXd0UWktTFlxOFpWMlkzXzJLTHBYLTc0YUROeEh5dERDYzI5Si1wQ2FsNFhtNXBTQlhCT2YtbmdNR044REJHWFByZGhuMXFXM0FQUDFXb0l4WVQzRVNtbmtWeFRqMjFmdFhJRUxaUlp2Smw3d0JsdEdxanlWcVQ2bFdtcjFxMmc0UmxPMGtGMHc?oc=5",
+      "source": "| ИА “Тульская Пресса”",
+      "published": "Fri, 06 Nov 2026 17:21:43 GMT",
+      "summary": "Для тульских бойцов СВО без высшего образования разработают отдельную программу профразвития | ИА “Тульская Пресса”"
     },
     {
-      "title": "Самарские вузы поборются за лидерство в сфере молодежной политики - Волга Ньюс - Волга Ньюс",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RUUlkQzNOWTJlYTI5S04tbmZERVlLUnhOSHc5Y1ZwSHRHaUVSSExvSC1BQ1JkZTFYZklINFVQZVk1Yk91cURGV3ZjTld5QVk?oc=5",
-      "source": "Волга Ньюс",
-      "published": "Thu, 05 Nov 2026 13:14:00 GMT",
-      "summary": "Самарские вузы поборются за лидерство в сфере молодежной политики - Волга Ньюс Волга Ньюс"
+      "title": "Диплом один, а предметы для всех общие: российские вузы готовятся к большой перестройке обучения - Правда.Ру",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BeVpCX3lTbDlNamk1cjltNFZfd1R6M1BmNW53Q2k2U01OWXdMU0ZKTWVta0FUc2RTWno4TFZ5TUthV1ZqdEFsUERLWTJEN2ZoX3NuZmJocm5lamZ1ZnhJdUxNWnVnQW9ZOWNqUlFLazFUblQ2U3ppdzZPREV2aXc?oc=5",
+      "source": "Правда.Ру",
+      "published": "Fri, 06 Nov 2026 13:52:00 GMT",
+      "summary": "Диплом один, а предметы для всех общие: российские вузы готовятся к большой перестройке обучения Правда.Ру"
     }
   ],
   "conferenceUpdates": [
+    {
+      "title": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс - Волга Ньюс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeUdPNjRKTlpJcFMxN1plZTlrNnNNa0VWaEx6T1JWV1BkenlfTEtxcmhoQmhhQ0I0Vl9ySnZXeG5peWRSQUE4aEZZdDJMRFk?oc=5",
+      "source": "Волга Ньюс",
+      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "summary": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс Волга Ньюс"
+    },
     {
       "title": "В Институте психологии и образования прошла международная научно-практическая конференция 'Антропология педагогического образования и межкультурный диалог в цифровую эпоху', посвященная 100-летию со дня рождения академика М. - Казанский (Приволжский) федеральный университет",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWFfTUhQTklQNHoydkUzNEl2ZE13WmJpZW83NGtuUGM1UXdENWtyb1pMbmtYLUN5VUVMcnZFVE9jNDhDdHpwYW10ajRiOXJQU2ltQUV4LUNZVUUtejFOUjFkNEFCbFU0WDRZTkZxNHR1S05aV2I5TG80bmxSQU1NMUE1dFZnaXBNNU1ITQ?oc=5",
@@ -164,13 +181,6 @@
       "source": "МГИМО",
       "published": "Mon, 01 Dec 2025 08:00:00 GMT",
       "summary": "Конференция «Бизнес-психология: теория и практика» МГИМО"
-    },
-    {
-      "title": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' - Казанский (Приволжский) федеральный университет",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX05CYU1qZ0pKYkota0w2U01EZzkzTm04VF9wYzh3ZDRyMmJycjV2VXdiSEl2RFZ2UWZlWWVudVhnZGNfUFczOG1Ic3Y3NTdaTEtlTUFxcXVEcTJHWVd3RVVZaExkTHYyVkJwSFdfeVRZOEFqZ0poc0lFN3NsanZLTUNQYw?oc=5",
-      "source": "Казанский (Приволжский) федеральный университет",
-      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "summary": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' Казанский (Приволжский) федеральный университет"
     },
     {
       "title": "«Фундаментальным основанием для работы в сфере психологии является искренний интерес к людям» - Высшая школа экономики",
@@ -187,27 +197,27 @@
       "summary": "18-й Саммит психологов: опыт коллег в условиях кризиса Психологическая газета"
     },
     {
-      "title": "Перспективы психологии развития обсудили на Ананьевских чтениях - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9rVnltVXZYTkpvOFpvNE1RMExxNjRqSzlsdlVrSHpFLUF5X3ZkYmw5cDlDWGJxNW9Ea19LTG5oRQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Wed, 18 Oct 2023 07:00:00 GMT",
-      "summary": "Перспективы психологии развития обсудили на Ананьевских чтениях Психологическая газета"
+      "title": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' - Казанский (Приволжский) федеральный университет",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX05CYU1qZ0pKYkota0w2U01EZzkzTm04VF9wYzh3ZDRyMmJycjV2VXdiSEl2RFZ2UWZlWWVudVhnZGNfUFczOG1Ic3Y3NTdaTEtlTUFxcXVEcTJHWVd3RVVZaExkTHYyVkJwSFdfeVRZOEFqZ0poc0lFN3NsanZLTUNQYw?oc=5",
+      "source": "Казанский (Приволжский) федеральный университет",
+      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
+      "summary": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' Казанский (Приволжский) федеральный университет"
     }
   ],
   "sportAiUpdates": [
-    {
-      "title": "Наука и технологии подпитывают стремление к покорению высочайших вершин. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWGNnd2c4UnNyeGR0bGZJN2NEQWFMZnRua0o2d1YyVGNKdUZlUGNhdWY2VEszOXRxWmhlN0xPNTJkY2RTb095aDFFWWpzRjN3TzZmRnQ2WHlRMkUzOUdJUEo4aXUwU2x5ajN4amZMSThKcEtWTE81dm9wak5mRnRCWVRuRk9xM3JCS2lEaW5wUUc?oc=5",
-      "source": "Vietnam.vn",
-      "published": "Fri, 06 Nov 2026 06:34:01 GMT",
-      "summary": "Наука и технологии подпитывают стремление к покорению высочайших вершин. Vietnam.vn"
-    },
     {
       "title": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований - Донской государственный технический университет",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdHFtODMtbGFlWG1hLVZXUFpwRDNjQWNkblVxQktHSWVLMWhIVnhkOXgzMVhRek1oSU5nVW9RSHpWdV9ZMnhTdjhOMldRUDI4SzBTQ3VXRFNrSXYxcG5GLVRNblpOcl9qa2FmbXd5VWY1Yl9iN1pERmZ3OXNya0xKTW5LV2hVd3M5TUxUdUdnRkNiUUVHWllQTU83ZTNaNXAtRUN5OC1zQ2h3TC1iY0ZLVTVOa3BxdEE4eFo1NFV5VQ?oc=5",
       "source": "Донской государственный технический университет",
       "published": "Mon, 12 Oct 2026 07:00:00 GMT",
       "summary": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований Донской государственный технический университет"
+    },
+    {
+      "title": "Наука и технологии подпитывают стремление к покорению высочайших вершин. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWGNnd2c4UnNyeGR0bGZJN2NEQWFMZnRua0o2d1YyVGNKdUZlUGNhdWY2VEszOXRxWmhlN0xPNTJkY2RTb095aDFFWWpzRjN3TzZmRnQ2WHlRMkUzOUdJUEo4aXUwU2x5ajN4amZMSThKcEtWTE81dm9wak5mRnRCWVRuRk9xM3JCS2lEaW5wUUc?oc=5",
+      "source": "Vietnam.vn",
+      "published": "Fri, 06 Nov 2026 06:34:01 GMT",
+      "summary": "Наука и технологии подпитывают стремление к покорению высочайших вершин. Vietnam.vn"
     },
     {
       "title": "Сбер представил ИИ-решения для тренеров спортивных клубов - Сбербанк",
@@ -231,11 +241,11 @@
       "summary": "Программы с ИИ и поиск закономерностей: почему пенальти уже не лотерея Ведомости"
     },
     {
-      "title": "Робот впервые обыграл профессионалов в настольный теннис: видео - Телеканал «Наука",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSXI1SWlYOTFINmdJR1pkN3Fra0tUbEJ0alhucUxmcjc1MUViMFkwM0xwQ2dzTHluYmx2ODF2ZzdHd1ZNaVdva2dWWTV5ZXl2Q1dod2trR0ZLbzRYeVFBakd0U1NBejlaMDVYd0prcTBKM2FZdEw2emVQVjZ0RUJaNnY5b0VpeWFhT3F2RjJR?oc=5",
+      "title": "Нейробиологи: музыкальность — врожденная черта всех людей - Телеканал «Наука",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU1NXSC12OG9KbmtRUU1YVVpWWDFxaXlERTZpd205aEdsdjZFbWo5c19oRXJrUDNwbTE5bkI4Qm5BXzFJdDVVaFcxLV9CTWNiN1RWSk1vend0N040TG03LW92Mjd3SnhncDJPdk0zTkdtUEZMY0h5OGcwc3psQWhxeXZ3RzVzbV9KV0toNzJQQ1pLTy1UQy1ubzhfcXd3SS1aSVA2TUJSTTI1OEMyaU9aZjVDbXFPLXU0SHZ3NHBZenFFMWMtZGd0aVhpcVpOTnhfTzdN?oc=5",
       "source": "Телеканал «Наука",
-      "published": "Thu, 23 Apr 2026 07:00:00 GMT",
-      "summary": "Робот впервые обыграл профессионалов в настольный теннис: видео Телеканал «Наука"
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "summary": "Нейробиологи: музыкальность — врожденная черта всех людей Телеканал «Наука"
     }
   ],
   "openPublications": [
@@ -282,7 +292,36 @@
       "summary": "Kawthar Abd Al Jabbar Hashim, Ekhlas Hameed Karam · International Journal of Automation and Control"
     }
   ],
-  "moonnUpdates": [],
+  "moonnUpdates": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Выступления"
+    },
+    {
+      "title": "Психолог Татьяна Мунн",
+      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Психолог Татьяна Мунн"
+    },
+    {
+      "title": "К.Ц. Полярный — Татьяна Мунн, МГУ",
+      "url": "https://xn--l1acaw.xn--p1ai/k-ts-polyarnyy-tatyana-munn-mgu",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "К.Ц. Полярный — Татьяна Мунн, МГУ"
+    },
+    {
+      "title": "Лекции по эмоциональному интеллекту",
+      "url": "https://xn--l1acaw.xn--p1ai/emotional-intelligence-lectures",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Лекции по эмоциональному интеллекту"
+    }
+  ],
   "telegramUpdates": [
     {
       "title": "🧠 Сегодня в 19:00 приглашаю на лекцию «Психология боли»! Почему одну и ту же боль люди переживают по-разному? Как на её восприятие влияют эмоции, внимание и наши ожидания? И какую ",
