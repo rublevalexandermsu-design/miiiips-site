@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-11-11T12:51:32.297587+00:00",
+  "generatedAt": "2026-11-12T13:53:52.358294+00:00",
   "ticker": [
     {
-      "title": "Быстрая психология Татьяны Мунн pinned « Сегодня, 29 октября, в 20:00 по Москве встречаемся на онлайн-эфире «Духовная психология» 🌿 Поговорим об уровнях души: как перейти от привыч",
-      "url": "https://t.me/moonn_official/1005",
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
+    {
+      "title": "Психолог Татьяна Мунн",
+      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
+      "source": "мунн.рф"
+    },
+    {
+      "title": "✨ Сегодня в 19:00 приглашаю на лекцию «Психология успеха и удачи. Как замечать возможности и действовать»! Почему одним удаётся замечать возможности, а другие проходят мимо? Что в ",
+      "url": "https://t.me/moonn_official/1013",
       "source": "Telegram"
     },
     {
-      "title": "В следующий раз расскажу о теме разных типов душ подробнее в эфире про Духовную психологию Спасибо всем, кто был сегодня со мной в эфире 🙏 😘",
-      "url": "https://t.me/moonn_official/1009",
+      "title": "✨ Сегодня в КДЦ «Полярный» прошла лекция «Психология успеха и удачи», открывшая ноябрьский цикл «Психология успеха». Что для нас значит успех? По каким признакам мы его оцениваем? ",
+      "url": "https://t.me/moonn_official/1014",
       "source": "Telegram"
     },
     {
@@ -37,9 +47,9 @@
       "source": "Психологическая газета"
     },
     {
-      "title": "«Психология помогла понять, что каждый человек индивидуален» - Томский государственный университет",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0E0cUN2OXVjX2dWOHFxUG43cUt2eHZPRkR3NkpFT29xVGdqWjVhMW5YUi12WmJIc0FEU2J3eHlVUXdzQW00TUxHX2dkSElueE15QVc0a0Q2YXBBUGRrV3ZGd3FJNnpGSmFESmpweGRkclpmUV9qTGhfN19HbFBGbVk3Zmtpbkcwa0s4Zzd5Wkk0Zw?oc=5",
-      "source": "Томский государственный университет"
+      "title": "Ананьевские чтения посвятили 60‑летию факультета психологии СПбГУ - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5LTnVySmNlNU1TbDRIdWNoTlJFUkFNNEF4V0poN3RNSzFKQnJQaVlaS2F5YVZTWFpWM3lDSFFfcw?oc=5",
+      "source": "Психологическая газета"
     },
     {
       "title": "Студенты ДГТУ вместе со Sber AI внедряют ИИ-технологии в судейство спортивных соревнований - Донской государственный технический университет",
@@ -52,14 +62,14 @@
       "source": "Сбербанк"
     },
     {
-      "title": "«Время героев» вновь открывает двери: впервые в управленцы пойдут ветераны и участники СВО без высшего образования - Амурская правда",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQnJNLTQ4eXhqSHNMeXE0aG1xbTFWQjdvNVd3cUhTX1FzaU96am5WYnd5N3lMWHRZTUFSWE55a3cxT25NLXQ4UnZLNWhhU3VpVENLaTZpNFVDeEk3bG5wQ1ljOFN6WWVZb21CaUpoOU5zZlI5Z1VWTUJTMTNrcHVRckk4WFJOV19vZ3ZDcFZRMGVXZ3Z4RHFCcjRST0RJcWRhbjYwd0lMZjRCNzRfYlF2QUFrdmRvSkEwaFVnZGlpakgwa19XOWpISW9US1NRT2R2LVl2eWxzV1E2cWc?oc=5",
-      "source": "Амурская правда"
+      "title": "Владимир Путин дал старт третьему потоку «Времени героев»: теперь обучение доступно без высшего образования - stv92",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KU1BQcE9pVkpYT0hmMjZ3LTg1SmxUNWRzN0c3d0tMT1c0eHdvZ2g3Zm1aZXFZdVFvT2lRZmNtYlFWOWd4TEwweQ?oc=5",
+      "source": "stv92"
     },
     {
-      "title": "Россияне выбирают образование: число студентов колледжей и вузов продолжает расти - Ведомости",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSjF3blcxc2NVb2NEY21Ebzd4TEE4dThqWHVhSWJ3dzZUN1RSVXBaczVzbG5Od2FnaVNPQ3hkaU9qQUhFS2NKaWlnbVpBZ3VnbDQxbkc5d01UMlNKTDMtT25xSXJGbnRMTUZIM2xxY1BrMjBWTjNMOGJqNnVJTXJiNmJ5MmlxeFNuR1c5U2JlWHFIMDNFSXBIX29IZnlQMGo3OWtBVjB5Y2YzVnh5MHJSTmNZYl9ub3NvR1RsTTVnQ1dPOUgzRklSUXJtNnJ1SVhPOFE?oc=5",
-      "source": "Ведомости"
+      "title": "Почти миллион заявок подали студенты на юбилейный сезон \"Я — профессионал\" - РАПСИ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fclowczVvSXZvSDlwTjR3bUFGWnktRFFzaV9xV09ja3p3SEppVlM1eFA1U3lseUdfYXhEWDJOc3B3bVlRN0NCMENkUXJHQTZaNFRCdmpCYWVnTE5NdFRRTkE4WmZHWUJZN0E?oc=5",
+      "source": "РАПСИ"
     }
   ],
   "psychologyTrends": [
@@ -69,6 +79,13 @@
       "source": "Психологическая газета",
       "published": "Mon, 09 Nov 2026 12:26:23 GMT",
       "summary": "Почему я вынуждена покинуть факультет психологии МГУ, который всегда был мне домом? Психологическая газета"
+    },
+    {
+      "title": "Ананьевские чтения посвятили 60‑летию факультета психологии СПбГУ - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5LTnVySmNlNU1TbDRIdWNoTlJFUkFNNEF4V0poN3RNSzFKQnJQaVlaS2F5YVZTWFpWM3lDSFFfcw?oc=5",
+      "source": "Психологическая газета",
+      "published": "Wed, 11 Nov 2026 13:51:11 GMT",
+      "summary": "Ананьевские чтения посвятили 60‑летию факультета психологии СПбГУ Психологическая газета"
     },
     {
       "title": "«Психология помогла понять, что каждый человек индивидуален» - Томский государственный университет",
@@ -92,13 +109,6 @@
       "summary": "Психология как профессия будущего: что обсуждали на круглом столе в Общественной палате Психологическая газета"
     },
     {
-      "title": "Казнь психологии: в новых УГСН не будет психологических наук - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5aeU9ZdmlNRVlvNlh5SjhmRE0tS2FCRVZ6ZkJJVGtIQnFyMVJER3JpbE5uWnlHZGRqWThsR2o0WQ?oc=5",
-      "source": "Психологическая газета",
-      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "summary": "Казнь психологии: в новых УГСН не будет психологических наук Психологическая газета"
-    },
-    {
       "title": "Статья | Развиваем эмоциональный интеллект - Растим детей. Навигатор для современных родителей",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR3lsMjRJRTdnOXFrXzZSNy1UOEJFSHNXQ0tBTm40VmszSlB3UlNDd200aUEtS09JMmVVYWdfLTBEaTNvWTlYeXFYMjFuMzJQOXAxLVZmR1dibnlUZUxaQW9JTGpqOEZ0R082N3ExeWthemFQekRwQVJJV0E1WDVZRmxqNA?oc=5",
       "source": "Растим детей. Навигатор для современных родителей",
@@ -108,11 +118,18 @@
   ],
   "educationPolicy": [
     {
-      "title": "«Время героев» вновь открывает двери: впервые в управленцы пойдут ветераны и участники СВО без высшего образования - Амурская правда",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQnJNLTQ4eXhqSHNMeXE0aG1xbTFWQjdvNVd3cUhTX1FzaU96am5WYnd5N3lMWHRZTUFSWE55a3cxT25NLXQ4UnZLNWhhU3VpVENLaTZpNFVDeEk3bG5wQ1ljOFN6WWVZb21CaUpoOU5zZlI5Z1VWTUJTMTNrcHVRckk4WFJOV19vZ3ZDcFZRMGVXZ3Z4RHFCcjRST0RJcWRhbjYwd0lMZjRCNzRfYlF2QUFrdmRvSkEwaFVnZGlpakgwa19XOWpISW9US1NRT2R2LVl2eWxzV1E2cWc?oc=5",
-      "source": "Амурская правда",
-      "published": "Wed, 11 Nov 2026 08:01:00 GMT",
-      "summary": "«Время героев» вновь открывает двери: впервые в управленцы пойдут ветераны и участники СВО без высшего образования Амурская правда"
+      "title": "Владимир Путин дал старт третьему потоку «Времени героев»: теперь обучение доступно без высшего образования - stv92",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KU1BQcE9pVkpYT0hmMjZ3LTg1SmxUNWRzN0c3d0tMT1c0eHdvZ2g3Zm1aZXFZdVFvT2lRZmNtYlFWOWd4TEwweQ?oc=5",
+      "source": "stv92",
+      "published": "Thu, 12 Nov 2026 07:56:01 GMT",
+      "summary": "Владимир Путин дал старт третьему потоку «Времени героев»: теперь обучение доступно без высшего образования stv92"
+    },
+    {
+      "title": "Почти миллион заявок подали студенты на юбилейный сезон \"Я — профессионал\" - РАПСИ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fclowczVvSXZvSDlwTjR3bUFGWnktRFFzaV9xV09ja3p3SEppVlM1eFA1U3lseUdfYXhEWDJOc3B3bVlRN0NCMENkUXJHQTZaNFRCdmpCYWVnTE5NdFRRTkE4WmZHWUJZN0E?oc=5",
+      "source": "РАПСИ",
+      "published": "Thu, 12 Nov 2026 06:08:27 GMT",
+      "summary": "Почти миллион заявок подали студенты на юбилейный сезон \"Я — профессионал\" РАПСИ"
     },
     {
       "title": "Россияне выбирают образование: число студентов колледжей и вузов продолжает расти - Ведомости",
@@ -122,6 +139,13 @@
       "summary": "Россияне выбирают образование: число студентов колледжей и вузов продолжает расти Ведомости"
     },
     {
+      "title": "«Олимпиада больше не всесильна»: Ведущие вузы России резко меняют правила приема для умников - Сибирское информационное агентство",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UX1JyMHI1YUdQUTVlY3M1ejV3SmV2N0xwbWFzVzFKa056S0d6bThPWFkxSlpWTVl5Z25nSmpYS2ZNZ0VlaHBXZEd1RnBWWUQ5dHRkMHdZNXl1RUpMNThoUldCR2JTWGc?oc=5",
+      "source": "Сибирское информационное агентство",
+      "published": "Thu, 12 Nov 2026 00:22:00 GMT",
+      "summary": "«Олимпиада больше не всесильна»: Ведущие вузы России резко меняют правила приема для умников Сибирское информационное агентство"
+    },
+    {
       "title": "Правила платного приёма в вузы могут продлить до 1 марта 2033 года - Первое сентября",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zYmRLTi1vMHdqeU83dG9jdlVQakZ0RmJhc09CNVhVZzV0RWxKMWkxNDF1RVcxeGpFV0xKX1NMd0RfWWhVVjZLbE1ZRU5VWUk?oc=5",
       "source": "Первое сентября",
@@ -129,25 +153,11 @@
       "summary": "Правила платного приёма в вузы могут продлить до 1 марта 2033 года Первое сентября"
     },
     {
-      "title": "В вузах Центральной России назвали наиболее востребованные специальности - Финансы Mail",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc2NaQkN6SzIwREwzd1I2UnF2UHItRkNCb01sMEhXZ0V2cW5FZFdTX3VTNHl0SnJGdElabll4c0JWRnl4TU5ibTdXci05dXNJQlZ1NmQtZmdLbWQ0NU1ZMndSSmlVbFBNTWIzd05EZ2RJWFBnaWZDck1JNm1fWGJ2ZVlvWGpKMmdna0s4cGRudk9NTDNTWllxck44eFpvMnE5Q0szTXp1enFId0hBTERPbVRTZTdkdw?oc=5",
-      "source": "Финансы Mail",
-      "published": "Tue, 10 Nov 2026 11:31:44 GMT",
-      "summary": "В вузах Центральной России назвали наиболее востребованные специальности Финансы Mail"
-    },
-    {
-      "title": "В Сенгилеевском районе Ульяновской области есть дюжина вакансий. Успей трудоустроиться - Улправда",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFROZ3pYUXgxaHBoWi1ORFlxVkc4SVFXWXN3bll2bFdZQWlyc01IUXYtaWtaTzBucVh1VG9qVVNFTUhpS21lSTI4WElpSlBLclJPcGFHbnpHY0ZuZVNaLVhPU082cnBOUUF6ZEhaSXhLanZpcmwwLVgyUUEtUml2TFRKZUY0Q2s1amtIWE0yZW9OZFlVSXgxV3Judl9nWHJCWG1YaVF1ZnVDcERGYkNEeWIyNHQzZ05CRHRBRm1xS2Frdw?oc=5",
-      "source": "Улправда",
-      "published": "Wed, 11 Nov 2026 02:30:00 GMT",
-      "summary": "В Сенгилеевском районе Ульяновской области есть дюжина вакансий. Успей трудоустроиться Улправда"
-    },
-    {
-      "title": "Платный приём в вузы: правила могут закрепить на семь лет - Учительская газета",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWX2NJMk85NGlFVlNNZ2NvVW5rUlMxdGhkQmJoTGx1RmswLXNlc3FoSV8xbVFJMktJdV84VjNYNnhtMkgzUTlLQjc5YzNSb0xDS09RVnUwVkZ4V1ZqZGhCRXdHLVlWRGRMRVRwV1E0ak5oVmNzMnNWdWpB?oc=5",
-      "source": "Учительская газета",
-      "published": "Mon, 09 Nov 2026 11:58:34 GMT",
-      "summary": "Платный приём в вузы: правила могут закрепить на семь лет Учительская газета"
+      "title": "Встреча со студентами БГУ, участвующими в проекте «Поддержка образования девочек» - Azərtac",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU3YwNkM3UVEwX3l5Q2kxMDZEUG1Dem9FYU9VQkdxbm5mdlhGd2VnckJ4Ums3ZnptTjBVMGNhcU1CLWhibGVkQlV0aGppTDJ4U05WZldTMy1SelpxTEZIQlowVWJOcFNDYW9JOTN3T2tSUlBLM3hlaTFhOHhGUWFHcDd0YkF2V2dhYWtVdE90X1N0Smx5WUlTUGdjWGI1QWVMa1o0VTM4TmdiZ2U3dnBnLWgtUDlQZ3c1NXBDTF91WWM?oc=5",
+      "source": "Azərtac",
+      "published": "Thu, 12 Nov 2026 06:28:00 GMT",
+      "summary": "Встреча со студентами БГУ, участвующими в проекте «Поддержка образования девочек» Azərtac"
     }
   ],
   "conferenceUpdates": [
@@ -180,18 +190,18 @@
       "summary": "18-й Саммит психологов: опыт коллег в условиях кризиса Психологическая газета"
     },
     {
-      "title": "“ИИ не заменит людей, но точно заменит тех, кто не умеет им пользоваться”. Что мы узнали на первой конференции Smartpress про нейросети - Smartpress.by",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOR29OOEc2cjB3dnYtWE01ZVFqemRHbmlyTnJORjNmSVVMbVhiMUktbG41eTFGTUNaMW1SOGxlUndVdHJpYi1IWTVOT08yTzY4Q2swUUxFcTVKS1lqUnVaWE9nS3BaWkJWQWtSSGJqSDZvRXFoemZnME11NHJ2UERGUXFBVlpFRFRWaDRaOUFTd1d3SDZYTVctdldEdmtocmJfLXlyZ3p2b2NDMktja2tUVTQwaVRNSkptMGtaXzE0WmVOV2hKT1BpUjk2SkhTWWVwcWg0TUdzXzc4VVBrclF3aVV5cU9BWDQ?oc=5",
-      "source": "Smartpress.by",
-      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
-      "summary": "“ИИ не заменит людей, но точно заменит тех, кто не умеет им пользоваться”. Что мы узнали на первой конференции Smartpress про нейросети Smartpress.by"
-    },
-    {
       "title": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' - Казанский (Приволжский) федеральный университет",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX05CYU1qZ0pKYkota0w2U01EZzkzTm04VF9wYzh3ZDRyMmJycjV2VXdiSEl2RFZ2UWZlWWVudVhnZGNfUFczOG1Ic3Y3NTdaTEtlTUFxcXVEcTJHWVd3RVVZaExkTHYyVkJwSFdfeVRZOEFqZ0poc0lFN3NsanZLTUNQYw?oc=5",
       "source": "Казанский (Приволжский) федеральный университет",
       "published": "Mon, 27 Apr 2026 07:00:00 GMT",
       "summary": "Международная научно-практическая конференция 'Антропология детства и межкультурный диалог в цифровую эпоху' Казанский (Приволжский) федеральный университет"
+    },
+    {
+      "title": "“ИИ не заменит людей, но точно заменит тех, кто не умеет им пользоваться”. Что мы узнали на первой конференции Smartpress про нейросети - Smartpress.by",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOR29OOEc2cjB3dnYtWE01ZVFqemRHbmlyTnJORjNmSVVMbVhiMUktbG41eTFGTUNaMW1SOGxlUndVdHJpYi1IWTVOT08yTzY4Q2swUUxFcTVKS1lqUnVaWE9nS3BaWkJWQWtSSGJqSDZvRXFoemZnME11NHJ2UERGUXFBVlpFRFRWaDRaOUFTd1d3SDZYTVctdldEdmtocmJfLXlyZ3p2b2NDMktja2tUVTQwaVRNSkptMGtaXzE0WmVOV2hKT1BpUjk2SkhTWWVwcWg0TUdzXzc4VVBrclF3aVV5cU9BWDQ?oc=5",
+      "source": "Smartpress.by",
+      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
+      "summary": "“ИИ не заменит людей, но точно заменит тех, кто не умеет им пользоваться”. Что мы узнали на первой конференции Smartpress про нейросети Smartpress.by"
     }
   ],
   "sportAiUpdates": [
@@ -282,22 +292,37 @@
       "summary": "Kawthar Abd Al Jabbar Hashim, Ekhlas Hameed Karam · International Journal of Automation and Control"
     }
   ],
-  "moonnUpdates": [],
+  "moonnUpdates": [
+    {
+      "title": "Выступления",
+      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Выступления"
+    },
+    {
+      "title": "Психолог Татьяна Мунн",
+      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Психолог Татьяна Мунн"
+    },
+    {
+      "title": "К.Ц. Полярный — Татьяна Мунн, МГУ",
+      "url": "https://xn--l1acaw.xn--p1ai/k-ts-polyarnyy-tatyana-munn-mgu",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "К.Ц. Полярный — Татьяна Мунн, МГУ"
+    },
+    {
+      "title": "Лекции по эмоциональному интеллекту",
+      "url": "https://xn--l1acaw.xn--p1ai/emotional-intelligence-lectures",
+      "source": "мунн.рф",
+      "published": "",
+      "summary": "Лекции по эмоциональному интеллекту"
+    }
+  ],
   "telegramUpdates": [
-    {
-      "title": "Быстрая психология Татьяны Мунн pinned « Сегодня, 29 октября, в 20:00 по Москве встречаемся на онлайн-эфире «Духовная психология» 🌿 Поговорим об уровнях души: как перейти от привыч",
-      "url": "https://t.me/moonn_official/1005",
-      "source": "Telegram",
-      "published": "",
-      "summary": "Быстрая психология Татьяны Мунн pinned « Сегодня, 29 октября, в 20:00 по Москве встречаемся на онлайн-эфире «Духовная психология» 🌿 Поговорим об уровнях души: как перейти от привычных реакций к осознанному выбору. Иногда внутри нас словно спорят несколько голо"
-    },
-    {
-      "title": "В следующий раз расскажу о теме разных типов душ подробнее в эфире про Духовную психологию Спасибо всем, кто был сегодня со мной в эфире 🙏 😘",
-      "url": "https://t.me/moonn_official/1009",
-      "source": "Telegram",
-      "published": "",
-      "summary": "В следующий раз расскажу о теме разных типов душ подробнее в эфире про Духовную психологию Спасибо всем, кто был сегодня со мной в эфире 🙏 😘"
-    },
     {
       "title": "✨ Сегодня в 19:00 приглашаю на лекцию «Психология успеха и удачи. Как замечать возможности и действовать»! Почему одним удаётся замечать возможности, а другие проходят мимо? Что в ",
       "url": "https://t.me/moonn_official/1013",
@@ -325,6 +350,20 @@
       "source": "Telegram",
       "published": "",
       "summary": "Быстрая психология Татьяны Мунн pinned « ✨ Духовная психология: как услышать себя Сегодня в 20:00 приглашаю вас на встречу в моём Telegram-канале. В повседневной суете мы часто живём на автомате: решаем задачи, спешим и не всегда замечаем, что происходит внутр"
+    },
+    {
+      "title": "💜 Сегодня, 9 ноября, приглашаю на лекцию «Психология зависти»! Поговорим о том, что чужой успех говорит о наших собственных желаниях. 🎤 Психолог Татьяна Мунн 🗓 9 ноября, понедельни",
+      "url": "https://t.me/moonn_official/1024",
+      "source": "Telegram",
+      "published": "",
+      "summary": "💜 Сегодня, 9 ноября, приглашаю на лекцию «Психология зависти»! Поговорим о том, что чужой успех говорит о наших собственных желаниях. 🎤 Психолог Татьяна Мунн 🗓 9 ноября, понедельник 🕖 19:00–21:00 МСК 📍 КДЦ «Полярный», Москва, ул. Полярная, 9 🚇 Метро «Бабушкинс"
+    },
+    {
+      "title": "👑 Сегодня в КДЦ «Полярный» прошла лекция «Психология зависти» из цикла «Психология успеха». Почему чужие достижения иногда так задевают? Откуда берётся желание сравнивать себя с др",
+      "url": "https://t.me/moonn_official/1025",
+      "source": "Telegram",
+      "published": "",
+      "summary": "👑 Сегодня в КДЦ «Полярный» прошла лекция «Психология зависти» из цикла «Психология успеха». Почему чужие достижения иногда так задевают? Откуда берётся желание сравнивать себя с друзьями, коллегами и даже близкими? И что можно понять о себе, если честно призна"
     }
   ]
 }
