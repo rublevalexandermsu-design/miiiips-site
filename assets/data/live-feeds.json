@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-11-14T12:21:30.092491+00:00",
+  "generatedAt": "2026-11-15T12:52:30.189285+00:00",
   "ticker": [
-    {
-      "title": "Выступления",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
-    {
-      "title": "Психолог Татьяна Мунн",
-      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
-      "source": "мунн.рф"
-    },
     {
       "title": "💜 Сегодня, 9 ноября, приглашаю на лекцию «Психология зависти»! Поговорим о том, что чужой успех говорит о наших собственных желаниях. 🎤 Психолог Татьяна Мунн 🗓 9 ноября, понедельни",
       "url": "https://t.me/moonn_official/1024",
@@ -22,14 +12,14 @@
       "source": "Telegram"
     },
     {
-      "title": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс - Волга Ньюс",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeUdPNjRKTlpJcFMxN1plZTlrNnNNa0VWaEx6T1JWV1BkenlfTEtxcmhoQmhhQ0I0Vl9ySnZXeG5peWRSQUE4aEZZdDJMRFk?oc=5",
-      "source": "Волга Ньюс"
-    },
-    {
       "title": "В Институте психологии и образования прошла международная научно-практическая конференция 'Антропология педагогического образования и межкультурный диалог в цифровую эпоху', посвященная 100-летию со дня рождения академика М. - Казанский (Приволжский) федеральный университет",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWFfTUhQTklQNHoydkUzNEl2ZE13WmJpZW83NGtuUGM1UXdENWtyb1pMbmtYLUN5VUVMcnZFVE9jNDhDdHpwYW10ajRiOXJQU2ltQUV4LUNZVUUtejFOUjFkNEFCbFU0WDRZTkZxNHR1S05aV2I5TG80bmxSQU1NMUE1dFZnaXBNNU1ITQ?oc=5",
       "source": "Казанский (Приволжский) федеральный университет"
+    },
+    {
+      "title": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс - Волга Ньюс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeUdPNjRKTlpJcFMxN1plZTlrNnNNa0VWaEx6T1JWV1BkenlfTEtxcmhoQmhhQ0I0Vl9ySnZXeG5peWRSQUE4aEZZdDJMRFk?oc=5",
+      "source": "Волга Ньюс"
     },
     {
       "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
@@ -146,34 +136,34 @@
       "summary": "«Педагогика образования» — лидер «Я – профессионал» по количеству регистраций Московский городской педагогический университет"
     },
     {
-      "title": "От землеустройства к управлению недвижимостью: в НГУЭУ запускают новую образовательную программу - Новосибирский государственный университет экономики и управления «НИНХ",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYT0w0Sm5KZ3VTWWFXa1NGcW54dXZYUDdFYm94WktGRFhTbzJQZHAtbFJtbDhJRURkRFotV2M1aUxrY3hOT0plUC16dkxEZURRNGVUelIyQk5CUUVSam0zSTcxWVlESzZ3RlZMZmd3?oc=5",
-      "source": "Новосибирский государственный университет экономики и управления «НИНХ",
-      "published": "Fri, 13 Nov 2026 12:23:07 GMT",
-      "summary": "От землеустройства к управлению недвижимостью: в НГУЭУ запускают новую образовательную программу Новосибирский государственный университет экономики и управления «НИНХ"
-    },
-    {
       "title": "Меняются правила поступления в педагогические вузы - Daily Карелия",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOenlJZzdiN09aX25ZUjdpblJ4VGpMNVVFR3BUZTU2RldmbWJOSV9VNTB1TGlkVkFQVFFJaXo0RlU0YV9XSG9QSHQwWVh0aVdVN0xhQ2ZlVllsdjhzZHRUR2dnbFRIMDdSb05fSF9FN0ZZQzlleElMcUI0VVcxUTBWYmdvYlIxUHdS?oc=5",
       "source": "Daily Карелия",
       "published": "Fri, 13 Nov 2026 07:36:56 GMT",
       "summary": "Меняются правила поступления в педагогические вузы Daily Карелия"
+    },
+    {
+      "title": "Нижегородские вузы выбирают студенты из 105 стран - Нижегородские Новости",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNXRwdzAwMlJyREc1N0xkeFJ6emNzejlrRG5mc1FUVlZxMHFNNV90S29wS0xnOG10cmQ3d0pmd3VDTzBSbm84TnBjaVZkbC16Z296aTBKN3dFdFhZQ0N2bUxXXzdMOTBWX3M5NFFWbnlaTHNtSDdaMGhUUHJnclFqODI0MHVVc3pnVF82bnFLQWgtY3FoRnE1anN3?oc=5",
+      "source": "Нижегородские Новости",
+      "published": "Fri, 13 Nov 2026 09:13:44 GMT",
+      "summary": "Нижегородские вузы выбирают студенты из 105 стран Нижегородские Новости"
     }
   ],
   "conferenceUpdates": [
-    {
-      "title": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс - Волга Ньюс",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeUdPNjRKTlpJcFMxN1plZTlrNnNNa0VWaEx6T1JWV1BkenlfTEtxcmhoQmhhQ0I0Vl9ySnZXeG5peWRSQUE4aEZZdDJMRFk?oc=5",
-      "source": "Волга Ньюс",
-      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "summary": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс Волга Ньюс"
-    },
     {
       "title": "В Институте психологии и образования прошла международная научно-практическая конференция 'Антропология педагогического образования и межкультурный диалог в цифровую эпоху', посвященная 100-летию со дня рождения академика М. - Казанский (Приволжский) федеральный университет",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWFfTUhQTklQNHoydkUzNEl2ZE13WmJpZW83NGtuUGM1UXdENWtyb1pMbmtYLUN5VUVMcnZFVE9jNDhDdHpwYW10ajRiOXJQU2ltQUV4LUNZVUUtejFOUjFkNEFCbFU0WDRZTkZxNHR1S05aV2I5TG80bmxSQU1NMUE1dFZnaXBNNU1ITQ?oc=5",
       "source": "Казанский (Приволжский) федеральный университет",
       "published": "Mon, 05 Oct 2026 07:00:00 GMT",
       "summary": "В Институте психологии и образования прошла международная научно-практическая конференция 'Антропология педагогического образования и межкультурный диалог в цифровую эпоху', посвященная 100-летию со дня рождения академика М. Казанский (Приволжский) федеральный университет"
+    },
+    {
+      "title": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс - Волга Ньюс",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeUdPNjRKTlpJcFMxN1plZTlrNnNNa0VWaEx6T1JWV1BkenlfTEtxcmhoQmhhQ0I0Vl9ySnZXeG5peWRSQUE4aEZZdDJMRFk?oc=5",
+      "source": "Волга Ньюс",
+      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "summary": "В Самаре впервые прошел региональный трек конференции \"Больше чем обучение\" - Волга Ньюс Волга Ньюс"
     },
     {
       "title": "Конференция «Бизнес-психология: теория и практика» - МГИМО",
@@ -183,11 +173,11 @@
       "summary": "Конференция «Бизнес-психология: теория и практика» МГИМО"
     },
     {
-      "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - Психологическая газета",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
+      "title": "Перспективы психологии развития обсудили на Ананьевских чтениях - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9rVnltVXZYTkpvOFpvNE1RMExxNjRqSzlsdlVrSHpFLUF5X3ZkYmw5cDlDWGJxNW9Ea19LTG5oRQ?oc=5",
       "source": "Психологическая газета",
-      "published": "Tue, 11 Jun 2024 07:00:00 GMT",
-      "summary": "18-й Саммит психологов: опыт коллег в условиях кризиса Психологическая газета"
+      "published": "Wed, 18 Oct 2023 07:00:00 GMT",
+      "summary": "Перспективы психологии развития обсудили на Ананьевских чтениях Психологическая газета"
     },
     {
       "title": "“ИИ не заменит людей, но точно заменит тех, кто не умеет им пользоваться”. Что мы узнали на первой конференции Smartpress про нейросети - Smartpress.by",
@@ -197,11 +187,11 @@
       "summary": "“ИИ не заменит людей, но точно заменит тех, кто не умеет им пользоваться”. Что мы узнали на первой конференции Smartpress про нейросети Smartpress.by"
     },
     {
-      "title": "В Казани проходит конференция «Цифра для гуманитариев» - МГИМО",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPY0hxOVVIdEpBWDJraEZSWVg1WV9kNDZQWlFEdDJhUEJmNmphME5tLWpkYTVsb0FLdkE5RlVoMnd2NXVndWx3MWR1b185SU5xN0pIamcyQk5JRXFJc1ZXdA?oc=5",
-      "source": "МГИМО",
-      "published": "Thu, 20 Jul 2023 07:00:00 GMT",
-      "summary": "В Казани проходит конференция «Цифра для гуманитариев» МГИМО"
+      "title": "18-й Саммит психологов: опыт коллег в условиях кризиса - Психологическая газета",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE42Zm5PZHc4aHloM1FsWGd3RmExN183eFBFTUdFa2dHVTdkSWxveEJRWHJZWC1hYmZqVHBfSHAyZw?oc=5",
+      "source": "Психологическая газета",
+      "published": "Tue, 11 Jun 2024 07:00:00 GMT",
+      "summary": "18-й Саммит психологов: опыт коллег в условиях кризиса Психологическая газета"
     }
   ],
   "sportAiUpdates": [
@@ -220,11 +210,11 @@
       "summary": "Сбер представил ИИ-решения для тренеров спортивных клубов Сбербанк"
     },
     {
-      "title": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем - Rus.Postimees.ee",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHhSZ0llTFhsZXVjbXlxMkxYdlRMMk9IV1R6R2hKdG04T3Q2dm1UZzdfRUttc2QxRk80OGM0dkVlVHEwRW9idGR5ekc4U01BSHRVTFp1V1J1WGptdmpFaWMzY0xOcXJEQUxiZjNpZ1Q0VlE3UEFaOXZYdXB1WXFCaXRudGJrdGkwMzVPUmt5aVZEd2RMNk9mSF8tTHN2cDZEX0piRVJ5TXZpNGJRc2VXMFpwYzBFX0NYOW5ieTlCd2Y?oc=5",
-      "source": "Rus.Postimees.ee",
-      "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-      "summary": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем Rus.Postimees.ee"
+      "title": "Более половины россиян обращаются за психологической поддержкой к ИИ - Forbes.ru",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVJnaUVNRDFiSHNSWG1LdllzSHlkenFsNkdqY3RLaG5nMFVTZUoxRnNiUnFLZVZqcTBxWjBPYWdqYVBXLS0xNmVNVWZjY2k4RElXN1RZR20yU0pSSWthX3lreC1aOGVCVUpxdDdQa3R5MDMydEc2dEozM1gtMVlmSWMzTmlXNUhLZmRuUXVQLXRVUlRZQVZ2ZHhJYkpWUWFnVVZRZWFvSzJfTjlH?oc=5",
+      "source": "Forbes.ru",
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "summary": "Более половины россиян обращаются за психологической поддержкой к ИИ Forbes.ru"
     },
     {
       "title": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC - Sport24.ru",
@@ -234,18 +224,18 @@
       "summary": "Ставки будущего: как нейросеть прогнозирует исходы боев в UFC Sport24.ru"
     },
     {
+      "title": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем - Rus.Postimees.ee",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHhSZ0llTFhsZXVjbXlxMkxYdlRMMk9IV1R6R2hKdG04T3Q2dm1UZzdfRUttc2QxRk80OGM0dkVlVHEwRW9idGR5ekc4U01BSHRVTFp1V1J1WGptdmpFaWMzY0xOcXJEQUxiZjNpZ1Q0VlE3UEFaOXZYdXB1WXFCaXRudGJrdGkwMzVPUmt5aVZEd2RMNk9mSF8tTHN2cDZEX0piRVJ5TXZpNGJRc2VXMFpwYzBFX0NYOW5ieTlCd2Y?oc=5",
+      "source": "Rus.Postimees.ee",
+      "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "summary": "С помощью исследования: в Эстонии ИИ научат выявлять проблемы с психическим здоровьем Rus.Postimees.ee"
+    },
+    {
       "title": "Искусственный интеллект в психологическом консультировании и психотерапии - Психологическая газета",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE84S1dseUhORVNINDRpZ1NLYjJpLThGSlJObFdJc2ZXMTFsN2tJZ1Vvd1VmVFlrd3ZBN1VfdUxXYw?oc=5",
       "source": "Психологическая газета",
       "published": "Wed, 18 Jun 2025 07:00:00 GMT",
       "summary": "Искусственный интеллект в психологическом консультировании и психотерапии Психологическая газета"
-    },
-    {
-      "title": "ИИ свел на нет достоверность исследований человеческого поведения - Телеканал «Наука",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMkV3S3ZFNWJqWDFnb2dmanNidFoyQU15ZGhrREFyT19hM2JkMW5jR0ItMjVRYU9VMlQ2SFdxYmVCX2dCeGNFU01pRkVLVFNnT1dtd0M1RGhreVJ5c1lrcVgyZkNtNFJva3VkNG9BYmdxSnVoek5JSlpWUXY0QlZhdjU5OWk3bHFMTl9UWVk0eFR6eTVialE?oc=5",
-      "source": "Телеканал «Наука",
-      "published": "Tue, 19 Aug 2025 07:00:00 GMT",
-      "summary": "ИИ свел на нет достоверность исследований человеческого поведения Телеканал «Наука"
     }
   ],
   "openPublications": [
@@ -292,36 +282,7 @@
       "summary": "Kawthar Abd Al Jabbar Hashim, Ekhlas Hameed Karam · International Journal of Automation and Control"
     }
   ],
-  "moonnUpdates": [
-    {
-      "title": "Выступления",
-      "url": "https://мунн.рф/vystupleniya-lekcii-treningi-psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Выступления"
-    },
-    {
-      "title": "Психолог Татьяна Мунн",
-      "url": "https://xn--l1acaw.xn--p1ai/psiholog-tatiana-moonn",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Психолог Татьяна Мунн"
-    },
-    {
-      "title": "К.Ц. Полярный — Татьяна Мунн, МГУ",
-      "url": "https://xn--l1acaw.xn--p1ai/k-ts-polyarnyy-tatyana-munn-mgu",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "К.Ц. Полярный — Татьяна Мунн, МГУ"
-    },
-    {
-      "title": "Лекции по эмоциональному интеллекту",
-      "url": "https://xn--l1acaw.xn--p1ai/emotional-intelligence-lectures",
-      "source": "мунн.рф",
-      "published": "",
-      "summary": "Лекции по эмоциональному интеллекту"
-    }
-  ],
+  "moonnUpdates": [],
   "telegramUpdates": [
     {
       "title": "💜 Сегодня, 9 ноября, приглашаю на лекцию «Психология зависти»! Поговорим о том, что чужой успех говорит о наших собственных желаниях. 🎤 Психолог Татьяна Мунн 🗓 9 ноября, понедельни",
